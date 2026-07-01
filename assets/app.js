@@ -98,19 +98,17 @@ const SOURCE_KINDS = {
   aibase: { label: "AI站点", tone: "aihub" },
   waytoagi: { label: "社区", tone: "builders" },
   newsnow: { label: "聚合", tone: "aggregate" },
-  opmlrss: { label: "OPML", tone: "newsletter" },
+  opmlrss: { label: "文旅RSS", tone: "newsletter" },
+  ai_builtin: { label: "AI源已关闭", tone: "default" },
 };
 
 const SECTION_DEFS = [
   { id: "hot", label: "热点", short: "热点", description: "跨来源聚合后的优先阅读列表" },
-  { id: "models", label: "模型", short: "模型", description: "模型发布、能力升级、评测与开源权重" },
-  { id: "products", label: "产品", short: "产品", description: "AI 应用、Agent、生成工具和用户产品更新" },
-  { id: "devtools", label: "开发者", short: "开发者", description: "编程工具、API、开源项目、推理与工程实践" },
-  { id: "hn", label: "HN热议", short: "HN", description: "Hacker News 过去 24 小时的 AI 关键词讨论与高互动 story" },
-  { id: "industry", label: "行业", short: "行业", description: "公司战略、融资收购、监管、芯片与产业变化" },
-  { id: "research", label: "研究", short: "研究", description: "论文、基准、方法、数据集与研究团队动态" },
-  { id: "creator", label: "自媒体", short: "自媒体", description: "一周内互动热度优先，24 小时新内容额外加分" },
-  { id: "community", label: "社区", short: "社区", description: "WaytoAGI、中文社区、AIbase、公众号和 Builders/X 信号" },
+  { id: "products", label: "旅游科技", short: "科技", description: "智慧旅游、数字文旅、平台工具和数据系统" },
+  { id: "devtools", label: "酒店运营", short: "酒店", description: "酒店、住宿、收益管理和运营效率" },
+  { id: "industry", label: "政策商业", short: "政策", description: "政策监管、行业标准、投融资和产业经营" },
+  { id: "research", label: "目的地", short: "目的地", description: "目的地营销、景区、游客、主题公园和文化遗产" },
+  { id: "community", label: "综合资讯", short: "综合", description: "文旅媒体、科技商业媒体和其他可参考信号" },
 ];
 
 const SECTION_BY_ID = Object.fromEntries(SECTION_DEFS.map((section) => [section.id, section]));
@@ -158,14 +156,14 @@ function setStats() {
   const okSites = Number(status?.successful_sites || 0);
   const health = totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}正常` : "加载中";
   const cards = [
-    ["AI", `${fmtNumber(state.totalAi || items.length)}条`],
+    ["文旅", `${fmtNumber(state.totalAi || items.length)}条`],
     ["高优", `${fmtNumber(highCount)}条`],
     ["精选", `${fmtNumber(curatedCount)}条`],
     ["源", health],
   ];
   statsEl.setAttribute(
     "aria-label",
-    `过去 24 小时：AI 信号 ${fmtNumber(state.totalAi || items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
+    `过去 24 小时：文旅信号 ${fmtNumber(state.totalAi || items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
   );
 
   const prefix = document.createElement("div");
@@ -225,7 +223,7 @@ function renderStickySummary() {
     state.signalLevelFilter ? signalLevel : "",
     query ? `搜索“${query}”` : "",
   ].filter(Boolean);
-  const mode = state.mode === "all" ? "全量" : "AI强相关";
+  const mode = state.mode === "all" ? "全量" : "文旅重点";
   stickySummaryTextEl.textContent = `${fmtNumber(filteredCount)} 条 · ${mode}${filters.length ? ` · ${filters.join(" · ")}` : ""}`;
 }
 
@@ -287,7 +285,7 @@ function siteRawPoolCount(siteId) {
 }
 
 function sourcePoolMeta(aiCount, rawCount, fallback) {
-  if (rawCount && rawCount !== aiCount) return `AI强相关 · 原始 ${fmtNumber(rawCount)} 条`;
+  if (rawCount && rawCount !== aiCount) return `文旅重点 · 原始 ${fmtNumber(rawCount)} 条`;
   return fallback;
 }
 
@@ -343,7 +341,7 @@ function renderCoverageStrip(errorMessage = "") {
   const totalSites = rows.length;
   const okSites = Number(state.sourceStatus?.successful_sites || 0);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
-  const opmlMeta = rss.enabled ? "RSS示例/自定义订阅已接入" : "可用OPML批量接入RSS";
+  const opmlMeta = rss.enabled ? "智慧文旅RSS信源已接入" : "可用OPML批量接入RSS";
   const socialdataLabel = paidSourceLabel(socialdata, socialdataPoolCount, "SocialData", "");
   const xApiLabel = paidSourceLabel(xApi, xApiPoolCount, "X API", "");
   const xSourceLabel = socialdataLabel || xApiLabel || "X待配置";
@@ -353,18 +351,14 @@ function renderCoverageStrip(errorMessage = "") {
     : "X / Mail";
   const advancedMeta = socialdata.enabled || xApi.enabled || agentmail.enabled || xPoolCount
     ? `额度保护 · ${xSourceLabel} / ${mailLabel}`
-    : "X API 与 AgentMail 默认关闭";
+    : "私有 X / 邮件源默认关闭";
 
   const cards = [
     ["源健康", totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}` : "加载中", failedSites.length ? `${fmtNumber(failedSites.length)} 个失败源` : (errorMessage || "内置源正常"), failedSites.length ? "warn" : "ok"],
-    ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `全网抓取原始信号 · ${fmtNumber(allCount)} 条入池` : "全网抓取原始信号", "signal"],
-    ["AI强相关", `${fmtNumber(state.totalAi)} 条`, "24小时强相关信号", "signal"],
-    ["官方/日报源池", `${fmtNumber(officialCount + newsletterCount)} 条`, "官方节点 + AI Breakfast", "official"],
-    ["精选媒体源池", `${fmtNumber(curatedMediaCount)} 条`, "The Decoder / TC / Verge / MTP 等", "signal"],
-    ["Builders/X源池", `${fmtNumber(buildersCount)} 条`, "Follow Builders公开feed", "builders"],
-    ["自媒体源池", `${fmtNumber(creatorCount)} 条`, sourcePoolMeta(creatorCount, creatorRawCount, "TikHub · 抖音 + 小红书"), "creator"],
-    ["RSS/OPML扩展", opmlValue, opmlMeta, "private"],
-    ["高级源", advancedValue, advancedMeta, "private"],
+    ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `文旅RSS原始信号 · ${fmtNumber(allCount)} 条入池` : "文旅RSS原始信号", "signal"],
+    ["文旅重点", `${fmtNumber(state.totalAi)} 条`, "24小时智慧文旅重点信号", "signal"],
+    ["文旅RSS", opmlValue, opmlMeta, "private"],
+    ["私有集成", advancedValue, advancedMeta, "private"],
   ];
 
   cards.forEach(([label, value, meta, tone]) => {
@@ -510,7 +504,7 @@ function renderSectionSummary(filteredItems = null) {
   const items = filteredItems || getFilteredItems();
   const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const sources = new Set(items.map((item) => item.source || item.site_name || item.site_id).filter(Boolean));
-  const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "AI强相关";
+  const modeText = state.mode === "all" ? (state.allDedup ? "全量去重" : "全量原始") : "文旅重点";
   const windowText = state.activeSection === "creator" ? `过去 ${fmtNumber(state.creatorWindowDays)} 天 · 热度优先` : "过去 24 小时";
   sectionSummaryEl.textContent = `${windowText} · ${fmtNumber(items.length)} 条${section.id === "hot" ? "" : ` ${section.label}`}信号 · ${fmtNumber(highCount)} 条高优先级 · ${fmtNumber(sources.size)} 个来源 · ${modeText}`;
   renderStickySummary();
@@ -526,7 +520,7 @@ function siteRatioText(siteStats) {
     return `${fmtNumber(count)} 条`;
   }
   if (raw === count) return `${fmtNumber(count)} 条`;
-  return `${fmtNumber(count)}/${fmtNumber(raw)} · ${Math.round((count / raw) * 100)}%AI`;
+  return `${fmtNumber(count)}/${fmtNumber(raw)} · ${Math.round((count / raw) * 100)}%重点`;
 }
 
 function renderSiteFilters() {
@@ -592,7 +586,7 @@ function renderModeSwitch() {
   if (allDedupeToggleEl) allDedupeToggleEl.checked = state.allDedup;
   if (allDedupeLabelEl) allDedupeLabelEl.textContent = state.allDedup ? "去重开" : "去重关";
   if (state.mode === "ai") {
-    modeHintEl.textContent = `AI强相关 · ${fmtNumber(state.totalAi)} 条`;
+    modeHintEl.textContent = `文旅重点 · ${fmtNumber(state.totalAi)} 条`;
   } else {
     const allCount = state.allDedup
       ? (state.totalAllMode || state.itemsAll.length)
@@ -609,8 +603,8 @@ function renderModeSwitch() {
 function listTitleText() {
   const section = SECTION_BY_ID[state.activeSection] || SECTION_BY_ID.hot;
   const pool = state.mode === "all"
-    ? (state.allDedup ? "情报流 · 全量去重" : "情报流 · 全量原始")
-    : "情报流";
+    ? (state.allDedup ? "文旅情报流 · 全量去重" : "文旅情报流 · 全量原始")
+    : "文旅情报流";
   return state.activeSection === "hot" ? pool : `${section.label} · ${pool}`;
 }
 
@@ -718,14 +712,10 @@ function scoreTone(score) {
 
 function itemLabelTone(item) {
   const label = item.ai_label || "";
-  if (item.site_id === "official_ai") return "official";
-  if (item.site_id === "aihot" || label === "curated_hotlist") return "hot";
-  if (itemSections(item).has("creator")) return "creator";
-  if (label === "model_release") return "models";
-  if (label === "developer_tool" || label === "developer_tooling" || label === "infrastructure" || label === "infra_compute") return "devtools";
-  if (label === "research_paper") return "research";
-  if (label === "industry_business") return "industry";
-  if (label === "ai_product_update" || label === "agent_workflow" || label === "robotics") return "products";
+  if (label === "tourism_policy" || label === "travel_business" || label === "industry_business") return "industry";
+  if (label === "tourism_tech") return "products";
+  if (label === "hospitality_ops") return "devtools";
+  if (label === "destination_marketing") return "research";
   if (itemSections(item).has("community")) return "community";
   return "default";
 }
@@ -803,16 +793,16 @@ function itemPriorityScore(item) {
 
 function labelText(item) {
   const labels = {
-    ai_general: "AI信号",
-    model_release: "模型发布",
-    agent_workflow: "Agent工作流",
+    ai_general: "技术信号",
+    model_release: "技术发布",
+    agent_workflow: "工作流",
     ai_product_update: "产品更新",
     developer_tooling: "开发工具",
     developer_tool: "开发工具",
     infrastructure: "基础设施",
     infra_compute: "基础设施",
     industry_business: "行业动态",
-    research_paper: "研究论文",
+    research_paper: "研究资料",
     robotics: "机器人",
     tourism_policy: "文旅政策",
     tourism_tech: "旅游科技",
@@ -871,6 +861,7 @@ function itemSections(item) {
   ) sections.add("models");
 
   if (
+    label === "tourism_tech" ||
     label === "ai_product_update" ||
     label === "agent_workflow" ||
     label === "robotics" ||
@@ -880,6 +871,7 @@ function itemSections(item) {
   ) sections.add("products");
 
   if (
+    label === "hospitality_ops" ||
     label === "developer_tool" ||
     label === "developer_tooling" ||
     label === "infra_compute" ||
@@ -897,6 +889,8 @@ function itemSections(item) {
   ) sections.add("hn");
 
   if (
+    label === "travel_business" ||
+    label === "tourism_policy" ||
     label === "industry_business" ||
     label === "tourism_policy" ||
     label === "tourism_tech" ||
@@ -909,6 +903,7 @@ function itemSections(item) {
   ) sections.add("industry");
 
   if (
+    label === "destination_marketing" ||
     label === "research_paper" ||
     matchesAny(hay, [
       /paper|arxiv|research|benchmark|eval|dataset|lmsys|rdi|berkeley|huggingface daily papers|论文|研究|基准|评测|数据集|训练|k-means|speculative decoding/,
@@ -942,7 +937,10 @@ function itemSections(item) {
     ])
   ) sections.add("community");
 
-  if (!sections.size) sections.add("industry");
+  sections.delete("models");
+  sections.delete("hn");
+  sections.delete("creator");
+  if (!sections.size) sections.add("community");
   return sections;
 }
 
@@ -1891,14 +1889,11 @@ function itemTagLabels(item, row = null) {
   const sections = itemSections(item);
   if (state.activeSection !== "hot") tags.push(sectionBadgeLabel(state.activeSection));
   if (row && (row.sourceCount > 1 || row.mergedCount > 1)) tags.push("多源验证");
-  if (item.site_id === "official_ai") tags.push("官方");
-  if (item.site_id === "aihot") tags.push("AI HOT");
-  if (sections.has("models")) tags.push("模型发布");
-  if (sections.has("devtools")) tags.push("开发者");
-  if (sections.has("hn")) tags.push("社区热议");
-  if (sections.has("research")) tags.push("研究");
-  if (sections.has("creator")) tags.push("自媒体");
-  if (sections.has("community")) tags.push("社区");
+  if (sections.has("products")) tags.push("旅游科技");
+  if (sections.has("devtools")) tags.push("酒店运营");
+  if (sections.has("research")) tags.push("目的地");
+  if (sections.has("industry")) tags.push("政策商业");
+  if (sections.has("community")) tags.push("综合资讯");
   return Array.from(new Set(tags)).slice(0, 3);
 }
 
@@ -1953,7 +1948,7 @@ function signalSummaryText(row) {
   if (multi && label) return `${label}信号，已被 ${fmtNumber(sourceCount)} 个来源验证，适合优先判断是否继续深挖。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "核心方向：");
-  return `${label}方向的新近更新，已进入 24 小时 AI 强相关池。`;
+  return `${label}方向的新近更新，已进入 24 小时智慧文旅重点池。`;
 }
 
 function whyImportantText(row) {
@@ -1964,20 +1959,20 @@ function whyImportantText(row) {
   if (reasons.includes("official_source") && reasons.includes("multi_source")) {
     return "一手来源和聚合来源同时出现，说明它既有事实起点，也正在被外部信息流放大。";
   }
-  if (sections.has("models")) {
-    return "模型能力或训练/推理方式变化会影响后续产品路线、开发者选型和评测基准。";
+  if (sections.has("products")) {
+    return "旅游科技和平台工具变化会影响景区、目的地、酒店和会员运营的数字化路线。";
   }
   if (sections.has("devtools")) {
-    return "开发者工具和基础设施变化通常会很快传导到团队工作流、成本和可实现能力。";
+    return "酒店与住宿运营动态会直接影响产品供给、收益管理和服务体验判断。";
   }
   if (sections.has("industry")) {
-    return "公司、监管、芯片或资本动态会改变 AI 生态的资源分配和落地节奏。";
+    return "政策、监管、资本和行业经营动态会改变文旅项目推进、采购和运营边界。";
   }
   if (sections.has("research")) {
-    return "研究信号可能还没产品化，但会提示下一轮模型、数据或方法的技术方向。";
+    return "目的地、景区和游客侧变化通常会影响营销打法、产品设计和资源配置。";
   }
-  if (sections.has("community") || sections.has("hn")) {
-    return "社区集中讨论代表开发者和早期用户正在形成共识，适合作为趋势验证入口。";
+  if (sections.has("community")) {
+    return "综合媒体信号适合用于补充行业语境，判断是否需要继续追踪原文和相关主体。";
   }
   return "它在当前 24 小时窗口里同时具备相关度、新鲜度和来源权重，值得先读原文确认。";
 }
@@ -1985,13 +1980,12 @@ function whyImportantText(row) {
 function impactLabels(item) {
   const sections = itemSections(item);
   const labels = [];
-  if (sections.has("devtools")) labels.push("开发者");
-  if (sections.has("products")) labels.push("产品");
-  if (sections.has("industry")) labels.push("企业 / 投资");
-  if (sections.has("research")) labels.push("研究");
-  if (sections.has("models")) labels.push("模型团队");
-  if (sections.has("community") || sections.has("hn")) labels.push("社区");
-  return labels.slice(0, 3).length ? labels.slice(0, 3) : ["AI 观察者"];
+  if (sections.has("products")) labels.push("旅游科技");
+  if (sections.has("devtools")) labels.push("酒店运营");
+  if (sections.has("industry")) labels.push("政策 / 商业");
+  if (sections.has("research")) labels.push("目的地");
+  if (sections.has("community")) labels.push("综合资讯");
+  return labels.slice(0, 3).length ? labels.slice(0, 3) : ["文旅观察"];
 }
 
 function buildTopStoryCard(row, rank) {
@@ -2074,7 +2068,7 @@ function buildIntelCard(item, rank) {
   const score = scorePercent(item);
   const scoreEl = document.createElement("strong");
   scoreEl.className = `intel-score ${scoreTone(score)}`;
-  scoreEl.textContent = score ? `AI ${score}分` : "AI观察";
+  scoreEl.textContent = score ? `文旅 ${score}分` : "文旅观察";
   meta.append(rankEl, time, scoreEl);
 
   const title = document.createElement("a");
@@ -2113,7 +2107,7 @@ function feedSummaryText(item) {
   if (signals.length) return `相关线索：${signals.join(" / ")}。`;
   const reason = reasonText(item);
   if (reason && !reason.startsWith("来源与标题")) return reason.replace(/^命中方向：/, "相关线索：");
-  return `${labelText(item)} · AI 相关度 ${scorePercent(item) || "待评估"}。`;
+  return `${labelText(item)} · 文旅相关度 ${scorePercent(item) || "待评估"}。`;
 }
 
 function renderItemNode(item, context = {}) {
@@ -2266,7 +2260,7 @@ function subgroupSummary(items, rawCount = items.length) {
   let ranking = "";
   if (state.listSort === "priority") ranking = `综合 ${subgroupSortValue(items)}`;
   if (state.listSort === "latest") ranking = `最新 ${fmtTime(timelineIso(items[0]))}`;
-  if (state.listSort === "ai") ranking = `最高 AI ${subgroupSortValue(items)}分`;
+  if (state.listSort === "ai") ranking = `最高相关度 ${subgroupSortValue(items)}分`;
   const mergedLabel = merged > 0 ? `合并 ${fmtNumber(merged)} 条重复` : "";
   return [count, ranking, mergedLabel].filter(Boolean).join(" · ");
 }
@@ -2478,6 +2472,10 @@ function waytoagiViews(waytoagi) {
 }
 
 function renderWaytoagi(waytoagi) {
+  if (waytoagi?.skipped) {
+    if (waytoagiWrapEl) waytoagiWrapEl.hidden = true;
+    return;
+  }
   if (waytoagiWrapEl) {
     waytoagiWrapEl.hidden = state.activeSection !== "community";
   }
@@ -2676,7 +2674,7 @@ function renderSourceStatusTable(status) {
   table.className = "source-table";
   const header = document.createElement("div");
   header.className = "source-table-row source-table-head";
-  header.innerHTML = "<span>来源</span><span>AI / 原始</span><span>AI占比</span><span>状态</span>";
+  header.innerHTML = "<span>来源</span><span>重点 / 原始</span><span>重点占比</span><span>状态</span>";
   table.appendChild(header);
   rows.forEach((site) => {
     const row = document.createElement("div");

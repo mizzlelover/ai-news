@@ -2325,6 +2325,37 @@ def collect_all(session: requests.Session, now: datetime) -> tuple[list[RawItem]
     return raw_items, statuses
 
 
+SMART_TOURISM_PROFILE_LABELS = {
+    "tourism_policy",
+    "tourism_tech",
+    "hospitality_ops",
+    "destination_marketing",
+    "travel_business",
+}
+
+
+def skipped_source_status(site_id: str, site_name: str, reason: str) -> dict[str, Any]:
+    return {
+        "site_id": site_id,
+        "site_name": site_name,
+        "ok": True,
+        "item_count": 0,
+        "duration_ms": 0,
+        "error": None,
+        "skipped": True,
+        "skip_reason": reason,
+    }
+
+
+def smart_tourism_allowed_opml_sources(opml_path: str) -> set[str]:
+    if not opml_path:
+        return set()
+    path = Path(opml_path).expanduser()
+    if not path.exists():
+        return set()
+    return {feed["title"] for feed in parse_opml_subscriptions(path)}
+
+
 def parse_opml_subscriptions(opml_path: Path) -> list[dict[str, str]]:
     root = ET.parse(opml_path).getroot()
     out: list[dict[str, str]] = []
@@ -5263,7 +5294,14 @@ def main() -> int:
     parser.add_argument("--translate-max-new", type=int, default=80, help="Max new EN->ZH title translations per run")
     parser.add_argument("--rss-opml", default="", help="Optional OPML file path to include RSS sources")
     parser.add_argument("--rss-max-feeds", type=int, default=0, help="Optional max OPML RSS feeds to fetch (0 means all)")
+    parser.add_argument(
+        "--source-profile",
+        choices=("smart-tourism", "ai"),
+        default="smart-tourism",
+        help="Source profile: smart-tourism uses OPML/private tourism sources only; ai keeps the original AI radar sources.",
+    )
     args = parser.parse_args()
+    smart_tourism_profile = args.source_profile == "smart-tourism"
 
     now = utc_now()
     output_dir = Path(args.output_dir)
@@ -5282,18 +5320,41 @@ def main() -> int:
     paid_source_state_path = output_dir / PAID_SOURCE_STATE_FILE
 
     archive = load_archive(archive_path)
+    if smart_tourism_profile:
+        allowed_sources = smart_tourism_allowed_opml_sources(args.rss_opml)
+        archive = {
+            item_id: record
+            for item_id, record in archive.items()
+            if str(record.get("site_id") or "") == "opmlrss"
+            and (not allowed_sources or str(record.get("source") or "") in allowed_sources)
+        }
     paid_source_state = load_paid_source_state(paid_source_state_path)
 
     session = create_session()
-    raw_items, statuses = collect_all(session, now)
+    if smart_tourism_profile:
+        raw_items, statuses = [], []
+    else:
+        raw_items, statuses = collect_all(session, now)
     rss_feed_statuses: list[dict[str, Any]] = []
-    email_digest_payload, agentmail_status = maybe_fetch_agentmail_digest(
-        session,
-        generated_at=iso(now),
-        after=iso(now - timedelta(hours=args.window_hours)),
-        window_hours=args.window_hours,
-    )
-    x_api_items, x_api_status = maybe_fetch_x_api_updates(session, now)
+    if smart_tourism_profile:
+        email_digest_payload = None
+        agentmail_status = {
+            "enabled": False,
+            "ok": None,
+            "item_count": 0,
+            "disabled_reason": "disabled_by_smart_tourism_profile",
+        }
+    else:
+        email_digest_payload, agentmail_status = maybe_fetch_agentmail_digest(
+            session,
+            generated_at=iso(now),
+            after=iso(now - timedelta(hours=args.window_hours)),
+            window_hours=args.window_hours,
+        )
+    x_api_items, x_api_status = ([], x_api_status_base(now)) if smart_tourism_profile else maybe_fetch_x_api_updates(session, now)
+    if smart_tourism_profile:
+        x_api_status["enabled"] = False
+        x_api_status["disabled_reason"] = "disabled_by_smart_tourism_profile"
     if x_api_status.get("enabled"):
         raw_items.extend(x_api_items)
         statuses.append(
@@ -5308,9 +5369,17 @@ def main() -> int:
                 "skip_reason": x_api_status.get("skip_reason"),
             }
         )
-    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now, paid_source_state)
-    update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
-    sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
+    socialdata_items, socialdata_status = (
+        ([], socialdata_status_base(now, paid_source_state))
+        if smart_tourism_profile
+        else maybe_fetch_socialdata_updates(session, now, paid_source_state)
+    )
+    if smart_tourism_profile:
+        socialdata_status["enabled"] = False
+        socialdata_status["disabled_reason"] = "disabled_by_smart_tourism_profile"
+    else:
+        update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
+        sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
     if socialdata_status.get("enabled"):
         raw_items.extend(socialdata_items)
         statuses.append(
@@ -5325,9 +5394,17 @@ def main() -> int:
                 "skip_reason": socialdata_status.get("skip_reason"),
             }
         )
-    tikhub_items, tikhub_status = maybe_fetch_tikhub_updates(session, now, paid_source_state)
-    update_paid_source_state(paid_source_state, "tikhub", tikhub_status, now)
-    sync_paid_source_status_timestamps(tikhub_status, paid_source_state, "tikhub")
+    tikhub_items, tikhub_status = (
+        ([], tikhub_status_base(now, paid_source_state))
+        if smart_tourism_profile
+        else maybe_fetch_tikhub_updates(session, now, paid_source_state)
+    )
+    if smart_tourism_profile:
+        tikhub_status["enabled"] = False
+        tikhub_status["disabled_reason"] = "disabled_by_smart_tourism_profile"
+    else:
+        update_paid_source_state(paid_source_state, "tikhub", tikhub_status, now)
+        sync_paid_source_status_timestamps(tikhub_status, paid_source_state, "tikhub")
     if tikhub_status.get("enabled"):
         raw_items.extend(tikhub_items)
         tikhub_counts: dict[str, int] = {}
@@ -5352,44 +5429,58 @@ def main() -> int:
                 }
             )
 
-    waytoagi_started = time.perf_counter()
-    try:
-        waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
-        waytoagi_items = waytoagi_updates_to_raw_items(waytoagi_payload, now)
-        raw_items.extend(waytoagi_items)
-        statuses.append(
-            {
-                "site_id": "waytoagi",
-                "site_name": "WaytoAGI",
-                "ok": True,
-                "item_count": len(waytoagi_items),
-                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
-                "error": None,
-            }
-        )
-    except Exception as exc:
-        waytoagi_payload = {
-            "generated_at": iso(now),
-            "timezone": "Asia/Shanghai",
-            "root_url": WAYTOAGI_DEFAULT,
-            "history_url": None,
-            "window_days": 7,
-            "count_7d": 0,
-            "updates_7d": [],
-            "warning": "WaytoAGI 近7日更新抓取失败",
-            "has_error": True,
-            "error": str(exc),
-        }
-        statuses.append(
-            {
-                "site_id": "waytoagi",
-                "site_name": "WaytoAGI",
-                "ok": False,
-                "item_count": 0,
-                "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+    waytoagi_payload = {
+        "generated_at": iso(now),
+        "timezone": "Asia/Shanghai",
+        "root_url": None,
+        "history_url": None,
+        "window_days": 7,
+        "count_7d": 0,
+        "updates_7d": [],
+        "skipped": True,
+        "skip_reason": "disabled_by_smart_tourism_profile" if smart_tourism_profile else None,
+    }
+    if not smart_tourism_profile:
+        waytoagi_started = time.perf_counter()
+        try:
+            waytoagi_payload = fetch_waytoagi_recent_7d(session, now, WAYTOAGI_DEFAULT)
+            waytoagi_items = waytoagi_updates_to_raw_items(waytoagi_payload, now)
+            raw_items.extend(waytoagi_items)
+            statuses.append(
+                {
+                    "site_id": "waytoagi",
+                    "site_name": "WaytoAGI",
+                    "ok": True,
+                    "item_count": len(waytoagi_items),
+                    "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                    "error": None,
+                }
+            )
+        except Exception as exc:
+            waytoagi_payload = {
+                "generated_at": iso(now),
+                "timezone": "Asia/Shanghai",
+                "root_url": WAYTOAGI_DEFAULT,
+                "history_url": None,
+                "window_days": 7,
+                "count_7d": 0,
+                "updates_7d": [],
+                "warning": "WaytoAGI 近7日更新抓取失败",
+                "has_error": True,
                 "error": str(exc),
             }
-        )
+            statuses.append(
+                {
+                    "site_id": "waytoagi",
+                    "site_name": "WaytoAGI",
+                    "ok": False,
+                    "item_count": 0,
+                    "duration_ms": int((time.perf_counter() - waytoagi_started) * 1000),
+                    "error": str(exc),
+                }
+            )
+    else:
+        pass
 
     if args.rss_opml:
         opml_path = Path(args.rss_opml).expanduser()
@@ -5496,7 +5587,14 @@ def main() -> int:
     latest_items_all = normalize_aihubtoday_records(latest_items_all)
 
     latest_items_all.sort(key=lambda x: event_time(x) or datetime.min.replace(tzinfo=UTC), reverse=True)
-    latest_items = [record for record in latest_items_all if record.get("ai_is_related", is_ai_related_record(record))]
+    if smart_tourism_profile:
+        latest_items = [
+            record
+            for record in latest_items_all
+            if str(record.get("ai_label") or "") in SMART_TOURISM_PROFILE_LABELS
+        ]
+    else:
+        latest_items = [record for record in latest_items_all if record.get("ai_is_related", is_ai_related_record(record))]
     title_cache = load_title_zh_cache(title_cache_path)
     latest_items, latest_items_all, title_cache = add_bilingual_fields(
         latest_items,
@@ -5565,7 +5663,7 @@ def main() -> int:
         "total_items_ai_raw": len(latest_items),
         "total_items_raw": len(latest_items_all),
         "total_items_all_mode": len(latest_items_all_dedup),
-        "topic_filter": "ai_relevance_scoring_v0_4",
+        "topic_filter": "smart_tourism_scoring_v1" if smart_tourism_profile else "ai_relevance_scoring_v0_4",
         "ai_relevance_threshold": 0.65,
         "archive_total": len(archive),
         "site_count": len(site_stat),

@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-07-01T14:14:56.395541Z",
+  "generated_at": "2026-07-01T14:42:11.958344Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_e20a2849e8d1",
+      "title": "Alchemer Study Shares Findings From Its 2026 Hospitality Benchmarks Report",
+      "url": "https://lodgingmagazine.com/alchemer-study-shares-findings-from-its-2026-hospitality-benchmarks-report",
+      "primary_url": "https://lodgingmagazine.com/alchemer-study-shares-findings-from-its-2026-hospitality-benchmarks-report",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "fcc816558c77b937daf1e7eb1c46be790871f8bf",
+          "title": "Alchemer Study Shares Findings From Its 2026 Hospitality Benchmarks Report",
+          "url": "https://lodgingmagazine.com/alchemer-study-shares-findings-from-its-2026-hospitality-benchmarks-report",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T14:26:33Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "fcc816558c77b937daf1e7eb1c46be790871f8bf",
+          "title": "Alchemer Study Shares Findings From Its 2026 Hospitality Benchmarks Report",
+          "url": "https://lodgingmagazine.com/alchemer-study-shares-findings-from-its-2026-hospitality-benchmarks-report",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T14:26:33Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6263,
+      "importance": 0.6263,
+      "importance_score": 0.6263,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "benchmark",
+        "hospitality",
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9962,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-01T14:26:33Z",
+      "latest_at": "2026-07-01T14:26:33Z",
+      "primary_item": {
+        "id": "fcc816558c77b937daf1e7eb1c46be790871f8bf",
+        "title": "Alchemer Study Shares Findings From Its 2026 Hospitality Benchmarks Report",
+        "url": "https://lodgingmagazine.com/alchemer-study-shares-findings-from-its-2026-hospitality-benchmarks-report",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.81
+      }
+    },
     {
       "story_id": "story_a398f355c437",
       "title": "Should Tourism Boards Build AI for Their Stakeholders?",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.625,
-      "importance": 0.625,
-      "importance_score": 0.625,
+      "score": 0.6239,
+      "importance": 0.6239,
+      "importance_score": 0.6239,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +130,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9892,
+        "recency": 0.9828,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6079,
-      "importance": 0.6079,
-      "importance_score": 0.6079,
+      "score": 0.6068,
+      "importance": 0.6068,
+      "importance_score": 0.6068,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +205,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8941,
+        "recency": 0.8882,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,79 +223,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_660d3b4eed9b",
-      "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
-      "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
-      "primary_url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
-      "source": "LODGING Magazine",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
-          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
-          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
-          "source": "LODGING Magazine",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T13:38:08Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "LODGING Magazine"
-      ],
-      "items": [
-        {
-          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
-          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
-          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
-          "source": "LODGING Magazine",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T13:38:08Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6004,
-      "importance": 0.6004,
-      "importance_score": 0.6004,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "hotel",
-        "lodging"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9912,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-01T13:38:08Z",
-      "latest_at": "2026-07-01T13:38:08Z",
-      "primary_item": {
-        "id": "8735c601136b2b0826a2a5363184975eee8623d9",
-        "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
-        "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
-        "source": "LODGING Magazine",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.75
       }
     },
     {
@@ -263,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5994,
-      "importance": 0.5994,
-      "importance_score": 0.5994,
+      "score": 0.5983,
+      "importance": 0.5983,
+      "importance_score": 0.5983,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -278,7 +279,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9391,
+        "recency": 0.933,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -337,9 +338,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.583,
-      "importance": 0.583,
-      "importance_score": 0.583,
+      "score": 0.5819,
+      "importance": 0.5819,
+      "importance_score": 0.5819,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -350,7 +351,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9639,
+        "recency": 0.9576,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -409,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6028,
-      "importance": 0.6028,
-      "importance_score": 0.6028,
+      "score": 0.6018,
+      "importance": 0.6018,
+      "importance_score": 0.6018,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -425,7 +426,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8892,
+        "recency": 0.8833,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -446,1349 +447,1026 @@
       }
     },
     {
-      "story_id": "story_ff1300aa6cce",
-      "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
-      "url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "primary_url": "https://www.anthropic.com/news/redeploying-fable-5",
-      "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-      "source_name": "AI HOT",
+      "story_id": "story_660d3b4eed9b",
+      "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+      "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+      "primary_url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "10613bdd35cd31d96830cbff3d308aa166a54f0d",
-          "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T07:38:10.804000Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "8fe25b023b6fa11f5bba73f4c2fdeb5c6f4ba753",
-          "title": "重新部署《Fable 5》",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-01T07:38:10.804000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "dc9ca79df6948a980fe87c1de26f43dc53dfb898",
-          "title": "重新部署《克劳德·法布尔 5》",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-01T06:34:13.073000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "c8275a5949fda2678fed07621b78314e8b820828",
-          "title": "重新部署《克劳德·法布尔 5》 / Redeploying Claude Fable 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T06:24:06Z",
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        },
-        {
-          "id": "6b4b8c03155dbef88763fb8f302125c66dad7a3e",
-          "title": "重新部署《克劳德·法布尔 5》 / Redeploying Fable 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-01T03:11:40Z",
-          "ai_label": "curated_hotlist",
-          "ai_score": 0.65
-        }
-      ],
-      "source_count": 5,
-      "source_names": [
-        "Hacker News · 24h最热",
-        "Hacker News 热门（buzzing.cc 中文翻译）",
-        "Lobsters (技术社区)",
-        "www.anthropic.com"
-      ],
-      "items": [
-        {
-          "id": "10613bdd35cd31d96830cbff3d308aa166a54f0d",
-          "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T07:38:10.804000Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "8fe25b023b6fa11f5bba73f4c2fdeb5c6f4ba753",
-          "title": "重新部署《Fable 5》",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-01T07:38:10.804000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "dc9ca79df6948a980fe87c1de26f43dc53dfb898",
-          "title": "重新部署《克劳德·法布尔 5》",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-07-01T06:34:13.073000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "c8275a5949fda2678fed07621b78314e8b820828",
-          "title": "重新部署《克劳德·法布尔 5》 / Redeploying Claude Fable 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Lobsters (技术社区)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T06:24:06Z",
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        },
-        {
-          "id": "6b4b8c03155dbef88763fb8f302125c66dad7a3e",
-          "title": "重新部署《克劳德·法布尔 5》 / Redeploying Fable 5",
-          "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News · 24h最热",
-          "source_name": "Zeli",
-          "site_id": "zeli",
-          "published_at": "2026-07-01T03:11:40Z",
-          "ai_label": "curated_hotlist",
-          "ai_score": 0.65
-        }
-      ],
-      "item_count": 5,
-      "duplicate_count": 5,
-      "score": 0.8692,
-      "importance": 0.8692,
-      "importance_score": 0.8692,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "anthropic",
-        "claude"
-      ],
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.78,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9089,
-        "story_heat": 1.0
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T03:11:40Z",
-      "latest_at": "2026-07-01T07:38:10.804000Z",
-      "primary_item": {
-        "id": "10613bdd35cd31d96830cbff3d308aa166a54f0d",
-        "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
-        "url": "https://www.anthropic.com/news/redeploying-fable-5",
-        "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_91992ed9f82d",
-      "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-      "url": "https://developers.openai.com/codex/changelog",
-      "primary_url": "https://developers.openai.com/codex/changelog",
-      "source": "OpenAI Codex Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-          "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z",
-          "ai_label": "developer_tool",
-          "ai_score": 0.98
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "OpenAI Codex Changelog"
-      ],
-      "items": [
-        {
-          "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-          "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-          "url": "https://developers.openai.com/codex/changelog",
-          "source": "OpenAI Codex Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z",
-          "ai_label": "developer_tool",
-          "ai_score": 0.98
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8325,
-      "importance": 0.8325,
-      "importance_score": 0.8325,
-      "ai_label": "developer_tool",
-      "ai_score": 0.98,
-      "ai_signals": [
-        "codex",
-        "openai",
-        "developer"
-      ],
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.814,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T00:00:00Z",
-      "latest_at": "2026-07-01T00:00:00Z",
-      "primary_item": {
-        "id": "a387fb2f8e83526f268272d65df9e65aac52ac3c",
-        "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
-        "url": "https://developers.openai.com/codex/changelog",
-        "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "developer_tool",
-        "ai_score": 0.98
-      }
-    },
-    {
-      "story_id": "story_f8c0cbef5e2e",
-      "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-      "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-      "primary_url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-      "source": "Google DeepMind",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "39f4ae2da20716867516b48552278be546b5ac84",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:02:40Z",
-          "ai_label": "model_release",
-          "ai_score": 0.91
-        },
-        {
-          "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Google DeepMind",
-        "Google DeepMind：Blog（RSS）"
-      ],
-      "items": [
-        {
-          "id": "39f4ae2da20716867516b48552278be546b5ac84",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:02:40Z",
-          "ai_label": "model_release",
-          "ai_score": 0.91
-        },
-        {
-          "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
-          "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash",
-          "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-          "source": "Google DeepMind：Blog（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8276,
-      "importance": 0.8276,
-      "importance_score": 0.8276,
-      "ai_label": "model_release",
-      "ai_score": 0.91,
-      "ai_signals": [
-        "gemini"
-      ],
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7257,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:02:40Z",
-      "latest_at": "2026-06-30T16:02:40Z",
-      "primary_item": {
-        "id": "39f4ae2da20716867516b48552278be546b5ac84",
-        "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
-        "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
-        "source": "Google DeepMind",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "model_release",
-        "ai_score": 0.91
-      }
-    },
-    {
-      "story_id": "story_8654826289ec",
-      "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-      "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "primary_url": "https://huggingface.co/blog/ibm-research/scarfbench",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z",
-          "ai_label": "agent_workflow",
-          "ai_score": 0.98
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hugging Face Blog"
-      ],
-      "items": [
-        {
-          "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-          "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-          "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z",
-          "ai_label": "agent_workflow",
-          "ai_score": 0.98
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8214,
-      "importance": 0.8214,
-      "importance_score": 0.8214,
-      "ai_label": "agent_workflow",
-      "ai_score": 0.98,
-      "ai_signals": [
-        "hugging face",
-        "huggingface",
-        "benchmark"
-      ],
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.98,
-        "recency": 0.7524,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T18:32:50Z",
-      "latest_at": "2026-06-30T18:32:50Z",
-      "primary_item": {
-        "id": "b166af0b386e2c9eb68e80320f4ae1df613895f9",
-        "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
-        "url": "https://huggingface.co/blog/ibm-research/scarfbench",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "agent_workflow",
-        "ai_score": 0.98
-      }
-    },
-    {
-      "story_id": "story_baf3220209a7",
-      "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-      "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "primary_url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z",
-          "ai_label": "model_release",
-          "ai_score": 0.95
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-          "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-          "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z",
-          "ai_label": "model_release",
-          "ai_score": 0.95
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8133,
-      "importance": 0.8133,
-      "importance_score": 0.8133,
-      "ai_label": "model_release",
-      "ai_score": 0.95,
-      "ai_signals": [
-        "claude",
-        "copilot"
-      ],
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7404,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T17:25:51Z",
-      "latest_at": "2026-06-30T17:25:51Z",
-      "primary_item": {
-        "id": "f63297030ebe8435fd635e15f434f76869319b6f",
-        "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
-        "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "model_release",
-        "ai_score": 0.95
-      }
-    },
-    {
-      "story_id": "story_0f764e9bc764",
-      "title": "Claude Sonnet 5 发布",
-      "url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "primary_url": "https://www.anthropic.com/news/claude-sonnet-5",
-      "source": "Anthropic：Newsroom（网页）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
-          "title": "Claude Sonnet 5 发布",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "67fa563844e9154887350136b4fe9208b8030f96",
-          "title": "克劳德·索内特 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
-          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z",
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        }
-      ],
-      "source_count": 3,
-      "source_names": [
-        "Anthropic：Newsroom（网页）",
-        "Hacker News (黑客新闻)",
-        "www.anthropic.com"
-      ],
-      "items": [
-        {
-          "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
-          "title": "Claude Sonnet 5 发布",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Anthropic：Newsroom（网页）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "67fa563844e9154887350136b4fe9208b8030f96",
-          "title": "克劳德·索内特 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "www.anthropic.com",
-          "source_name": "Buzzing",
-          "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z",
-          "ai_label": "ai_product_update",
-          "ai_score": 0.65
-        },
-        {
-          "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
-          "title": "Claude Sonnet 5 发布 / Claude Sonnet 5",
-          "url": "https://www.anthropic.com/news/claude-sonnet-5",
-          "source": "Hacker News (黑客新闻)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z",
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        }
-      ],
-      "item_count": 3,
-      "duplicate_count": 3,
-      "score": 0.799,
-      "importance": 0.799,
-      "importance_score": 0.799,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "anthropic",
-        "claude"
-      ],
-      "importance_label": "多源热议",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7468,
-        "story_heat": 0.5
-      },
-      "category": "multi_source",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T17:59:52Z",
-      "latest_at": "2026-06-30T18:19:05.316000Z",
-      "primary_item": {
-        "id": "9bf004cd5b5edfc11770660b62ec3bbc8ba01966",
-        "title": "Claude Sonnet 5 发布",
-        "url": "https://www.anthropic.com/news/claude-sonnet-5",
-        "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_adc0d337ee6f",
-      "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-      "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-      "primary_url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-      "source": "公众号：数字生命卡兹克",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-          "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-          "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "a423241668152b534d596cca5b185cbe9c44e092",
-          "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
-          "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅",
+          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+          "source": "LODGING Magazine",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T00:55:08Z",
-          "ai_label": "model_release",
+          "published_at": "2026-07-01T13:38:08Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.75
         }
       ],
-      "source_count": 2,
+      "source_count": 1,
       "source_names": [
-        "公众号：数字生命卡兹克",
-        "虎嗅"
+        "LODGING Magazine"
       ],
       "items": [
         {
-          "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-          "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-          "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-          "source": "公众号：数字生命卡兹克",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "a423241668152b534d596cca5b185cbe9c44e092",
-          "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
-          "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅",
+          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+          "source": "LODGING Magazine",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T00:55:08Z",
-          "ai_label": "model_release",
+          "published_at": "2026-07-01T13:38:08Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.75
         }
       ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7955,
-      "importance": 0.7955,
-      "importance_score": 0.7955,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5992,
+      "importance": 0.5992,
+      "importance_score": 0.5992,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
       "ai_signals": [
-        "anthropic",
-        "claude"
+        "hotel",
+        "lodging"
       ],
-      "importance_label": "行业动态",
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.84,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8162,
-        "story_heat": 0.25
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9847,
+        "story_heat": 0.0
       },
-      "category": "industry",
+      "category": "watch",
       "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-01T00:11:00Z",
-      "latest_at": "2026-07-01T00:55:08Z",
+      "earliest_at": "2026-07-01T13:38:08Z",
+      "latest_at": "2026-07-01T13:38:08Z",
       "primary_item": {
-        "id": "b701f63c0bf537b13694170c1159fd3a4cc90043",
-        "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
-        "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
-        "source": "公众号：数字生命卡兹克",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
+        "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+        "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+        "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
       }
     },
     {
-      "story_id": "story_e7110ebabb37",
-      "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-      "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-      "primary_url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-      "source": "公众号：龙猫LongCat（美团）",
-      "source_name": "AI HOT",
+      "story_id": "story_ec7c58c0cb51",
+      "title": "2026上半年经横琴口岸出入境客流超1777万人次",
+      "url": "https://www.pinchain.com/article/348257",
+      "primary_url": "https://www.pinchain.com/article/348257",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-          "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-          "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-          "source": "公众号：龙猫LongCat（美团）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "319f9f643d2043180402a849d05e50165b6c152a",
-          "title": "美团 LongCat-2.0 正式发布：在国产算力集群上完成全流程训练与推理的万亿参数模型",
-          "url": "https://tech.meituan.com/2026/06/30/LongCat2.0.html",
-          "source": "美团技术团队 (Meituan Tech)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": null,
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "公众号：龙猫LongCat（美团）",
-        "美团技术团队 (Meituan Tech)"
-      ],
-      "items": [
-        {
-          "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-          "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-          "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-          "source": "公众号：龙猫LongCat（美团）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "319f9f643d2043180402a849d05e50165b6c152a",
-          "title": "美团 LongCat-2.0 正式发布：在国产算力集群上完成全流程训练与推理的万亿参数模型",
-          "url": "https://tech.meituan.com/2026/06/30/LongCat2.0.html",
-          "source": "美团技术团队 (Meituan Tech)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": null,
-          "ai_label": "model_release",
-          "ai_score": 0.65
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7943,
-      "importance": 0.7943,
-      "importance_score": 0.7943,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "大模型",
-        "算力"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.82,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8427,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T02:24:00Z",
-      "latest_at": "2026-07-01T08:14:56.476655Z",
-      "primary_item": {
-        "id": "ca1ced8a81ccf8cd86d14c65e131efd2440a42ce",
-        "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
-        "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
-        "source": "公众号：龙猫LongCat（美团）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_4ccea67daf74",
-      "title": "Meta效仿SpaceX，将过剩AI算力变现",
-      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-      "primary_url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d070303d8c3916057db8f74e22815e26168d6a34",
-          "title": "Meta效仿SpaceX，将过剩AI算力变现",
-          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T13:43:07Z",
-          "ai_label": "infra_compute",
-          "ai_score": 1.0
-        },
-        {
-          "id": "5b29f5d1a51f44c69e956d0df5f890521db6bab8",
-          "title": "Meta效仿SpaceX，将过剩AI算力变现 / Meta, like SpaceX, looks to turn excess AI compute into cash",
-          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T13:43:07Z",
-          "ai_label": "ai_general",
-          "ai_score": 0.76
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "d070303d8c3916057db8f74e22815e26168d6a34",
-          "title": "Meta效仿SpaceX，将过剩AI算力变现",
-          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T13:43:07Z",
-          "ai_label": "infra_compute",
-          "ai_score": 1.0
-        },
-        {
-          "id": "5b29f5d1a51f44c69e956d0df5f890521db6bab8",
-          "title": "Meta效仿SpaceX，将过剩AI算力变现 / Meta, like SpaceX, looks to turn excess AI compute into cash",
-          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T13:43:07Z",
-          "ai_label": "ai_general",
-          "ai_score": 0.76
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7912,
-      "importance": 0.7912,
-      "importance_score": 0.7912,
-      "ai_label": "infra_compute",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "算力"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9924,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T13:43:07Z",
-      "latest_at": "2026-07-01T13:43:07Z",
-      "primary_item": {
-        "id": "d070303d8c3916057db8f74e22815e26168d6a34",
-        "title": "Meta效仿SpaceX，将过剩AI算力变现",
-        "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "infra_compute",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_ebdc837ee1f0",
-      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "primary_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-      "source": "MarkTechPost（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T08:10:17Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T08:10:17Z",
-          "ai_label": "research_paper",
-          "ai_score": 0.71
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "MarkTechPost Research",
-        "MarkTechPost（RSS）"
-      ],
-      "items": [
-        {
-          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T08:10:17Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
-          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
-          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-          "source": "MarkTechPost Research",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T08:10:17Z",
-          "ai_label": "research_paper",
-          "ai_score": 0.71
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7805,
-      "importance": 0.7805,
-      "importance_score": 0.7805,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "语言模型"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.73,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.916,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T08:10:17Z",
-      "latest_at": "2026-07-01T08:10:17Z",
-      "primary_item": {
-        "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
-        "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
-        "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
-        "source": "MarkTechPost（RSS）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_d7f8db1c666b",
-      "title": "为什么专业化是不可避免的 / Why Specialization Is Inevitable",
-      "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "primary_url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-      "source": "Hugging Face Blog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "4ab939dc572085e04f2d075c4c3312ceac310356",
-          "title": "为什么专业化是不可避免的 / Why Specialization Is Inevitable",
-          "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T14:39:11Z",
-          "ai_label": "ai_general",
-          "ai_score": 0.95
+          "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
+          "title": "2026上半年经横琴口岸出入境客流超1777万人次",
+          "url": "https://www.pinchain.com/article/348257",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:46:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Hugging Face Blog"
+        "品橙旅游"
       ],
       "items": [
         {
-          "id": "4ab939dc572085e04f2d075c4c3312ceac310356",
-          "title": "为什么专业化是不可避免的 / Why Specialization Is Inevitable",
-          "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-          "source": "Hugging Face Blog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T14:39:11Z",
-          "ai_label": "ai_general",
-          "ai_score": 0.95
+          "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
+          "title": "2026上半年经横琴口岸出入境客流超1777万人次",
+          "url": "https://www.pinchain.com/article/348257",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:46:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.808,
-      "importance": 0.808,
-      "importance_score": 0.808,
-      "ai_label": "ai_general",
-      "ai_score": 0.95,
+      "score": 0.5973,
+      "importance": 0.5973,
+      "importance_score": 0.5973,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
       "ai_signals": [
-        "hugging face",
-        "huggingface"
+        "客流",
+        "旅游",
+        "ai"
       ],
-      "importance_label": "官方更新",
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7112,
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9047,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-06-30T14:39:11Z",
-      "latest_at": "2026-06-30T14:39:11Z",
+      "earliest_at": "2026-07-01T07:46:08Z",
+      "latest_at": "2026-07-01T07:46:08Z",
       "primary_item": {
-        "id": "4ab939dc572085e04f2d075c4c3312ceac310356",
-        "title": "为什么专业化是不可避免的 / Why Specialization Is Inevitable",
-        "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
-        "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "ai_general",
-        "ai_score": 0.95
+        "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
+        "title": "2026上半年经横琴口岸出入境客流超1777万人次",
+        "url": "https://www.pinchain.com/article/348257",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
-      "story_id": "story_c035cdd5ac64",
-      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-      "primary_url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
+      "story_id": "story_1c32486984ae",
+      "title": "The Airline CEOs Who Don’t Leave",
+      "url": "https://skift.com/2026/07/01/the-airline-ceos-who-dont-leave",
+      "primary_url": "https://skift.com/2026/07/01/the-airline-ceos-who-dont-leave",
+      "source": "Skift",
+      "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
-          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T10:03:41Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "98b7c08e0e207b717813fda0c22bd478bfd22969",
-          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
-          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T10:03:41Z",
-          "ai_label": "research_paper",
-          "ai_score": 0.79
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
-          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T10:03:41Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "98b7c08e0e207b717813fda0c22bd478bfd22969",
-          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
-          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-07-01T10:03:41Z",
-          "ai_label": "research_paper",
-          "ai_score": 0.79
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.776,
-      "importance": 0.776,
-      "importance_score": 0.776,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "gpt",
-        "openai"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9413,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T10:03:41Z",
-      "latest_at": "2026-07-01T10:03:41Z",
-      "primary_item": {
-        "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
-        "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
-        "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_c9b523c535e6",
-      "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-      "source": "Claude Code：GitHub Releases（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "240e536b1a80d48a204a0ff8defc0126dd13e204",
-          "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:56:37Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "d25f98343b70993bc74f0870eb8cf3197ee81028",
-          "title": "v2.1.197",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T17:56:37Z",
-          "ai_label": "model_release",
-          "ai_score": 0.79
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "Claude Code Releases",
-        "Claude Code：GitHub Releases（RSS）"
-      ],
-      "items": [
-        {
-          "id": "240e536b1a80d48a204a0ff8defc0126dd13e204",
-          "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-          "source": "Claude Code：GitHub Releases（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:56:37Z",
-          "ai_label": "model_release",
-          "ai_score": 1.0
-        },
-        {
-          "id": "d25f98343b70993bc74f0870eb8cf3197ee81028",
-          "title": "v2.1.197",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-          "source": "Claude Code Releases",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T17:56:37Z",
-          "ai_label": "model_release",
-          "ai_score": 0.79
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7739,
-      "importance": 0.7739,
-      "importance_score": 0.7739,
-      "ai_label": "model_release",
-      "ai_score": 1.0,
-      "ai_signals": [
-        "claude"
-      ],
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.81,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7459,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T17:56:37Z",
-      "latest_at": "2026-06-30T17:56:37Z",
-      "primary_item": {
-        "id": "240e536b1a80d48a204a0ff8defc0126dd13e204",
-        "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
-        "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
-        "source": "Claude Code：GitHub Releases（RSS）",
-        "source_name": "AI HOT",
-        "site_id": "aihot",
-        "ai_label": "model_release",
-        "ai_score": 1.0
-      }
-    },
-    {
-      "story_id": "story_66857aac9970",
-      "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-      "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "primary_url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z",
-          "ai_label": "developer_tool",
-          "ai_score": 0.91
+          "id": "4be5cdb61034101b26f8034a47528de4bbd7bb74",
+          "title": "The Airline CEOs Who Don’t Leave",
+          "url": "https://skift.com/2026/07/01/the-airline-ceos-who-dont-leave",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T12:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
       "source_names": [
-        "GitHub Changelog"
+        "Skift"
       ],
       "items": [
         {
-          "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-          "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-          "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z",
-          "ai_label": "developer_tool",
-          "ai_score": 0.91
+          "id": "4be5cdb61034101b26f8034a47528de4bbd7bb74",
+          "title": "The Airline CEOs Who Don’t Leave",
+          "url": "https://skift.com/2026/07/01/the-airline-ceos-who-dont-leave",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T12:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8025,
-      "importance": 0.8025,
-      "importance_score": 0.8025,
-      "ai_label": "developer_tool",
-      "ai_score": 0.91,
+      "score": 0.5848,
+      "importance": 0.5848,
+      "importance_score": 0.5848,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
       "ai_signals": [
-        "copilot"
+        "ai"
       ],
-      "importance_label": "官方更新",
+      "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.91,
-        "recency": 0.7253,
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9737,
         "story_heat": 0.0
       },
-      "category": "official",
+      "category": "watch",
       "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-06-30T16:00:19Z",
-      "latest_at": "2026-06-30T16:00:19Z",
+      "earliest_at": "2026-07-01T12:51:33Z",
+      "latest_at": "2026-07-01T12:51:33Z",
       "primary_item": {
-        "id": "3cd7525059deffd71d6c53a058c4762cef4a7a58",
-        "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
-        "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates",
-        "site_id": "official_ai",
-        "ai_label": "developer_tool",
-        "ai_score": 0.91
+        "id": "4be5cdb61034101b26f8034a47528de4bbd7bb74",
+        "title": "The Airline CEOs Who Don’t Leave",
+        "url": "https://skift.com/2026/07/01/the-airline-ceos-who-dont-leave",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_45132a508da9",
+      "title": "Lawyer On the Inside: Stonebridge’s C.J. Chapman on Becoming a Hospitality Lawyer",
+      "url": "https://lodgingmagazine.com/lawyer-on-the-inside-stonebridges-c-j-chapman-on-becoming-a-hospitality-lawyer",
+      "primary_url": "https://lodgingmagazine.com/lawyer-on-the-inside-stonebridges-c-j-chapman-on-becoming-a-hospitality-lawyer",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0264d641f8e03071740b2f2942af429f89f76997",
+          "title": "Lawyer On the Inside: Stonebridge’s C.J. Chapman on Becoming a Hospitality Lawyer",
+          "url": "https://lodgingmagazine.com/lawyer-on-the-inside-stonebridges-c-j-chapman-on-becoming-a-hospitality-lawyer",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:37:37Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "0264d641f8e03071740b2f2942af429f89f76997",
+          "title": "Lawyer On the Inside: Stonebridge’s C.J. Chapman on Becoming a Hospitality Lawyer",
+          "url": "https://lodgingmagazine.com/lawyer-on-the-inside-stonebridges-c-j-chapman-on-becoming-a-hospitality-lawyer",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:37:37Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5992,
+      "importance": 0.5992,
+      "importance_score": 0.5992,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hospitality",
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9846,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T13:37:37Z",
+      "latest_at": "2026-07-01T13:37:37Z",
+      "primary_item": {
+        "id": "0264d641f8e03071740b2f2942af429f89f76997",
+        "title": "Lawyer On the Inside: Stonebridge’s C.J. Chapman on Becoming a Hospitality Lawyer",
+        "url": "https://lodgingmagazine.com/lawyer-on-the-inside-stonebridges-c-j-chapman-on-becoming-a-hospitality-lawyer",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_d44e25b788e0",
+      "title": "From Reactive To Proactive: Leveraging Data To Prevent Device Failures & Protect The Guest Experience",
+      "url": "https://www.hotelmanagement.net/resource/reactive-proactive-leveraging-data-prevent-device-failures-protect-guest-experience",
+      "primary_url": "https://www.hotelmanagement.net/resource/reactive-proactive-leveraging-data-prevent-device-failures-protect-guest-experience",
+      "source": "Hotel Management",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "856994aac8b275085cf2f463b29a917f3e4e3321",
+          "title": "From Reactive To Proactive: Leveraging Data To Prevent Device Failures & Protect The Guest Experience",
+          "url": "https://www.hotelmanagement.net/resource/reactive-proactive-leveraging-data-prevent-device-failures-protect-guest-experience",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T20:24:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hotel Management"
+      ],
+      "items": [
+        {
+          "id": "856994aac8b275085cf2f463b29a917f3e4e3321",
+          "title": "From Reactive To Proactive: Leveraging Data To Prevent Device Failures & Protect The Guest Experience",
+          "url": "https://www.hotelmanagement.net/resource/reactive-proactive-leveraging-data-prevent-device-failures-protect-guest-experience",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T20:24:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5685,
+      "importance": 0.5685,
+      "importance_score": 0.5685,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.77,
+      "ai_signals": [
+        "hotel",
+        "ai",
+        "data"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5544,
+        "source_tier": 0.5,
+        "ai_relevance": 0.77,
+        "recency": 0.7679,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-06-30T20:24:48Z",
+      "latest_at": "2026-06-30T20:24:48Z",
+      "primary_item": {
+        "id": "856994aac8b275085cf2f463b29a917f3e4e3321",
+        "title": "From Reactive To Proactive: Leveraging Data To Prevent Device Failures & Protect The Guest Experience",
+        "url": "https://www.hotelmanagement.net/resource/reactive-proactive-leveraging-data-prevent-device-failures-protect-guest-experience",
+        "source": "Hotel Management",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.77
+      }
+    },
+    {
+      "story_id": "story_5c969f04e75a",
+      "title": "同程旅行面向学生及亲子客群推出多重“福利”",
+      "url": "https://www.pinchain.com/article/348242",
+      "primary_url": "https://www.pinchain.com/article/348242",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "623d0d78ba2d57d0b6a8cb62d25eca7ad88bb75c",
+          "title": "同程旅行面向学生及亲子客群推出多重“福利”",
+          "url": "https://www.pinchain.com/article/348242",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:32:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "623d0d78ba2d57d0b6a8cb62d25eca7ad88bb75c",
+          "title": "同程旅行面向学生及亲子客群推出多重“福利”",
+          "url": "https://www.pinchain.com/article/348242",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:32:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5945,
+      "importance": 0.5945,
+      "importance_score": 0.5945,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8888,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T06:32:26Z",
+      "latest_at": "2026-07-01T06:32:26Z",
+      "primary_item": {
+        "id": "623d0d78ba2d57d0b6a8cb62d25eca7ad88bb75c",
+        "title": "同程旅行面向学生及亲子客群推出多重“福利”",
+        "url": "https://www.pinchain.com/article/348242",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_786231cde8b9",
+      "title": "同程旅行：2026上半年红色旅游热度涨130%",
+      "url": "https://www.pinchain.com/article/348245",
+      "primary_url": "https://www.pinchain.com/article/348245",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bbb59804f821444033d52bbdf9237f59e378d9cd",
+          "title": "同程旅行：2026上半年红色旅游热度涨130%",
+          "url": "https://www.pinchain.com/article/348245",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:26:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "bbb59804f821444033d52bbdf9237f59e378d9cd",
+          "title": "同程旅行：2026上半年红色旅游热度涨130%",
+          "url": "https://www.pinchain.com/article/348245",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:26:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5942,
+      "importance": 0.5942,
+      "importance_score": 0.5942,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8875,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T06:26:21Z",
+      "latest_at": "2026-07-01T06:26:21Z",
+      "primary_item": {
+        "id": "bbb59804f821444033d52bbdf9237f59e378d9cd",
+        "title": "同程旅行：2026上半年红色旅游热度涨130%",
+        "url": "https://www.pinchain.com/article/348245",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_db96bfe228ad",
+      "title": "Turning Waste Into Impact: How Hotels Can Build Stronger Food Recovery Programs",
+      "url": "https://lodgingmagazine.com/turning-waste-into-impact-how-hotels-can-build-stronger-food-recovery-programs",
+      "primary_url": "https://lodgingmagazine.com/turning-waste-into-impact-how-hotels-can-build-stronger-food-recovery-programs",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "11a308d49c1e7cd2a1a2df921370453615a4510a",
+          "title": "Turning Waste Into Impact: How Hotels Can Build Stronger Food Recovery Programs",
+          "url": "https://lodgingmagazine.com/turning-waste-into-impact-how-hotels-can-build-stronger-food-recovery-programs",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T11:30:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "11a308d49c1e7cd2a1a2df921370453615a4510a",
+          "title": "Turning Waste Into Impact: How Hotels Can Build Stronger Food Recovery Programs",
+          "url": "https://lodgingmagazine.com/turning-waste-into-impact-how-hotels-can-build-stronger-food-recovery-programs",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T11:30:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5939,
+      "importance": 0.5939,
+      "importance_score": 0.5939,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hotel",
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9548,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T11:30:00Z",
+      "latest_at": "2026-07-01T11:30:00Z",
+      "primary_item": {
+        "id": "11a308d49c1e7cd2a1a2df921370453615a4510a",
+        "title": "Turning Waste Into Impact: How Hotels Can Build Stronger Food Recovery Programs",
+        "url": "https://lodgingmagazine.com/turning-waste-into-impact-how-hotels-can-build-stronger-food-recovery-programs",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_08731930e5ca",
+      "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
+      "url": "https://www.pinchain.com/article/348260",
+      "primary_url": "https://www.pinchain.com/article/348260",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
+          "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
+          "url": "https://www.pinchain.com/article/348260",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:58:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
+          "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
+          "url": "https://www.pinchain.com/article/348260",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:58:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5853,
+      "importance": 0.5853,
+      "importance_score": 0.5853,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9075,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T07:58:54Z",
+      "latest_at": "2026-07-01T07:58:54Z",
+      "primary_item": {
+        "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
+        "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
+        "url": "https://www.pinchain.com/article/348260",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_ef0ced2db577",
+      "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
+      "url": "https://www.pinchain.com/article/348259",
+      "primary_url": "https://www.pinchain.com/article/348259",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
+          "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
+          "url": "https://www.pinchain.com/article/348259",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:50:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
+          "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
+          "url": "https://www.pinchain.com/article/348259",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:50:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.585,
+      "importance": 0.585,
+      "importance_score": 0.585,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9056,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T07:50:23Z",
+      "latest_at": "2026-07-01T07:50:23Z",
+      "primary_item": {
+        "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
+        "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
+        "url": "https://www.pinchain.com/article/348259",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_613239eb2848",
+      "title": "Folio Joins Avendra International’s Preferred eProcurement Network",
+      "url": "https://lodgingmagazine.com/folio-joins-avendra-internationals-preferred-eprocurement-network",
+      "primary_url": "https://lodgingmagazine.com/folio-joins-avendra-internationals-preferred-eprocurement-network",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "eaf1df6fa788255205f78c40708a4476656023fd",
+          "title": "Folio Joins Avendra International’s Preferred eProcurement Network",
+          "url": "https://lodgingmagazine.com/folio-joins-avendra-internationals-preferred-eprocurement-network",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T16:52:01Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "eaf1df6fa788255205f78c40708a4476656023fd",
+          "title": "Folio Joins Avendra International’s Preferred eProcurement Network",
+          "url": "https://lodgingmagazine.com/folio-joins-avendra-internationals-preferred-eprocurement-network",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T16:52:01Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5408,
+      "importance": 0.5408,
+      "importance_score": 0.5408,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7295,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-06-30T16:52:01Z",
+      "latest_at": "2026-06-30T16:52:01Z",
+      "primary_item": {
+        "id": "eaf1df6fa788255205f78c40708a4476656023fd",
+        "title": "Folio Joins Avendra International’s Preferred eProcurement Network",
+        "url": "https://lodgingmagazine.com/folio-joins-avendra-internationals-preferred-eprocurement-network",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_a519198da2c0",
+      "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
+      "url": "https://www.pinchain.com/article/348258",
+      "primary_url": "https://www.pinchain.com/article/348258",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
+          "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
+          "url": "https://www.pinchain.com/article/348258",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:34:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
+          "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
+          "url": "https://www.pinchain.com/article/348258",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T07:34:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9022,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T07:34:34Z",
+      "latest_at": "2026-07-01T07:34:34Z",
+      "primary_item": {
+        "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
+        "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
+        "url": "https://www.pinchain.com/article/348258",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_3004adce223b",
+      "title": "Residence Inn by Marriott Boston Marlborough Completes Renovation",
+      "url": "https://lodgingmagazine.com/residence-inn-by-marriott-boston-marlborough-completes-renovation",
+      "primary_url": "https://lodgingmagazine.com/residence-inn-by-marriott-boston-marlborough-completes-renovation",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "31616d025f7cc4d3d7ae5fde9b15213a00515c28",
+          "title": "Residence Inn by Marriott Boston Marlborough Completes Renovation",
+          "url": "https://lodgingmagazine.com/residence-inn-by-marriott-boston-marlborough-completes-renovation",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T15:25:19Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "31616d025f7cc4d3d7ae5fde9b15213a00515c28",
+          "title": "Residence Inn by Marriott Boston Marlborough Completes Renovation",
+          "url": "https://lodgingmagazine.com/residence-inn-by-marriott-boston-marlborough-completes-renovation",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-06-30T15:25:19Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5381,
+      "importance": 0.5381,
+      "importance_score": 0.5381,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7145,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-06-30T15:25:19Z",
+      "latest_at": "2026-06-30T15:25:19Z",
+      "primary_item": {
+        "id": "31616d025f7cc4d3d7ae5fde9b15213a00515c28",
+        "title": "Residence Inn by Marriott Boston Marlborough Completes Renovation",
+        "url": "https://lodgingmagazine.com/residence-inn-by-marriott-boston-marlborough-completes-renovation",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_2c45ffe2c619",
+      "title": "张辉：旅游高质量发展如何平衡10个关系",
+      "url": "https://www.pinchain.com/article/348243",
+      "primary_url": "https://www.pinchain.com/article/348243",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8f2281c5d4d82fb6525698e96f3eb71a1bdafc7d",
+          "title": "张辉：旅游高质量发展如何平衡10个关系",
+          "url": "https://www.pinchain.com/article/348243",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:40:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "8f2281c5d4d82fb6525698e96f3eb71a1bdafc7d",
+          "title": "张辉：旅游高质量发展如何平衡10个关系",
+          "url": "https://www.pinchain.com/article/348243",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:40:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5823,
+      "importance": 0.5823,
+      "importance_score": 0.5823,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8905,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T06:40:19Z",
+      "latest_at": "2026-07-01T06:40:19Z",
+      "primary_item": {
+        "id": "8f2281c5d4d82fb6525698e96f3eb71a1bdafc7d",
+        "title": "张辉：旅游高质量发展如何平衡10个关系",
+        "url": "https://www.pinchain.com/article/348243",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     }
   ]
