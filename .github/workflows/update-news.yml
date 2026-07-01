@@ -12,14 +12,19 @@ on:
     - cron: "*/30 * * * *"
 
 concurrency:
-  group: update-ai-news-${{ github.ref }}
+  group: update-smart-tourism-${{ github.ref }}
   cancel-in-progress: true
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   update:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
     timeout-minutes: 15
     runs-on: ubuntu-latest
     steps:
@@ -129,5 +134,27 @@ jobs:
             echo "No changes to commit"
             exit 0
           fi
-          git commit -m "chore: update ai news snapshot"
+          git commit -m "chore: update smart tourism snapshot"
           git push
+
+      - name: Prepare static site
+        run: |
+          mkdir _site
+          rsync -a \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude ".venv" \
+            --exclude "__pycache__" \
+            --exclude ".pytest_cache" \
+            --exclude "data/archive.json" \
+            ./ _site/
+          find _site -type f -name ".DS_Store" -delete
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
