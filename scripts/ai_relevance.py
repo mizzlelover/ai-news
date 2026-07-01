@@ -82,6 +82,111 @@ TECH_KEYWORDS = [
     "具身",
 ]
 
+SMART_TOURISM_KEYWORDS = [
+    "smart tourism",
+    "travel tech",
+    "tourism tech",
+    "hospitality tech",
+    "cultural tourism",
+    "travel technology",
+    "destination marketing",
+    "revenue management",
+    "revpar",
+    "adr",
+    "occupancy",
+    "ota",
+    "un tourism",
+    "wttc",
+    "pata",
+    "tourism",
+    "tourist",
+    "travel",
+    "traveler",
+    "hospitality",
+    "hotel",
+    "lodging",
+    "destination",
+    "attraction",
+    "theme park",
+    "museum",
+    "heritage",
+    "resort",
+    "文旅",
+    "文化和旅游",
+    "智慧旅游",
+    "数字文旅",
+    "旅游科技",
+    "旅游",
+    "旅行",
+    "游客",
+    "客流",
+    "客源",
+    "入境游",
+    "出境游",
+    "国内游",
+    "目的地",
+    "景区",
+    "酒店",
+    "住宿",
+    "饭店",
+    "民宿",
+    "旅行社",
+    "航司",
+    "航空",
+    "邮轮",
+    "主题公园",
+    "度假区",
+    "博物馆",
+    "文化遗产",
+    "非遗",
+    "沉浸式",
+    "演艺",
+    "文创",
+    "文旅部",
+]
+
+SMART_TOURISM_SOURCE_KEYWORDS = [
+    "skift",
+    "lodging magazine",
+    "hotel management",
+    "travel tech essentialist",
+    "traveltech brief",
+    "that newsletter: hospitality",
+    "china travel and transport",
+    "品橙旅游",
+]
+
+SMART_TOURISM_CONTEXT_KEYWORDS = [
+    "ai",
+    "aigc",
+    "artificial intelligence",
+    "data",
+    "digital",
+    "technology",
+    "tech",
+    "platform",
+    "automation",
+    "智能",
+    "智慧",
+    "数字",
+    "数据",
+    "科技",
+    "平台",
+    "系统",
+    "政策",
+    "监管",
+    "统计",
+    "报告",
+    "趋势",
+    "指数",
+    "标准",
+    "运营",
+    "营销",
+    "投资",
+    "融资",
+    "并购",
+]
+
 NOISE_KEYWORDS = [
     "娱乐",
     "明星",
@@ -90,7 +195,6 @@ NOISE_KEYWORDS = [
     "篮球",
     "彩票",
     "情感",
-    "旅游",
     "美食",
 ]
 
@@ -206,6 +310,11 @@ CURATED_MEDIA_BUSINESS_TERMS = [
 ]
 
 LABEL_KEYWORDS = [
+    ("tourism_policy", ["文化和旅游", "文旅部", "政策", "监管", "统计", "数据", "报告", "标准", "un tourism", "wttc", "pata"]),
+    ("tourism_tech", ["智慧旅游", "数字文旅", "旅游科技", "smart tourism", "travel tech", "hospitality tech", "technology", "digital", "ai", "人工智能", "大模型", "数据", "平台", "系统"]),
+    ("hospitality_ops", ["hotel", "hospitality", "lodging", "revpar", "adr", "occupancy", "酒店", "住宿", "饭店", "民宿", "收益管理"]),
+    ("destination_marketing", ["destination", "attraction", "theme park", "museum", "heritage", "目的地", "景区", "游客", "客流", "客源", "主题公园", "博物馆", "文化遗产", "入境游", "出境游"]),
+    ("travel_business", ["ota", "airline", "cruise", "funding", "acquire", "investment", "航司", "航空", "邮轮", "融资", "投资", "并购", "收购", "估值", "营收"]),
     ("model_release", ["model", "gpt", "claude", "gemini", "deepseek", "llm", "模型", "大模型", "发布", "release"]),
     ("developer_tool", ["copilot", "codex", "mcp", "api", "sdk", "developer", "开发者", "编程", "代码", "coding"]),
     ("agent_workflow", ["agent", "智能体", "workflow", "工作流", "tool use", "function calling"]),
@@ -234,8 +343,12 @@ def contains_meaningful_ai_signal(haystack: str) -> bool:
     return any(k in h for k in AI_KEYWORDS if k not in BROAD_AI_TERMS)
 
 
-def _label_for_text(text: str, has_tech: bool) -> str:
-    for label, keywords in LABEL_KEYWORDS:
+def _label_for_text(text: str, has_tech: bool, has_tourism: bool = False) -> str:
+    if has_tourism:
+        for label, keywords in LABEL_KEYWORDS[:5]:
+            if contains_any_keyword(text, keywords):
+                return label
+    for label, keywords in LABEL_KEYWORDS[5:]:
         if contains_any_keyword(text, keywords):
             return label
     if has_tech:
@@ -280,8 +393,13 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
 
     ai_signals = matched_keywords(text, AI_KEYWORDS)
     tech_signals = matched_keywords(text, TECH_KEYWORDS)
+    tourism_signals = matched_keywords(text, SMART_TOURISM_KEYWORDS)
+    tourism_context_signals = matched_keywords(text, SMART_TOURISM_CONTEXT_KEYWORDS)
     noise = matched_keywords(text, NOISE_KEYWORDS) + matched_keywords(text, COMMERCE_NOISE_KEYWORDS)
     source_prior = SOURCE_PRIORS.get(site_id, 0.0)
+    trusted_tourism_source = site_id == "opmlrss" and contains_any_keyword(
+        source.lower(), SMART_TOURISM_SOURCE_KEYWORDS
+    )
 
     if site_id == "zeli":
         if "24h" in source.lower() or "24h最热" in source:
@@ -377,7 +495,7 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
         return _result(
             is_ai_related=True,
             score=max(AI_RELEVANCE_THRESHOLD, 0.72 + source_prior),
-            label=_label_for_text(text, bool(tech_signals)),
+            label=_label_for_text(text, bool(tech_signals), bool(tourism_signals)),
             reason="trusted_ai_source_default_keep",
             signals=ai_signals or [site_id],
             noise=noise,
@@ -386,6 +504,28 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
     has_ai = contains_meaningful_ai_signal(text)
     has_broad_ai = contains_any_keyword(text, list(BROAD_AI_TERMS)) or EN_SIGNAL_RE.search(text) is not None
     has_tech = bool(tech_signals)
+    has_tourism = bool(tourism_signals)
+    has_tourism_context = has_tourism and (
+        bool(tourism_context_signals) or has_tech or has_ai or trusted_tourism_source
+    )
+
+    if site_id == "opmlrss" and (trusted_tourism_source or has_tourism_context):
+        score = (
+            source_prior
+            + (0.54 if trusted_tourism_source else 0.48)
+            + min(0.14, 0.03 * len(tourism_signals))
+            + min(0.1, 0.025 * len(tourism_context_signals))
+            + (0.06 if has_ai or has_tech else 0.0)
+        )
+        score = max(score, AI_RELEVANCE_THRESHOLD)
+        return _result(
+            is_ai_related=True,
+            score=score,
+            label=_label_for_text(text, has_tech, True),
+            reason="matched_smart_tourism_signal" if has_tourism_context else "trusted_tourism_source_default_keep",
+            signals=ai_signals + tech_signals + tourism_signals + tourism_context_signals,
+            noise=noise,
+        )
 
     if not (has_ai or (has_broad_ai and has_tech)):
         return _result(
@@ -428,7 +568,7 @@ def score_ai_relevance(record: dict[str, Any]) -> dict[str, Any]:
     return _result(
         is_ai_related=True,
         score=score,
-        label=_label_for_text(text, has_tech),
+        label=_label_for_text(text, has_tech, has_tourism),
         reason="matched_ai_signal" if has_ai else "matched_broad_ai_plus_tech_signal",
         signals=ai_signals + tech_signals,
         noise=noise,

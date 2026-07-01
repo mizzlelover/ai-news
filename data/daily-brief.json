@@ -1,8 +1,450 @@
 {
-  "generated_at": "2026-07-01T08:14:56.476655Z",
+  "generated_at": "2026-07-01T14:11:51.917973Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_a398f355c437",
+      "title": "Should Tourism Boards Build AI for Their Stakeholders?",
+      "url": "https://skift.com/2026/07/01/should-tourism-boards-build-ai-for-their-stakeholders",
+      "primary_url": "https://skift.com/2026/07/01/should-tourism-boards-build-ai-for-their-stakeholders",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0ab73f4d8e330fd74f4a40dda569edab8cc30ad0",
+          "title": "Should Tourism Boards Build AI for Their Stakeholders?",
+          "url": "https://skift.com/2026/07/01/should-tourism-boards-build-ai-for-their-stakeholders",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:30:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "0ab73f4d8e330fd74f4a40dda569edab8cc30ad0",
+          "title": "Should Tourism Boards Build AI for Their Stakeholders?",
+          "url": "https://skift.com/2026/07/01/should-tourism-boards-build-ai-for-their-stakeholders",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:30:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6252,
+      "importance": 0.6252,
+      "importance_score": 0.6252,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "tourism",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.99,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-01T13:30:00Z",
+      "latest_at": "2026-07-01T13:30:00Z",
+      "primary_item": {
+        "id": "0ab73f4d8e330fd74f4a40dda569edab8cc30ad0",
+        "title": "Should Tourism Boards Build AI for Their Stakeholders?",
+        "url": "https://skift.com/2026/07/01/should-tourism-boards-build-ai-for-their-stakeholders",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_8fe6d99665d1",
+      "title": "同程旅行&天府国际机场:启动全球航文旅融合活动",
+      "url": "https://www.pinchain.com/article/348244",
+      "primary_url": "https://www.pinchain.com/article/348244",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0b13a3065d5cf2251c22626c059e8a7cb393813b",
+          "title": "同程旅行&天府国际机场:启动全球航文旅融合活动",
+          "url": "https://www.pinchain.com/article/348244",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:29:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "0b13a3065d5cf2251c22626c059e8a7cb393813b",
+          "title": "同程旅行&天府国际机场:启动全球航文旅融合活动",
+          "url": "https://www.pinchain.com/article/348244",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:29:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.608,
+      "importance": 0.608,
+      "importance_score": 0.608,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.8947,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-01T06:29:38Z",
+      "latest_at": "2026-07-01T06:29:38Z",
+      "primary_item": {
+        "id": "0b13a3065d5cf2251c22626c059e8a7cb393813b",
+        "title": "同程旅行&天府国际机场:启动全球航文旅融合活动",
+        "url": "https://www.pinchain.com/article/348244",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_660d3b4eed9b",
+      "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+      "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+      "primary_url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+      "source": "LODGING Magazine",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:38:08Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "LODGING Magazine"
+      ],
+      "items": [
+        {
+          "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+          "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+          "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+          "source": "LODGING Magazine",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T13:38:08Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6005,
+      "importance": 0.6005,
+      "importance_score": 0.6005,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hotel",
+        "lodging"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9919,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T13:38:08Z",
+      "latest_at": "2026-07-01T13:38:08Z",
+      "primary_item": {
+        "id": "8735c601136b2b0826a2a5363184975eee8623d9",
+        "title": "Hyatt Announces Plans for Hyatt Regency Hotel in Tucson, Arizona",
+        "url": "https://lodgingmagazine.com/hyatt-announces-plans-for-hyatt-regency-hotel-in-tucson-arizona",
+        "source": "LODGING Magazine",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_374f1e540baa",
+      "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
+      "url": "https://www.huxiu.com/article/4871864.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4871864.html?f=rss",
+      "source": "虎嗅",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
+          "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
+          "url": "https://www.huxiu.com/article/4871864.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T09:53:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "虎嗅"
+      ],
+      "items": [
+        {
+          "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
+          "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
+          "url": "https://www.huxiu.com/article/4871864.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T09:53:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5995,
+      "importance": 0.5995,
+      "importance_score": 0.5995,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.77,
+      "ai_signals": [
+        "民宿",
+        "ai",
+        "投资"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5544,
+        "source_tier": 0.5,
+        "ai_relevance": 0.77,
+        "recency": 0.9398,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T09:53:59Z",
+      "latest_at": "2026-07-01T09:53:59Z",
+      "primary_item": {
+        "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
+        "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
+        "url": "https://www.huxiu.com/article/4871864.html?f=rss",
+        "source": "虎嗅",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.77
+      }
+    },
+    {
+      "story_id": "story_081342dccc76",
+      "title": "Upgrade every stay with TVs designed to make you money",
+      "url": "https://www.hotelmanagement.net/resource/upgrade-every-stay-tvs-designed-make-you-money",
+      "primary_url": "https://www.hotelmanagement.net/resource/upgrade-every-stay-tvs-designed-make-you-money",
+      "source": "Hotel Management",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "019b6ada845996a71eb5996b8fe3e3b63f71d9bc",
+          "title": "Upgrade every stay with TVs designed to make you money",
+          "url": "https://www.hotelmanagement.net/resource/upgrade-every-stay-tvs-designed-make-you-money",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T11:42:11Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hotel Management"
+      ],
+      "items": [
+        {
+          "id": "019b6ada845996a71eb5996b8fe3e3b63f71d9bc",
+          "title": "Upgrade every stay with TVs designed to make you money",
+          "url": "https://www.hotelmanagement.net/resource/upgrade-every-stay-tvs-designed-make-you-money",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T11:42:11Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9646,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-01T11:42:11Z",
+      "latest_at": "2026-07-01T11:42:11Z",
+      "primary_item": {
+        "id": "019b6ada845996a71eb5996b8fe3e3b63f71d9bc",
+        "title": "Upgrade every stay with TVs designed to make you money",
+        "url": "https://www.hotelmanagement.net/resource/upgrade-every-stay-tvs-designed-make-you-money",
+        "source": "Hotel Management",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_74746e42c03e",
+      "title": "公共航空运输旅客服务质量国家标准7月起实施",
+      "url": "https://www.pinchain.com/article/348233",
+      "primary_url": "https://www.pinchain.com/article/348233",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6218b6195a0cbc22cf1ef23e6ebbee988c9df6ed",
+          "title": "公共航空运输旅客服务质量国家标准7月起实施",
+          "url": "https://www.pinchain.com/article/348233",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:06:50Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "6218b6195a0cbc22cf1ef23e6ebbee988c9df6ed",
+          "title": "公共航空运输旅客服务质量国家标准7月起实施",
+          "url": "https://www.pinchain.com/article/348233",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T06:06:50Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.603,
+      "importance": 0.603,
+      "importance_score": 0.603,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.8,
+      "ai_signals": [
+        "旅游",
+        "航空",
+        "ai",
+        "标准"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.576,
+        "source_tier": 0.5,
+        "ai_relevance": 0.8,
+        "recency": 0.8898,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-01T06:06:50Z",
+      "latest_at": "2026-07-01T06:06:50Z",
+      "primary_item": {
+        "id": "6218b6195a0cbc22cf1ef23e6ebbee988c9df6ed",
+        "title": "公共航空运输旅客服务质量国家标准7月起实施",
+        "url": "https://www.pinchain.com/article/348233",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_policy",
+        "ai_score": 0.8
+      }
+    },
     {
       "story_id": "story_ff1300aa6cce",
       "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
@@ -18,7 +460,9 @@
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T07:38:10.804000Z"
+          "published_at": "2026-07-01T07:38:10.804000Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "8fe25b023b6fa11f5bba73f4c2fdeb5c6f4ba753",
@@ -27,7 +471,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-01T07:38:10.804000Z"
+          "published_at": "2026-07-01T07:38:10.804000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "dc9ca79df6948a980fe87c1de26f43dc53dfb898",
@@ -36,7 +482,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-01T06:34:13.073000Z"
+          "published_at": "2026-07-01T06:34:13.073000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "c8275a5949fda2678fed07621b78314e8b820828",
@@ -45,21 +493,25 @@
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-07-01T06:24:06Z"
+          "published_at": "2026-07-01T06:24:06Z",
+          "ai_label": "model_release",
+          "ai_score": 0.65
         },
         {
-          "id": "25fa127293f0b04bf42d27f3be42b806266acde5",
+          "id": "6b4b8c03155dbef88763fb8f302125c66dad7a3e",
           "title": "重新部署《克劳德·法布尔 5》 / Redeploying Fable 5",
           "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-01T03:11:40Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-01T03:11:40Z",
+          "ai_label": "curated_hotlist",
+          "ai_score": 0.65
         }
       ],
       "source_count": 5,
       "source_names": [
-        "Hacker News",
+        "Hacker News · 24h最热",
         "Hacker News 热门（buzzing.cc 中文翻译）",
         "Lobsters (技术社区)",
         "www.anthropic.com"
@@ -72,7 +524,9 @@
           "source": "Hacker News 热门（buzzing.cc 中文翻译）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T07:38:10.804000Z"
+          "published_at": "2026-07-01T07:38:10.804000Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "8fe25b023b6fa11f5bba73f4c2fdeb5c6f4ba753",
@@ -81,7 +535,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-01T07:38:10.804000Z"
+          "published_at": "2026-07-01T07:38:10.804000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "dc9ca79df6948a980fe87c1de26f43dc53dfb898",
@@ -90,7 +546,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-07-01T06:34:13.073000Z"
+          "published_at": "2026-07-01T06:34:13.073000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "c8275a5949fda2678fed07621b78314e8b820828",
@@ -99,29 +557,39 @@
           "source": "Lobsters (技术社区)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-07-01T06:24:06Z"
+          "published_at": "2026-07-01T06:24:06Z",
+          "ai_label": "model_release",
+          "ai_score": 0.65
         },
         {
-          "id": "25fa127293f0b04bf42d27f3be42b806266acde5",
+          "id": "6b4b8c03155dbef88763fb8f302125c66dad7a3e",
           "title": "重新部署《克劳德·法布尔 5》 / Redeploying Fable 5",
           "url": "https://www.anthropic.com/news/redeploying-fable-5",
-          "source": "Hacker News",
-          "source_name": "TechURLs",
-          "site_id": "techurls",
-          "published_at": "2026-07-01T03:11:40Z"
+          "source": "Hacker News · 24h最热",
+          "source_name": "Zeli",
+          "site_id": "zeli",
+          "published_at": "2026-07-01T03:11:40Z",
+          "ai_label": "curated_hotlist",
+          "ai_score": 0.65
         }
       ],
       "item_count": 5,
       "duplicate_count": 5,
-      "score": 0.884,
-      "importance": 0.884,
-      "importance_score": 0.884,
+      "score": 0.8693,
+      "importance": 0.8693,
+      "importance_score": 0.8693,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "anthropic",
+        "claude"
+      ],
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.78,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.9912,
+        "recency": 0.9096,
         "story_heat": 1.0
       },
       "category": "multi_source",
@@ -137,7 +605,10 @@
         "title": "Anthropic重新部署Claude Fable 5与Mythos 5",
         "url": "https://www.anthropic.com/news/redeploying-fable-5",
         "source": "Hacker News 热门（buzzing.cc 中文翻译）",
-        "source_name": "AI HOT"
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -155,7 +626,9 @@
           "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "published_at": "2026-07-01T00:00:00Z",
+          "ai_label": "developer_tool",
+          "ai_score": 0.98
         }
       ],
       "source_count": 1,
@@ -170,20 +643,29 @@
           "source": "OpenAI Codex Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-07-01T00:00:00Z"
+          "published_at": "2026-07-01T00:00:00Z",
+          "ai_label": "developer_tool",
+          "ai_score": 0.98
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8458,
-      "importance": 0.8458,
-      "importance_score": 0.8458,
+      "score": 0.8326,
+      "importance": 0.8326,
+      "importance_score": 0.8326,
+      "ai_label": "developer_tool",
+      "ai_score": 0.98,
+      "ai_signals": [
+        "codex",
+        "openai",
+        "developer"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8877,
+        "recency": 0.8146,
         "story_heat": 0.0
       },
       "category": "official",
@@ -199,7 +681,10 @@
         "title": "法典 CLI 0.142.5 / Codex CLI 0.142.5",
         "url": "https://developers.openai.com/codex/changelog",
         "source": "OpenAI Codex Changelog",
-        "source_name": "Official AI Updates"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "developer_tool",
+        "ai_score": 0.98
       }
     },
     {
@@ -217,7 +702,9 @@
           "source": "Google DeepMind",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T16:02:40Z"
+          "published_at": "2026-06-30T16:02:40Z",
+          "ai_label": "model_release",
+          "ai_score": 0.91
         },
         {
           "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
@@ -226,7 +713,9 @@
           "source": "Google DeepMind：Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z"
+          "published_at": "2026-06-30T16:02:40Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         }
       ],
       "source_count": 2,
@@ -242,7 +731,9 @@
           "source": "Google DeepMind",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T16:02:40Z"
+          "published_at": "2026-06-30T16:02:40Z",
+          "ai_label": "model_release",
+          "ai_score": 0.91
         },
         {
           "id": "ca6a96cb9b4e21c3801a5c4d06bd5f06c4d2bc74",
@@ -251,20 +742,27 @@
           "source": "Google DeepMind：Blog（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T16:02:40Z"
+          "published_at": "2026-06-30T16:02:40Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8394,
-      "importance": 0.8394,
-      "importance_score": 0.8394,
+      "score": 0.8277,
+      "importance": 0.8277,
+      "importance_score": 0.8277,
+      "ai_label": "model_release",
+      "ai_score": 0.91,
+      "ai_signals": [
+        "gemini"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7914,
+        "recency": 0.7262,
         "story_heat": 0.25
       },
       "category": "official",
@@ -281,89 +779,10 @@
         "title": "Google DeepMind 发布 Nano Banana 2 Lite 和 Gemini Omni Flash / Start building with Nano Banana 2 Lite and Gemini Omni Flash",
         "url": "https://deepmind.google/blog/start-building-with-nano-banana-2-lite-and-gemini-omni-flash",
         "source": "Google DeepMind",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_fb435a036a32",
-      "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-      "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "primary_url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-      "source": "OpenAI News",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T09:00:00Z"
-        },
-        {
-          "id": "daac7b474e3c6cca5d43664d02a457c7ae9b6cbb",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T09:00:00Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "OpenAI News",
-        "OpenAI：官网动态（RSS · 排除企业/客户案例）"
-      ],
-      "items": [
-        {
-          "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI News",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T09:00:00Z"
-        },
-        {
-          "id": "daac7b474e3c6cca5d43664d02a457c7ae9b6cbb",
-          "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势",
-          "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-          "source": "OpenAI：官网动态（RSS · 排除企业/客户案例）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T09:00:00Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.8337,
-      "importance": 0.8337,
-      "importance_score": 0.8337,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.95,
-        "recency": 0.7148,
-        "story_heat": 0.25
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T09:00:00Z",
-      "latest_at": "2026-06-30T09:00:00Z",
-      "primary_item": {
-        "id": "56eb64e8d4ec5647b793abb42dfa25fc53541d6b",
-        "title": "OpenAI Signals 数据揭示 ChatGPT 全球采用趋势 / How ChatGPT adoption has expanded",
-        "url": "https://openai.com/index/how-chatgpt-adoption-has-expanded",
-        "source": "OpenAI News",
-        "source_name": "Official AI Updates"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "model_release",
+        "ai_score": 0.91
       }
     },
     {
@@ -381,7 +800,9 @@
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z"
+          "published_at": "2026-06-30T18:32:50Z",
+          "ai_label": "agent_workflow",
+          "ai_score": 0.98
         }
       ],
       "source_count": 1,
@@ -396,20 +817,29 @@
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T18:32:50Z"
+          "published_at": "2026-06-30T18:32:50Z",
+          "ai_label": "agent_workflow",
+          "ai_score": 0.98
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8337,
-      "importance": 0.8337,
-      "importance_score": 0.8337,
+      "score": 0.8215,
+      "importance": 0.8215,
+      "importance_score": 0.8215,
+      "ai_label": "agent_workflow",
+      "ai_score": 0.98,
+      "ai_signals": [
+        "hugging face",
+        "huggingface",
+        "benchmark"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.98,
-        "recency": 0.8205,
+        "recency": 0.7529,
         "story_heat": 0.0
       },
       "category": "official",
@@ -425,7 +855,10 @@
         "title": "ScarfBench：企业 Java 框架迁移的 AI 代理基准测试 / ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration",
         "url": "https://huggingface.co/blog/ibm-research/scarfbench",
         "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "agent_workflow",
+        "ai_score": 0.98
       }
     },
     {
@@ -443,7 +876,9 @@
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z"
+          "published_at": "2026-06-30T17:25:51Z",
+          "ai_label": "model_release",
+          "ai_score": 0.95
         }
       ],
       "source_count": 1,
@@ -458,20 +893,28 @@
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T17:25:51Z"
+          "published_at": "2026-06-30T17:25:51Z",
+          "ai_label": "model_release",
+          "ai_score": 0.95
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8253,
-      "importance": 0.8253,
-      "importance_score": 0.8253,
+      "score": 0.8134,
+      "importance": 0.8134,
+      "importance_score": 0.8134,
+      "ai_label": "model_release",
+      "ai_score": 0.95,
+      "ai_signals": [
+        "claude",
+        "copilot"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.8074,
+        "recency": 0.7409,
         "story_heat": 0.0
       },
       "category": "official",
@@ -487,7 +930,10 @@
         "title": "Claude Sonnet 5 一般可用于 GitHub Copilot / Claude Sonnet 5 is generally available for GitHub Copilot",
         "url": "https://github.blog/changelog/2026-06-30-claude-sonnet-5-is-generally-available-for-github-copilot",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "model_release",
+        "ai_score": 0.95
       }
     },
     {
@@ -505,7 +951,9 @@
           "source": "Anthropic：Newsroom（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z"
+          "published_at": "2026-06-30T18:02:06.984000Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "67fa563844e9154887350136b4fe9208b8030f96",
@@ -514,7 +962,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z"
+          "published_at": "2026-06-30T18:19:05.316000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
@@ -523,7 +973,9 @@
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z"
+          "published_at": "2026-06-30T17:59:52Z",
+          "ai_label": "model_release",
+          "ai_score": 0.65
         }
       ],
       "source_count": 3,
@@ -540,7 +992,9 @@
           "source": "Anthropic：Newsroom（网页）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T18:02:06.984000Z"
+          "published_at": "2026-06-30T18:02:06.984000Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "67fa563844e9154887350136b4fe9208b8030f96",
@@ -549,7 +1003,9 @@
           "source": "www.anthropic.com",
           "source_name": "Buzzing",
           "site_id": "buzzing",
-          "published_at": "2026-06-30T18:19:05.316000Z"
+          "published_at": "2026-06-30T18:19:05.316000Z",
+          "ai_label": "ai_product_update",
+          "ai_score": 0.65
         },
         {
           "id": "532e3a35239eda36cc6c4759597bf41df78326e8",
@@ -558,20 +1014,28 @@
           "source": "Hacker News (黑客新闻)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": "2026-06-30T17:59:52Z"
+          "published_at": "2026-06-30T17:59:52Z",
+          "ai_label": "model_release",
+          "ai_score": 0.65
         }
       ],
       "item_count": 3,
       "duplicate_count": 3,
-      "score": 0.8112,
-      "importance": 0.8112,
-      "importance_score": 0.8112,
+      "score": 0.7991,
+      "importance": 0.7991,
+      "importance_score": 0.7991,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "anthropic",
+        "claude"
+      ],
       "importance_label": "多源热议",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8144,
+        "recency": 0.7474,
         "story_heat": 0.5
       },
       "category": "multi_source",
@@ -587,7 +1051,10 @@
         "title": "Claude Sonnet 5 发布",
         "url": "https://www.anthropic.com/news/claude-sonnet-5",
         "source": "Anthropic：Newsroom（网页）",
-        "source_name": "AI HOT"
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -605,22 +1072,26 @@
           "source": "公众号：数字生命卡兹克",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z"
+          "published_at": "2026-07-01T00:11:00Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
-          "id": "62a6b81d5f61661b85148e64a141616e9f8c54cf",
+          "id": "a423241668152b534d596cca5b185cbe9c44e092",
           "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
           "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T00:55:08Z"
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T00:55:08Z",
+          "ai_label": "model_release",
+          "ai_score": 0.75
         }
       ],
       "source_count": 2,
       "source_names": [
         "公众号：数字生命卡兹克",
-        "虎嗅 (Huxiu)"
+        "虎嗅"
       ],
       "items": [
         {
@@ -630,29 +1101,39 @@
           "source": "公众号：数字生命卡兹克",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T00:11:00Z"
+          "published_at": "2026-07-01T00:11:00Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
-          "id": "62a6b81d5f61661b85148e64a141616e9f8c54cf",
+          "id": "a423241668152b534d596cca5b185cbe9c44e092",
           "title": "Anthropic偷偷在Claude Code中植入了隐形代码，只为识别中国用户。",
           "url": "https://www.huxiu.com/article/4871698.html?f=rss",
-          "source": "虎嗅 (Huxiu)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-07-01T00:55:08Z"
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-01T00:55:08Z",
+          "ai_label": "model_release",
+          "ai_score": 0.75
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.8088,
-      "importance": 0.8088,
-      "importance_score": 0.8088,
+      "score": 0.7956,
+      "importance": 0.7956,
+      "importance_score": 0.7956,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "anthropic",
+        "claude"
+      ],
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.84,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8901,
+        "recency": 0.8168,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -668,7 +1149,10 @@
         "title": "Anthropic在Claude Code中植入隐写术代码识别中国用户",
         "url": "https://mp.weixin.qq.com/s/yLb4T2UC16ebKHApdBbgWw",
         "source": "公众号：数字生命卡兹克",
-        "source_name": "AI HOT"
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -686,7 +1170,9 @@
           "source": "公众号：龙猫LongCat（美团）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z"
+          "published_at": "2026-07-01T02:24:00Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "319f9f643d2043180402a849d05e50165b6c152a",
@@ -695,7 +1181,9 @@
           "source": "美团技术团队 (Meituan Tech)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": null
+          "published_at": null,
+          "ai_label": "model_release",
+          "ai_score": 0.65
         }
       ],
       "source_count": 2,
@@ -711,7 +1199,9 @@
           "source": "公众号：龙猫LongCat（美团）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-07-01T02:24:00Z"
+          "published_at": "2026-07-01T02:24:00Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "319f9f643d2043180402a849d05e50165b6c152a",
@@ -720,20 +1210,28 @@
           "source": "美团技术团队 (Meituan Tech)",
           "source_name": "Info Flow",
           "site_id": "iris",
-          "published_at": null
+          "published_at": null,
+          "ai_label": "model_release",
+          "ai_score": 0.65
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.808,
-      "importance": 0.808,
-      "importance_score": 0.808,
+      "score": 0.7944,
+      "importance": 0.7944,
+      "importance_score": 0.7944,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "大模型",
+        "算力"
+      ],
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.82,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.919,
+        "recency": 0.8434,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -749,7 +1247,204 @@
         "title": "美团 LongCat-2.0 正式发布：国产算力集群训练的万亿参数大模型",
         "url": "https://mp.weixin.qq.com/s/9XFcx3fmFcmbry5bHMJsow",
         "source": "公众号：龙猫LongCat（美团）",
-        "source_name": "AI HOT"
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
+      }
+    },
+    {
+      "story_id": "story_4ccea67daf74",
+      "title": "Meta效仿SpaceX，将过剩AI算力变现",
+      "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "primary_url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+      "source": "TechCrunch：AI（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "d070303d8c3916057db8f74e22815e26168d6a34",
+          "title": "Meta效仿SpaceX，将过剩AI算力变现",
+          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T13:43:07Z",
+          "ai_label": "infra_compute",
+          "ai_score": 1.0
+        },
+        {
+          "id": "5b29f5d1a51f44c69e956d0df5f890521db6bab8",
+          "title": "Meta效仿SpaceX，将过剩AI算力变现 / Meta, like SpaceX, looks to turn excess AI compute into cash",
+          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T13:43:07Z",
+          "ai_label": "ai_general",
+          "ai_score": 0.76
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "TechCrunch AI",
+        "TechCrunch：AI（RSS）"
+      ],
+      "items": [
+        {
+          "id": "d070303d8c3916057db8f74e22815e26168d6a34",
+          "title": "Meta效仿SpaceX，将过剩AI算力变现",
+          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+          "source": "TechCrunch：AI（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T13:43:07Z",
+          "ai_label": "infra_compute",
+          "ai_score": 1.0
+        },
+        {
+          "id": "5b29f5d1a51f44c69e956d0df5f890521db6bab8",
+          "title": "Meta效仿SpaceX，将过剩AI算力变现 / Meta, like SpaceX, looks to turn excess AI compute into cash",
+          "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+          "source": "TechCrunch AI",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T13:43:07Z",
+          "ai_label": "ai_general",
+          "ai_score": 0.76
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7914,
+      "importance": 0.7914,
+      "importance_score": 0.7914,
+      "ai_label": "infra_compute",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "算力"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.72,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9931,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T13:43:07Z",
+      "latest_at": "2026-07-01T13:43:07Z",
+      "primary_item": {
+        "id": "d070303d8c3916057db8f74e22815e26168d6a34",
+        "title": "Meta效仿SpaceX，将过剩AI算力变现",
+        "url": "https://techcrunch.com/2026/07/01/meta-like-spacex-looks-to-turn-excess-ai-compute-into-cash",
+        "source": "TechCrunch：AI（RSS）",
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "infra_compute",
+        "ai_score": 1.0
+      }
+    },
+    {
+      "story_id": "story_ebdc837ee1f0",
+      "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+      "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "primary_url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+      "source": "MarkTechPost（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T08:10:17Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
+        },
+        {
+          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T08:10:17Z",
+          "ai_label": "research_paper",
+          "ai_score": 0.71
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "MarkTechPost Research",
+        "MarkTechPost（RSS）"
+      ],
+      "items": [
+        {
+          "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T08:10:17Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
+        },
+        {
+          "id": "0fafe80f32af041dd3b919708611c1997b1364e7",
+          "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型 / NVIDIA Releases Nemotron-Labs-TwoTower: an Open-Weight Diffusion Language Model Built on a Frozen Autoregressive Nemotron-3-Nano-30B-A3B Backbone",
+          "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+          "source": "MarkTechPost Research",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T08:10:17Z",
+          "ai_label": "research_paper",
+          "ai_score": 0.71
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7806,
+      "importance": 0.7806,
+      "importance_score": 0.7806,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "语言模型"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.73,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.9167,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T08:10:17Z",
+      "latest_at": "2026-07-01T08:10:17Z",
+      "primary_item": {
+        "id": "a02da64dc6e9f253657f250719231d72c42a1cd6",
+        "title": "NVIDIA 发布 Nemotron-Labs-TwoTower 开放权重扩散语言模型",
+        "url": "https://www.marktechpost.com/2026/07/01/nvidia-releases-nemotron-labs-twotower",
+        "source": "MarkTechPost（RSS）",
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -767,7 +1462,9 @@
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T14:39:11Z"
+          "published_at": "2026-06-30T14:39:11Z",
+          "ai_label": "ai_general",
+          "ai_score": 0.95
         }
       ],
       "source_count": 1,
@@ -782,20 +1479,28 @@
           "source": "Hugging Face Blog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T14:39:11Z"
+          "published_at": "2026-06-30T14:39:11Z",
+          "ai_label": "ai_general",
+          "ai_score": 0.95
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8196,
-      "importance": 0.8196,
-      "importance_score": 0.8196,
+      "score": 0.8081,
+      "importance": 0.8081,
+      "importance_score": 0.8081,
+      "ai_label": "ai_general",
+      "ai_score": 0.95,
+      "ai_signals": [
+        "hugging face",
+        "huggingface"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.95,
-        "recency": 0.7756,
+        "recency": 0.7118,
         "story_heat": 0.0
       },
       "category": "official",
@@ -811,7 +1516,108 @@
         "title": "为什么专业化是不可避免的 / Why Specialization Is Inevitable",
         "url": "https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable",
         "source": "Hugging Face Blog",
-        "source_name": "Official AI Updates"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "ai_general",
+        "ai_score": 0.95
+      }
+    },
+    {
+      "story_id": "story_c035cdd5ac64",
+      "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+      "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "primary_url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+      "source": "The Decoder：AI News（RSS）",
+      "source_name": "AI HOT",
+      "sources": [
+        {
+          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T10:03:41Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
+        },
+        {
+          "id": "98b7c08e0e207b717813fda0c22bd478bfd22969",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T10:03:41Z",
+          "ai_label": "research_paper",
+          "ai_score": 0.79
+        }
+      ],
+      "source_count": 2,
+      "source_names": [
+        "The Decoder AI News",
+        "The Decoder：AI News（RSS）"
+      ],
+      "items": [
+        {
+          "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+          "source": "The Decoder：AI News（RSS）",
+          "source_name": "AI HOT",
+          "site_id": "aihot",
+          "published_at": "2026-07-01T10:03:41Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
+        },
+        {
+          "id": "98b7c08e0e207b717813fda0c22bd478bfd22969",
+          "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略 / OpenAI's genomics paper accidentally reveals a Pro lineup it hasn't announced yet",
+          "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+          "source": "The Decoder AI News",
+          "source_name": "Curated Media",
+          "site_id": "curated_media",
+          "published_at": "2026-07-01T10:03:41Z",
+          "ai_label": "research_paper",
+          "ai_score": 0.79
+        }
+      ],
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.7762,
+      "importance": 0.7762,
+      "importance_score": 0.7762,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "gpt",
+        "openai"
+      ],
+      "importance_label": "行业动态",
+      "importance_breakdown": {
+        "editorial": 0.7,
+        "source_tier": 0.78,
+        "ai_relevance": 1.0,
+        "recency": 0.942,
+        "story_heat": 0.25
+      },
+      "category": "industry",
+      "reasons": [
+        "multi_source",
+        "high_ai_relevance",
+        "high_importance"
+      ],
+      "earliest_at": "2026-07-01T10:03:41Z",
+      "latest_at": "2026-07-01T10:03:41Z",
+      "primary_item": {
+        "id": "bd3356c9ae1e7719cec53d38611472ab635c0a8a",
+        "title": "OpenAI论文揭示GPT-5.6三个Pro变体，打破单一顶级策略",
+        "url": "https://the-decoder.com/openai-paper-reveals-three-gpt-5-6-pro-models-breaking-with-single-top-tier-strategy",
+        "source": "The Decoder：AI News（RSS）",
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -829,7 +1635,9 @@
           "source": "Claude Code：GitHub Releases（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T17:56:37Z"
+          "published_at": "2026-06-30T17:56:37Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "d25f98343b70993bc74f0870eb8cf3197ee81028",
@@ -838,7 +1646,9 @@
           "source": "Claude Code Releases",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-30T17:56:37Z"
+          "published_at": "2026-06-30T17:56:37Z",
+          "ai_label": "model_release",
+          "ai_score": 0.79
         }
       ],
       "source_count": 2,
@@ -854,7 +1664,9 @@
           "source": "Claude Code：GitHub Releases（RSS）",
           "source_name": "AI HOT",
           "site_id": "aihot",
-          "published_at": "2026-06-30T17:56:37Z"
+          "published_at": "2026-06-30T17:56:37Z",
+          "ai_label": "model_release",
+          "ai_score": 1.0
         },
         {
           "id": "d25f98343b70993bc74f0870eb8cf3197ee81028",
@@ -863,20 +1675,27 @@
           "source": "Claude Code Releases",
           "source_name": "Curated Media",
           "site_id": "curated_media",
-          "published_at": "2026-06-30T17:56:37Z"
+          "published_at": "2026-06-30T17:56:37Z",
+          "ai_label": "model_release",
+          "ai_score": 0.79
         }
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.786,
-      "importance": 0.786,
-      "importance_score": 0.786,
+      "score": 0.774,
+      "importance": 0.774,
+      "importance_score": 0.774,
+      "ai_label": "model_release",
+      "ai_score": 1.0,
+      "ai_signals": [
+        "claude"
+      ],
       "importance_label": "行业动态",
       "importance_breakdown": {
         "editorial": 0.81,
         "source_tier": 0.78,
         "ai_relevance": 1.0,
-        "recency": 0.8134,
+        "recency": 0.7464,
         "story_heat": 0.25
       },
       "category": "industry",
@@ -892,7 +1711,10 @@
         "title": "Claude Code v2.1.197 发布：默认模型升级为 Claude Sonnet 5，支持原生 1M-token 上下文窗口",
         "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.197",
         "source": "Claude Code：GitHub Releases（RSS）",
-        "source_name": "AI HOT"
+        "source_name": "AI HOT",
+        "site_id": "aihot",
+        "ai_label": "model_release",
+        "ai_score": 1.0
       }
     },
     {
@@ -910,7 +1732,9 @@
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
+          "published_at": "2026-06-30T16:00:19Z",
+          "ai_label": "developer_tool",
+          "ai_score": 0.91
         }
       ],
       "source_count": 1,
@@ -925,20 +1749,27 @@
           "source": "GitHub Changelog",
           "source_name": "Official AI Updates",
           "site_id": "official_ai",
-          "published_at": "2026-06-30T16:00:19Z"
+          "published_at": "2026-06-30T16:00:19Z",
+          "ai_label": "developer_tool",
+          "ai_score": 0.91
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.8144,
-      "importance": 0.8144,
-      "importance_score": 0.8144,
+      "score": 0.8026,
+      "importance": 0.8026,
+      "importance_score": 0.8026,
+      "ai_label": "developer_tool",
+      "ai_score": 0.91,
+      "ai_signals": [
+        "copilot"
+      ],
       "importance_label": "官方更新",
       "importance_breakdown": {
         "editorial": 0.9,
         "source_tier": 1.0,
         "ai_relevance": 0.91,
-        "recency": 0.7909,
+        "recency": 0.7258,
         "story_heat": 0.0
       },
       "category": "official",
@@ -954,575 +1785,10 @@
         "title": "Copilot Agent 现已在 JetBrains AI Assistant 中可用 / Copilot Agent is now available in JetBrains AI Assistant",
         "url": "https://github.blog/changelog/2026-06-30-copilot-agent-is-now-available-in-jetbrains-ai-assistant",
         "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_b9d4f05e138e",
-      "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达5亿美元",
-      "url": "https://www.aibase.com/news/29298",
-      "primary_url": "https://www.aibase.com/news/29298",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "30ab002e2301578f289dbe1c15ec32caabf5c5ed",
-          "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达5亿美元",
-          "url": "https://www.aibase.com/news/29298",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T03:55:47.568793Z"
-        },
-        {
-          "id": "ef1d63ddfde484202ae49d826a5aecd86766f195",
-          "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达 5 亿美元",
-          "url": "https://www.aibase.com/zh/news/29298",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "AIbase",
-        "Readhub · AI"
-      ],
-      "items": [
-        {
-          "id": "30ab002e2301578f289dbe1c15ec32caabf5c5ed",
-          "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达5亿美元",
-          "url": "https://www.aibase.com/news/29298",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T03:55:47.568793Z"
-        },
-        {
-          "id": "ef1d63ddfde484202ae49d826a5aecd86766f195",
-          "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达 5 亿美元",
-          "url": "https://www.aibase.com/zh/news/29298",
-          "source": "Readhub · AI",
-          "source_name": "TopHub",
-          "site_id": "tophub",
-          "published_at": null
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7817,
-      "importance": 0.7817,
-      "importance_score": 0.7817,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9395,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T03:55:47.568793Z",
-      "latest_at": "2026-07-01T03:55:47.568793Z",
-      "primary_item": {
-        "id": "30ab002e2301578f289dbe1c15ec32caabf5c5ed",
-        "title": "前 DeepMind 团队量化 AI 公司 EquiLibre 完成 A 轮融资，估值达5亿美元",
-        "url": "https://www.aibase.com/news/29298",
-        "source": "AIbase",
-        "source_name": "AIbase"
-      }
-    },
-    {
-      "story_id": "story_0fc811547c38",
-      "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-      "url": "https://www.ithome.com/0/970/810.htm",
-      "primary_url": "https://www.ithome.com/0/970/810.htm",
-      "source": "IT之家（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-          "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:43:32Z"
-        },
-        {
-          "id": "73d52bb52fa0bf7707679fec31f1ca43886abadb",
-          "title": "苹果 CEO 库克与欧盟科技主管就 Siri AI 展开“建设性”会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T23:43:32Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "IT之家 (ITHome)",
-        "IT之家（RSS）"
-      ],
-      "items": [
-        {
-          "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-          "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T23:43:32Z"
-        },
-        {
-          "id": "73d52bb52fa0bf7707679fec31f1ca43886abadb",
-          "title": "苹果 CEO 库克与欧盟科技主管就 Siri AI 展开“建设性”会谈",
-          "url": "https://www.ithome.com/0/970/810.htm",
-          "source": "IT之家 (ITHome)",
-          "source_name": "Info Flow",
-          "site_id": "iris",
-          "published_at": "2026-06-30T23:43:32Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7718,
-      "importance": 0.7718,
-      "importance_score": 0.7718,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8842,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T23:43:32Z",
-      "latest_at": "2026-06-30T23:43:32Z",
-      "primary_item": {
-        "id": "d5eb0a29d17463e21b534c85b25a7b97746b67d7",
-        "title": "库克与欧盟科技主管就新版Siri AI举行建设性会谈",
-        "url": "https://www.ithome.com/0/970/810.htm",
-        "source": "IT之家（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_c5fef2c86cb3",
-      "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-      "url": "https://x.com/shao__meng/status/2072126769986220157",
-      "primary_url": "https://x.com/shao__meng/status/2072126769986220157",
-      "source": "X：邵猛 (@shao__meng)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：邵猛 (@shao__meng)"
-      ],
-      "items": [
-        {
-          "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-          "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-          "url": "https://x.com/shao__meng/status/2072126769986220157",
-          "source": "X：邵猛 (@shao__meng)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-07-01T01:14:54Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7593,
-      "importance": 0.7593,
-      "importance_score": 0.7593,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.75,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.9038,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T01:14:54Z",
-      "latest_at": "2026-07-01T01:14:54Z",
-      "primary_item": {
-        "id": "d10ca2ca83e854ed28066568d999ba5938a7ac14",
-        "title": "mattpocockuk 的 /writing-great-skills：编写可预测 AI Skill 的指南",
-        "url": "https://x.com/shao__meng/status/2072126769986220157",
-        "source": "X：邵猛 (@shao__meng)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_759e2573fbbc",
-      "title": "Acti 将 AI 智能体直接放入手机键盘",
-      "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-      "primary_url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-      "source": "TechCrunch：AI（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "512a5bb906707c2311c2abffb83f770704604ed7",
-          "title": "Acti 将 AI 智能体直接放入手机键盘",
-          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:52:46Z"
-        },
-        {
-          "id": "52f7d10a9d95b5830f13d5a81d95572bfd80850a",
-          "title": "Acti 将 AI 智能体直接放入手机键盘 / Acti puts AI agents directly into your smartphone keyboard",
-          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T17:52:46Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "TechCrunch AI",
-        "TechCrunch：AI（RSS）"
-      ],
-      "items": [
-        {
-          "id": "512a5bb906707c2311c2abffb83f770704604ed7",
-          "title": "Acti 将 AI 智能体直接放入手机键盘",
-          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-          "source": "TechCrunch：AI（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T17:52:46Z"
-        },
-        {
-          "id": "52f7d10a9d95b5830f13d5a81d95572bfd80850a",
-          "title": "Acti 将 AI 智能体直接放入手机键盘 / Acti puts AI agents directly into your smartphone keyboard",
-          "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-          "source": "TechCrunch AI",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T17:52:46Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7589,
-      "importance": 0.7589,
-      "importance_score": 0.7589,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8126,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T17:52:46Z",
-      "latest_at": "2026-06-30T17:52:46Z",
-      "primary_item": {
-        "id": "512a5bb906707c2311c2abffb83f770704604ed7",
-        "title": "Acti 将 AI 智能体直接放入手机键盘",
-        "url": "https://techcrunch.com/2026/06/30/acti-puts-ai-agents-directly-into-your-smartphone-keyboard",
-        "source": "TechCrunch：AI（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_a8538ea13566",
-      "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-      "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-      "primary_url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-      "source": "X：AI Safety Memes (@AISafetyMemes)",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T22:32:34Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "X：AI Safety Memes (@AISafetyMemes)"
-      ],
-      "items": [
-        {
-          "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-          "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-          "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-          "source": "X：AI Safety Memes (@AISafetyMemes)",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T22:32:34Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7561,
-      "importance": 0.7561,
-      "importance_score": 0.7561,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.76,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.8692,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T22:32:34Z",
-      "latest_at": "2026-06-30T22:32:34Z",
-      "primary_item": {
-        "id": "ca907b7c8ff7e54887efc4f50ef2a48e1df55e18",
-        "title": "AI 用 prover-verifier LLM 循环攻克 9 个未解数学难题",
-        "url": "https://x.com/AISafetyMemes/status/2072085914558558402",
-        "source": "X：AI Safety Memes (@AISafetyMemes)",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_0b9cb68fce80",
-      "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-      "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-      "primary_url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-      "source": "GitHub Changelog",
-      "source_name": "Official AI Updates",
-      "sources": [
-        {
-          "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-          "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-          "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:42:21Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "GitHub Changelog"
-      ],
-      "items": [
-        {
-          "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-          "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-          "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-          "source": "GitHub Changelog",
-          "source_name": "Official AI Updates",
-          "site_id": "official_ai",
-          "published_at": "2026-06-30T16:42:21Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.8078,
-      "importance": 0.8078,
-      "importance_score": 0.8078,
-      "importance_label": "官方更新",
-      "importance_breakdown": {
-        "editorial": 0.9,
-        "source_tier": 1.0,
-        "ai_relevance": 0.87,
-        "recency": 0.799,
-        "story_heat": 0.0
-      },
-      "category": "official",
-      "reasons": [
-        "official_source",
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-06-30T16:42:21Z",
-      "latest_at": "2026-06-30T16:42:21Z",
-      "primary_item": {
-        "id": "e656c5b571cc3cac8063e9b71a8ec01791c49782",
-        "title": "GitHub 代码覆盖率合并保护拉取请求 / GitHub code coverage merge protection for pull requests",
-        "url": "https://github.blog/changelog/2026-06-30-github-code-coverage-merge-protection-for-pull-requests",
-        "source": "GitHub Changelog",
-        "source_name": "Official AI Updates"
-      }
-    },
-    {
-      "story_id": "story_42e26984ee68",
-      "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-      "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-      "primary_url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-      "source": "The Decoder：AI News（RSS）",
-      "source_name": "AI HOT",
-      "sources": [
-        {
-          "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
-          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T11:14:52Z"
-        },
-        {
-          "id": "7ed729c25f314fccca6bd0316f07511b202b3f2d",
-          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示 / Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
-          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T11:14:52Z"
-        }
-      ],
-      "source_count": 2,
-      "source_names": [
-        "The Decoder AI News",
-        "The Decoder：AI News（RSS）"
-      ],
-      "items": [
-        {
-          "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
-          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-          "source": "The Decoder：AI News（RSS）",
-          "source_name": "AI HOT",
-          "site_id": "aihot",
-          "published_at": "2026-06-30T11:14:52Z"
-        },
-        {
-          "id": "7ed729c25f314fccca6bd0316f07511b202b3f2d",
-          "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示 / Meta secretly tested ChatGPT, Gemini, and Character.AI with thousands of minor-perspective crisis prompts",
-          "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-          "source": "The Decoder AI News",
-          "source_name": "Curated Media",
-          "site_id": "curated_media",
-          "published_at": "2026-06-30T11:14:52Z"
-        }
-      ],
-      "item_count": 2,
-      "duplicate_count": 2,
-      "score": 0.7395,
-      "importance": 0.7395,
-      "importance_score": 0.7395,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.7,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 0.7384,
-        "story_heat": 0.25
-      },
-      "category": "industry",
-      "reasons": [
-        "multi_source",
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-06-30T11:14:52Z",
-      "latest_at": "2026-06-30T11:14:52Z",
-      "primary_item": {
-        "id": "9be482f343df6de8317876b5e8bbadef6d50533a",
-        "title": "Meta秘密测试ChatGPT等竞品：承包商假扮未成年发送数万条危机提示",
-        "url": "https://the-decoder.com/meta-secretly-tested-chatgpt-gemini-and-character-ai-with-thousands-of-minor-perspective-crisis-prompts",
-        "source": "The Decoder：AI News（RSS）",
-        "source_name": "AI HOT"
-      }
-    },
-    {
-      "story_id": "story_aa2171452c3f",
-      "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-      "url": "https://www.aibase.com/news/29301",
-      "primary_url": "https://www.aibase.com/news/29301",
-      "source": "AIbase",
-      "source_name": "AIbase",
-      "sources": [
-        {
-          "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-          "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-          "url": "https://www.aibase.com/news/29301",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T08:14:56.476655Z"
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "AIbase"
-      ],
-      "items": [
-        {
-          "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-          "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-          "url": "https://www.aibase.com/news/29301",
-          "source": "AIbase",
-          "source_name": "AIbase",
-          "site_id": "aibase",
-          "published_at": "2026-07-01T08:14:56.476655Z"
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.7676,
-      "importance": 0.7676,
-      "importance_score": 0.7676,
-      "importance_label": "行业动态",
-      "importance_breakdown": {
-        "editorial": 0.72,
-        "source_tier": 0.78,
-        "ai_relevance": 1.0,
-        "recency": 1.0,
-        "story_heat": 0.0
-      },
-      "category": "industry",
-      "reasons": [
-        "high_ai_relevance",
-        "high_importance"
-      ],
-      "earliest_at": "2026-07-01T08:14:56.476655Z",
-      "latest_at": "2026-07-01T08:14:56.476655Z",
-      "primary_item": {
-        "id": "a97732d64b55e64c777fe5f883fad2b69f0d9aff",
-        "title": "AI芯片独角兽Etched 融资成功，估值飙升至50亿美元！",
-        "url": "https://www.aibase.com/news/29301",
-        "source": "AIbase",
-        "source_name": "AIbase"
+        "source_name": "Official AI Updates",
+        "site_id": "official_ai",
+        "ai_label": "developer_tool",
+        "ai_score": 0.91
       }
     }
   ]

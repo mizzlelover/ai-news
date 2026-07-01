@@ -24,6 +24,7 @@ def make_item(
     title: str | None = None,
     hours_ago: int = 1,
     ai_score: float = 0.9,
+    ai_label: str = "model_release",
 ) -> dict:
     item = {
         "id": f"item-{idx}",
@@ -35,6 +36,7 @@ def make_item(
         "published_at": (NOW - timedelta(hours=hours_ago)).isoformat().replace("+00:00", "Z"),
         "ai_is_related": True,
         "ai_score": ai_score,
+        "ai_label": ai_label,
     }
     return add_source_tier_fields(item)
 
@@ -127,7 +129,38 @@ def test_daily_brief_record_supports_bole_output_contract():
     assert record["latest_at"]
     assert len(record["items"]) == 2
     assert len(record["sources"]) == 2
+    assert record["ai_label"] == "model_release"
+    assert record["primary_item"]["ai_label"] == "model_release"
     assert record["primary_item"]["id"] == "item-1"
+
+
+def test_daily_brief_reserves_slots_for_smart_tourism_stories():
+    subjects = [
+        "model routing", "agent orchestration", "chip supply", "benchmark design", "voice cloning",
+        "developer APIs", "robot planning", "dataset governance", "cloud inference", "security evals",
+        "workflow automation", "vector search", "fine tuning", "code review", "video generation",
+        "browser agents", "enterprise rollout", "open weights", "latency tuning", "memory systems",
+        "token caching", "policy tooling", "research agents", "education tools", "medical copilots",
+    ]
+    ai_items = [
+        make_item(i, title=f"OpenAI high priority update for {subjects[i]}", ai_label="model_release")
+        for i in range(25)
+    ]
+    tourism_item = make_item(
+        100,
+        site_id="opmlrss",
+        title="Hotel operators adopt smart tourism data platforms for destination growth",
+        ai_score=0.66,
+        ai_label="tourism_tech",
+    )
+    tourism_item["source"] = "Skift"
+    stories, _events = merge_story_items(ai_items + [tourism_item], NOW, 24, title_threshold=1.1)
+
+    payload = build_daily_brief_payload(stories, generated_at="2026-06-02T12:00:00Z", window_hours=24)
+
+    labels = {story.get("ai_label") for story in payload["items"]}
+    assert payload["total_items"] == 20
+    assert "tourism_tech" in labels
 
 
 def test_stories_and_merge_log_payload_shapes_are_explicit():

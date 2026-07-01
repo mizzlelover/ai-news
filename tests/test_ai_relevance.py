@@ -126,6 +126,33 @@ class AiRelevanceScoringTests(unittest.TestCase):
         self.assertIn("ai_signals", out)
         self.assertTrue(is_ai_related_record(rec))
 
+    def test_accepts_smart_tourism_policy_from_opml(self):
+        rec = {
+            "site_id": "opmlrss",
+            "site_name": "OPML RSS",
+            "source": "国务院 政策文件",
+            "title": "商务部等8单位：到2030年打造160列以上铁路旅游列车专用车组",
+            "url": "https://www.gov.cn/example",
+        }
+        result = score_ai_relevance(rec)
+        self.assertTrue(result["is_ai_related"])
+        self.assertGreaterEqual(result["score"], 0.65)
+        self.assertEqual(result["reason"], "matched_smart_tourism_signal")
+        self.assertIn(result["label"], {"tourism_policy", "destination_marketing"})
+
+    def test_accepts_trusted_travel_vertical_feed_from_opml(self):
+        rec = {
+            "site_id": "opmlrss",
+            "site_name": "OPML RSS",
+            "source": "Skift",
+            "title": "Hotel operators rethink guest loyalty programs",
+            "url": "https://skift.com/example",
+        }
+        result = score_ai_relevance(rec)
+        self.assertTrue(result["is_ai_related"])
+        self.assertGreaterEqual(result["score"], 0.65)
+        self.assertEqual(result["label"], "hospitality_ops")
+
 
 if __name__ == "__main__":
     unittest.main()

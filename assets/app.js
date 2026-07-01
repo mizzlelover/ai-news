@@ -814,6 +814,11 @@ function labelText(item) {
     industry_business: "行业动态",
     research_paper: "研究论文",
     robotics: "机器人",
+    tourism_policy: "文旅政策",
+    tourism_tech: "旅游科技",
+    hospitality_ops: "酒店运营",
+    destination_marketing: "目的地运营",
+    travel_business: "旅游商业",
     curated_hotlist: "热点",
     ai_tech: "技术趋势",
   };
@@ -893,6 +898,11 @@ function itemSections(item) {
 
   if (
     label === "industry_business" ||
+    label === "tourism_policy" ||
+    label === "tourism_tech" ||
+    label === "hospitality_ops" ||
+    label === "destination_marketing" ||
+    label === "travel_business" ||
     matchesAny(hay, [
       /funding|raised|ipo|acquire|acquisition|lawsuit|regulation|policy|white house|pentagon|nvidia|salesforce|meta|microsoft|融资|收购|上市|监管|政策|裁员|估值|债券|芯片|公司|行业|政府|五角大楼|白宫/,
     ])

@@ -46,6 +46,9 @@ jobs:
           if [ -n "$FOLLOW_OPML_B64" ]; then
             echo "$FOLLOW_OPML_B64" | base64 --decode > feeds/follow.opml
             echo "Loaded feeds/follow.opml from FOLLOW_OPML_B64 secret"
+          elif [ -f feeds/wisdom-tourism.opml ]; then
+            cp feeds/wisdom-tourism.opml feeds/follow.opml
+            echo "Loaded smart tourism OPML from feeds/wisdom-tourism.opml"
           elif [ -f feeds/follow.example.opml ]; then
             cp feeds/follow.example.opml feeds/follow.opml
             echo "Loaded public demo OPML from feeds/follow.example.opml"
@@ -91,12 +94,12 @@ jobs:
           TIKHUB_RUN_UTC_HOUR: ${{ vars.TIKHUB_RUN_UTC_HOUR }}
           TIKHUB_RUN_UTC_MINUTE_MAX: ${{ vars.TIKHUB_RUN_UTC_MINUTE_MAX }}
           TIKHUB_FORCE_RUN: ${{ inputs.force_tikhub && '1' || '' }}
-          RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 10 }}
+          RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 40 }}
         run: |
           if [ -f feeds/follow.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-10}"
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/follow.opml --rss-max-feeds "${RSS_MAX_FEEDS:-40}" --translate-max-new 0
           else
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --translate-max-new 0
           fi
 
       - name: Commit and push changes

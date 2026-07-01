@@ -188,18 +188,26 @@ and AgentMail budget notes.
 
 ## Example OPML Seeds
 
+`feeds/wisdom-tourism.opml` contains the current smart-tourism source set used by
+GitHub Actions when no private `FOLLOW_OPML_B64` secret is configured. It keeps
+only directly fetchable RSS/Atom-style sources from the July 1, 2026 source list:
+global travel and hospitality media, China tech/business media, China travel
+vertical media, official policy/statistics feeds, and Substack newsletter feeds.
+X accounts, WeChat accounts, podcasts, plain websites, tools, and academic
+journal landing pages are not included here unless they expose a stable feed.
+
 `feeds/follow.example.opml` contains a public, low-risk demo set that is expected
-to pass through the real project fetch path on GitHub Actions:
+to pass through the real project fetch path:
 
 - **Official examples**: OpenAI News, Hugging Face Blog, Google DeepMind Blog,
   Google AI Blog, and Microsoft AI Blog.
 - **AI media / builder feeds**: Wired AI, InfoQ CN, NVIDIA Generative AI Blog,
   宝玉, and Simon Willison.
 
-In GitHub Actions, `feeds/follow.example.opml` is also used as the public demo
-fallback when no private `FOLLOW_OPML_B64` secret is configured. This keeps the
-hosted page visibly proving that RSS/OPML import works without requiring any
-private subscriptions. Maintainers can override it by setting `FOLLOW_OPML_B64`.
+In GitHub Actions, `feeds/wisdom-tourism.opml` is the first fallback when no
+private `FOLLOW_OPML_B64` secret is configured; `feeds/follow.example.opml`
+remains the generic demo fallback. Maintainers can override both by setting
+`FOLLOW_OPML_B64`.
 Substack newsletters are intentionally excluded from the public demo OPML because
 GitHub Actions runners can receive `403 Forbidden` even when the same feeds work
 locally. QbitAI remains on the watchlist because the direct feed probed via

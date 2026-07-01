@@ -4920,6 +4920,8 @@ def story_item_link(item: dict[str, Any]) -> dict[str, Any]:
         "source_name": item.get("site_name"),
         "site_id": item.get("site_id"),
         "published_at": item.get("published_at"),
+        "ai_label": item.get("ai_label"),
+        "ai_score": item.get("ai_score"),
     }
 
 
@@ -4971,6 +4973,9 @@ def build_story_record(
         "score": score,
         "importance": score,
         "importance_score": score,
+        "ai_label": primary.get("ai_label"),
+        "ai_score": primary.get("ai_score"),
+        "ai_signals": primary.get("ai_signals"),
         "importance_label": importance_label(category),
         "importance_breakdown": importance["breakdown"],
         "category": category,
@@ -4983,6 +4988,9 @@ def build_story_record(
             "url": url,
             "source": primary.get("source"),
             "source_name": primary.get("site_name"),
+            "site_id": primary.get("site_id"),
+            "ai_label": primary.get("ai_label"),
+            "ai_score": primary.get("ai_score"),
         },
     }
 
@@ -5056,6 +5064,23 @@ def merge_story_items(
 
 
 BRIEF_SCORE_GATE = 0.72
+SMART_TOURISM_BRIEF_LABELS = {
+    "tourism_policy",
+    "tourism_tech",
+    "hospitality_ops",
+    "destination_marketing",
+    "travel_business",
+}
+SMART_TOURISM_BRIEF_MIN_ITEMS = 6
+
+
+def story_ai_label(story: dict[str, Any]) -> str:
+    primary = story.get("primary_item") if isinstance(story.get("primary_item"), dict) else {}
+    return str(story.get("ai_label") or primary.get("ai_label") or "")
+
+
+def story_is_smart_tourism(story: dict[str, Any]) -> bool:
+    return story_ai_label(story) in SMART_TOURISM_BRIEF_LABELS
 
 
 def story_passes_brief_gate(story: dict[str, Any]) -> bool:
@@ -5070,7 +5095,7 @@ def story_passes_brief_gate(story: dict[str, Any]) -> bool:
         score = float(story.get("score") or 0)
     except Exception:
         score = 0.0
-    return sources >= 2 or score >= BRIEF_SCORE_GATE
+    return sources >= 2 or score >= BRIEF_SCORE_GATE or story_is_smart_tourism(story)
 
 
 def select_diverse_stories(
@@ -5131,7 +5156,15 @@ def build_daily_brief_payload(
     max_items: int = 20,
 ) -> dict[str, Any]:
     gated = [story for story in stories if story_passes_brief_gate(story)]
-    items = select_diverse_stories(gated, max_items)
+    tourism_candidates = [story for story in gated if story_is_smart_tourism(story)]
+    tourism_items = select_diverse_stories(
+        tourism_candidates,
+        min(SMART_TOURISM_BRIEF_MIN_ITEMS, max_items),
+        same_source_penalty=0.05,
+    )
+    selected_ids = {str(story.get("story_id") or "") for story in tourism_items}
+    remaining = [story for story in gated if str(story.get("story_id") or "") not in selected_ids]
+    items = tourism_items + select_diverse_stories(remaining, max_items - len(tourism_items))
     return {
         "generated_at": generated_at,
         "window_hours": window_hours,
