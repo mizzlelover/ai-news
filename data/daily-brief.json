@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-02T20:21:53.878139Z",
+  "generated_at": "2026-07-02T21:44:29.159294Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6334,
-      "importance": 0.6334,
-      "importance_score": 0.6334,
+      "score": 0.6302,
+      "importance": 0.6302,
+      "importance_score": 0.6302,
       "ai_label": "tourism_tech",
       "ai_score": 0.86,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.6192,
         "source_tier": 0.5,
         "ai_relevance": 0.86,
-        "recency": 0.9204,
+        "recency": 0.9022,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5987,
-      "importance": 0.5987,
-      "importance_score": 0.5987,
+      "score": 0.5958,
+      "importance": 0.5958,
+      "importance_score": 0.5958,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -133,7 +133,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8433,
+        "recency": 0.8267,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -151,6 +151,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_e2f068f8cb59",
+      "title": "这2条卖酒新规本月起实施，线上平台、中小型烟酒店、“夫妻店”统统将受影响",
+      "url": "https://www.huxiu.com/article/4872263.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4872263.html?f=rss",
+      "source": "虎嗅",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c81a0840a9ba183cb40236abde6aebd820078539",
+          "title": "这2条卖酒新规本月起实施，线上平台、中小型烟酒店、“夫妻店”统统将受影响",
+          "url": "https://www.huxiu.com/article/4872263.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T20:50:29Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "虎嗅"
+      ],
+      "items": [
+        {
+          "id": "c81a0840a9ba183cb40236abde6aebd820078539",
+          "title": "这2条卖酒新规本月起实施，线上平台、中小型烟酒店、“夫妻店”统统将受影响",
+          "url": "https://www.huxiu.com/article/4872263.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T20:50:29Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5747,
+      "importance": 0.5747,
+      "importance_score": 0.5747,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "酒店",
+        "平台"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.9871,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-02T20:50:29Z",
+      "latest_at": "2026-07-02T20:50:29Z",
+      "primary_item": {
+        "id": "c81a0840a9ba183cb40236abde6aebd820078539",
+        "title": "这2条卖酒新规本月起实施，线上平台、中小型烟酒店、“夫妻店”统统将受影响",
+        "url": "https://www.huxiu.com/article/4872263.html?f=rss",
+        "source": "虎嗅",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.69
       }
     },
     {
@@ -192,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5923,
-      "importance": 0.5923,
-      "importance_score": 0.5923,
+      "score": 0.5893,
+      "importance": 0.5893,
+      "importance_score": 0.5893,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -208,7 +281,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8304,
+        "recency": 0.814,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -267,9 +340,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5859,
-      "importance": 0.5859,
-      "importance_score": 0.5859,
+      "score": 0.5824,
+      "importance": 0.5824,
+      "importance_score": 0.5824,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -280,7 +353,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9798,
+        "recency": 0.9606,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -339,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5864,
-      "importance": 0.5864,
-      "importance_score": 0.5864,
+      "score": 0.5834,
+      "importance": 0.5834,
+      "importance_score": 0.5834,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -354,7 +427,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8441,
+        "recency": 0.8275,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -367,6 +440,80 @@
         "id": "543a172ab026638b8cce0cb3e9c61daac41df6a7",
         "title": "华闻复出，文旅是底牌",
         "url": "https://www.pinchain.com/article/348302",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0f09e3c765c8",
+      "title": "中共一大纪念馆6月接待中外游客近30万人次",
+      "url": "https://www.pinchain.com/article/348304",
+      "primary_url": "https://www.pinchain.com/article/348304",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+          "title": "中共一大纪念馆6月接待中外游客近30万人次",
+          "url": "https://www.pinchain.com/article/348304",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:30:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+          "title": "中共一大纪念馆6月接待中外游客近30万人次",
+          "url": "https://www.pinchain.com/article/348304",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:30:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.826,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-02T08:30:28Z",
+      "latest_at": "2026-07-02T08:30:28Z",
+      "primary_item": {
+        "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+        "title": "中共一大纪念馆6月接待中外游客近30万人次",
+        "url": "https://www.pinchain.com/article/348304",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -413,9 +560,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5743,
-      "importance": 0.5743,
-      "importance_score": 0.5743,
+      "score": 0.5711,
+      "importance": 0.5711,
+      "importance_score": 0.5711,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -426,7 +573,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9155,
+        "recency": 0.8975,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -447,21 +594,21 @@
       }
     },
     {
-      "story_id": "story_0f09e3c765c8",
-      "title": "中共一大纪念馆6月接待中外游客近30万人次",
-      "url": "https://www.pinchain.com/article/348304",
-      "primary_url": "https://www.pinchain.com/article/348304",
+      "story_id": "story_828777e2a362",
+      "title": "印尼前5个月外国游客突破600万人次",
+      "url": "https://www.pinchain.com/article/348305",
+      "primary_url": "https://www.pinchain.com/article/348305",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
-          "title": "中共一大纪念馆6月接待中外游客近30万人次",
-          "url": "https://www.pinchain.com/article/348304",
+          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+          "title": "印尼前5个月外国游客突破600万人次",
+          "url": "https://www.pinchain.com/article/348305",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T08:30:28Z",
+          "published_at": "2026-07-02T08:27:20Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -472,22 +619,22 @@
       ],
       "items": [
         {
-          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
-          "title": "中共一大纪念馆6月接待中外游客近30万人次",
-          "url": "https://www.pinchain.com/article/348304",
+          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+          "title": "印尼前5个月外国游客突破600万人次",
+          "url": "https://www.pinchain.com/article/348305",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T08:30:28Z",
+          "published_at": "2026-07-02T08:27:20Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5862,
-      "importance": 0.5862,
-      "importance_score": 0.5862,
+      "score": 0.5831,
+      "importance": 0.5831,
+      "importance_score": 0.5831,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -500,19 +647,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8426,
+        "recency": 0.8254,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-02T08:30:28Z",
-      "latest_at": "2026-07-02T08:30:28Z",
+      "earliest_at": "2026-07-02T08:27:20Z",
+      "latest_at": "2026-07-02T08:27:20Z",
       "primary_item": {
-        "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
-        "title": "中共一大纪念馆6月接待中外游客近30万人次",
-        "url": "https://www.pinchain.com/article/348304",
+        "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+        "title": "印尼前5个月外国游客突破600万人次",
+        "url": "https://www.pinchain.com/article/348305",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -559,9 +706,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5734,
-      "importance": 0.5734,
-      "importance_score": 0.5734,
+      "score": 0.5702,
+      "importance": 0.5702,
+      "importance_score": 0.5702,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -572,7 +719,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9105,
+        "recency": 0.8926,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -631,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.583,
+      "importance": 0.583,
+      "importance_score": 0.583,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -646,7 +793,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8416,
+        "recency": 0.825,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -659,80 +806,6 @@
         "id": "c097899d2b8d3ca0e8023e3b911043e413831a67",
         "title": "中国首座脱贫攻坚主题沉浸式戏剧村落开园",
         "url": "https://www.pinchain.com/article/348307",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_828777e2a362",
-      "title": "印尼前5个月外国游客突破600万人次",
-      "url": "https://www.pinchain.com/article/348305",
-      "primary_url": "https://www.pinchain.com/article/348305",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
-          "title": "印尼前5个月外国游客突破600万人次",
-          "url": "https://www.pinchain.com/article/348305",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T08:27:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
-          "title": "印尼前5个月外国游客突破600万人次",
-          "url": "https://www.pinchain.com/article/348305",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T08:27:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.842,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-02T08:27:20Z",
-      "latest_at": "2026-07-02T08:27:20Z",
-      "primary_item": {
-        "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
-        "title": "印尼前5个月外国游客突破600万人次",
-        "url": "https://www.pinchain.com/article/348305",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -779,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5828,
+      "importance": 0.5828,
+      "importance_score": 0.5828,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -794,7 +867,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8407,
+        "recency": 0.8241,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -853,9 +926,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.582,
+      "importance": 0.582,
+      "importance_score": 0.582,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -868,7 +941,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8359,
+        "recency": 0.8194,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -927,9 +1000,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
+      "score": 0.5736,
+      "importance": 0.5736,
+      "importance_score": 0.5736,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -942,7 +1015,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7884,
+        "recency": 0.7729,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1001,9 +1074,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.576,
-      "importance": 0.576,
-      "importance_score": 0.576,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1016,7 +1089,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7861,
+        "recency": 0.7706,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1075,9 +1148,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5734,
-      "importance": 0.5734,
-      "importance_score": 0.5734,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1089,7 +1162,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8411,
+        "recency": 0.8246,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1148,9 +1221,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5732,
-      "importance": 0.5732,
-      "importance_score": 0.5732,
+      "score": 0.5703,
+      "importance": 0.5703,
+      "importance_score": 0.5703,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1162,7 +1235,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8402,
+        "recency": 0.8237,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1221,9 +1294,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5726,
-      "importance": 0.5726,
-      "importance_score": 0.5726,
+      "score": 0.5696,
+      "importance": 0.5696,
+      "importance_score": 0.5696,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1235,7 +1308,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8364,
+        "recency": 0.82,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1294,9 +1367,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5638,
-      "importance": 0.5638,
-      "importance_score": 0.5638,
+      "score": 0.561,
+      "importance": 0.561,
+      "importance_score": 0.561,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1308,7 +1381,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7879,
+        "recency": 0.7724,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1367,9 +1440,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5618,
-      "importance": 0.5618,
-      "importance_score": 0.5618,
+      "score": 0.5591,
+      "importance": 0.5591,
+      "importance_score": 0.5591,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1381,7 +1454,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7769,
+        "recency": 0.7616,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1394,79 +1467,6 @@
         "id": "edf789ebc83d89b40a1344b848e4cf9b2d6ca3ef",
         "title": "暑期机票市场热度增长近三成！华北旅游服务再升级",
         "url": "https://www.pinchain.com/article/348271",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_502a13fcafbf",
-      "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-      "url": "https://www.pinchain.com/article/348266",
-      "primary_url": "https://www.pinchain.com/article/348266",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-          "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-          "url": "https://www.pinchain.com/article/348266",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:01:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-          "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-          "url": "https://www.pinchain.com/article/348266",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:01:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5601,
-      "importance": 0.5601,
-      "importance_score": 0.5601,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7674,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-02T02:01:43Z",
-      "latest_at": "2026-07-02T02:01:43Z",
-      "primary_item": {
-        "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-        "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-        "url": "https://www.pinchain.com/article/348266",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
