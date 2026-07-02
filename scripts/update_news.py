@@ -244,11 +244,13 @@ PAID_SOURCE_MAX_INTERVAL_HOURS = 24 * 14
 X_API_BASE_DEFAULT = "https://api.x.com"
 X_API_POST_READ_COST_USD = 0.005
 X_API_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR "large language model" OR LLM) lang:en -is:retweet has:links'
+SMART_TOURISM_X_API_DEFAULT_QUERY = "(from:skift OR from:phocuswire OR from:UNWTO OR from:WTTC OR from:phocuswright OR from:mauricioprieto OR from:hoteltechreport OR from:rafat OR from:travelweekly OR from:traveldailycn) -is:retweet -is:reply"
 X_API_DEFAULT_MAX_RESULTS = 20
 X_API_MAX_QUERY_CHARS = 512
 SOCIALDATA_API_BASE_DEFAULT = "https://api.socialdata.tools"
 SOCIALDATA_TWEET_READ_COST_USD = 0.0002
 SOCIALDATA_DEFAULT_QUERY = '(AI OR "artificial intelligence" OR LLM OR "large language model" OR 人工智能 OR 大模型 OR 大语言模型 OR AIGC OR 智能体 OR Agent) (lang:en OR lang:zh) -filter:retweets'
+SMART_TOURISM_SOCIALDATA_DEFAULT_QUERY = "(旅游 OR 文旅 OR travel OR tourism OR hotel OR hospitality OR destination OR 景区 OR 酒店 OR 入境游) -filter:retweets"
 SOCIALDATA_DEFAULT_MAX_RESULTS = 20
 SOCIALDATA_MAX_QUERY_CHARS = 512
 # Curated X list "AI is cool, i guess" (owner @aiwarts). The list timeline pulls
@@ -2354,6 +2356,17 @@ def smart_tourism_allowed_opml_sources(opml_path: str) -> set[str]:
     if not path.exists():
         return set()
     return {feed["title"] for feed in parse_opml_subscriptions(path)}
+
+
+def apply_smart_tourism_private_source_defaults() -> None:
+    """Use tourism-specific defaults for optional secret-backed sources."""
+    os.environ.setdefault("X_API_QUERY", SMART_TOURISM_X_API_DEFAULT_QUERY)
+    os.environ.setdefault("SOCIALDATA_QUERY", SMART_TOURISM_SOCIALDATA_DEFAULT_QUERY)
+    # The built-in SocialData list id is AI-focused. In the tourism profile,
+    # require the maintainer to provide a tourism list id explicitly; otherwise
+    # use the keyword search path only.
+    if not str(os.environ.get("SOCIALDATA_LIST_ID") or "").strip():
+        os.environ.setdefault("SOCIALDATA_LIST_ENABLED", "0")
 
 
 def parse_opml_subscriptions(opml_path: Path) -> list[dict[str, str]]:
@@ -5302,6 +5315,8 @@ def main() -> int:
     )
     args = parser.parse_args()
     smart_tourism_profile = args.source_profile == "smart-tourism"
+    if smart_tourism_profile:
+        apply_smart_tourism_private_source_defaults()
 
     now = utc_now()
     output_dir = Path(args.output_dir)
@@ -5351,10 +5366,7 @@ def main() -> int:
             after=iso(now - timedelta(hours=args.window_hours)),
             window_hours=args.window_hours,
         )
-    x_api_items, x_api_status = ([], x_api_status_base(now)) if smart_tourism_profile else maybe_fetch_x_api_updates(session, now)
-    if smart_tourism_profile:
-        x_api_status["enabled"] = False
-        x_api_status["disabled_reason"] = "disabled_by_smart_tourism_profile"
+    x_api_items, x_api_status = maybe_fetch_x_api_updates(session, now)
     if x_api_status.get("enabled"):
         raw_items.extend(x_api_items)
         statuses.append(
@@ -5369,17 +5381,9 @@ def main() -> int:
                 "skip_reason": x_api_status.get("skip_reason"),
             }
         )
-    socialdata_items, socialdata_status = (
-        ([], socialdata_status_base(now, paid_source_state))
-        if smart_tourism_profile
-        else maybe_fetch_socialdata_updates(session, now, paid_source_state)
-    )
-    if smart_tourism_profile:
-        socialdata_status["enabled"] = False
-        socialdata_status["disabled_reason"] = "disabled_by_smart_tourism_profile"
-    else:
-        update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
-        sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
+    socialdata_items, socialdata_status = maybe_fetch_socialdata_updates(session, now, paid_source_state)
+    update_paid_source_state(paid_source_state, "socialdata", socialdata_status, now)
+    sync_paid_source_status_timestamps(socialdata_status, paid_source_state, "socialdata")
     if socialdata_status.get("enabled"):
         raw_items.extend(socialdata_items)
         statuses.append(

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>Smart Tourism WeChat RSS Bridge Template</title>
+  </head>
+  <body>
+    <outline text="WeChat RSS Bridge Template">
+      <outline text="文旅之声" title="文旅之声" type="rss" xmlUrl="https://example.com/wechat/rss/wenlvzhisheng.xml" htmlUrl="微信搜&quot;文旅之声&quot;" />
+      <outline text="文旅中国" title="文旅中国" type="rss" xmlUrl="https://example.com/wechat/rss/wenlvzhongguo.xml" htmlUrl="微信搜&quot;文旅中国&quot;" />
+      <outline text="环球旅讯" title="环球旅讯" type="rss" xmlUrl="https://example.com/wechat/rss/traveldaily.xml" htmlUrl="微信搜&quot;环球旅讯&quot;" />
+      <outline text="迈点" title="迈点" type="rss" xmlUrl="https://example.com/wechat/rss/maidian.xml" htmlUrl="微信搜&quot;迈点&quot;" />
+      <outline text="新旅界" title="新旅界" type="rss" xmlUrl="https://example.com/wechat/rss/lvjie.xml" htmlUrl="微信搜&quot;新旅界&quot;" />
+      <outline text="执惠" title="执惠" type="rss" xmlUrl="https://example.com/wechat/rss/zhihui.xml" htmlUrl="微信搜&quot;执惠&quot;" />
+      <outline text="品橙旅游" title="品橙旅游 微信" type="rss" xmlUrl="https://example.com/wechat/rss/pinchain-wechat.xml" htmlUrl="微信搜&quot;品橙旅游&quot;" />
+      <outline text="闻旅" title="闻旅" type="rss" xmlUrl="https://example.com/wechat/rss/wenlv.xml" htmlUrl="微信搜&quot;闻旅&quot;" />
+      <outline text="空间秘探" title="空间秘探" type="rss" xmlUrl="https://example.com/wechat/rss/kongjianmitan.xml" htmlUrl="微信搜&quot;空间秘探&quot;" />
+      <outline text="劲旅网" title="劲旅网" type="rss" xmlUrl="https://example.com/wechat/rss/jinlv.xml" htmlUrl="微信搜&quot;劲旅网&quot;" />
+      <outline text="酒店高参" title="酒店高参" type="rss" xmlUrl="https://example.com/wechat/rss/jiudiangaocan.xml" htmlUrl="微信搜&quot;酒店高参&quot;" />
+      <outline text="腾讯文旅" title="腾讯文旅" type="rss" xmlUrl="https://example.com/wechat/rss/tencent-wenlv.xml" htmlUrl="微信搜&quot;腾讯文旅&quot;" />
+      <outline text="中国旅游报" title="中国旅游报" type="rss" xmlUrl="https://example.com/wechat/rss/china-tourism-news.xml" htmlUrl="微信搜&quot;中国旅游报&quot;" />
+      <outline text="敦煌智慧旅游官方" title="敦煌智慧旅游官方" type="rss" xmlUrl="https://example.com/wechat/rss/dunhuang-smart-tourism.xml" htmlUrl="微信搜&quot;敦煌智慧旅游官方&quot;" />
+      <outline text="文化产业评论" title="文化产业评论" type="rss" xmlUrl="https://example.com/wechat/rss/whcypl.xml" htmlUrl="微信搜&quot;文化产业评论&quot;" />
+      <outline text="主题公园界" title="主题公园界" type="rss" xmlUrl="https://example.com/wechat/rss/themepark.xml" htmlUrl="微信搜&quot;主题公园界&quot;" />
+      <outline text="旅游产业观察" title="旅游产业观察" type="rss" xmlUrl="https://example.com/wechat/rss/tourism-industry.xml" htmlUrl="微信搜&quot;旅游产业观察&quot;" />
+      <outline text="中国旅游饭店业协会" title="中国旅游饭店业协会 微信" type="rss" xmlUrl="https://example.com/wechat/rss/ctha-wechat.xml" htmlUrl="微信搜&quot;中国旅游饭店业协会&quot;" />
+    </outline>
+  </body>
+</opml>

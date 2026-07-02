@@ -152,9 +152,8 @@ function setStats() {
   const highCount = items.filter((item) => isHighPriorityItem(item)).length;
   const curatedCount = briefStories().length || Math.min(20, mergedStories().filter((story) => storyScore(story) >= 75).length);
   const status = state.sourceStatus;
-  const totalSites = Array.isArray(status?.sites) ? status.sites.length : 0;
-  const okSites = Number(status?.successful_sites || 0);
-  const health = totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}正常` : "加载中";
+  const healthCounts = sourceHealthCounts(status);
+  const health = healthCounts.total ? `${fmtNumber(healthCounts.ok)}/${fmtNumber(healthCounts.total)}正常` : "加载中";
   const cards = [
     ["文旅", `${fmtNumber(state.totalAi || items.length)}条`],
     ["高优", `${fmtNumber(highCount)}条`],
@@ -163,7 +162,7 @@ function setStats() {
   ];
   statsEl.setAttribute(
     "aria-label",
-    `过去 24 小时：文旅信号 ${fmtNumber(state.totalAi || items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常` : "加载中"}`,
+    `过去 24 小时：文旅信号 ${fmtNumber(state.totalAi || items.length)} 条，高优先级 ${fmtNumber(highCount)} 条，精选 ${fmtNumber(curatedCount)} 条，源状态 ${healthCounts.total ? `${fmtNumber(healthCounts.ok)}/${fmtNumber(healthCounts.total)} ${healthCounts.unit}正常` : "加载中"}`,
   );
 
   const prefix = document.createElement("div");
@@ -188,6 +187,26 @@ function failedSourceCount(status = state.sourceStatus) {
   return failedSites + failedFeeds;
 }
 
+function sourceHealthCounts(status = state.sourceStatus) {
+  const rss = status?.rss_opml || {};
+  const rssTotal = Number(rss.effective_feed_total || 0);
+  if (rss.enabled && rssTotal) {
+    return {
+      ok: Number(rss.ok_feeds || 0),
+      total: rssTotal,
+      failed: failedSourceCount(status),
+      unit: "RSS",
+    };
+  }
+  const sites = Array.isArray(status?.sites) ? status.sites : [];
+  return {
+    ok: Number(status?.successful_sites || 0),
+    total: sites.length,
+    failed: failedSourceCount(status),
+    unit: "源",
+  };
+}
+
 function renderSourceStatusPill(errorMessage = "") {
   if (!sourceStatusPillEl) return;
   const status = state.sourceStatus;
@@ -197,12 +216,11 @@ function renderSourceStatusPill(errorMessage = "") {
     if (errorMessage) sourceStatusPillEl.classList.add("bad");
     return;
   }
-  const totalSites = Array.isArray(status.sites) ? status.sites.length : 0;
-  const okSites = Number(status.successful_sites || 0);
-  const failed = failedSourceCount(status);
+  const counts = sourceHealthCounts(status);
+  const failed = counts.failed;
   sourceStatusPillEl.textContent = failed
-    ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常 · 失败 ${fmtNumber(failed)}`
-    : `${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常`;
+    ? `${fmtNumber(counts.ok)}/${fmtNumber(counts.total)} ${counts.unit}正常 · 失败 ${fmtNumber(failed)}`
+    : `${fmtNumber(counts.ok)}/${fmtNumber(counts.total)} ${counts.unit}正常`;
   if (failed) sourceStatusPillEl.classList.add("warn");
 }
 
@@ -320,8 +338,6 @@ function renderCoverageStrip(errorMessage = "") {
   if (!coverageStripEl) return;
   coverageStripEl.innerHTML = "";
 
-  const rows = siteRows();
-  const failedSites = Array.isArray(state.sourceStatus?.failed_sites) ? state.sourceStatus.failed_sites : [];
   const rss = state.sourceStatus?.rss_opml || {};
   const agentmail = state.sourceStatus?.agentmail || {};
   const xApi = state.sourceStatus?.x_api || {};
@@ -338,10 +354,9 @@ function renderCoverageStrip(errorMessage = "") {
   const xApiPoolCount = siteAiPoolCount("xapi");
   const xPoolCount = socialdataPoolCount + xApiPoolCount;
   const mailCount = Number(agentmail.item_count || 0);
-  const totalSites = rows.length;
-  const okSites = Number(state.sourceStatus?.successful_sites || 0);
+  const healthCounts = sourceHealthCounts(state.sourceStatus);
   const opmlValue = rss.enabled ? `${fmtNumber(rss.ok_feeds || 0)}/${fmtNumber(rss.effective_feed_total || 0)}` : "OPML";
-  const opmlMeta = rss.enabled ? "智慧文旅RSS信源已接入" : "可用OPML批量接入RSS";
+  const opmlMeta = rss.enabled ? "当前直接接入RSS；其余信源需私有集成/网页兜底" : "可用OPML批量接入RSS";
   const socialdataLabel = paidSourceLabel(socialdata, socialdataPoolCount, "SocialData", "");
   const xApiLabel = paidSourceLabel(xApi, xApiPoolCount, "X API", "");
   const xSourceLabel = socialdataLabel || xApiLabel || "X待配置";
@@ -354,7 +369,7 @@ function renderCoverageStrip(errorMessage = "") {
     : "私有 X / 邮件源默认关闭";
 
   const cards = [
-    ["源健康", totalSites ? `${fmtNumber(okSites)}/${fmtNumber(totalSites)}` : "加载中", failedSites.length ? `${fmtNumber(failedSites.length)} 个失败源` : (errorMessage || "内置源正常"), failedSites.length ? "warn" : "ok"],
+    ["RSS健康", healthCounts.total ? `${fmtNumber(healthCounts.ok)}/${fmtNumber(healthCounts.total)}` : "加载中", healthCounts.failed ? `失败 ${fmtNumber(healthCounts.failed)} 个` : (errorMessage || "RSS源正常"), healthCounts.failed ? "warn" : "ok"],
     ["今日覆盖池", `${fmtNumber(coverageCount)} 条`, allCount ? `文旅RSS原始信号 · ${fmtNumber(allCount)} 条入池` : "文旅RSS原始信号", "signal"],
     ["文旅重点", `${fmtNumber(state.totalAi)} 条`, "24小时智慧文旅重点信号", "signal"],
     ["文旅RSS", opmlValue, opmlMeta, "private"],
@@ -374,11 +389,8 @@ function renderAdvancedSummary() {
     advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果`;
     return;
   }
-  const sites = Array.isArray(status.sites) ? status.sites : [];
-  const totalSites = sites.length;
-  const okSites = Number(status.successful_sites || 0);
-  const failed = failedSourceCount(status);
-  advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果 · ${fmtNumber(okSites)}/${fmtNumber(totalSites)} 源正常${failed ? ` · 失败 ${fmtNumber(failed)}` : ""}`;
+  const counts = sourceHealthCounts(status);
+  advancedSummaryEl.textContent = `${fmtNumber(filteredCount)} 条结果 · ${fmtNumber(counts.ok)}/${fmtNumber(counts.total)} ${counts.unit}正常${counts.failed ? ` · 失败 ${fmtNumber(counts.failed)}` : ""}`;
 }
 
 function computeSiteStats(items) {
@@ -2643,49 +2655,75 @@ function renderSourceHealthSummaryNode(status, errorMessage = "") {
     node.innerHTML = `<strong>${errorMessage ? "源状态异常" : "源状态未生成"}</strong><span>${errorMessage || "等待 source-status.json"}</span>`;
     return node;
   }
-  const sites = Array.isArray(status.sites) ? status.sites : [];
-  const okSites = Number(status.successful_sites || 0);
-  const failed = failedSourceCount(status);
+  const counts = sourceHealthCounts(status);
   const fetched = Number(status.fetched_raw_items || state.totalRaw || status.items_before_topic_filter || 0);
-  node.classList.toggle("warn", failed > 0);
-  node.innerHTML = `<strong>${fmtNumber(okSites)}/${fmtNumber(sites.length)} 源正常</strong><span>今日采集 ${fmtNumber(fetched)} 条 · 失败 ${fmtNumber(failed)}</span>`;
+  node.classList.toggle("warn", counts.failed > 0);
+  node.innerHTML = `<strong>${fmtNumber(counts.ok)}/${fmtNumber(counts.total)} ${counts.unit}正常</strong><span>今日采集 ${fmtNumber(fetched)} 条 · 失败 ${fmtNumber(counts.failed)}</span>`;
   return node;
 }
 
 function renderSourceStatusTable(status) {
   if (!sourceStatusTableEl) return;
   sourceStatusTableEl.innerHTML = "";
-  if (!status || !Array.isArray(status.sites) || !status.sites.length) return;
-
-  const rows = status.sites
-    .map((site) => {
-      const ai = aiSiteStat(site.site_id);
-      const aiCount = Number(ai?.count || 0);
-      const rawCount = Number(ai?.raw_count ?? site.item_count ?? 0);
-      const scanned = Number(site.item_count || rawCount || 0);
-      const ratioBase = rawCount || scanned;
-      const ratio = ratioBase ? Math.round((aiCount / ratioBase) * 100) : 0;
-      return { ...site, aiCount, rawCount: ratioBase, ratio };
-    })
-    .sort((a, b) => b.aiCount - a.aiCount || b.rawCount - a.rawCount || String(a.site_name).localeCompare(String(b.site_name), "zh-CN"))
-    .slice(0, 12);
+  if (!status) return;
+  const rssFeeds = Array.isArray(status.rss_opml?.feeds) ? status.rss_opml.feeds : [];
+  const rows = rssFeeds.length
+    ? rssFeeds
+      .map((feed) => ({
+        name: feed.feed_title || feed.feed_url || "RSS",
+        ok: Boolean(feed.ok),
+        rawCount: Number(feed.item_count || 0),
+        statusText: feed.ok ? "正常" : (feed.error ? String(feed.error).slice(0, 80) : "异常"),
+      }))
+      .sort((a, b) => Number(a.ok) - Number(b.ok) || b.rawCount - a.rawCount || String(a.name).localeCompare(String(b.name), "zh-CN"))
+      .slice(0, 16)
+    : (Array.isArray(status.sites) ? status.sites : [])
+      .map((site) => {
+        const ai = aiSiteStat(site.site_id);
+        const aiCount = Number(ai?.count || 0);
+        const rawCount = Number(ai?.raw_count ?? site.item_count ?? 0);
+        const scanned = Number(site.item_count || rawCount || 0);
+        const ratioBase = rawCount || scanned;
+        const ratio = ratioBase ? Math.round((aiCount / ratioBase) * 100) : 0;
+        return {
+          name: site.site_name || site.site_id,
+          ok: Boolean(site.ok),
+          rawCount: ratioBase,
+          aiCount,
+          ratio,
+          statusText: site.ok ? "正常" : "异常",
+        };
+      })
+      .sort((a, b) => b.aiCount - a.aiCount || b.rawCount - a.rawCount || String(a.name).localeCompare(String(b.name), "zh-CN"))
+      .slice(0, 12);
+  if (!rows.length) return;
 
   const table = document.createElement("div");
   table.className = "source-table";
   const header = document.createElement("div");
   header.className = "source-table-row source-table-head";
-  header.innerHTML = "<span>来源</span><span>重点 / 原始</span><span>重点占比</span><span>状态</span>";
+  header.innerHTML = rssFeeds.length
+    ? "<span>RSS信源</span><span>原始条目</span><span>接入方式</span><span>状态</span>"
+    : "<span>来源</span><span>重点 / 原始</span><span>重点占比</span><span>状态</span>";
   table.appendChild(header);
-  rows.forEach((site) => {
+  rows.forEach((rowData) => {
     const row = document.createElement("div");
     row.className = "source-table-row";
-    const statusText = site.ok ? "正常" : "异常";
-    row.innerHTML = `
-      <span>${site.site_name || site.site_id}</span>
-      <span>${fmtNumber(site.aiCount)} / ${fmtNumber(site.rawCount)}</span>
-      <span>${fmtNumber(site.ratio)}%</span>
-      <span class="${site.ok ? "ok" : "bad"}">${statusText}</span>
-    `;
+    if (rssFeeds.length) {
+      row.innerHTML = `
+        <span>${rowData.name}</span>
+        <span>${fmtNumber(rowData.rawCount)}</span>
+        <span>OPML/RSS</span>
+        <span class="${rowData.ok ? "ok" : "bad"}">${rowData.statusText}</span>
+      `;
+    } else {
+      row.innerHTML = `
+        <span>${rowData.name}</span>
+        <span>${fmtNumber(rowData.aiCount)} / ${fmtNumber(rowData.rawCount)}</span>
+        <span>${fmtNumber(rowData.ratio)}%</span>
+        <span class="${rowData.ok ? "ok" : "bad"}">${rowData.statusText}</span>
+      `;
+    }
     table.appendChild(row);
   });
   sourceStatusTableEl.appendChild(table);
