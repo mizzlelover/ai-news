@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-02T07:31:21.193584Z",
+  "generated_at": "2026-07-02T10:38:24.839607Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_e8c3c34bd55d",
-      "title": "2025年北京市文化和旅游统计公报",
-      "url": "https://www.pinchain.com/article/348283",
-      "primary_url": "https://www.pinchain.com/article/348283",
+      "story_id": "story_4498d0179cc9",
+      "title": "沁住文旅酒店COO独家回应“24小时退房制”",
+      "url": "https://www.pinchain.com/article/348303",
+      "primary_url": "https://www.pinchain.com/article/348303",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "88f9fb0926c575b6e116027e907708461ca45e65",
-          "title": "2025年北京市文化和旅游统计公报",
-          "url": "https://www.pinchain.com/article/348283",
+          "id": "3fb92bf83c0d4af7d2c6c38e81bebf4e2697c017",
+          "title": "沁住文旅酒店COO独家回应“24小时退房制”",
+          "url": "https://www.pinchain.com/article/348303",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T07:29:36Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.8
+          "published_at": "2026-07-02T08:33:36Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
         }
       ],
       "source_count": 1,
@@ -29,53 +29,53 @@
       ],
       "items": [
         {
-          "id": "88f9fb0926c575b6e116027e907708461ca45e65",
-          "title": "2025年北京市文化和旅游统计公报",
-          "url": "https://www.pinchain.com/article/348283",
+          "id": "3fb92bf83c0d4af7d2c6c38e81bebf4e2697c017",
+          "title": "沁住文旅酒店COO独家回应“24小时退房制”",
+          "url": "https://www.pinchain.com/article/348303",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T07:29:36Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.8
+          "published_at": "2026-07-02T08:33:36Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6227,
-      "importance": 0.6227,
-      "importance_score": 0.6227,
-      "ai_label": "tourism_policy",
-      "ai_score": 0.8,
+      "score": 0.6216,
+      "importance": 0.6216,
+      "importance_score": 0.6216,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
       "ai_signals": [
-        "文化和旅游",
+        "文旅",
         "旅游",
-        "ai",
-        "统计"
+        "酒店",
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.576,
+        "editorial": 0.5832,
         "source_tier": 0.5,
-        "ai_relevance": 0.8,
-        "recency": 0.9996,
+        "ai_relevance": 0.81,
+        "recency": 0.9704,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-02T07:29:36Z",
-      "latest_at": "2026-07-02T07:29:36Z",
+      "earliest_at": "2026-07-02T08:33:36Z",
+      "latest_at": "2026-07-02T08:33:36Z",
       "primary_item": {
-        "id": "88f9fb0926c575b6e116027e907708461ca45e65",
-        "title": "2025年北京市文化和旅游统计公报",
-        "url": "https://www.pinchain.com/article/348283",
+        "id": "3fb92bf83c0d4af7d2c6c38e81bebf4e2697c017",
+        "title": "沁住文旅酒店COO独家回应“24小时退房制”",
+        "url": "https://www.pinchain.com/article/348303",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_policy",
-        "ai_score": 0.8
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5876,
-      "importance": 0.5876,
-      "importance_score": 0.5876,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "hospitality_ops",
       "ai_score": 0.81,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7814,
+        "recency": 0.747,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5857,
-      "importance": 0.5857,
-      "importance_score": 0.5857,
+      "score": 0.5796,
+      "importance": 0.5796,
+      "importance_score": 0.5796,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7709,
+        "recency": 0.7369,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -226,97 +226,23 @@
       }
     },
     {
-      "story_id": "story_374f1e540baa",
-      "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
-      "url": "https://www.huxiu.com/article/4871864.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4871864.html?f=rss",
-      "source": "虎嗅",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
-          "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
-          "url": "https://www.huxiu.com/article/4871864.html?f=rss",
-          "source": "虎嗅",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T09:53:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "虎嗅"
-      ],
-      "items": [
-        {
-          "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
-          "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
-          "url": "https://www.huxiu.com/article/4871864.html?f=rss",
-          "source": "虎嗅",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T09:53:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.562,
-      "importance": 0.562,
-      "importance_score": 0.562,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.77,
-      "ai_signals": [
-        "民宿",
-        "ai",
-        "投资"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5544,
-        "source_tier": 0.5,
-        "ai_relevance": 0.77,
-        "recency": 0.7318,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-01T09:53:59Z",
-      "latest_at": "2026-07-01T09:53:59Z",
-      "primary_item": {
-        "id": "1edc35cccb8c41c21c1289a10d8f1c57b2cce7dd",
-        "title": "红杉高瓴投资，前美团民宿CEO 联合伯克利教授，做了一只AI 蘑菇",
-        "url": "https://www.huxiu.com/article/4871864.html?f=rss",
-        "source": "虎嗅",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.77
-      }
-    },
-    {
-      "story_id": "story_a4380465d2fe",
-      "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
-      "url": "https://www.pinchain.com/article/348280",
-      "primary_url": "https://www.pinchain.com/article/348280",
+      "story_id": "story_e8c3c34bd55d",
+      "title": "2025年北京市文化和旅游统计公报",
+      "url": "https://www.pinchain.com/article/348283",
+      "primary_url": "https://www.pinchain.com/article/348283",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
-          "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
-          "url": "https://www.pinchain.com/article/348280",
+          "id": "88f9fb0926c575b6e116027e907708461ca45e65",
+          "title": "2025年北京市文化和旅游统计公报",
+          "url": "https://www.pinchain.com/article/348283",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:53:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "published_at": "2026-07-02T07:29:36Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
         }
       ],
       "source_count": 1,
@@ -325,52 +251,53 @@
       ],
       "items": [
         {
-          "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
-          "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
-          "url": "https://www.pinchain.com/article/348280",
+          "id": "88f9fb0926c575b6e116027e907708461ca45e65",
+          "title": "2025年北京市文化和旅游统计公报",
+          "url": "https://www.pinchain.com/article/348283",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:53:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "published_at": "2026-07-02T07:29:36Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6053,
-      "importance": 0.6053,
-      "importance_score": 0.6053,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "score": 0.6148,
+      "importance": 0.6148,
+      "importance_score": 0.6148,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.8,
       "ai_signals": [
+        "文化和旅游",
         "旅游",
-        "演艺",
-        "ai"
+        "ai",
+        "统计"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.576,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.949,
+        "ai_relevance": 0.8,
+        "recency": 0.9556,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-02T03:53:58Z",
-      "latest_at": "2026-07-02T03:53:58Z",
+      "earliest_at": "2026-07-02T07:29:36Z",
+      "latest_at": "2026-07-02T07:29:36Z",
       "primary_item": {
-        "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
-        "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
-        "url": "https://www.pinchain.com/article/348280",
+        "id": "88f9fb0926c575b6e116027e907708461ca45e65",
+        "title": "2025年北京市文化和旅游统计公报",
+        "url": "https://www.pinchain.com/article/348283",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_label": "tourism_policy",
+        "ai_score": 0.8
       }
     },
     {
@@ -412,9 +339,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5447,
-      "importance": 0.5447,
-      "importance_score": 0.5447,
+      "score": 0.5388,
+      "importance": 0.5388,
+      "importance_score": 0.5388,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -425,7 +352,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7511,
+        "recency": 0.718,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -446,21 +373,21 @@
       }
     },
     {
-      "story_id": "story_f643e3c1f13d",
-      "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
-      "url": "https://www.pinchain.com/article/348274",
-      "primary_url": "https://www.pinchain.com/article/348274",
+      "story_id": "story_ca8dd05778c2",
+      "title": "华闻复出，文旅是底牌",
+      "url": "https://www.pinchain.com/article/348302",
+      "primary_url": "https://www.pinchain.com/article/348302",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "a26ac0534cdc61811b589a060d716385737854e5",
-          "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
-          "url": "https://www.pinchain.com/article/348274",
+          "id": "543a172ab026638b8cce0cb3e9c61daac41df6a7",
+          "title": "华闻复出，文旅是底牌",
+          "url": "https://www.pinchain.com/article/348302",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:41:54Z",
+          "published_at": "2026-07-02T08:37:39Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -471,27 +398,27 @@
       ],
       "items": [
         {
-          "id": "a26ac0534cdc61811b589a060d716385737854e5",
-          "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
-          "url": "https://www.pinchain.com/article/348274",
+          "id": "543a172ab026638b8cce0cb3e9c61daac41df6a7",
+          "title": "华闻复出，文旅是底牌",
+          "url": "https://www.pinchain.com/article/348302",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:41:54Z",
+          "published_at": "2026-07-02T08:37:39Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6048,
-      "importance": 0.6048,
-      "importance_score": 0.6048,
+      "score": 0.6093,
+      "importance": 0.6093,
+      "importance_score": 0.6093,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
-        "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -499,19 +426,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9463,
+        "recency": 0.9714,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-02T03:41:54Z",
-      "latest_at": "2026-07-02T03:41:54Z",
+      "earliest_at": "2026-07-02T08:37:39Z",
+      "latest_at": "2026-07-02T08:37:39Z",
       "primary_item": {
-        "id": "a26ac0534cdc61811b589a060d716385737854e5",
-        "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
-        "url": "https://www.pinchain.com/article/348274",
+        "id": "543a172ab026638b8cce0cb3e9c61daac41df6a7",
+        "title": "华闻复出，文旅是底牌",
+        "url": "https://www.pinchain.com/article/348302",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -520,23 +447,23 @@
       }
     },
     {
-      "story_id": "story_871f3fbd72cb",
-      "title": "阿布扎比迎接中国旅游业高管,开展合作深化与战略交流",
-      "url": "https://www.pinchain.com/article/348278",
-      "primary_url": "https://www.pinchain.com/article/348278",
+      "story_id": "story_0f09e3c765c8",
+      "title": "中共一大纪念馆6月接待中外游客近30万人次",
+      "url": "https://www.pinchain.com/article/348304",
+      "primary_url": "https://www.pinchain.com/article/348304",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "d89e6938087c3bee95553fee6516cc2ca4f6fb55",
-          "title": "阿布扎比迎接中国旅游业高管,开展合作深化与战略交流",
-          "url": "https://www.pinchain.com/article/348278",
+          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+          "title": "中共一大纪念馆6月接待中外游客近30万人次",
+          "url": "https://www.pinchain.com/article/348304",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:51:40Z",
+          "published_at": "2026-07-02T08:30:28Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -545,51 +472,126 @@
       ],
       "items": [
         {
-          "id": "d89e6938087c3bee95553fee6516cc2ca4f6fb55",
-          "title": "阿布扎比迎接中国旅游业高管,开展合作深化与战略交流",
-          "url": "https://www.pinchain.com/article/348278",
+          "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+          "title": "中共一大纪念馆6月接待中外游客近30万人次",
+          "url": "https://www.pinchain.com/article/348304",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T03:51:40Z",
+          "published_at": "2026-07-02T08:30:28Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5927,
-      "importance": 0.5927,
-      "importance_score": 0.5927,
+      "score": 0.609,
+      "importance": 0.609,
+      "importance_score": 0.609,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.78,
       "ai_signals": [
         "旅游",
+        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9485,
+        "ai_relevance": 0.78,
+        "recency": 0.9697,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-02T03:51:40Z",
-      "latest_at": "2026-07-02T03:51:40Z",
+      "earliest_at": "2026-07-02T08:30:28Z",
+      "latest_at": "2026-07-02T08:30:28Z",
       "primary_item": {
-        "id": "d89e6938087c3bee95553fee6516cc2ca4f6fb55",
-        "title": "阿布扎比迎接中国旅游业高管,开展合作深化与战略交流",
-        "url": "https://www.pinchain.com/article/348278",
+        "id": "ce17c44f69c57d3cb4195a4a1a6f4f9fead13d21",
+        "title": "中共一大纪念馆6月接待中外游客近30万人次",
+        "url": "https://www.pinchain.com/article/348304",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_828777e2a362",
+      "title": "印尼前5个月外国游客突破600万人次",
+      "url": "https://www.pinchain.com/article/348305",
+      "primary_url": "https://www.pinchain.com/article/348305",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+          "title": "印尼前5个月外国游客突破600万人次",
+          "url": "https://www.pinchain.com/article/348305",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:27:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+          "title": "印尼前5个月外国游客突破600万人次",
+          "url": "https://www.pinchain.com/article/348305",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:27:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6089,
+      "importance": 0.6089,
+      "importance_score": 0.6089,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9689,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-02T08:27:20Z",
+      "latest_at": "2026-07-02T08:27:20Z",
+      "primary_item": {
+        "id": "b0c297a3364925afe3502ce9b8122a4b9e0c0e0a",
+        "title": "印尼前5个月外国游客突破600万人次",
+        "url": "https://www.pinchain.com/article/348305",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -631,9 +633,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.561,
-      "importance": 0.561,
-      "importance_score": 0.561,
+      "score": 0.5549,
+      "importance": 0.5549,
+      "importance_score": 0.5549,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -645,7 +647,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7724,
+        "recency": 0.7384,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -663,6 +665,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_95f130658101",
+      "title": "中国首座脱贫攻坚主题沉浸式戏剧村落开园",
+      "url": "https://www.pinchain.com/article/348307",
+      "primary_url": "https://www.pinchain.com/article/348307",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c097899d2b8d3ca0e8023e3b911043e413831a67",
+          "title": "中国首座脱贫攻坚主题沉浸式戏剧村落开园",
+          "url": "https://www.pinchain.com/article/348307",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:25:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "c097899d2b8d3ca0e8023e3b911043e413831a67",
+          "title": "中国首座脱贫攻坚主题沉浸式戏剧村落开园",
+          "url": "https://www.pinchain.com/article/348307",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T08:25:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6088,
+      "importance": 0.6088,
+      "importance_score": 0.6088,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "沉浸式",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9685,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-02T08:25:15Z",
+      "latest_at": "2026-07-02T08:25:15Z",
+      "primary_item": {
+        "id": "c097899d2b8d3ca0e8023e3b911043e413831a67",
+        "title": "中国首座脱贫攻坚主题沉浸式戏剧村落开园",
+        "url": "https://www.pinchain.com/article/348307",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -704,9 +780,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5548,
-      "importance": 0.5548,
-      "importance_score": 0.5548,
+      "score": 0.5484,
+      "importance": 0.5484,
+      "importance_score": 0.5484,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -717,7 +793,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8073,
+        "recency": 0.7718,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -776,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.561,
-      "importance": 0.561,
-      "importance_score": 0.561,
+      "score": 0.5549,
+      "importance": 0.5549,
+      "importance_score": 0.5549,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -790,7 +866,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7723,
+        "recency": 0.7383,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -811,23 +887,23 @@
       }
     },
     {
-      "story_id": "story_b6de9a316422",
-      "title": "暑期机票市场热度增长近三成！华北旅游服务再升级",
-      "url": "https://www.pinchain.com/article/348271",
-      "primary_url": "https://www.pinchain.com/article/348271",
+      "story_id": "story_2d47212b2833",
+      "title": "广深港高铁上半年跨境客流超1600万人次",
+      "url": "https://www.pinchain.com/article/348296",
+      "primary_url": "https://www.pinchain.com/article/348296",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "edf789ebc83d89b40a1344b848e4cf9b2d6ca3ef",
-          "title": "暑期机票市场热度增长近三成！华北旅游服务再升级",
-          "url": "https://www.pinchain.com/article/348271",
+          "id": "88b6cbebd02e4d0221cd9a96445b3d67faff30c0",
+          "title": "广深港高铁上半年跨境客流超1600万人次",
+          "url": "https://www.pinchain.com/article/348296",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:52:55Z",
+          "published_at": "2026-07-02T08:20:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -836,51 +912,52 @@
       ],
       "items": [
         {
-          "id": "edf789ebc83d89b40a1344b848e4cf9b2d6ca3ef",
-          "title": "暑期机票市场热度增长近三成！华北旅游服务再升级",
-          "url": "https://www.pinchain.com/article/348271",
+          "id": "88b6cbebd02e4d0221cd9a96445b3d67faff30c0",
+          "title": "广深港高铁上半年跨境客流超1600万人次",
+          "url": "https://www.pinchain.com/article/348296",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:52:55Z",
+          "published_at": "2026-07-02T08:20:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.6086,
+      "importance": 0.6086,
+      "importance_score": 0.6086,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.78,
       "ai_signals": [
+        "客流",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9352,
+        "ai_relevance": 0.78,
+        "recency": 0.9674,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-02T02:52:55Z",
-      "latest_at": "2026-07-02T02:52:55Z",
+      "earliest_at": "2026-07-02T08:20:51Z",
+      "latest_at": "2026-07-02T08:20:51Z",
       "primary_item": {
-        "id": "edf789ebc83d89b40a1344b848e4cf9b2d6ca3ef",
-        "title": "暑期机票市场热度增长近三成！华北旅游服务再升级",
-        "url": "https://www.pinchain.com/article/348271",
+        "id": "88b6cbebd02e4d0221cd9a96445b3d67faff30c0",
+        "title": "广深港高铁上半年跨境客流超1600万人次",
+        "url": "https://www.pinchain.com/article/348296",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.78
       }
     },
     {
@@ -922,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5517,
-      "importance": 0.5517,
-      "importance_score": 0.5517,
+      "score": 0.5454,
+      "importance": 0.5454,
+      "importance_score": 0.5454,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -935,7 +1012,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7896,
+        "recency": 0.7549,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -953,79 +1030,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_502a13fcafbf",
-      "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-      "url": "https://www.pinchain.com/article/348266",
-      "primary_url": "https://www.pinchain.com/article/348266",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-          "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-          "url": "https://www.pinchain.com/article/348266",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:01:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-          "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-          "url": "https://www.pinchain.com/article/348266",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T02:01:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5883,
-      "importance": 0.5883,
-      "importance_score": 0.5883,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9237,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-02T02:01:43Z",
-      "latest_at": "2026-07-02T02:01:43Z",
-      "primary_item": {
-        "id": "684de5c9259bddea7017a39d47966a87eee634f8",
-        "title": "酷航揭幕《蜘蛛侠：崭新之日》主题飞机",
-        "url": "https://www.pinchain.com/article/348266",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -1067,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5568,
-      "importance": 0.5568,
-      "importance_score": 0.5568,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1081,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7489,
+        "recency": 0.7159,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1099,6 +1103,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_938d33e2535b",
+      "title": "泰山景区回应“修建滚筒式刀片刺绳隔离铁丝网”",
+      "url": "https://www.pinchain.com/article/348292",
+      "primary_url": "https://www.pinchain.com/article/348292",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "82b3e1ad0bcdb8b678ef56f832be9448b0696c59",
+          "title": "泰山景区回应“修建滚筒式刀片刺绳隔离铁丝网”",
+          "url": "https://www.pinchain.com/article/348292",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T07:56:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "82b3e1ad0bcdb8b678ef56f832be9448b0696c59",
+          "title": "泰山景区回应“修建滚筒式刀片刺绳隔离铁丝网”",
+          "url": "https://www.pinchain.com/article/348292",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-02T07:56:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6076,
+      "importance": 0.6076,
+      "importance_score": 0.6076,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "景区",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9619,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-02T07:56:58Z",
+      "latest_at": "2026-07-02T07:56:58Z",
+      "primary_item": {
+        "id": "82b3e1ad0bcdb8b678ef56f832be9448b0696c59",
+        "title": "泰山景区回应“修建滚筒式刀片刺绳隔离铁丝网”",
+        "url": "https://www.pinchain.com/article/348292",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -1140,9 +1218,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.547,
-      "importance": 0.547,
-      "importance_score": 0.547,
+      "score": 0.5409,
+      "importance": 0.5409,
+      "importance_score": 0.5409,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1153,7 +1231,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7638,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1174,21 +1252,21 @@
       }
     },
     {
-      "story_id": "story_ec7c58c0cb51",
-      "title": "2026上半年经横琴口岸出入境客流超1777万人次",
-      "url": "https://www.pinchain.com/article/348257",
-      "primary_url": "https://www.pinchain.com/article/348257",
+      "story_id": "story_a4380465d2fe",
+      "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
+      "url": "https://www.pinchain.com/article/348280",
+      "primary_url": "https://www.pinchain.com/article/348280",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
-          "title": "2026上半年经横琴口岸出入境客流超1777万人次",
-          "url": "https://www.pinchain.com/article/348257",
+          "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
+          "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
+          "url": "https://www.pinchain.com/article/348280",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:46:08Z",
+          "published_at": "2026-07-02T03:53:58Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -1199,27 +1277,27 @@
       ],
       "items": [
         {
-          "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
-          "title": "2026上半年经横琴口岸出入境客流超1777万人次",
-          "url": "https://www.pinchain.com/article/348257",
+          "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
+          "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
+          "url": "https://www.pinchain.com/article/348280",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:46:08Z",
+          "published_at": "2026-07-02T03:53:58Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5622,
-      "importance": 0.5622,
-      "importance_score": 0.5622,
+      "score": 0.5978,
+      "importance": 0.5978,
+      "importance_score": 0.5978,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
-        "客流",
         "旅游",
+        "演艺",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -1227,19 +1305,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7096,
+        "recency": 0.9072,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-01T07:46:08Z",
-      "latest_at": "2026-07-01T07:46:08Z",
+      "earliest_at": "2026-07-02T03:53:58Z",
+      "latest_at": "2026-07-02T03:53:58Z",
       "primary_item": {
-        "id": "6f8ee6619d808cbbd4366c4de92b0cc0776183ce",
-        "title": "2026上半年经横琴口岸出入境客流超1777万人次",
-        "url": "https://www.pinchain.com/article/348257",
+        "id": "1ef3b075de00b97d7d67a8822b8ce18e76978203",
+        "title": "全新演艺地标“阿布扎比艺术之家”正式启建",
+        "url": "https://www.pinchain.com/article/348280",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1248,23 +1326,23 @@
       }
     },
     {
-      "story_id": "story_08731930e5ca",
-      "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
-      "url": "https://www.pinchain.com/article/348260",
-      "primary_url": "https://www.pinchain.com/article/348260",
+      "story_id": "story_f643e3c1f13d",
+      "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
+      "url": "https://www.pinchain.com/article/348274",
+      "primary_url": "https://www.pinchain.com/article/348274",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
-          "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
-          "url": "https://www.pinchain.com/article/348260",
+          "id": "a26ac0534cdc61811b589a060d716385737854e5",
+          "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
+          "url": "https://www.pinchain.com/article/348274",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:58:54Z",
+          "published_at": "2026-07-02T03:41:54Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -1273,69 +1351,70 @@
       ],
       "items": [
         {
-          "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
-          "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
-          "url": "https://www.pinchain.com/article/348260",
+          "id": "a26ac0534cdc61811b589a060d716385737854e5",
+          "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
+          "url": "https://www.pinchain.com/article/348274",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:58:54Z",
+          "published_at": "2026-07-02T03:41:54Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5501,
-      "importance": 0.5501,
-      "importance_score": 0.5501,
+      "score": 0.5973,
+      "importance": 0.5973,
+      "importance_score": 0.5973,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.78,
       "ai_signals": [
         "旅游",
+        "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7118,
+        "ai_relevance": 0.78,
+        "recency": 0.9046,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-01T07:58:54Z",
-      "latest_at": "2026-07-01T07:58:54Z",
+      "earliest_at": "2026-07-02T03:41:54Z",
+      "latest_at": "2026-07-02T03:41:54Z",
       "primary_item": {
-        "id": "04b710f57d93806d615ebac18603a55e7ef8af3e",
-        "title": "暑运期间北京大兴机场预计运送旅客超1000万人次",
-        "url": "https://www.pinchain.com/article/348260",
+        "id": "a26ac0534cdc61811b589a060d716385737854e5",
+        "title": "同程旅行：2026暑期“跟着课本去旅行”火了",
+        "url": "https://www.pinchain.com/article/348274",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.78
       }
     },
     {
-      "story_id": "story_ef0ced2db577",
-      "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
-      "url": "https://www.pinchain.com/article/348259",
-      "primary_url": "https://www.pinchain.com/article/348259",
+      "story_id": "story_fa1f9d09418b",
+      "title": "横琴离境退税服务点正式启用",
+      "url": "https://www.pinchain.com/article/348295",
+      "primary_url": "https://www.pinchain.com/article/348295",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
-          "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
-          "url": "https://www.pinchain.com/article/348259",
+          "id": "020ce776cf8993bbdee751254e530989e4df586a",
+          "title": "横琴离境退税服务点正式启用",
+          "url": "https://www.pinchain.com/article/348295",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:50:23Z",
+          "published_at": "2026-07-02T08:23:03Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -1346,22 +1425,22 @@
       ],
       "items": [
         {
-          "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
-          "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
-          "url": "https://www.pinchain.com/article/348259",
+          "id": "020ce776cf8993bbdee751254e530989e4df586a",
+          "title": "横琴离境退税服务点正式启用",
+          "url": "https://www.pinchain.com/article/348295",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:50:23Z",
+          "published_at": "2026-07-02T08:23:03Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5499,
-      "importance": 0.5499,
-      "importance_score": 0.5499,
+      "score": 0.5962,
+      "importance": 0.5962,
+      "importance_score": 0.5962,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1373,92 +1452,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7104,
+        "recency": 0.9679,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-01T07:50:23Z",
-      "latest_at": "2026-07-01T07:50:23Z",
+      "earliest_at": "2026-07-02T08:23:03Z",
+      "latest_at": "2026-07-02T08:23:03Z",
       "primary_item": {
-        "id": "da434bb8c9fa514661bd5428727a254f4a60ffcd",
-        "title": "北京市东城区发布“觉醒征途”红色文化探访路线",
-        "url": "https://www.pinchain.com/article/348259",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_a519198da2c0",
-      "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
-      "url": "https://www.pinchain.com/article/348258",
-      "primary_url": "https://www.pinchain.com/article/348258",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
-          "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
-          "url": "https://www.pinchain.com/article/348258",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:34:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
-          "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
-          "url": "https://www.pinchain.com/article/348258",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-01T07:34:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5494,
-      "importance": 0.5494,
-      "importance_score": 0.5494,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7077,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-01T07:34:34Z",
-      "latest_at": "2026-07-01T07:34:34Z",
-      "primary_item": {
-        "id": "4b41d4f76c17d729f8267f3ac415f49e90b59820",
-        "title": "加州旅游局任命朱莉·科克尔为新任总裁兼首席执行官",
-        "url": "https://www.pinchain.com/article/348258",
+        "id": "020ce776cf8993bbdee751254e530989e4df586a",
+        "title": "横琴离境退税服务点正式启用",
+        "url": "https://www.pinchain.com/article/348295",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
