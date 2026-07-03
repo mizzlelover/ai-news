@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-03T17:56:39.210848Z",
+  "generated_at": "2026-07-03T19:26:58.685487Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6039,
-      "importance": 0.6039,
-      "importance_score": 0.6039,
+      "score": 0.6003,
+      "importance": 0.6003,
+      "importance_score": 0.6003,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9415,
+        "recency": 0.9213,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5923,
-      "importance": 0.5923,
-      "importance_score": 0.5923,
+      "score": 0.5891,
+      "importance": 0.5891,
+      "importance_score": 0.5891,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8072,
+        "recency": 0.7899,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5762,
-      "importance": 0.5762,
-      "importance_score": 0.5762,
+      "score": 0.5726,
+      "importance": 0.5726,
+      "importance_score": 0.5726,
       "ai_label": "tourism_policy",
       "ai_score": 0.71,
       "ai_signals": [
@@ -206,7 +206,7 @@
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.9493,
+        "recency": 0.9289,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -265,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5865,
-      "importance": 0.5865,
-      "importance_score": 0.5865,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -280,7 +280,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8445,
+        "recency": 0.8264,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -339,9 +339,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5298,
-      "importance": 0.5298,
-      "importance_score": 0.5298,
+      "score": 0.5269,
+      "importance": 0.5269,
+      "importance_score": 0.5269,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -353,7 +353,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7373,
+        "recency": 0.7215,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -371,78 +371,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_9b67796cb31f",
-      "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
-      "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup",
-      "primary_url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "de18015646cfd99c3ae013e9883107e780f31a40",
-          "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
-          "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T18:57:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "de18015646cfd99c3ae013e9883107e780f31a40",
-          "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
-          "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-02T18:57:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5387,
-      "importance": 0.5387,
-      "importance_score": 0.5387,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7175,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-02T18:57:19Z",
-      "latest_at": "2026-07-02T18:57:19Z",
-      "primary_item": {
-        "id": "de18015646cfd99c3ae013e9883107e780f31a40",
-        "title": "Marriott Outspends Rivals on TV, But Airbnb Owns the World Cup",
-        "url": "https://skift.com/2026/07/02/marriott-outspends-rivals-on-tv-but-airbnb-owns-the-world-cup",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -484,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5863,
-      "importance": 0.5863,
-      "importance_score": 0.5863,
+      "score": 0.583,
+      "importance": 0.583,
+      "importance_score": 0.583,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +427,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8434,
+        "recency": 0.8252,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +486,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.5827,
+      "importance": 0.5827,
+      "importance_score": 0.5827,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +501,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8417,
+        "recency": 0.8236,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -632,9 +560,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5795,
-      "importance": 0.5795,
-      "importance_score": 0.5795,
+      "score": 0.5764,
+      "importance": 0.5764,
+      "importance_score": 0.5764,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -647,7 +575,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8058,
+        "recency": 0.7885,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -706,9 +634,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5795,
-      "importance": 0.5795,
-      "importance_score": 0.5795,
+      "score": 0.5763,
+      "importance": 0.5763,
+      "importance_score": 0.5763,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -721,7 +649,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8054,
+        "recency": 0.7881,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -780,9 +708,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5792,
-      "importance": 0.5792,
-      "importance_score": 0.5792,
+      "score": 0.5761,
+      "importance": 0.5761,
+      "importance_score": 0.5761,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -795,7 +723,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.804,
+        "recency": 0.7867,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -854,9 +782,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5784,
-      "importance": 0.5784,
-      "importance_score": 0.5784,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -869,7 +797,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7994,
+        "recency": 0.7822,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -928,9 +856,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5783,
-      "importance": 0.5783,
-      "importance_score": 0.5783,
+      "score": 0.5752,
+      "importance": 0.5752,
+      "importance_score": 0.5752,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -943,7 +871,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7989,
+        "recency": 0.7817,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1002,9 +930,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
+      "score": 0.5716,
+      "importance": 0.5716,
+      "importance_score": 0.5716,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1016,7 +944,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8492,
+        "recency": 0.831,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1075,9 +1003,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5744,
-      "importance": 0.5744,
-      "importance_score": 0.5744,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1089,7 +1017,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8469,
+        "recency": 0.8286,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1148,9 +1076,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5744,
-      "importance": 0.5744,
-      "importance_score": 0.5744,
+      "score": 0.5711,
+      "importance": 0.5711,
+      "importance_score": 0.5711,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1162,7 +1090,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8464,
+        "recency": 0.8282,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1221,9 +1149,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.571,
+      "importance": 0.571,
+      "importance_score": 0.571,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1235,7 +1163,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8457,
+        "recency": 0.8275,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1294,9 +1222,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5741,
-      "importance": 0.5741,
-      "importance_score": 0.5741,
+      "score": 0.5708,
+      "importance": 0.5708,
+      "importance_score": 0.5708,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1308,7 +1236,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8451,
+        "recency": 0.8269,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1367,9 +1295,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5739,
-      "importance": 0.5739,
-      "importance_score": 0.5739,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1381,7 +1309,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8439,
+        "recency": 0.8257,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1440,9 +1368,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1454,7 +1382,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8429,
+        "recency": 0.8248,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1467,6 +1395,79 @@
         "id": "36e29e33f9f69f5d6478b1109a7e7fbdbb359641",
         "title": "国航举办北京-威尼斯新开航线首航活动",
         "url": "https://www.pinchain.com/article/348339",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_3000b4f30d5e",
+      "title": "期待“24小时退房制” 激发市场“鲇鱼效应”",
+      "url": "https://www.pinchain.com/article/348329",
+      "primary_url": "https://www.pinchain.com/article/348329",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b26bfb01ef15dca032bb8db3454ed916a05fd25b",
+          "title": "期待“24小时退房制” 激发市场“鲇鱼效应”",
+          "url": "https://www.pinchain.com/article/348329",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-03T03:03:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "b26bfb01ef15dca032bb8db3454ed916a05fd25b",
+          "title": "期待“24小时退房制” 激发市场“鲇鱼效应”",
+          "url": "https://www.pinchain.com/article/348329",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-03T03:03:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5641,
+      "importance": 0.5641,
+      "importance_score": 0.5641,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7892,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-03T03:03:23Z",
+      "latest_at": "2026-07-03T03:03:23Z",
+      "primary_item": {
+        "id": "b26bfb01ef15dca032bb8db3454ed916a05fd25b",
+        "title": "期待“24小时退房制” 激发市场“鲇鱼效应”",
+        "url": "https://www.pinchain.com/article/348329",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
