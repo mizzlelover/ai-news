@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-04T11:06:01.129188Z",
+  "generated_at": "2026-07-04T12:43:54.179411Z",
   "window_hours": 24,
   "total_items": 2,
   "total_items_ai_raw": 2,
-  "total_items_raw": 554,
-  "total_items_all_mode": 554,
+  "total_items_raw": 508,
+  "total_items_all_mode": 508,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 2863,
+  "archive_total": 2879,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 2,
-      "raw_count": 554
+      "raw_count": 508
     }
   ],
   "creator_window_days": 7,
@@ -60,7 +60,7 @@
       "url": "https://skift.com/2026/07/03/turkey-quietly-built-one-of-the-worlds-most-complete-travel-tech-stacks",
       "published_at": "2026-07-03T13:46:11Z",
       "first_seen_at": "2026-07-03T14:01:36.263997Z",
-      "last_seen_at": "2026-07-04T11:06:01.129188Z",
+      "last_seen_at": "2026-07-04T12:43:54.179411Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "ai_label": "tourism_tech",
@@ -118,7 +118,7 @@
       "url": "https://skift.com/2026/07/03/turkey-quietly-built-one-of-the-worlds-most-complete-travel-tech-stacks",
       "published_at": "2026-07-03T13:46:11Z",
       "first_seen_at": "2026-07-03T14:01:36.263997Z",
-      "last_seen_at": "2026-07-04T11:06:01.129188Z",
+      "last_seen_at": "2026-07-04T12:43:54.179411Z",
       "ai_is_related": true,
       "ai_score": 0.78,
       "ai_label": "tourism_tech",
