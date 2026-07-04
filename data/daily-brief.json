@@ -1,6 +1,79 @@
 {
-  "generated_at": "2026-07-04T17:04:12.262130Z",
+  "generated_at": "2026-07-04T18:32:07.681359Z",
   "window_hours": 24,
-  "total_items": 0,
-  "items": []
+  "total_items": 1,
+  "items": [
+    {
+      "story_id": "story_ac088adb3ae7",
+      "title": "Airlines Are Turning Live Entertainment Into a Loyalty Strategy",
+      "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
+      "primary_url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9ad3af1351bd7239940bf170db4e07b9e5e72e01",
+          "title": "Airlines Are Turning Live Entertainment Into a Loyalty Strategy",
+          "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T18:15:45Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "9ad3af1351bd7239940bf170db4e07b9e5e72e01",
+          "title": "Airlines Are Turning Live Entertainment Into a Loyalty Strategy",
+          "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-04T18:15:45Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5888,
+      "importance": 0.5888,
+      "importance_score": 0.5888,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9961,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-04T18:15:45Z",
+      "latest_at": "2026-07-04T18:15:45Z",
+      "primary_item": {
+        "id": "9ad3af1351bd7239940bf170db4e07b9e5e72e01",
+        "title": "Airlines Are Turning Live Entertainment Into a Loyalty Strategy",
+        "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    }
+  ]
 }
