@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-05T06:54:24.781313Z",
+  "generated_at": "2026-07-05T09:41:56.937478Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 2,
-  "total_items_raw": 380,
-  "total_items_all_mode": 380,
+  "total_items": 3,
+  "total_items_ai_raw": 3,
+  "total_items_raw": 364,
+  "total_items_all_mode": 364,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 3128,
+  "archive_total": 3203,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 2,
-      "raw_count": 380
+      "count": 3,
+      "raw_count": 364
     }
   ],
   "creator_window_days": 7,
@@ -23,6 +23,34 @@
   "creator_items_ai": [],
   "creator_items_all": [],
   "items": [
+    {
+      "id": "6d1b1a4594634c5c436bf1083b23abf32dd6256b",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "界面新闻",
+      "title": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "url": "https://www.jiemian.com/article/14703156.html",
+      "published_at": "2026-07-05T07:29:18Z",
+      "first_seen_at": "2026-07-05T09:41:56.937478Z",
+      "last_seen_at": "2026-07-05T09:41:56.937478Z",
+      "ai_is_related": true,
+      "ai_score": 0.77,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "航空",
+        "ai",
+        "科技"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "title_en": null,
+      "title_zh": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "title_bilingual": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向"
+    },
     {
       "id": "fd4ff1470bb5a0217b76fc4f46f484ddc658256a",
       "site_id": "opmlrss",
@@ -59,7 +87,7 @@
       "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
       "published_at": "2026-07-04T18:15:45Z",
       "first_seen_at": "2026-07-04T18:32:07.681359Z",
-      "last_seen_at": "2026-07-05T06:54:24.781313Z",
+      "last_seen_at": "2026-07-05T09:41:56.937478Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
@@ -79,6 +107,34 @@
   ],
   "items_ai": [
     {
+      "id": "6d1b1a4594634c5c436bf1083b23abf32dd6256b",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "界面新闻",
+      "title": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "url": "https://www.jiemian.com/article/14703156.html",
+      "published_at": "2026-07-05T07:29:18Z",
+      "first_seen_at": "2026-07-05T09:41:56.937478Z",
+      "last_seen_at": "2026-07-05T09:41:56.937478Z",
+      "ai_is_related": true,
+      "ai_score": 0.77,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "航空",
+        "ai",
+        "科技"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "title_en": null,
+      "title_zh": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向",
+      "title_bilingual": "中国银河证券：科技制造内部主线切换至“半导体+AI+航空航天”三大方向"
+    },
+    {
       "id": "fd4ff1470bb5a0217b76fc4f46f484ddc658256a",
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
@@ -114,7 +170,7 @@
       "url": "https://skift.com/2026/07/04/airlines-are-turning-live-entertainment-into-a-loyalty-strategy",
       "published_at": "2026-07-04T18:15:45Z",
       "first_seen_at": "2026-07-04T18:32:07.681359Z",
-      "last_seen_at": "2026-07-05T06:54:24.781313Z",
+      "last_seen_at": "2026-07-05T09:41:56.937478Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
