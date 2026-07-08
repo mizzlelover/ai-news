@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-08T12:21:03.060474Z",
+  "generated_at": "2026-07-08T14:55:48.166973Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6178,
-      "importance": 0.6178,
-      "importance_score": 0.6178,
+      "score": 0.6115,
+      "importance": 0.6115,
+      "importance_score": 0.6115,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9489,
+        "recency": 0.9142,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6085,
-      "importance": 0.6085,
-      "importance_score": 0.6085,
+      "score": 0.6029,
+      "importance": 0.6029,
+      "importance_score": 0.6029,
       "ai_label": "tourism_policy",
       "ai_score": 0.83,
       "ai_signals": [
@@ -134,7 +134,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.851,
+        "recency": 0.8199,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -193,9 +193,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5766,
-      "importance": 0.5766,
-      "importance_score": 0.5766,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -207,7 +207,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.928,
+        "recency": 0.8941,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -266,9 +266,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6052,
-      "importance": 0.6052,
-      "importance_score": 0.6052,
+      "score": 0.5994,
+      "importance": 0.5994,
+      "importance_score": 0.5994,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -282,7 +282,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8792,
+        "recency": 0.847,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -300,6 +300,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_b3ee74f43912",
+      "title": "Air Canada Names SAS Chief Anko Van der Werff as New CEO",
+      "url": "https://skift.com/2026/07/08/air-canada-names-sas-chief-anko-van-der-werff-as-new-ceo",
+      "primary_url": "https://skift.com/2026/07/08/air-canada-names-sas-chief-anko-van-der-werff-as-new-ceo",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "e0e38f6aaf0bfc6bcbbc91c96efbb16065401877",
+          "title": "Air Canada Names SAS Chief Anko Van der Werff as New CEO",
+          "url": "https://skift.com/2026/07/08/air-canada-names-sas-chief-anko-van-der-werff-as-new-ceo",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T13:22:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "e0e38f6aaf0bfc6bcbbc91c96efbb16065401877",
+          "title": "Air Canada Names SAS Chief Anko Van der Werff as New CEO",
+          "url": "https://skift.com/2026/07/08/air-canada-names-sas-chief-anko-van-der-werff-as-new-ceo",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T13:22:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5855,
+      "importance": 0.5855,
+      "importance_score": 0.5855,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9778,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-08T13:22:26Z",
+      "latest_at": "2026-07-08T13:22:26Z",
+      "primary_item": {
+        "id": "e0e38f6aaf0bfc6bcbbc91c96efbb16065401877",
+        "title": "Air Canada Names SAS Chief Anko Van der Werff as New CEO",
+        "url": "https://skift.com/2026/07/08/air-canada-names-sas-chief-anko-van-der-werff-as-new-ceo",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -341,9 +413,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5332,
-      "importance": 0.5332,
-      "importance_score": 0.5332,
+      "score": 0.5282,
+      "importance": 0.5282,
+      "importance_score": 0.5282,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -355,7 +427,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7564,
+        "recency": 0.7287,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -372,79 +444,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
-        "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_6580b8939b91",
-      "title": "医用耗材出口核心厂商筹划收购旋智电子，切入半导体赛道；华南综合旅游龙头拟收购广电城服85%股份，广州市属国企跨集团专业化整合再落一子；【并购一线】",
-      "url": "https://www.tmtpost.com/8056536.html",
-      "primary_url": "https://www.tmtpost.com/8056536.html",
-      "source": "钛媒体",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "649eb2bfa8db36e78ed89823f02435618768ac41",
-          "title": "医用耗材出口核心厂商筹划收购旋智电子，切入半导体赛道；华南综合旅游龙头拟收购广电城服85%股份，广州市属国企跨集团专业化整合再落一子；【并购一线】",
-          "url": "https://www.tmtpost.com/8056536.html",
-          "source": "钛媒体",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-07T14:50:22Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "钛媒体"
-      ],
-      "items": [
-        {
-          "id": "649eb2bfa8db36e78ed89823f02435618768ac41",
-          "title": "医用耗材出口核心厂商筹划收购旋智电子，切入半导体赛道；华南综合旅游龙头拟收购广电城服85%股份，广州市属国企跨集团专业化整合再落一子；【并购一线】",
-          "url": "https://www.tmtpost.com/8056536.html",
-          "source": "钛媒体",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-07T14:50:22Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.529,
-      "importance": 0.529,
-      "importance_score": 0.529,
-      "ai_label": "travel_business",
-      "ai_score": 0.69,
-      "ai_signals": [
-        "旅游",
-        "并购"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.733,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-07T14:50:22Z",
-      "latest_at": "2026-07-07T14:50:22Z",
-      "primary_item": {
-        "id": "649eb2bfa8db36e78ed89823f02435618768ac41",
-        "title": "医用耗材出口核心厂商筹划收购旋智电子，切入半导体赛道；华南综合旅游龙头拟收购广电城服85%股份，广州市属国企跨集团专业化整合再落一子；【并购一线】",
-        "url": "https://www.tmtpost.com/8056536.html",
-        "source": "钛媒体",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
         "ai_score": 0.69
       }
     },
@@ -487,9 +486,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6051,
-      "importance": 0.6051,
-      "importance_score": 0.6051,
+      "score": 0.5993,
+      "importance": 0.5993,
+      "importance_score": 0.5993,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -503,7 +502,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8787,
+        "recency": 0.8466,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -562,9 +561,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6041,
-      "importance": 0.6041,
-      "importance_score": 0.6041,
+      "score": 0.5982,
+      "importance": 0.5982,
+      "importance_score": 0.5982,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -578,7 +577,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8959,
+        "recency": 0.8631,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -596,152 +595,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.8
-      }
-    },
-    {
-      "story_id": "story_ae5658a05b00",
-      "title": "Mews Cuts 15% of Staff, Points to AI in Broad Restructuring — Exclusive",
-      "url": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai",
-      "primary_url": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ce017ddd984c026909acaf93c0565ab93805fbf5",
-          "title": "Mews Cuts 15% of Staff, Points to AI in Broad Restructuring — Exclusive",
-          "url": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-07T14:07:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "ce017ddd984c026909acaf93c0565ab93805fbf5",
-          "title": "Mews Cuts 15% of Staff, Points to AI in Broad Restructuring — Exclusive",
-          "url": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-07T14:07:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7254,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-07T14:07:21Z",
-      "latest_at": "2026-07-07T14:07:21Z",
-      "primary_item": {
-        "id": "ce017ddd984c026909acaf93c0565ab93805fbf5",
-        "title": "Mews Cuts 15% of Staff, Points to AI in Broad Restructuring — Exclusive",
-        "url": "https://skift.com/2026/07/07/mews-layoffs-restructuring-ai",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_86092e2ead14",
-      "title": "华住“安心360”重新定义住宿安心基准",
-      "url": "https://www.pinchain.com/article/348521",
-      "primary_url": "https://www.pinchain.com/article/348521",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "70e508772cc482834e8fe485cd09582f66897e8c",
-          "title": "华住“安心360”重新定义住宿安心基准",
-          "url": "https://www.pinchain.com/article/348521",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T06:29:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "70e508772cc482834e8fe485cd09582f66897e8c",
-          "title": "华住“安心360”重新定义住宿安心基准",
-          "url": "https://www.pinchain.com/article/348521",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T06:29:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5999,
-      "importance": 0.5999,
-      "importance_score": 0.5999,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "住宿",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9188,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-08T06:29:21Z",
-      "latest_at": "2026-07-08T06:29:21Z",
-      "primary_item": {
-        "id": "70e508772cc482834e8fe485cd09582f66897e8c",
-        "title": "华住“安心360”重新定义住宿安心基准",
-        "url": "https://www.pinchain.com/article/348521",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -783,9 +636,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5996,
-      "importance": 0.5996,
-      "importance_score": 0.5996,
+      "score": 0.5941,
+      "importance": 0.5941,
+      "importance_score": 0.5941,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -797,7 +650,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8483,
+        "recency": 0.8173,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -815,6 +668,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_86092e2ead14",
+      "title": "华住“安心360”重新定义住宿安心基准",
+      "url": "https://www.pinchain.com/article/348521",
+      "primary_url": "https://www.pinchain.com/article/348521",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "70e508772cc482834e8fe485cd09582f66897e8c",
+          "title": "华住“安心360”重新定义住宿安心基准",
+          "url": "https://www.pinchain.com/article/348521",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T06:29:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "70e508772cc482834e8fe485cd09582f66897e8c",
+          "title": "华住“安心360”重新定义住宿安心基准",
+          "url": "https://www.pinchain.com/article/348521",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T06:29:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5938,
+      "importance": 0.5938,
+      "importance_score": 0.5938,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "住宿",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8852,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-08T06:29:21Z",
+      "latest_at": "2026-07-08T06:29:21Z",
+      "primary_item": {
+        "id": "70e508772cc482834e8fe485cd09582f66897e8c",
+        "title": "华住“安心360”重新定义住宿安心基准",
+        "url": "https://www.pinchain.com/article/348521",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -856,9 +783,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5959,
-      "importance": 0.5959,
-      "importance_score": 0.5959,
+      "score": 0.59,
+      "importance": 0.59,
+      "importance_score": 0.59,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -871,7 +798,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8965,
+        "recency": 0.8637,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -930,9 +857,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5956,
-      "importance": 0.5956,
-      "importance_score": 0.5956,
+      "score": 0.5897,
+      "importance": 0.5897,
+      "importance_score": 0.5897,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -945,7 +872,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8953,
+        "recency": 0.8625,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1004,9 +931,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5954,
-      "importance": 0.5954,
-      "importance_score": 0.5954,
+      "score": 0.5896,
+      "importance": 0.5896,
+      "importance_score": 0.5896,
       "ai_label": "tourism_policy",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1019,7 +946,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8942,
+        "recency": 0.8615,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1078,9 +1005,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5953,
-      "importance": 0.5953,
-      "importance_score": 0.5953,
+      "score": 0.589,
+      "importance": 0.589,
+      "importance_score": 0.589,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1092,7 +1019,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9628,
+        "recency": 0.9276,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1151,9 +1078,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.587,
+      "importance": 0.587,
+      "importance_score": 0.587,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1166,7 +1093,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8795,
+        "recency": 0.8474,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1225,9 +1152,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5918,
-      "importance": 0.5918,
-      "importance_score": 0.5918,
+      "score": 0.5859,
+      "importance": 0.5859,
+      "importance_score": 0.5859,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1240,7 +1167,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8971,
+        "recency": 0.8643,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1299,9 +1226,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5873,
-      "importance": 0.5873,
-      "importance_score": 0.5873,
+      "score": 0.5817,
+      "importance": 0.5817,
+      "importance_score": 0.5817,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1314,7 +1241,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8491,
+        "recency": 0.818,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1373,9 +1300,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5806,
-      "importance": 0.5806,
-      "importance_score": 0.5806,
+      "score": 0.5748,
+      "importance": 0.5748,
+      "importance_score": 0.5748,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1387,7 +1314,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.881,
+        "recency": 0.8488,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1446,9 +1373,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
+      "score": 0.5746,
+      "importance": 0.5746,
+      "importance_score": 0.5746,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1460,7 +1387,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.88,
+        "recency": 0.8478,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1473,6 +1400,79 @@
         "id": "9e65b795ebcf31d1531160834c960969bac54a9d",
         "title": "造谣上海乐高乐园经营不善 相关违法人员被行拘",
         "url": "https://www.pinchain.com/article/348502",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_872875f385a1",
+      "title": "携程驰援广西，300万专项投入帮扶受灾商户",
+      "url": "https://www.pinchain.com/article/348486",
+      "primary_url": "https://www.pinchain.com/article/348486",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2ab55ded9e54ad4a5f08476875d781b1ddd08caa",
+          "title": "携程驰援广西，300万专项投入帮扶受灾商户",
+          "url": "https://www.pinchain.com/article/348486",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T01:13:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2ab55ded9e54ad4a5f08476875d781b1ddd08caa",
+          "title": "携程驰援广西，300万专项投入帮扶受灾商户",
+          "url": "https://www.pinchain.com/article/348486",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-08T01:13:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5697,
+      "importance": 0.5697,
+      "importance_score": 0.5697,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8205,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-08T01:13:58Z",
+      "latest_at": "2026-07-08T01:13:58Z",
+      "primary_item": {
+        "id": "2ab55ded9e54ad4a5f08476875d781b1ddd08caa",
+        "title": "携程驰援广西，300万专项投入帮扶受灾商户",
+        "url": "https://www.pinchain.com/article/348486",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
