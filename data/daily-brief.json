@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-09T19:51:53.626720Z",
+  "generated_at": "2026-07-09T21:22:03.613919Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5923,
-      "importance": 0.5923,
-      "importance_score": 0.5923,
+      "score": 0.5894,
+      "importance": 0.5894,
+      "importance_score": 0.5894,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.7614,
+        "recency": 0.745,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -80,21 +80,21 @@
       }
     },
     {
-      "story_id": "story_5e0a5ff5654b",
-      "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
-      "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
-      "primary_url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+      "story_id": "story_d213cf1c093c",
+      "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+      "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+      "primary_url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
-          "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
-          "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:30:16Z",
+          "published_at": "2026-07-09T20:06:22Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
@@ -105,22 +105,22 @@
       ],
       "items": [
         {
-          "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
-          "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
-          "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-09T17:30:16Z",
+          "published_at": "2026-07-09T20:06:22Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5835,
-      "importance": 0.5835,
-      "importance_score": 0.5835,
+      "score": 0.5863,
+      "importance": 0.5863,
+      "importance_score": 0.5863,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,19 +131,19 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9665,
+        "recency": 0.9819,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-09T17:30:16Z",
-      "latest_at": "2026-07-09T17:30:16Z",
+      "earliest_at": "2026-07-09T20:06:22Z",
+      "latest_at": "2026-07-09T20:06:22Z",
       "primary_item": {
-        "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
-        "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
-        "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+        "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+        "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+        "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5569,
-      "importance": 0.5569,
-      "importance_score": 0.5569,
+      "score": 0.5535,
+      "importance": 0.5535,
+      "importance_score": 0.5535,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8883,
+        "recency": 0.8692,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5554,
-      "importance": 0.5554,
-      "importance_score": 0.5554,
+      "score": 0.552,
+      "importance": 0.552,
+      "importance_score": 0.552,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8799,
+        "recency": 0.861,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5368,
-      "importance": 0.5368,
-      "importance_score": 0.5368,
+      "score": 0.5338,
+      "importance": 0.5338,
+      "importance_score": 0.5338,
       "ai_label": "hospitality_ops",
       "ai_score": 0.69,
       "ai_signals": [
@@ -350,7 +350,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7764,
+        "recency": 0.7597,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -409,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5866,
-      "importance": 0.5866,
-      "importance_score": 0.5866,
+      "score": 0.5836,
+      "importance": 0.5836,
+      "importance_score": 0.5836,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -425,7 +425,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7756,
+        "recency": 0.759,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -443,6 +443,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_5e0a5ff5654b",
+      "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
+      "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+      "primary_url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
+          "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
+          "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:30:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
+          "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
+          "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T17:30:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5798,
+      "importance": 0.5798,
+      "importance_score": 0.5798,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9457,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-09T17:30:16Z",
+      "latest_at": "2026-07-09T17:30:16Z",
+      "primary_item": {
+        "id": "c77a12568c04dd96e13b7ae5d6932b1c6a014d9b",
+        "title": "‘Hey @British_Airways’: Norwegian Air Shows How to Get Free World Cup Buzz",
+        "url": "https://skift.com/2026/07/09/hey-british_airways-norwegian-air-shows-how-to-get-free-world-cup-buzz",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -484,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5773,
-      "importance": 0.5773,
-      "importance_score": 0.5773,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +571,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7934,
+        "recency": 0.7764,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -512,6 +584,80 @@
         "id": "570c2436e58ce44b69beecf0c2c71a241c6c28ad",
         "title": "热雪奇迹千万补贴助力激活暑期冰雪文旅市场",
         "url": "https://www.pinchain.com/article/348559",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_61b629caa216",
+      "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
+      "url": "https://www.pinchain.com/article/348561",
+      "primary_url": "https://www.pinchain.com/article/348561",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
+          "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
+          "url": "https://www.pinchain.com/article/348561",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T02:21:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
+          "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
+          "url": "https://www.pinchain.com/article/348561",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T02:21:58Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5713,
+      "importance": 0.5713,
+      "importance_score": 0.5713,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.76,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-09T02:21:58Z",
+      "latest_at": "2026-07-09T02:21:58Z",
+      "primary_item": {
+        "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
+        "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
+        "url": "https://www.pinchain.com/article/348561",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -558,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.573,
-      "importance": 0.573,
-      "importance_score": 0.573,
+      "score": 0.5695,
+      "importance": 0.5695,
+      "importance_score": 0.5695,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -571,7 +717,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9083,
+        "recency": 0.8888,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -589,153 +735,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_61b629caa216",
-      "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
-      "url": "https://www.pinchain.com/article/348561",
-      "primary_url": "https://www.pinchain.com/article/348561",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
-          "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
-          "url": "https://www.pinchain.com/article/348561",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T02:21:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
-          "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
-          "url": "https://www.pinchain.com/article/348561",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T02:21:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5743,
-      "importance": 0.5743,
-      "importance_score": 0.5743,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7767,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-09T02:21:58Z",
-      "latest_at": "2026-07-09T02:21:58Z",
-      "primary_item": {
-        "id": "9f0c075abeab22d7f17abaa59c2377b13ed7d290",
-        "title": "中国夏日文旅新场景多点开花 多元业态激活暑期消费",
-        "url": "https://www.pinchain.com/article/348561",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_5da5388b67ca",
-      "title": "Fattal Buys Its First U.S. Hotel, Testing an Asset-Heavy Model Against the Giants",
-      "url": "https://skift.com/2026/07/08/fattal-buys-its-first-u-s-hotel-testing-an-asset-heavy-model-against-the-giants",
-      "primary_url": "https://skift.com/2026/07/08/fattal-buys-its-first-u-s-hotel-testing-an-asset-heavy-model-against-the-giants",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c0b8f1f1cb886e92fe1524744c7c30ae50258659",
-          "title": "Fattal Buys Its First U.S. Hotel, Testing an Asset-Heavy Model Against the Giants",
-          "url": "https://skift.com/2026/07/08/fattal-buys-its-first-u-s-hotel-testing-an-asset-heavy-model-against-the-giants",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T20:29:27Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "c0b8f1f1cb886e92fe1524744c7c30ae50258659",
-          "title": "Fattal Buys Its First U.S. Hotel, Testing an Asset-Heavy Model Against the Giants",
-          "url": "https://skift.com/2026/07/08/fattal-buys-its-first-u-s-hotel-testing-an-asset-heavy-model-against-the-giants",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-08T20:29:27Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5504,
-      "importance": 0.5504,
-      "importance_score": 0.5504,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "hotel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7135,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-08T20:29:27Z",
-      "latest_at": "2026-07-08T20:29:27Z",
-      "primary_item": {
-        "id": "c0b8f1f1cb886e92fe1524744c7c30ae50258659",
-        "title": "Fattal Buys Its First U.S. Hotel, Testing an Asset-Heavy Model Against the Giants",
-        "url": "https://skift.com/2026/07/08/fattal-buys-its-first-u-s-hotel-testing-an-asset-heavy-model-against-the-giants",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -777,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -792,7 +791,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7763,
+        "recency": 0.7596,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -851,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5724,
-      "importance": 0.5724,
-      "importance_score": 0.5724,
+      "score": 0.5695,
+      "importance": 0.5695,
+      "importance_score": 0.5695,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -866,7 +865,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7663,
+        "recency": 0.7499,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -925,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.565,
-      "importance": 0.565,
-      "importance_score": 0.565,
+      "score": 0.562,
+      "importance": 0.562,
+      "importance_score": 0.562,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -939,7 +938,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7946,
+        "recency": 0.7776,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -952,79 +951,6 @@
         "id": "fefadb3bcb17a29dd8404293ff226b266f378ce8",
         "title": "古北水镇司马台云雾节启幕",
         "url": "https://www.pinchain.com/article/348573",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_17872f929a7d",
-      "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
-      "url": "https://www.pinchain.com/article/348553",
-      "primary_url": "https://www.pinchain.com/article/348553",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
-          "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
-          "url": "https://www.pinchain.com/article/348553",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T01:33:44Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
-          "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
-          "url": "https://www.pinchain.com/article/348553",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T01:33:44Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5602,
-      "importance": 0.5602,
-      "importance_score": 0.5602,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7677,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-09T01:33:44Z",
-      "latest_at": "2026-07-09T01:33:44Z",
-      "primary_item": {
-        "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
-        "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
-        "url": "https://www.pinchain.com/article/348553",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1071,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5601,
-      "importance": 0.5601,
-      "importance_score": 0.5601,
+      "score": 0.5572,
+      "importance": 0.5572,
+      "importance_score": 0.5572,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1085,7 +1011,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7675,
+        "recency": 0.751,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1098,6 +1024,79 @@
         "id": "7ec0c4e82d5378016b60b45f1fb187828a0027fc",
         "title": "济南：邀客泉畔消夏 以泉水IP激发城市新活力",
         "url": "https://www.pinchain.com/article/348551",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_17872f929a7d",
+      "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
+      "url": "https://www.pinchain.com/article/348553",
+      "primary_url": "https://www.pinchain.com/article/348553",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
+          "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
+          "url": "https://www.pinchain.com/article/348553",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T01:33:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
+          "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
+          "url": "https://www.pinchain.com/article/348553",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-09T01:33:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5572,
+      "importance": 0.5572,
+      "importance_score": 0.5572,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7513,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-09T01:33:44Z",
+      "latest_at": "2026-07-09T01:33:44Z",
+      "primary_item": {
+        "id": "7320cfcb8c33143491c59a29ce48687a38f32e71",
+        "title": "铁路部门暑运将扩大“轻装行”服务覆盖范围",
+        "url": "https://www.pinchain.com/article/348553",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1144,9 +1143,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5571,
+      "importance": 0.5571,
+      "importance_score": 0.5571,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1158,7 +1157,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7668,
+        "recency": 0.7503,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1216,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5599,
-      "importance": 0.5599,
-      "importance_score": 0.5599,
+      "score": 0.5569,
+      "importance": 0.5569,
+      "importance_score": 0.5569,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1231,7 +1230,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.766,
+        "recency": 0.7496,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1290,9 +1289,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5592,
-      "importance": 0.5592,
-      "importance_score": 0.5592,
+      "score": 0.5563,
+      "importance": 0.5563,
+      "importance_score": 0.5563,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1304,7 +1303,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7622,
+        "recency": 0.7459,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1362,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5591,
-      "importance": 0.5591,
-      "importance_score": 0.5591,
+      "score": 0.5562,
+      "importance": 0.5562,
+      "importance_score": 0.5562,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1377,7 +1376,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7619,
+        "recency": 0.7455,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1436,9 +1435,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5589,
-      "importance": 0.5589,
-      "importance_score": 0.5589,
+      "score": 0.556,
+      "importance": 0.556,
+      "importance_score": 0.556,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1450,7 +1449,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7607,
+        "recency": 0.7443,
         "story_heat": 0.0
       },
       "category": "watch",
