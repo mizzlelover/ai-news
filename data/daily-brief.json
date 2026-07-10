@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T22:01:19.229445Z",
+  "generated_at": "2026-07-10T23:28:04.812813Z",
   "window_hours": 24,
-  "total_items": 10,
+  "total_items": 11,
   "items": [
     {
       "story_id": "story_fa12b8932c05",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6019,
-      "importance": 0.6019,
-      "importance_score": 0.6019,
+      "score": 0.5985,
+      "importance": 0.5985,
+      "importance_score": 0.5985,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9303,
+        "recency": 0.9111,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
+      "score": 0.5916,
+      "importance": 0.5916,
+      "importance_score": 0.5916,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8207,
+        "recency": 0.8038,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,6 +149,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_4798b0f7484d",
+      "title": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
+      "url": "https://www.jiemian.com/article/14743586.html",
+      "primary_url": "https://www.jiemian.com/article/14743586.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0033bab11c58b742aaf96b2af44b30c725a42804",
+          "title": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
+          "url": "https://www.jiemian.com/article/14743586.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T23:05:20Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "0033bab11c58b742aaf96b2af44b30c725a42804",
+          "title": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
+          "url": "https://www.jiemian.com/article/14743586.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T23:05:20Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5761,
+      "importance": 0.5761,
+      "importance_score": 0.5761,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "adr",
+        "指数"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.9945,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-10T23:05:20Z",
+      "latest_at": "2026-07-10T23:05:20Z",
+      "primary_item": {
+        "id": "0033bab11c58b742aaf96b2af44b30c725a42804",
+        "title": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
+        "url": "https://www.jiemian.com/article/14743586.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.69
       }
     },
     {
@@ -190,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5701,
-      "importance": 0.5701,
-      "importance_score": 0.5701,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -203,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.892,
+        "recency": 0.8736,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5445,
-      "importance": 0.5445,
-      "importance_score": 0.5445,
+      "score": 0.5417,
+      "importance": 0.5417,
+      "importance_score": 0.5417,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +349,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7497,
+        "recency": 0.7343,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5897,
-      "importance": 0.5897,
-      "importance_score": 0.5897,
+      "score": 0.5867,
+      "importance": 0.5867,
+      "importance_score": 0.5867,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -351,7 +424,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8162,
+        "recency": 0.7994,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -369,78 +442,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.8
-      }
-    },
-    {
-      "story_id": "story_63c24eb1f0af",
-      "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
-      "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
-      "primary_url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
-          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
-          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-10T10:33:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
-          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
-          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-10T10:33:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8475,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-10T10:33:40Z",
-      "latest_at": "2026-07-10T10:33:40Z",
-      "primary_item": {
-        "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
-        "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
-        "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -482,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5708,
-      "importance": 0.5708,
-      "importance_score": 0.5708,
+      "score": 0.568,
+      "importance": 0.568,
+      "importance_score": 0.568,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -497,7 +498,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7576,
+        "recency": 0.7419,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -515,6 +516,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_63c24eb1f0af",
+      "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+      "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+      "primary_url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T10:33:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T10:33:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5589,
+      "importance": 0.5589,
+      "importance_score": 0.5589,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.83,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-10T10:33:40Z",
+      "latest_at": "2026-07-10T10:33:40Z",
+      "primary_item": {
+        "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+        "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+        "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -556,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5637,
-      "importance": 0.5637,
-      "importance_score": 0.5637,
+      "score": 0.5608,
+      "importance": 0.5608,
+      "importance_score": 0.5608,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -570,7 +643,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7872,
+        "recency": 0.7709,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -629,9 +702,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
+      "score": 0.559,
+      "importance": 0.559,
+      "importance_score": 0.559,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -643,7 +716,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7771,
+        "recency": 0.761,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -702,9 +775,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5562,
-      "importance": 0.5562,
-      "importance_score": 0.5562,
+      "score": 0.5534,
+      "importance": 0.5534,
+      "importance_score": 0.5534,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -716,7 +789,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7455,
+        "recency": 0.7301,
         "story_heat": 0.0
       },
       "category": "watch",
