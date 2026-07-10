@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-10T08:22:10.469460Z",
+  "generated_at": "2026-07-10T11:24:57.841347Z",
   "window_hours": 24,
   "total_items": 12,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6269,
-      "importance": 0.6269,
-      "importance_score": 0.6269,
+      "score": 0.6191,
+      "importance": 0.6191,
+      "importance_score": 0.6191,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9996,
+        "recency": 0.9565,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -76,6 +76,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_63c24eb1f0af",
+      "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+      "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+      "primary_url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T10:33:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+          "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+          "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-10T10:33:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5873,
+      "importance": 0.5873,
+      "importance_score": 0.5873,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9877,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-10T10:33:40Z",
+      "latest_at": "2026-07-10T10:33:40Z",
+      "primary_item": {
+        "id": "7556471c5c7c34db3c6169d765b09afd52f14133",
+        "title": "Delta Expects to Meet Original 2026 Outlook, Despite Fuel Price Uncertainty",
+        "url": "https://skift.com/2026/07/10/delta-expects-to-meet-original-2026-profit-outlook",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -117,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5739,
-      "importance": 0.5739,
-      "importance_score": 0.5739,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +203,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9131,
+        "recency": 0.8738,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6217,
-      "importance": 0.6217,
-      "importance_score": 0.6217,
+      "score": 0.614,
+      "importance": 0.614,
+      "importance_score": 0.614,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -206,7 +278,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.9941,
+        "recency": 0.9513,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -224,78 +296,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.8
-      }
-    },
-    {
-      "story_id": "story_d213cf1c093c",
-      "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-      "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-      "primary_url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T20:06:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T20:06:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5603,
-      "importance": 0.5603,
-      "importance_score": 0.5603,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8377,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-09T20:06:22Z",
-      "latest_at": "2026-07-09T20:06:22Z",
-      "primary_item": {
-        "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-        "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-        "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -337,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5305,
-      "importance": 0.5305,
-      "importance_score": 0.5305,
+      "score": 0.5248,
+      "importance": 0.5248,
+      "importance_score": 0.5248,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -351,7 +351,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7415,
+        "recency": 0.7096,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -372,76 +372,75 @@
       }
     },
     {
-      "story_id": "story_b7eedd3ffbd0",
-      "title": "航宇科技：签署航空发动机转动件长期供货协议，预计采购总金额约2.4亿元",
-      "url": "https://36kr.com/newsflashes/3888296850553609?f=rss",
-      "primary_url": "https://36kr.com/newsflashes/3888296850553609?f=rss",
-      "source": "36氪",
+      "story_id": "story_d213cf1c093c",
+      "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+      "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+      "primary_url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+      "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "b78be872b1bb117afce934c3bfc5b61a2d59a620",
-          "title": "航宇科技：签署航空发动机转动件长期供货协议，预计采购总金额约2.4亿元",
-          "url": "https://36kr.com/newsflashes/3888296850553609?f=rss",
-          "source": "36氪",
+          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+          "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-09T11:00:05Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
+          "published_at": "2026-07-09T20:06:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
       "source_names": [
-        "36氪"
+        "Skift"
       ],
       "items": [
         {
-          "id": "b78be872b1bb117afce934c3bfc5b61a2d59a620",
-          "title": "航宇科技：签署航空发动机转动件长期供货协议，预计采购总金额约2.4亿元",
-          "url": "https://36kr.com/newsflashes/3888296850553609?f=rss",
-          "source": "36氪",
+          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+          "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-09T11:00:05Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
+          "published_at": "2026-07-09T20:06:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5292,
-      "importance": 0.5292,
-      "importance_score": 0.5292,
-      "ai_label": "travel_business",
-      "ai_score": 0.69,
+      "score": 0.5538,
+      "importance": 0.5538,
+      "importance_score": 0.5538,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
       "ai_signals": [
-        "航空",
-        "科技"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.4968,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.7345,
+        "ai_relevance": 0.72,
+        "recency": 0.8016,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-09T11:00:05Z",
-      "latest_at": "2026-07-09T11:00:05Z",
+      "earliest_at": "2026-07-09T20:06:22Z",
+      "latest_at": "2026-07-09T20:06:22Z",
       "primary_item": {
-        "id": "b78be872b1bb117afce934c3bfc5b61a2d59a620",
-        "title": "航宇科技：签署航空发动机转动件长期供货协议，预计采购总金额约2.4亿元",
-        "url": "https://36kr.com/newsflashes/3888296850553609?f=rss",
-        "source": "36氪",
+        "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
+        "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
+        "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
+        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.69
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -483,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6006,
-      "importance": 0.6006,
-      "importance_score": 0.6006,
+      "score": 0.5934,
+      "importance": 0.5934,
+      "importance_score": 0.5934,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -498,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9227,
+        "recency": 0.8829,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -557,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5946,
-      "importance": 0.5946,
-      "importance_score": 0.5946,
+      "score": 0.5871,
+      "importance": 0.5871,
+      "importance_score": 0.5871,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -571,7 +570,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9587,
+        "recency": 0.9175,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -630,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5547,
-      "importance": 0.5547,
-      "importance_score": 0.5547,
+      "score": 0.5485,
+      "importance": 0.5485,
+      "importance_score": 0.5485,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -643,7 +642,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8068,
+        "recency": 0.7721,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -702,9 +701,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5924,
-      "importance": 0.5924,
-      "importance_score": 0.5924,
+      "score": 0.585,
+      "importance": 0.585,
+      "importance_score": 0.585,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -716,7 +715,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9464,
+        "recency": 0.9057,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -775,9 +774,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.546,
-      "importance": 0.546,
-      "importance_score": 0.546,
+      "score": 0.5401,
+      "importance": 0.5401,
+      "importance_score": 0.5401,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -788,7 +787,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7582,
+        "recency": 0.7256,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -847,9 +846,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -861,7 +860,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9079,
+        "recency": 0.8688,
         "story_heat": 0.0
       },
       "category": "watch",
