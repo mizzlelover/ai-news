@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-10T19:25:50.685151Z",
+  "generated_at": "2026-07-10T20:49:37.733057Z",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 10,
   "items": [
     {
       "story_id": "story_fa12b8932c05",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6083,
-      "importance": 0.6083,
-      "importance_score": 0.6083,
+      "score": 0.6049,
+      "importance": 0.6049,
+      "importance_score": 0.6049,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9658,
+        "recency": 0.9465,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6003,
-      "importance": 0.6003,
-      "importance_score": 0.6003,
+      "score": 0.5973,
+      "importance": 0.5973,
+      "importance_score": 0.5973,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.852,
+        "recency": 0.835,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5762,
-      "importance": 0.5762,
-      "importance_score": 0.5762,
+      "score": 0.5729,
+      "importance": 0.5729,
+      "importance_score": 0.5729,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9261,
+        "recency": 0.9076,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5496,
-      "importance": 0.5496,
-      "importance_score": 0.5496,
+      "score": 0.5468,
+      "importance": 0.5468,
+      "importance_score": 0.5468,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7783,
+        "recency": 0.7628,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5953,
-      "importance": 0.5953,
-      "importance_score": 0.5953,
+      "score": 0.5923,
+      "importance": 0.5923,
+      "importance_score": 0.5923,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -351,7 +351,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8474,
+        "recency": 0.8304,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5679,
-      "importance": 0.5679,
-      "importance_score": 0.5679,
+      "score": 0.5647,
+      "importance": 0.5647,
+      "importance_score": 0.5647,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -423,7 +423,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8798,
+        "recency": 0.8622,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -482,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.576,
-      "importance": 0.576,
-      "importance_score": 0.576,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -497,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7865,
+        "recency": 0.7708,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -556,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5691,
-      "importance": 0.5691,
-      "importance_score": 0.5691,
+      "score": 0.5662,
+      "importance": 0.5662,
+      "importance_score": 0.5662,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -570,7 +570,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8172,
+        "recency": 0.8009,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -588,78 +588,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_d213cf1c093c",
-      "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-      "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-      "primary_url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T20:06:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-          "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-          "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-09T20:06:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.538,
-      "importance": 0.538,
-      "importance_score": 0.538,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.714,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-09T20:06:22Z",
-      "latest_at": "2026-07-09T20:06:22Z",
-      "primary_item": {
-        "id": "908de9180e337cd1acdb25cff9a4a0f0d1f2d521",
-        "title": "Airbnb Paid $81 Million for a Building in NYC — the Only One It Now Owns",
-        "url": "https://skift.com/2026/07/09/airbnb-paid-81-million-for-a-building-in-nyc-the-only-one-it-now-owns",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -701,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5672,
-      "importance": 0.5672,
-      "importance_score": 0.5672,
+      "score": 0.5643,
+      "importance": 0.5643,
+      "importance_score": 0.5643,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -715,7 +643,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8067,
+        "recency": 0.7906,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -774,9 +702,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5613,
-      "importance": 0.5613,
-      "importance_score": 0.5613,
+      "score": 0.5585,
+      "importance": 0.5585,
+      "importance_score": 0.5585,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -788,7 +716,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7739,
+        "recency": 0.7584,
         "story_heat": 0.0
       },
       "category": "watch",
