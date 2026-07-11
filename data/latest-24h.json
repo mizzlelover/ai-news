@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-11T16:57:25.193683Z",
+  "generated_at": "2026-07-11T17:57:36.794893Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_ai_raw": 3,
-  "total_items_raw": 559,
-  "total_items_all_mode": 559,
+  "total_items": 2,
+  "total_items_ai_raw": 2,
+  "total_items_raw": 557,
+  "total_items_all_mode": 557,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
   "archive_total": 7550,
   "site_count": 1,
-  "source_count": 3,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 3,
-      "raw_count": 559
+      "count": 2,
+      "raw_count": 557
     }
   ],
   "creator_window_days": 7,
@@ -32,7 +32,7 @@
       "url": "https://www.pinchain.com/article/348599",
       "published_at": "2026-07-11T02:06:48Z",
       "first_seen_at": "2026-07-11T04:19:32.149429Z",
-      "last_seen_at": "2026-07-11T16:57:25.193683Z",
+      "last_seen_at": "2026-07-11T17:57:36.794893Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
@@ -76,33 +76,6 @@
       "title_en": null,
       "title_zh": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
       "title_bilingual": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%"
-    },
-    {
-      "id": "c4e017f468995c2d649f85cac8aa4acbf12e3769",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-      "published_at": "2026-07-10T17:01:14Z",
-      "first_seen_at": "2026-07-10T17:49:11.352673Z",
-      "last_seen_at": "2026-07-11T16:57:25.193683Z",
-      "ai_is_related": true,
-      "ai_score": 0.78,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "trusted_tourism_source_default_keep",
-      "ai_signals": [
-        "openai",
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "title_en": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "title_zh": null,
-      "title_bilingual": "Airbnb Just Hired Away an OpenAI Creative Exec"
     }
   ],
   "items_ai": [
@@ -115,7 +88,7 @@
       "url": "https://www.pinchain.com/article/348599",
       "published_at": "2026-07-11T02:06:48Z",
       "first_seen_at": "2026-07-11T04:19:32.149429Z",
-      "last_seen_at": "2026-07-11T16:57:25.193683Z",
+      "last_seen_at": "2026-07-11T17:57:36.794893Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
@@ -159,33 +132,6 @@
       "title_en": null,
       "title_zh": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%",
       "title_bilingual": "美股三大指数集体收涨，SK海力士ADR上市首日涨近13%"
-    },
-    {
-      "id": "c4e017f468995c2d649f85cac8aa4acbf12e3769",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-      "published_at": "2026-07-10T17:01:14Z",
-      "first_seen_at": "2026-07-10T17:49:11.352673Z",
-      "last_seen_at": "2026-07-11T16:57:25.193683Z",
-      "ai_is_related": true,
-      "ai_score": 0.78,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "trusted_tourism_source_default_keep",
-      "ai_signals": [
-        "openai",
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "title_en": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "title_zh": null,
-      "title_bilingual": "Airbnb Just Hired Away an OpenAI Creative Exec"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json",

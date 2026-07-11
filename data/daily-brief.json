@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-11T16:57:25.193683Z",
+  "generated_at": "2026-07-11T17:57:36.794893Z",
   "window_hours": 24,
-  "total_items": 3,
+  "total_items": 2,
   "items": [
     {
       "story_id": "story_fa419ba15f75",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5673,
-      "importance": 0.5673,
-      "importance_score": 0.5673,
+      "score": 0.5652,
+      "importance": 0.5652,
+      "importance_score": 0.5652,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8071,
+        "recency": 0.7955,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -74,79 +74,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_fa12b8932c05",
-      "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-      "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-      "primary_url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c4e017f468995c2d649f85cac8aa4acbf12e3769",
-          "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-          "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-10T17:01:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "c4e017f468995c2d649f85cac8aa4acbf12e3769",
-          "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-          "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-10T17:01:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "openai",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7078,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-10T17:01:14Z",
-      "latest_at": "2026-07-10T17:01:14Z",
-      "primary_item": {
-        "id": "c4e017f468995c2d649f85cac8aa4acbf12e3769",
-        "title": "Airbnb Just Hired Away an OpenAI Creative Exec",
-        "url": "https://skift.com/2026/07/10/airbnb-tabtabai-hiring-openai-creative-exec",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -188,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5361,
-      "importance": 0.5361,
-      "importance_score": 0.5361,
+      "score": 0.5341,
+      "importance": 0.5341,
+      "importance_score": 0.5341,
       "ai_label": "hospitality_ops",
       "ai_score": 0.69,
       "ai_signals": [
@@ -202,7 +129,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7726,
+        "recency": 0.7615,
         "story_heat": 0.0
       },
       "category": "watch",
