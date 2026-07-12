@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-12T12:02:40.049562Z",
+  "generated_at": "2026-07-12T14:03:12.570188Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 453,
-  "total_items_all_mode": 453,
+  "total_items_raw": 442,
+  "total_items_all_mode": 442,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 7934,
+  "archive_total": 7972,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 453
+      "raw_count": 442
     }
   ],
   "creator_window_days": 7,
@@ -32,7 +32,7 @@
       "url": "https://36kr.com/newsflashes/3892557082737416?f=rss",
       "published_at": "2026-07-12T11:50:57Z",
       "first_seen_at": "2026-07-12T12:02:40.049562Z",
-      "last_seen_at": "2026-07-12T12:02:40.049562Z",
+      "last_seen_at": "2026-07-12T14:03:12.570188Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "travel_business",
@@ -61,7 +61,7 @@
       "url": "https://36kr.com/newsflashes/3892557082737416?f=rss",
       "published_at": "2026-07-12T11:50:57Z",
       "first_seen_at": "2026-07-12T12:02:40.049562Z",
-      "last_seen_at": "2026-07-12T12:02:40.049562Z",
+      "last_seen_at": "2026-07-12T14:03:12.570188Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "travel_business",
