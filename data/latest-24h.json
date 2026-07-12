@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-11T23:26:32.414563Z",
+  "generated_at": "2026-07-12T01:05:03.556616Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 530,
-  "total_items_all_mode": 530,
+  "total_items_raw": 523,
+  "total_items_all_mode": 523,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 7559,
+  "archive_total": 7610,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 530
+      "raw_count": 523
     }
   ],
   "creator_window_days": 7,
@@ -32,7 +32,7 @@
       "url": "https://www.pinchain.com/article/348599",
       "published_at": "2026-07-11T02:06:48Z",
       "first_seen_at": "2026-07-11T04:19:32.149429Z",
-      "last_seen_at": "2026-07-11T23:26:32.414563Z",
+      "last_seen_at": "2026-07-12T01:05:03.556616Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
@@ -61,7 +61,7 @@
       "url": "https://www.pinchain.com/article/348599",
       "published_at": "2026-07-11T02:06:48Z",
       "first_seen_at": "2026-07-11T04:19:32.149429Z",
-      "last_seen_at": "2026-07-11T23:26:32.414563Z",
+      "last_seen_at": "2026-07-12T01:05:03.556616Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
