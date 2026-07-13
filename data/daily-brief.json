@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-07-13T17:53:38.608802Z",
+  "generated_at": "2026-07-13T19:21:49.301053Z",
   "window_hours": 24,
-  "total_items": 13,
+  "total_items": 14,
   "items": [
     {
-      "story_id": "story_70f0e1c97d3b",
-      "title": "When Hospitality Fails, The Problem Might Be the Guest",
-      "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-      "primary_url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+      "story_id": "story_72a87d0a18ea",
+      "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
+      "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
+      "primary_url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-          "title": "When Hospitality Fails, The Problem Might Be the Guest",
-          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
+          "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
+          "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-13T14:59:56Z",
+          "published_at": "2026-07-13T18:57:39Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -29,26 +29,26 @@
       ],
       "items": [
         {
-          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-          "title": "When Hospitality Fails, The Problem Might Be the Guest",
-          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
+          "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
+          "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-13T14:59:56Z",
+          "published_at": "2026-07-13T18:57:39Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5946,
-      "importance": 0.5946,
-      "importance_score": 0.5946,
+      "score": 0.601,
+      "importance": 0.601,
+      "importance_score": 0.601,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
-        "hospitality",
+        "travel",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -56,19 +56,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9591,
+        "recency": 0.9942,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-13T14:59:56Z",
-      "latest_at": "2026-07-13T14:59:56Z",
+      "earliest_at": "2026-07-13T18:57:39Z",
+      "latest_at": "2026-07-13T18:57:39Z",
       "primary_item": {
-        "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-        "title": "When Hospitality Fails, The Problem Might Be the Guest",
-        "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+        "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
+        "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
+        "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5859,
-      "importance": 0.5859,
-      "importance_score": 0.5859,
+      "score": 0.5827,
+      "importance": 0.5827,
+      "importance_score": 0.5827,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.841,
+        "recency": 0.8233,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5465,
-      "importance": 0.5465,
-      "importance_score": 0.5465,
+      "score": 0.5436,
+      "importance": 0.5436,
+      "importance_score": 0.5436,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7609,
+        "recency": 0.7449,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -222,6 +222,79 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_70f0e1c97d3b",
+      "title": "When Hospitality Fails, The Problem Might Be the Guest",
+      "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+      "primary_url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+          "title": "When Hospitality Fails, The Problem Might Be the Guest",
+          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T14:59:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+          "title": "When Hospitality Fails, The Problem Might Be the Guest",
+          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T14:59:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.591,
+      "importance": 0.591,
+      "importance_score": 0.591,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hospitality",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9389,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-13T14:59:56Z",
+      "latest_at": "2026-07-13T14:59:56Z",
+      "primary_item": {
+        "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+        "title": "When Hospitality Fails, The Problem Might Be the Guest",
+        "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -263,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5404,
-      "importance": 0.5404,
-      "importance_score": 0.5404,
+      "score": 0.5374,
+      "importance": 0.5374,
+      "importance_score": 0.5374,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -277,7 +350,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7964,
+        "recency": 0.7797,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5826,
+      "importance": 0.5826,
+      "importance_score": 0.5826,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -351,7 +424,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8404,
+        "recency": 0.8228,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5856,
-      "importance": 0.5856,
-      "importance_score": 0.5856,
+      "score": 0.5825,
+      "importance": 0.5825,
+      "importance_score": 0.5825,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +498,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8398,
+        "recency": 0.8221,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.585,
-      "importance": 0.585,
-      "importance_score": 0.585,
+      "score": 0.5818,
+      "importance": 0.5818,
+      "importance_score": 0.5818,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +572,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.836,
+        "recency": 0.8184,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5848,
-      "importance": 0.5848,
-      "importance_score": 0.5848,
+      "score": 0.5816,
+      "importance": 0.5816,
+      "importance_score": 0.5816,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +646,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8349,
+        "recency": 0.8174,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -632,9 +705,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5846,
-      "importance": 0.5846,
-      "importance_score": 0.5846,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -647,7 +720,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8341,
+        "recency": 0.8165,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -706,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -720,7 +793,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8426,
+        "recency": 0.8249,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -779,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5736,
-      "importance": 0.5736,
-      "importance_score": 0.5736,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -793,7 +866,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.842,
+        "recency": 0.8243,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +925,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5726,
-      "importance": 0.5726,
-      "importance_score": 0.5726,
+      "score": 0.5694,
+      "importance": 0.5694,
+      "importance_score": 0.5694,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -866,7 +939,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8365,
+        "recency": 0.8189,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -925,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5722,
-      "importance": 0.5722,
-      "importance_score": 0.5722,
+      "score": 0.569,
+      "importance": 0.569,
+      "importance_score": 0.569,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -939,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8344,
+        "recency": 0.8169,
         "story_heat": 0.0
       },
       "category": "watch",
