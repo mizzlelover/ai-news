@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T17:40:29.518092Z",
+  "generated_at": "2026-07-14T19:18:25.547387Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5926,
-      "importance": 0.5926,
-      "importance_score": 0.5926,
+      "score": 0.5892,
+      "importance": 0.5892,
+      "importance_score": 0.5892,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8093,
+        "recency": 0.7905,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
+      "score": 0.5847,
+      "importance": 0.5847,
+      "importance_score": 0.5847,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9253,
+        "recency": 0.9037,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5686,
-      "importance": 0.5686,
-      "importance_score": 0.5686,
+      "score": 0.5649,
+      "importance": 0.5649,
+      "importance_score": 0.5649,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8837,
+        "recency": 0.8631,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5652,
-      "importance": 0.5652,
-      "importance_score": 0.5652,
+      "score": 0.5615,
+      "importance": 0.5615,
+      "importance_score": 0.5615,
       "ai_label": "tourism_policy",
       "ai_score": 0.71,
       "ai_signals": [
@@ -278,7 +278,7 @@
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.8881,
+        "recency": 0.8675,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -337,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5924,
-      "importance": 0.5924,
-      "importance_score": 0.5924,
+      "score": 0.589,
+      "importance": 0.589,
+      "importance_score": 0.589,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -353,7 +353,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.808,
+        "recency": 0.7892,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5778,
-      "importance": 0.5778,
-      "importance_score": 0.5778,
+      "score": 0.5739,
+      "importance": 0.5739,
+      "importance_score": 0.5739,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -425,7 +425,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9347,
+        "recency": 0.9129,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8357,
+        "recency": 0.8162,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +558,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5754,
-      "importance": 0.5754,
-      "importance_score": 0.5754,
+      "score": 0.5715,
+      "importance": 0.5715,
+      "importance_score": 0.5715,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -571,7 +571,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9213,
+        "recency": 0.8999,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -630,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5637,
-      "importance": 0.5637,
-      "importance_score": 0.5637,
+      "score": 0.5601,
+      "importance": 0.5601,
+      "importance_score": 0.5601,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -644,7 +644,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8566,
+        "recency": 0.8367,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -703,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5806,
-      "importance": 0.5806,
-      "importance_score": 0.5806,
+      "score": 0.5772,
+      "importance": 0.5772,
+      "importance_score": 0.5772,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -718,7 +718,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.812,
+        "recency": 0.7931,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -736,79 +736,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_72a87d0a18ea",
-      "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
-      "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
-      "primary_url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
-          "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
-          "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T18:57:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
-          "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
-          "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T18:57:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5517,
-      "importance": 0.5517,
-      "importance_score": 0.5517,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7204,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-13T18:57:39Z",
-      "latest_at": "2026-07-13T18:57:39Z",
-      "primary_item": {
-        "id": "f6134c6540882bbe3c93f4791f485c44900b3e28",
-        "title": "Canadian Travel to the U.S. Is Rising Again — Still Down Almost 29% From 2024",
-        "url": "https://skift.com/2026/07/13/canadian-travel-to-the-u-s-is-rising-again-still-down-almost-29-from-2024",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -850,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5798,
-      "importance": 0.5798,
-      "importance_score": 0.5798,
+      "score": 0.5765,
+      "importance": 0.5765,
+      "importance_score": 0.5765,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -865,7 +792,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8076,
+        "recency": 0.7888,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +851,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5779,
-      "importance": 0.5779,
-      "importance_score": 0.5779,
+      "score": 0.5745,
+      "importance": 0.5745,
+      "importance_score": 0.5745,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -939,7 +866,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7966,
+        "recency": 0.778,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -998,9 +925,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5775,
-      "importance": 0.5775,
-      "importance_score": 0.5775,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1013,7 +940,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7947,
+        "recency": 0.7762,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1072,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5773,
-      "importance": 0.5773,
-      "importance_score": 0.5773,
+      "score": 0.574,
+      "importance": 0.574,
+      "importance_score": 0.574,
       "ai_label": "tourism_policy",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1087,7 +1014,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7937,
+        "recency": 0.7752,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1146,9 +1073,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5759,
-      "importance": 0.5759,
-      "importance_score": 0.5759,
+      "score": 0.5726,
+      "importance": 0.5726,
+      "importance_score": 0.5726,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1161,7 +1088,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7857,
+        "recency": 0.7674,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1220,9 +1147,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5755,
-      "importance": 0.5755,
-      "importance_score": 0.5755,
+      "score": 0.5721,
+      "importance": 0.5721,
+      "importance_score": 0.5721,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1235,7 +1162,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8064,
+        "recency": 0.7876,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1294,9 +1221,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.573,
-      "importance": 0.573,
-      "importance_score": 0.573,
+      "score": 0.5697,
+      "importance": 0.5697,
+      "importance_score": 0.5697,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1309,7 +1236,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.7928,
+        "recency": 0.7743,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1368,9 +1295,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.567,
-      "importance": 0.567,
-      "importance_score": 0.567,
+      "score": 0.5637,
+      "importance": 0.5637,
+      "importance_score": 0.5637,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1382,7 +1309,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8058,
+        "recency": 0.787,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1395,6 +1322,79 @@
         "id": "87fe04fd777207b6b9edca492011d7f5e6b7275c",
         "title": "告别“冬季限定” 吉林深度转型四季玩法出圈",
         "url": "https://www.pinchain.com/article/348701",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_341b9f8bfa1b",
+      "title": "宁夏银川“我是文脉守护人”讲解大赛落幕",
+      "url": "https://www.pinchain.com/article/348703",
+      "primary_url": "https://www.pinchain.com/article/348703",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "23cbdb280dfe4e2b475f881ad1939086617f7920",
+          "title": "宁夏银川“我是文脉守护人”讲解大赛落幕",
+          "url": "https://www.pinchain.com/article/348703",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T02:37:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "23cbdb280dfe4e2b475f881ad1939086617f7920",
+          "title": "宁夏银川“我是文脉守护人”讲解大赛落幕",
+          "url": "https://www.pinchain.com/article/348703",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T02:37:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7859,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-14T02:37:32Z",
+      "latest_at": "2026-07-14T02:37:32Z",
+      "primary_item": {
+        "id": "23cbdb280dfe4e2b475f881ad1939086617f7920",
+        "title": "宁夏银川“我是文脉守护人”讲解大赛落幕",
+        "url": "https://www.pinchain.com/article/348703",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1441,9 +1441,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5669,
-      "importance": 0.5669,
-      "importance_score": 0.5669,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1455,7 +1455,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8051,
+        "recency": 0.7864,
         "story_heat": 0.0
       },
       "category": "watch",
