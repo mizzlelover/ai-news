@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-14T09:25:01.686425Z",
+  "generated_at": "2026-07-14T11:06:34.954161Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6111,
-      "importance": 0.6111,
-      "importance_score": 0.6111,
+      "score": 0.6071,
+      "importance": 0.6071,
+      "importance_score": 0.6071,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9118,
+        "recency": 0.8898,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5887,
-      "importance": 0.5887,
-      "importance_score": 0.5887,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9956,
+        "recency": 0.9716,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,6 +149,80 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_f66ea514fe2b",
+      "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
+      "url": "https://sspai.com/post/112320",
+      "primary_url": "https://sspai.com/post/112320",
+      "source": "少数派",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0fb36a51f1aaa79f1367c977508655c93b988531",
+          "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
+          "url": "https://sspai.com/post/112320",
+          "source": "少数派",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T09:27:39Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.71
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "少数派"
+      ],
+      "items": [
+        {
+          "id": "0fb36a51f1aaa79f1367c977508655c93b988531",
+          "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
+          "url": "https://sspai.com/post/112320",
+          "source": "少数派",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T09:27:39Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.71
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5811,
+      "importance": 0.5811,
+      "importance_score": 0.5811,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.71,
+      "ai_signals": [
+        "ota",
+        "ai",
+        "数据"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.5,
+        "ai_relevance": 0.71,
+        "recency": 0.9765,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-14T09:27:39Z",
+      "latest_at": "2026-07-14T09:27:39Z",
+      "primary_item": {
+        "id": "0fb36a51f1aaa79f1367c977508655c93b988531",
+        "title": "社区速递 149｜派友热议睡眠数据化、观穹 6×24 望远镜与 RG Rotate 旋转屏掌机",
+        "url": "https://sspai.com/post/112320",
+        "source": "少数派",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_policy",
+        "ai_score": 0.71
       }
     },
     {
@@ -190,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5681,
-      "importance": 0.5681,
-      "importance_score": 0.5681,
+      "score": 0.5646,
+      "importance": 0.5646,
+      "importance_score": 0.5646,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -204,7 +278,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8116,
+        "recency": 0.792,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6108,
-      "importance": 0.6108,
-      "importance_score": 0.6108,
+      "score": 0.6069,
+      "importance": 0.6069,
+      "importance_score": 0.6069,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -279,7 +353,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9103,
+        "recency": 0.8883,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -338,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5832,
-      "importance": 0.5832,
-      "importance_score": 0.5832,
+      "score": 0.579,
+      "importance": 0.579,
+      "importance_score": 0.579,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -352,7 +426,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9651,
+        "recency": 0.9418,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -370,79 +444,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_70f0e1c97d3b",
-      "title": "When Hospitality Fails, The Problem Might Be the Guest",
-      "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-      "primary_url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-          "title": "When Hospitality Fails, The Problem Might Be the Guest",
-          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T14:59:56Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-          "title": "When Hospitality Fails, The Problem Might Be the Guest",
-          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-13T14:59:56Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "hospitality",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7665,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-13T14:59:56Z",
-      "latest_at": "2026-07-13T14:59:56Z",
-      "primary_item": {
-        "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
-        "title": "When Hospitality Fails, The Problem Might Be the Guest",
-        "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -484,9 +485,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.604,
-      "importance": 0.604,
-      "importance_score": 0.604,
+      "score": 0.5999,
+      "importance": 0.5999,
+      "importance_score": 0.5999,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +500,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9415,
+        "recency": 0.9188,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +559,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5991,
-      "importance": 0.5991,
-      "importance_score": 0.5991,
+      "score": 0.5952,
+      "importance": 0.5952,
+      "importance_score": 0.5952,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +574,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9148,
+        "recency": 0.8927,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -591,6 +592,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_70f0e1c97d3b",
+      "title": "When Hospitality Fails, The Problem Might Be the Guest",
+      "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+      "primary_url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+          "title": "When Hospitality Fails, The Problem Might Be the Guest",
+          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T14:59:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+          "title": "When Hospitality Fails, The Problem Might Be the Guest",
+          "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-13T14:59:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5566,
+      "importance": 0.5566,
+      "importance_score": 0.5566,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hospitality",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.748,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-13T14:59:56Z",
+      "latest_at": "2026-07-13T14:59:56Z",
+      "primary_item": {
+        "id": "07a4ae2cb24d21b843374656b1f8ce5669f624c6",
+        "title": "When Hospitality Fails, The Problem Might Be the Guest",
+        "url": "https://skift.com/2026/07/13/when-hospitality-fails-the-problem-might-be-the-guest",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -632,9 +706,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5983,
-      "importance": 0.5983,
-      "importance_score": 0.5983,
+      "score": 0.5943,
+      "importance": 0.5943,
+      "importance_score": 0.5943,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -647,7 +721,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9099,
+        "recency": 0.8879,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -706,9 +780,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.596,
-      "importance": 0.596,
-      "importance_score": 0.596,
+      "score": 0.5921,
+      "importance": 0.5921,
+      "importance_score": 0.5921,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -721,7 +795,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8975,
+        "recency": 0.8758,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -780,9 +854,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5956,
-      "importance": 0.5956,
-      "importance_score": 0.5956,
+      "score": 0.5918,
+      "importance": 0.5918,
+      "importance_score": 0.5918,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -795,7 +869,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8954,
+        "recency": 0.8738,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -854,9 +928,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5954,
-      "importance": 0.5954,
-      "importance_score": 0.5954,
+      "score": 0.5916,
+      "importance": 0.5916,
+      "importance_score": 0.5916,
       "ai_label": "tourism_policy",
       "ai_score": 0.78,
       "ai_signals": [
@@ -869,7 +943,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8942,
+        "recency": 0.8726,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -886,6 +960,80 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_bfb02674527b",
+      "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
+      "url": "https://www.pinchain.com/article/348682",
+      "primary_url": "https://www.pinchain.com/article/348682",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
+          "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
+          "url": "https://www.pinchain.com/article/348682",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T00:58:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
+          "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
+          "url": "https://www.pinchain.com/article/348682",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-14T00:58:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.59,
+      "importance": 0.59,
+      "importance_score": 0.59,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8638,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-14T00:58:25Z",
+      "latest_at": "2026-07-14T00:58:25Z",
+      "primary_item": {
+        "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
+        "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
+        "url": "https://www.pinchain.com/article/348682",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
         "ai_score": 0.78
       }
     },
@@ -928,9 +1076,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5939,
-      "importance": 0.5939,
-      "importance_score": 0.5939,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -943,7 +1091,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9086,
+        "recency": 0.8866,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -961,80 +1109,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.77
-      }
-    },
-    {
-      "story_id": "story_bfb02674527b",
-      "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
-      "url": "https://www.pinchain.com/article/348682",
-      "primary_url": "https://www.pinchain.com/article/348682",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
-          "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
-          "url": "https://www.pinchain.com/article/348682",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T00:58:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
-          "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
-          "url": "https://www.pinchain.com/article/348682",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T00:58:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5938,
-      "importance": 0.5938,
-      "importance_score": 0.5938,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "酒店",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8852,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-14T00:58:25Z",
-      "latest_at": "2026-07-14T00:58:25Z",
-      "primary_item": {
-        "id": "7a5529516eaf200c69b26431b12ca5432024b1b0",
-        "title": "新加坡滨海湾宾乐雅臻选酒店揭幕Gnomey Hollows",
-        "url": "https://www.pinchain.com/article/348682",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -1076,9 +1150,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5911,
-      "importance": 0.5911,
-      "importance_score": 0.5911,
+      "score": 0.5872,
+      "importance": 0.5872,
+      "importance_score": 0.5872,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1091,7 +1165,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8932,
+        "recency": 0.8716,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1150,9 +1224,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1164,7 +1238,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9078,
+        "recency": 0.8859,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1223,9 +1297,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5853,
-      "importance": 0.5853,
-      "importance_score": 0.5853,
+      "score": 0.5813,
+      "importance": 0.5813,
+      "importance_score": 0.5813,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1237,7 +1311,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9071,
+        "recency": 0.8852,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1296,9 +1370,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5852,
-      "importance": 0.5852,
-      "importance_score": 0.5852,
+      "score": 0.5812,
+      "importance": 0.5812,
+      "importance_score": 0.5812,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1310,7 +1384,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9066,
+        "recency": 0.8847,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1369,9 +1443,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.585,
-      "importance": 0.585,
-      "importance_score": 0.585,
+      "score": 0.5811,
+      "importance": 0.5811,
+      "importance_score": 0.5811,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1383,7 +1457,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9056,
+        "recency": 0.8837,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1396,79 +1470,6 @@
         "id": "1cb6a6312e08fff28f1d409353233dae6ea382f9",
         "title": "三亚面向不同客群 推出暑期旅游十条精品线路",
         "url": "https://www.pinchain.com/article/348704",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_81f5a18071a9",
-      "title": "国家文物局:强调文物价值和历史环境的重要性",
-      "url": "https://www.pinchain.com/article/348694",
-      "primary_url": "https://www.pinchain.com/article/348694",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b2383a01c01239309c2eaa5c0a8490f06744887c",
-          "title": "国家文物局:强调文物价值和历史环境的重要性",
-          "url": "https://www.pinchain.com/article/348694",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T02:29:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "b2383a01c01239309c2eaa5c0a8490f06744887c",
-          "title": "国家文物局:强调文物价值和历史环境的重要性",
-          "url": "https://www.pinchain.com/article/348694",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-14T02:29:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9048,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-14T02:29:08Z",
-      "latest_at": "2026-07-14T02:29:08Z",
-      "primary_item": {
-        "id": "b2383a01c01239309c2eaa5c0a8490f06744887c",
-        "title": "国家文物局:强调文物价值和历史环境的重要性",
-        "url": "https://www.pinchain.com/article/348694",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
