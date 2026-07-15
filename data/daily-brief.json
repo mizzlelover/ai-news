@@ -1,8 +1,81 @@
 {
-  "generated_at": "2026-07-15T18:37:00.401111Z",
+  "generated_at": "2026-07-15T20:07:59.576351Z",
   "window_hours": 24,
-  "total_items": 15,
+  "total_items": 17,
   "items": [
+    {
+      "story_id": "story_38118ef013e0",
+      "title": "What’s Next for Hotel Operations and AI Adoption?",
+      "url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
+      "primary_url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
+      "source": "Hotel Management",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8277dfe11f402dbe0cc9c4bd836615715b414679",
+          "title": "What’s Next for Hotel Operations and AI Adoption?",
+          "url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:48:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hotel Management"
+      ],
+      "items": [
+        {
+          "id": "8277dfe11f402dbe0cc9c4bd836615715b414679",
+          "title": "What’s Next for Hotel Operations and AI Adoption?",
+          "url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:48:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6235,
+      "importance": 0.6235,
+      "importance_score": 0.6235,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.981,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-15T18:48:13Z",
+      "latest_at": "2026-07-15T18:48:13Z",
+      "primary_item": {
+        "id": "8277dfe11f402dbe0cc9c4bd836615715b414679",
+        "title": "What’s Next for Hotel Operations and AI Adoption?",
+        "url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
+        "source": "Hotel Management",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
     {
       "story_id": "story_ada026681567",
       "title": "What If AI Doesn’t Fix Travel’s Labor Problem?",
@@ -42,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6141,
-      "importance": 0.6141,
-      "importance_score": 0.6141,
+      "score": 0.6105,
+      "importance": 0.6105,
+      "importance_score": 0.6105,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +129,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9288,
+        "recency": 0.9087,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5863,
-      "importance": 0.5863,
-      "importance_score": 0.5863,
+      "score": 0.583,
+      "importance": 0.583,
+      "importance_score": 0.583,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -130,7 +203,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8435,
+        "recency": 0.8252,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5511,
-      "importance": 0.5511,
-      "importance_score": 0.5511,
+      "score": 0.5478,
+      "importance": 0.5478,
+      "importance_score": 0.5478,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -203,7 +276,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8561,
+        "recency": 0.8376,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -224,21 +297,21 @@
       }
     },
     {
-      "story_id": "story_ea031213a60f",
-      "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-      "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
-      "primary_url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "story_id": "story_da3c0b4fcec0",
+      "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+      "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+      "primary_url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T18:20:50Z",
+          "published_at": "2026-07-15T19:02:07Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
@@ -249,22 +322,22 @@
       ],
       "items": [
         {
-          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T18:20:50Z",
+          "published_at": "2026-07-15T19:02:07Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5867,
+      "importance": 0.5867,
+      "importance_score": 0.5867,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,19 +348,19 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9961,
+        "recency": 0.9843,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-15T18:20:50Z",
-      "latest_at": "2026-07-15T18:20:50Z",
+      "earliest_at": "2026-07-15T19:02:07Z",
+      "latest_at": "2026-07-15T19:02:07Z",
       "primary_item": {
-        "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-        "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-        "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+        "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+        "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+        "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -334,9 +407,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5817,
-      "importance": 0.5817,
-      "importance_score": 0.5817,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -349,7 +422,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.841,
+        "recency": 0.8228,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -367,6 +440,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.77
+      }
+    },
+    {
+      "story_id": "story_ea031213a60f",
+      "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+      "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "primary_url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:20:50Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:20:50Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5849,
+      "importance": 0.5849,
+      "importance_score": 0.5849,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9745,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-15T18:20:50Z",
+      "latest_at": "2026-07-15T18:20:50Z",
+      "primary_item": {
+        "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+        "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+        "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -408,9 +553,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.5709,
+      "importance": 0.5709,
+      "importance_score": 0.5709,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -422,7 +567,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8457,
+        "recency": 0.8274,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -481,9 +626,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.574,
-      "importance": 0.574,
-      "importance_score": 0.574,
+      "score": 0.5707,
+      "importance": 0.5707,
+      "importance_score": 0.5707,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -495,7 +640,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8445,
+        "recency": 0.8262,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +699,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5739,
-      "importance": 0.5739,
-      "importance_score": 0.5739,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -568,7 +713,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8437,
+        "recency": 0.8255,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -627,9 +772,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -641,7 +786,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8431,
+        "recency": 0.8248,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -700,9 +845,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -714,7 +859,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8427,
+        "recency": 0.8244,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -773,9 +918,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -787,7 +932,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8427,
+        "recency": 0.8244,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -846,9 +991,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5736,
-      "importance": 0.5736,
-      "importance_score": 0.5736,
+      "score": 0.5703,
+      "importance": 0.5703,
+      "importance_score": 0.5703,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -860,7 +1005,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8423,
+        "recency": 0.8241,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -919,9 +1064,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5735,
-      "importance": 0.5735,
-      "importance_score": 0.5735,
+      "score": 0.5702,
+      "importance": 0.5702,
+      "importance_score": 0.5702,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -933,7 +1078,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8417,
+        "recency": 0.8235,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -992,9 +1137,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.5627,
+      "importance": 0.5627,
+      "importance_score": 0.5627,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1006,7 +1151,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7991,
+        "recency": 0.7818,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1065,9 +1210,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5639,
-      "importance": 0.5639,
-      "importance_score": 0.5639,
+      "score": 0.5608,
+      "importance": 0.5608,
+      "importance_score": 0.5608,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1079,7 +1224,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7881,
+        "recency": 0.7711,
         "story_heat": 0.0
       },
       "category": "watch",
