@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-15T21:29:44.571237Z",
+  "generated_at": "2026-07-15T22:32:41.665363Z",
   "window_hours": 24,
   "total_items": 18,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6201,
-      "importance": 0.6201,
-      "importance_score": 0.6201,
+      "score": 0.6175,
+      "importance": 0.6175,
+      "importance_score": 0.6175,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9619,
+        "recency": 0.9474,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6073,
-      "importance": 0.6073,
-      "importance_score": 0.6073,
+      "score": 0.6049,
+      "importance": 0.6049,
+      "importance_score": 0.6049,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.891,
+        "recency": 0.8776,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5801,
-      "importance": 0.5801,
-      "importance_score": 0.5801,
+      "score": 0.5779,
+      "importance": 0.5779,
+      "importance_score": 0.5779,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8091,
+        "recency": 0.797,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5449,
-      "importance": 0.5449,
-      "importance_score": 0.5449,
+      "score": 0.5426,
+      "importance": 0.5426,
+      "importance_score": 0.5426,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8212,
+        "recency": 0.8089,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
+      "score": 0.5858,
+      "importance": 0.5858,
+      "importance_score": 0.5858,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -348,7 +348,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9941,
+        "recency": 0.9792,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -407,9 +407,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5755,
-      "importance": 0.5755,
-      "importance_score": 0.5755,
+      "score": 0.5733,
+      "importance": 0.5733,
+      "importance_score": 0.5733,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -422,7 +422,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8067,
+        "recency": 0.7946,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -481,9 +481,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5832,
-      "importance": 0.5832,
-      "importance_score": 0.5832,
+      "score": 0.5806,
+      "importance": 0.5806,
+      "importance_score": 0.5806,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -494,7 +494,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9651,
+        "recency": 0.9506,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -553,9 +553,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.568,
-      "importance": 0.568,
-      "importance_score": 0.568,
+      "score": 0.5658,
+      "importance": 0.5658,
+      "importance_score": 0.5658,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -567,7 +567,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8113,
+        "recency": 0.7991,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -626,9 +626,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5815,
-      "importance": 0.5815,
-      "importance_score": 0.5815,
+      "score": 0.5789,
+      "importance": 0.5789,
+      "importance_score": 0.5789,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -639,7 +639,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9556,
+        "recency": 0.9412,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -698,9 +698,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5678,
-      "importance": 0.5678,
-      "importance_score": 0.5678,
+      "score": 0.5656,
+      "importance": 0.5656,
+      "importance_score": 0.5656,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -712,7 +712,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8101,
+        "recency": 0.798,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -771,9 +771,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5677,
-      "importance": 0.5677,
-      "importance_score": 0.5677,
+      "score": 0.5655,
+      "importance": 0.5655,
+      "importance_score": 0.5655,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -785,7 +785,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8094,
+        "recency": 0.7972,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -844,9 +844,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5676,
-      "importance": 0.5676,
-      "importance_score": 0.5676,
+      "score": 0.5654,
+      "importance": 0.5654,
+      "importance_score": 0.5654,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -858,7 +858,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8087,
+        "recency": 0.7966,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -871,6 +871,79 @@
         "id": "a2b11c527584cf2bb515feb07aa370a3b2983291",
         "title": "*ST西旅2026年上半年预亏4000万—6000万元",
         "url": "https://www.pinchain.com/article/348764",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_6e9fb4b5fcee",
+      "title": "中国中免2026年上半年净利润31.06亿元",
+      "url": "https://www.pinchain.com/article/348752",
+      "primary_url": "https://www.pinchain.com/article/348752",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
+          "title": "中国中免2026年上半年净利润31.06亿元",
+          "url": "https://www.pinchain.com/article/348752",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T06:44:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
+          "title": "中国中免2026年上半年净利润31.06亿元",
+          "url": "https://www.pinchain.com/article/348752",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T06:44:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7959,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-15T06:44:08Z",
+      "latest_at": "2026-07-15T06:44:08Z",
+      "primary_item": {
+        "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
+        "title": "中国中免2026年上半年净利润31.06亿元",
+        "url": "https://www.pinchain.com/article/348752",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -917,9 +990,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5675,
-      "importance": 0.5675,
-      "importance_score": 0.5675,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -931,7 +1004,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8084,
+        "recency": 0.7962,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -990,9 +1063,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5675,
-      "importance": 0.5675,
-      "importance_score": 0.5675,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1004,7 +1077,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8084,
+        "recency": 0.7962,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1017,79 +1090,6 @@
         "id": "998364caa4a0e77d38a88686f11b75e253249d9f",
         "title": "岭南控股上半年预计净利润5500万—6200万元",
         "url": "https://www.pinchain.com/article/348751",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_6e9fb4b5fcee",
-      "title": "中国中免2026年上半年净利润31.06亿元",
-      "url": "https://www.pinchain.com/article/348752",
-      "primary_url": "https://www.pinchain.com/article/348752",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
-          "title": "中国中免2026年上半年净利润31.06亿元",
-          "url": "https://www.pinchain.com/article/348752",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-15T06:44:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
-          "title": "中国中免2026年上半年净利润31.06亿元",
-          "url": "https://www.pinchain.com/article/348752",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-15T06:44:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5674,
-      "importance": 0.5674,
-      "importance_score": 0.5674,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.808,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-15T06:44:08Z",
-      "latest_at": "2026-07-15T06:44:08Z",
-      "primary_item": {
-        "id": "3dbc970a6ef1e7512677b6f2ff571934e52e9874",
-        "title": "中国中免2026年上半年净利润31.06亿元",
-        "url": "https://www.pinchain.com/article/348752",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1136,9 +1136,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5673,
-      "importance": 0.5673,
-      "importance_score": 0.5673,
+      "score": 0.5652,
+      "importance": 0.5652,
+      "importance_score": 0.5652,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1150,7 +1150,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8074,
+        "recency": 0.7953,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1209,9 +1209,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5579,
+      "importance": 0.5579,
+      "importance_score": 0.5579,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1223,7 +1223,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7665,
+        "recency": 0.755,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1282,9 +1282,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5581,
-      "importance": 0.5581,
-      "importance_score": 0.5581,
+      "score": 0.556,
+      "importance": 0.556,
+      "importance_score": 0.556,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1296,7 +1296,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.756,
+        "recency": 0.7447,
         "story_heat": 0.0
       },
       "category": "watch",
