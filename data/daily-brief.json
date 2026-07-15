@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-15T20:07:59.576351Z",
+  "generated_at": "2026-07-15T21:29:44.571237Z",
   "window_hours": 24,
-  "total_items": 17,
+  "total_items": 18,
   "items": [
     {
       "story_id": "story_38118ef013e0",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6235,
-      "importance": 0.6235,
-      "importance_score": 0.6235,
+      "score": 0.6201,
+      "importance": 0.6201,
+      "importance_score": 0.6201,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.981,
+        "recency": 0.9619,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6105,
-      "importance": 0.6105,
-      "importance_score": 0.6105,
+      "score": 0.6073,
+      "importance": 0.6073,
+      "importance_score": 0.6073,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9087,
+        "recency": 0.891,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.583,
-      "importance": 0.583,
-      "importance_score": 0.583,
+      "score": 0.5801,
+      "importance": 0.5801,
+      "importance_score": 0.5801,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8252,
+        "recency": 0.8091,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5478,
-      "importance": 0.5478,
-      "importance_score": 0.5478,
+      "score": 0.5449,
+      "importance": 0.5449,
+      "importance_score": 0.5449,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8376,
+        "recency": 0.8212,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -297,22 +297,22 @@
       }
     },
     {
-      "story_id": "story_da3c0b4fcec0",
-      "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
-      "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
-      "primary_url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+      "story_id": "story_3840736250b5",
+      "title": "United Airlines Raises Outlook, Higher Fares Offset $6 Billion in Added Fuel Expense",
+      "url": "https://skift.com/2026/07/15/united-airlines-raises-outlook-higher-fares-offset-fuel-expens",
+      "primary_url": "https://skift.com/2026/07/15/united-airlines-raises-outlook-higher-fares-offset-fuel-expens",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
-          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
-          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+          "id": "816bc1897fa066dda7cc6f5b9364e2727b159c0f",
+          "title": "United Airlines Raises Outlook, Higher Fares Offset $6 Billion in Added Fuel Expense",
+          "url": "https://skift.com/2026/07/15/united-airlines-raises-outlook-higher-fares-offset-fuel-expens",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T19:02:07Z",
-          "ai_label": "hospitality_ops",
+          "published_at": "2026-07-15T21:05:21Z",
+          "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
@@ -322,49 +322,49 @@
       ],
       "items": [
         {
-          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
-          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
-          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+          "id": "816bc1897fa066dda7cc6f5b9364e2727b159c0f",
+          "title": "United Airlines Raises Outlook, Higher Fares Offset $6 Billion in Added Fuel Expense",
+          "url": "https://skift.com/2026/07/15/united-airlines-raises-outlook-higher-fares-offset-fuel-expens",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T19:02:07Z",
-          "ai_label": "hospitality_ops",
+          "published_at": "2026-07-15T21:05:21Z",
+          "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5867,
-      "importance": 0.5867,
-      "importance_score": 0.5867,
-      "ai_label": "hospitality_ops",
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
+      "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
-        "hotel"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9843,
+        "recency": 0.9941,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-15T19:02:07Z",
-      "latest_at": "2026-07-15T19:02:07Z",
+      "earliest_at": "2026-07-15T21:05:21Z",
+      "latest_at": "2026-07-15T21:05:21Z",
       "primary_item": {
-        "id": "9b2554488f3e71e35730db93c01c884337ae1653",
-        "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
-        "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+        "id": "816bc1897fa066dda7cc6f5b9364e2727b159c0f",
+        "title": "United Airlines Raises Outlook, Higher Fares Offset $6 Billion in Added Fuel Expense",
+        "url": "https://skift.com/2026/07/15/united-airlines-raises-outlook-higher-fares-offset-fuel-expens",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
+        "ai_label": "tourism_tech",
         "ai_score": 0.72
       }
     },
@@ -407,9 +407,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5784,
-      "importance": 0.5784,
-      "importance_score": 0.5784,
+      "score": 0.5755,
+      "importance": 0.5755,
+      "importance_score": 0.5755,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -422,7 +422,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8228,
+        "recency": 0.8067,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -443,21 +443,21 @@
       }
     },
     {
-      "story_id": "story_ea031213a60f",
-      "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-      "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
-      "primary_url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "story_id": "story_da3c0b4fcec0",
+      "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+      "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
+      "primary_url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T18:20:50Z",
+          "published_at": "2026-07-15T19:02:07Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
@@ -468,22 +468,22 @@
       ],
       "items": [
         {
-          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+          "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+          "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-15T18:20:50Z",
+          "published_at": "2026-07-15T19:02:07Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -494,19 +494,19 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9745,
+        "recency": 0.9651,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-15T18:20:50Z",
-      "latest_at": "2026-07-15T18:20:50Z",
+      "earliest_at": "2026-07-15T19:02:07Z",
+      "latest_at": "2026-07-15T19:02:07Z",
       "primary_item": {
-        "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
-        "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
-        "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+        "id": "9b2554488f3e71e35730db93c01c884337ae1653",
+        "title": "Scandic’s Dalata Deal Template Comes for Europe’s Mid-Cap Hotels",
+        "url": "https://skift.com/2026/07/15/scandics-dalata-deal-template-comes-for-europes-mid-cap-hotels",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -553,9 +553,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5709,
-      "importance": 0.5709,
-      "importance_score": 0.5709,
+      "score": 0.568,
+      "importance": 0.568,
+      "importance_score": 0.568,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -567,7 +567,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8274,
+        "recency": 0.8113,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -585,6 +585,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_ea031213a60f",
+      "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+      "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "primary_url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:20:50Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+          "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+          "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-15T18:20:50Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9556,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-15T18:20:50Z",
+      "latest_at": "2026-07-15T18:20:50Z",
+      "primary_item": {
+        "id": "15856e8d2931119a1eb9ebcc2469937de800595a",
+        "title": "Oman and Africa Became Minor Hotels’ Safe Havens During the Iran War",
+        "url": "https://skift.com/2026/07/15/oman-and-africa-became-minor-hotels-safe-havens-during-the-iran-war",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -626,9 +698,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5707,
-      "importance": 0.5707,
-      "importance_score": 0.5707,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -640,7 +712,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8262,
+        "recency": 0.8101,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -699,9 +771,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5706,
-      "importance": 0.5706,
-      "importance_score": 0.5706,
+      "score": 0.5677,
+      "importance": 0.5677,
+      "importance_score": 0.5677,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -713,7 +785,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8255,
+        "recency": 0.8094,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -772,9 +844,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5705,
-      "importance": 0.5705,
-      "importance_score": 0.5705,
+      "score": 0.5676,
+      "importance": 0.5676,
+      "importance_score": 0.5676,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -786,7 +858,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8248,
+        "recency": 0.8087,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -845,9 +917,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -859,7 +931,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8244,
+        "recency": 0.8084,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -918,9 +990,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -932,7 +1004,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8244,
+        "recency": 0.8084,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -991,9 +1063,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5703,
-      "importance": 0.5703,
-      "importance_score": 0.5703,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1005,7 +1077,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8241,
+        "recency": 0.808,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1064,9 +1136,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5702,
-      "importance": 0.5702,
-      "importance_score": 0.5702,
+      "score": 0.5673,
+      "importance": 0.5673,
+      "importance_score": 0.5673,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1078,7 +1150,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8235,
+        "recency": 0.8074,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1137,9 +1209,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5627,
-      "importance": 0.5627,
-      "importance_score": 0.5627,
+      "score": 0.56,
+      "importance": 0.56,
+      "importance_score": 0.56,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1151,7 +1223,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7818,
+        "recency": 0.7665,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1210,9 +1282,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5608,
-      "importance": 0.5608,
-      "importance_score": 0.5608,
+      "score": 0.5581,
+      "importance": 0.5581,
+      "importance_score": 0.5581,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1224,7 +1296,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7711,
+        "recency": 0.756,
         "story_heat": 0.0
       },
       "category": "watch",
