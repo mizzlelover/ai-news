@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-16T12:01:55.840373Z",
+  "generated_at": "2026-07-16T14:32:40.809784Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6322,
-      "importance": 0.6322,
-      "importance_score": 0.6322,
+      "score": 0.6264,
+      "importance": 0.6264,
+      "importance_score": 0.6264,
       "ai_label": "tourism_tech",
       "ai_score": 0.86,
       "ai_signals": [
@@ -60,7 +60,7 @@
         "editorial": 0.6192,
         "source_tier": 0.5,
         "ai_relevance": 0.86,
-        "recency": 0.9138,
+        "recency": 0.8813,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -78,6 +78,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.86
+      }
+    },
+    {
+      "story_id": "story_f711456e1059",
+      "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
+      "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
+      "primary_url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
+          "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
+          "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T13:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
+          "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
+          "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T13:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6124,
+      "importance": 0.6124,
+      "importance_score": 0.6124,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9886,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-16T13:44:53Z",
+      "latest_at": "2026-07-16T13:44:53Z",
+      "primary_item": {
+        "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
+        "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
+        "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -119,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5912,
-      "importance": 0.5912,
-      "importance_score": 0.5912,
+      "score": 0.5852,
+      "importance": 0.5852,
+      "importance_score": 0.5852,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -134,7 +206,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9401,
+        "recency": 0.9066,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -193,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5873,
-      "importance": 0.5873,
-      "importance_score": 0.5873,
+      "score": 0.5823,
+      "importance": 0.5823,
+      "importance_score": 0.5823,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -207,7 +279,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7797,
+        "recency": 0.752,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -221,79 +293,6 @@
         "title": "What’s Next for Hotel Operations and AI Adoption?",
         "url": "https://www.hotelmanagement.net/resource/whats-next-hotel-operations-and-ai-adoption",
         "source": "Hotel Management",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_ada026681567",
-      "title": "What If AI Doesn’t Fix Travel’s Labor Problem?",
-      "url": "https://skift.com/2026/07/15/what-if-ai-doesnt-fix-travels-labor-problem",
-      "primary_url": "https://skift.com/2026/07/15/what-if-ai-doesnt-fix-travels-labor-problem",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7b8ba5d037738bb2bb01d8630e792b3675cc2419",
-          "title": "What If AI Doesn’t Fix Travel’s Labor Problem?",
-          "url": "https://skift.com/2026/07/15/what-if-ai-doesnt-fix-travels-labor-problem",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-15T13:30:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "7b8ba5d037738bb2bb01d8630e792b3675cc2419",
-          "title": "What If AI Doesn’t Fix Travel’s Labor Problem?",
-          "url": "https://skift.com/2026/07/15/what-if-ai-doesnt-fix-travels-labor-problem",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-15T13:30:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.577,
-      "importance": 0.577,
-      "importance_score": 0.577,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7223,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-15T13:30:00Z",
-      "latest_at": "2026-07-15T13:30:00Z",
-      "primary_item": {
-        "id": "7b8ba5d037738bb2bb01d8630e792b3675cc2419",
-        "title": "What If AI Doesn’t Fix Travel’s Labor Problem?",
-        "url": "https://skift.com/2026/07/15/what-if-ai-doesnt-fix-travels-labor-problem",
-        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -339,9 +338,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
+      "score": 0.5685,
+      "importance": 0.5685,
+      "importance_score": 0.5685,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -353,7 +352,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9879,
+        "recency": 0.9527,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5736,
-      "importance": 0.5736,
-      "importance_score": 0.5736,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -426,7 +425,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9812,
+        "recency": 0.9462,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.613,
-      "importance": 0.613,
-      "importance_score": 0.613,
+      "score": 0.6071,
+      "importance": 0.6071,
+      "importance_score": 0.6071,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -499,7 +498,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9225,
+        "recency": 0.8897,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5698,
-      "importance": 0.5698,
-      "importance_score": 0.5698,
+      "score": 0.5641,
+      "importance": 0.5641,
+      "importance_score": 0.5641,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -571,7 +570,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8905,
+        "recency": 0.8588,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -630,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5987,
-      "importance": 0.5987,
-      "importance_score": 0.5987,
+      "score": 0.5928,
+      "importance": 0.5928,
+      "importance_score": 0.5928,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -645,7 +644,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9121,
+        "recency": 0.8796,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -704,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5532,
-      "importance": 0.5532,
-      "importance_score": 0.5532,
+      "score": 0.5477,
+      "importance": 0.5477,
+      "importance_score": 0.5477,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -718,7 +717,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8678,
+        "recency": 0.8369,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -739,21 +738,21 @@
       }
     },
     {
-      "story_id": "story_8e5bfbeb5dc8",
-      "title": "国际酒店巨头会员权益悄然“缩水”",
-      "url": "https://www.pinchain.com/article/348806",
-      "primary_url": "https://www.pinchain.com/article/348806",
+      "story_id": "story_288c86778350",
+      "title": "哈尔滨机场暑运单日客流创历史新高",
+      "url": "https://www.pinchain.com/article/348809",
+      "primary_url": "https://www.pinchain.com/article/348809",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
-          "title": "国际酒店巨头会员权益悄然“缩水”",
-          "url": "https://www.pinchain.com/article/348806",
+          "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
+          "title": "哈尔滨机场暑运单日客流创历史新高",
+          "url": "https://www.pinchain.com/article/348809",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T05:38:00Z",
+          "published_at": "2026-07-16T05:35:42Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -764,27 +763,27 @@
       ],
       "items": [
         {
-          "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
-          "title": "国际酒店巨头会员权益悄然“缩水”",
-          "url": "https://www.pinchain.com/article/348806",
+          "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
+          "title": "哈尔滨机场暑运单日客流创历史新高",
+          "url": "https://www.pinchain.com/article/348809",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T05:38:00Z",
+          "published_at": "2026-07-16T05:35:42Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5986,
-      "importance": 0.5986,
-      "importance_score": 0.5986,
+      "score": 0.5927,
+      "importance": 0.5927,
+      "importance_score": 0.5927,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "客流",
         "旅游",
-        "酒店",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -792,19 +791,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9117,
+        "recency": 0.8788,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-16T05:38:00Z",
-      "latest_at": "2026-07-16T05:38:00Z",
+      "earliest_at": "2026-07-16T05:35:42Z",
+      "latest_at": "2026-07-16T05:35:42Z",
       "primary_item": {
-        "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
-        "title": "国际酒店巨头会员权益悄然“缩水”",
-        "url": "https://www.pinchain.com/article/348806",
+        "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
+        "title": "哈尔滨机场暑运单日客流创历史新高",
+        "url": "https://www.pinchain.com/article/348809",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -851,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
+      "score": 0.5494,
+      "importance": 0.5494,
+      "importance_score": 0.5494,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -864,7 +863,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8059,
+        "recency": 0.7772,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -885,21 +884,21 @@
       }
     },
     {
-      "story_id": "story_288c86778350",
-      "title": "哈尔滨机场暑运单日客流创历史新高",
-      "url": "https://www.pinchain.com/article/348809",
-      "primary_url": "https://www.pinchain.com/article/348809",
+      "story_id": "story_8e5bfbeb5dc8",
+      "title": "国际酒店巨头会员权益悄然“缩水”",
+      "url": "https://www.pinchain.com/article/348806",
+      "primary_url": "https://www.pinchain.com/article/348806",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
-          "title": "哈尔滨机场暑运单日客流创历史新高",
-          "url": "https://www.pinchain.com/article/348809",
+          "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
+          "title": "国际酒店巨头会员权益悄然“缩水”",
+          "url": "https://www.pinchain.com/article/348806",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T05:35:42Z",
+          "published_at": "2026-07-16T05:38:00Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -910,27 +909,27 @@
       ],
       "items": [
         {
-          "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
-          "title": "哈尔滨机场暑运单日客流创历史新高",
-          "url": "https://www.pinchain.com/article/348809",
+          "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
+          "title": "国际酒店巨头会员权益悄然“缩水”",
+          "url": "https://www.pinchain.com/article/348806",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T05:35:42Z",
+          "published_at": "2026-07-16T05:38:00Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5985,
-      "importance": 0.5985,
-      "importance_score": 0.5985,
+      "score": 0.5927,
+      "importance": 0.5927,
+      "importance_score": 0.5927,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
-        "客流",
         "旅游",
+        "酒店",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -938,19 +937,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9112,
+        "recency": 0.8793,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-16T05:35:42Z",
-      "latest_at": "2026-07-16T05:35:42Z",
+      "earliest_at": "2026-07-16T05:38:00Z",
+      "latest_at": "2026-07-16T05:38:00Z",
       "primary_item": {
-        "id": "2b8516917ae90b845536ac6d57136a7e2710647a",
-        "title": "哈尔滨机场暑运单日客流创历史新高",
-        "url": "https://www.pinchain.com/article/348809",
+        "id": "706bfb1fc8e7e88eddaa8a4b3f77d4c8dde626b4",
+        "title": "国际酒店巨头会员权益悄然“缩水”",
+        "url": "https://www.pinchain.com/article/348806",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -997,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5503,
-      "importance": 0.5503,
-      "importance_score": 0.5503,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1010,7 +1009,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7824,
+        "recency": 0.7545,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +1068,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5942,
-      "importance": 0.5942,
-      "importance_score": 0.5942,
+      "score": 0.5881,
+      "importance": 0.5881,
+      "importance_score": 0.5881,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1083,7 +1082,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9568,
+        "recency": 0.9227,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1142,9 +1141,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.549,
-      "importance": 0.549,
-      "importance_score": 0.549,
+      "score": 0.544,
+      "importance": 0.544,
+      "importance_score": 0.544,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1155,7 +1154,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7746,
+        "recency": 0.747,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1173,79 +1172,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_83284fbb28c4",
-      "title": "旅游企业赴港潮2026年中场观察",
-      "url": "https://www.pinchain.com/article/348826",
-      "primary_url": "https://www.pinchain.com/article/348826",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
-          "title": "旅游企业赴港潮2026年中场观察",
-          "url": "https://www.pinchain.com/article/348826",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T06:41:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
-          "title": "旅游企业赴港潮2026年中场观察",
-          "url": "https://www.pinchain.com/article/348826",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T06:41:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5886,
-      "importance": 0.5886,
-      "importance_score": 0.5886,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9258,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-16T06:41:39Z",
-      "latest_at": "2026-07-16T06:41:39Z",
-      "primary_item": {
-        "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
-        "title": "旅游企业赴港潮2026年中场观察",
-        "url": "https://www.pinchain.com/article/348826",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -1287,9 +1213,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5884,
-      "importance": 0.5884,
-      "importance_score": 0.5884,
+      "score": 0.5829,
+      "importance": 0.5829,
+      "importance_score": 0.5829,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1302,7 +1228,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8552,
+        "recency": 0.8247,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1320,6 +1246,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_83284fbb28c4",
+      "title": "旅游企业赴港潮2026年中场观察",
+      "url": "https://www.pinchain.com/article/348826",
+      "primary_url": "https://www.pinchain.com/article/348826",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
+          "title": "旅游企业赴港潮2026年中场观察",
+          "url": "https://www.pinchain.com/article/348826",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T06:41:39Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
+          "title": "旅游企业赴港潮2026年中场观察",
+          "url": "https://www.pinchain.com/article/348826",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T06:41:39Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5827,
+      "importance": 0.5827,
+      "importance_score": 0.5827,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8928,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-16T06:41:39Z",
+      "latest_at": "2026-07-16T06:41:39Z",
+      "primary_item": {
+        "id": "398eb7a932d367b059b0d44913bb74dfc304fc8b",
+        "title": "旅游企业赴港潮2026年中场观察",
+        "url": "https://www.pinchain.com/article/348826",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -1361,9 +1360,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5883,
-      "importance": 0.5883,
-      "importance_score": 0.5883,
+      "score": 0.5824,
+      "importance": 0.5824,
+      "importance_score": 0.5824,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1375,7 +1374,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.924,
+        "recency": 0.8911,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1396,23 +1395,23 @@
       }
     },
     {
-      "story_id": "story_0c4275bb35f0",
-      "title": "列车不存在“自动托管” 携带儿童出行请注意",
-      "url": "https://www.pinchain.com/article/348817",
-      "primary_url": "https://www.pinchain.com/article/348817",
+      "story_id": "story_302718537ea5",
+      "title": "洲际酒店集团丽晶酒店及度假村首次进驻成都",
+      "url": "https://www.pinchain.com/article/348774",
+      "primary_url": "https://www.pinchain.com/article/348774",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "7ffefec7f089f388a59039fff2491287ed094013",
-          "title": "列车不存在“自动托管” 携带儿童出行请注意",
-          "url": "https://www.pinchain.com/article/348817",
+          "id": "ea23da4ecac3b44e1a977838005a52dbdab6ba4a",
+          "title": "洲际酒店集团丽晶酒店及度假村首次进驻成都",
+          "url": "https://www.pinchain.com/article/348774",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T06:28:56Z",
+          "published_at": "2026-07-16T00:56:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -1421,51 +1420,52 @@
       ],
       "items": [
         {
-          "id": "7ffefec7f089f388a59039fff2491287ed094013",
-          "title": "列车不存在“自动托管” 携带儿童出行请注意",
-          "url": "https://www.pinchain.com/article/348817",
+          "id": "ea23da4ecac3b44e1a977838005a52dbdab6ba4a",
+          "title": "洲际酒店集团丽晶酒店及度假村首次进驻成都",
+          "url": "https://www.pinchain.com/article/348774",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T06:28:56Z",
+          "published_at": "2026-07-16T00:56:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5881,
-      "importance": 0.5881,
-      "importance_score": 0.5881,
+      "score": 0.5824,
+      "importance": 0.5824,
+      "importance_score": 0.5824,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.78,
       "ai_signals": [
         "旅游",
+        "酒店",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.923,
+        "ai_relevance": 0.78,
+        "recency": 0.8217,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-16T06:28:56Z",
-      "latest_at": "2026-07-16T06:28:56Z",
+      "earliest_at": "2026-07-16T00:56:55Z",
+      "latest_at": "2026-07-16T00:56:55Z",
       "primary_item": {
-        "id": "7ffefec7f089f388a59039fff2491287ed094013",
-        "title": "列车不存在“自动托管” 携带儿童出行请注意",
-        "url": "https://www.pinchain.com/article/348817",
+        "id": "ea23da4ecac3b44e1a977838005a52dbdab6ba4a",
+        "title": "洲际酒店集团丽晶酒店及度假村首次进驻成都",
+        "url": "https://www.pinchain.com/article/348774",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.78
       }
     }
   ]
