@@ -1,8 +1,80 @@
 {
-  "generated_at": "2026-07-17T21:20:40.302680Z",
+  "generated_at": "2026-07-17T22:20:43.261701Z",
   "window_hours": 24,
-  "total_items": 15,
+  "total_items": 16,
   "items": [
+    {
+      "story_id": "story_8ee6b4ecd5f8",
+      "title": "Airbnb Partners With CarTrawler for Car Rentals in 5 Countries: Scoop",
+      "url": "https://skift.com/2026/07/17/airbnb-partners-with-cartrawler-for-car-rentals-in-5-countries-scoop",
+      "primary_url": "https://skift.com/2026/07/17/airbnb-partners-with-cartrawler-for-car-rentals-in-5-countries-scoop",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c2397dd19588e4c3b63eec4f461a002ffd2cb866",
+          "title": "Airbnb Partners With CarTrawler for Car Rentals in 5 Countries: Scoop",
+          "url": "https://skift.com/2026/07/17/airbnb-partners-with-cartrawler-for-car-rentals-in-5-countries-scoop",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T22:13:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "c2397dd19588e4c3b63eec4f461a002ffd2cb866",
+          "title": "Airbnb Partners With CarTrawler for Car Rentals in 5 Countries: Scoop",
+          "url": "https://skift.com/2026/07/17/airbnb-partners-with-cartrawler-for-car-rentals-in-5-countries-scoop",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T22:13:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5892,
+      "importance": 0.5892,
+      "importance_score": 0.5892,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9983,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-17T22:13:34Z",
+      "latest_at": "2026-07-17T22:13:34Z",
+      "primary_item": {
+        "id": "c2397dd19588e4c3b63eec4f461a002ffd2cb866",
+        "title": "Airbnb Partners With CarTrawler for Car Rentals in 5 Countries: Scoop",
+        "url": "https://skift.com/2026/07/17/airbnb-partners-with-cartrawler-for-car-rentals-in-5-countries-scoop",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
     {
       "story_id": "story_8926d5d0abe5",
       "title": "中软好泰新一代智能酒店管理系统兼顾性能与体验",
@@ -42,9 +114,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5902,
-      "importance": 0.5902,
-      "importance_score": 0.5902,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
       "ai_label": "tourism_tech",
       "ai_score": 0.82,
       "ai_signals": [
@@ -59,7 +131,7 @@
         "editorial": 0.5904,
         "source_tier": 0.5,
         "ai_relevance": 0.82,
-        "recency": 0.7725,
+        "recency": 0.7614,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,78 +149,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.82
-      }
-    },
-    {
-      "story_id": "story_14448aea1f80",
-      "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
-      "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
-      "primary_url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
-          "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
-          "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T14:55:13Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
-          "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
-          "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T14:55:13Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5736,
-      "importance": 0.5736,
-      "importance_score": 0.5736,
-      "ai_label": "travel_business",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ota"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9114,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-17T14:55:13Z",
-      "latest_at": "2026-07-17T14:55:13Z",
-      "primary_item": {
-        "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
-        "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
-        "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.72
       }
     },
     {
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5502,
-      "importance": 0.5502,
-      "importance_score": 0.5502,
+      "score": 0.5481,
+      "importance": 0.5481,
+      "importance_score": 0.5481,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8512,
+        "recency": 0.839,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5823,
-      "importance": 0.5823,
-      "importance_score": 0.5823,
+      "score": 0.5803,
+      "importance": 0.5803,
+      "importance_score": 0.5803,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -278,7 +278,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7517,
+        "recency": 0.7409,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -296,6 +296,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_14448aea1f80",
+      "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
+      "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
+      "primary_url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
+          "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
+          "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T14:55:13Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
+          "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
+          "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T14:55:13Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8983,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-17T14:55:13Z",
+      "latest_at": "2026-07-17T14:55:13Z",
+      "primary_item": {
+        "id": "d196f594a46a2ad296fc2f174a5135d4a4a790ab",
+        "title": "Allegiant, Long an OTA Holdout, Signs an Exclusive Deal With Expedia",
+        "url": "https://skift.com/2026/07/17/allegiant-long-an-ota-holdout-signs-an-exclusive-deal-with-expedia",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
       }
     },
     {
@@ -337,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5728,
-      "importance": 0.5728,
-      "importance_score": 0.5728,
+      "score": 0.5708,
+      "importance": 0.5708,
+      "importance_score": 0.5708,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -352,7 +424,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7685,
+        "recency": 0.7575,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -411,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5709,
-      "importance": 0.5709,
-      "importance_score": 0.5709,
+      "score": 0.569,
+      "importance": 0.569,
+      "importance_score": 0.569,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -426,7 +498,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7581,
+        "recency": 0.7472,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.562,
-      "importance": 0.562,
-      "importance_score": 0.562,
+      "score": 0.56,
+      "importance": 0.56,
+      "importance_score": 0.56,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -499,7 +571,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7777,
+        "recency": 0.7666,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
+      "score": 0.5599,
+      "importance": 0.5599,
+      "importance_score": 0.5599,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -572,7 +644,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7771,
+        "recency": 0.766,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -631,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5617,
-      "importance": 0.5617,
-      "importance_score": 0.5617,
+      "score": 0.5597,
+      "importance": 0.5597,
+      "importance_score": 0.5597,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -645,7 +717,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7762,
+        "recency": 0.7651,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -704,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5613,
-      "importance": 0.5613,
-      "importance_score": 0.5613,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -718,7 +790,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7739,
+        "recency": 0.7628,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -777,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5603,
-      "importance": 0.5603,
-      "importance_score": 0.5603,
+      "score": 0.5583,
+      "importance": 0.5583,
+      "importance_score": 0.5583,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -791,7 +863,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7684,
+        "recency": 0.7573,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -850,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5602,
-      "importance": 0.5602,
-      "importance_score": 0.5602,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -864,7 +936,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7679,
+        "recency": 0.7569,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -923,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5586,
-      "importance": 0.5586,
-      "importance_score": 0.5586,
+      "score": 0.5566,
+      "importance": 0.5566,
+      "importance_score": 0.5566,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -937,7 +1009,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7586,
+        "recency": 0.7477,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -996,9 +1068,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5574,
-      "importance": 0.5574,
-      "importance_score": 0.5574,
+      "score": 0.5554,
+      "importance": 0.5554,
+      "importance_score": 0.5554,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1010,7 +1082,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7521,
+        "recency": 0.7413,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +1141,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5572,
-      "importance": 0.5572,
-      "importance_score": 0.5572,
+      "score": 0.5552,
+      "importance": 0.5552,
+      "importance_score": 0.5552,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1083,7 +1155,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.751,
+        "recency": 0.7402,
         "story_heat": 0.0
       },
       "category": "watch",
