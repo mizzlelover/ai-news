@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T15:55:10.015034Z",
+  "generated_at": "2026-07-17T17:10:06.730222Z",
   "window_hours": 24,
-  "total_items": 17,
+  "total_items": 16,
   "items": [
     {
       "story_id": "story_8926d5d0abe5",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6015,
-      "importance": 0.6015,
-      "importance_score": 0.6015,
+      "score": 0.5988,
+      "importance": 0.5988,
+      "importance_score": 0.5988,
       "ai_label": "tourism_tech",
       "ai_score": 0.82,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5904,
         "source_tier": 0.5,
         "ai_relevance": 0.82,
-        "recency": 0.8354,
+        "recency": 0.8205,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -118,9 +118,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5869,
-      "importance": 0.5869,
-      "importance_score": 0.5869,
+      "score": 0.5838,
+      "importance": 0.5838,
+      "importance_score": 0.5838,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9857,
+        "recency": 0.9681,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5627,
-      "importance": 0.5627,
-      "importance_score": 0.5627,
+      "score": 0.5598,
+      "importance": 0.5598,
+      "importance_score": 0.5598,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9205,
+        "recency": 0.9041,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5933,
-      "importance": 0.5933,
-      "importance_score": 0.5933,
+      "score": 0.5907,
+      "importance": 0.5907,
+      "importance_score": 0.5907,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -278,7 +278,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8129,
+        "recency": 0.7984,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -299,23 +299,23 @@
       }
     },
     {
-      "story_id": "story_9d987c9660b1",
-      "title": "Fora Travel the Unicorn: It Raised $60 Million at a $1 Billion Valuation",
-      "url": "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation",
-      "primary_url": "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation",
+      "story_id": "story_1f2e549b15fa",
+      "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+      "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+      "primary_url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "5ab0e982a8a9fa0d883a486810a3233bde475d9c",
-          "title": "Fora Travel the Unicorn: It Raised $60 Million at a $1 Billion Valuation",
-          "url": "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation",
+          "id": "29511c1fffd601723dc39d821858d97638f6371d",
+          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:07:34Z",
+          "published_at": "2026-07-16T17:58:41Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
@@ -324,51 +324,50 @@
       ],
       "items": [
         {
-          "id": "5ab0e982a8a9fa0d883a486810a3233bde475d9c",
-          "title": "Fora Travel the Unicorn: It Raised $60 Million at a $1 Billion Valuation",
-          "url": "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation",
+          "id": "29511c1fffd601723dc39d821858d97638f6371d",
+          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:07:34Z",
+          "published_at": "2026-07-16T17:58:41Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5515,
-      "importance": 0.5515,
-      "importance_score": 0.5515,
+      "score": 0.5383,
+      "importance": 0.5383,
+      "importance_score": 0.5383,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.72,
       "ai_signals": [
-        "travel",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7195,
+        "ai_relevance": 0.72,
+        "recency": 0.7154,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-16T17:07:34Z",
-      "latest_at": "2026-07-16T17:07:34Z",
+      "earliest_at": "2026-07-16T17:58:41Z",
+      "latest_at": "2026-07-16T17:58:41Z",
       "primary_item": {
-        "id": "5ab0e982a8a9fa0d883a486810a3233bde475d9c",
-        "title": "Fora Travel the Unicorn: It Raised $60 Million at a $1 Billion Valuation",
-        "url": "https://skift.com/2026/07/16/fora-travel-the-unicorn-it-raised-60-million-at-a-1-billion-valuation",
+        "id": "29511c1fffd601723dc39d821858d97638f6371d",
+        "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+        "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.72
       }
     },
     {
@@ -410,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5841,
-      "importance": 0.5841,
-      "importance_score": 0.5841,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +424,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8311,
+        "recency": 0.8163,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.582,
-      "importance": 0.582,
-      "importance_score": 0.582,
+      "score": 0.5794,
+      "importance": 0.5794,
+      "importance_score": 0.5794,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +498,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8198,
+        "recency": 0.8052,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5734,
-      "importance": 0.5734,
-      "importance_score": 0.5734,
+      "score": 0.5707,
+      "importance": 0.5707,
+      "importance_score": 0.5707,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -572,7 +571,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8411,
+        "recency": 0.8261,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -590,78 +589,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_1f2e549b15fa",
-      "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-      "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-      "primary_url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "29511c1fffd601723dc39d821858d97638f6371d",
-          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:58:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "29511c1fffd601723dc39d821858d97638f6371d",
-          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:58:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5406,
-      "importance": 0.5406,
-      "importance_score": 0.5406,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7284,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-16T17:58:41Z",
-      "latest_at": "2026-07-16T17:58:41Z",
-      "primary_item": {
-        "id": "29511c1fffd601723dc39d821858d97638f6371d",
-        "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-        "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -703,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5733,
-      "importance": 0.5733,
-      "importance_score": 0.5733,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -717,7 +644,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8405,
+        "recency": 0.8255,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -776,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5731,
-      "importance": 0.5731,
-      "importance_score": 0.5731,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -790,7 +717,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8395,
+        "recency": 0.8245,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -849,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5726,
-      "importance": 0.5726,
-      "importance_score": 0.5726,
+      "score": 0.57,
+      "importance": 0.57,
+      "importance_score": 0.57,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -863,7 +790,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8369,
+        "recency": 0.822,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -922,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5716,
-      "importance": 0.5716,
-      "importance_score": 0.5716,
+      "score": 0.5689,
+      "importance": 0.5689,
+      "importance_score": 0.5689,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -936,7 +863,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.831,
+        "recency": 0.8161,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -995,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
+      "score": 0.5688,
+      "importance": 0.5688,
+      "importance_score": 0.5688,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1009,7 +936,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8305,
+        "recency": 0.8156,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1068,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5697,
-      "importance": 0.5697,
-      "importance_score": 0.5697,
+      "score": 0.567,
+      "importance": 0.567,
+      "importance_score": 0.567,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1082,7 +1009,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8204,
+        "recency": 0.8058,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1141,9 +1068,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5684,
-      "importance": 0.5684,
-      "importance_score": 0.5684,
+      "score": 0.5658,
+      "importance": 0.5658,
+      "importance_score": 0.5658,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1155,7 +1082,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8134,
+        "recency": 0.7989,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1214,9 +1141,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5682,
-      "importance": 0.5682,
-      "importance_score": 0.5682,
+      "score": 0.5656,
+      "importance": 0.5656,
+      "importance_score": 0.5656,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1228,7 +1155,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8122,
+        "recency": 0.7976,
         "story_heat": 0.0
       },
       "category": "watch",
