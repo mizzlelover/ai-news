@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-07-17T12:08:40.483670Z",
+  "generated_at": "2026-07-17T14:11:40.860609Z",
   "window_hours": 24,
-  "total_items": 17,
+  "total_items": 16,
   "items": [
     {
       "story_id": "story_8926d5d0abe5",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6099,
-      "importance": 0.6099,
-      "importance_score": 0.6099,
+      "score": 0.6053,
+      "importance": 0.6053,
+      "importance_score": 0.6053,
       "ai_label": "tourism_tech",
       "ai_score": 0.82,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5904,
         "source_tier": 0.5,
         "ai_relevance": 0.82,
-        "recency": 0.8822,
+        "recency": 0.8565,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -118,9 +118,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.572,
-      "importance": 0.572,
-      "importance_score": 0.572,
+      "score": 0.5669,
+      "importance": 0.5669,
+      "importance_score": 0.5669,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9721,
+        "recency": 0.9437,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -150,152 +150,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_f711456e1059",
-      "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
-      "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
-      "primary_url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
-          "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
-          "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T13:44:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
-          "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
-          "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T13:44:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7237,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-16T13:44:53Z",
-      "latest_at": "2026-07-16T13:44:53Z",
-      "primary_item": {
-        "id": "6035b46737765b46cb4cb9e92307cb20c48cec31",
-        "title": "Air India Rebuilds Its App With In-House Booking, Payments, and AI",
-        "url": "https://skift.com/2026/07/16/air-india-rebuilds-its-app-with-in-house-booking-payments-and-ai",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_c70fc4ddfb80",
-      "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
-      "url": "https://www.pinchain.com/article/348834",
-      "primary_url": "https://www.pinchain.com/article/348834",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
-          "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
-          "url": "https://www.pinchain.com/article/348834",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T01:34:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
-          "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
-          "url": "https://www.pinchain.com/article/348834",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T01:34:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6015,
-      "importance": 0.6015,
-      "importance_score": 0.6015,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "机器人",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.8585,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-17T01:34:32Z",
-      "latest_at": "2026-07-17T01:34:32Z",
-      "primary_item": {
-        "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
-        "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
-        "url": "https://www.pinchain.com/article/348834",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -337,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5588,
-      "importance": 0.5588,
-      "importance_score": 0.5588,
+      "score": 0.5548,
+      "importance": 0.5548,
+      "importance_score": 0.5548,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -351,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7598,
+        "recency": 0.7377,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -369,6 +223,152 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_c70fc4ddfb80",
+      "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
+      "url": "https://www.pinchain.com/article/348834",
+      "primary_url": "https://www.pinchain.com/article/348834",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
+          "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
+          "url": "https://www.pinchain.com/article/348834",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T01:34:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
+          "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
+          "url": "https://www.pinchain.com/article/348834",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T01:34:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.597,
+      "importance": 0.597,
+      "importance_score": 0.597,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "机器人",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.8334,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-17T01:34:32Z",
+      "latest_at": "2026-07-17T01:34:32Z",
+      "primary_item": {
+        "id": "0ec25634d14cb8dd4c8db11be49b4f9dd66246c3",
+        "title": "机器人“闪现”黟县乡野 乡村也有“未来感”",
+        "url": "https://www.pinchain.com/article/348834",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_1f2e549b15fa",
+      "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+      "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+      "primary_url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "29511c1fffd601723dc39d821858d97638f6371d",
+          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T17:58:41Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "29511c1fffd601723dc39d821858d97638f6371d",
+          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-16T17:58:41Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5439,
+      "importance": 0.5439,
+      "importance_score": 0.5439,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7468,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-16T17:58:41Z",
+      "latest_at": "2026-07-16T17:58:41Z",
+      "primary_item": {
+        "id": "29511c1fffd601723dc39d821858d97638f6371d",
+        "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
+        "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -410,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
+      "score": 0.5879,
+      "importance": 0.5879,
+      "importance_score": 0.5879,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +425,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8777,
+        "recency": 0.8521,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.5858,
+      "importance": 0.5858,
+      "importance_score": 0.5858,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8658,
+        "recency": 0.8405,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +558,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5819,
-      "importance": 0.5819,
-      "importance_score": 0.5819,
+      "score": 0.5772,
+      "importance": 0.5772,
+      "importance_score": 0.5772,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -572,7 +572,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8882,
+        "recency": 0.8623,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -590,78 +590,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_1f2e549b15fa",
-      "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-      "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-      "primary_url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "29511c1fffd601723dc39d821858d97638f6371d",
-          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:58:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "29511c1fffd601723dc39d821858d97638f6371d",
-          "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-          "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-16T17:58:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.548,
-      "importance": 0.548,
-      "importance_score": 0.548,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7693,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-16T17:58:41Z",
-      "latest_at": "2026-07-16T17:58:41Z",
-      "primary_item": {
-        "id": "29511c1fffd601723dc39d821858d97638f6371d",
-        "title": "Brussels Airlines Taps ITA Airways Exec for CEO",
-        "url": "https://skift.com/2026/07/16/brussles-airlines-taps-ita-airways-exec-for-ceo",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -703,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5818,
-      "importance": 0.5818,
-      "importance_score": 0.5818,
+      "score": 0.5771,
+      "importance": 0.5771,
+      "importance_score": 0.5771,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -717,7 +645,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8876,
+        "recency": 0.8617,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -776,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5816,
-      "importance": 0.5816,
-      "importance_score": 0.5816,
+      "score": 0.5769,
+      "importance": 0.5769,
+      "importance_score": 0.5769,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -790,7 +718,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8865,
+        "recency": 0.8606,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -849,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5811,
-      "importance": 0.5811,
-      "importance_score": 0.5811,
+      "score": 0.5764,
+      "importance": 0.5764,
+      "importance_score": 0.5764,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -863,7 +791,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8838,
+        "recency": 0.858,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -876,79 +804,6 @@
         "id": "e1783d3d556062d176504716236a6ef930888958",
         "title": "CITIE 2026广东旅博会黄金展位告急,9月11日广州启幕",
         "url": "https://www.pinchain.com/article/348856",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_68da220d61cf",
-      "title": "民航上半年三大指标保持增长",
-      "url": "https://www.pinchain.com/article/348845",
-      "primary_url": "https://www.pinchain.com/article/348845",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
-          "title": "民航上半年三大指标保持增长",
-          "url": "https://www.pinchain.com/article/348845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T03:05:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
-          "title": "民航上半年三大指标保持增长",
-          "url": "https://www.pinchain.com/article/348845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-17T03:05:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.58,
-      "importance": 0.58,
-      "importance_score": 0.58,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8775,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-17T03:05:53Z",
-      "latest_at": "2026-07-17T03:05:53Z",
-      "primary_item": {
-        "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
-        "title": "民航上半年三大指标保持增长",
-        "url": "https://www.pinchain.com/article/348845",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -995,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5799,
-      "importance": 0.5799,
-      "importance_score": 0.5799,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1009,7 +864,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.877,
+        "recency": 0.8514,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1022,6 +877,79 @@
         "id": "4149696d531b61164bb72493fd64e7aea098f6e1",
         "title": "东航开通上海—第比利斯直飞航线",
         "url": "https://www.pinchain.com/article/348844",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_68da220d61cf",
+      "title": "民航上半年三大指标保持增长",
+      "url": "https://www.pinchain.com/article/348845",
+      "primary_url": "https://www.pinchain.com/article/348845",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
+          "title": "民航上半年三大指标保持增长",
+          "url": "https://www.pinchain.com/article/348845",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T03:05:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
+          "title": "民航上半年三大指标保持增长",
+          "url": "https://www.pinchain.com/article/348845",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-17T03:05:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8519,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-17T03:05:53Z",
+      "latest_at": "2026-07-17T03:05:53Z",
+      "primary_item": {
+        "id": "758ccc8ecb2c81031bc498258cd4bd0a196a801a",
+        "title": "民航上半年三大指标保持增长",
+        "url": "https://www.pinchain.com/article/348845",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1068,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.578,
-      "importance": 0.578,
-      "importance_score": 0.578,
+      "score": 0.5734,
+      "importance": 0.5734,
+      "importance_score": 0.5734,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1082,7 +1010,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8664,
+        "recency": 0.8411,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1141,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5766,
-      "importance": 0.5766,
-      "importance_score": 0.5766,
+      "score": 0.5721,
+      "importance": 0.5721,
+      "importance_score": 0.5721,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1155,7 +1083,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.859,
+        "recency": 0.8339,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1214,9 +1142,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
+      "score": 0.5719,
+      "importance": 0.5719,
+      "importance_score": 0.5719,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1228,7 +1156,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8577,
+        "recency": 0.8326,
         "story_heat": 0.0
       },
       "category": "watch",
