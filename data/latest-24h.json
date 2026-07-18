@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-07-18T22:48:43.079019Z",
+  "generated_at": "2026-07-18T23:52:42.551088Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 2,
-  "total_items_raw": 504,
-  "total_items_all_mode": 504,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 496,
+  "total_items_all_mode": 496,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 12881,
+  "archive_total": 12919,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 2,
-      "raw_count": 504
+      "count": 1,
+      "raw_count": 496
     }
   ],
   "creator_window_days": 7,
@@ -49,35 +49,6 @@
       "title_en": null,
       "title_zh": "云南民宿协会再回应对携程启动反垄断维权：市场监管总局调查结果公布后或对携程提起集体诉讼",
       "title_bilingual": "云南民宿协会再回应对携程启动反垄断维权：市场监管总局调查结果公布后或对携程提起集体诉讼"
-    },
-    {
-      "id": "b42cf151a02518f619f5856f4cdc29da1f9f4c54",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "品橙旅游",
-      "title": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "url": "https://www.pinchain.com/article/348878",
-      "published_at": "2026-07-17T23:52:29Z",
-      "first_seen_at": "2026-07-18T00:54:57.107527Z",
-      "last_seen_at": "2026-07-18T22:48:43.079019Z",
-      "ai_is_related": true,
-      "ai_score": 0.8,
-      "ai_label": "tourism_policy",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai",
-        "报告"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "title_en": null,
-      "title_zh": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "title_bilingual": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首"
     }
   ],
   "items_ai": [
@@ -107,35 +78,6 @@
       "title_en": null,
       "title_zh": "云南民宿协会再回应对携程启动反垄断维权：市场监管总局调查结果公布后或对携程提起集体诉讼",
       "title_bilingual": "云南民宿协会再回应对携程启动反垄断维权：市场监管总局调查结果公布后或对携程提起集体诉讼"
-    },
-    {
-      "id": "b42cf151a02518f619f5856f4cdc29da1f9f4c54",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "品橙旅游",
-      "title": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "url": "https://www.pinchain.com/article/348878",
-      "published_at": "2026-07-17T23:52:29Z",
-      "first_seen_at": "2026-07-18T00:54:57.107527Z",
-      "last_seen_at": "2026-07-18T22:48:43.079019Z",
-      "ai_is_related": true,
-      "ai_score": 0.8,
-      "ai_label": "tourism_policy",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai",
-        "报告"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "title_en": null,
-      "title_zh": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首",
-      "title_bilingual": "同程旅行发布避暑游报告:长线避暑游贵阳热度居首"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json",
