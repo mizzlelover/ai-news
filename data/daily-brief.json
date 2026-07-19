@@ -1,8 +1,81 @@
 {
-  "generated_at": "2026-07-19T02:35:59.521229Z",
+  "generated_at": "2026-07-19T05:51:31.476778Z",
   "window_hours": 24,
-  "total_items": 1,
+  "total_items": 2,
   "items": [
+    {
+      "story_id": "story_e8aee569e028",
+      "title": "2026杭州・17℃建德新安江文化旅游沪上推广",
+      "url": "https://www.pinchain.com/article/348885",
+      "primary_url": "https://www.pinchain.com/article/348885",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "132bac0224d8e515291b7da78582745e089aecb3",
+          "title": "2026杭州・17℃建德新安江文化旅游沪上推广",
+          "url": "https://www.pinchain.com/article/348885",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T02:58:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "132bac0224d8e515291b7da78582745e089aecb3",
+          "title": "2026杭州・17℃建德新安江文化旅游沪上推广",
+          "url": "https://www.pinchain.com/article/348885",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-19T02:58:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5947,
+      "importance": 0.5947,
+      "importance_score": 0.5947,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9593,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-19T02:58:59Z",
+      "latest_at": "2026-07-19T02:58:59Z",
+      "primary_item": {
+        "id": "132bac0224d8e515291b7da78582745e089aecb3",
+        "title": "2026杭州・17℃建德新安江文化旅游沪上推广",
+        "url": "https://www.pinchain.com/article/348885",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
     {
       "story_id": "story_c63bdf2339b1",
       "title": "云南民宿协会再回应对携程启动反垄断维权：市场监管总局调查结果公布后或对携程提起集体诉讼",
@@ -42,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5333,
-      "importance": 0.5333,
-      "importance_score": 0.5333,
+      "score": 0.5271,
+      "importance": 0.5271,
+      "importance_score": 0.5271,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -56,7 +129,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7572,
+        "recency": 0.7224,
         "story_heat": 0.0
       },
       "category": "watch",
