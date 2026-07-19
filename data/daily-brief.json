@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-19T14:38:26.570237Z",
+  "generated_at": "2026-07-19T15:56:50.810784Z",
   "window_hours": 24,
   "total_items": 5,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5926,
-      "importance": 0.5926,
-      "importance_score": 0.5926,
+      "score": 0.5895,
+      "importance": 0.5895,
+      "importance_score": 0.5895,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.948,
+        "recency": 0.9303,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5741,
-      "importance": 0.5741,
-      "importance_score": 0.5741,
+      "score": 0.5713,
+      "importance": 0.5713,
+      "importance_score": 0.5713,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8451,
+        "recency": 0.8293,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5784,
-      "importance": 0.5784,
-      "importance_score": 0.5784,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9384,
+        "recency": 0.9209,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5682,
-      "importance": 0.5682,
-      "importance_score": 0.5682,
+      "score": 0.5652,
+      "importance": 0.5652,
+      "importance_score": 0.5652,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8815,
+        "recency": 0.865,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5587,
-      "importance": 0.5587,
-      "importance_score": 0.5587,
+      "score": 0.5557,
+      "importance": 0.5557,
+      "importance_score": 0.5557,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -349,7 +349,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8982,
+        "recency": 0.8814,
         "story_heat": 0.0
       },
       "category": "watch",
