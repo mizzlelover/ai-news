@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T15:03:19.001840Z",
+  "generated_at": "2026-07-21T16:54:54.074869Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6264,
-      "importance": 0.6264,
-      "importance_score": 0.6264,
+      "score": 0.6219,
+      "importance": 0.6219,
+      "importance_score": 0.6219,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9509,
+        "recency": 0.9257,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -76,6 +76,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.83
+      }
+    },
+    {
+      "story_id": "story_1ae694fab0e1",
+      "title": "Returning to Park Hyatt Tokyo: How a Great Hotel Survives a Renovation",
+      "url": "https://skift.com/2026/07/21/returning-to-park-hyatt-tokyo-how-a-great-hotel-survives-a-renovation",
+      "primary_url": "https://skift.com/2026/07/21/returning-to-park-hyatt-tokyo-how-a-great-hotel-survives-a-renovation",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f7d90373bb43b5cb755842ce51d545c3cd79e868",
+          "title": "Returning to Park Hyatt Tokyo: How a Great Hotel Survives a Renovation",
+          "url": "https://skift.com/2026/07/21/returning-to-park-hyatt-tokyo-how-a-great-hotel-survives-a-renovation",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T16:36:48Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "f7d90373bb43b5cb755842ce51d545c3cd79e868",
+          "title": "Returning to Park Hyatt Tokyo: How a Great Hotel Survives a Renovation",
+          "url": "https://skift.com/2026/07/21/returning-to-park-hyatt-tokyo-how-a-great-hotel-survives-a-renovation",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T16:36:48Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9957,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T16:36:48Z",
+      "latest_at": "2026-07-21T16:36:48Z",
+      "primary_item": {
+        "id": "f7d90373bb43b5cb755842ce51d545c3cd79e868",
+        "title": "Returning to Park Hyatt Tokyo: How a Great Hotel Survives a Renovation",
+        "url": "https://skift.com/2026/07/21/returning-to-park-hyatt-tokyo-how-a-great-hotel-survives-a-renovation",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -117,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.5858,
+      "importance": 0.5858,
+      "importance_score": 0.5858,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +203,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.935,
+        "recency": 0.9102,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
+      "score": 0.5838,
+      "importance": 0.5838,
+      "importance_score": 0.5838,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -204,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9946,
+        "recency": 0.9682,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6263,
-      "importance": 0.6263,
-      "importance_score": 0.6263,
+      "score": 0.6218,
+      "importance": 0.6218,
+      "importance_score": 0.6218,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -280,7 +352,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9501,
+        "recency": 0.9249,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -301,22 +373,22 @@
       }
     },
     {
-      "story_id": "story_1c692c6ee1fe",
-      "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-      "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-      "primary_url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+      "story_id": "story_060dfc770a39",
+      "title": "The Quiet Reinvention of the Hotel Tax",
+      "url": "https://skift.com/2026/07/21/the-quiet-reinvention-of-the-hotel-tax",
+      "primary_url": "https://skift.com/2026/07/21/the-quiet-reinvention-of-the-hotel-tax",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+          "id": "9f1c89f891e9dc0f0e1cb6ed91833d45751b007d",
+          "title": "The Quiet Reinvention of the Hotel Tax",
+          "url": "https://skift.com/2026/07/21/the-quiet-reinvention-of-the-hotel-tax",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:00:00Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-07-21T16:05:06Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
@@ -326,124 +398,50 @@
       ],
       "items": [
         {
-          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+          "id": "9f1c89f891e9dc0f0e1cb6ed91833d45751b007d",
+          "title": "The Quiet Reinvention of the Hotel Tax",
+          "url": "https://skift.com/2026/07/21/the-quiet-reinvention-of-the-hotel-tax",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:00:00Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-07-21T16:05:06Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5721,
-      "importance": 0.5721,
-      "importance_score": 0.5721,
-      "ai_label": "tourism_tech",
+      "score": 0.5874,
+      "importance": 0.5874,
+      "importance_score": 0.5874,
+      "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
-        "ai"
+        "hotel"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9031,
+        "recency": 0.9881,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-21T08:00:00Z",
-      "latest_at": "2026-07-21T08:00:00Z",
+      "earliest_at": "2026-07-21T16:05:06Z",
+      "latest_at": "2026-07-21T16:05:06Z",
       "primary_item": {
-        "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-        "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-        "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+        "id": "9f1c89f891e9dc0f0e1cb6ed91833d45751b007d",
+        "title": "The Quiet Reinvention of the Hotel Tax",
+        "url": "https://skift.com/2026/07/21/the-quiet-reinvention-of-the-hotel-tax",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
+        "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_3068c75ba520",
-      "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
-      "url": "https://www.ithome.com/0/979/458.htm",
-      "primary_url": "https://www.ithome.com/0/979/458.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
-          "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
-          "url": "https://www.ithome.com/0/979/458.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T05:18:29Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
-          "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
-          "url": "https://www.ithome.com/0/979/458.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T05:18:29Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5784,
-      "importance": 0.5784,
-      "importance_score": 0.5784,
-      "ai_label": "travel_business",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "robot",
-        "ota",
-        "智能"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8687,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T05:18:29Z",
-      "latest_at": "2026-07-21T05:18:29Z",
-      "primary_item": {
-        "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
-        "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
-        "url": "https://www.ithome.com/0/979/458.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.75
       }
     },
     {
@@ -485,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6255,
-      "importance": 0.6255,
-      "importance_score": 0.6255,
+      "score": 0.621,
+      "importance": 0.621,
+      "importance_score": 0.621,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -502,7 +500,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9456,
+        "recency": 0.9205,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -520,6 +518,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.83
+      }
+    },
+    {
+      "story_id": "story_3068c75ba520",
+      "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
+      "url": "https://www.ithome.com/0/979/458.htm",
+      "primary_url": "https://www.ithome.com/0/979/458.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
+          "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
+          "url": "https://www.ithome.com/0/979/458.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T05:18:29Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
+          "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
+          "url": "https://www.ithome.com/0/979/458.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T05:18:29Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
+      "ai_label": "travel_business",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "robot",
+        "ota",
+        "智能"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8457,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T05:18:29Z",
+      "latest_at": "2026-07-21T05:18:29Z",
+      "primary_item": {
+        "id": "161e0e2a409ef881c5678c608526d009e9d6dd26",
+        "title": "Momenta Robotaxi 获深圳智能网联汽车道路测试许可",
+        "url": "https://www.ithome.com/0/979/458.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.75
       }
     },
     {
@@ -561,9 +633,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6057,
-      "importance": 0.6057,
-      "importance_score": 0.6057,
+      "score": 0.6012,
+      "importance": 0.6012,
+      "importance_score": 0.6012,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -576,7 +648,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9514,
+        "recency": 0.9262,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -589,6 +661,152 @@
         "id": "4a90d09a5cf208d832671c3d084e1a79cbaf0179",
         "title": "北京警方:守护景区秩序 确保暑期旅游安全有序",
         "url": "https://www.pinchain.com/article/348967",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_1c692c6ee1fe",
+      "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
+      "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+      "primary_url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
+          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
+          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T08:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
+          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
+          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T08:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8792,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T08:00:00Z",
+      "latest_at": "2026-07-21T08:00:00Z",
+      "primary_item": {
+        "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
+        "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
+        "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_16ab70f50eb5",
+      "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
+      "url": "https://www.pinchain.com/article/348951",
+      "primary_url": "https://www.pinchain.com/article/348951",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
+          "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
+          "url": "https://www.pinchain.com/article/348951",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:23:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
+          "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
+          "url": "https://www.pinchain.com/article/348951",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:23:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6007,
+      "importance": 0.6007,
+      "importance_score": 0.6007,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "景区",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9233,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:23:20Z",
+      "latest_at": "2026-07-21T11:23:20Z",
+      "primary_item": {
+        "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
+        "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
+        "url": "https://www.pinchain.com/article/348951",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -635,9 +853,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5707,
-      "importance": 0.5707,
-      "importance_score": 0.5707,
+      "score": 0.5671,
+      "importance": 0.5671,
+      "importance_score": 0.5671,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -648,7 +866,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7566,
+        "recency": 0.7365,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -669,21 +887,21 @@
       }
     },
     {
-      "story_id": "story_16ab70f50eb5",
-      "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
-      "url": "https://www.pinchain.com/article/348951",
-      "primary_url": "https://www.pinchain.com/article/348951",
+      "story_id": "story_cc052c10191d",
+      "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+      "url": "https://www.pinchain.com/article/348933",
+      "primary_url": "https://www.pinchain.com/article/348933",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
-          "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
-          "url": "https://www.pinchain.com/article/348951",
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:23:20Z",
+          "published_at": "2026-07-21T11:01:12Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -694,27 +912,27 @@
       ],
       "items": [
         {
-          "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
-          "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
-          "url": "https://www.pinchain.com/article/348951",
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:23:20Z",
+          "published_at": "2026-07-21T11:01:12Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6052,
-      "importance": 0.6052,
-      "importance_score": 0.6052,
+      "score": 0.5998,
+      "importance": 0.5998,
+      "importance_score": 0.5998,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "博物馆",
         "旅游",
-        "景区",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -722,19 +940,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9484,
+        "recency": 0.9184,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-21T11:23:20Z",
-      "latest_at": "2026-07-21T11:23:20Z",
+      "earliest_at": "2026-07-21T11:01:12Z",
+      "latest_at": "2026-07-21T11:01:12Z",
       "primary_item": {
-        "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
-        "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
-        "url": "https://www.pinchain.com/article/348951",
+        "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+        "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+        "url": "https://www.pinchain.com/article/348933",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -781,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5525,
-      "importance": 0.5525,
-      "importance_score": 0.5525,
+      "score": 0.5487,
+      "importance": 0.5487,
+      "importance_score": 0.5487,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -794,7 +1012,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7945,
+        "recency": 0.7735,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -812,80 +1030,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_cc052c10191d",
-      "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-      "url": "https://www.pinchain.com/article/348933",
-      "primary_url": "https://www.pinchain.com/article/348933",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-          "url": "https://www.pinchain.com/article/348933",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:01:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-          "url": "https://www.pinchain.com/article/348933",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:01:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6043,
-      "importance": 0.6043,
-      "importance_score": 0.6043,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9434,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T11:01:12Z",
-      "latest_at": "2026-07-21T11:01:12Z",
-      "primary_item": {
-        "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-        "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-        "url": "https://www.pinchain.com/article/348933",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -927,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6012,
-      "importance": 0.6012,
-      "importance_score": 0.6012,
+      "score": 0.5967,
+      "importance": 0.5967,
+      "importance_score": 0.5967,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -942,7 +1086,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9493,
+        "recency": 0.9241,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1001,9 +1145,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5976,
-      "importance": 0.5976,
-      "importance_score": 0.5976,
+      "score": 0.5933,
+      "importance": 0.5933,
+      "importance_score": 0.5933,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1016,7 +1160,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9065,
+        "recency": 0.8825,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1075,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5935,
-      "importance": 0.5935,
-      "importance_score": 0.5935,
+      "score": 0.5889,
+      "importance": 0.5889,
+      "importance_score": 0.5889,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1089,7 +1233,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9527,
+        "recency": 0.9274,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1148,9 +1292,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5933,
-      "importance": 0.5933,
-      "importance_score": 0.5933,
+      "score": 0.5888,
+      "importance": 0.5888,
+      "importance_score": 0.5888,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1162,7 +1306,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9519,
+        "recency": 0.9267,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1221,9 +1365,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5931,
-      "importance": 0.5931,
-      "importance_score": 0.5931,
+      "score": 0.5886,
+      "importance": 0.5886,
+      "importance_score": 0.5886,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1235,7 +1379,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9505,
+        "recency": 0.9253,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1294,9 +1438,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.5883,
+      "importance": 0.5883,
+      "importance_score": 0.5883,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1308,7 +1452,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9489,
+        "recency": 0.9237,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1321,152 +1465,6 @@
         "id": "f1cacc2b99f73ec1ea41eb49efec06f620286406",
         "title": "上半年国际航线旅客运输量超4000万人次",
         "url": "https://www.pinchain.com/article/348952",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0d754a154116",
-      "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
-      "url": "https://www.pinchain.com/article/348957",
-      "primary_url": "https://www.pinchain.com/article/348957",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "25150358c00084b7156484e3959cf46749e4da46",
-          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
-          "url": "https://www.pinchain.com/article/348957",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:18:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "25150358c00084b7156484e3959cf46749e4da46",
-          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
-          "url": "https://www.pinchain.com/article/348957",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:18:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9473,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T11:18:13Z",
-      "latest_at": "2026-07-21T11:18:13Z",
-      "primary_item": {
-        "id": "25150358c00084b7156484e3959cf46749e4da46",
-        "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
-        "url": "https://www.pinchain.com/article/348957",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_a7d59563f33f",
-      "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
-      "url": "https://www.pinchain.com/article/348955",
-      "primary_url": "https://www.pinchain.com/article/348955",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
-          "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
-          "url": "https://www.pinchain.com/article/348955",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:15:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
-          "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
-          "url": "https://www.pinchain.com/article/348955",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:15:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5924,
-      "importance": 0.5924,
-      "importance_score": 0.5924,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9466,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T11:15:22Z",
-      "latest_at": "2026-07-21T11:15:22Z",
-      "primary_item": {
-        "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
-        "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
-        "url": "https://www.pinchain.com/article/348955",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
