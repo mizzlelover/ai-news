@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-21T18:15:34.656342Z",
+  "generated_at": "2026-07-21T20:00:04.222414Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6187,
-      "importance": 0.6187,
-      "importance_score": 0.6187,
+      "score": 0.6146,
+      "importance": 0.6146,
+      "importance_score": 0.6146,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9079,
+        "recency": 0.8853,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5853,
-      "importance": 0.5853,
-      "importance_score": 0.5853,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9765,
+        "recency": 0.9523,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5787,
+      "importance": 0.5787,
+      "importance_score": 0.5787,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8927,
+        "recency": 0.8705,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5805,
-      "importance": 0.5805,
-      "importance_score": 0.5805,
+      "score": 0.5762,
+      "importance": 0.5762,
+      "importance_score": 0.5762,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9496,
+        "recency": 0.926,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6186,
-      "importance": 0.6186,
-      "importance_score": 0.6186,
+      "score": 0.6145,
+      "importance": 0.6145,
+      "importance_score": 0.6145,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -352,7 +352,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9071,
+        "recency": 0.8846,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -411,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.584,
-      "importance": 0.584,
-      "importance_score": 0.584,
+      "score": 0.5796,
+      "importance": 0.5796,
+      "importance_score": 0.5796,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -424,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9691,
+        "recency": 0.945,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -483,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6178,
-      "importance": 0.6178,
-      "importance_score": 0.6178,
+      "score": 0.6138,
+      "importance": 0.6138,
+      "importance_score": 0.6138,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -500,7 +500,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9028,
+        "recency": 0.8804,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -559,9 +559,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5713,
-      "importance": 0.5713,
-      "importance_score": 0.5713,
+      "score": 0.5676,
+      "importance": 0.5676,
+      "importance_score": 0.5676,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -574,7 +574,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8294,
+        "recency": 0.8088,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -633,9 +633,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.598,
-      "importance": 0.598,
-      "importance_score": 0.598,
+      "score": 0.5939,
+      "importance": 0.5939,
+      "importance_score": 0.5939,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -648,7 +648,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9084,
+        "recency": 0.8858,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -707,9 +707,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
+      "score": 0.5609,
+      "importance": 0.5609,
+      "importance_score": 0.5609,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -720,7 +720,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8623,
+        "recency": 0.8409,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -779,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5975,
-      "importance": 0.5975,
-      "importance_score": 0.5975,
+      "score": 0.5934,
+      "importance": 0.5934,
+      "importance_score": 0.5934,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -794,7 +794,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9055,
+        "recency": 0.8831,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -807,152 +807,6 @@
         "id": "e35d1cfba43f070f5d5af0598cb65d95c950b317",
         "title": "多部门开展旅游市场整治 推进整改景区摆渡车",
         "url": "https://www.pinchain.com/article/348951",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1970e9c40bd8",
-      "title": "Expedia’s AI Timeline Runs Through Its Talent Strategy",
-      "url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
-      "primary_url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4b5176d7eef7fffabfd06d05e1a06f8cdb57d9ef",
-          "title": "Expedia’s AI Timeline Runs Through Its Talent Strategy",
-          "url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T19:44:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "4b5176d7eef7fffabfd06d05e1a06f8cdb57d9ef",
-          "title": "Expedia’s AI Timeline Runs Through Its Talent Strategy",
-          "url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T19:44:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5645,
-      "importance": 0.5645,
-      "importance_score": 0.5645,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7224,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-20T19:44:23Z",
-      "latest_at": "2026-07-20T19:44:23Z",
-      "primary_item": {
-        "id": "4b5176d7eef7fffabfd06d05e1a06f8cdb57d9ef",
-        "title": "Expedia’s AI Timeline Runs Through Its Talent Strategy",
-        "url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_cc052c10191d",
-      "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-      "url": "https://www.pinchain.com/article/348933",
-      "primary_url": "https://www.pinchain.com/article/348933",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-          "url": "https://www.pinchain.com/article/348933",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:01:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-          "url": "https://www.pinchain.com/article/348933",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T11:01:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5966,
-      "importance": 0.5966,
-      "importance_score": 0.5966,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9007,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T11:01:12Z",
-      "latest_at": "2026-07-21T11:01:12Z",
-      "primary_item": {
-        "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
-        "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
-        "url": "https://www.pinchain.com/article/348933",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -999,9 +853,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5461,
-      "importance": 0.5461,
-      "importance_score": 0.5461,
+      "score": 0.5427,
+      "importance": 0.5427,
+      "importance_score": 0.5427,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1012,7 +866,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7586,
+        "recency": 0.7398,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1030,6 +884,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_cc052c10191d",
+      "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+      "url": "https://www.pinchain.com/article/348933",
+      "primary_url": "https://www.pinchain.com/article/348933",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:01:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:01:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5926,
+      "importance": 0.5926,
+      "importance_score": 0.5926,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "博物馆",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8784,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:01:12Z",
+      "latest_at": "2026-07-21T11:01:12Z",
+      "primary_item": {
+        "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+        "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+        "url": "https://www.pinchain.com/article/348933",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -1071,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5935,
-      "importance": 0.5935,
-      "importance_score": 0.5935,
+      "score": 0.5894,
+      "importance": 0.5894,
+      "importance_score": 0.5894,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1086,7 +1014,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9064,
+        "recency": 0.8839,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1073,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1160,7 +1088,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8655,
+        "recency": 0.844,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1219,9 +1147,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5857,
-      "importance": 0.5857,
-      "importance_score": 0.5857,
+      "score": 0.5817,
+      "importance": 0.5817,
+      "importance_score": 0.5817,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1233,7 +1161,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9096,
+        "recency": 0.887,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1292,9 +1220,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5856,
-      "importance": 0.5856,
-      "importance_score": 0.5856,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1306,7 +1234,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9089,
+        "recency": 0.8863,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1365,9 +1293,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.5813,
+      "importance": 0.5813,
+      "importance_score": 0.5813,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1379,7 +1307,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9075,
+        "recency": 0.885,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1438,9 +1366,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5851,
-      "importance": 0.5851,
-      "importance_score": 0.5851,
+      "score": 0.581,
+      "importance": 0.581,
+      "importance_score": 0.581,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1452,7 +1380,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.906,
+        "recency": 0.8835,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1465,6 +1393,79 @@
         "id": "f1cacc2b99f73ec1ea41eb49efec06f620286406",
         "title": "上半年国际航线旅客运输量超4000万人次",
         "url": "https://www.pinchain.com/article/348952",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_0d754a154116",
+      "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+      "url": "https://www.pinchain.com/article/348957",
+      "primary_url": "https://www.pinchain.com/article/348957",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "25150358c00084b7156484e3959cf46749e4da46",
+          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+          "url": "https://www.pinchain.com/article/348957",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:18:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "25150358c00084b7156484e3959cf46749e4da46",
+          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+          "url": "https://www.pinchain.com/article/348957",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:18:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5808,
+      "importance": 0.5808,
+      "importance_score": 0.5808,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.882,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:18:13Z",
+      "latest_at": "2026-07-21T11:18:13Z",
+      "primary_item": {
+        "id": "25150358c00084b7156484e3959cf46749e4da46",
+        "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+        "url": "https://www.pinchain.com/article/348957",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
