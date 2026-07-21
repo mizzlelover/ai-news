@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-21T09:12:04.009482Z",
+  "generated_at": "2026-07-21T11:22:43.814105Z",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 18,
   "items": [
     {
-      "story_id": "story_9d51d7259d43",
-      "title": "同程旅行×五指山发布康养度假消费洞察",
-      "url": "https://www.pinchain.com/article/348925",
-      "primary_url": "https://www.pinchain.com/article/348925",
+      "story_id": "story_b106be797cad",
+      "title": "青州博物馆沉浸式数字文化体验空间启幕",
+      "url": "https://www.pinchain.com/article/348943",
+      "primary_url": "https://www.pinchain.com/article/348943",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
-          "title": "同程旅行×五指山发布康养度假消费洞察",
-          "url": "https://www.pinchain.com/article/348925",
+          "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+          "title": "青州博物馆沉浸式数字文化体验空间启幕",
+          "url": "https://www.pinchain.com/article/348943",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:15:24Z",
+          "published_at": "2026-07-21T11:10:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.83
         }
       ],
       "source_count": 1,
@@ -29,52 +29,127 @@
       ],
       "items": [
         {
-          "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
-          "title": "同程旅行×五指山发布康养度假消费洞察",
-          "url": "https://www.pinchain.com/article/348925",
+          "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+          "title": "青州博物馆沉浸式数字文化体验空间启幕",
+          "url": "https://www.pinchain.com/article/348943",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:15:24Z",
+          "published_at": "2026-07-21T11:10:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.83
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.612,
-      "importance": 0.612,
-      "importance_score": 0.612,
+      "score": 0.6348,
+      "importance": 0.6348,
+      "importance_score": 0.6348,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.83,
       "ai_signals": [
+        "博物馆",
         "旅游",
+        "沉浸式",
+        "ai",
+        "数字"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5976,
+        "source_tier": 0.5,
+        "ai_relevance": 0.83,
+        "recency": 0.9972,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-07-21T11:10:55Z",
+      "latest_at": "2026-07-21T11:10:55Z",
+      "primary_item": {
+        "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+        "title": "青州博物馆沉浸式数字文化体验空间启幕",
+        "url": "https://www.pinchain.com/article/348943",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.83
+      }
+    },
+    {
+      "story_id": "story_d2e5f4d1923f",
+      "title": "去哪儿旅行签约接入国家级AI协同生态",
+      "url": "https://36kr.com/newsflashes/3905211953710728?f=rss",
+      "primary_url": "https://36kr.com/newsflashes/3905211953710728?f=rss",
+      "source": "36氪",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4d021732c0b117b77dbc5d16f13e18ecf2d7af14",
+          "title": "去哪儿旅行签约接入国家级AI协同生态",
+          "url": "https://36kr.com/newsflashes/3905211953710728?f=rss",
+          "source": "36氪",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T10:23:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "36氪"
+      ],
+      "items": [
+        {
+          "id": "4d021732c0b117b77dbc5d16f13e18ecf2d7af14",
+          "title": "去哪儿旅行签约接入国家级AI协同生态",
+          "url": "https://36kr.com/newsflashes/3905211953710728?f=rss",
+          "source": "36氪",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T10:23:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5995,
+      "importance": 0.5995,
+      "importance_score": 0.5995,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
         "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9865,
+        "ai_relevance": 0.75,
+        "recency": 0.9859,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-21T08:15:24Z",
-      "latest_at": "2026-07-21T08:15:24Z",
+      "earliest_at": "2026-07-21T10:23:52Z",
+      "latest_at": "2026-07-21T10:23:52Z",
       "primary_item": {
-        "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
-        "title": "同程旅行×五指山发布康养度假消费洞察",
-        "url": "https://www.pinchain.com/article/348925",
-        "source": "品橙旅游",
+        "id": "4d021732c0b117b77dbc5d16f13e18ecf2d7af14",
+        "title": "去哪儿旅行签约接入国家级AI协同生态",
+        "url": "https://36kr.com/newsflashes/3905211953710728?f=rss",
+        "source": "36氪",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -116,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5922,
-      "importance": 0.5922,
-      "importance_score": 0.5922,
+      "score": 0.5869,
+      "importance": 0.5869,
+      "importance_score": 0.5869,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +206,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9453,
+        "recency": 0.9161,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5864,
-      "importance": 0.5864,
-      "importance_score": 0.5864,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -203,7 +278,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9828,
+        "recency": 0.9524,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -224,21 +299,21 @@
       }
     },
     {
-      "story_id": "story_ac5edac82955",
-      "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
-      "url": "https://www.pinchain.com/article/348916",
-      "primary_url": "https://www.pinchain.com/article/348916",
+      "story_id": "story_cc052c10191d",
+      "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+      "url": "https://www.pinchain.com/article/348933",
+      "primary_url": "https://www.pinchain.com/article/348933",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
-          "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
-          "url": "https://www.pinchain.com/article/348916",
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T04:03:26Z",
+          "published_at": "2026-07-21T11:01:12Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -249,27 +324,27 @@
       ],
       "items": [
         {
-          "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
-          "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
-          "url": "https://www.pinchain.com/article/348916",
+          "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+          "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+          "url": "https://www.pinchain.com/article/348933",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-21T04:03:26Z",
+          "published_at": "2026-07-21T11:01:12Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6016,
-      "importance": 0.6016,
-      "importance_score": 0.6016,
+      "score": 0.6135,
+      "importance": 0.6135,
+      "importance_score": 0.6135,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "博物馆",
         "旅游",
-        "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -277,19 +352,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9284,
+        "recency": 0.9948,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-21T04:03:26Z",
-      "latest_at": "2026-07-21T04:03:26Z",
+      "earliest_at": "2026-07-21T11:01:12Z",
+      "latest_at": "2026-07-21T11:01:12Z",
       "primary_item": {
-        "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
-        "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
-        "url": "https://www.pinchain.com/article/348916",
+        "id": "4ef814ee6d6c5789e736666ff52592c6f3f286ff",
+        "title": "国家博物馆馆藏经典美术作品展亮相中央一号大厅",
+        "url": "https://www.pinchain.com/article/348933",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -336,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5781,
+      "importance": 0.5781,
+      "importance_score": 0.5781,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -349,7 +424,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8233,
+        "recency": 0.7978,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -363,6 +438,736 @@
         "title": "Expedia’s AI Timeline Runs Through Its Talent Strategy",
         "url": "https://skift.com/2026/07/20/expedia-cto-ramana-thumu-ai-talent-strategy",
         "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_9d51d7259d43",
+      "title": "同程旅行×五指山发布康养度假消费洞察",
+      "url": "https://www.pinchain.com/article/348925",
+      "primary_url": "https://www.pinchain.com/article/348925",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
+          "title": "同程旅行×五指山发布康养度假消费洞察",
+          "url": "https://www.pinchain.com/article/348925",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T08:15:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
+          "title": "同程旅行×五指山发布康养度假消费洞察",
+          "url": "https://www.pinchain.com/article/348925",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T08:15:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6065,
+      "importance": 0.6065,
+      "importance_score": 0.6065,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9559,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T08:15:24Z",
+      "latest_at": "2026-07-21T08:15:24Z",
+      "primary_item": {
+        "id": "ff74711ab2d0e30e1c0031af6493915c02ffafd3",
+        "title": "同程旅行×五指山发布康养度假消费洞察",
+        "url": "https://www.pinchain.com/article/348925",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0d754a154116",
+      "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+      "url": "https://www.pinchain.com/article/348957",
+      "primary_url": "https://www.pinchain.com/article/348957",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "25150358c00084b7156484e3959cf46749e4da46",
+          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+          "url": "https://www.pinchain.com/article/348957",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:18:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "25150358c00084b7156484e3959cf46749e4da46",
+          "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+          "url": "https://www.pinchain.com/article/348957",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:18:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6018,
+      "importance": 0.6018,
+      "importance_score": 0.6018,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9989,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:18:13Z",
+      "latest_at": "2026-07-21T11:18:13Z",
+      "primary_item": {
+        "id": "25150358c00084b7156484e3959cf46749e4da46",
+        "title": "泰国国家旅游局与五家企业签署旅游合作意向书",
+        "url": "https://www.pinchain.com/article/348957",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_0feed7176f64",
+      "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
+      "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
+      "primary_url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
+          "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
+          "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T23:07:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
+          "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
+          "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T23:07:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5603,
+      "importance": 0.5603,
+      "importance_score": 0.5603,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8378,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-20T23:07:37Z",
+      "latest_at": "2026-07-20T23:07:37Z",
+      "primary_item": {
+        "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
+        "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
+        "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_a7d59563f33f",
+      "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
+      "url": "https://www.pinchain.com/article/348955",
+      "primary_url": "https://www.pinchain.com/article/348955",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
+          "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
+          "url": "https://www.pinchain.com/article/348955",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:15:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
+          "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
+          "url": "https://www.pinchain.com/article/348955",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:15:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6017,
+      "importance": 0.6017,
+      "importance_score": 0.6017,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9982,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:15:22Z",
+      "latest_at": "2026-07-21T11:15:22Z",
+      "primary_item": {
+        "id": "7acd5e00b288b814302915c3d76078b16d880bd3",
+        "title": "“保险低价游”成陷阱 行业跨界不能“越界”",
+        "url": "https://www.pinchain.com/article/348955",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_89fd5efcfbb6",
+      "title": "How Thailand Is Trying to Win Back Chinese Tourists",
+      "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
+      "primary_url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
+          "title": "How Thailand Is Trying to Win Back Chinese Tourists",
+          "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T12:18:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
+          "title": "How Thailand Is Trying to Win Back Chinese Tourists",
+          "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T12:18:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.551,
+      "importance": 0.551,
+      "importance_score": 0.551,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "tourist",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7166,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-20T12:18:25Z",
+      "latest_at": "2026-07-20T12:18:25Z",
+      "primary_item": {
+        "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
+        "title": "How Thailand Is Trying to Win Back Chinese Tourists",
+        "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_5e27708da3dc",
+      "title": "超长三伏天催热避暑经济 夜游文博亲子游成亮点",
+      "url": "https://www.pinchain.com/article/348936",
+      "primary_url": "https://www.pinchain.com/article/348936",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "04f5ba54706a4db499a4cd26d1e3844993006359",
+          "title": "超长三伏天催热避暑经济 夜游文博亲子游成亮点",
+          "url": "https://www.pinchain.com/article/348936",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:13:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "04f5ba54706a4db499a4cd26d1e3844993006359",
+          "title": "超长三伏天催热避暑经济 夜游文博亲子游成亮点",
+          "url": "https://www.pinchain.com/article/348936",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:13:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6016,
+      "importance": 0.6016,
+      "importance_score": 0.6016,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9977,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:13:21Z",
+      "latest_at": "2026-07-21T11:13:21Z",
+      "primary_item": {
+        "id": "04f5ba54706a4db499a4cd26d1e3844993006359",
+        "title": "超长三伏天催热避暑经济 夜游文博亲子游成亮点",
+        "url": "https://www.pinchain.com/article/348936",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_82efed80497c",
+      "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
+      "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
+      "primary_url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
+          "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
+          "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T13:57:06Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
+          "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
+          "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-20T13:57:06Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5416,
+      "importance": 0.5416,
+      "importance_score": 0.5416,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7339,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-20T13:57:06Z",
+      "latest_at": "2026-07-20T13:57:06Z",
+      "primary_item": {
+        "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
+        "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
+        "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_226e51ea94c6",
+      "title": "卢浮宫遭劫展厅即将重新开放",
+      "url": "https://www.pinchain.com/article/348942",
+      "primary_url": "https://www.pinchain.com/article/348942",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a6f76b9c5db8602cfb48a6c7f52fbd48c70020f8",
+          "title": "卢浮宫遭劫展厅即将重新开放",
+          "url": "https://www.pinchain.com/article/348942",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:08:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "a6f76b9c5db8602cfb48a6c7f52fbd48c70020f8",
+          "title": "卢浮宫遭劫展厅即将重新开放",
+          "url": "https://www.pinchain.com/article/348942",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:08:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6014,
+      "importance": 0.6014,
+      "importance_score": 0.6014,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9967,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:08:51Z",
+      "latest_at": "2026-07-21T11:08:51Z",
+      "primary_item": {
+        "id": "a6f76b9c5db8602cfb48a6c7f52fbd48c70020f8",
+        "title": "卢浮宫遭劫展厅即将重新开放",
+        "url": "https://www.pinchain.com/article/348942",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_6c62725a7db8",
+      "title": "今年已有2000万人次自浦东国际机场口岸出入境",
+      "url": "https://www.pinchain.com/article/348945",
+      "primary_url": "https://www.pinchain.com/article/348945",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6651f3f404dca6eac51e203f78350e78f9f8be5f",
+          "title": "今年已有2000万人次自浦东国际机场口岸出入境",
+          "url": "https://www.pinchain.com/article/348945",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:06:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "6651f3f404dca6eac51e203f78350e78f9f8be5f",
+          "title": "今年已有2000万人次自浦东国际机场口岸出入境",
+          "url": "https://www.pinchain.com/article/348945",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T11:06:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6013,
+      "importance": 0.6013,
+      "importance_score": 0.6013,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.996,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T11:06:10Z",
+      "latest_at": "2026-07-21T11:06:10Z",
+      "primary_item": {
+        "id": "6651f3f404dca6eac51e203f78350e78f9f8be5f",
+        "title": "今年已有2000万人次自浦东国际机场口岸出入境",
+        "url": "https://www.pinchain.com/article/348945",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_ac5edac82955",
+      "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
+      "url": "https://www.pinchain.com/article/348916",
+      "primary_url": "https://www.pinchain.com/article/348916",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
+          "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
+          "url": "https://www.pinchain.com/article/348916",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T04:03:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
+          "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
+          "url": "https://www.pinchain.com/article/348916",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-21T04:03:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5964,
+      "importance": 0.5964,
+      "importance_score": 0.5964,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8997,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-21T04:03:26Z",
+      "latest_at": "2026-07-21T04:03:26Z",
+      "primary_item": {
+        "id": "28a7ee76f8c60b158b979bdf51ef1f21b57cb53f",
+        "title": "去哪儿旅行:暑期增速最快的航线,一半是去“追凉”",
+        "url": "https://www.pinchain.com/article/348916",
+        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -408,9 +1213,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5962,
-      "importance": 0.5962,
-      "importance_score": 0.5962,
+      "score": 0.5912,
+      "importance": 0.5912,
+      "importance_score": 0.5912,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -423,7 +1228,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8987,
+        "recency": 0.8708,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -482,9 +1287,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5894,
-      "importance": 0.5894,
-      "importance_score": 0.5894,
+      "score": 0.5842,
+      "importance": 0.5842,
+      "importance_score": 0.5842,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -496,7 +1301,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9298,
+        "recency": 0.901,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -514,297 +1319,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0feed7176f64",
-      "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
-      "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
-      "primary_url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
-          "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
-          "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T23:07:37Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
-          "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
-          "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T23:07:37Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8646,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-20T23:07:37Z",
-      "latest_at": "2026-07-20T23:07:37Z",
-      "primary_item": {
-        "id": "b121f278c9c58ead58f25ae95b056f164fdb778e",
-        "title": "Riyadh Air Waited Years for New Planes. Now Six Have Arrived in 30 Days",
-        "url": "https://skift.com/2026/07/20/riyadh-air-waited-years-for-new-planes-now-six-have-arrived-in-30-days",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_1f60b4109280",
-      "title": "同程旅行：2026暑期“慢充旅行”吹热宝藏小城",
-      "url": "https://www.pinchain.com/article/348904",
-      "primary_url": "https://www.pinchain.com/article/348904",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "637b541fc92a0f7bb5c133392792653a7d7cabc6",
-          "title": "同程旅行：2026暑期“慢充旅行”吹热宝藏小城",
-          "url": "https://www.pinchain.com/article/348904",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T10:58:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "637b541fc92a0f7bb5c133392792653a7d7cabc6",
-          "title": "同程旅行：2026暑期“慢充旅行”吹热宝藏小城",
-          "url": "https://www.pinchain.com/article/348904",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T10:58:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.565,
-      "importance": 0.565,
-      "importance_score": 0.565,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7254,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-20T10:58:05Z",
-      "latest_at": "2026-07-20T10:58:05Z",
-      "primary_item": {
-        "id": "637b541fc92a0f7bb5c133392792653a7d7cabc6",
-        "title": "同程旅行：2026暑期“慢充旅行”吹热宝藏小城",
-        "url": "https://www.pinchain.com/article/348904",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_89fd5efcfbb6",
-      "title": "How Thailand Is Trying to Win Back Chinese Tourists",
-      "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
-      "primary_url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
-          "title": "How Thailand Is Trying to Win Back Chinese Tourists",
-          "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T12:18:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
-          "title": "How Thailand Is Trying to Win Back Chinese Tourists",
-          "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T12:18:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5551,
-      "importance": 0.5551,
-      "importance_score": 0.5551,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "tourist",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7395,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-20T12:18:25Z",
-      "latest_at": "2026-07-20T12:18:25Z",
-      "primary_item": {
-        "id": "3505f08f9503482b3f125edbd02273b9c3a7675b",
-        "title": "How Thailand Is Trying to Win Back Chinese Tourists",
-        "url": "https://skift.com/2026/07/20/how-thailand-is-trying-to-win-back-chinese-tourists",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_82efed80497c",
-      "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
-      "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
-      "primary_url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
-          "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
-          "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T13:57:06Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
-          "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
-          "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-20T13:57:06Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5458,
-      "importance": 0.5458,
-      "importance_score": 0.5458,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7573,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-20T13:57:06Z",
-      "latest_at": "2026-07-20T13:57:06Z",
-      "primary_item": {
-        "id": "57df85369b5389c55143f0b0da9ce82c7cda1d71",
-        "title": "Hotel Brands Circle Student Housing: 4 Income Streams",
-        "url": "https://skift.com/2026/07/20/hotel-brands-circle-student-housing-4-income-streams",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
       }
     }
   ]
