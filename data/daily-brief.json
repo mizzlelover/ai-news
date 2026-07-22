@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T22:02:53.103598Z",
+  "generated_at": "2026-07-22T23:29:23.203710Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5865,
-      "importance": 0.5865,
-      "importance_score": 0.5865,
+      "score": 0.5836,
+      "importance": 0.5836,
+      "importance_score": 0.5836,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7752,
+        "recency": 0.7592,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5829,
-      "importance": 0.5829,
-      "importance_score": 0.5829,
+      "score": 0.5793,
+      "importance": 0.5793,
+      "importance_score": 0.5793,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9631,
+        "recency": 0.9432,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5563,
-      "importance": 0.5563,
-      "importance_score": 0.5563,
+      "score": 0.553,
+      "importance": 0.553,
+      "importance_score": 0.553,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8846,
+        "recency": 0.8664,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -221,79 +221,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_4b1c7cd4dd60",
-      "title": "特斯拉将Robotaxi服务扩展至奥兰多和坦帕",
-      "url": "https://36kr.com/newsflashes/3905998165185672?f=rss",
-      "primary_url": "https://36kr.com/newsflashes/3905998165185672?f=rss",
-      "source": "36氪",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "8af4848d1b04181c0e1162296734c84631927f10",
-          "title": "特斯拉将Robotaxi服务扩展至奥兰多和坦帕",
-          "url": "https://36kr.com/newsflashes/3905998165185672?f=rss",
-          "source": "36氪",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T23:06:48Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "36氪"
-      ],
-      "items": [
-        {
-          "id": "8af4848d1b04181c0e1162296734c84631927f10",
-          "title": "特斯拉将Robotaxi服务扩展至奥兰多和坦帕",
-          "url": "https://36kr.com/newsflashes/3905998165185672?f=rss",
-          "source": "36氪",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T23:06:48Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5388,
-      "importance": 0.5388,
-      "importance_score": 0.5388,
-      "ai_label": "travel_business",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "robot",
-        "ota"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7181,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T23:06:48Z",
-      "latest_at": "2026-07-21T23:06:48Z",
-      "primary_item": {
-        "id": "8af4848d1b04181c0e1162296734c84631927f10",
-        "title": "特斯拉将Robotaxi服务扩展至奥兰多和坦帕",
-        "url": "https://36kr.com/newsflashes/3905998165185672?f=rss",
-        "source": "36氪",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.72
       }
     },
     {
@@ -335,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5862,
-      "importance": 0.5862,
-      "importance_score": 0.5862,
+      "score": 0.583,
+      "importance": 0.583,
+      "importance_score": 0.583,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -350,7 +277,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8426,
+        "recency": 0.8253,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -409,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5779,
-      "importance": 0.5779,
-      "importance_score": 0.5779,
+      "score": 0.5747,
+      "importance": 0.5747,
+      "importance_score": 0.5747,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -423,7 +350,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.866,
+        "recency": 0.8482,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -482,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.5824,
+      "importance": 0.5824,
+      "importance_score": 0.5824,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -498,7 +425,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.7921,
+        "recency": 0.7758,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -557,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
+      "score": 0.5724,
+      "importance": 0.5724,
+      "importance_score": 0.5724,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -572,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7823,
+        "recency": 0.7662,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -631,9 +558,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5748,
-      "importance": 0.5748,
-      "importance_score": 0.5748,
+      "score": 0.5719,
+      "importance": 0.5719,
+      "importance_score": 0.5719,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -646,7 +573,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7794,
+        "recency": 0.7633,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -705,9 +632,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5739,
-      "importance": 0.5739,
-      "importance_score": 0.5739,
+      "score": 0.571,
+      "importance": 0.571,
+      "importance_score": 0.571,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -720,7 +647,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7747,
+        "recency": 0.7587,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -779,9 +706,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5662,
-      "importance": 0.5662,
-      "importance_score": 0.5662,
+      "score": 0.5633,
+      "importance": 0.5633,
+      "importance_score": 0.5633,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -793,7 +720,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8013,
+        "recency": 0.7848,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5624,
-      "importance": 0.5624,
-      "importance_score": 0.5624,
+      "score": 0.5595,
+      "importance": 0.5595,
+      "importance_score": 0.5595,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -866,7 +793,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7801,
+        "recency": 0.764,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -925,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5623,
-      "importance": 0.5623,
-      "importance_score": 0.5623,
+      "score": 0.5594,
+      "importance": 0.5594,
+      "importance_score": 0.5594,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -939,7 +866,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7793,
+        "recency": 0.7633,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -952,6 +879,79 @@
         "id": "c2b67ac643286efe8a1c605ce992077f90346ffb",
         "title": "暑运前20天深圳铁路运输旅客超1100万人次",
         "url": "https://www.pinchain.com/article/349008",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_bc6f49ad3e38",
+      "title": "澳门修改控烟法 推进“无烟澳门”建设",
+      "url": "https://www.pinchain.com/article/349005",
+      "primary_url": "https://www.pinchain.com/article/349005",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
+          "title": "澳门修改控烟法 推进“无烟澳门”建设",
+          "url": "https://www.pinchain.com/article/349005",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T04:42:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
+          "title": "澳门修改控烟法 推进“无烟澳门”建设",
+          "url": "https://www.pinchain.com/article/349005",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T04:42:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7625,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-22T04:42:48Z",
+      "latest_at": "2026-07-22T04:42:48Z",
+      "primary_item": {
+        "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
+        "title": "澳门修改控烟法 推进“无烟澳门”建设",
+        "url": "https://www.pinchain.com/article/349005",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -998,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5622,
-      "importance": 0.5622,
-      "importance_score": 0.5622,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1012,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.779,
+        "recency": 0.7629,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1071,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
+      "score": 0.5592,
+      "importance": 0.5592,
+      "importance_score": 0.5592,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1085,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7781,
+        "recency": 0.762,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1098,79 +1098,6 @@
         "id": "2b946136f1d32f1bc3a89f281624dc832305c002",
         "title": "1.5万元机票退票仅退432元，小字标注引争议",
         "url": "https://www.pinchain.com/article/349006",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_bc6f49ad3e38",
-      "title": "澳门修改控烟法 推进“无烟澳门”建设",
-      "url": "https://www.pinchain.com/article/349005",
-      "primary_url": "https://www.pinchain.com/article/349005",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
-          "title": "澳门修改控烟法 推进“无烟澳门”建设",
-          "url": "https://www.pinchain.com/article/349005",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T04:42:48Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
-          "title": "澳门修改控烟法 推进“无烟澳门”建设",
-          "url": "https://www.pinchain.com/article/349005",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T04:42:48Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7785,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-22T04:42:48Z",
-      "latest_at": "2026-07-22T04:42:48Z",
-      "primary_item": {
-        "id": "bf8ab7928983efa507ffdc6edd422d84f68cd8f4",
-        "title": "澳门修改控烟法 推进“无烟澳门”建设",
-        "url": "https://www.pinchain.com/article/349005",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1217,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5616,
-      "importance": 0.5616,
-      "importance_score": 0.5616,
+      "score": 0.5587,
+      "importance": 0.5587,
+      "importance_score": 0.5587,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1231,7 +1158,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7757,
+        "recency": 0.7597,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1290,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5575,
-      "importance": 0.5575,
-      "importance_score": 0.5575,
+      "score": 0.5548,
+      "importance": 0.5548,
+      "importance_score": 0.5548,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1304,7 +1231,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.753,
+        "recency": 0.7375,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1290,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5574,
-      "importance": 0.5574,
-      "importance_score": 0.5574,
+      "score": 0.5546,
+      "importance": 0.5546,
+      "importance_score": 0.5546,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1377,7 +1304,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7523,
+        "recency": 0.7368,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1436,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5573,
-      "importance": 0.5573,
-      "importance_score": 0.5573,
+      "score": 0.5545,
+      "importance": 0.5545,
+      "importance_score": 0.5545,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1450,7 +1377,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7516,
+        "recency": 0.7361,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1463,6 +1390,79 @@
         "id": "45ee309b4b5db16c623cae223decb0d614a3d52a",
         "title": "全球和平持续恶化，护照含金量却逆势翻倍",
         "url": "https://www.pinchain.com/article/348979",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e213d9dbc85e",
+      "title": "香港旅发局启动全新全球宣传项目“只在香港”",
+      "url": "https://www.pinchain.com/article/348976",
+      "primary_url": "https://www.pinchain.com/article/348976",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7a9e38e3cc88452becaa74c049ead00c1cdf6b59",
+          "title": "香港旅发局启动全新全球宣传项目“只在香港”",
+          "url": "https://www.pinchain.com/article/348976",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T02:14:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7a9e38e3cc88452becaa74c049ead00c1cdf6b59",
+          "title": "香港旅发局启动全新全球宣传项目“只在香港”",
+          "url": "https://www.pinchain.com/article/348976",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T02:14:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5544,
+      "importance": 0.5544,
+      "importance_score": 0.5544,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7357,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-22T02:14:05Z",
+      "latest_at": "2026-07-22T02:14:05Z",
+      "primary_item": {
+        "id": "7a9e38e3cc88452becaa74c049ead00c1cdf6b59",
+        "title": "香港旅发局启动全新全球宣传项目“只在香港”",
+        "url": "https://www.pinchain.com/article/348976",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
