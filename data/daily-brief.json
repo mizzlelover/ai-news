@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-22T05:49:26.446160Z",
+  "generated_at": "2026-07-22T08:27:02.672584Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6233,
-      "importance": 0.6233,
-      "importance_score": 0.6233,
+      "score": 0.6168,
+      "importance": 0.6168,
+      "importance_score": 0.6168,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9799,
+        "recency": 0.9434,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5729,
-      "importance": 0.5729,
-      "importance_score": 0.5729,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9076,
+        "recency": 0.8739,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -152,23 +152,23 @@
       }
     },
     {
-      "story_id": "story_15892ce283f9",
-      "title": "香港航空成都航班月底起转场至成都双流国际机场",
-      "url": "https://www.pinchain.com/article/349017",
-      "primary_url": "https://www.pinchain.com/article/349017",
+      "story_id": "story_62294f6e3b0c",
+      "title": "希尔顿集团发布2025年“旅行有心益”报告",
+      "url": "https://www.pinchain.com/article/349016",
+      "primary_url": "https://www.pinchain.com/article/349016",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
-          "title": "香港航空成都航班月底起转场至成都双流国际机场",
-          "url": "https://www.pinchain.com/article/349017",
+          "id": "df6d07561b46e4a71886dce1077e0de92c4c3377",
+          "title": "希尔顿集团发布2025年“旅行有心益”报告",
+          "url": "https://www.pinchain.com/article/349016",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-22T05:02:44Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "published_at": "2026-07-22T05:54:25Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
         }
       ],
       "source_count": 1,
@@ -177,52 +177,53 @@
       ],
       "items": [
         {
-          "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
-          "title": "香港航空成都航班月底起转场至成都双流国际机场",
-          "url": "https://www.pinchain.com/article/349017",
+          "id": "df6d07561b46e4a71886dce1077e0de92c4c3377",
+          "title": "希尔顿集团发布2025年“旅行有心益”报告",
+          "url": "https://www.pinchain.com/article/349016",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-22T05:02:44Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "published_at": "2026-07-22T05:54:25Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.8
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6125,
-      "importance": 0.6125,
-      "importance_score": 0.6125,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "score": 0.6163,
+      "importance": 0.6163,
+      "importance_score": 0.6163,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.8,
       "ai_signals": [
         "旅游",
-        "航空",
-        "ai"
+        "旅行",
+        "ai",
+        "报告"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.576,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9888,
+        "ai_relevance": 0.8,
+        "recency": 0.9639,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-22T05:02:44Z",
-      "latest_at": "2026-07-22T05:02:44Z",
+      "earliest_at": "2026-07-22T05:54:25Z",
+      "latest_at": "2026-07-22T05:54:25Z",
       "primary_item": {
-        "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
-        "title": "香港航空成都航班月底起转场至成都双流国际机场",
-        "url": "https://www.pinchain.com/article/349017",
+        "id": "df6d07561b46e4a71886dce1077e0de92c4c3377",
+        "title": "希尔顿集团发布2025年“旅行有心益”报告",
+        "url": "https://www.pinchain.com/article/349016",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_label": "tourism_policy",
+        "ai_score": 0.8
       }
     },
     {
@@ -264,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5583,
-      "importance": 0.5583,
-      "importance_score": 0.5583,
+      "score": 0.5527,
+      "importance": 0.5527,
+      "importance_score": 0.5527,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +278,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8263,
+        "recency": 0.7956,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5542,
-      "importance": 0.5542,
-      "importance_score": 0.5542,
+      "score": 0.5488,
+      "importance": 0.5488,
+      "importance_score": 0.5488,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -350,7 +351,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8036,
+        "recency": 0.7737,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -368,6 +369,80 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_15892ce283f9",
+      "title": "香港航空成都航班月底起转场至成都双流国际机场",
+      "url": "https://www.pinchain.com/article/349017",
+      "primary_url": "https://www.pinchain.com/article/349017",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
+          "title": "香港航空成都航班月底起转场至成都双流国际机场",
+          "url": "https://www.pinchain.com/article/349017",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T05:02:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
+          "title": "香港航空成都航班月底起转场至成都双流国际机场",
+          "url": "https://www.pinchain.com/article/349017",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T05:02:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6058,
+      "importance": 0.6058,
+      "importance_score": 0.6058,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "航空",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.952,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-22T05:02:44Z",
+      "latest_at": "2026-07-22T05:02:44Z",
+      "primary_item": {
+        "id": "6fd06ca4b8413adbea866bbe492a3559b2e3f05c",
+        "title": "香港航空成都航班月底起转场至成都双流国际机场",
+        "url": "https://www.pinchain.com/article/349017",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -409,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6118,
-      "importance": 0.6118,
-      "importance_score": 0.6118,
+      "score": 0.6052,
+      "importance": 0.6052,
+      "importance_score": 0.6052,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -424,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9851,
+        "recency": 0.9485,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -483,9 +558,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6107,
-      "importance": 0.6107,
-      "importance_score": 0.6107,
+      "score": 0.6042,
+      "importance": 0.6042,
+      "importance_score": 0.6042,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -498,7 +573,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9792,
+        "recency": 0.9427,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -516,79 +591,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_711c49b5a436",
-      "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
-      "url": "https://www.pinchain.com/article/349018",
-      "primary_url": "https://www.pinchain.com/article/349018",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
-          "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
-          "url": "https://www.pinchain.com/article/349018",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T04:50:56Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
-          "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
-          "url": "https://www.pinchain.com/article/349018",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T04:50:56Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5995,
-      "importance": 0.5995,
-      "importance_score": 0.5995,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.986,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-22T04:50:56Z",
-      "latest_at": "2026-07-22T04:50:56Z",
-      "primary_item": {
-        "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
-        "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
-        "url": "https://www.pinchain.com/article/349018",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -630,9 +632,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.558,
-      "importance": 0.558,
-      "importance_score": 0.558,
+      "score": 0.5529,
+      "importance": 0.5529,
+      "importance_score": 0.5529,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -644,7 +646,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7554,
+        "recency": 0.7273,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -703,9 +705,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5571,
-      "importance": 0.5571,
-      "importance_score": 0.5571,
+      "score": 0.5516,
+      "importance": 0.5516,
+      "importance_score": 0.5516,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -716,7 +718,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.82,
+        "recency": 0.7895,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -734,6 +736,152 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_c344a396cae5",
+      "title": "《文明旅游志愿服务站设置与服务规范》发布",
+      "url": "https://www.pinchain.com/article/349015",
+      "primary_url": "https://www.pinchain.com/article/349015",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9025bd1c3f8b81cca4f9d42aa76d270961ca41e8",
+          "title": "《文明旅游志愿服务站设置与服务规范》发布",
+          "url": "https://www.pinchain.com/article/349015",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T06:42:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "9025bd1c3f8b81cca4f9d42aa76d270961ca41e8",
+          "title": "《文明旅游志愿服务站设置与服务规范》发布",
+          "url": "https://www.pinchain.com/article/349015",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T06:42:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5975,
+      "importance": 0.5975,
+      "importance_score": 0.5975,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9751,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-22T06:42:22Z",
+      "latest_at": "2026-07-22T06:42:22Z",
+      "primary_item": {
+        "id": "9025bd1c3f8b81cca4f9d42aa76d270961ca41e8",
+        "title": "《文明旅游志愿服务站设置与服务规范》发布",
+        "url": "https://www.pinchain.com/article/349015",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_711c49b5a436",
+      "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
+      "url": "https://www.pinchain.com/article/349018",
+      "primary_url": "https://www.pinchain.com/article/349018",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
+          "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
+          "url": "https://www.pinchain.com/article/349018",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T04:50:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
+          "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
+          "url": "https://www.pinchain.com/article/349018",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-22T04:50:56Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5929,
+      "importance": 0.5929,
+      "importance_score": 0.5929,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9493,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-22T04:50:56Z",
+      "latest_at": "2026-07-22T04:50:56Z",
+      "primary_item": {
+        "id": "65c4391b6c72c57d889f75e56d046672d8e56733",
+        "title": "美国护照“含金量”下降 20年来首次跌出全球前五",
+        "url": "https://www.pinchain.com/article/349018",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -775,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5993,
-      "importance": 0.5993,
-      "importance_score": 0.5993,
+      "score": 0.5927,
+      "importance": 0.5927,
+      "importance_score": 0.5927,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -789,7 +937,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9851,
+        "recency": 0.9484,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -807,78 +955,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_1c692c6ee1fe",
-      "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-      "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-      "primary_url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-          "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-          "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-21T08:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5409,
-      "importance": 0.5409,
-      "importance_score": 0.5409,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7297,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-21T08:00:00Z",
-      "latest_at": "2026-07-21T08:00:00Z",
-      "primary_item": {
-        "id": "6fce8404e4697e8dea241306f67b0805002cbac7",
-        "title": "The U.S. Passport Is Stuck, The UAE’s Is Gaining Fast",
-        "url": "https://skift.com/2026/07/21/the-u-s-passport-is-stuck-the-uaes-is-gaining-fast",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -920,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5992,
-      "importance": 0.5992,
-      "importance_score": 0.5992,
+      "score": 0.5926,
+      "importance": 0.5926,
+      "importance_score": 0.5926,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -934,7 +1010,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9846,
+        "recency": 0.948,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -993,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5991,
-      "importance": 0.5991,
-      "importance_score": 0.5991,
+      "score": 0.5925,
+      "importance": 0.5925,
+      "importance_score": 0.5925,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1007,7 +1083,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9841,
+        "recency": 0.9475,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1066,9 +1142,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.599,
-      "importance": 0.599,
-      "importance_score": 0.599,
+      "score": 0.5924,
+      "importance": 0.5924,
+      "importance_score": 0.5924,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1080,7 +1156,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9835,
+        "recency": 0.9469,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1139,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5985,
-      "importance": 0.5985,
-      "importance_score": 0.5985,
+      "score": 0.5919,
+      "importance": 0.5919,
+      "importance_score": 0.5919,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1153,7 +1229,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9804,
+        "recency": 0.9439,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1212,9 +1288,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5936,
-      "importance": 0.5936,
-      "importance_score": 0.5936,
+      "score": 0.5884,
+      "importance": 0.5884,
+      "importance_score": 0.5884,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -1228,7 +1304,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.7682,
+        "recency": 0.7396,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1287,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5934,
-      "importance": 0.5934,
-      "importance_score": 0.5934,
+      "score": 0.5883,
+      "importance": 0.5883,
+      "importance_score": 0.5883,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -1304,7 +1380,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.7676,
+        "recency": 0.739,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1325,23 +1401,23 @@
       }
     },
     {
-      "story_id": "story_30ba556c511a",
-      "title": "希尔顿携手意铂奢推出全新臻奢海洋之旅奖励计划",
-      "url": "https://www.pinchain.com/article/348978",
-      "primary_url": "https://www.pinchain.com/article/348978",
+      "story_id": "story_b106be797cad",
+      "title": "青州博物馆沉浸式数字文化体验空间启幕",
+      "url": "https://www.pinchain.com/article/348943",
+      "primary_url": "https://www.pinchain.com/article/348943",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "f83576afeaa4b191148c55da01a817e3cff8af98",
-          "title": "希尔顿携手意铂奢推出全新臻奢海洋之旅奖励计划",
-          "url": "https://www.pinchain.com/article/348978",
+          "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+          "title": "青州博物馆沉浸式数字文化体验空间启幕",
+          "url": "https://www.pinchain.com/article/348943",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-22T02:24:20Z",
+          "published_at": "2026-07-21T11:10:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.83
         }
       ],
       "source_count": 1,
@@ -1350,124 +1426,54 @@
       ],
       "items": [
         {
-          "id": "f83576afeaa4b191148c55da01a817e3cff8af98",
-          "title": "希尔顿携手意铂奢推出全新臻奢海洋之旅奖励计划",
-          "url": "https://www.pinchain.com/article/348978",
+          "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+          "title": "青州博物馆沉浸式数字文化体验空间启幕",
+          "url": "https://www.pinchain.com/article/348943",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-22T02:24:20Z",
+          "published_at": "2026-07-21T11:10:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.83
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5933,
-      "importance": 0.5933,
-      "importance_score": 0.5933,
+      "score": 0.5877,
+      "importance": 0.5877,
+      "importance_score": 0.5877,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.83,
       "ai_signals": [
+        "博物馆",
         "旅游",
-        "ai"
+        "沉浸式",
+        "ai",
+        "数字"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5976,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9518,
+        "ai_relevance": 0.83,
+        "recency": 0.7356,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-22T02:24:20Z",
-      "latest_at": "2026-07-22T02:24:20Z",
+      "earliest_at": "2026-07-21T11:10:55Z",
+      "latest_at": "2026-07-21T11:10:55Z",
       "primary_item": {
-        "id": "f83576afeaa4b191148c55da01a817e3cff8af98",
-        "title": "希尔顿携手意铂奢推出全新臻奢海洋之旅奖励计划",
-        "url": "https://www.pinchain.com/article/348978",
+        "id": "c01fc3def3a4b020e01470503cf410b2c95a0337",
+        "title": "青州博物馆沉浸式数字文化体验空间启幕",
+        "url": "https://www.pinchain.com/article/348943",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_16a8b95a20fc",
-      "title": "全新比斯特尚居俱乐部于比斯特苏州购物村正式亮相",
-      "url": "https://www.pinchain.com/article/348981",
-      "primary_url": "https://www.pinchain.com/article/348981",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4b703a499df01be2cd9dceeaa7e3c0903ad33170",
-          "title": "全新比斯特尚居俱乐部于比斯特苏州购物村正式亮相",
-          "url": "https://www.pinchain.com/article/348981",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T02:20:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4b703a499df01be2cd9dceeaa7e3c0903ad33170",
-          "title": "全新比斯特尚居俱乐部于比斯特苏州购物村正式亮相",
-          "url": "https://www.pinchain.com/article/348981",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-22T02:20:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5932,
-      "importance": 0.5932,
-      "importance_score": 0.5932,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9509,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-22T02:20:25Z",
-      "latest_at": "2026-07-22T02:20:25Z",
-      "primary_item": {
-        "id": "4b703a499df01be2cd9dceeaa7e3c0903ad33170",
-        "title": "全新比斯特尚居俱乐部于比斯特苏州购物村正式亮相",
-        "url": "https://www.pinchain.com/article/348981",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.83
       }
     }
   ]
