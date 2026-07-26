@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-07-26T08:56:05.853385Z",
+  "generated_at": "2026-07-26T10:45:02.552829Z",
   "window_hours": 24,
   "total_items": 3,
   "total_items_ai_raw": 3,
-  "total_items_raw": 398,
-  "total_items_all_mode": 398,
+  "total_items_raw": 393,
+  "total_items_all_mode": 393,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15577,
+  "archive_total": 15584,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 3,
-      "raw_count": 398
+      "raw_count": 393
     }
   ],
   "creator_window_days": 7,
@@ -24,6 +24,33 @@
   "creator_items_all": [],
   "items": [
     {
+      "id": "6e5915f45a9ea4f822e7558bcaf5982b7e5a9324",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "钛媒体",
+      "title": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "url": "https://www.tmtpost.com/8079724.html",
+      "published_at": "2026-07-26T09:16:37Z",
+      "first_seen_at": "2026-07-26T10:45:02.552829Z",
+      "last_seen_at": "2026-07-26T10:45:02.552829Z",
+      "ai_is_related": true,
+      "ai_score": 0.69,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "酒店",
+        "平台"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "title_en": null,
+      "title_zh": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "title_bilingual": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结"
+    },
+    {
       "id": "60930a0b58b555e22df7cf48f2c5a77bb26fe9b1",
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
@@ -77,37 +104,37 @@
       "title_en": null,
       "title_zh": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
       "title_bilingual": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载"
-    },
-    {
-      "id": "a2e051aa2fd573ee81e4f009fada558f54dc82c4",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "虎嗅",
-      "title": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "url": "https://www.huxiu.com/article/4878139.html?f=rss",
-      "published_at": "2026-07-25T09:16:31Z",
-      "first_seen_at": "2026-07-25T10:51:31.993105Z",
-      "last_seen_at": "2026-07-25T15:38:42.778600Z",
-      "ai_is_related": true,
-      "ai_score": 0.69,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "酒店",
-        "平台"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "title_en": null,
-      "title_zh": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "title_bilingual": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结"
     }
   ],
   "items_ai": [
     {
+      "id": "6e5915f45a9ea4f822e7558bcaf5982b7e5a9324",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "钛媒体",
+      "title": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "url": "https://www.tmtpost.com/8079724.html",
+      "published_at": "2026-07-26T09:16:37Z",
+      "first_seen_at": "2026-07-26T10:45:02.552829Z",
+      "last_seen_at": "2026-07-26T10:45:02.552829Z",
+      "ai_is_related": true,
+      "ai_score": 0.69,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "酒店",
+        "平台"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "title_en": null,
+      "title_zh": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结",
+      "title_bilingual": "携程罚单的真正影响，不是酒店变便宜，是平台\"抽税权\"的终结"
+    },
+    {
       "id": "60930a0b58b555e22df7cf48f2c5a77bb26fe9b1",
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
@@ -161,33 +188,6 @@
       "title_en": null,
       "title_zh": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载",
       "title_bilingual": "特斯拉 FSD v15 早期版本已上路，Robotaxi 车队率先搭载"
-    },
-    {
-      "id": "a2e051aa2fd573ee81e4f009fada558f54dc82c4",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "虎嗅",
-      "title": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "url": "https://www.huxiu.com/article/4878139.html?f=rss",
-      "published_at": "2026-07-25T09:16:31Z",
-      "first_seen_at": "2026-07-25T10:51:31.993105Z",
-      "last_seen_at": "2026-07-25T15:38:42.778600Z",
-      "ai_is_related": true,
-      "ai_score": 0.69,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "酒店",
-        "平台"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "title_en": null,
-      "title_zh": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结",
-      "title_bilingual": "携程罚单的真正影响，不是酒店变便宜，是平台“抽税权”的终结"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json",
