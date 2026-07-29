@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-07-29T03:28:38.242835Z",
+  "generated_at": "2026-07-29T06:15:07.712825Z",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 15,
   "items": [
     {
-      "story_id": "story_3885149a24e8",
-      "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
-      "url": "https://www.pinchain.com/article/349240",
-      "primary_url": "https://www.pinchain.com/article/349240",
+      "story_id": "story_96b318951a5f",
+      "title": "山东启动“跟着演艺去旅行”主题宣推",
+      "url": "https://www.pinchain.com/article/349241",
+      "primary_url": "https://www.pinchain.com/article/349241",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
-          "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
-          "url": "https://www.pinchain.com/article/349240",
+          "id": "460042d2dbf93af08b8046c054cede6b7418b77f",
+          "title": "山东启动“跟着演艺去旅行”主题宣推",
+          "url": "https://www.pinchain.com/article/349241",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-29T03:28:24Z",
+          "published_at": "2026-07-29T04:05:12Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "source_count": 1,
@@ -29,52 +29,53 @@
       ],
       "items": [
         {
-          "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
-          "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
-          "url": "https://www.pinchain.com/article/349240",
+          "id": "460042d2dbf93af08b8046c054cede6b7418b77f",
+          "title": "山东启动“跟着演艺去旅行”主题宣推",
+          "url": "https://www.pinchain.com/article/349241",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-29T03:28:24Z",
+          "published_at": "2026-07-29T04:05:12Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6145,
-      "importance": 0.6145,
-      "importance_score": 0.6145,
+      "score": 0.6214,
+      "importance": 0.6214,
+      "importance_score": 0.6214,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.81,
       "ai_signals": [
         "旅游",
-        "邮轮",
+        "旅行",
+        "演艺",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.5832,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9999,
+        "ai_relevance": 0.81,
+        "recency": 0.9692,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-07-29T03:28:24Z",
-      "latest_at": "2026-07-29T03:28:24Z",
+      "earliest_at": "2026-07-29T04:05:12Z",
+      "latest_at": "2026-07-29T04:05:12Z",
       "primary_item": {
-        "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
-        "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
-        "url": "https://www.pinchain.com/article/349240",
+        "id": "460042d2dbf93af08b8046c054cede6b7418b77f",
+        "title": "山东启动“跟着演艺去旅行”主题宣推",
+        "url": "https://www.pinchain.com/article/349241",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.81
       }
     },
     {
@@ -116,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.609,
-      "importance": 0.609,
-      "importance_score": 0.609,
+      "score": 0.6026,
+      "importance": 0.6026,
+      "importance_score": 0.6026,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -130,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9003,
+        "recency": 0.8649,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -148,6 +149,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_3c4d2ac0bbd4",
+      "title": "午后全面反弹，三大指数集体拉升，航空航天ETF华夏（159227）涨幅1.67%",
+      "url": "https://www.jiemian.com/article/14843538.html",
+      "primary_url": "https://www.jiemian.com/article/14843538.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8259b01fee57aa64432fa7af8e1f1d8270979e2f",
+          "title": "午后全面反弹，三大指数集体拉升，航空航天ETF华夏（159227）涨幅1.67%",
+          "url": "https://www.jiemian.com/article/14843538.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T05:50:33Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "8259b01fee57aa64432fa7af8e1f1d8270979e2f",
+          "title": "午后全面反弹，三大指数集体拉升，航空航天ETF华夏（159227）涨幅1.67%",
+          "url": "https://www.jiemian.com/article/14843538.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T05:50:33Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.576,
+      "importance": 0.576,
+      "importance_score": 0.576,
+      "ai_label": "travel_business",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "航空",
+        "指数"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.9941,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-29T05:50:33Z",
+      "latest_at": "2026-07-29T05:50:33Z",
+      "primary_item": {
+        "id": "8259b01fee57aa64432fa7af8e1f1d8270979e2f",
+        "title": "午后全面反弹，三大指数集体拉升，航空航天ETF华夏（159227）涨幅1.67%",
+        "url": "https://www.jiemian.com/article/14843538.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.69
       }
     },
     {
@@ -189,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5796,
-      "importance": 0.5796,
-      "importance_score": 0.5796,
+      "score": 0.5729,
+      "importance": 0.5729,
+      "importance_score": 0.5729,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -203,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.945,
+        "recency": 0.9079,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -221,6 +295,80 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_53a30d721728",
+      "title": "陈杰任云南省文旅厅厅长",
+      "url": "https://www.pinchain.com/article/349251",
+      "primary_url": "https://www.pinchain.com/article/349251",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "cc02add44b910fe0bc8fee9a6cf5de8ff859a4ec",
+          "title": "陈杰任云南省文旅厅厅长",
+          "url": "https://www.pinchain.com/article/349251",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T04:12:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "cc02add44b910fe0bc8fee9a6cf5de8ff859a4ec",
+          "title": "陈杰任云南省文旅厅厅长",
+          "url": "https://www.pinchain.com/article/349251",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T04:12:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6092,
+      "importance": 0.6092,
+      "importance_score": 0.6092,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9709,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-29T04:12:28Z",
+      "latest_at": "2026-07-29T04:12:28Z",
+      "primary_item": {
+        "id": "cc02add44b910fe0bc8fee9a6cf5de8ff859a4ec",
+        "title": "陈杰任云南省文旅厅厅长",
+        "url": "https://www.pinchain.com/article/349251",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -262,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.58,
+      "importance": 0.58,
+      "importance_score": 0.58,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -275,7 +423,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8416,
+        "recency": 0.8085,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -296,23 +444,23 @@
       }
     },
     {
-      "story_id": "story_25e581ad7176",
-      "title": "泥石流影响 九寨沟景区部分区域暂缓接待游客",
-      "url": "https://www.pinchain.com/article/349231",
-      "primary_url": "https://www.pinchain.com/article/349231",
+      "story_id": "story_055c6f669a35",
+      "title": "江西南昌盘活文旅资源打造老城消费新场景",
+      "url": "https://www.pinchain.com/article/349243",
+      "primary_url": "https://www.pinchain.com/article/349243",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "9b5fe3da913025ff21b9ff14b291b67dad1884c0",
-          "title": "泥石流影响 九寨沟景区部分区域暂缓接待游客",
-          "url": "https://www.pinchain.com/article/349231",
+          "id": "f7e76977c4bd226cd6095c2313fd35f6b5ad1748",
+          "title": "江西南昌盘活文旅资源打造老城消费新场景",
+          "url": "https://www.pinchain.com/article/349243",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:00:29Z",
+          "published_at": "2026-07-29T03:52:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -321,53 +469,126 @@
       ],
       "items": [
         {
-          "id": "9b5fe3da913025ff21b9ff14b291b67dad1884c0",
-          "title": "泥石流影响 九寨沟景区部分区域暂缓接待游客",
-          "url": "https://www.pinchain.com/article/349231",
+          "id": "f7e76977c4bd226cd6095c2313fd35f6b5ad1748",
+          "title": "江西南昌盘活文旅资源打造老城消费新场景",
+          "url": "https://www.pinchain.com/article/349243",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:00:29Z",
+          "published_at": "2026-07-29T03:52:55Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.579,
-      "importance": 0.579,
-      "importance_score": 0.579,
+      "score": 0.6084,
+      "importance": 0.6084,
+      "importance_score": 0.6084,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
-        "景区",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7334,
+        "ai_relevance": 0.78,
+        "recency": 0.9664,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-28T06:00:29Z",
-      "latest_at": "2026-07-28T06:00:29Z",
+      "earliest_at": "2026-07-29T03:52:55Z",
+      "latest_at": "2026-07-29T03:52:55Z",
       "primary_item": {
-        "id": "9b5fe3da913025ff21b9ff14b291b67dad1884c0",
-        "title": "泥石流影响 九寨沟景区部分区域暂缓接待游客",
-        "url": "https://www.pinchain.com/article/349231",
+        "id": "f7e76977c4bd226cd6095c2313fd35f6b5ad1748",
+        "title": "江西南昌盘活文旅资源打造老城消费新场景",
+        "url": "https://www.pinchain.com/article/349243",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_3885149a24e8",
+      "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
+      "url": "https://www.pinchain.com/article/349240",
+      "primary_url": "https://www.pinchain.com/article/349240",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
+          "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
+          "url": "https://www.pinchain.com/article/349240",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T03:28:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
+          "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
+          "url": "https://www.pinchain.com/article/349240",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T03:28:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6074,
+      "importance": 0.6074,
+      "importance_score": 0.6074,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9607,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-29T03:28:24Z",
+      "latest_at": "2026-07-29T03:28:24Z",
+      "primary_item": {
+        "id": "25f700087ea83c3a6be11d2bbd01218d4583154f",
+        "title": "爱达邮轮推出“国粹京剧，扬帆出海”主题航次",
+        "url": "https://www.pinchain.com/article/349240",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -409,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.577,
-      "importance": 0.577,
-      "importance_score": 0.577,
+      "score": 0.5703,
+      "importance": 0.5703,
+      "importance_score": 0.5703,
       "ai_label": "tourism_tech",
       "ai_score": 0.71,
       "ai_signals": [
@@ -424,7 +645,7 @@
         "editorial": 0.5112,
         "source_tier": 0.5,
         "ai_relevance": 0.71,
-        "recency": 0.9538,
+        "recency": 0.9164,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -442,81 +663,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.71
-      }
-    },
-    {
-      "story_id": "story_f32d3d9e53c1",
-      "title": "多元文旅资源和消费场景带动入境游快速增长",
-      "url": "https://www.pinchain.com/article/349217",
-      "primary_url": "https://www.pinchain.com/article/349217",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "839d31a5bc0338440a185d71f27872b0d4b4958d",
-          "title": "多元文旅资源和消费场景带动入境游快速增长",
-          "url": "https://www.pinchain.com/article/349217",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:51:52Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "839d31a5bc0338440a185d71f27872b0d4b4958d",
-          "title": "多元文旅资源和消费场景带动入境游快速增长",
-          "url": "https://www.pinchain.com/article/349217",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:51:52Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5787,
-      "importance": 0.5787,
-      "importance_score": 0.5787,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "入境游",
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7319,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-07-28T05:51:52Z",
-      "latest_at": "2026-07-28T05:51:52Z",
-      "primary_item": {
-        "id": "839d31a5bc0338440a185d71f27872b0d4b4958d",
-        "title": "多元文旅资源和消费场景带动入境游快速增长",
-        "url": "https://www.pinchain.com/article/349217",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -558,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5697,
-      "importance": 0.5697,
-      "importance_score": 0.5697,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -571,7 +717,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8902,
+        "recency": 0.8552,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -588,6 +734,151 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_bd8ccf6ca87b",
+      "title": "楚雄彝族火把节推介活动走进深圳",
+      "url": "https://www.pinchain.com/article/349242",
+      "primary_url": "https://www.pinchain.com/article/349242",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b400d64a15f223f26dfac679713a67c977ab04b9",
+          "title": "楚雄彝族火把节推介活动走进深圳",
+          "url": "https://www.pinchain.com/article/349242",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T03:56:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "b400d64a15f223f26dfac679713a67c977ab04b9",
+          "title": "楚雄彝族火把节推介活动走进深圳",
+          "url": "https://www.pinchain.com/article/349242",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-29T03:56:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5961,
+      "importance": 0.5961,
+      "importance_score": 0.5961,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9671,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-29T03:56:10Z",
+      "latest_at": "2026-07-29T03:56:10Z",
+      "primary_item": {
+        "id": "b400d64a15f223f26dfac679713a67c977ab04b9",
+        "title": "楚雄彝族火把节推介活动走进深圳",
+        "url": "https://www.pinchain.com/article/349242",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_f004cb92c8e4",
+      "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
+      "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
+      "primary_url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
+          "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
+          "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-28T15:32:36Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
+          "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
+          "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-28T15:32:36Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8086,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-28T15:32:36Z",
+      "latest_at": "2026-07-28T15:32:36Z",
+      "primary_item": {
+        "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
+        "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
+        "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
         "ai_score": 0.72
       }
     },
@@ -630,9 +921,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5577,
-      "importance": 0.5577,
-      "importance_score": 0.5577,
+      "score": 0.5519,
+      "importance": 0.5519,
+      "importance_score": 0.5519,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -644,7 +935,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8231,
+        "recency": 0.7908,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -665,23 +956,23 @@
       }
     },
     {
-      "story_id": "story_54810cf85814",
-      "title": "柬埔寨：今年上半年接待国际游客逾175万人次",
-      "url": "https://www.pinchain.com/article/349223",
-      "primary_url": "https://www.pinchain.com/article/349223",
+      "story_id": "story_3b7055d8e0ea",
+      "title": "胡葆森的情怀，终究敌不过建业的资产负债表",
+      "url": "https://www.pinchain.com/article/349244",
+      "primary_url": "https://www.pinchain.com/article/349244",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "e1cb2cd61d2ebb0bcaeb7963bf31602f2f1ddb05",
-          "title": "柬埔寨：今年上半年接待国际游客逾175万人次",
-          "url": "https://www.pinchain.com/article/349223",
+          "id": "089426c60f3c4533b415940b147c0074d3a5308b",
+          "title": "胡葆森的情怀，终究敌不过建业的资产负债表",
+          "url": "https://www.pinchain.com/article/349244",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:57:06Z",
+          "published_at": "2026-07-29T03:47:40Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -690,124 +981,51 @@
       ],
       "items": [
         {
-          "id": "e1cb2cd61d2ebb0bcaeb7963bf31602f2f1ddb05",
-          "title": "柬埔寨：今年上半年接待国际游客逾175万人次",
-          "url": "https://www.pinchain.com/article/349223",
+          "id": "089426c60f3c4533b415940b147c0074d3a5308b",
+          "title": "胡葆森的情怀，终究敌不过建业的资产负债表",
+          "url": "https://www.pinchain.com/article/349244",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:57:06Z",
+          "published_at": "2026-07-29T03:47:40Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5664,
-      "importance": 0.5664,
-      "importance_score": 0.5664,
+      "score": 0.5957,
+      "importance": 0.5957,
+      "importance_score": 0.5957,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7328,
+        "ai_relevance": 0.75,
+        "recency": 0.9651,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-28T05:57:06Z",
-      "latest_at": "2026-07-28T05:57:06Z",
+      "earliest_at": "2026-07-29T03:47:40Z",
+      "latest_at": "2026-07-29T03:47:40Z",
       "primary_item": {
-        "id": "e1cb2cd61d2ebb0bcaeb7963bf31602f2f1ddb05",
-        "title": "柬埔寨：今年上半年接待国际游客逾175万人次",
-        "url": "https://www.pinchain.com/article/349223",
+        "id": "089426c60f3c4533b415940b147c0074d3a5308b",
+        "title": "胡葆森的情怀，终究敌不过建业的资产负债表",
+        "url": "https://www.pinchain.com/article/349244",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_f004cb92c8e4",
-      "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
-      "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
-      "primary_url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
-          "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
-          "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T15:32:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
-          "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
-          "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T15:32:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.561,
-      "importance": 0.561,
-      "importance_score": 0.561,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8417,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T15:32:36Z",
-      "latest_at": "2026-07-28T15:32:36Z",
-      "primary_item": {
-        "id": "5eaa3cf62d69fa768e6d3b5083b08b09713a9788",
-        "title": "Jay Carney to Exit Airbnb. Lime Veteran Appointed Policy Chief",
-        "url": "https://skift.com/2026/07/28/jay-carney-to-exit-airbnb-lime-veteran-appointed-policy-chief",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
+        "ai_score": 0.75
       }
     },
     {
@@ -849,9 +1067,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5469,
-      "importance": 0.5469,
-      "importance_score": 0.5469,
+      "score": 0.5415,
+      "importance": 0.5415,
+      "importance_score": 0.5415,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -863,7 +1081,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7633,
+        "recency": 0.7333,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -881,520 +1099,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_24326d6b7e15",
-      "title": "赏美景、看中医 俄罗斯游客感受中国夏日活力",
-      "url": "https://www.pinchain.com/article/349222",
-      "primary_url": "https://www.pinchain.com/article/349222",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0ad12c25257aac3544e62ed90c1cc24777f81bed",
-          "title": "赏美景、看中医 俄罗斯游客感受中国夏日活力",
-          "url": "https://www.pinchain.com/article/349222",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:58:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "0ad12c25257aac3544e62ed90c1cc24777f81bed",
-          "title": "赏美景、看中医 俄罗斯游客感受中国夏日活力",
-          "url": "https://www.pinchain.com/article/349222",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:58:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5664,
-      "importance": 0.5664,
-      "importance_score": 0.5664,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7331,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T05:58:53Z",
-      "latest_at": "2026-07-28T05:58:53Z",
-      "primary_item": {
-        "id": "0ad12c25257aac3544e62ed90c1cc24777f81bed",
-        "title": "赏美景、看中医 俄罗斯游客感受中国夏日活力",
-        "url": "https://www.pinchain.com/article/349222",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_2e940b29f12b",
-      "title": "印尼华裔捐赠博物馆开馆 中国恐龙化石特展亮相梭罗",
-      "url": "https://www.pinchain.com/article/349216",
-      "primary_url": "https://www.pinchain.com/article/349216",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6276ec05d8e9cceb1c3033b025fd36d77425b402",
-          "title": "印尼华裔捐赠博物馆开馆 中国恐龙化石特展亮相梭罗",
-          "url": "https://www.pinchain.com/article/349216",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:49:38Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "6276ec05d8e9cceb1c3033b025fd36d77425b402",
-          "title": "印尼华裔捐赠博物馆开馆 中国恐龙化石特展亮相梭罗",
-          "url": "https://www.pinchain.com/article/349216",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:49:38Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5662,
-      "importance": 0.5662,
-      "importance_score": 0.5662,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7315,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T05:49:38Z",
-      "latest_at": "2026-07-28T05:49:38Z",
-      "primary_item": {
-        "id": "6276ec05d8e9cceb1c3033b025fd36d77425b402",
-        "title": "印尼华裔捐赠博物馆开馆 中国恐龙化石特展亮相梭罗",
-        "url": "https://www.pinchain.com/article/349216",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_bda55d3e01e3",
-      "title": "中国游客暴跌近六成，日本旅游业疼了",
-      "url": "https://www.pinchain.com/article/349215",
-      "primary_url": "https://www.pinchain.com/article/349215",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0457341227abb7048b3737407a125062cf6f8570",
-          "title": "中国游客暴跌近六成，日本旅游业疼了",
-          "url": "https://www.pinchain.com/article/349215",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:47:31Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "0457341227abb7048b3737407a125062cf6f8570",
-          "title": "中国游客暴跌近六成，日本旅游业疼了",
-          "url": "https://www.pinchain.com/article/349215",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:47:31Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5661,
-      "importance": 0.5661,
-      "importance_score": 0.5661,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7311,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T05:47:31Z",
-      "latest_at": "2026-07-28T05:47:31Z",
-      "primary_item": {
-        "id": "0457341227abb7048b3737407a125062cf6f8570",
-        "title": "中国游客暴跌近六成，日本旅游业疼了",
-        "url": "https://www.pinchain.com/article/349215",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_859fa1a261ab",
-      "title": "高管用“报警”威胁客人,揭穿洲际在华管理外包哪些真相",
-      "url": "https://www.pinchain.com/article/349234",
-      "primary_url": "https://www.pinchain.com/article/349234",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "56ecba33ca323ab0b6ceedf6f2188b47c973b0a1",
-          "title": "高管用“报警”威胁客人,揭穿洲际在华管理外包哪些真相",
-          "url": "https://www.pinchain.com/article/349234",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:06:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "56ecba33ca323ab0b6ceedf6f2188b47c973b0a1",
-          "title": "高管用“报警”威胁客人,揭穿洲际在华管理外包哪些真相",
-          "url": "https://www.pinchain.com/article/349234",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:06:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5542,
-      "importance": 0.5542,
-      "importance_score": 0.5542,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7344,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T06:06:05Z",
-      "latest_at": "2026-07-28T06:06:05Z",
-      "primary_item": {
-        "id": "56ecba33ca323ab0b6ceedf6f2188b47c973b0a1",
-        "title": "高管用“报警”威胁客人,揭穿洲际在华管理外包哪些真相",
-        "url": "https://www.pinchain.com/article/349234",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0fcfaa7324a2",
-      "title": "“2026金沙物美嘉年华”一连四天吸引近160,000人次入场",
-      "url": "https://www.pinchain.com/article/349235",
-      "primary_url": "https://www.pinchain.com/article/349235",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "453cec77e1d9b1549cb5f34167a0185701502026",
-          "title": "“2026金沙物美嘉年华”一连四天吸引近160,000人次入场",
-          "url": "https://www.pinchain.com/article/349235",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:02:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "453cec77e1d9b1549cb5f34167a0185701502026",
-          "title": "“2026金沙物美嘉年华”一连四天吸引近160,000人次入场",
-          "url": "https://www.pinchain.com/article/349235",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T06:02:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5541,
-      "importance": 0.5541,
-      "importance_score": 0.5541,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7338,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T06:02:34Z",
-      "latest_at": "2026-07-28T06:02:34Z",
-      "primary_item": {
-        "id": "453cec77e1d9b1549cb5f34167a0185701502026",
-        "title": "“2026金沙物美嘉年华”一连四天吸引近160,000人次入场",
-        "url": "https://www.pinchain.com/article/349235",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_5ed835a950b3",
-      "title": "《大型游乐设施安全要求（征求意见稿）》发布",
-      "url": "https://www.pinchain.com/article/349224",
-      "primary_url": "https://www.pinchain.com/article/349224",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bdcd30e8f1436cc039b71f0266ce691141d471e1",
-          "title": "《大型游乐设施安全要求（征求意见稿）》发布",
-          "url": "https://www.pinchain.com/article/349224",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:55:38Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "bdcd30e8f1436cc039b71f0266ce691141d471e1",
-          "title": "《大型游乐设施安全要求（征求意见稿）》发布",
-          "url": "https://www.pinchain.com/article/349224",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:55:38Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5539,
-      "importance": 0.5539,
-      "importance_score": 0.5539,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7326,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T05:55:38Z",
-      "latest_at": "2026-07-28T05:55:38Z",
-      "primary_item": {
-        "id": "bdcd30e8f1436cc039b71f0266ce691141d471e1",
-        "title": "《大型游乐设施安全要求（征求意见稿）》发布",
-        "url": "https://www.pinchain.com/article/349224",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_619f684e38c0",
-      "title": "今年上半年全国营业性演出票房收入超304亿元",
-      "url": "https://www.pinchain.com/article/349225",
-      "primary_url": "https://www.pinchain.com/article/349225",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2393a8aefb8a7aa48bdd135408ba91b2b1631658",
-          "title": "今年上半年全国营业性演出票房收入超304亿元",
-          "url": "https://www.pinchain.com/article/349225",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:53:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "2393a8aefb8a7aa48bdd135408ba91b2b1631658",
-          "title": "今年上半年全国营业性演出票房收入超304亿元",
-          "url": "https://www.pinchain.com/article/349225",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-28T05:53:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5538,
-      "importance": 0.5538,
-      "importance_score": 0.5538,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7323,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-28T05:53:58Z",
-      "latest_at": "2026-07-28T05:53:58Z",
-      "primary_item": {
-        "id": "2393a8aefb8a7aa48bdd135408ba91b2b1631658",
-        "title": "今年上半年全国营业性演出票房收入超304亿元",
-        "url": "https://www.pinchain.com/article/349225",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     }
   ]
