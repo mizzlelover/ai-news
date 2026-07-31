@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-31T16:16:33.267321Z",
+  "generated_at": "2026-07-31T18:03:34.733619Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.627,
-      "importance": 0.627,
-      "importance_score": 0.627,
+      "score": 0.6226,
+      "importance": 0.6226,
+      "importance_score": 0.6226,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9538,
+        "recency": 0.9295,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6068,
-      "importance": 0.6068,
-      "importance_score": 0.6068,
+      "score": 0.6027,
+      "importance": 0.6027,
+      "importance_score": 0.6027,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.888,
+        "recency": 0.8655,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.589,
-      "importance": 0.589,
-      "importance_score": 0.589,
+      "score": 0.5847,
+      "importance": 0.5847,
+      "importance_score": 0.5847,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9275,
+        "recency": 0.9039,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5802,
-      "importance": 0.5802,
-      "importance_score": 0.5802,
+      "score": 0.5759,
+      "importance": 0.5759,
+      "importance_score": 0.5759,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9483,
+        "recency": 0.9242,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6062,
-      "importance": 0.6062,
-      "importance_score": 0.6062,
+      "score": 0.6018,
+      "importance": 0.6018,
+      "importance_score": 0.6018,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -349,7 +349,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9538,
+        "recency": 0.9295,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -408,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5543,
-      "importance": 0.5543,
-      "importance_score": 0.5543,
+      "score": 0.5506,
+      "importance": 0.5506,
+      "importance_score": 0.5506,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -422,7 +422,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8044,
+        "recency": 0.7839,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -481,9 +481,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5994,
-      "importance": 0.5994,
-      "importance_score": 0.5994,
+      "score": 0.5952,
+      "importance": 0.5952,
+      "importance_score": 0.5952,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -496,7 +496,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9162,
+        "recency": 0.8929,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -555,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5982,
-      "importance": 0.5982,
-      "importance_score": 0.5982,
+      "score": 0.5937,
+      "importance": 0.5937,
+      "importance_score": 0.5937,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -569,7 +569,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9787,
+        "recency": 0.9538,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -587,152 +587,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_1dc15cc8be84",
-      "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-      "url": "https://www.pinchain.com/article/349413",
-      "primary_url": "https://www.pinchain.com/article/349413",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-          "url": "https://www.pinchain.com/article/349413",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:04:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-          "url": "https://www.pinchain.com/article/349413",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:04:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5991,
-      "importance": 0.5991,
-      "importance_score": 0.5991,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9144,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-31T10:04:35Z",
-      "latest_at": "2026-07-31T10:04:35Z",
-      "primary_item": {
-        "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-        "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-        "url": "https://www.pinchain.com/article/349413",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_6d47fce50e55",
-      "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-      "primary_url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "76a41326905ee98813711259163655d894cbba3f",
-          "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-          "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T14:37:56Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "76a41326905ee98813711259163655d894cbba3f",
-          "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-          "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T14:37:56Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5853,
-      "importance": 0.5853,
-      "importance_score": 0.5853,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9765,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-31T14:37:56Z",
-      "latest_at": "2026-07-31T14:37:56Z",
-      "primary_item": {
-        "id": "76a41326905ee98813711259163655d894cbba3f",
-        "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-        "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
       }
     },
     {
@@ -774,9 +628,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5991,
-      "importance": 0.5991,
-      "importance_score": 0.5991,
+      "score": 0.5952,
+      "importance": 0.5952,
+      "importance_score": 0.5952,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -790,7 +644,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8453,
+        "recency": 0.8238,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -808,6 +662,152 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_6d47fce50e55",
+      "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
+      "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
+      "primary_url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "76a41326905ee98813711259163655d894cbba3f",
+          "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
+          "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-31T14:37:56Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "76a41326905ee98813711259163655d894cbba3f",
+          "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
+          "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-31T14:37:56Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5808,
+      "importance": 0.5808,
+      "importance_score": 0.5808,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9517,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-31T14:37:56Z",
+      "latest_at": "2026-07-31T14:37:56Z",
+      "primary_item": {
+        "id": "76a41326905ee98813711259163655d894cbba3f",
+        "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
+        "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_1dc15cc8be84",
+      "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
+      "url": "https://www.pinchain.com/article/349413",
+      "primary_url": "https://www.pinchain.com/article/349413",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
+          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
+          "url": "https://www.pinchain.com/article/349413",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-31T10:04:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
+          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
+          "url": "https://www.pinchain.com/article/349413",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-07-31T10:04:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5949,
+      "importance": 0.5949,
+      "importance_score": 0.5949,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8911,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-07-31T10:04:35Z",
+      "latest_at": "2026-07-31T10:04:35Z",
+      "primary_item": {
+        "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
+        "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
+        "url": "https://www.pinchain.com/article/349413",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -849,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.594,
-      "importance": 0.594,
-      "importance_score": 0.594,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -864,7 +864,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8862,
+        "recency": 0.8637,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -923,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5628,
-      "importance": 0.5628,
-      "importance_score": 0.5628,
+      "score": 0.5589,
+      "importance": 0.5589,
+      "importance_score": 0.5589,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -936,7 +936,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8513,
+        "recency": 0.8297,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -995,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.5822,
+      "importance": 0.5822,
+      "importance_score": 0.5822,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1010,7 +1010,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8419,
+        "recency": 0.8205,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5438,
-      "importance": 0.5438,
-      "importance_score": 0.5438,
+      "score": 0.5404,
+      "importance": 0.5404,
+      "importance_score": 0.5404,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1082,7 +1082,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7461,
+        "recency": 0.7271,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1141,9 +1141,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5855,
-      "importance": 0.5855,
-      "importance_score": 0.5855,
+      "score": 0.5817,
+      "importance": 0.5817,
+      "importance_score": 0.5817,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1156,7 +1156,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.839,
+        "recency": 0.8177,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1215,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5848,
-      "importance": 0.5848,
-      "importance_score": 0.5848,
+      "score": 0.5806,
+      "importance": 0.5806,
+      "importance_score": 0.5806,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1229,7 +1229,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9044,
+        "recency": 0.8814,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1288,9 +1288,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5828,
-      "importance": 0.5828,
-      "importance_score": 0.5828,
+      "score": 0.5787,
+      "importance": 0.5787,
+      "importance_score": 0.5787,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1302,7 +1302,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8934,
+        "recency": 0.8707,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1361,9 +1361,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5817,
-      "importance": 0.5817,
-      "importance_score": 0.5817,
+      "score": 0.5776,
+      "importance": 0.5776,
+      "importance_score": 0.5776,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1375,7 +1375,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.887,
+        "recency": 0.8645,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1434,9 +1434,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5746,
-      "importance": 0.5746,
-      "importance_score": 0.5746,
+      "score": 0.5707,
+      "importance": 0.5707,
+      "importance_score": 0.5707,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1448,7 +1448,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8476,
+        "recency": 0.826,
         "story_heat": 0.0
       },
       "category": "watch",
