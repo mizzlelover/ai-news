@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-01T09:31:54.425004Z",
+  "generated_at": "2026-08-01T11:15:35.893258Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_39e29e26a28f",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5891,
-      "importance": 0.5891,
-      "importance_score": 0.5891,
+      "score": 0.5858,
+      "importance": 0.5858,
+      "importance_score": 0.5858,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.7434,
+        "recency": 0.7251,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -78,150 +78,76 @@
       }
     },
     {
-      "story_id": "story_46535dffcb1a",
-      "title": "去哪儿旅行：8月第一周周末机票预订量增62%",
-      "url": "https://www.pinchain.com/article/349416",
-      "primary_url": "https://www.pinchain.com/article/349416",
-      "source": "品橙旅游",
+      "story_id": "story_f884f8fb1605",
+      "title": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
+      "url": "https://www.jiemian.com/article/14861841.html",
+      "primary_url": "https://www.jiemian.com/article/14861841.html",
+      "source": "界面新闻",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "4b5855a9d3e2a98f3e9a31a958dbff23b9832281",
-          "title": "去哪儿旅行：8月第一周周末机票预订量增62%",
-          "url": "https://www.pinchain.com/article/349416",
-          "source": "品橙旅游",
+          "id": "b25dd03d1e644a0c557e6af2b03ab8e00c31b52c",
+          "title": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
+          "url": "https://www.jiemian.com/article/14861841.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:13:03Z",
+          "published_at": "2026-08-01T10:25:59Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.69
         }
       ],
       "source_count": 1,
       "source_names": [
-        "品橙旅游"
+        "界面新闻"
       ],
       "items": [
         {
-          "id": "4b5855a9d3e2a98f3e9a31a958dbff23b9832281",
-          "title": "去哪儿旅行：8月第一周周末机票预订量增62%",
-          "url": "https://www.pinchain.com/article/349416",
-          "source": "品橙旅游",
+          "id": "b25dd03d1e644a0c557e6af2b03ab8e00c31b52c",
+          "title": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
+          "url": "https://www.jiemian.com/article/14861841.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:13:03Z",
+          "published_at": "2026-08-01T10:25:59Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.69
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.563,
-      "importance": 0.563,
-      "importance_score": 0.563,
+      "score": 0.5749,
+      "importance": 0.5749,
+      "importance_score": 0.5749,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.69,
       "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
+        "航空",
+        "系统"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.4968,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7141,
+        "ai_relevance": 0.69,
+        "recency": 0.9881,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-07-31T10:13:03Z",
-      "latest_at": "2026-07-31T10:13:03Z",
+      "earliest_at": "2026-08-01T10:25:59Z",
+      "latest_at": "2026-08-01T10:25:59Z",
       "primary_item": {
-        "id": "4b5855a9d3e2a98f3e9a31a958dbff23b9832281",
-        "title": "去哪儿旅行：8月第一周周末机票预订量增62%",
-        "url": "https://www.pinchain.com/article/349416",
-        "source": "品橙旅游",
+        "id": "b25dd03d1e644a0c557e6af2b03ab8e00c31b52c",
+        "title": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
+        "url": "https://www.jiemian.com/article/14861841.html",
+        "source": "界面新闻",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_bed86c08105d",
-      "title": "AI女主，也能逐梦演艺圈？",
-      "url": "https://www.huxiu.com/article/4879801.html?f=rss",
-      "primary_url": "https://www.huxiu.com/article/4879801.html?f=rss",
-      "source": "虎嗅",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c3b0ae35678b4d6ed117fcc8bfa27ab48b2ffc5f",
-          "title": "AI女主，也能逐梦演艺圈？",
-          "url": "https://www.huxiu.com/article/4879801.html?f=rss",
-          "source": "虎嗅",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T11:03:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "虎嗅"
-      ],
-      "items": [
-        {
-          "id": "c3b0ae35678b4d6ed117fcc8bfa27ab48b2ffc5f",
-          "title": "AI女主，也能逐梦演艺圈？",
-          "url": "https://www.huxiu.com/article/4879801.html?f=rss",
-          "source": "虎嗅",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T11:03:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5521,
-      "importance": 0.5521,
-      "importance_score": 0.5521,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "演艺",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.723,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-31T11:03:59Z",
-      "latest_at": "2026-07-31T11:03:59Z",
-      "primary_item": {
-        "id": "c3b0ae35678b4d6ed117fcc8bfa27ab48b2ffc5f",
-        "title": "AI女主，也能逐梦演艺圈？",
-        "url": "https://www.huxiu.com/article/4879801.html?f=rss",
-        "source": "虎嗅",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.69
       }
     },
     {
@@ -263,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5426,
-      "importance": 0.5426,
-      "importance_score": 0.5426,
+      "score": 0.5393,
+      "importance": 0.5393,
+      "importance_score": 0.5393,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +202,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7391,
+        "recency": 0.7209,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "score": 0.565,
+      "importance": 0.565,
+      "importance_score": 0.565,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -348,7 +274,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7434,
+        "recency": 0.7251,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -362,80 +288,6 @@
         "title": "Expedia Acquired AI Trip-Planner Layla: Exclusive",
         "url": "https://skift.com/2026/07/31/expedia-acquired-ai-trip-planner-layla-exclusive",
         "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1dc15cc8be84",
-      "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-      "url": "https://www.pinchain.com/article/349413",
-      "primary_url": "https://www.pinchain.com/article/349413",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-          "url": "https://www.pinchain.com/article/349413",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:04:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-          "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-          "url": "https://www.pinchain.com/article/349413",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-07-31T10:04:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5628,
-      "importance": 0.5628,
-      "importance_score": 0.5628,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7127,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-07-31T10:04:35Z",
-      "latest_at": "2026-07-31T10:04:35Z",
-      "primary_item": {
-        "id": "bb2a3c36875f19f6bb240d09c01a5e753c245349",
-        "title": "同程旅行发布《2026“地心避暑舱”洞穴游指南》",
-        "url": "https://www.pinchain.com/article/349413",
-        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -481,9 +333,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5593,
-      "importance": 0.5593,
-      "importance_score": 0.5593,
+      "score": 0.5559,
+      "importance": 0.5559,
+      "importance_score": 0.5559,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -495,7 +347,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7628,
+        "recency": 0.744,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +406,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5465,
-      "importance": 0.5465,
-      "importance_score": 0.5465,
+      "score": 0.5432,
+      "importance": 0.5432,
+      "importance_score": 0.5432,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -567,7 +419,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7612,
+        "recency": 0.7424,
         "story_heat": 0.0
       },
       "category": "watch",
