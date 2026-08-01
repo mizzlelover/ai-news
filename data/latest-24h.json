@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-01T14:25:27.742117Z",
+  "generated_at": "2026-08-01T15:36:16.872635Z",
   "window_hours": 24,
-  "total_items": 3,
-  "total_items_ai_raw": 3,
-  "total_items_raw": 472,
-  "total_items_all_mode": 472,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 461,
+  "total_items_all_mode": 461,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15787,
+  "archive_total": 15718,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 3,
-      "raw_count": 472
+      "count": 1,
+      "raw_count": 461
     }
   ],
   "creator_window_days": 7,
@@ -49,59 +49,6 @@
       "title_en": null,
       "title_zh": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
       "title_bilingual": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落"
-    },
-    {
-      "id": "1b03255a4ab4911e997008a1b76f552f68550763",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "url": "https://skift.com/2026/07/31/uk-pubs-and-clubs-get-tax-cuts-hotels-get-left-out-again",
-      "published_at": "2026-07-31T14:47:01Z",
-      "first_seen_at": "2026-07-31T16:16:33.267321Z",
-      "last_seen_at": "2026-08-01T14:25:27.742117Z",
-      "ai_is_related": true,
-      "ai_score": 0.75,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel",
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "title_en": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "title_zh": null,
-      "title_bilingual": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again"
-    },
-    {
-      "id": "76a41326905ee98813711259163655d894cbba3f",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-      "published_at": "2026-07-31T14:37:56Z",
-      "first_seen_at": "2026-07-31T16:16:33.267321Z",
-      "last_seen_at": "2026-08-01T14:25:27.742117Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "hospitality_ops",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "title_en": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "title_zh": null,
-      "title_bilingual": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates"
     }
   ],
   "items_ai": [
@@ -131,59 +78,6 @@
       "title_en": null,
       "title_zh": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落",
       "title_bilingual": "日本北海道航空系统一客机起落架舱门发生故障，将紧急降落"
-    },
-    {
-      "id": "1b03255a4ab4911e997008a1b76f552f68550763",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "url": "https://skift.com/2026/07/31/uk-pubs-and-clubs-get-tax-cuts-hotels-get-left-out-again",
-      "published_at": "2026-07-31T14:47:01Z",
-      "first_seen_at": "2026-07-31T16:16:33.267321Z",
-      "last_seen_at": "2026-08-01T14:25:27.742117Z",
-      "ai_is_related": true,
-      "ai_score": 0.75,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel",
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "title_en": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again",
-      "title_zh": null,
-      "title_bilingual": "UK Pubs and Clubs Get Tax Cuts. Hotels Get Left Out — Again"
-    },
-    {
-      "id": "76a41326905ee98813711259163655d894cbba3f",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "url": "https://skift.com/2026/07/31/mexico-will-spend-115-million-fighting-rotting-seaweed-as-hotels-slash-rates",
-      "published_at": "2026-07-31T14:37:56Z",
-      "first_seen_at": "2026-07-31T16:16:33.267321Z",
-      "last_seen_at": "2026-08-01T14:25:27.742117Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "hospitality_ops",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "title_en": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates",
-      "title_zh": null,
-      "title_bilingual": "Mexico Will Spend $115 Million Fighting Rotting Seaweed as Hotels Slash Rates"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json",
