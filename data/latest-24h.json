@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-01T21:54:28.960014Z",
+  "generated_at": "2026-08-01T22:54:23.188788Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
@@ -7,7 +7,7 @@
   "total_items_all_mode": 453,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15723,
+  "archive_total": 15718,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
