@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-02T22:55:36.083359Z",
+  "generated_at": "2026-08-02T23:58:03.901972Z",
   "window_hours": 24,
-  "total_items": 2,
-  "total_items_ai_raw": 2,
-  "total_items_raw": 414,
-  "total_items_all_mode": 414,
+  "total_items": 3,
+  "total_items_ai_raw": 3,
+  "total_items_raw": 445,
+  "total_items_all_mode": 445,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15630,
+  "archive_total": 15597,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 3,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 2,
-      "raw_count": 414
+      "count": 3,
+      "raw_count": 445
     }
   ],
   "creator_window_days": 7,
@@ -23,6 +23,33 @@
   "creator_items_ai": [],
   "creator_items_all": [],
   "items": [
+    {
+      "id": "e84ce5784a15bc10b636b543268abefd9857bbc1",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "界面新闻",
+      "title": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "url": "https://www.jiemian.com/article/14863305.html",
+      "published_at": "2026-08-02T23:37:55Z",
+      "first_seen_at": "2026-08-02T23:58:03.901972Z",
+      "last_seen_at": "2026-08-02T23:58:03.901972Z",
+      "ai_is_related": true,
+      "ai_score": 0.69,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "航空",
+        "系统"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "title_en": null,
+      "title_zh": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "title_bilingual": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基"
+    },
     {
       "id": "c9d845b85118705d12fafe306f77611ad5886f3e",
       "site_id": "opmlrss",
@@ -32,7 +59,7 @@
       "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
       "published_at": "2026-08-02T12:00:00Z",
       "first_seen_at": "2026-08-02T12:01:42.388695Z",
-      "last_seen_at": "2026-08-02T22:55:36.083359Z",
+      "last_seen_at": "2026-08-02T23:58:03.901972Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "ai_label": "tourism_tech",
@@ -80,6 +107,33 @@
   ],
   "items_ai": [
     {
+      "id": "e84ce5784a15bc10b636b543268abefd9857bbc1",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "界面新闻",
+      "title": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "url": "https://www.jiemian.com/article/14863305.html",
+      "published_at": "2026-08-02T23:37:55Z",
+      "first_seen_at": "2026-08-02T23:58:03.901972Z",
+      "last_seen_at": "2026-08-02T23:58:03.901972Z",
+      "ai_is_related": true,
+      "ai_score": 0.69,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "航空",
+        "系统"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "title_en": null,
+      "title_zh": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基",
+      "title_bilingual": "C919起落架系统重要供应商利勃海尔航空上海工业厂房项目奠基"
+    },
+    {
       "id": "c9d845b85118705d12fafe306f77611ad5886f3e",
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
@@ -88,7 +142,7 @@
       "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
       "published_at": "2026-08-02T12:00:00Z",
       "first_seen_at": "2026-08-02T12:01:42.388695Z",
-      "last_seen_at": "2026-08-02T22:55:36.083359Z",
+      "last_seen_at": "2026-08-02T23:58:03.901972Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "ai_label": "tourism_tech",
