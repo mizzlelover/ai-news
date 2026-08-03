@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-02T23:58:03.901972Z",
+  "generated_at": "2026-08-03T03:37:08.063396Z",
   "window_hours": 24,
   "total_items": 3,
   "total_items_ai_raw": 3,
-  "total_items_raw": 445,
-  "total_items_all_mode": 445,
+  "total_items_raw": 510,
+  "total_items_all_mode": 510,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15597,
+  "archive_total": 15634,
   "site_count": 1,
   "source_count": 3,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 3,
-      "raw_count": 445
+      "raw_count": 510
     }
   ],
   "creator_window_days": 7,
@@ -59,7 +59,7 @@
       "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
       "published_at": "2026-08-02T12:00:00Z",
       "first_seen_at": "2026-08-02T12:01:42.388695Z",
-      "last_seen_at": "2026-08-02T23:58:03.901972Z",
+      "last_seen_at": "2026-08-03T03:37:08.063396Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "ai_label": "tourism_tech",
@@ -142,7 +142,7 @@
       "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
       "published_at": "2026-08-02T12:00:00Z",
       "first_seen_at": "2026-08-02T12:01:42.388695Z",
-      "last_seen_at": "2026-08-02T23:58:03.901972Z",
+      "last_seen_at": "2026-08-03T03:37:08.063396Z",
       "ai_is_related": true,
       "ai_score": 0.81,
       "ai_label": "tourism_tech",
