@@ -1,8 +1,81 @@
 {
-  "generated_at": "2026-08-03T10:49:46.289427Z",
+  "generated_at": "2026-08-03T13:40:32.677247Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_057293b2b59f",
+      "title": "What Travel AI Can Learn From Hipmunk, 16 Years Later",
+      "url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later",
+      "primary_url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5772b885e63685b260db48fe62dd7f7c984367d2",
+          "title": "What Travel AI Can Learn From Hipmunk, 16 Years Later",
+          "url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-03T11:33:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "5772b885e63685b260db48fe62dd7f7c984367d2",
+          "title": "What Travel AI Can Learn From Hipmunk, 16 Years Later",
+          "url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-03T11:33:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6215,
+      "importance": 0.6215,
+      "importance_score": 0.6215,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "travel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9699,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-03T11:33:37Z",
+      "latest_at": "2026-08-03T11:33:37Z",
+      "primary_item": {
+        "id": "5772b885e63685b260db48fe62dd7f7c984367d2",
+        "title": "What Travel AI Can Learn From Hipmunk, 16 Years Later",
+        "url": "https://skift.com/2026/08/03/what-travel-ai-can-learn-from-hipmunk-16-years-later",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
     {
       "story_id": "story_605e5c1e0b7e",
       "title": "从“打卡”到“入戏” 浙江景区NPC重塑文旅新体验",
@@ -42,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6236,
-      "importance": 0.6236,
-      "importance_score": 0.6236,
+      "score": 0.6165,
+      "importance": 0.6165,
+      "importance_score": 0.6165,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9811,
+        "recency": 0.9416,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5948,
-      "importance": 0.5948,
-      "importance_score": 0.5948,
+      "score": 0.5879,
+      "importance": 0.5879,
+      "importance_score": 0.5879,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -132,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9602,
+        "recency": 0.9215,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5779,
-      "importance": 0.5779,
-      "importance_score": 0.5779,
+      "score": 0.5711,
+      "importance": 0.5711,
+      "importance_score": 0.5711,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -205,7 +278,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9355,
+        "recency": 0.8978,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -223,79 +296,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_33b1b4aac86f",
-      "title": "Corporate Travel’s Rulebook Is Its AI Booking Advantage",
-      "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
-      "primary_url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c9d845b85118705d12fafe306f77611ad5886f3e",
-          "title": "Corporate Travel’s Rulebook Is Its AI Booking Advantage",
-          "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-02T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "c9d845b85118705d12fafe306f77611ad5886f3e",
-          "title": "Corporate Travel’s Rulebook Is Its AI Booking Advantage",
-          "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-02T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7192,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-02T12:00:00Z",
-      "latest_at": "2026-08-02T12:00:00Z",
-      "primary_item": {
-        "id": "c9d845b85118705d12fafe306f77611ad5886f3e",
-        "title": "Corporate Travel’s Rulebook Is Its AI Booking Advantage",
-        "url": "https://skift.com/2026/08/02/amex-gbt-kayak-ai-agentic-booking-business-travel",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -337,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6165,
-      "importance": 0.6165,
-      "importance_score": 0.6165,
+      "score": 0.6096,
+      "importance": 0.6096,
+      "importance_score": 0.6096,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -353,7 +353,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9417,
+        "recency": 0.9038,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5652,
-      "importance": 0.5652,
-      "importance_score": 0.5652,
+      "score": 0.5585,
+      "importance": 0.5585,
+      "importance_score": 0.5585,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -426,7 +426,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9344,
+        "recency": 0.8968,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +485,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6118,
-      "importance": 0.6118,
-      "importance_score": 0.6118,
+      "score": 0.605,
+      "importance": 0.605,
+      "importance_score": 0.605,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -501,7 +501,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.9392,
+        "recency": 0.9013,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -560,9 +560,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5887,
-      "importance": 0.5887,
-      "importance_score": 0.5887,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -574,7 +574,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9952,
+        "recency": 0.9552,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -633,9 +633,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6115,
-      "importance": 0.6115,
-      "importance_score": 0.6115,
+      "score": 0.6044,
+      "importance": 0.6044,
+      "importance_score": 0.6044,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -648,7 +648,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9834,
+        "recency": 0.9438,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -707,9 +707,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6114,
-      "importance": 0.6114,
-      "importance_score": 0.6114,
+      "score": 0.6043,
+      "importance": 0.6043,
+      "importance_score": 0.6043,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -722,7 +722,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.983,
+        "recency": 0.9434,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -781,9 +781,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5502,
-      "importance": 0.5502,
-      "importance_score": 0.5502,
+      "score": 0.544,
+      "importance": 0.544,
+      "importance_score": 0.544,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -795,7 +795,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8507,
+        "recency": 0.8164,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -854,9 +854,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6113,
-      "importance": 0.6113,
-      "importance_score": 0.6113,
+      "score": 0.6042,
+      "importance": 0.6042,
+      "importance_score": 0.6042,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -869,7 +869,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9823,
+        "recency": 0.9427,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -928,9 +928,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6112,
-      "importance": 0.6112,
-      "importance_score": 0.6112,
+      "score": 0.6041,
+      "importance": 0.6041,
+      "importance_score": 0.6041,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -943,7 +943,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9816,
+        "recency": 0.9421,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1002,9 +1002,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6109,
-      "importance": 0.6109,
-      "importance_score": 0.6109,
+      "score": 0.6038,
+      "importance": 0.6038,
+      "importance_score": 0.6038,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1017,7 +1017,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9803,
+        "recency": 0.9408,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1076,9 +1076,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6108,
-      "importance": 0.6108,
-      "importance_score": 0.6108,
+      "score": 0.6037,
+      "importance": 0.6037,
+      "importance_score": 0.6037,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1091,7 +1091,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9794,
+        "recency": 0.94,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1150,9 +1150,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6,
-      "importance": 0.6,
-      "importance_score": 0.6,
+      "score": 0.5932,
+      "importance": 0.5932,
+      "importance_score": 0.5932,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1165,7 +1165,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9426,
+        "recency": 0.9046,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1224,9 +1224,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5985,
-      "importance": 0.5985,
-      "importance_score": 0.5985,
+      "score": 0.5914,
+      "importance": 0.5914,
+      "importance_score": 0.5914,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1238,7 +1238,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9806,
+        "recency": 0.9411,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1297,9 +1297,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5984,
-      "importance": 0.5984,
-      "importance_score": 0.5984,
+      "score": 0.5913,
+      "importance": 0.5913,
+      "importance_score": 0.5913,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1311,7 +1311,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9798,
+        "recency": 0.9403,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1370,9 +1370,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5982,
-      "importance": 0.5982,
-      "importance_score": 0.5982,
+      "score": 0.5911,
+      "importance": 0.5911,
+      "importance_score": 0.5911,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1384,7 +1384,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9789,
+        "recency": 0.9395,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1405,21 +1405,21 @@
       }
     },
     {
-      "story_id": "story_46582e05304c",
-      "title": "今年8月5日起，国内航线燃油附加费将再次下调",
-      "url": "https://www.pinchain.com/article/349453",
-      "primary_url": "https://www.pinchain.com/article/349453",
+      "story_id": "story_4d572c0264ad",
+      "title": "“China Cool”风靡海外 正在带旺中国清凉经济",
+      "url": "https://www.pinchain.com/article/349452",
+      "primary_url": "https://www.pinchain.com/article/349452",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "df7440716e308b54c07f2885eb9f506c66af0461",
-          "title": "今年8月5日起，国内航线燃油附加费将再次下调",
-          "url": "https://www.pinchain.com/article/349453",
+          "id": "f625134a18a146e6d4fc8d37733dad643d35e630",
+          "title": "“China Cool”风靡海外 正在带旺中国清凉经济",
+          "url": "https://www.pinchain.com/article/349452",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-03T06:52:03Z",
+          "published_at": "2026-08-03T06:50:19Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -1430,22 +1430,22 @@
       ],
       "items": [
         {
-          "id": "df7440716e308b54c07f2885eb9f506c66af0461",
-          "title": "今年8月5日起，国内航线燃油附加费将再次下调",
-          "url": "https://www.pinchain.com/article/349453",
+          "id": "f625134a18a146e6d4fc8d37733dad643d35e630",
+          "title": "“China Cool”风靡海外 正在带旺中国清凉经济",
+          "url": "https://www.pinchain.com/article/349452",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-03T06:52:03Z",
+          "published_at": "2026-08-03T06:50:19Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.592,
-      "importance": 0.592,
-      "importance_score": 0.592,
+      "score": 0.5851,
+      "importance": 0.5851,
+      "importance_score": 0.5851,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1457,19 +1457,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9444,
+        "recency": 0.906,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-03T06:52:03Z",
-      "latest_at": "2026-08-03T06:52:03Z",
+      "earliest_at": "2026-08-03T06:50:19Z",
+      "latest_at": "2026-08-03T06:50:19Z",
       "primary_item": {
-        "id": "df7440716e308b54c07f2885eb9f506c66af0461",
-        "title": "今年8月5日起，国内航线燃油附加费将再次下调",
-        "url": "https://www.pinchain.com/article/349453",
+        "id": "f625134a18a146e6d4fc8d37733dad643d35e630",
+        "title": "“China Cool”风靡海外 正在带旺中国清凉经济",
+        "url": "https://www.pinchain.com/article/349452",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
