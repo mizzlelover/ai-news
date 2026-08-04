@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-04T18:11:39.194382Z",
+  "generated_at": "2026-08-04T20:08:47.306272Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6023,
-      "importance": 0.6023,
-      "importance_score": 0.6023,
+      "score": 0.598,
+      "importance": 0.598,
+      "importance_score": 0.598,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8628,
+        "recency": 0.8388,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.588,
+      "importance": 0.588,
+      "importance_score": 0.588,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9488,
+        "recency": 0.9224,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5542,
-      "importance": 0.5542,
-      "importance_score": 0.5542,
+      "score": 0.5499,
+      "importance": 0.5499,
+      "importance_score": 0.5499,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8733,
+        "recency": 0.849,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5497,
-      "importance": 0.5497,
-      "importance_score": 0.5497,
+      "score": 0.5455,
+      "importance": 0.5455,
+      "importance_score": 0.5455,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8483,
+        "recency": 0.8248,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5907,
-      "importance": 0.5907,
-      "importance_score": 0.5907,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -351,7 +351,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8679,
+        "recency": 0.8437,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5815,
-      "importance": 0.5815,
-      "importance_score": 0.5815,
+      "score": 0.5768,
+      "importance": 0.5768,
+      "importance_score": 0.5768,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -423,7 +423,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9556,
+        "recency": 0.9291,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -482,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5889,
-      "importance": 0.5889,
-      "importance_score": 0.5889,
+      "score": 0.5849,
+      "importance": 0.5849,
+      "importance_score": 0.5849,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -498,7 +498,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7883,
+        "recency": 0.7664,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -557,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5802,
-      "importance": 0.5802,
-      "importance_score": 0.5802,
+      "score": 0.5755,
+      "importance": 0.5755,
+      "importance_score": 0.5755,
       "ai_label": "destination_marketing",
       "ai_score": 0.72,
       "ai_signals": [
@@ -570,7 +570,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9484,
+        "recency": 0.922,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -629,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5845,
+      "importance": 0.5845,
+      "importance_score": 0.5845,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -644,7 +644,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8573,
+        "recency": 0.8334,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -703,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.5807,
+      "importance": 0.5807,
+      "importance_score": 0.5807,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -718,7 +718,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8354,
+        "recency": 0.8122,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -777,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5843,
-      "importance": 0.5843,
-      "importance_score": 0.5843,
+      "score": 0.5802,
+      "importance": 0.5802,
+      "importance_score": 0.5802,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -792,7 +792,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8325,
+        "recency": 0.8093,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -851,9 +851,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5839,
-      "importance": 0.5839,
-      "importance_score": 0.5839,
+      "score": 0.5797,
+      "importance": 0.5797,
+      "importance_score": 0.5797,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -866,7 +866,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8301,
+        "recency": 0.807,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -925,9 +925,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5797,
-      "importance": 0.5797,
-      "importance_score": 0.5797,
+      "score": 0.5755,
+      "importance": 0.5755,
+      "importance_score": 0.5755,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -940,7 +940,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8298,
+        "recency": 0.8068,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -999,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5776,
-      "importance": 0.5776,
-      "importance_score": 0.5776,
+      "score": 0.5736,
+      "importance": 0.5736,
+      "importance_score": 0.5736,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1014,7 +1014,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7952,
+        "recency": 0.7731,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1032,79 +1032,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_d3da261cde11",
-      "title": "全球最清洁机场TOP10，中国三家上榜",
-      "url": "https://www.pinchain.com/article/349548",
-      "primary_url": "https://www.pinchain.com/article/349548",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
-          "title": "全球最清洁机场TOP10，中国三家上榜",
-          "url": "https://www.pinchain.com/article/349548",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T05:42:03Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
-          "title": "全球最清洁机场TOP10，中国三家上榜",
-          "url": "https://www.pinchain.com/article/349548",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T05:42:03Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5723,
-      "importance": 0.5723,
-      "importance_score": 0.5723,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8349,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-04T05:42:03Z",
-      "latest_at": "2026-08-04T05:42:03Z",
-      "primary_item": {
-        "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
-        "title": "全球最清洁机场TOP10，中国三家上榜",
-        "url": "https://www.pinchain.com/article/349548",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -1146,9 +1073,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5722,
-      "importance": 0.5722,
-      "importance_score": 0.5722,
+      "score": 0.5681,
+      "importance": 0.5681,
+      "importance_score": 0.5681,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1160,7 +1087,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8346,
+        "recency": 0.8114,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1173,6 +1100,79 @@
         "id": "96a2507f14dd1fe9042bc83b8903494df2c3f5ec",
         "title": "上海飞新加坡可体验“套房” 票价近3万！",
         "url": "https://www.pinchain.com/article/349549",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_d3da261cde11",
+      "title": "全球最清洁机场TOP10，中国三家上榜",
+      "url": "https://www.pinchain.com/article/349548",
+      "primary_url": "https://www.pinchain.com/article/349548",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
+          "title": "全球最清洁机场TOP10，中国三家上榜",
+          "url": "https://www.pinchain.com/article/349548",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-04T05:42:03Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
+          "title": "全球最清洁机场TOP10，中国三家上榜",
+          "url": "https://www.pinchain.com/article/349548",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-04T05:42:03Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5681,
+      "importance": 0.5681,
+      "importance_score": 0.5681,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8117,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-04T05:42:03Z",
+      "latest_at": "2026-08-04T05:42:03Z",
+      "primary_item": {
+        "id": "c67b3e8bbd919901682050c5c31d73d63444d293",
+        "title": "全球最清洁机场TOP10，中国三家上榜",
+        "url": "https://www.pinchain.com/article/349548",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1219,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.572,
-      "importance": 0.572,
-      "importance_score": 0.572,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1233,7 +1233,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8331,
+        "recency": 0.8099,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1246,79 +1246,6 @@
         "id": "e92ec073d9de67ad49f2c97b1af4be232c42c92e",
         "title": "2026年全国“村BA”广东省赛打响",
         "url": "https://www.pinchain.com/article/349554",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e4fb8be67bf9",
-      "title": "今年上半年2291万入境人次 彰显“中国引力”",
-      "url": "https://www.pinchain.com/article/349546",
-      "primary_url": "https://www.pinchain.com/article/349546",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
-          "title": "今年上半年2291万入境人次 彰显“中国引力”",
-          "url": "https://www.pinchain.com/article/349546",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T05:25:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
-          "title": "今年上半年2291万入境人次 彰显“中国引力”",
-          "url": "https://www.pinchain.com/article/349546",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T05:25:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5717,
-      "importance": 0.5717,
-      "importance_score": 0.5717,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8316,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-04T05:25:34Z",
-      "latest_at": "2026-08-04T05:25:34Z",
-      "primary_item": {
-        "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
-        "title": "今年上半年2291万入境人次 彰显“中国引力”",
-        "url": "https://www.pinchain.com/article/349546",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1365,9 +1292,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5716,
-      "importance": 0.5716,
-      "importance_score": 0.5716,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1379,7 +1306,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8313,
+        "recency": 0.8082,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1392,6 +1319,79 @@
         "id": "bed97e6643a6722dc5962b07e0a696b328cc9cae",
         "title": "乾坤湾面向全国公开招募10对爱侣共赴七夕盛典",
         "url": "https://www.pinchain.com/article/349545",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e4fb8be67bf9",
+      "title": "今年上半年2291万入境人次 彰显“中国引力”",
+      "url": "https://www.pinchain.com/article/349546",
+      "primary_url": "https://www.pinchain.com/article/349546",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
+          "title": "今年上半年2291万入境人次 彰显“中国引力”",
+          "url": "https://www.pinchain.com/article/349546",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-04T05:25:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
+          "title": "今年上半年2291万入境人次 彰显“中国引力”",
+          "url": "https://www.pinchain.com/article/349546",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-04T05:25:34Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8085,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-04T05:25:34Z",
+      "latest_at": "2026-08-04T05:25:34Z",
+      "primary_item": {
+        "id": "9cb34ac0ce9399f0397b2c9e71ea23e744d2019f",
+        "title": "今年上半年2291万入境人次 彰显“中国引力”",
+        "url": "https://www.pinchain.com/article/349546",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1438,9 +1438,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1452,7 +1452,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8306,
+        "recency": 0.8075,
         "story_heat": 0.0
       },
       "category": "watch",
