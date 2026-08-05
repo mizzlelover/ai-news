@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T21:46:24.325917Z",
+  "generated_at": "2026-08-05T22:57:09.403095Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6092,
-      "importance": 0.6092,
-      "importance_score": 0.6092,
+      "score": 0.6068,
+      "importance": 0.6068,
+      "importance_score": 0.6068,
       "ai_label": "tourism_tech",
       "ai_score": 0.86,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.6192,
         "source_tier": 0.5,
         "ai_relevance": 0.86,
-        "recency": 0.7856,
+        "recency": 0.7724,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6005,
-      "importance": 0.6005,
-      "importance_score": 0.6005,
+      "score": 0.5979,
+      "importance": 0.5979,
+      "importance_score": 0.5979,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8528,
+        "recency": 0.8384,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5843,
-      "importance": 0.5843,
-      "importance_score": 0.5843,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9016,
+        "recency": 0.8863,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5801,
-      "importance": 0.5801,
-      "importance_score": 0.5801,
+      "score": 0.5772,
+      "importance": 0.5772,
+      "importance_score": 0.5772,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9475,
+        "recency": 0.9315,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5611,
-      "importance": 0.5611,
-      "importance_score": 0.5611,
+      "score": 0.5587,
+      "importance": 0.5587,
+      "importance_score": 0.5587,
       "ai_label": "destination_marketing",
       "ai_score": 0.75,
       "ai_signals": [
@@ -351,7 +351,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7726,
+        "recency": 0.7596,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5415,
-      "importance": 0.5415,
-      "importance_score": 0.5415,
+      "score": 0.5393,
+      "importance": 0.5393,
+      "importance_score": 0.5393,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -424,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7332,
+        "recency": 0.7208,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -445,22 +445,22 @@
       }
     },
     {
-      "story_id": "story_9292b1da0da3",
-      "title": "Thank You, Google. Trivago Expects EU Tailwind",
-      "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
-      "primary_url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+      "story_id": "story_0b98e146fc6a",
+      "title": "Expedia B2B Is Mostly Hotels, But It Wants a One-Stop Shop",
+      "url": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up",
+      "primary_url": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "680a4b83f277951742ce39d039497528041a34f6",
-          "title": "Thank You, Google. Trivago Expects EU Tailwind",
-          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+          "id": "dffbe12bf01c5f71d5d10a674bad6531ca4c0672",
+          "title": "Expedia B2B Is Mostly Hotels, But It Wants a One-Stop Shop",
+          "url": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T19:47:53Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-08-05T22:06:53Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
@@ -470,49 +470,49 @@
       ],
       "items": [
         {
-          "id": "680a4b83f277951742ce39d039497528041a34f6",
-          "title": "Thank You, Google. Trivago Expects EU Tailwind",
-          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+          "id": "dffbe12bf01c5f71d5d10a674bad6531ca4c0672",
+          "title": "Expedia B2B Is Mostly Hotels, But It Wants a One-Stop Shop",
+          "url": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T19:47:53Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-08-05T22:06:53Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5845,
-      "importance": 0.5845,
-      "importance_score": 0.5845,
-      "ai_label": "tourism_tech",
+      "score": 0.5874,
+      "importance": 0.5874,
+      "importance_score": 0.5874,
+      "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
-        "ai"
+        "hotel"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9719,
+        "recency": 0.988,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T19:47:53Z",
-      "latest_at": "2026-08-05T19:47:53Z",
+      "earliest_at": "2026-08-05T22:06:53Z",
+      "latest_at": "2026-08-05T22:06:53Z",
       "primary_item": {
-        "id": "680a4b83f277951742ce39d039497528041a34f6",
-        "title": "Thank You, Google. Trivago Expects EU Tailwind",
-        "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+        "id": "dffbe12bf01c5f71d5d10a674bad6531ca4c0672",
+        "title": "Expedia B2B Is Mostly Hotels, But It Wants a One-Stop Shop",
+        "url": "https://skift.com/2026/08/05/expedia-is-investing-in-its-leading-b2b-product-as-competition-heats-up",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
+        "ai_label": "hospitality_ops",
         "ai_score": 0.72
       }
     },
@@ -555,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5809,
-      "importance": 0.5809,
-      "importance_score": 0.5809,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -570,7 +570,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8134,
+        "recency": 0.7997,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -629,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5547,
-      "importance": 0.5547,
-      "importance_score": 0.5547,
+      "score": 0.5522,
+      "importance": 0.5522,
+      "importance_score": 0.5522,
       "ai_label": "destination_marketing",
       "ai_score": 0.72,
       "ai_signals": [
@@ -643,7 +643,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8065,
+        "recency": 0.7929,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -664,22 +664,22 @@
       }
     },
     {
-      "story_id": "story_7fd39244f3a3",
-      "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
-      "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
-      "primary_url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+      "story_id": "story_9292b1da0da3",
+      "title": "Thank You, Google. Trivago Expects EU Tailwind",
+      "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+      "primary_url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
-          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
-          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "id": "680a4b83f277951742ce39d039497528041a34f6",
+          "title": "Thank You, Google. Trivago Expects EU Tailwind",
+          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T19:20:59Z",
-          "ai_label": "hospitality_ops",
+          "published_at": "2026-08-05T19:47:53Z",
+          "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
@@ -689,49 +689,49 @@
       ],
       "items": [
         {
-          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
-          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
-          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "id": "680a4b83f277951742ce39d039497528041a34f6",
+          "title": "Thank You, Google. Trivago Expects EU Tailwind",
+          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T19:20:59Z",
-          "ai_label": "hospitality_ops",
+          "published_at": "2026-08-05T19:47:53Z",
+          "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5833,
-      "importance": 0.5833,
-      "importance_score": 0.5833,
-      "ai_label": "hospitality_ops",
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
+      "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
-        "hotel"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9656,
+        "recency": 0.9555,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T19:20:59Z",
-      "latest_at": "2026-08-05T19:20:59Z",
+      "earliest_at": "2026-08-05T19:47:53Z",
+      "latest_at": "2026-08-05T19:47:53Z",
       "primary_item": {
-        "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
-        "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
-        "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+        "id": "680a4b83f277951742ce39d039497528041a34f6",
+        "title": "Thank You, Google. Trivago Expects EU Tailwind",
+        "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
+        "ai_label": "tourism_tech",
         "ai_score": 0.72
       }
     },
@@ -774,9 +774,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5808,
-      "importance": 0.5808,
-      "importance_score": 0.5808,
+      "score": 0.5783,
+      "importance": 0.5783,
+      "importance_score": 0.5783,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -789,7 +789,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.813,
+        "recency": 0.7993,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -802,6 +802,152 @@
         "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
         "title": "北京世界公园的免票账本:平日游客量提升超10倍",
         "url": "https://www.pinchain.com/article/349616",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_7fd39244f3a3",
+      "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+      "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+      "primary_url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T19:20:59Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T19:20:59Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5804,
+      "importance": 0.5804,
+      "importance_score": 0.5804,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9493,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T19:20:59Z",
+      "latest_at": "2026-08-05T19:20:59Z",
+      "primary_item": {
+        "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+        "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+        "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_e3d9efdd9961",
+      "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+      "url": "https://www.pinchain.com/article/349606",
+      "primary_url": "https://www.pinchain.com/article/349606",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+          "url": "https://www.pinchain.com/article/349606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:20:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+          "url": "https://www.pinchain.com/article/349606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:20:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5741,
+      "importance": 0.5741,
+      "importance_score": 0.5741,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7754,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T05:20:27Z",
+      "latest_at": "2026-08-05T05:20:27Z",
+      "primary_item": {
+        "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+        "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+        "url": "https://www.pinchain.com/article/349606",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -848,9 +994,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5806,
-      "importance": 0.5806,
-      "importance_score": 0.5806,
+      "score": 0.5779,
+      "importance": 0.5779,
+      "importance_score": 0.5779,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -862,7 +1008,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.881,
+        "recency": 0.8661,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -880,80 +1026,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e3d9efdd9961",
-      "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-      "url": "https://www.pinchain.com/article/349606",
-      "primary_url": "https://www.pinchain.com/article/349606",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5765,
-      "importance": 0.5765,
-      "importance_score": 0.5765,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7888,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T05:20:27Z",
-      "latest_at": "2026-08-05T05:20:27Z",
-      "primary_item": {
-        "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-        "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-        "url": "https://www.pinchain.com/article/349606",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -995,9 +1067,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5761,
-      "importance": 0.5761,
-      "importance_score": 0.5761,
+      "score": 0.5737,
+      "importance": 0.5737,
+      "importance_score": 0.5737,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1010,7 +1082,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7867,
+        "recency": 0.7734,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1023,6 +1095,80 @@
         "id": "22867195025f0232ac5de22adade462e57148145",
         "title": "旅客携带充电宝自燃，长安航空通报",
         "url": "https://www.pinchain.com/article/349605",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_1f3d31246740",
+      "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+      "url": "https://www.pinchain.com/article/349596",
+      "primary_url": "https://www.pinchain.com/article/349596",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+          "url": "https://www.pinchain.com/article/349596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T04:59:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+          "url": "https://www.pinchain.com/article/349596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T04:59:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5734,
+      "importance": 0.5734,
+      "importance_score": 0.5734,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7716,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T04:59:54Z",
+      "latest_at": "2026-08-05T04:59:54Z",
+      "primary_item": {
+        "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+        "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+        "url": "https://www.pinchain.com/article/349596",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1069,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.5669,
+      "importance": 0.5669,
+      "importance_score": 0.5669,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1082,7 +1228,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8894,
+        "recency": 0.8744,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1100,152 +1246,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_1f3d31246740",
-      "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-      "url": "https://www.pinchain.com/article/349596",
-      "primary_url": "https://www.pinchain.com/article/349596",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5758,
-      "importance": 0.5758,
-      "importance_score": 0.5758,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7849,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T04:59:54Z",
-      "latest_at": "2026-08-05T04:59:54Z",
-      "primary_item": {
-        "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-        "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-        "url": "https://www.pinchain.com/article/349596",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_765b9d69c5fb",
-      "title": "Booking Holdings CEO: AI Overviews Are Squeezing SEO",
-      "url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
-      "primary_url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3d6c44c8bcffa5a81572cc8f979eb691d4a5f94e",
-          "title": "Booking Holdings CEO: AI Overviews Are Squeezing SEO",
-          "url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T22:02:55Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "3d6c44c8bcffa5a81572cc8f979eb691d4a5f94e",
-          "title": "Booking Holdings CEO: AI Overviews Are Squeezing SEO",
-          "url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-04T22:02:55Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5623,
-      "importance": 0.5623,
-      "importance_score": 0.5623,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7099,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-04T22:02:55Z",
-      "latest_at": "2026-08-04T22:02:55Z",
-      "primary_item": {
-        "id": "3d6c44c8bcffa5a81572cc8f979eb691d4a5f94e",
-        "title": "Booking Holdings CEO: AI Overviews Are Squeezing SEO",
-        "url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -1287,9 +1287,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5757,
-      "importance": 0.5757,
-      "importance_score": 0.5757,
+      "score": 0.5733,
+      "importance": 0.5733,
+      "importance_score": 0.5733,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1302,7 +1302,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7843,
+        "recency": 0.7711,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1361,9 +1361,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5756,
-      "importance": 0.5756,
-      "importance_score": 0.5756,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1376,7 +1376,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7839,
+        "recency": 0.7706,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1435,9 +1435,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5755,
-      "importance": 0.5755,
-      "importance_score": 0.5755,
+      "score": 0.5731,
+      "importance": 0.5731,
+      "importance_score": 0.5731,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1450,7 +1450,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7836,
+        "recency": 0.7703,
         "story_heat": 0.0
       },
       "category": "watch",
