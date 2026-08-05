@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-05T18:20:46.006154Z",
+  "generated_at": "2026-08-05T20:07:42.974329Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6163,
-      "importance": 0.6163,
-      "importance_score": 0.6163,
+      "score": 0.6126,
+      "importance": 0.6126,
+      "importance_score": 0.6126,
       "ai_label": "tourism_tech",
       "ai_score": 0.86,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.6192,
         "source_tier": 0.5,
         "ai_relevance": 0.86,
-        "recency": 0.8255,
+        "recency": 0.8045,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6083,
-      "importance": 0.6083,
-      "importance_score": 0.6083,
+      "score": 0.6042,
+      "importance": 0.6042,
+      "importance_score": 0.6042,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8961,
+        "recency": 0.8733,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9473,
+        "recency": 0.9232,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5887,
-      "importance": 0.5887,
-      "importance_score": 0.5887,
+      "score": 0.5842,
+      "importance": 0.5842,
+      "importance_score": 0.5842,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9955,
+        "recency": 0.9703,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5681,
-      "importance": 0.5681,
-      "importance_score": 0.5681,
+      "score": 0.5644,
+      "importance": 0.5644,
+      "importance_score": 0.5644,
       "ai_label": "destination_marketing",
       "ai_score": 0.75,
       "ai_signals": [
@@ -351,7 +351,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8118,
+        "recency": 0.7912,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5482,
-      "importance": 0.5482,
-      "importance_score": 0.5482,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -424,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7704,
+        "recency": 0.7508,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -445,23 +445,23 @@
       }
     },
     {
-      "story_id": "story_39f2c45d6921",
-      "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
-      "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
-      "primary_url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+      "story_id": "story_9292b1da0da3",
+      "title": "Thank You, Google. Trivago Expects EU Tailwind",
+      "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
+      "primary_url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
-          "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
-          "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+          "id": "680a4b83f277951742ce39d039497528041a34f6",
+          "title": "Thank You, Google. Trivago Expects EU Tailwind",
+          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T13:00:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
+          "published_at": "2026-08-05T19:47:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
@@ -470,51 +470,50 @@
       ],
       "items": [
         {
-          "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
-          "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
-          "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+          "id": "680a4b83f277951742ce39d039497528041a34f6",
+          "title": "Thank You, Google. Trivago Expects EU Tailwind",
+          "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T13:00:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
+          "published_at": "2026-08-05T19:47:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5886,
-      "importance": 0.5886,
-      "importance_score": 0.5886,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.75,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
       "ai_signals": [
-        "hotel",
-        "travel"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9257,
+        "ai_relevance": 0.72,
+        "recency": 0.9952,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T13:00:00Z",
-      "latest_at": "2026-08-05T13:00:00Z",
+      "earliest_at": "2026-08-05T19:47:53Z",
+      "latest_at": "2026-08-05T19:47:53Z",
       "primary_item": {
-        "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
-        "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
-        "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+        "id": "680a4b83f277951742ce39d039497528041a34f6",
+        "title": "Thank You, Google. Trivago Expects EU Tailwind",
+        "url": "https://skift.com/2026/08/05/thank-you-google-trivago-expects-eu-tailwind",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.75
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -556,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5883,
-      "importance": 0.5883,
-      "importance_score": 0.5883,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -571,7 +570,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8547,
+        "recency": 0.833,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -630,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
       "ai_label": "destination_marketing",
       "ai_score": 0.72,
       "ai_signals": [
@@ -644,7 +643,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8474,
+        "recency": 0.8259,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -661,6 +660,78 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "destination_marketing",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_7fd39244f3a3",
+      "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+      "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+      "primary_url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T19:20:59Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+          "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+          "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T19:20:59Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5875,
+      "importance": 0.5875,
+      "importance_score": 0.5875,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9888,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T19:20:59Z",
+      "latest_at": "2026-08-05T19:20:59Z",
+      "primary_item": {
+        "id": "84bcdc9eee65b84623851fe06368ea66950c7e67",
+        "title": "Choice Hotels’ New Interim CEO’s First Task: Fix the Revenue Gap",
+        "url": "https://skift.com/2026/08/05/choice-hotels-new-interim-ceos-first-task-fix-the-revenue-gap",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
         "ai_score": 0.72
       }
     },
@@ -703,9 +774,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5882,
-      "importance": 0.5882,
-      "importance_score": 0.5882,
+      "score": 0.5843,
+      "importance": 0.5843,
+      "importance_score": 0.5843,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -718,7 +789,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8542,
+        "recency": 0.8325,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -731,6 +802,227 @@
         "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
         "title": "北京世界公园的免票账本:平日游客量提升超10倍",
         "url": "https://www.pinchain.com/article/349616",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_39f2c45d6921",
+      "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
+      "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+      "primary_url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
+          "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
+          "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T13:00:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
+          "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
+          "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T13:00:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hotel",
+        "travel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9022,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T13:00:00Z",
+      "latest_at": "2026-08-05T13:00:00Z",
+      "primary_item": {
+        "id": "07f94b631fa850470c1cc54ce160b70f1acd32dd",
+        "title": "Can Banks Become the New Hotel Tastemakers? Capital One Travel Thinks So",
+        "url": "https://skift.com/2026/08/05/capital-one-travel-luxury-curation-strategy",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e3d9efdd9961",
+      "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+      "url": "https://www.pinchain.com/article/349606",
+      "primary_url": "https://www.pinchain.com/article/349606",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+          "url": "https://www.pinchain.com/article/349606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:20:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+          "url": "https://www.pinchain.com/article/349606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:20:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5799,
+      "importance": 0.5799,
+      "importance_score": 0.5799,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8077,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T05:20:27Z",
+      "latest_at": "2026-08-05T05:20:27Z",
+      "primary_item": {
+        "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
+        "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
+        "url": "https://www.pinchain.com/article/349606",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_cd211cac4a05",
+      "title": "旅客携带充电宝自燃，长安航空通报",
+      "url": "https://www.pinchain.com/article/349605",
+      "primary_url": "https://www.pinchain.com/article/349605",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "22867195025f0232ac5de22adade462e57148145",
+          "title": "旅客携带充电宝自燃，长安航空通报",
+          "url": "https://www.pinchain.com/article/349605",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:09:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "22867195025f0232ac5de22adade462e57148145",
+          "title": "旅客携带充电宝自燃，长安航空通报",
+          "url": "https://www.pinchain.com/article/349605",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T05:09:40Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5795,
+      "importance": 0.5795,
+      "importance_score": 0.5795,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "航空",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8056,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T05:09:40Z",
+      "latest_at": "2026-08-05T05:09:40Z",
+      "primary_item": {
+        "id": "22867195025f0232ac5de22adade462e57148145",
+        "title": "旅客携带充电宝自燃，长安航空通报",
+        "url": "https://www.pinchain.com/article/349605",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -777,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5735,
+      "importance": 0.5735,
+      "importance_score": 0.5735,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -790,7 +1082,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9346,
+        "recency": 0.9108,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -811,21 +1103,21 @@
       }
     },
     {
-      "story_id": "story_e3d9efdd9961",
-      "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-      "url": "https://www.pinchain.com/article/349606",
-      "primary_url": "https://www.pinchain.com/article/349606",
+      "story_id": "story_1f3d31246740",
+      "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+      "url": "https://www.pinchain.com/article/349596",
+      "primary_url": "https://www.pinchain.com/article/349596",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
+          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+          "url": "https://www.pinchain.com/article/349596",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
+          "published_at": "2026-08-05T04:59:54Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -836,27 +1128,27 @@
       ],
       "items": [
         {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
+          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+          "url": "https://www.pinchain.com/article/349596",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
+          "published_at": "2026-08-05T04:59:54Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5837,
-      "importance": 0.5837,
-      "importance_score": 0.5837,
+      "score": 0.5792,
+      "importance": 0.5792,
+      "importance_score": 0.5792,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
-        "文旅",
         "旅游",
+        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -864,19 +1156,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8288,
+        "recency": 0.8037,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T05:20:27Z",
-      "latest_at": "2026-08-05T05:20:27Z",
+      "earliest_at": "2026-08-05T04:59:54Z",
+      "latest_at": "2026-08-05T04:59:54Z",
       "primary_item": {
-        "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-        "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-        "url": "https://www.pinchain.com/article/349606",
+        "id": "169fb364574475ac11133a10952670c2acfe7e9f",
+        "title": "韩国赴华游客数量持续增长 较去年同期增16％",
+        "url": "https://www.pinchain.com/article/349596",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -923,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5687,
-      "importance": 0.5687,
-      "importance_score": 0.5687,
+      "score": 0.5653,
+      "importance": 0.5653,
+      "importance_score": 0.5653,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -936,7 +1228,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7459,
+        "recency": 0.727,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -950,154 +1242,6 @@
         "title": "Booking Holdings CEO: AI Overviews Are Squeezing SEO",
         "url": "https://skift.com/2026/08/04/booking-holdings-saw-pressure-from-googles-ai-overviews",
         "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_cd211cac4a05",
-      "title": "旅客携带充电宝自燃，长安航空通报",
-      "url": "https://www.pinchain.com/article/349605",
-      "primary_url": "https://www.pinchain.com/article/349605",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "22867195025f0232ac5de22adade462e57148145",
-          "title": "旅客携带充电宝自燃，长安航空通报",
-          "url": "https://www.pinchain.com/article/349605",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:09:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "22867195025f0232ac5de22adade462e57148145",
-          "title": "旅客携带充电宝自燃，长安航空通报",
-          "url": "https://www.pinchain.com/article/349605",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:09:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5833,
-      "importance": 0.5833,
-      "importance_score": 0.5833,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "航空",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8266,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T05:09:40Z",
-      "latest_at": "2026-08-05T05:09:40Z",
-      "primary_item": {
-        "id": "22867195025f0232ac5de22adade462e57148145",
-        "title": "旅客携带充电宝自燃，长安航空通报",
-        "url": "https://www.pinchain.com/article/349605",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1f3d31246740",
-      "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-      "url": "https://www.pinchain.com/article/349596",
-      "primary_url": "https://www.pinchain.com/article/349596",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5829,
-      "importance": 0.5829,
-      "importance_score": 0.5829,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8247,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T04:59:54Z",
-      "latest_at": "2026-08-05T04:59:54Z",
-      "primary_item": {
-        "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-        "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-        "url": "https://www.pinchain.com/article/349596",
-        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -1143,9 +1287,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5828,
-      "importance": 0.5828,
-      "importance_score": 0.5828,
+      "score": 0.579,
+      "importance": 0.579,
+      "importance_score": 0.579,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1158,7 +1302,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8241,
+        "recency": 0.8031,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1361,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.579,
+      "importance": 0.579,
+      "importance_score": 0.579,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1232,7 +1376,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8236,
+        "recency": 0.8027,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1291,9 +1435,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5789,
+      "importance": 0.5789,
+      "importance_score": 0.5789,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1306,7 +1450,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8233,
+        "recency": 0.8024,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1324,153 +1468,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1f0e68cbd0fa",
-      "title": "跟着课本旅行 全国暑期亲子游地图新鲜出炉",
-      "url": "https://www.pinchain.com/article/349592",
-      "primary_url": "https://www.pinchain.com/article/349592",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6bc9ce5ec82926012ca343b4d07eec110f20f639",
-          "title": "跟着课本旅行 全国暑期亲子游地图新鲜出炉",
-          "url": "https://www.pinchain.com/article/349592",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:50:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "6bc9ce5ec82926012ca343b4d07eec110f20f639",
-          "title": "跟着课本旅行 全国暑期亲子游地图新鲜出炉",
-          "url": "https://www.pinchain.com/article/349592",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:50:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5826,
-      "importance": 0.5826,
-      "importance_score": 0.5826,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8229,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T04:50:57Z",
-      "latest_at": "2026-08-05T04:50:57Z",
-      "primary_item": {
-        "id": "6bc9ce5ec82926012ca343b4d07eec110f20f639",
-        "title": "跟着课本旅行 全国暑期亲子游地图新鲜出炉",
-        "url": "https://www.pinchain.com/article/349592",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_94201a8ca7aa",
-      "title": "2026年7月重庆“两江游”完成客运量36.7万人",
-      "url": "https://www.pinchain.com/article/349613",
-      "primary_url": "https://www.pinchain.com/article/349613",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
-          "title": "2026年7月重庆“两江游”完成客运量36.7万人",
-          "url": "https://www.pinchain.com/article/349613",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T07:32:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
-          "title": "2026年7月重庆“两江游”完成客运量36.7万人",
-          "url": "https://www.pinchain.com/article/349613",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T07:32:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.576,
-      "importance": 0.576,
-      "importance_score": 0.576,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8556,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T07:32:35Z",
-      "latest_at": "2026-08-05T07:32:35Z",
-      "primary_item": {
-        "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
-        "title": "2026年7月重庆“两江游”完成客运量36.7万人",
-        "url": "https://www.pinchain.com/article/349613",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     }
   ]
