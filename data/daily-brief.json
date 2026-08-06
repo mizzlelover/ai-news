@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-06T03:48:52.565380Z",
+  "generated_at": "2026-08-06T06:28:49.036959Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 16,
   "items": [
     {
       "story_id": "story_628ff183c61c",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6012,
-      "importance": 0.6012,
-      "importance_score": 0.6012,
+      "score": 0.5944,
+      "importance": 0.5944,
+      "importance_score": 0.5944,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9954,
+        "recency": 0.9578,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5876,
-      "importance": 0.5876,
-      "importance_score": 0.5876,
+      "score": 0.5823,
+      "importance": 0.5823,
+      "importance_score": 0.5823,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7816,
+        "recency": 0.7521,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5707,
-      "importance": 0.5707,
-      "importance_score": 0.5707,
+      "score": 0.5651,
+      "importance": 0.5651,
+      "importance_score": 0.5651,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8262,
+        "recency": 0.795,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.5599,
+      "importance": 0.5599,
+      "importance_score": 0.5599,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8683,
+        "recency": 0.8355,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -334,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6007,
-      "importance": 0.6007,
-      "importance_score": 0.6007,
+      "score": 0.594,
+      "importance": 0.594,
+      "importance_score": 0.594,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -348,7 +348,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9929,
+        "recency": 0.9554,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -366,155 +366,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e7951f6862ff",
-      "title": "宝明科技：HVLP4/5铜箔主要技术指标已完成厂内验证，正布局向下游客户送样",
-      "url": "https://www.jiemian.com/article/14877984.html",
-      "primary_url": "https://www.jiemian.com/article/14877984.html",
-      "source": "界面新闻",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "93f698cd08529f35904c42def08075838bafc78d",
-          "title": "宝明科技：HVLP4/5铜箔主要技术指标已完成厂内验证，正布局向下游客户送样",
-          "url": "https://www.jiemian.com/article/14877984.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T03:54:40Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "界面新闻"
-      ],
-      "items": [
-        {
-          "id": "93f698cd08529f35904c42def08075838bafc78d",
-          "title": "宝明科技：HVLP4/5铜箔主要技术指标已完成厂内验证，正布局向下游客户送样",
-          "url": "https://www.jiemian.com/article/14877984.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T03:54:40Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5495,
-      "importance": 0.5495,
-      "importance_score": 0.5495,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "技术",
-        "游客",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7081,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T03:54:40Z",
-      "latest_at": "2026-08-05T03:54:40Z",
-      "primary_item": {
-        "id": "93f698cd08529f35904c42def08075838bafc78d",
-        "title": "宝明科技：HVLP4/5铜箔主要技术指标已完成厂内验证，正布局向下游客户送样",
-        "url": "https://www.jiemian.com/article/14877984.html",
-        "source": "界面新闻",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_6f7ee88bba31",
-      "title": "“好科技”成新看点 AI研学这股风吹到了入境游",
-      "url": "https://www.pinchain.com/article/349603",
-      "primary_url": "https://www.pinchain.com/article/349603",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "287d5dd462d8749f3c623b91f17dc5090a684e34",
-          "title": "“好科技”成新看点 AI研学这股风吹到了入境游",
-          "url": "https://www.pinchain.com/article/349603",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:03:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.86
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "287d5dd462d8749f3c623b91f17dc5090a684e34",
-          "title": "“好科技”成新看点 AI研学这股风吹到了入境游",
-          "url": "https://www.pinchain.com/article/349603",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:03:58Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.86
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5974,
-      "importance": 0.5974,
-      "importance_score": 0.5974,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.86,
-      "ai_signals": [
-        "入境游",
-        "旅游",
-        "ai",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.6192,
-        "source_tier": 0.5,
-        "ai_relevance": 0.86,
-        "recency": 0.72,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-05T05:03:58Z",
-      "latest_at": "2026-08-05T05:03:58Z",
-      "primary_item": {
-        "id": "287d5dd462d8749f3c623b91f17dc5090a684e34",
-        "title": "“好科技”成新看点 AI研学这股风吹到了入境游",
-        "url": "https://www.pinchain.com/article/349603",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.86
       }
     },
     {
@@ -556,9 +407,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
+      "score": 0.569,
+      "importance": 0.569,
+      "importance_score": 0.569,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -569,7 +420,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.921,
+        "recency": 0.8862,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -586,79 +437,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_972c5423cb66",
-      "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
-      "url": "https://www.ithome.com/0/985/933.htm",
-      "primary_url": "https://www.ithome.com/0/985/933.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "019ed010ed3e260f2ba58773a55f683298232b45",
-          "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
-          "url": "https://www.ithome.com/0/985/933.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T06:52:44Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "019ed010ed3e260f2ba58773a55f683298232b45",
-          "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
-          "url": "https://www.ithome.com/0/985/933.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T06:52:44Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5426,
-      "importance": 0.5426,
-      "importance_score": 0.5426,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "软件",
-        "景区"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7391,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T06:52:44Z",
-      "latest_at": "2026-08-05T06:52:44Z",
-      "primary_item": {
-        "id": "019ed010ed3e260f2ba58773a55f683298232b45",
-        "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
-        "url": "https://www.ithome.com/0/985/933.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
         "ai_score": 0.72
       }
     },
@@ -701,9 +479,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5698,
-      "importance": 0.5698,
-      "importance_score": 0.5698,
+      "score": 0.5638,
+      "importance": 0.5638,
+      "importance_score": 0.5638,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -714,7 +492,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8907,
+        "recency": 0.8571,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -773,9 +551,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5687,
-      "importance": 0.5687,
-      "importance_score": 0.5687,
+      "score": 0.5636,
+      "importance": 0.5636,
+      "importance_score": 0.5636,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -788,7 +566,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7455,
+        "recency": 0.7173,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -801,6 +579,153 @@
         "id": "08f98df2eb096d430ab45fbaf43c4afc43445124",
         "title": "国泰航空：上半年集团盈利62.43亿港元",
         "url": "https://www.pinchain.com/article/349615",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_972c5423cb66",
+      "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
+      "url": "https://www.ithome.com/0/985/933.htm",
+      "primary_url": "https://www.ithome.com/0/985/933.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "019ed010ed3e260f2ba58773a55f683298232b45",
+          "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
+          "url": "https://www.ithome.com/0/985/933.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T06:52:44Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "019ed010ed3e260f2ba58773a55f683298232b45",
+          "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
+          "url": "https://www.ithome.com/0/985/933.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T06:52:44Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5375,
+      "importance": 0.5375,
+      "importance_score": 0.5375,
+      "ai_label": "destination_marketing",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "软件",
+        "景区"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7112,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T06:52:44Z",
+      "latest_at": "2026-08-05T06:52:44Z",
+      "primary_item": {
+        "id": "019ed010ed3e260f2ba58773a55f683298232b45",
+        "title": "“黄牛”用非法软件批量代抢热门景区门票加价出售，10 人落网",
+        "url": "https://www.ithome.com/0/985/933.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "destination_marketing",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_5e39ba85df40",
+      "title": "北京世界公园的免票账本:平日游客量提升超10倍",
+      "url": "https://www.pinchain.com/article/349616",
+      "primary_url": "https://www.pinchain.com/article/349616",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
+          "title": "北京世界公园的免票账本:平日游客量提升超10倍",
+          "url": "https://www.pinchain.com/article/349616",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T07:26:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
+          "title": "北京世界公园的免票账本:平日游客量提升超10倍",
+          "url": "https://www.pinchain.com/article/349616",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-05T07:26:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7169,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-05T07:26:10Z",
+      "latest_at": "2026-08-05T07:26:10Z",
+      "primary_item": {
+        "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
+        "title": "北京世界公园的免票账本:平日游客量提升超10倍",
+        "url": "https://www.pinchain.com/article/349616",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -847,9 +772,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
+      "score": 0.5628,
+      "importance": 0.5628,
+      "importance_score": 0.5628,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -860,7 +785,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8849,
+        "recency": 0.8515,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -878,80 +803,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_5e39ba85df40",
-      "title": "北京世界公园的免票账本:平日游客量提升超10倍",
-      "url": "https://www.pinchain.com/article/349616",
-      "primary_url": "https://www.pinchain.com/article/349616",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
-          "title": "北京世界公园的免票账本:平日游客量提升超10倍",
-          "url": "https://www.pinchain.com/article/349616",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T07:26:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
-          "title": "北京世界公园的免票账本:平日游客量提升超10倍",
-          "url": "https://www.pinchain.com/article/349616",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T07:26:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5686,
-      "importance": 0.5686,
-      "importance_score": 0.5686,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7451,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T07:26:10Z",
-      "latest_at": "2026-08-05T07:26:10Z",
-      "primary_item": {
-        "id": "ce6c3d16d3330cbe092894deea54f53171e56e25",
-        "title": "北京世界公园的免票账本:平日游客量提升超10倍",
-        "url": "https://www.pinchain.com/article/349616",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -993,9 +844,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5673,
-      "importance": 0.5673,
-      "importance_score": 0.5673,
+      "score": 0.5618,
+      "importance": 0.5618,
+      "importance_score": 0.5618,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1007,7 +858,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8074,
+        "recency": 0.7769,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1028,23 +879,23 @@
       }
     },
     {
-      "story_id": "story_e3d9efdd9961",
-      "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-      "url": "https://www.pinchain.com/article/349606",
-      "primary_url": "https://www.pinchain.com/article/349606",
+      "story_id": "story_94201a8ca7aa",
+      "title": "2026年7月重庆“两江游”完成客运量36.7万人",
+      "url": "https://www.pinchain.com/article/349613",
+      "primary_url": "https://www.pinchain.com/article/349613",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
+          "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
+          "title": "2026年7月重庆“两江游”完成客运量36.7万人",
+          "url": "https://www.pinchain.com/article/349613",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
+          "published_at": "2026-08-05T07:32:35Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -1053,72 +904,71 @@
       ],
       "items": [
         {
-          "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-          "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-          "url": "https://www.pinchain.com/article/349606",
+          "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
+          "title": "2026年7月重庆“两江游”完成客运量36.7万人",
+          "url": "https://www.pinchain.com/article/349613",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:20:27Z",
+          "published_at": "2026-08-05T07:32:35Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5646,
-      "importance": 0.5646,
-      "importance_score": 0.5646,
+      "score": 0.5512,
+      "importance": 0.5512,
+      "importance_score": 0.5512,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "文旅",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7229,
+        "ai_relevance": 0.75,
+        "recency": 0.718,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T05:20:27Z",
-      "latest_at": "2026-08-05T05:20:27Z",
+      "earliest_at": "2026-08-05T07:32:35Z",
+      "latest_at": "2026-08-05T07:32:35Z",
       "primary_item": {
-        "id": "7653f5e050181d5876df3037942eb0ae69e4f232",
-        "title": "伪满遗迹成打卡热地,文旅出圈何以锚定历史分量？",
-        "url": "https://www.pinchain.com/article/349606",
+        "id": "df729c37e3f2b9df0956e526dc53748bda92315f",
+        "title": "2026年7月重庆“两江游”完成客运量36.7万人",
+        "url": "https://www.pinchain.com/article/349613",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
-      "story_id": "story_cd211cac4a05",
-      "title": "旅客携带充电宝自燃，长安航空通报",
-      "url": "https://www.pinchain.com/article/349605",
-      "primary_url": "https://www.pinchain.com/article/349605",
+      "story_id": "story_06106f59aa4a",
+      "title": "2026年7月长江三峡游轮发船495艘次",
+      "url": "https://www.pinchain.com/article/349614",
+      "primary_url": "https://www.pinchain.com/article/349614",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "22867195025f0232ac5de22adade462e57148145",
-          "title": "旅客携带充电宝自燃，长安航空通报",
-          "url": "https://www.pinchain.com/article/349605",
+          "id": "fbfb24f8c1fd6de852d88497382976fc123935ba",
+          "title": "2026年7月长江三峡游轮发船495艘次",
+          "url": "https://www.pinchain.com/article/349614",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:09:40Z",
+          "published_at": "2026-08-05T07:30:52Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -1127,52 +977,51 @@
       ],
       "items": [
         {
-          "id": "22867195025f0232ac5de22adade462e57148145",
-          "title": "旅客携带充电宝自燃，长安航空通报",
-          "url": "https://www.pinchain.com/article/349605",
+          "id": "fbfb24f8c1fd6de852d88497382976fc123935ba",
+          "title": "2026年7月长江三峡游轮发船495艘次",
+          "url": "https://www.pinchain.com/article/349614",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T05:09:40Z",
+          "published_at": "2026-08-05T07:30:52Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5643,
-      "importance": 0.5643,
-      "importance_score": 0.5643,
+      "score": 0.5512,
+      "importance": 0.5512,
+      "importance_score": 0.5512,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "航空",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.721,
+        "ai_relevance": 0.75,
+        "recency": 0.7177,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T05:09:40Z",
-      "latest_at": "2026-08-05T05:09:40Z",
+      "earliest_at": "2026-08-05T07:30:52Z",
+      "latest_at": "2026-08-05T07:30:52Z",
       "primary_item": {
-        "id": "22867195025f0232ac5de22adade462e57148145",
-        "title": "旅客携带充电宝自燃，长安航空通报",
-        "url": "https://www.pinchain.com/article/349605",
+        "id": "fbfb24f8c1fd6de852d88497382976fc123935ba",
+        "title": "2026年7月长江三峡游轮发船495艘次",
+        "url": "https://www.pinchain.com/article/349614",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -1214,9 +1063,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5562,
-      "importance": 0.5562,
-      "importance_score": 0.5562,
+      "score": 0.5507,
+      "importance": 0.5507,
+      "importance_score": 0.5507,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1227,7 +1076,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8151,
+        "recency": 0.7844,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1248,23 +1097,23 @@
       }
     },
     {
-      "story_id": "story_1f3d31246740",
-      "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-      "url": "https://www.pinchain.com/article/349596",
-      "primary_url": "https://www.pinchain.com/article/349596",
+      "story_id": "story_ddec5a2c9466",
+      "title": "宁夏原州“村BA”落幕 赛事点燃乡村文体活力",
+      "url": "https://www.pinchain.com/article/349618",
+      "primary_url": "https://www.pinchain.com/article/349618",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
+          "id": "90f0a9bbe2157f73a56ad9afb294de4055fd1973",
+          "title": "宁夏原州“村BA”落幕 赛事点燃乡村文体活力",
+          "url": "https://www.pinchain.com/article/349618",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
+          "published_at": "2026-08-05T07:20:40Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -1273,200 +1122,51 @@
       ],
       "items": [
         {
-          "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-          "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-          "url": "https://www.pinchain.com/article/349596",
+          "id": "90f0a9bbe2157f73a56ad9afb294de4055fd1973",
+          "title": "宁夏原州“村BA”落幕 赛事点燃乡村文体活力",
+          "url": "https://www.pinchain.com/article/349618",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:59:54Z",
+          "published_at": "2026-08-05T07:20:40Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.564,
-      "importance": 0.564,
-      "importance_score": 0.564,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7193,
+        "ai_relevance": 0.75,
+        "recency": 0.716,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-05T04:59:54Z",
-      "latest_at": "2026-08-05T04:59:54Z",
+      "earliest_at": "2026-08-05T07:20:40Z",
+      "latest_at": "2026-08-05T07:20:40Z",
       "primary_item": {
-        "id": "169fb364574475ac11133a10952670c2acfe7e9f",
-        "title": "韩国赴华游客数量持续增长 较去年同期增16％",
-        "url": "https://www.pinchain.com/article/349596",
+        "id": "90f0a9bbe2157f73a56ad9afb294de4055fd1973",
+        "title": "宁夏原州“村BA”落幕 赛事点燃乡村文体活力",
+        "url": "https://www.pinchain.com/article/349618",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_0b55e7231f18",
-      "title": "出境游升温 北京边检：警惕“境外赚快钱”骗局",
-      "url": "https://www.pinchain.com/article/349595",
-      "primary_url": "https://www.pinchain.com/article/349595",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "52d50de1ffbc726262dd375b61e14e24c21229cd",
-          "title": "出境游升温 北京边检：警惕“境外赚快钱”骗局",
-          "url": "https://www.pinchain.com/article/349595",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:56:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "52d50de1ffbc726262dd375b61e14e24c21229cd",
-          "title": "出境游升温 北京边检：警惕“境外赚快钱”骗局",
-          "url": "https://www.pinchain.com/article/349595",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:56:53Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5639,
-      "importance": 0.5639,
-      "importance_score": 0.5639,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "出境游",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7188,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T04:56:53Z",
-      "latest_at": "2026-08-05T04:56:53Z",
-      "primary_item": {
-        "id": "52d50de1ffbc726262dd375b61e14e24c21229cd",
-        "title": "出境游升温 北京边检：警惕“境外赚快钱”骗局",
-        "url": "https://www.pinchain.com/article/349595",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_7bcf93d353da",
-      "title": "多航司：国内航线燃油附加费今日开始正式下调",
-      "url": "https://www.pinchain.com/article/349594",
-      "primary_url": "https://www.pinchain.com/article/349594",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "557210104c76782f8925f4bcb628d5b6d938b9eb",
-          "title": "多航司：国内航线燃油附加费今日开始正式下调",
-          "url": "https://www.pinchain.com/article/349594",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:54:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "557210104c76782f8925f4bcb628d5b6d938b9eb",
-          "title": "多航司：国内航线燃油附加费今日开始正式下调",
-          "url": "https://www.pinchain.com/article/349594",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-05T04:54:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5638,
-      "importance": 0.5638,
-      "importance_score": 0.5638,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "航司",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7184,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-05T04:54:35Z",
-      "latest_at": "2026-08-05T04:54:35Z",
-      "primary_item": {
-        "id": "557210104c76782f8925f4bcb628d5b6d938b9eb",
-        "title": "多航司：国内航线燃油附加费今日开始正式下调",
-        "url": "https://www.pinchain.com/article/349594",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     }
   ]
