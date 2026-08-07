@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-08-07T03:27:36.163815Z",
+  "generated_at": "2026-08-07T05:15:48.050313Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_3f3f676a9dce",
+      "title": "美团既白AI免费面向中小酒店开放多个功能",
+      "url": "https://www.pinchain.com/article/349688",
+      "primary_url": "https://www.pinchain.com/article/349688",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+          "title": "美团既白AI免费面向中小酒店开放多个功能",
+          "url": "https://www.pinchain.com/article/349688",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T04:58:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+          "title": "美团既白AI免费面向中小酒店开放多个功能",
+          "url": "https://www.pinchain.com/article/349688",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T04:58:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6345,
+      "importance": 0.6345,
+      "importance_score": 0.6345,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.83,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5976,
+        "source_tier": 0.5,
+        "ai_relevance": 0.83,
+        "recency": 0.9958,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-07T04:58:28Z",
+      "latest_at": "2026-08-07T04:58:28Z",
+      "primary_item": {
+        "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+        "title": "美团既白AI免费面向中小酒店开放多个功能",
+        "url": "https://www.pinchain.com/article/349688",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.83
+      }
+    },
     {
       "story_id": "story_c3d736786e79",
       "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6029,
-      "importance": 0.6029,
-      "importance_score": 0.6029,
+      "score": 0.5986,
+      "importance": 0.5986,
+      "importance_score": 0.5986,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -55,7 +129,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9357,
+        "recency": 0.9116,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -69,80 +143,6 @@
         "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
         "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
         "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1a69a7bd1b3b",
-      "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
-      "url": "https://www.pinchain.com/article/349671",
-      "primary_url": "https://www.pinchain.com/article/349671",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
-          "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
-          "url": "https://www.pinchain.com/article/349671",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T10:15:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
-          "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
-          "url": "https://www.pinchain.com/article/349671",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T10:15:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.78,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-06T10:15:00Z",
-      "latest_at": "2026-08-06T10:15:00Z",
-      "primary_item": {
-        "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
-        "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
-        "url": "https://www.pinchain.com/article/349671",
-        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5737,
-      "importance": 0.5737,
-      "importance_score": 0.5737,
+      "score": 0.5691,
+      "importance": 0.5691,
+      "importance_score": 0.5691,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9812,
+        "recency": 0.956,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -223,23 +223,23 @@
       }
     },
     {
-      "story_id": "story_c9e4fe87b330",
-      "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
-      "url": "https://www.pinchain.com/article/349660",
-      "primary_url": "https://www.pinchain.com/article/349660",
+      "story_id": "story_281d55d220bf",
+      "title": "出行支付突破：Apple Pay可购买国航高舱",
+      "url": "https://www.pinchain.com/article/349686",
+      "primary_url": "https://www.pinchain.com/article/349686",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
-          "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
-          "url": "https://www.pinchain.com/article/349660",
+          "id": "47ab9ec2323504d903a0cf9e4adcb2ce6e0b8ed6",
+          "title": "出行支付突破：Apple Pay可购买国航高舱",
+          "url": "https://www.pinchain.com/article/349686",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T10:01:33Z",
+          "published_at": "2026-08-07T04:38:15Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -248,52 +248,51 @@
       ],
       "items": [
         {
-          "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
-          "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
-          "url": "https://www.pinchain.com/article/349660",
+          "id": "47ab9ec2323504d903a0cf9e4adcb2ce6e0b8ed6",
+          "title": "出行支付突破：Apple Pay可购买国航高舱",
+          "url": "https://www.pinchain.com/article/349686",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T10:01:33Z",
+          "published_at": "2026-08-07T04:38:15Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5744,
-      "importance": 0.5744,
-      "importance_score": 0.5744,
+      "score": 0.6004,
+      "importance": 0.6004,
+      "importance_score": 0.6004,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7774,
+        "ai_relevance": 0.75,
+        "recency": 0.991,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-06T10:01:33Z",
-      "latest_at": "2026-08-06T10:01:33Z",
+      "earliest_at": "2026-08-07T04:38:15Z",
+      "latest_at": "2026-08-07T04:38:15Z",
       "primary_item": {
-        "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
-        "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
-        "url": "https://www.pinchain.com/article/349660",
+        "id": "47ab9ec2323504d903a0cf9e4adcb2ce6e0b8ed6",
+        "title": "出行支付突破：Apple Pay可购买国航高舱",
+        "url": "https://www.pinchain.com/article/349686",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -335,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5677,
-      "importance": 0.5677,
-      "importance_score": 0.5677,
+      "score": 0.564,
+      "importance": 0.564,
+      "importance_score": 0.564,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -350,7 +349,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8094,
+        "recency": 0.7886,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -409,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5567,
-      "importance": 0.5567,
-      "importance_score": 0.5567,
+      "score": 0.5529,
+      "importance": 0.5529,
+      "importance_score": 0.5529,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -422,7 +421,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8177,
+        "recency": 0.7966,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -443,21 +442,94 @@
       }
     },
     {
-      "story_id": "story_e449edc53c5c",
-      "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
-      "url": "https://www.pinchain.com/article/349647",
-      "primary_url": "https://www.pinchain.com/article/349647",
+      "story_id": "story_f36f82bd3059",
+      "title": "《盗墓笔记》《第五人格》首进北环   “惊彩”环球破界启幕",
+      "url": "https://www.pinchain.com/article/349678",
+      "primary_url": "https://www.pinchain.com/article/349678",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
-          "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
-          "url": "https://www.pinchain.com/article/349647",
+          "id": "be0a744a1a2ce205543ad55f947db8bb76d751d6",
+          "title": "《盗墓笔记》《第五人格》首进北环   “惊彩”环球破界启幕",
+          "url": "https://www.pinchain.com/article/349678",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T09:21:10Z",
+          "published_at": "2026-08-07T04:12:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "be0a744a1a2ce205543ad55f947db8bb76d751d6",
+          "title": "《盗墓笔记》《第五人格》首进北环   “惊彩”环球破界启幕",
+          "url": "https://www.pinchain.com/article/349678",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T04:12:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5993,
+      "importance": 0.5993,
+      "importance_score": 0.5993,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9848,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-07T04:12:14Z",
+      "latest_at": "2026-08-07T04:12:14Z",
+      "primary_item": {
+        "id": "be0a744a1a2ce205543ad55f947db8bb76d751d6",
+        "title": "《盗墓笔记》《第五人格》首进北环   “惊彩”环球破界启幕",
+        "url": "https://www.pinchain.com/article/349678",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_1a69a7bd1b3b",
+      "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
+      "url": "https://www.pinchain.com/article/349671",
+      "primary_url": "https://www.pinchain.com/article/349671",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
+          "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
+          "url": "https://www.pinchain.com/article/349671",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T10:15:00Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -468,27 +540,27 @@
       ],
       "items": [
         {
-          "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
-          "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
-          "url": "https://www.pinchain.com/article/349647",
+          "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
+          "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
+          "url": "https://www.pinchain.com/article/349671",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T09:21:10Z",
+          "published_at": "2026-08-06T10:15:00Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5731,
-      "importance": 0.5731,
-      "importance_score": 0.5731,
+      "score": 0.5713,
+      "importance": 0.5713,
+      "importance_score": 0.5713,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -496,19 +568,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7699,
+        "recency": 0.7599,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-06T09:21:10Z",
-      "latest_at": "2026-08-06T09:21:10Z",
+      "earliest_at": "2026-08-06T10:15:00Z",
+      "latest_at": "2026-08-06T10:15:00Z",
       "primary_item": {
-        "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
-        "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
-        "url": "https://www.pinchain.com/article/349647",
+        "id": "37543993e956a2d6d86e3969b58fba15f8ce9383",
+        "title": "湖南乡村闲置老宅变身创业空间 催生文旅新业态",
+        "url": "https://www.pinchain.com/article/349671",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -555,9 +627,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5448,
-      "importance": 0.5448,
-      "importance_score": 0.5448,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [],
@@ -566,7 +638,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8209,
+        "recency": 0.7998,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -584,6 +656,154 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_c9e4fe87b330",
+      "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
+      "url": "https://www.pinchain.com/article/349660",
+      "primary_url": "https://www.pinchain.com/article/349660",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
+          "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
+          "url": "https://www.pinchain.com/article/349660",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T10:01:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
+          "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
+          "url": "https://www.pinchain.com/article/349660",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T10:01:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5708,
+      "importance": 0.5708,
+      "importance_score": 0.5708,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7574,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-06T10:01:33Z",
+      "latest_at": "2026-08-06T10:01:33Z",
+      "primary_item": {
+        "id": "94a3c25465c3838d72d99cf2204389a14024d9af",
+        "title": "同程旅行：暑期“工厂游”热度同比大涨36%",
+        "url": "https://www.pinchain.com/article/349660",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_e449edc53c5c",
+      "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
+      "url": "https://www.pinchain.com/article/349647",
+      "primary_url": "https://www.pinchain.com/article/349647",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
+          "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
+          "url": "https://www.pinchain.com/article/349647",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T09:21:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
+          "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
+          "url": "https://www.pinchain.com/article/349647",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T09:21:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5695,
+      "importance": 0.5695,
+      "importance_score": 0.5695,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7501,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-06T09:21:10Z",
+      "latest_at": "2026-08-06T09:21:10Z",
+      "primary_item": {
+        "id": "e975dde91874f82230e5281f8bdd98ca1df10599",
+        "title": "今年暑期涉水项目火热出圈 游客游玩还需冷静",
+        "url": "https://www.pinchain.com/article/349647",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -625,9 +845,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5707,
-      "importance": 0.5707,
-      "importance_score": 0.5707,
+      "score": 0.5672,
+      "importance": 0.5672,
+      "importance_score": 0.5672,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -640,7 +860,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7567,
+        "recency": 0.7373,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -699,9 +919,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -714,7 +934,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.7783,
+        "recency": 0.7583,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -773,9 +993,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.57,
-      "importance": 0.57,
-      "importance_score": 0.57,
+      "score": 0.5665,
+      "importance": 0.5665,
+      "importance_score": 0.5665,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -788,7 +1008,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7529,
+        "recency": 0.7335,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -847,9 +1067,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5627,
-      "importance": 0.5627,
-      "importance_score": 0.5627,
+      "score": 0.559,
+      "importance": 0.559,
+      "importance_score": 0.559,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -861,7 +1081,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7814,
+        "recency": 0.7613,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -920,9 +1140,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5625,
-      "importance": 0.5625,
-      "importance_score": 0.5625,
+      "score": 0.5589,
+      "importance": 0.5589,
+      "importance_score": 0.5589,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -934,7 +1154,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7803,
+        "recency": 0.7603,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -993,9 +1213,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5623,
-      "importance": 0.5623,
-      "importance_score": 0.5623,
+      "score": 0.5587,
+      "importance": 0.5587,
+      "importance_score": 0.5587,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1007,7 +1227,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7793,
+        "recency": 0.7593,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1066,9 +1286,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.562,
-      "importance": 0.562,
-      "importance_score": 0.562,
+      "score": 0.5584,
+      "importance": 0.5584,
+      "importance_score": 0.5584,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1080,7 +1300,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7779,
+        "recency": 0.7579,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1139,9 +1359,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
+      "score": 0.5583,
+      "importance": 0.5583,
+      "importance_score": 0.5583,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1153,7 +1373,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.777,
+        "recency": 0.757,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1212,9 +1432,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5609,
-      "importance": 0.5609,
-      "importance_score": 0.5609,
+      "score": 0.5573,
+      "importance": 0.5573,
+      "importance_score": 0.5573,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1226,7 +1446,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7718,
+        "recency": 0.7519,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1239,225 +1459,6 @@
         "id": "35784e93c104a84726d17767808c637d73ffbbbc",
         "title": "AMAN AT SEA首艘远洋游艇AMANGATI顺利完成下水仪式",
         "url": "https://www.pinchain.com/article/349648",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_4ab242b32cc6",
-      "title": "上海暑期跨境游火热 日均11.7万人次旅客出入境",
-      "url": "https://www.pinchain.com/article/349645",
-      "primary_url": "https://www.pinchain.com/article/349645",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a2a0383c4462f9e9f61c8be2e8f60800d3ddbf3e",
-          "title": "上海暑期跨境游火热 日均11.7万人次旅客出入境",
-          "url": "https://www.pinchain.com/article/349645",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T09:28:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "a2a0383c4462f9e9f61c8be2e8f60800d3ddbf3e",
-          "title": "上海暑期跨境游火热 日均11.7万人次旅客出入境",
-          "url": "https://www.pinchain.com/article/349645",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T09:28:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5608,
-      "importance": 0.5608,
-      "importance_score": 0.5608,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7712,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-06T09:28:05Z",
-      "latest_at": "2026-08-06T09:28:05Z",
-      "primary_item": {
-        "id": "a2a0383c4462f9e9f61c8be2e8f60800d3ddbf3e",
-        "title": "上海暑期跨境游火热 日均11.7万人次旅客出入境",
-        "url": "https://www.pinchain.com/article/349645",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_85f2bceb0b54",
-      "title": "深圳口岸今年入出境外国人超500万人次创新高",
-      "url": "https://www.pinchain.com/article/349636",
-      "primary_url": "https://www.pinchain.com/article/349636",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ea33cf3c07af03158a6e9c42862d8981c7337ea0",
-          "title": "深圳口岸今年入出境外国人超500万人次创新高",
-          "url": "https://www.pinchain.com/article/349636",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T08:07:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ea33cf3c07af03158a6e9c42862d8981c7337ea0",
-          "title": "深圳口岸今年入出境外国人超500万人次创新高",
-          "url": "https://www.pinchain.com/article/349636",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T08:07:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5582,
-      "importance": 0.5582,
-      "importance_score": 0.5582,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7564,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-06T08:07:41Z",
-      "latest_at": "2026-08-06T08:07:41Z",
-      "primary_item": {
-        "id": "ea33cf3c07af03158a6e9c42862d8981c7337ea0",
-        "title": "深圳口岸今年入出境外国人超500万人次创新高",
-        "url": "https://www.pinchain.com/article/349636",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_cdbf4e93ce85",
-      "title": "圣淘沙名胜世界重磅推出“超感狂欢节”主题活动",
-      "url": "https://www.pinchain.com/article/349643",
-      "primary_url": "https://www.pinchain.com/article/349643",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f59823d57908156f251e5bd62e82a6a8315a3074",
-          "title": "圣淘沙名胜世界重磅推出“超感狂欢节”主题活动",
-          "url": "https://www.pinchain.com/article/349643",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T08:06:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "f59823d57908156f251e5bd62e82a6a8315a3074",
-          "title": "圣淘沙名胜世界重磅推出“超感狂欢节”主题活动",
-          "url": "https://www.pinchain.com/article/349643",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-06T08:06:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5581,
-      "importance": 0.5581,
-      "importance_score": 0.5581,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7563,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-06T08:06:57Z",
-      "latest_at": "2026-08-06T08:06:57Z",
-      "primary_item": {
-        "id": "f59823d57908156f251e5bd62e82a6a8315a3074",
-        "title": "圣淘沙名胜世界重磅推出“超感狂欢节”主题活动",
-        "url": "https://www.pinchain.com/article/349643",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
