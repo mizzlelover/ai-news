@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T18:11:04.641419Z",
+  "generated_at": "2026-08-07T19:28:53.714864Z",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 20,
   "items": [
     {
       "story_id": "story_fe5acd7ea0f1",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6135,
-      "importance": 0.6135,
-      "importance_score": 0.6135,
+      "score": 0.6105,
+      "importance": 0.6105,
+      "importance_score": 0.6105,
       "ai_label": "tourism_policy",
       "ai_score": 0.83,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.8788,
+        "recency": 0.8625,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -97,9 +97,20 @@
           "published_at": "2026-08-07T17:44:53Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
+        },
+        {
+          "id": "147c9b7727ae62ace510e4e28a9508709554e08e",
+          "title": "GetYourGuide to Pass Its Digital Services Tax Bill to Tour Operators",
+          "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T17:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
-      "source_count": 1,
+      "source_count": 2,
       "source_names": [
         "Skift"
       ],
@@ -114,13 +125,24 @@
           "published_at": "2026-08-07T17:44:53Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
+        },
+        {
+          "id": "147c9b7727ae62ace510e4e28a9508709554e08e",
+          "title": "GetYourGuide to Pass Its Digital Services Tax Bill to Tour Operators",
+          "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T17:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
         }
       ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5884,
-      "importance": 0.5884,
-      "importance_score": 0.5884,
+      "item_count": 2,
+      "duplicate_count": 2,
+      "score": 0.6101,
+      "importance": 0.6101,
+      "importance_score": 0.6101,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,12 +153,12 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9937,
-        "story_heat": 0.0
+        "recency": 0.9753,
+        "story_heat": 0.25
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "multi_source"
       ],
       "earliest_at": "2026-08-07T17:44:53Z",
       "latest_at": "2026-08-07T17:44:53Z",
@@ -190,9 +212,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5816,
-      "importance": 0.5816,
-      "importance_score": 0.5816,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -203,7 +225,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9562,
+        "recency": 0.9385,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +284,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5724,
-      "importance": 0.5724,
-      "importance_score": 0.5724,
+      "score": 0.5696,
+      "importance": 0.5696,
+      "importance_score": 0.5696,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -276,7 +298,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8355,
+        "recency": 0.82,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -335,9 +357,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.604,
-      "importance": 0.604,
-      "importance_score": 0.604,
+      "score": 0.6013,
+      "importance": 0.6013,
+      "importance_score": 0.6013,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -350,7 +372,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.8263,
+        "recency": 0.811,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -371,22 +393,22 @@
       }
     },
     {
-      "story_id": "story_75e82a383730",
-      "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-      "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-      "primary_url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+      "story_id": "story_b5fa12bdbec5",
+      "title": "Google Confirms Hotel Agentic Booking Is Now in Testing",
+      "url": "https://skift.com/2026/08/07/google-confirms-hotel-agentic-booking-is-now-in-testing",
+      "primary_url": "https://skift.com/2026/08/07/google-confirms-hotel-agentic-booking-is-now-in-testing",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+          "id": "c0921610f27f004323be9dca7c59cbddcd20727a",
+          "title": "Google Confirms Hotel Agentic Booking Is Now in Testing",
+          "url": "https://skift.com/2026/08/07/google-confirms-hotel-agentic-booking-is-now-in-testing",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-07T13:48:06Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-08-07T18:53:06Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
@@ -396,49 +418,49 @@
       ],
       "items": [
         {
-          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+          "id": "c0921610f27f004323be9dca7c59cbddcd20727a",
+          "title": "Google Confirms Hotel Agentic Booking Is Now in Testing",
+          "url": "https://skift.com/2026/08/07/google-confirms-hotel-agentic-booking-is-now-in-testing",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-07T13:48:06Z",
-          "ai_label": "tourism_tech",
+          "published_at": "2026-08-07T18:53:06Z",
+          "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5785,
-      "importance": 0.5785,
-      "importance_score": 0.5785,
-      "ai_label": "tourism_tech",
+      "score": 0.588,
+      "importance": 0.588,
+      "importance_score": 0.588,
+      "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
-        "ai"
+        "hotel"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9387,
+        "recency": 0.9914,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-07T13:48:06Z",
-      "latest_at": "2026-08-07T13:48:06Z",
+      "earliest_at": "2026-08-07T18:53:06Z",
+      "latest_at": "2026-08-07T18:53:06Z",
       "primary_item": {
-        "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-        "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-        "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+        "id": "c0921610f27f004323be9dca7c59cbddcd20727a",
+        "title": "Google Confirms Hotel Agentic Booking Is Now in Testing",
+        "url": "https://skift.com/2026/08/07/google-confirms-hotel-agentic-booking-is-now-in-testing",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
+        "ai_label": "hospitality_ops",
         "ai_score": 0.72
       }
     },
@@ -481,9 +503,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6039,
-      "importance": 0.6039,
-      "importance_score": 0.6039,
+      "score": 0.601,
+      "importance": 0.601,
+      "importance_score": 0.601,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -497,7 +519,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8722,
+        "recency": 0.856,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -518,23 +540,23 @@
       }
     },
     {
-      "story_id": "story_c3d736786e79",
-      "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
-      "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
-      "primary_url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+      "story_id": "story_75e82a383730",
+      "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+      "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+      "primary_url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
-          "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
-          "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T22:51:25Z",
+          "published_at": "2026-08-07T13:48:06Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
@@ -543,50 +565,50 @@
       ],
       "items": [
         {
-          "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
-          "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
-          "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-06T22:51:25Z",
+          "published_at": "2026-08-07T13:48:06Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5706,
-      "importance": 0.5706,
-      "importance_score": 0.5706,
+      "score": 0.5753,
+      "importance": 0.5753,
+      "importance_score": 0.5753,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.72,
       "ai_signals": [
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7565,
+        "ai_relevance": 0.72,
+        "recency": 0.9213,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-06T22:51:25Z",
-      "latest_at": "2026-08-06T22:51:25Z",
+      "earliest_at": "2026-08-07T13:48:06Z",
+      "latest_at": "2026-08-07T13:48:06Z",
       "primary_item": {
-        "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
-        "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
-        "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+        "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+        "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+        "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.72
       }
     },
     {
@@ -628,9 +650,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -643,7 +665,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8797,
+        "recency": 0.8633,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -657,6 +679,78 @@
         "title": "来得多、住得久、消费旺 看上海入境游新变化",
         "url": "https://www.pinchain.com/article/349713",
         "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_c3d736786e79",
+      "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
+      "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+      "primary_url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
+          "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
+          "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T22:51:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
+          "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
+          "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-06T22:51:25Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5681,
+      "importance": 0.5681,
+      "importance_score": 0.5681,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7424,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-06T22:51:25Z",
+      "latest_at": "2026-08-06T22:51:25Z",
+      "primary_item": {
+        "id": "4e4e302fc9f59e059c24e13fada99de160dd3b12",
+        "title": "Airbnb Is Growing Faster Than Rivals as AI Speeds Up Product Releases",
+        "url": "https://skift.com/2026/08/06/airbnb-is-growing-faster-than-rivals-as-ai-speeds-up-product-releases",
+        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -702,9 +796,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5398,
-      "importance": 0.5398,
-      "importance_score": 0.5398,
+      "score": 0.5372,
+      "importance": 0.5372,
+      "importance_score": 0.5372,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -716,7 +810,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7933,
+        "recency": 0.7786,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -775,9 +869,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5927,
-      "importance": 0.5927,
-      "importance_score": 0.5927,
+      "score": 0.5898,
+      "importance": 0.5898,
+      "importance_score": 0.5898,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -790,7 +884,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8793,
+        "recency": 0.8629,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -849,9 +943,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5911,
-      "importance": 0.5911,
-      "importance_score": 0.5911,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -864,7 +958,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8702,
+        "recency": 0.854,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -923,9 +1017,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.591,
-      "importance": 0.591,
-      "importance_score": 0.591,
+      "score": 0.5881,
+      "importance": 0.5881,
+      "importance_score": 0.5881,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -938,7 +1032,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8694,
+        "recency": 0.8533,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +1091,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5909,
-      "importance": 0.5909,
-      "importance_score": 0.5909,
+      "score": 0.588,
+      "importance": 0.588,
+      "importance_score": 0.588,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1012,7 +1106,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.869,
+        "recency": 0.8529,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1071,9 +1165,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5786,
-      "importance": 0.5786,
-      "importance_score": 0.5786,
+      "score": 0.5757,
+      "importance": 0.5757,
+      "importance_score": 0.5757,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1085,7 +1179,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8698,
+        "recency": 0.8537,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1144,9 +1238,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5771,
-      "importance": 0.5771,
-      "importance_score": 0.5771,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1158,7 +1252,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8617,
+        "recency": 0.8457,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1311,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5761,
-      "importance": 0.5761,
-      "importance_score": 0.5761,
+      "score": 0.5732,
+      "importance": 0.5732,
+      "importance_score": 0.5732,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1231,7 +1325,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8559,
+        "recency": 0.84,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1290,9 +1384,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.57,
-      "importance": 0.57,
-      "importance_score": 0.57,
+      "score": 0.5673,
+      "importance": 0.5673,
+      "importance_score": 0.5673,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1304,7 +1398,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8223,
+        "recency": 0.8071,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1457,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5691,
-      "importance": 0.5691,
-      "importance_score": 0.5691,
+      "score": 0.5664,
+      "importance": 0.5664,
+      "importance_score": 0.5664,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1377,7 +1471,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8172,
+        "recency": 0.802,
         "story_heat": 0.0
       },
       "category": "watch",
