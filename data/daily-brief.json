@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-07T17:23:10.043788Z",
+  "generated_at": "2026-08-07T18:11:04.641419Z",
   "window_hours": 24,
-  "total_items": 18,
+  "total_items": 19,
   "items": [
     {
       "story_id": "story_fe5acd7ea0f1",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6153,
-      "importance": 0.6153,
-      "importance_score": 0.6153,
+      "score": 0.6135,
+      "importance": 0.6135,
+      "importance_score": 0.6135,
       "ai_label": "tourism_policy",
       "ai_score": 0.83,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.889,
+        "recency": 0.8788,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,6 +77,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.83
+      }
+    },
+    {
+      "story_id": "story_9557750d38fe",
+      "title": "GetYourGuide to Pass Its Digital Services Tax Bill on to Suppliers",
+      "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+      "primary_url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "1ceb93a24e72d514c8ed78809e38139a19c6c0aa",
+          "title": "GetYourGuide to Pass Its Digital Services Tax Bill on to Suppliers",
+          "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T17:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "1ceb93a24e72d514c8ed78809e38139a19c6c0aa",
+          "title": "GetYourGuide to Pass Its Digital Services Tax Bill on to Suppliers",
+          "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T17:44:53Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5884,
+      "importance": 0.5884,
+      "importance_score": 0.5884,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "digital"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9937,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-07T17:44:53Z",
+      "latest_at": "2026-08-07T17:44:53Z",
+      "primary_item": {
+        "id": "1ceb93a24e72d514c8ed78809e38139a19c6c0aa",
+        "title": "GetYourGuide to Pass Its Digital Services Tax Bill on to Suppliers",
+        "url": "https://skift.com/2026/08/07/getyourguide-to-pass-its-digital-services-tax-bill-on-to-suppliers",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -118,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5836,
-      "importance": 0.5836,
-      "importance_score": 0.5836,
+      "score": 0.5816,
+      "importance": 0.5816,
+      "importance_score": 0.5816,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +203,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9673,
+        "recency": 0.9562,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -148,78 +220,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_75e82a383730",
-      "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-      "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-      "primary_url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T13:48:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T13:48:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9496,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-07T13:48:06Z",
-      "latest_at": "2026-08-07T13:48:06Z",
-      "primary_item": {
-        "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
-        "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
-        "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
         "ai_score": 0.72
       }
     },
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5741,
-      "importance": 0.5741,
-      "importance_score": 0.5741,
+      "score": 0.5724,
+      "importance": 0.5724,
+      "importance_score": 0.5724,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -276,7 +276,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8452,
+        "recency": 0.8355,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -294,6 +294,152 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_3f3f676a9dce",
+      "title": "美团既白AI免费面向中小酒店开放多个功能",
+      "url": "https://www.pinchain.com/article/349688",
+      "primary_url": "https://www.pinchain.com/article/349688",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+          "title": "美团既白AI免费面向中小酒店开放多个功能",
+          "url": "https://www.pinchain.com/article/349688",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T04:58:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+          "title": "美团既白AI免费面向中小酒店开放多个功能",
+          "url": "https://www.pinchain.com/article/349688",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T04:58:28Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.604,
+      "importance": 0.604,
+      "importance_score": 0.604,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.83,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5976,
+        "source_tier": 0.5,
+        "ai_relevance": 0.83,
+        "recency": 0.8263,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-07T04:58:28Z",
+      "latest_at": "2026-08-07T04:58:28Z",
+      "primary_item": {
+        "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
+        "title": "美团既白AI免费面向中小酒店开放多个功能",
+        "url": "https://www.pinchain.com/article/349688",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.83
+      }
+    },
+    {
+      "story_id": "story_75e82a383730",
+      "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+      "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+      "primary_url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T13:48:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+          "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+          "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-07T13:48:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5785,
+      "importance": 0.5785,
+      "importance_score": 0.5785,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9387,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-07T13:48:06Z",
+      "latest_at": "2026-08-07T13:48:06Z",
+      "primary_item": {
+        "id": "aaf2f51b68eae737e19646a06fef70d83ca05a32",
+        "title": "A Dozen Airlines Put a Number on the Fuel Spike. Here’s How Much They Clawed Back",
+        "url": "https://skift.com/2026/08/07/a-dozen-airlines-put-a-number-on-the-fuel-spike-heres-how-much-they-clawed-back",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -335,9 +481,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6058,
-      "importance": 0.6058,
-      "importance_score": 0.6058,
+      "score": 0.6039,
+      "importance": 0.6039,
+      "importance_score": 0.6039,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -351,7 +497,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8823,
+        "recency": 0.8722,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5722,
-      "importance": 0.5722,
-      "importance_score": 0.5722,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -423,7 +569,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7652,
+        "recency": 0.7565,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -441,80 +587,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_3f3f676a9dce",
-      "title": "美团既白AI免费面向中小酒店开放多个功能",
-      "url": "https://www.pinchain.com/article/349688",
-      "primary_url": "https://www.pinchain.com/article/349688",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
-          "title": "美团既白AI免费面向中小酒店开放多个功能",
-          "url": "https://www.pinchain.com/article/349688",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T04:58:28Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.83
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
-          "title": "美团既白AI免费面向中小酒店开放多个功能",
-          "url": "https://www.pinchain.com/article/349688",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T04:58:28Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.83
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6057,
-      "importance": 0.6057,
-      "importance_score": 0.6057,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.83,
-      "ai_signals": [
-        "旅游",
-        "酒店",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5976,
-        "source_tier": 0.5,
-        "ai_relevance": 0.83,
-        "recency": 0.8359,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-07T04:58:28Z",
-      "latest_at": "2026-08-07T04:58:28Z",
-      "primary_item": {
-        "id": "0031a375691c0f4a8cac9f097a55133fcf617f12",
-        "title": "美团既白AI免费面向中小酒店开放多个功能",
-        "url": "https://www.pinchain.com/article/349688",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.83
       }
     },
     {
@@ -556,9 +628,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
+      "score": 0.5928,
+      "importance": 0.5928,
+      "importance_score": 0.5928,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -571,7 +643,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8899,
+        "recency": 0.8797,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -630,9 +702,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5415,
-      "importance": 0.5415,
-      "importance_score": 0.5415,
+      "score": 0.5398,
+      "importance": 0.5398,
+      "importance_score": 0.5398,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -644,7 +716,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8025,
+        "recency": 0.7933,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -703,9 +775,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5946,
-      "importance": 0.5946,
-      "importance_score": 0.5946,
+      "score": 0.5927,
+      "importance": 0.5927,
+      "importance_score": 0.5927,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -718,7 +790,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8895,
+        "recency": 0.8793,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -777,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5929,
-      "importance": 0.5929,
-      "importance_score": 0.5929,
+      "score": 0.5911,
+      "importance": 0.5911,
+      "importance_score": 0.5911,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -792,7 +864,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8802,
+        "recency": 0.8702,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -851,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.591,
+      "importance": 0.591,
+      "importance_score": 0.591,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -866,7 +938,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8795,
+        "recency": 0.8694,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -925,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5927,
-      "importance": 0.5927,
-      "importance_score": 0.5927,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -940,7 +1012,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8791,
+        "recency": 0.869,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -999,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
+      "score": 0.5786,
+      "importance": 0.5786,
+      "importance_score": 0.5786,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1013,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8799,
+        "recency": 0.8698,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1072,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5789,
-      "importance": 0.5789,
-      "importance_score": 0.5789,
+      "score": 0.5771,
+      "importance": 0.5771,
+      "importance_score": 0.5771,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1086,7 +1158,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8717,
+        "recency": 0.8617,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5778,
-      "importance": 0.5778,
-      "importance_score": 0.5778,
+      "score": 0.5761,
+      "importance": 0.5761,
+      "importance_score": 0.5761,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1159,7 +1231,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8658,
+        "recency": 0.8559,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1218,9 +1290,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5717,
-      "importance": 0.5717,
-      "importance_score": 0.5717,
+      "score": 0.57,
+      "importance": 0.57,
+      "importance_score": 0.57,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1232,7 +1304,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8319,
+        "recency": 0.8223,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1291,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5708,
-      "importance": 0.5708,
-      "importance_score": 0.5708,
+      "score": 0.5691,
+      "importance": 0.5691,
+      "importance_score": 0.5691,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1305,7 +1377,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8267,
+        "recency": 0.8172,
         "story_heat": 0.0
       },
       "category": "watch",
