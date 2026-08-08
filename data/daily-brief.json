@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-08T08:39:14.063098Z",
+  "generated_at": "2026-08-08T09:36:02.427869Z",
   "window_hours": 24,
-  "total_items": 11,
+  "total_items": 7,
   "items": [
     {
       "story_id": "story_f84a42bf9041",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6103,
-      "importance": 0.6103,
-      "importance_score": 0.6103,
+      "score": 0.6081,
+      "importance": 0.6081,
+      "importance_score": 0.6081,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9076,
+        "recency": 0.8953,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5905,
-      "importance": 0.5905,
-      "importance_score": 0.5905,
+      "score": 0.5883,
+      "importance": 0.5883,
+      "importance_score": 0.5883,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8897,
+        "recency": 0.8776,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
+      "score": 0.5633,
+      "importance": 0.5633,
+      "importance_score": 0.5633,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9364,
+        "recency": 0.9237,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5492,
-      "importance": 0.5492,
-      "importance_score": 0.5492,
+      "score": 0.5473,
+      "importance": 0.5473,
+      "importance_score": 0.5473,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7759,
+        "recency": 0.7654,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -293,82 +293,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_fe5acd7ea0f1",
-      "title": "酒店应加强网络宣传信息监管 保障游客消费权益",
-      "url": "https://www.pinchain.com/article/349711",
-      "primary_url": "https://www.pinchain.com/article/349711",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "356e02adbc3c7f19f0b8e64ac6d26d22beda5c25",
-          "title": "酒店应加强网络宣传信息监管 保障游客消费权益",
-          "url": "https://www.pinchain.com/article/349711",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:14:09Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.83
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "356e02adbc3c7f19f0b8e64ac6d26d22beda5c25",
-          "title": "酒店应加强网络宣传信息监管 保障游客消费权益",
-          "url": "https://www.pinchain.com/article/349711",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:14:09Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.83
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5836,
-      "importance": 0.5836,
-      "importance_score": 0.5836,
-      "ai_label": "tourism_policy",
-      "ai_score": 0.83,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "酒店",
-        "ai",
-        "监管"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5976,
-        "source_tier": 0.5,
-        "ai_relevance": 0.83,
-        "recency": 0.7131,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-07T09:14:09Z",
-      "latest_at": "2026-08-07T09:14:09Z",
-      "primary_item": {
-        "id": "356e02adbc3c7f19f0b8e64ac6d26d22beda5c25",
-        "title": "酒店应加强网络宣传信息监管 保障游客消费权益",
-        "url": "https://www.pinchain.com/article/349711",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_policy",
-        "ai_score": 0.83
       }
     },
     {
@@ -432,9 +356,9 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5797,
-      "importance": 0.5797,
-      "importance_score": 0.5797,
+      "score": 0.5777,
+      "importance": 0.5777,
+      "importance_score": 0.5777,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -445,7 +369,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8063,
+        "recency": 0.7954,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -463,81 +387,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_24b0a1aaf0f0",
-      "title": "未成年游客景区被伤 县城巡回法庭就地开庭",
-      "url": "https://www.pinchain.com/article/349703",
-      "primary_url": "https://www.pinchain.com/article/349703",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "82195758a13ce93cae831b11ab0b871f3541519b",
-          "title": "未成年游客景区被伤 县城巡回法庭就地开庭",
-          "url": "https://www.pinchain.com/article/349703",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T08:42:46Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "82195758a13ce93cae831b11ab0b871f3541519b",
-          "title": "未成年游客景区被伤 县城巡回法庭就地开庭",
-          "url": "https://www.pinchain.com/article/349703",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T08:42:46Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5743,
-      "importance": 0.5743,
-      "importance_score": 0.5743,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "旅游",
-        "景区",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7077,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-07T08:42:46Z",
-      "latest_at": "2026-08-07T08:42:46Z",
-      "primary_item": {
-        "id": "82195758a13ce93cae831b11ab0b871f3541519b",
-        "title": "未成年游客景区被伤 县城巡回法庭就地开庭",
-        "url": "https://www.pinchain.com/article/349703",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -579,9 +428,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5571,
-      "importance": 0.5571,
-      "importance_score": 0.5571,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -592,7 +441,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8197,
+        "recency": 0.8086,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -610,80 +459,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_59d2ed0abfd7",
-      "title": "来得多、住得久、消费旺 看上海入境游新变化",
-      "url": "https://www.pinchain.com/article/349713",
-      "primary_url": "https://www.pinchain.com/article/349713",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "00be3021073c01935ca947b615ce3c510c4e8588",
-          "title": "来得多、住得久、消费旺 看上海入境游新变化",
-          "url": "https://www.pinchain.com/article/349713",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:18:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "00be3021073c01935ca947b615ce3c510c4e8588",
-          "title": "来得多、住得久、消费旺 看上海入境游新变化",
-          "url": "https://www.pinchain.com/article/349713",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:18:22Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.563,
-      "importance": 0.563,
-      "importance_score": 0.563,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "入境游",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7138,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-07T09:18:22Z",
-      "latest_at": "2026-08-07T09:18:22Z",
-      "primary_item": {
-        "id": "00be3021073c01935ca947b615ce3c510c4e8588",
-        "title": "来得多、住得久、消费旺 看上海入境游新变化",
-        "url": "https://www.pinchain.com/article/349713",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -725,9 +500,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5466,
-      "importance": 0.5466,
-      "importance_score": 0.5466,
+      "score": 0.5448,
+      "importance": 0.5448,
+      "importance_score": 0.5448,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -738,7 +513,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7617,
+        "recency": 0.7513,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -756,80 +531,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_4fde66808a37",
-      "title": "反向海淘持续火热，外国游客为啥爱上“中国购”",
-      "url": "https://www.pinchain.com/article/349712",
-      "primary_url": "https://www.pinchain.com/article/349712",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4465f64fa3c20f1938313e2581b2404d224897ba",
-          "title": "反向海淘持续火热，外国游客为啥爱上“中国购”",
-          "url": "https://www.pinchain.com/article/349712",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:16:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4465f64fa3c20f1938313e2581b2404d224897ba",
-          "title": "反向海淘持续火热，外国游客为啥爱上“中国购”",
-          "url": "https://www.pinchain.com/article/349712",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-07T09:16:25Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5629,
-      "importance": 0.5629,
-      "importance_score": 0.5629,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7135,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-07T09:16:25Z",
-      "latest_at": "2026-08-07T09:16:25Z",
-      "primary_item": {
-        "id": "4465f64fa3c20f1938313e2581b2404d224897ba",
-        "title": "反向海淘持续火热，外国游客为啥爱上“中国购”",
-        "url": "https://www.pinchain.com/article/349712",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     }
   ]
