@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-09T23:01:39.123088Z",
+  "generated_at": "2026-08-09T23:57:47.234591Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 447,
-  "total_items_all_mode": 447,
+  "total_items_raw": 457,
+  "total_items_all_mode": 457,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 14873,
+  "archive_total": 14811,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 447
+      "raw_count": 457
     }
   ],
   "creator_window_days": 7,
