@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-09T07:31:44.344747Z",
+  "generated_at": "2026-08-09T08:40:22.141709Z",
   "window_hours": 24,
   "total_items": 1,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.5631,
+      "importance": 0.5631,
+      "importance_score": 0.5631,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9378,
+        "recency": 0.9224,
         "story_heat": 0.0
       },
       "category": "watch",
