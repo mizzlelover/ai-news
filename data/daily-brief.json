@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-10T10:42:43.605569Z",
+  "generated_at": "2026-08-10T11:45:38.133542Z",
   "window_hours": 24,
-  "total_items": 17,
+  "total_items": 18,
   "items": [
     {
       "story_id": "story_dbde4155109f",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6055,
-      "importance": 0.6055,
-      "importance_score": 0.6055,
+      "score": 0.6029,
+      "importance": 0.6029,
+      "importance_score": 0.6029,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9501,
+        "recency": 0.9358,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -75,6 +75,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0aaf465708fd",
+      "title": "飞猪推出旅行 AI 产品“飞猪帮帮”，能帮用户订机酒、做攻略",
+      "url": "https://www.ithome.com/0/988/010.htm",
+      "primary_url": "https://www.ithome.com/0/988/010.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d5a9098987de9e6f36c9e146f7ea2ddc560e0a95",
+          "title": "飞猪推出旅行 AI 产品“飞猪帮帮”，能帮用户订机酒、做攻略",
+          "url": "https://www.ithome.com/0/988/010.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T11:13:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "d5a9098987de9e6f36c9e146f7ea2ddc560e0a95",
+          "title": "飞猪推出旅行 AI 产品“飞猪帮帮”，能帮用户订机酒、做攻略",
+          "url": "https://www.ithome.com/0/988/010.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T11:13:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6006,
+      "importance": 0.6006,
+      "importance_score": 0.6006,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9923,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T11:13:20Z",
+      "latest_at": "2026-08-10T11:13:20Z",
+      "primary_item": {
+        "id": "d5a9098987de9e6f36c9e146f7ea2ddc560e0a95",
+        "title": "飞猪推出旅行 AI 产品“飞猪帮帮”，能帮用户订机酒、做攻略",
+        "url": "https://www.ithome.com/0/988/010.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -116,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6009,
-      "importance": 0.6009,
-      "importance_score": 0.6009,
+      "score": 0.5982,
+      "importance": 0.5982,
+      "importance_score": 0.5982,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -130,7 +203,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9937,
+        "recency": 0.9788,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -147,81 +220,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_954600938f9e",
-      "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-      "url": "https://www.ithome.com/0/987/662.htm",
-      "primary_url": "https://www.ithome.com/0/987/662.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-          "url": "https://www.ithome.com/0/987/662.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T00:04:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-          "url": "https://www.ithome.com/0/987/662.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T00:04:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "具身智能",
-        "具身",
-        "酒店",
-        "智能"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8577,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T00:04:43Z",
-      "latest_at": "2026-08-10T00:04:43Z",
-      "primary_item": {
-        "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-        "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-        "url": "https://www.ithome.com/0/987/662.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
         "ai_score": 0.75
       }
     },
@@ -264,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6051,
-      "importance": 0.6051,
-      "importance_score": 0.6051,
+      "score": 0.6025,
+      "importance": 0.6025,
+      "importance_score": 0.6025,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -279,7 +277,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9477,
+        "recency": 0.9334,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -338,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5493,
-      "importance": 0.5493,
-      "importance_score": 0.5493,
+      "score": 0.547,
+      "importance": 0.547,
+      "importance_score": 0.547,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -352,7 +350,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.846,
+        "recency": 0.8333,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -373,76 +371,78 @@
       }
     },
     {
-      "story_id": "story_ac5197277be1",
-      "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-      "url": "https://www.jiemian.com/article/14900995.html",
-      "primary_url": "https://www.jiemian.com/article/14900995.html",
-      "source": "界面新闻",
+      "story_id": "story_954600938f9e",
+      "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+      "url": "https://www.ithome.com/0/987/662.htm",
+      "primary_url": "https://www.ithome.com/0/987/662.htm",
+      "source": "IT之家",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
+          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
+          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+          "url": "https://www.ithome.com/0/987/662.htm",
+          "source": "IT之家",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
+          "published_at": "2026-08-10T00:04:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
       "source_names": [
-        "界面新闻"
+        "IT之家"
       ],
       "items": [
         {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
+          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
+          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+          "url": "https://www.ithome.com/0/987/662.htm",
+          "source": "IT之家",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
+          "published_at": "2026-08-10T00:04:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5728,
-      "importance": 0.5728,
-      "importance_score": 0.5728,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.69,
+      "score": 0.5741,
+      "importance": 0.5741,
+      "importance_score": 0.5741,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
       "ai_signals": [
-        "游客",
-        "科技"
+        "具身智能",
+        "具身",
+        "酒店",
+        "智能"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.4968,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.9763,
+        "ai_relevance": 0.75,
+        "recency": 0.8448,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-10T09:03:01Z",
-      "latest_at": "2026-08-10T09:03:01Z",
+      "earliest_at": "2026-08-10T00:04:43Z",
+      "latest_at": "2026-08-10T00:04:43Z",
       "primary_item": {
-        "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-        "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-        "url": "https://www.jiemian.com/article/14900995.html",
-        "source": "界面新闻",
+        "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
+        "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+        "url": "https://www.ithome.com/0/987/662.htm",
+        "source": "IT之家",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
-        "ai_score": 0.69
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
       }
     },
     {
@@ -484,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6046,
-      "importance": 0.6046,
-      "importance_score": 0.6046,
+      "score": 0.6021,
+      "importance": 0.6021,
+      "importance_score": 0.6021,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9452,
+        "recency": 0.931,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +558,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6046,
-      "importance": 0.6046,
-      "importance_score": 0.6046,
+      "score": 0.602,
+      "importance": 0.602,
+      "importance_score": 0.602,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +573,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9448,
+        "recency": 0.9306,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -591,6 +591,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_ac5197277be1",
+      "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+      "url": "https://www.jiemian.com/article/14900995.html",
+      "primary_url": "https://www.jiemian.com/article/14900995.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+          "url": "https://www.jiemian.com/article/14900995.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T09:03:01Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+          "url": "https://www.jiemian.com/article/14900995.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T09:03:01Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5701,
+      "importance": 0.5701,
+      "importance_score": 0.5701,
+      "ai_label": "destination_marketing",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "游客",
+        "科技"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.9616,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T09:03:01Z",
+      "latest_at": "2026-08-10T09:03:01Z",
+      "primary_item": {
+        "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+        "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+        "url": "https://www.jiemian.com/article/14900995.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "destination_marketing",
+        "ai_score": 0.69
       }
     },
     {
@@ -632,9 +705,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6043,
-      "importance": 0.6043,
-      "importance_score": 0.6043,
+      "score": 0.602,
+      "importance": 0.602,
+      "importance_score": 0.602,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -648,7 +721,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8742,
+        "recency": 0.8611,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -707,9 +780,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6037,
-      "importance": 0.6037,
-      "importance_score": 0.6037,
+      "score": 0.6012,
+      "importance": 0.6012,
+      "importance_score": 0.6012,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -722,7 +795,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9404,
+        "recency": 0.9262,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -781,9 +854,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.593,
-      "importance": 0.593,
-      "importance_score": 0.593,
+      "score": 0.5904,
+      "importance": 0.5904,
+      "importance_score": 0.5904,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -795,7 +868,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9498,
+        "recency": 0.9355,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -854,9 +927,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.5903,
+      "importance": 0.5903,
+      "importance_score": 0.5903,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -868,7 +941,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9491,
+        "recency": 0.9348,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -927,9 +1000,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5924,
-      "importance": 0.5924,
-      "importance_score": 0.5924,
+      "score": 0.5898,
+      "importance": 0.5898,
+      "importance_score": 0.5898,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -941,7 +1014,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9465,
+        "recency": 0.9323,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1000,9 +1073,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5922,
-      "importance": 0.5922,
-      "importance_score": 0.5922,
+      "score": 0.5896,
+      "importance": 0.5896,
+      "importance_score": 0.5896,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1014,7 +1087,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9456,
+        "recency": 0.9314,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1073,9 +1146,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.591,
-      "importance": 0.591,
-      "importance_score": 0.591,
+      "score": 0.5884,
+      "importance": 0.5884,
+      "importance_score": 0.5884,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1087,7 +1160,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9388,
+        "recency": 0.9247,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1146,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5838,
-      "importance": 0.5838,
-      "importance_score": 0.5838,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1160,7 +1233,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8991,
+        "recency": 0.8856,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1219,9 +1292,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5794,
-      "importance": 0.5794,
-      "importance_score": 0.5794,
+      "score": 0.577,
+      "importance": 0.577,
+      "importance_score": 0.577,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1233,7 +1306,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8744,
+        "recency": 0.8613,
         "story_heat": 0.0
       },
       "category": "watch",
