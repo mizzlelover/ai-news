@@ -1,8 +1,81 @@
 {
-  "generated_at": "2026-08-10T15:58:41.744744Z",
+  "generated_at": "2026-08-10T17:01:26.744208Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_1e9c5b5e79af",
+      "title": "Agoda CEO to Lead Booking Holdings’ New B2B Unit, New Tech Details: Scoop",
+      "url": "https://skift.com/2026/08/10/booking-holdings-makes-leadership-appointments-tied-to-new-b2b-unit-as-partners-get-onboarded-scoop",
+      "primary_url": "https://skift.com/2026/08/10/booking-holdings-makes-leadership-appointments-tied-to-new-b2b-unit-as-partners-get-onboarded-scoop",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "137a98c9629ba5772f561b5bf0403a027c170f78",
+          "title": "Agoda CEO to Lead Booking Holdings’ New B2B Unit, New Tech Details: Scoop",
+          "url": "https://skift.com/2026/08/10/booking-holdings-makes-leadership-appointments-tied-to-new-b2b-unit-as-partners-get-onboarded-scoop",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T16:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.74
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "137a98c9629ba5772f561b5bf0403a027c170f78",
+          "title": "Agoda CEO to Lead Booking Holdings’ New B2B Unit, New Tech Details: Scoop",
+          "url": "https://skift.com/2026/08/10/booking-holdings-makes-leadership-appointments-tied-to-new-b2b-unit-as-partners-get-onboarded-scoop",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T16:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.74
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5952,
+      "importance": 0.5952,
+      "importance_score": 0.5952,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.74,
+      "ai_signals": [
+        "ai",
+        "tech"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5328,
+        "source_tier": 0.5,
+        "ai_relevance": 0.74,
+        "recency": 0.9853,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T16:00:00Z",
+      "latest_at": "2026-08-10T16:00:00Z",
+      "primary_item": {
+        "id": "137a98c9629ba5772f561b5bf0403a027c170f78",
+        "title": "Agoda CEO to Lead Booking Holdings’ New B2B Unit, New Tech Details: Scoop",
+        "url": "https://skift.com/2026/08/10/booking-holdings-makes-leadership-appointments-tied-to-new-b2b-unit-as-partners-get-onboarded-scoop",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.74
+      }
+    },
     {
       "story_id": "story_91092d3d20d1",
       "title": "众信优游深圳公司盛大启幕",
@@ -42,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5969,
-      "importance": 0.5969,
-      "importance_score": 0.5969,
+      "score": 0.5943,
+      "importance": 0.5943,
+      "importance_score": 0.5943,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +129,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9717,
+        "recency": 0.9571,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -70,79 +143,6 @@
         "title": "众信优游深圳公司盛大启幕",
         "url": "https://www.pinchain.com/article/349760",
         "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_a47d5ac444a7",
-      "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
-      "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
-      "primary_url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
-          "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
-          "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T12:27:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
-          "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
-          "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T12:27:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5931,
-      "importance": 0.5931,
-      "importance_score": 0.5931,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "tourist",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9504,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T12:27:17Z",
-      "latest_at": "2026-08-10T12:27:17Z",
-      "primary_item": {
-        "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
-        "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
-        "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
-        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5901,
-      "importance": 0.5901,
-      "importance_score": 0.5901,
+      "score": 0.5875,
+      "importance": 0.5875,
+      "importance_score": 0.5875,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9336,
+        "recency": 0.9196,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5861,
+      "importance": 0.5861,
+      "importance_score": 0.5861,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -274,7 +274,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.996,
+        "recency": 0.9811,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -333,9 +333,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5878,
-      "importance": 0.5878,
-      "importance_score": 0.5878,
+      "score": 0.5853,
+      "importance": 0.5853,
+      "importance_score": 0.5853,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -347,7 +347,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.921,
+        "recency": 0.9072,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -406,9 +406,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.593,
-      "importance": 0.593,
-      "importance_score": 0.593,
+      "score": 0.5906,
+      "importance": 0.5906,
+      "importance_score": 0.5906,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -421,7 +421,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8805,
+        "recency": 0.8673,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +480,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
+      "score": 0.5906,
+      "importance": 0.5906,
+      "importance_score": 0.5906,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -496,7 +496,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8102,
+        "recency": 0.798,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -517,23 +517,23 @@
       }
     },
     {
-      "story_id": "story_c7be58e81af8",
-      "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-      "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-      "primary_url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+      "story_id": "story_a47d5ac444a7",
+      "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
+      "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
+      "primary_url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
+          "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
+          "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
+          "published_at": "2026-08-10T12:27:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -542,50 +542,51 @@
       ],
       "items": [
         {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
+          "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
+          "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
+          "published_at": "2026-08-10T12:27:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5835,
-      "importance": 0.5835,
-      "importance_score": 0.5835,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
+      "score": 0.5905,
+      "importance": 0.5905,
+      "importance_score": 0.5905,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
       "ai_signals": [
-        "hotel"
+        "tourist",
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5184,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9664,
+        "ai_relevance": 0.75,
+        "recency": 0.9361,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-10T13:36:43Z",
-      "latest_at": "2026-08-10T13:36:43Z",
+      "earliest_at": "2026-08-10T12:27:17Z",
+      "latest_at": "2026-08-10T12:27:17Z",
       "primary_item": {
-        "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-        "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-        "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+        "id": "3630dda68ad55774969bd8a71056efb7e710da2a",
+        "title": "Ras Al Khaimah’s New Pitch to Indian Tourists: We’re Premium — Not Just Cheaper Than Dubai",
+        "url": "https://skift.com/2026/08/10/ras-al-khaimahs-new-pitch-to-indian-tourists-were-premium-not-just-cheaper-than-dubai",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -627,9 +628,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
+      "score": 0.5629,
+      "importance": 0.5629,
+      "importance_score": 0.5629,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -643,7 +644,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7949,
+        "recency": 0.7829,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -702,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5926,
-      "importance": 0.5926,
-      "importance_score": 0.5926,
+      "score": 0.5902,
+      "importance": 0.5902,
+      "importance_score": 0.5902,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -717,7 +718,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8783,
+        "recency": 0.8651,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -776,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5599,
-      "importance": 0.5599,
-      "importance_score": 0.5599,
+      "score": 0.5575,
+      "importance": 0.5575,
+      "importance_score": 0.5575,
       "ai_label": "destination_marketing",
       "ai_score": 0.69,
       "ai_signals": [
@@ -790,7 +791,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9048,
+        "recency": 0.8912,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -808,6 +809,78 @@
         "site_id": "opmlrss",
         "ai_label": "destination_marketing",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_c7be58e81af8",
+      "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+      "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+      "primary_url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:36:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:36:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9519,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T13:36:43Z",
+      "latest_at": "2026-08-10T13:36:43Z",
+      "primary_item": {
+        "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+        "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+        "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -849,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5382,
-      "importance": 0.5382,
-      "importance_score": 0.5382,
+      "score": 0.5361,
+      "importance": 0.5361,
+      "importance_score": 0.5361,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -863,7 +936,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7841,
+        "recency": 0.7723,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -922,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5922,
-      "importance": 0.5922,
-      "importance_score": 0.5922,
+      "score": 0.5898,
+      "importance": 0.5898,
+      "importance_score": 0.5898,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -937,7 +1010,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.876,
+        "recency": 0.8629,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -996,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5921,
-      "importance": 0.5921,
-      "importance_score": 0.5921,
+      "score": 0.5897,
+      "importance": 0.5897,
+      "importance_score": 0.5897,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1011,7 +1084,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8756,
+        "recency": 0.8625,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1070,9 +1143,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5914,
-      "importance": 0.5914,
-      "importance_score": 0.5914,
+      "score": 0.589,
+      "importance": 0.589,
+      "importance_score": 0.589,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1085,7 +1158,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8715,
+        "recency": 0.8584,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1144,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
+      "score": 0.5781,
+      "importance": 0.5781,
+      "importance_score": 0.5781,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1158,7 +1231,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8802,
+        "recency": 0.867,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1290,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5803,
-      "importance": 0.5803,
-      "importance_score": 0.5803,
+      "score": 0.578,
+      "importance": 0.578,
+      "importance_score": 0.578,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1231,7 +1304,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8796,
+        "recency": 0.8664,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1290,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5799,
-      "importance": 0.5799,
-      "importance_score": 0.5799,
+      "score": 0.5775,
+      "importance": 0.5775,
+      "importance_score": 0.5775,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1304,7 +1377,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8772,
+        "recency": 0.8641,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1436,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5797,
-      "importance": 0.5797,
-      "importance_score": 0.5797,
+      "score": 0.5774,
+      "importance": 0.5774,
+      "importance_score": 0.5774,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1377,7 +1450,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8763,
+        "recency": 0.8632,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1390,79 +1463,6 @@
         "id": "80881092e15bf10b37d10c1d52e6e5ab01b73634",
         "title": "下半年香港举办逾100项活动 吸引逾185万旅客",
         "url": "https://www.pinchain.com/article/349747",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_ef0f6fd746e1",
-      "title": "复星旅文X滴滴出行:“度假+出行”一体化会员服务生态",
-      "url": "https://www.pinchain.com/article/349739",
-      "primary_url": "https://www.pinchain.com/article/349739",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "df8a869b35787cdeaf77a92f1843b6e45eb34b0e",
-          "title": "复星旅文X滴滴出行:“度假+出行”一体化会员服务生态",
-          "url": "https://www.pinchain.com/article/349739",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:20:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "df8a869b35787cdeaf77a92f1843b6e45eb34b0e",
-          "title": "复星旅文X滴滴出行:“度假+出行”一体化会员服务生态",
-          "url": "https://www.pinchain.com/article/349739",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:20:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5786,
-      "importance": 0.5786,
-      "importance_score": 0.5786,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.87,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T06:20:10Z",
-      "latest_at": "2026-08-10T06:20:10Z",
-      "primary_item": {
-        "id": "df8a869b35787cdeaf77a92f1843b6e45eb34b0e",
-        "title": "复星旅文X滴滴出行:“度假+出行”一体化会员服务生态",
-        "url": "https://www.pinchain.com/article/349739",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
