@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T13:00:54.259976Z",
+  "generated_at": "2026-08-11T14:35:20.047079Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6067,
-      "importance": 0.6067,
-      "importance_score": 0.6067,
+      "score": 0.6028,
+      "importance": 0.6028,
+      "importance_score": 0.6028,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9565,
+        "recency": 0.935,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -78,21 +78,21 @@
       }
     },
     {
-      "story_id": "story_36fbdefd70cc",
-      "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-      "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-      "primary_url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+      "story_id": "story_dcda92ddb823",
+      "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
+      "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
+      "primary_url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+          "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
+          "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
+          "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-11T12:11:00Z",
+          "published_at": "2026-08-11T13:48:21Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -103,26 +103,26 @@
       ],
       "items": [
         {
-          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+          "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
+          "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
+          "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-11T12:11:00Z",
+          "published_at": "2026-08-11T13:48:21Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5999,
-      "importance": 0.5999,
-      "importance_score": 0.5999,
+      "score": 0.6,
+      "importance": 0.6,
+      "importance_score": 0.6,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
-        "hotel",
+        "tourism",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -130,19 +130,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9881,
+        "recency": 0.9888,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-11T12:11:00Z",
-      "latest_at": "2026-08-11T12:11:00Z",
+      "earliest_at": "2026-08-11T13:48:21Z",
+      "latest_at": "2026-08-11T13:48:21Z",
       "primary_item": {
-        "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-        "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-        "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+        "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
+        "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
+        "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6065,
-      "importance": 0.6065,
-      "importance_score": 0.6065,
+      "score": 0.6026,
+      "importance": 0.6026,
+      "importance_score": 0.6026,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9555,
+        "recency": 0.934,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -222,6 +222,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_36fbdefd70cc",
+      "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
+      "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+      "primary_url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
+          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
+          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T12:11:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
+          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
+          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T12:11:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5959,
+      "importance": 0.5959,
+      "importance_score": 0.5959,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9659,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T12:11:00Z",
+      "latest_at": "2026-08-11T12:11:00Z",
+      "primary_item": {
+        "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
+        "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
+        "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -263,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5418,
-      "importance": 0.5418,
-      "importance_score": 0.5418,
+      "score": 0.5389,
+      "importance": 0.5389,
+      "importance_score": 0.5389,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +349,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7351,
+        "recency": 0.7185,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -294,81 +367,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_f95685497991",
-      "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
-      "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
-      "primary_url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
-          "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
-          "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T17:25:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
-          "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
-          "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T17:25:41Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5826,
-      "importance": 0.5826,
-      "importance_score": 0.5826,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "hotel",
-        "travel",
-        "traveler",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7536,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-10T17:25:41Z",
-      "latest_at": "2026-08-10T17:25:41Z",
-      "primary_item": {
-        "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
-        "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
-        "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -410,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6064,
-      "importance": 0.6064,
-      "importance_score": 0.6064,
+      "score": 0.6025,
+      "importance": 0.6025,
+      "importance_score": 0.6025,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +423,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.955,
+        "recency": 0.9336,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6061,
-      "importance": 0.6061,
-      "importance_score": 0.6061,
+      "score": 0.6022,
+      "importance": 0.6022,
+      "importance_score": 0.6022,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9534,
+        "recency": 0.932,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -517,6 +515,81 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_f95685497991",
+      "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
+      "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
+      "primary_url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
+          "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
+          "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T17:25:41Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
+          "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
+          "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T17:25:41Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5796,
+      "importance": 0.5796,
+      "importance_score": 0.5796,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "hotel",
+        "travel",
+        "traveler",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.7367,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-10T17:25:41Z",
+      "latest_at": "2026-08-10T17:25:41Z",
+      "primary_item": {
+        "id": "142b9e9b97a31d2b36763d88020cff5ed7c681cd",
+        "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
+        "url": "https://skift.com/2026/08/10/lemon-tree-hotels-targets-uae-thailand-and-maldives-to-follow-indian-travelers-abroad",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -558,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5951,
-      "importance": 0.5951,
-      "importance_score": 0.5951,
+      "score": 0.5915,
+      "importance": 0.5915,
+      "importance_score": 0.5915,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +646,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8923,
+        "recency": 0.8723,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -586,6 +659,80 @@
         "id": "6f5c9a380036b701b45a0aadbb1172e9c1419c80",
         "title": "台风影响 黄山景区对迎客松实施加固防护措施",
         "url": "https://www.pinchain.com/article/349801",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0ace93f639be",
+      "title": "广东阳江推动传统渔业向文旅消费升级",
+      "url": "https://www.pinchain.com/article/349781",
+      "primary_url": "https://www.pinchain.com/article/349781",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "dc285676e6e864c01821e267004cf782420ae75d",
+          "title": "广东阳江推动传统渔业向文旅消费升级",
+          "url": "https://www.pinchain.com/article/349781",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T04:59:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "dc285676e6e864c01821e267004cf782420ae75d",
+          "title": "广东阳江推动传统渔业向文旅消费升级",
+          "url": "https://www.pinchain.com/article/349781",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T04:59:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5912,
+      "importance": 0.5912,
+      "importance_score": 0.5912,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8707,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T04:59:51Z",
+      "latest_at": "2026-08-11T04:59:51Z",
+      "primary_item": {
+        "id": "dc285676e6e864c01821e267004cf782420ae75d",
+        "title": "广东阳江推动传统渔业向文旅消费升级",
+        "url": "https://www.pinchain.com/article/349781",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -632,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.5477,
+      "importance": 0.5477,
+      "importance_score": 0.5477,
       "ai_label": "tourism_tech",
       "ai_score": 0.74,
       "ai_signals": [
@@ -646,7 +793,7 @@
         "editorial": 0.5328,
         "source_tier": 0.5,
         "ai_relevance": 0.74,
-        "recency": 0.7383,
+        "recency": 0.7217,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -664,152 +811,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.74
-      }
-    },
-    {
-      "story_id": "story_0ace93f639be",
-      "title": "广东阳江推动传统渔业向文旅消费升级",
-      "url": "https://www.pinchain.com/article/349781",
-      "primary_url": "https://www.pinchain.com/article/349781",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "dc285676e6e864c01821e267004cf782420ae75d",
-          "title": "广东阳江推动传统渔业向文旅消费升级",
-          "url": "https://www.pinchain.com/article/349781",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T04:59:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "dc285676e6e864c01821e267004cf782420ae75d",
-          "title": "广东阳江推动传统渔业向文旅消费升级",
-          "url": "https://www.pinchain.com/article/349781",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T04:59:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5948,
-      "importance": 0.5948,
-      "importance_score": 0.5948,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8907,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-11T04:59:51Z",
-      "latest_at": "2026-08-11T04:59:51Z",
-      "primary_item": {
-        "id": "dc285676e6e864c01821e267004cf782420ae75d",
-        "title": "广东阳江推动传统渔业向文旅消费升级",
-        "url": "https://www.pinchain.com/article/349781",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_c7be58e81af8",
-      "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-      "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-      "primary_url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5379,
-      "importance": 0.5379,
-      "importance_score": 0.5379,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7132,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T13:36:43Z",
-      "latest_at": "2026-08-10T13:36:43Z",
-      "primary_item": {
-        "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-        "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-        "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
       }
     },
     {
@@ -851,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5938,
-      "importance": 0.5938,
-      "importance_score": 0.5938,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -865,7 +866,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9544,
+        "recency": 0.9329,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +925,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5937,
-      "importance": 0.5937,
-      "importance_score": 0.5937,
+      "score": 0.5898,
+      "importance": 0.5898,
+      "importance_score": 0.5898,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -938,7 +939,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9539,
+        "recency": 0.9324,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5935,
-      "importance": 0.5935,
-      "importance_score": 0.5935,
+      "score": 0.5897,
+      "importance": 0.5897,
+      "importance_score": 0.5897,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1011,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9529,
+        "recency": 0.9315,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1070,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5876,
-      "importance": 0.5876,
-      "importance_score": 0.5876,
+      "score": 0.5841,
+      "importance": 0.5841,
+      "importance_score": 0.5841,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1085,7 +1086,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8737,
+        "recency": 0.8541,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1144,9 +1145,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5867,
-      "importance": 0.5867,
-      "importance_score": 0.5867,
+      "score": 0.5833,
+      "importance": 0.5833,
+      "importance_score": 0.5833,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1159,7 +1160,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8457,
+        "recency": 0.8267,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1218,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5866,
-      "importance": 0.5866,
-      "importance_score": 0.5866,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1233,7 +1234,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8453,
+        "recency": 0.8263,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1292,9 +1293,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5832,
-      "importance": 0.5832,
-      "importance_score": 0.5832,
+      "score": 0.5795,
+      "importance": 0.5795,
+      "importance_score": 0.5795,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1306,7 +1307,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8953,
+        "recency": 0.8752,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1365,9 +1366,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5829,
-      "importance": 0.5829,
-      "importance_score": 0.5829,
+      "score": 0.5793,
+      "importance": 0.5793,
+      "importance_score": 0.5793,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1379,7 +1380,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.894,
+        "recency": 0.8739,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1438,9 +1439,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5791,
+      "importance": 0.5791,
+      "importance_score": 0.5791,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1452,7 +1453,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8929,
+        "recency": 0.8728,
         "story_heat": 0.0
       },
       "category": "watch",
