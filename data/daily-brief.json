@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-08-11T00:00:32.043298Z",
+  "generated_at": "2026-08-11T02:34:29.496281Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_9a80ddecf4d5",
+      "title": "石家庄多元文旅业态解锁惬意暑期",
+      "url": "https://www.pinchain.com/article/349775",
+      "primary_url": "https://www.pinchain.com/article/349775",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "6f842bdc9487e21acac7b703f3244a3101c07451",
+          "title": "石家庄多元文旅业态解锁惬意暑期",
+          "url": "https://www.pinchain.com/article/349775",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:24:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "6f842bdc9487e21acac7b703f3244a3101c07451",
+          "title": "石家庄多元文旅业态解锁惬意暑期",
+          "url": "https://www.pinchain.com/article/349775",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:24:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6115,
+      "importance": 0.6115,
+      "importance_score": 0.6115,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9834,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T01:24:48Z",
+      "latest_at": "2026-08-11T01:24:48Z",
+      "primary_item": {
+        "id": "6f842bdc9487e21acac7b703f3244a3101c07451",
+        "title": "石家庄多元文旅业态解锁惬意暑期",
+        "url": "https://www.pinchain.com/article/349775",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
     {
       "story_id": "story_f95685497991",
       "title": "Lemon Tree Hotels Targets UAE, Thailand, and Maldives to Follow Indian Travelers Abroad",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6106,
-      "importance": 0.6106,
-      "importance_score": 0.6106,
+      "score": 0.6047,
+      "importance": 0.6047,
+      "importance_score": 0.6047,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9093,
+        "recency": 0.8763,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -76,79 +150,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_91092d3d20d1",
-      "title": "众信优游深圳公司盛大启幕",
-      "url": "https://www.pinchain.com/article/349760",
-      "primary_url": "https://www.pinchain.com/article/349760",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
-          "title": "众信优游深圳公司盛大启幕",
-          "url": "https://www.pinchain.com/article/349760",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:59:15Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
-          "title": "众信优游深圳公司盛大启幕",
-          "url": "https://www.pinchain.com/article/349760",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:59:15Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8653,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T13:59:15Z",
-      "latest_at": "2026-08-10T13:59:15Z",
-      "primary_item": {
-        "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
-        "title": "众信优游深圳公司盛大启幕",
-        "url": "https://www.pinchain.com/article/349760",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -190,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5717,
-      "importance": 0.5717,
-      "importance_score": 0.5717,
+      "score": 0.5662,
+      "importance": 0.5662,
+      "importance_score": 0.5662,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -204,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8314,
+        "recency": 0.8012,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.5643,
+      "importance": 0.5643,
+      "importance_score": 0.5643,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -277,7 +278,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8201,
+        "recency": 0.7903,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5692,
-      "importance": 0.5692,
-      "importance_score": 0.5692,
+      "score": 0.5634,
+      "importance": 0.5634,
+      "importance_score": 0.5634,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -349,7 +350,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8869,
+        "recency": 0.8547,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -367,6 +368,154 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_34a6cb5920b5",
+      "title": "暑期跨境游热度飙升 拱北口岸现周末客流高峰",
+      "url": "https://www.pinchain.com/article/349774",
+      "primary_url": "https://www.pinchain.com/article/349774",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "641c855cc3a378915500cbfe6c93536074becd84",
+          "title": "暑期跨境游热度飙升 拱北口岸现周末客流高峰",
+          "url": "https://www.pinchain.com/article/349774",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:22:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "641c855cc3a378915500cbfe6c93536074becd84",
+          "title": "暑期跨境游热度飙升 拱北口岸现周末客流高峰",
+          "url": "https://www.pinchain.com/article/349774",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:22:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6114,
+      "importance": 0.6114,
+      "importance_score": 0.6114,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "客流",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9828,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T01:22:35Z",
+      "latest_at": "2026-08-11T01:22:35Z",
+      "primary_item": {
+        "id": "641c855cc3a378915500cbfe6c93536074becd84",
+        "title": "暑期跨境游热度飙升 拱北口岸现周末客流高峰",
+        "url": "https://www.pinchain.com/article/349774",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_805a49de3c40",
+      "title": "《2026年上半年旅游市场洞察报告》发布",
+      "url": "https://www.pinchain.com/article/349769",
+      "primary_url": "https://www.pinchain.com/article/349769",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2028c3e30a88dea126f0a20602c81481c992d3c7",
+          "title": "《2026年上半年旅游市场洞察报告》发布",
+          "url": "https://www.pinchain.com/article/349769",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T00:29:58Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.77
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2028c3e30a88dea126f0a20602c81481c992d3c7",
+          "title": "《2026年上半年旅游市场洞察报告》发布",
+          "url": "https://www.pinchain.com/article/349769",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T00:29:58Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.77
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.605,
+      "importance": 0.605,
+      "importance_score": 0.605,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.77,
+      "ai_signals": [
+        "旅游",
+        "ai",
+        "报告"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5544,
+        "source_tier": 0.5,
+        "ai_relevance": 0.77,
+        "recency": 0.9705,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T00:29:58Z",
+      "latest_at": "2026-08-11T00:29:58Z",
+      "primary_item": {
+        "id": "2028c3e30a88dea126f0a20602c81481c992d3c7",
+        "title": "《2026年上半年旅游市场洞察报告》发布",
+        "url": "https://www.pinchain.com/article/349769",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_policy",
+        "ai_score": 0.77
       }
     },
     {
@@ -408,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5782,
-      "importance": 0.5782,
-      "importance_score": 0.5782,
+      "score": 0.5723,
+      "importance": 0.5723,
+      "importance_score": 0.5723,
       "ai_label": "tourism_tech",
       "ai_score": 0.74,
       "ai_signals": [
@@ -422,7 +571,7 @@
         "editorial": 0.5328,
         "source_tier": 0.5,
         "ai_relevance": 0.74,
-        "recency": 0.8908,
+        "recency": 0.8584,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -443,23 +592,23 @@
       }
     },
     {
-      "story_id": "story_231e007168d9",
-      "title": "首旅如家&长治文旅 共绘区域住宿业提质升级新蓝图",
-      "url": "https://www.pinchain.com/article/349723",
-      "primary_url": "https://www.pinchain.com/article/349723",
+      "story_id": "story_e318ca8d13f9",
+      "title": "黑龙江年度首趟电影主题列车开行",
+      "url": "https://www.pinchain.com/article/349773",
+      "primary_url": "https://www.pinchain.com/article/349773",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "6d74985b8af03d75c74db69168a0b5b6fa8136c2",
-          "title": "首旅如家&长治文旅 共绘区域住宿业提质升级新蓝图",
-          "url": "https://www.pinchain.com/article/349723",
+          "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+          "title": "黑龙江年度首趟电影主题列车开行",
+          "url": "https://www.pinchain.com/article/349773",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T01:24:09Z",
+          "published_at": "2026-08-11T01:20:38Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -468,53 +617,51 @@
       ],
       "items": [
         {
-          "id": "6d74985b8af03d75c74db69168a0b5b6fa8136c2",
-          "title": "首旅如家&长治文旅 共绘区域住宿业提质升级新蓝图",
-          "url": "https://www.pinchain.com/article/349723",
+          "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+          "title": "黑龙江年度首趟电影主题列车开行",
+          "url": "https://www.pinchain.com/article/349773",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T01:24:09Z",
+          "published_at": "2026-08-11T01:20:38Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5768,
-      "importance": 0.5768,
-      "importance_score": 0.5768,
+      "score": 0.5988,
+      "importance": 0.5988,
+      "importance_score": 0.5988,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.75,
       "ai_signals": [
-        "住宿",
-        "文旅",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7215,
+        "ai_relevance": 0.75,
+        "recency": 0.9824,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-10T01:24:09Z",
-      "latest_at": "2026-08-10T01:24:09Z",
+      "earliest_at": "2026-08-11T01:20:38Z",
+      "latest_at": "2026-08-11T01:20:38Z",
       "primary_item": {
-        "id": "6d74985b8af03d75c74db69168a0b5b6fa8136c2",
-        "title": "首旅如家&长治文旅 共绘区域住宿业提质升级新蓝图",
-        "url": "https://www.pinchain.com/article/349723",
+        "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+        "title": "黑龙江年度首趟电影主题列车开行",
+        "url": "https://www.pinchain.com/article/349773",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.75
       }
     },
     {
@@ -556,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5743,
-      "importance": 0.5743,
-      "importance_score": 0.5743,
+      "score": 0.5688,
+      "importance": 0.5688,
+      "importance_score": 0.5688,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -570,7 +717,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8463,
+        "recency": 0.8155,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -591,77 +738,293 @@
       }
     },
     {
-      "story_id": "story_954600938f9e",
-      "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-      "url": "https://www.ithome.com/0/987/662.htm",
-      "primary_url": "https://www.ithome.com/0/987/662.htm",
-      "source": "IT之家",
+      "story_id": "story_ac5197277be1",
+      "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+      "url": "https://www.jiemian.com/article/14900995.html",
+      "primary_url": "https://www.jiemian.com/article/14900995.html",
+      "source": "界面新闻",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-          "url": "https://www.ithome.com/0/987/662.htm",
-          "source": "IT之家",
+          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+          "url": "https://www.jiemian.com/article/14900995.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T00:04:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
+          "published_at": "2026-08-10T09:03:01Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.69
         }
       ],
       "source_count": 1,
       "source_names": [
-        "IT之家"
+        "界面新闻"
       ],
       "items": [
         {
-          "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-          "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-          "url": "https://www.ithome.com/0/987/662.htm",
-          "source": "IT之家",
+          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+          "url": "https://www.jiemian.com/article/14900995.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-10T00:04:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
+          "published_at": "2026-08-10T09:03:01Z",
+          "ai_label": "destination_marketing",
+          "ai_score": 0.69
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5494,
-      "importance": 0.5494,
-      "importance_score": 0.5494,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.75,
+      "score": 0.5368,
+      "importance": 0.5368,
+      "importance_score": 0.5368,
+      "ai_label": "destination_marketing",
+      "ai_score": 0.69,
       "ai_signals": [
-        "具身智能",
-        "具身",
-        "酒店",
-        "智能"
+        "游客",
+        "科技"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.4968,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7078,
+        "ai_relevance": 0.69,
+        "recency": 0.7764,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-10T00:04:43Z",
-      "latest_at": "2026-08-10T00:04:43Z",
+      "earliest_at": "2026-08-10T09:03:01Z",
+      "latest_at": "2026-08-10T09:03:01Z",
       "primary_item": {
-        "id": "604daea14d72c214b42ab9c87443dec94a18a6eb",
-        "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-        "url": "https://www.ithome.com/0/987/662.htm",
-        "source": "IT之家",
+        "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
+        "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
+        "url": "https://www.jiemian.com/article/14900995.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "destination_marketing",
+        "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_2ec6ec76af0d",
+      "title": "极光首航！长江行游轮“双旗舰并进”",
+      "url": "https://www.pinchain.com/article/349767",
+      "primary_url": "https://www.pinchain.com/article/349767",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "538afa1e0916c152ae37709d5e357c415ca53029",
+          "title": "极光首航！长江行游轮“双旗舰并进”",
+          "url": "https://www.pinchain.com/article/349767",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T00:23:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "538afa1e0916c152ae37709d5e357c415ca53029",
+          "title": "极光首航！长江行游轮“双旗舰并进”",
+          "url": "https://www.pinchain.com/article/349767",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T00:23:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5964,
+      "importance": 0.5964,
+      "importance_score": 0.5964,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9689,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T00:23:12Z",
+      "latest_at": "2026-08-11T00:23:12Z",
+      "primary_item": {
+        "id": "538afa1e0916c152ae37709d5e357c415ca53029",
+        "title": "极光首航！长江行游轮“双旗舰并进”",
+        "url": "https://www.pinchain.com/article/349767",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_c7be58e81af8",
+      "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+      "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+      "primary_url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:36:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:36:43Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5588,
+      "importance": 0.5588,
+      "importance_score": 0.5588,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8293,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T13:36:43Z",
+      "latest_at": "2026-08-10T13:36:43Z",
+      "primary_item": {
+        "id": "9be4fae8c389371fb990b9f8605daded819040a2",
+        "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
+        "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
+        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_91092d3d20d1",
+      "title": "众信优游深圳公司盛大启幕",
+      "url": "https://www.pinchain.com/article/349760",
+      "primary_url": "https://www.pinchain.com/article/349760",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
+          "title": "众信优游深圳公司盛大启幕",
+          "url": "https://www.pinchain.com/article/349760",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:59:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
+          "title": "众信优游深圳公司盛大启幕",
+          "url": "https://www.pinchain.com/article/349760",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-10T13:59:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5721,
+      "importance": 0.5721,
+      "importance_score": 0.5721,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8338,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-10T13:59:15Z",
+      "latest_at": "2026-08-10T13:59:15Z",
+      "primary_item": {
+        "id": "1052e7b4e44bc46f55a7689291c6aea6a33e904f",
+        "title": "众信优游深圳公司盛大启幕",
+        "url": "https://www.pinchain.com/article/349760",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
         "ai_score": 0.75
       }
     },
@@ -704,9 +1067,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5756,
-      "importance": 0.5756,
-      "importance_score": 0.5756,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -719,7 +1082,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7841,
+        "recency": 0.7556,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -737,151 +1100,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_ac5197277be1",
-      "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-      "url": "https://www.jiemian.com/article/14900995.html",
-      "primary_url": "https://www.jiemian.com/article/14900995.html",
-      "source": "界面新闻",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "界面新闻"
-      ],
-      "items": [
-        {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5421,
-      "importance": 0.5421,
-      "importance_score": 0.5421,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.69,
-      "ai_signals": [
-        "游客",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.8057,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T09:03:01Z",
-      "latest_at": "2026-08-10T09:03:01Z",
-      "primary_item": {
-        "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-        "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-        "url": "https://www.jiemian.com/article/14900995.html",
-        "source": "界面新闻",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
-        "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_c7be58e81af8",
-      "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-      "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-      "primary_url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-          "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-          "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T13:36:43Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5644,
-      "importance": 0.5644,
-      "importance_score": 0.5644,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8606,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T13:36:43Z",
-      "latest_at": "2026-08-10T13:36:43Z",
-      "primary_item": {
-        "id": "9be4fae8c389371fb990b9f8605daded819040a2",
-        "title": "Iceland’s Hotels Were Already Full. Then Came the Eclipse.",
-        "url": "https://skift.com/2026/08/10/iceland-solar-eclipse-2026",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
       }
     },
     {
@@ -923,9 +1141,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
+      "score": 0.5701,
+      "importance": 0.5701,
+      "importance_score": 0.5701,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -938,7 +1156,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7821,
+        "recency": 0.7537,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
+      "score": 0.5698,
+      "importance": 0.5698,
+      "importance_score": 0.5698,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1012,7 +1230,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7801,
+        "recency": 0.7517,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1071,9 +1289,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5748,
-      "importance": 0.5748,
-      "importance_score": 0.5748,
+      "score": 0.5697,
+      "importance": 0.5697,
+      "importance_score": 0.5697,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1086,7 +1304,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7798,
+        "recency": 0.7514,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.5691,
+      "importance": 0.5691,
+      "importance_score": 0.5691,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1160,7 +1378,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7761,
+        "recency": 0.7478,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1219,9 +1437,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5631,
-      "importance": 0.5631,
-      "importance_score": 0.5631,
+      "score": 0.558,
+      "importance": 0.558,
+      "importance_score": 0.558,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1233,7 +1451,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7838,
+        "recency": 0.7553,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1246,225 +1464,6 @@
         "id": "5746b397c91e6266385f7c3f8652accd5aeb08e4",
         "title": "旅游“搭子”骗局频发 暑期出游警惕诈骗套路",
         "url": "https://www.pinchain.com/article/349753",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_41bf41ef95a3",
-      "title": "东航：国内客票可提前14天免费自愿变更或退票",
-      "url": "https://www.pinchain.com/article/349752",
-      "primary_url": "https://www.pinchain.com/article/349752",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a9e4abca5a8d7100a92da03888d5b0f97e3616a3",
-          "title": "东航：国内客票可提前14天免费自愿变更或退票",
-          "url": "https://www.pinchain.com/article/349752",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T07:05:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "a9e4abca5a8d7100a92da03888d5b0f97e3616a3",
-          "title": "东航：国内客票可提前14天免费自愿变更或退票",
-          "url": "https://www.pinchain.com/article/349752",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T07:05:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.563,
-      "importance": 0.563,
-      "importance_score": 0.563,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7833,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T07:05:36Z",
-      "latest_at": "2026-08-10T07:05:36Z",
-      "primary_item": {
-        "id": "a9e4abca5a8d7100a92da03888d5b0f97e3616a3",
-        "title": "东航：国内客票可提前14天免费自愿变更或退票",
-        "url": "https://www.pinchain.com/article/349752",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_23cd9b531623",
-      "title": "十年筑驿・焕新启航：华驿品牌十周年庆典",
-      "url": "https://www.pinchain.com/article/349751",
-      "primary_url": "https://www.pinchain.com/article/349751",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "75f897c4726efc38e5849eb3e218b7b1a08fd54a",
-          "title": "十年筑驿・焕新启航：华驿品牌十周年庆典",
-          "url": "https://www.pinchain.com/article/349751",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:54:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "75f897c4726efc38e5849eb3e218b7b1a08fd54a",
-          "title": "十年筑驿・焕新启航：华驿品牌十周年庆典",
-          "url": "https://www.pinchain.com/article/349751",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:54:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5626,
-      "importance": 0.5626,
-      "importance_score": 0.5626,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7812,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T06:54:21Z",
-      "latest_at": "2026-08-10T06:54:21Z",
-      "primary_item": {
-        "id": "75f897c4726efc38e5849eb3e218b7b1a08fd54a",
-        "title": "十年筑驿・焕新启航：华驿品牌十周年庆典",
-        "url": "https://www.pinchain.com/article/349751",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_2801bc77ecea",
-      "title": "下半年香港举办逾100项活动 吸引逾185万旅客",
-      "url": "https://www.pinchain.com/article/349747",
-      "primary_url": "https://www.pinchain.com/article/349747",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "80881092e15bf10b37d10c1d52e6e5ab01b73634",
-          "title": "下半年香港举办逾100项活动 吸引逾185万旅客",
-          "url": "https://www.pinchain.com/article/349747",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:50:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "80881092e15bf10b37d10c1d52e6e5ab01b73634",
-          "title": "下半年香港举办逾100项活动 吸引逾185万旅客",
-          "url": "https://www.pinchain.com/article/349747",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T06:50:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5625,
-      "importance": 0.5625,
-      "importance_score": 0.5625,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7804,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T06:50:13Z",
-      "latest_at": "2026-08-10T06:50:13Z",
-      "primary_item": {
-        "id": "80881092e15bf10b37d10c1d52e6e5ab01b73634",
-        "title": "下半年香港举办逾100项活动 吸引逾185万旅客",
-        "url": "https://www.pinchain.com/article/349747",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
