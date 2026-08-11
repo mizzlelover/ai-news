@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-11T08:30:03.693522Z",
+  "generated_at": "2026-08-11T09:33:29.464444Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6059,
-      "importance": 0.6059,
-      "importance_score": 0.6059,
+      "score": 0.6033,
+      "importance": 0.6033,
+      "importance_score": 0.6033,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9524,
+        "recency": 0.938,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5918,
-      "importance": 0.5918,
-      "importance_score": 0.5918,
+      "score": 0.5896,
+      "importance": 0.5896,
+      "importance_score": 0.5896,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8044,
+        "recency": 0.7922,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6056,
-      "importance": 0.6056,
-      "importance_score": 0.6056,
+      "score": 0.603,
+      "importance": 0.603,
+      "importance_score": 0.603,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -206,7 +206,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9507,
+        "recency": 0.9363,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -265,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5544,
-      "importance": 0.5544,
-      "importance_score": 0.5544,
+      "score": 0.5524,
+      "importance": 0.5524,
+      "importance_score": 0.5524,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -279,7 +279,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7354,
+        "recency": 0.7243,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -338,9 +338,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5526,
-      "importance": 0.5526,
-      "importance_score": 0.5526,
+      "score": 0.5506,
+      "importance": 0.5506,
+      "importance_score": 0.5506,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -352,7 +352,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7255,
+        "recency": 0.7145,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -411,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5507,
-      "importance": 0.5507,
-      "importance_score": 0.5507,
+      "score": 0.5486,
+      "importance": 0.5486,
+      "importance_score": 0.5486,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -424,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7846,
+        "recency": 0.7727,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -483,9 +483,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5982,
-      "importance": 0.5982,
-      "importance_score": 0.5982,
+      "score": 0.5956,
+      "importance": 0.5956,
+      "importance_score": 0.5956,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -498,7 +498,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9326,
+        "recency": 0.9184,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -557,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.597,
-      "importance": 0.597,
-      "importance_score": 0.597,
+      "score": 0.5945,
+      "importance": 0.5945,
+      "importance_score": 0.5945,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -572,7 +572,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9027,
+        "recency": 0.889,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -631,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5597,
-      "importance": 0.5597,
-      "importance_score": 0.5597,
+      "score": 0.5575,
+      "importance": 0.5575,
+      "importance_score": 0.5575,
       "ai_label": "tourism_tech",
       "ai_score": 0.74,
       "ai_signals": [
@@ -645,7 +645,7 @@
         "editorial": 0.5328,
         "source_tier": 0.5,
         "ai_relevance": 0.74,
-        "recency": 0.788,
+        "recency": 0.776,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -704,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5969,
-      "importance": 0.5969,
-      "importance_score": 0.5969,
+      "score": 0.5944,
+      "importance": 0.5944,
+      "importance_score": 0.5944,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -719,7 +719,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9022,
+        "recency": 0.8886,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -778,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5568,
-      "importance": 0.5568,
-      "importance_score": 0.5568,
+      "score": 0.5547,
+      "importance": 0.5547,
+      "importance_score": 0.5547,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -792,7 +792,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7487,
+        "recency": 0.7373,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -810,79 +810,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_ac5197277be1",
-      "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-      "url": "https://www.jiemian.com/article/14900995.html",
-      "primary_url": "https://www.jiemian.com/article/14900995.html",
-      "source": "界面新闻",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "界面新闻"
-      ],
-      "items": [
-        {
-          "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-          "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-          "url": "https://www.jiemian.com/article/14900995.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-10T09:03:01Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5253,
-      "importance": 0.5253,
-      "importance_score": 0.5253,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.69,
-      "ai_signals": [
-        "游客",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.7127,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-10T09:03:01Z",
-      "latest_at": "2026-08-10T09:03:01Z",
-      "primary_item": {
-        "id": "0e0c984f390c5b9b7a82e164d13b02963a0e3211",
-        "title": "国林科技(300786.SZ)：子公司凯涟捷已恢复生产，新疆国林因下游客户检修适度延长停产",
-        "url": "https://www.jiemian.com/article/14900995.html",
-        "source": "界面新闻",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
-        "ai_score": 0.69
       }
     },
     {
@@ -924,9 +851,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.594,
-      "importance": 0.594,
-      "importance_score": 0.594,
+      "score": 0.5914,
+      "importance": 0.5914,
+      "importance_score": 0.5914,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -938,7 +865,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9556,
+        "recency": 0.9412,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5465,
-      "importance": 0.5465,
-      "importance_score": 0.5465,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1010,7 +937,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7613,
+        "recency": 0.7497,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5938,
-      "importance": 0.5938,
-      "importance_score": 0.5938,
+      "score": 0.5912,
+      "importance": 0.5912,
+      "importance_score": 0.5912,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1083,7 +1010,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9542,
+        "recency": 0.9397,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1142,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5935,
-      "importance": 0.5935,
-      "importance_score": 0.5935,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1156,7 +1083,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.953,
+        "recency": 0.9386,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1215,9 +1142,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5933,
-      "importance": 0.5933,
-      "importance_score": 0.5933,
+      "score": 0.5907,
+      "importance": 0.5907,
+      "importance_score": 0.5907,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1229,7 +1156,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9519,
+        "recency": 0.9375,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1288,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5929,
-      "importance": 0.5929,
-      "importance_score": 0.5929,
+      "score": 0.5903,
+      "importance": 0.5903,
+      "importance_score": 0.5903,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1302,7 +1229,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9495,
+        "recency": 0.9351,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1361,9 +1288,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5922,
-      "importance": 0.5922,
-      "importance_score": 0.5922,
+      "score": 0.5896,
+      "importance": 0.5896,
+      "importance_score": 0.5896,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1375,7 +1302,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9456,
+        "recency": 0.9313,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1434,9 +1361,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5907,
-      "importance": 0.5907,
-      "importance_score": 0.5907,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1449,7 +1376,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8909,
+        "recency": 0.8774,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1467,6 +1394,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.77
+      }
+    },
+    {
+      "story_id": "story_e318ca8d13f9",
+      "title": "黑龙江年度首趟电影主题列车开行",
+      "url": "https://www.pinchain.com/article/349773",
+      "primary_url": "https://www.pinchain.com/article/349773",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+          "title": "黑龙江年度首趟电影主题列车开行",
+          "url": "https://www.pinchain.com/article/349773",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:20:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+          "title": "黑龙江年度首趟电影主题列车开行",
+          "url": "https://www.pinchain.com/article/349773",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T01:20:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5819,
+      "importance": 0.5819,
+      "importance_score": 0.5819,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8881,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T01:20:38Z",
+      "latest_at": "2026-08-11T01:20:38Z",
+      "primary_item": {
+        "id": "2fe3c8be40420bae3fc1f8cc98131f340b5a163a",
+        "title": "黑龙江年度首趟电影主题列车开行",
+        "url": "https://www.pinchain.com/article/349773",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     }
   ]
