@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-08-12T12:08:40.499838Z",
+  "generated_at": "2026-08-12T13:56:15.785071Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_f8ed48bed18c",
+      "title": "The AI Agent Should Belong to the Traveler",
+      "url": "https://skift.com/2026/08/12/the-ai-agent-should-belong-to-the-traveler",
+      "primary_url": "https://skift.com/2026/08/12/the-ai-agent-should-belong-to-the-traveler",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ecd4619e19413458cfca372c7b6a1937e011f4f5",
+          "title": "The AI Agent Should Belong to the Traveler",
+          "url": "https://skift.com/2026/08/12/the-ai-agent-should-belong-to-the-traveler",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T13:30:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "ecd4619e19413458cfca372c7b6a1937e011f4f5",
+          "title": "The AI Agent Should Belong to the Traveler",
+          "url": "https://skift.com/2026/08/12/the-ai-agent-should-belong-to-the-traveler",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T13:30:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.83
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6341,
+      "importance": 0.6341,
+      "importance_score": 0.6341,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.83,
+      "ai_signals": [
+        "travel",
+        "traveler",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5976,
+        "source_tier": 0.5,
+        "ai_relevance": 0.83,
+        "recency": 0.9937,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-12T13:30:00Z",
+      "latest_at": "2026-08-12T13:30:00Z",
+      "primary_item": {
+        "id": "ecd4619e19413458cfca372c7b6a1937e011f4f5",
+        "title": "The AI Agent Should Belong to the Traveler",
+        "url": "https://skift.com/2026/08/12/the-ai-agent-should-belong-to-the-traveler",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.83
+      }
+    },
     {
       "story_id": "story_c06c22929d7a",
       "title": "景区免费门票“代抢费”近百元 谁在收割游客",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6181,
-      "importance": 0.6181,
-      "importance_score": 0.6181,
+      "score": 0.6137,
+      "importance": 0.6137,
+      "importance_score": 0.6137,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +132,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9509,
+        "recency": 0.9266,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.601,
-      "importance": 0.601,
-      "importance_score": 0.601,
+      "score": 0.5964,
+      "importance": 0.5964,
+      "importance_score": 0.5964,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9944,
+        "recency": 0.969,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,78 +223,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_40431ec918a3",
-      "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
-      "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
-      "primary_url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
-          "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
-          "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T11:45:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
-          "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
-          "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T11:45:43Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9945,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-12T11:45:43Z",
-      "latest_at": "2026-08-12T11:45:43Z",
-      "primary_item": {
-        "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
-        "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
-        "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -262,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6154,
-      "importance": 0.6154,
-      "importance_score": 0.6154,
+      "score": 0.6111,
+      "importance": 0.6111,
+      "importance_score": 0.6111,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -278,7 +280,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.936,
+        "recency": 0.912,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -337,9 +339,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5644,
-      "importance": 0.5644,
-      "importance_score": 0.5644,
+      "score": 0.5605,
+      "importance": 0.5605,
+      "importance_score": 0.5605,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -351,7 +353,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8607,
+        "recency": 0.8387,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -372,77 +374,75 @@
       }
     },
     {
-      "story_id": "story_0703cff83ce8",
-      "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
-      "url": "https://www.jiemian.com/article/14908455.html",
-      "primary_url": "https://www.jiemian.com/article/14908455.html",
-      "source": "界面新闻",
+      "story_id": "story_00c9e3835d2d",
+      "title": "High-Paying Foreign Guests Are Still Missing in India, Oberoi Hotels Says",
+      "url": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says",
+      "primary_url": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says",
+      "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
-          "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
-          "url": "https://www.jiemian.com/article/14908455.html",
-          "source": "界面新闻",
+          "id": "16d0a073f666a342855f27fd997941afd0dbefc1",
+          "title": "High-Paying Foreign Guests Are Still Missing in India, Oberoi Hotels Says",
+          "url": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says",
+          "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-11T15:17:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.71
+          "published_at": "2026-08-12T12:41:08Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
       "source_names": [
-        "界面新闻"
+        "Skift"
       ],
       "items": [
         {
-          "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
-          "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
-          "url": "https://www.jiemian.com/article/14908455.html",
-          "source": "界面新闻",
+          "id": "16d0a073f666a342855f27fd997941afd0dbefc1",
+          "title": "High-Paying Foreign Guests Are Still Missing in India, Oberoi Hotels Says",
+          "url": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says",
+          "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-11T15:17:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.71
+          "published_at": "2026-08-12T12:41:08Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.71,
+      "score": 0.5863,
+      "importance": 0.5863,
+      "importance_score": 0.5863,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
       "ai_signals": [
-        "博物馆",
-        "客流",
-        "系统"
+        "hotel"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5112,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.71,
-        "recency": 0.74,
+        "ai_relevance": 0.72,
+        "recency": 0.9821,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-11T15:17:29Z",
-      "latest_at": "2026-08-11T15:17:29Z",
+      "earliest_at": "2026-08-12T12:41:08Z",
+      "latest_at": "2026-08-12T12:41:08Z",
       "primary_item": {
-        "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
-        "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
-        "url": "https://www.jiemian.com/article/14908455.html",
-        "source": "界面新闻",
+        "id": "16d0a073f666a342855f27fd997941afd0dbefc1",
+        "title": "High-Paying Foreign Guests Are Still Missing in India, Oberoi Hotels Says",
+        "url": "https://skift.com/2026/08/12/high-paying-foreign-guests-are-still-missing-in-india-oberoi-hotels-says",
+        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.71
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -484,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6073,
-      "importance": 0.6073,
-      "importance_score": 0.6073,
+      "score": 0.6029,
+      "importance": 0.6029,
+      "importance_score": 0.6029,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9602,
+        "recency": 0.9356,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -517,6 +517,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_40431ec918a3",
+      "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
+      "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
+      "primary_url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
+          "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
+          "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T11:45:43Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
+          "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
+          "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T11:45:43Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.584,
+      "importance": 0.584,
+      "importance_score": 0.584,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9691,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-12T11:45:43Z",
+      "latest_at": "2026-08-12T11:45:43Z",
+      "primary_item": {
+        "id": "c121eb2fafece33113e7fe5905f1dde33be1343d",
+        "title": "The Man Who Led Air India’s Return to Tata to Exit. What’s Next for the Airline?",
+        "url": "https://skift.com/2026/08/12/the-man-who-led-air-indias-return-to-tata-to-exit-whats-next-for-the-airline",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -558,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5798,
-      "importance": 0.5798,
-      "importance_score": 0.5798,
+      "score": 0.5758,
+      "importance": 0.5758,
+      "importance_score": 0.5758,
       "ai_label": "tourism_policy",
       "ai_score": 0.75,
       "ai_signals": [
@@ -573,7 +645,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8766,
+        "recency": 0.8542,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -632,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6068,
-      "importance": 0.6068,
-      "importance_score": 0.6068,
+      "score": 0.6024,
+      "importance": 0.6024,
+      "importance_score": 0.6024,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -647,7 +719,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9574,
+        "recency": 0.9329,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -665,79 +737,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_8b6327ae70ff",
-      "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
-      "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
-      "primary_url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
-          "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
-          "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T17:44:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
-          "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
-          "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T17:44:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7666,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-11T17:44:08Z",
-      "latest_at": "2026-08-11T17:44:08Z",
-      "primary_item": {
-        "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
-        "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
-        "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -779,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.603,
-      "importance": 0.603,
-      "importance_score": 0.603,
+      "score": 0.5987,
+      "importance": 0.5987,
+      "importance_score": 0.5987,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -794,7 +793,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9361,
+        "recency": 0.9121,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -812,6 +811,153 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0703cff83ce8",
+      "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
+      "url": "https://www.jiemian.com/article/14908455.html",
+      "primary_url": "https://www.jiemian.com/article/14908455.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
+          "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
+          "url": "https://www.jiemian.com/article/14908455.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T15:17:29Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.71
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
+          "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
+          "url": "https://www.jiemian.com/article/14908455.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T15:17:29Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.71
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5352,
+      "importance": 0.5352,
+      "importance_score": 0.5352,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.71,
+      "ai_signals": [
+        "博物馆",
+        "客流",
+        "系统"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5112,
+        "source_tier": 0.5,
+        "ai_relevance": 0.71,
+        "recency": 0.7211,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T15:17:29Z",
+      "latest_at": "2026-08-11T15:17:29Z",
+      "primary_item": {
+        "id": "29612fb3e76a723707757b79fcca3e1ebc5527be",
+        "title": "部分博物馆出现停电、空调系统瘫痪、大客流聚集等情况，国家文物局发布紧急通知",
+        "url": "https://www.jiemian.com/article/14908455.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.71
+      }
+    },
+    {
+      "story_id": "story_8b6327ae70ff",
+      "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
+      "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
+      "primary_url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
+          "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
+          "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T17:44:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
+          "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
+          "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-11T17:44:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5565,
+      "importance": 0.5565,
+      "importance_score": 0.5565,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "travel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.747,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-11T17:44:08Z",
+      "latest_at": "2026-08-11T17:44:08Z",
+      "primary_item": {
+        "id": "ddfcd2cf70a9332b805682de7257b52d265ead10",
+        "title": "Canadian Travel to the U.S. Ticks Up Again — But Still Far from a Full Recovery",
+        "url": "https://skift.com/2026/08/11/canadian-travel-to-the-u-s-ticks-up-again-but-still-far-from-a-full-recovery",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -853,9 +999,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5601,
-      "importance": 0.5601,
-      "importance_score": 0.5601,
+      "score": 0.5562,
+      "importance": 0.5562,
+      "importance_score": 0.5562,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -867,7 +1013,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8363,
+        "recency": 0.815,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -885,79 +1031,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_dcda92ddb823",
-      "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
-      "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
-      "primary_url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
-          "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
-          "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T13:48:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
-          "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
-          "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T13:48:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5524,
-      "importance": 0.5524,
-      "importance_score": 0.5524,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "tourism",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7243,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-11T13:48:21Z",
-      "latest_at": "2026-08-11T13:48:21Z",
-      "primary_item": {
-        "id": "5db5515bdb19c221b3901d5d4fdf6fc689c5c2c4",
-        "title": "Spain’s Eclipse: A Three-Year Tourism Strategy Built Around Two Minutes of Darkness",
-        "url": "https://skift.com/2026/08/11/spain-eclipse-tourism-strategy",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -999,9 +1072,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6024,
-      "importance": 0.6024,
-      "importance_score": 0.6024,
+      "score": 0.5981,
+      "importance": 0.5981,
+      "importance_score": 0.5981,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1014,7 +1087,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9327,
+        "recency": 0.9089,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1073,9 +1146,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.551,
-      "importance": 0.551,
-      "importance_score": 0.551,
+      "score": 0.5474,
+      "importance": 0.5474,
+      "importance_score": 0.5474,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1086,7 +1159,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7861,
+        "recency": 0.766,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1218,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.602,
-      "importance": 0.602,
-      "importance_score": 0.602,
+      "score": 0.5978,
+      "importance": 0.5978,
+      "importance_score": 0.5978,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1160,7 +1233,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9309,
+        "recency": 0.9071,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1178,153 +1251,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_36fbdefd70cc",
-      "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-      "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-      "primary_url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T12:11:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-          "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-          "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-11T12:11:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5494,
-      "importance": 0.5494,
-      "importance_score": 0.5494,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "hotel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7075,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-11T12:11:00Z",
-      "latest_at": "2026-08-11T12:11:00Z",
-      "primary_item": {
-        "id": "a1bd89d51c4d0842195a4d698f67c3a7f00911c4",
-        "title": "UAE’s Hotel Divide: Abu Dhabi Holds Up While Dubai Sinks",
-        "url": "https://skift.com/2026/08/11/uaes-hotel-divide-abu-dhabi-holds-up-while-dubai-sinks",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e1c8c7215ff3",
-      "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-      "url": "https://www.pinchain.com/article/349845",
-      "primary_url": "https://www.pinchain.com/article/349845",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-          "url": "https://www.pinchain.com/article/349845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:15:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-          "url": "https://www.pinchain.com/article/349845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:15:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.598,
-      "importance": 0.598,
-      "importance_score": 0.598,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.77,
-      "ai_signals": [
-        "旅游",
-        "ai",
-        "平台"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5544,
-        "source_tier": 0.5,
-        "ai_relevance": 0.77,
-        "recency": 0.9318,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-12T07:15:12Z",
-      "latest_at": "2026-08-12T07:15:12Z",
-      "primary_item": {
-        "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-        "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-        "url": "https://www.pinchain.com/article/349845",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.77
       }
     },
     {
@@ -1366,9 +1292,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5436,
-      "importance": 0.5436,
-      "importance_score": 0.5436,
+      "score": 0.5402,
+      "importance": 0.5402,
+      "importance_score": 0.5402,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1379,7 +1305,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7449,
+        "recency": 0.7259,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1397,6 +1323,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_e1c8c7215ff3",
+      "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
+      "url": "https://www.pinchain.com/article/349845",
+      "primary_url": "https://www.pinchain.com/article/349845",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
+          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
+          "url": "https://www.pinchain.com/article/349845",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T07:15:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
+          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
+          "url": "https://www.pinchain.com/article/349845",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-12T07:15:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.77
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5938,
+      "importance": 0.5938,
+      "importance_score": 0.5938,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.77,
+      "ai_signals": [
+        "旅游",
+        "ai",
+        "平台"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5544,
+        "source_tier": 0.5,
+        "ai_relevance": 0.77,
+        "recency": 0.908,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-12T07:15:12Z",
+      "latest_at": "2026-08-12T07:15:12Z",
+      "primary_item": {
+        "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
+        "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
+        "url": "https://www.pinchain.com/article/349845",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.77
       }
     },
     {
@@ -1438,9 +1438,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5953,
-      "importance": 0.5953,
-      "importance_score": 0.5953,
+      "score": 0.5908,
+      "importance": 0.5908,
+      "importance_score": 0.5908,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1452,7 +1452,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9626,
+        "recency": 0.938,
         "story_heat": 0.0
       },
       "category": "watch",
