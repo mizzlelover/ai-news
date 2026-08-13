@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-13T01:51:33.024923Z",
+  "generated_at": "2026-08-13T04:11:02.377129Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_83e8b6ba036d",
-      "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-      "url": "https://www.pinchain.com/article/349875",
-      "primary_url": "https://www.pinchain.com/article/349875",
+      "story_id": "story_95a07cf1487c",
+      "title": "南非启用电子旅行许可 首批面向中国等客源国",
+      "url": "https://www.pinchain.com/article/349911",
+      "primary_url": "https://www.pinchain.com/article/349911",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-          "url": "https://www.pinchain.com/article/349875",
+          "id": "9d4b23e64e636dcb2506b43aa3c5b08d05c88035",
+          "title": "南非启用电子旅行许可 首批面向中国等客源国",
+          "url": "https://www.pinchain.com/article/349911",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-13T01:28:23Z",
+          "published_at": "2026-08-13T03:34:54Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "source_count": 1,
@@ -29,52 +29,53 @@
       ],
       "items": [
         {
-          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-          "url": "https://www.pinchain.com/article/349875",
+          "id": "9d4b23e64e636dcb2506b43aa3c5b08d05c88035",
+          "title": "南非启用电子旅行许可 首批面向中国等客源国",
+          "url": "https://www.pinchain.com/article/349911",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-13T01:28:23Z",
+          "published_at": "2026-08-13T03:34:54Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6135,
-      "importance": 0.6135,
-      "importance_score": 0.6135,
+      "score": 0.6254,
+      "importance": 0.6254,
+      "importance_score": 0.6254,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.81,
       "ai_signals": [
+        "客源",
         "旅游",
         "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.5832,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9944,
+        "ai_relevance": 0.81,
+        "recency": 0.9913,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-13T01:28:23Z",
-      "latest_at": "2026-08-13T01:28:23Z",
+      "earliest_at": "2026-08-13T03:34:54Z",
+      "latest_at": "2026-08-13T03:34:54Z",
       "primary_item": {
-        "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-        "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-        "url": "https://www.pinchain.com/article/349875",
+        "id": "9d4b23e64e636dcb2506b43aa3c5b08d05c88035",
+        "title": "南非启用电子旅行许可 首批面向中国等客源国",
+        "url": "https://www.pinchain.com/article/349911",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.81
       }
     },
     {
@@ -116,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6059,
-      "importance": 0.6059,
-      "importance_score": 0.6059,
+      "score": 0.6009,
+      "importance": 0.6009,
+      "importance_score": 0.6009,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -131,7 +132,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.8365,
+        "recency": 0.8089,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
+      "score": 0.564,
+      "importance": 0.564,
+      "importance_score": 0.564,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -204,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8158,
+        "recency": 0.7888,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5672,
-      "importance": 0.5672,
-      "importance_score": 0.5672,
+      "score": 0.562,
+      "importance": 0.562,
+      "importance_score": 0.562,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8758,
+        "recency": 0.8469,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -297,23 +298,23 @@
       }
     },
     {
-      "story_id": "story_c06c22929d7a",
-      "title": "景区免费门票“代抢费”近百元 谁在收割游客",
-      "url": "https://www.pinchain.com/article/349854",
-      "primary_url": "https://www.pinchain.com/article/349854",
+      "story_id": "story_c6ac3dda79a4",
+      "title": "西藏高高原跨航司“无感中转”正式启用，",
+      "url": "https://www.pinchain.com/article/349913",
+      "primary_url": "https://www.pinchain.com/article/349913",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "fa389e95fb483a54054bd41885b36eef54815d35",
-          "title": "景区免费门票“代抢费”近百元 谁在收割游客",
-          "url": "https://www.pinchain.com/article/349854",
+          "id": "223c0fe53894df14ba6a70306a731f660f479ea1",
+          "title": "西藏高高原跨航司“无感中转”正式启用，",
+          "url": "https://www.pinchain.com/article/349913",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T08:39:20Z",
+          "published_at": "2026-08-13T03:11:26Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -322,53 +323,274 @@
       ],
       "items": [
         {
-          "id": "fa389e95fb483a54054bd41885b36eef54815d35",
-          "title": "景区免费门票“代抢费”近百元 谁在收割游客",
-          "url": "https://www.pinchain.com/article/349854",
+          "id": "223c0fe53894df14ba6a70306a731f660f479ea1",
+          "title": "西藏高高原跨航司“无感中转”正式启用，",
+          "url": "https://www.pinchain.com/article/349913",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T08:39:20Z",
+          "published_at": "2026-08-13T03:11:26Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5874,
-      "importance": 0.5874,
-      "importance_score": 0.5874,
+      "score": 0.6119,
+      "importance": 0.6119,
+      "importance_score": 0.6119,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.78,
       "ai_signals": [
         "旅游",
-        "景区",
-        "游客",
+        "航司",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.78,
+        "ai_relevance": 0.78,
+        "recency": 0.9858,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T08:39:20Z",
-      "latest_at": "2026-08-12T08:39:20Z",
+      "earliest_at": "2026-08-13T03:11:26Z",
+      "latest_at": "2026-08-13T03:11:26Z",
       "primary_item": {
-        "id": "fa389e95fb483a54054bd41885b36eef54815d35",
-        "title": "景区免费门票“代抢费”近百元 谁在收割游客",
-        "url": "https://www.pinchain.com/article/349854",
+        "id": "223c0fe53894df14ba6a70306a731f660f479ea1",
+        "title": "西藏高高原跨航司“无感中转”正式启用，",
+        "url": "https://www.pinchain.com/article/349913",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_0c948871cdbc",
+      "title": "阿联酋航空多举措助力乘客安心出行",
+      "url": "https://www.pinchain.com/article/349909",
+      "primary_url": "https://www.pinchain.com/article/349909",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "753af5543f57cc3e69c718e12e387c4a49f7e573",
+          "title": "阿联酋航空多举措助力乘客安心出行",
+          "url": "https://www.pinchain.com/article/349909",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T03:07:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "753af5543f57cc3e69c718e12e387c4a49f7e573",
+          "title": "阿联酋航空多举措助力乘客安心出行",
+          "url": "https://www.pinchain.com/article/349909",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T03:07:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6117,
+      "importance": 0.6117,
+      "importance_score": 0.6117,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "航空",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9847,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T03:07:05Z",
+      "latest_at": "2026-08-13T03:07:05Z",
+      "primary_item": {
+        "id": "753af5543f57cc3e69c718e12e387c4a49f7e573",
+        "title": "阿联酋航空多举措助力乘客安心出行",
+        "url": "https://www.pinchain.com/article/349909",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_4ccc4358145f",
+      "title": "大韩航空与韩亚航空合并协议获批",
+      "url": "https://www.pinchain.com/article/349898",
+      "primary_url": "https://www.pinchain.com/article/349898",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4b32e633b44345e16edcc44f3dbcd7ad05678092",
+          "title": "大韩航空与韩亚航空合并协议获批",
+          "url": "https://www.pinchain.com/article/349898",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T02:42:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4b32e633b44345e16edcc44f3dbcd7ad05678092",
+          "title": "大韩航空与韩亚航空合并协议获批",
+          "url": "https://www.pinchain.com/article/349898",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T02:42:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6107,
+      "importance": 0.6107,
+      "importance_score": 0.6107,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "航空",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9789,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T02:42:17Z",
+      "latest_at": "2026-08-13T02:42:17Z",
+      "primary_item": {
+        "id": "4b32e633b44345e16edcc44f3dbcd7ad05678092",
+        "title": "大韩航空与韩亚航空合并协议获批",
+        "url": "https://www.pinchain.com/article/349898",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_83e8b6ba036d",
+      "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
+      "url": "https://www.pinchain.com/article/349875",
+      "primary_url": "https://www.pinchain.com/article/349875",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
+          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
+          "url": "https://www.pinchain.com/article/349875",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T01:28:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
+          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
+          "url": "https://www.pinchain.com/article/349875",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T01:28:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6076,
+      "importance": 0.6076,
+      "importance_score": 0.6076,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9616,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T01:28:23Z",
+      "latest_at": "2026-08-13T01:28:23Z",
+      "primary_item": {
+        "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
+        "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
+        "url": "https://www.pinchain.com/article/349875",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -410,9 +632,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5661,
-      "importance": 0.5661,
-      "importance_score": 0.5661,
+      "score": 0.5609,
+      "importance": 0.5609,
+      "importance_score": 0.5609,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -423,7 +645,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.87,
+        "recency": 0.8412,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -444,23 +666,23 @@
       }
     },
     {
-      "story_id": "story_cbe978dab9ce",
-      "title": "览长城逛山庄 国内景区成境外游客热门打卡地",
-      "url": "https://www.pinchain.com/article/349844",
-      "primary_url": "https://www.pinchain.com/article/349844",
+      "story_id": "story_acff72259b2f",
+      "title": "六部门联合印发《生态保护“十五五”规划》",
+      "url": "https://www.pinchain.com/article/349912",
+      "primary_url": "https://www.pinchain.com/article/349912",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "43197a085ac7bec90418a9de6d83a0e7e2a1b7cd",
-          "title": "览长城逛山庄 国内景区成境外游客热门打卡地",
-          "url": "https://www.pinchain.com/article/349844",
+          "id": "b297cd7e9aeb951784f81299f94cfbdf92607ae7",
+          "title": "六部门联合印发《生态保护“十五五”规划》",
+          "url": "https://www.pinchain.com/article/349912",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:33:39Z",
+          "published_at": "2026-08-13T03:32:08Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -469,53 +691,51 @@
       ],
       "items": [
         {
-          "id": "43197a085ac7bec90418a9de6d83a0e7e2a1b7cd",
-          "title": "览长城逛山庄 国内景区成境外游客热门打卡地",
-          "url": "https://www.pinchain.com/article/349844",
+          "id": "b297cd7e9aeb951784f81299f94cfbdf92607ae7",
+          "title": "六部门联合印发《生态保护“十五五”规划》",
+          "url": "https://www.pinchain.com/article/349912",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:33:39Z",
+          "published_at": "2026-08-13T03:32:08Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5852,
-      "importance": 0.5852,
-      "importance_score": 0.5852,
+      "score": 0.6003,
+      "importance": 0.6003,
+      "importance_score": 0.6003,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "景区",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7678,
+        "ai_relevance": 0.75,
+        "recency": 0.9907,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T07:33:39Z",
-      "latest_at": "2026-08-12T07:33:39Z",
+      "earliest_at": "2026-08-13T03:32:08Z",
+      "latest_at": "2026-08-13T03:32:08Z",
       "primary_item": {
-        "id": "43197a085ac7bec90418a9de6d83a0e7e2a1b7cd",
-        "title": "览长城逛山庄 国内景区成境外游客热门打卡地",
-        "url": "https://www.pinchain.com/article/349844",
+        "id": "b297cd7e9aeb951784f81299f94cfbdf92607ae7",
+        "title": "六部门联合印发《生态保护“十五五”规划》",
+        "url": "https://www.pinchain.com/article/349912",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.75
       }
     },
     {
@@ -557,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5659,
-      "importance": 0.5659,
-      "importance_score": 0.5659,
+      "score": 0.5607,
+      "importance": 0.5607,
+      "importance_score": 0.5607,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -570,7 +790,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8686,
+        "recency": 0.8399,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -591,97 +811,23 @@
       }
     },
     {
-      "story_id": "story_fe02e0f88939",
-      "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-      "url": "https://www.ithome.com/0/988/681.htm",
-      "primary_url": "https://www.ithome.com/0/988/681.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bd77c0b6bb082aa87a360a40c202d9c272abd722",
-          "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-          "url": "https://www.ithome.com/0/988/681.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T03:01:31Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "bd77c0b6bb082aa87a360a40c202d9c272abd722",
-          "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-          "url": "https://www.ithome.com/0/988/681.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T03:01:31Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5514,
-      "importance": 0.5514,
-      "importance_score": 0.5514,
-      "ai_label": "tourism_policy",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "芯片",
-        "文旅",
-        "文旅部"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7191,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-12T03:01:31Z",
-      "latest_at": "2026-08-12T03:01:31Z",
-      "primary_item": {
-        "id": "bd77c0b6bb082aa87a360a40c202d9c272abd722",
-        "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-        "url": "https://www.ithome.com/0/988/681.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_policy",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_a7b0e2a3fcae",
-      "title": "暑运以来深圳铁路累计客流超2400万人次",
-      "url": "https://www.pinchain.com/article/349863",
-      "primary_url": "https://www.pinchain.com/article/349863",
+      "story_id": "story_4fcb952ddc67",
+      "title": "厦航将恢复普吉岛国际航线",
+      "url": "https://www.pinchain.com/article/349903",
+      "primary_url": "https://www.pinchain.com/article/349903",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "2360768e74c4c53a53a47b99d7a50123dcd33bb0",
-          "title": "暑运以来深圳铁路累计客流超2400万人次",
-          "url": "https://www.pinchain.com/article/349863",
+          "id": "827d8fd3365257b4568fcc0250b5e983112b9ab6",
+          "title": "厦航将恢复普吉岛国际航线",
+          "url": "https://www.pinchain.com/article/349903",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T09:19:46Z",
+          "published_at": "2026-08-13T03:03:53Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -690,52 +836,51 @@
       ],
       "items": [
         {
-          "id": "2360768e74c4c53a53a47b99d7a50123dcd33bb0",
-          "title": "暑运以来深圳铁路累计客流超2400万人次",
-          "url": "https://www.pinchain.com/article/349863",
+          "id": "827d8fd3365257b4568fcc0250b5e983112b9ab6",
+          "title": "厦航将恢复普吉岛国际航线",
+          "url": "https://www.pinchain.com/article/349903",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T09:19:46Z",
+          "published_at": "2026-08-13T03:03:53Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5763,
-      "importance": 0.5763,
-      "importance_score": 0.5763,
+      "score": 0.5991,
+      "importance": 0.5991,
+      "importance_score": 0.5991,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "客流",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7877,
+        "ai_relevance": 0.75,
+        "recency": 0.984,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T09:19:46Z",
-      "latest_at": "2026-08-12T09:19:46Z",
+      "earliest_at": "2026-08-13T03:03:53Z",
+      "latest_at": "2026-08-13T03:03:53Z",
       "primary_item": {
-        "id": "2360768e74c4c53a53a47b99d7a50123dcd33bb0",
-        "title": "暑运以来深圳铁路累计客流超2400万人次",
-        "url": "https://www.pinchain.com/article/349863",
+        "id": "827d8fd3365257b4568fcc0250b5e983112b9ab6",
+        "title": "厦航将恢复普吉岛国际航线",
+        "url": "https://www.pinchain.com/article/349903",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -777,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5632,
-      "importance": 0.5632,
-      "importance_score": 0.5632,
+      "score": 0.5581,
+      "importance": 0.5581,
+      "importance_score": 0.5581,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -790,7 +935,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8538,
+        "recency": 0.8256,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -811,23 +956,23 @@
       }
     },
     {
-      "story_id": "story_1444328fe7ac",
-      "title": "国家文物局： 加强博物馆暑期应急管理工作",
-      "url": "https://www.pinchain.com/article/349866",
-      "primary_url": "https://www.pinchain.com/article/349866",
+      "story_id": "story_0a97a43562b8",
+      "title": "惠州：中国又一家千万级机场来了",
+      "url": "https://www.pinchain.com/article/349902",
+      "primary_url": "https://www.pinchain.com/article/349902",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "15d21140d49f1192989749a2ff57c42249da6313",
-          "title": "国家文物局： 加强博物馆暑期应急管理工作",
-          "url": "https://www.pinchain.com/article/349866",
+          "id": "e66f46a4d2893af90cd42171322caa29c851ac7f",
+          "title": "惠州：中国又一家千万级机场来了",
+          "url": "https://www.pinchain.com/article/349902",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T09:07:49Z",
+          "published_at": "2026-08-13T03:00:46Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -836,52 +981,51 @@
       ],
       "items": [
         {
-          "id": "15d21140d49f1192989749a2ff57c42249da6313",
-          "title": "国家文物局： 加强博物馆暑期应急管理工作",
-          "url": "https://www.pinchain.com/article/349866",
+          "id": "e66f46a4d2893af90cd42171322caa29c851ac7f",
+          "title": "惠州：中国又一家千万级机场来了",
+          "url": "https://www.pinchain.com/article/349902",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T09:07:49Z",
+          "published_at": "2026-08-13T03:00:46Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5759,
-      "importance": 0.5759,
-      "importance_score": 0.5759,
+      "score": 0.599,
+      "importance": 0.599,
+      "importance_score": 0.599,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "博物馆",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7854,
+        "ai_relevance": 0.75,
+        "recency": 0.9832,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T09:07:49Z",
-      "latest_at": "2026-08-12T09:07:49Z",
+      "earliest_at": "2026-08-13T03:00:46Z",
+      "latest_at": "2026-08-13T03:00:46Z",
       "primary_item": {
-        "id": "15d21140d49f1192989749a2ff57c42249da6313",
-        "title": "国家文物局： 加强博物馆暑期应急管理工作",
-        "url": "https://www.pinchain.com/article/349866",
+        "id": "e66f46a4d2893af90cd42171322caa29c851ac7f",
+        "title": "惠州：中国又一家千万级机场来了",
+        "url": "https://www.pinchain.com/article/349902",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -923,9 +1067,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.562,
-      "importance": 0.562,
-      "importance_score": 0.562,
+      "score": 0.557,
+      "importance": 0.557,
+      "importance_score": 0.557,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -936,7 +1080,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8472,
+        "recency": 0.8193,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -957,23 +1101,23 @@
       }
     },
     {
-      "story_id": "story_57cc6f7736c7",
-      "title": "今年服贸会于9月举办 将开展七十余场文旅活动",
-      "url": "https://www.pinchain.com/article/349843",
-      "primary_url": "https://www.pinchain.com/article/349843",
+      "story_id": "story_b23fea4e6709",
+      "title": "国航将开通北京首都—布加勒斯特—萨格勒布航线",
+      "url": "https://www.pinchain.com/article/349901",
+      "primary_url": "https://www.pinchain.com/article/349901",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "c850c54c4bc2f7891bdbbf4600e6707503e8c921",
-          "title": "今年服贸会于9月举办 将开展七十余场文旅活动",
-          "url": "https://www.pinchain.com/article/349843",
+          "id": "1b138cebc973d4324e95405b9e4a70ba557ab27b",
+          "title": "国航将开通北京首都—布加勒斯特—萨格勒布航线",
+          "url": "https://www.pinchain.com/article/349901",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:34:08Z",
+          "published_at": "2026-08-13T02:58:12Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -982,52 +1126,51 @@
       ],
       "items": [
         {
-          "id": "c850c54c4bc2f7891bdbbf4600e6707503e8c921",
-          "title": "今年服贸会于9月举办 将开展七十余场文旅活动",
-          "url": "https://www.pinchain.com/article/349843",
+          "id": "1b138cebc973d4324e95405b9e4a70ba557ab27b",
+          "title": "国航将开通北京首都—布加勒斯特—萨格勒布航线",
+          "url": "https://www.pinchain.com/article/349901",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:34:08Z",
+          "published_at": "2026-08-13T02:58:12Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5727,
-      "importance": 0.5727,
-      "importance_score": 0.5727,
+      "score": 0.5989,
+      "importance": 0.5989,
+      "importance_score": 0.5989,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "文旅",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7679,
+        "ai_relevance": 0.75,
+        "recency": 0.9826,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T07:34:08Z",
-      "latest_at": "2026-08-12T07:34:08Z",
+      "earliest_at": "2026-08-13T02:58:12Z",
+      "latest_at": "2026-08-13T02:58:12Z",
       "primary_item": {
-        "id": "c850c54c4bc2f7891bdbbf4600e6707503e8c921",
-        "title": "今年服贸会于9月举办 将开展七十余场文旅活动",
-        "url": "https://www.pinchain.com/article/349843",
+        "id": "1b138cebc973d4324e95405b9e4a70ba557ab27b",
+        "title": "国航将开通北京首都—布加勒斯特—萨格勒布航线",
+        "url": "https://www.pinchain.com/article/349901",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -1069,9 +1212,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5583,
-      "importance": 0.5583,
-      "importance_score": 0.5583,
+      "score": 0.5534,
+      "importance": 0.5534,
+      "importance_score": 0.5534,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1082,7 +1225,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8268,
+        "recency": 0.7995,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1103,23 +1246,23 @@
       }
     },
     {
-      "story_id": "story_a4feaaacc966",
-      "title": "燃油费下调暑期游添动力 中秋国庆出境游升温",
-      "url": "https://www.pinchain.com/article/349846",
-      "primary_url": "https://www.pinchain.com/article/349846",
+      "story_id": "story_4710d76e4f25",
+      "title": "高德扫街榜2026年榜发布",
+      "url": "https://www.pinchain.com/article/349900",
+      "primary_url": "https://www.pinchain.com/article/349900",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "0055dbe554ad68f7ac08cb483aa11967420dc2af",
-          "title": "燃油费下调暑期游添动力 中秋国庆出境游升温",
-          "url": "https://www.pinchain.com/article/349846",
+          "id": "798249ad948520479467b4cf8ec5bf707d42db52",
+          "title": "高德扫街榜2026年榜发布",
+          "url": "https://www.pinchain.com/article/349900",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:19:15Z",
+          "published_at": "2026-08-13T02:54:39Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -1128,52 +1271,51 @@
       ],
       "items": [
         {
-          "id": "0055dbe554ad68f7ac08cb483aa11967420dc2af",
-          "title": "燃油费下调暑期游添动力 中秋国庆出境游升温",
-          "url": "https://www.pinchain.com/article/349846",
+          "id": "798249ad948520479467b4cf8ec5bf707d42db52",
+          "title": "高德扫街榜2026年榜发布",
+          "url": "https://www.pinchain.com/article/349900",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:19:15Z",
+          "published_at": "2026-08-13T02:54:39Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5722,
-      "importance": 0.5722,
-      "importance_score": 0.5722,
+      "score": 0.5987,
+      "importance": 0.5987,
+      "importance_score": 0.5987,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "出境游",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7651,
+        "ai_relevance": 0.75,
+        "recency": 0.9818,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T07:19:15Z",
-      "latest_at": "2026-08-12T07:19:15Z",
+      "earliest_at": "2026-08-13T02:54:39Z",
+      "latest_at": "2026-08-13T02:54:39Z",
       "primary_item": {
-        "id": "0055dbe554ad68f7ac08cb483aa11967420dc2af",
-        "title": "燃油费下调暑期游添动力 中秋国庆出境游升温",
-        "url": "https://www.pinchain.com/article/349846",
+        "id": "798249ad948520479467b4cf8ec5bf707d42db52",
+        "title": "高德扫街榜2026年榜发布",
+        "url": "https://www.pinchain.com/article/349900",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -1215,9 +1357,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5564,
-      "importance": 0.5564,
-      "importance_score": 0.5564,
+      "score": 0.5515,
+      "importance": 0.5515,
+      "importance_score": 0.5515,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -1228,7 +1370,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8158,
+        "recency": 0.7889,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1249,23 +1391,23 @@
       }
     },
     {
-      "story_id": "story_038e2e706161",
-      "title": "湖北发布黄色山洪灾害气象预警 多景区临时闭园",
-      "url": "https://www.pinchain.com/article/349848",
-      "primary_url": "https://www.pinchain.com/article/349848",
+      "story_id": "story_e75990078916",
+      "title": "留好你的高铁车票，暑期游玩隐藏福利都靠它！",
+      "url": "https://www.pinchain.com/article/349891",
+      "primary_url": "https://www.pinchain.com/article/349891",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ad0f4cf11c90d5fd60ee4f361abcae7073c50040",
-          "title": "湖北发布黄色山洪灾害气象预警 多景区临时闭园",
-          "url": "https://www.pinchain.com/article/349848",
+          "id": "dca5638bb54fd5dfcddc3483587c65197b0e556f",
+          "title": "留好你的高铁车票，暑期游玩隐藏福利都靠它！",
+          "url": "https://www.pinchain.com/article/349891",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:10:59Z",
+          "published_at": "2026-08-13T02:40:21Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -1274,196 +1416,51 @@
       ],
       "items": [
         {
-          "id": "ad0f4cf11c90d5fd60ee4f361abcae7073c50040",
-          "title": "湖北发布黄色山洪灾害气象预警 多景区临时闭园",
-          "url": "https://www.pinchain.com/article/349848",
+          "id": "dca5638bb54fd5dfcddc3483587c65197b0e556f",
+          "title": "留好你的高铁车票，暑期游玩隐藏福利都靠它！",
+          "url": "https://www.pinchain.com/article/349891",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:10:59Z",
+          "published_at": "2026-08-13T02:40:21Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5719,
-      "importance": 0.5719,
-      "importance_score": 0.5719,
+      "score": 0.5981,
+      "importance": 0.5981,
+      "importance_score": 0.5981,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "景区",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7636,
+        "ai_relevance": 0.75,
+        "recency": 0.9784,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-12T07:10:59Z",
-      "latest_at": "2026-08-12T07:10:59Z",
+      "earliest_at": "2026-08-13T02:40:21Z",
+      "latest_at": "2026-08-13T02:40:21Z",
       "primary_item": {
-        "id": "ad0f4cf11c90d5fd60ee4f361abcae7073c50040",
-        "title": "湖北发布黄色山洪灾害气象预警 多景区临时闭园",
-        "url": "https://www.pinchain.com/article/349848",
+        "id": "dca5638bb54fd5dfcddc3483587c65197b0e556f",
+        "title": "留好你的高铁车票，暑期游玩隐藏福利都靠它！",
+        "url": "https://www.pinchain.com/article/349891",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_9a3189550a21",
-      "title": "Stranded Cruise Ships, Higher Fuel Prices: Iran War Eats Into TUI’s Profits",
-      "url": "https://skift.com/2026/08/12/tui-q3-earnings-iran-war",
-      "primary_url": "https://skift.com/2026/08/12/tui-q3-earnings-iran-war",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "467a25179b7315afd25dcc7abc44ae350569fc70",
-          "title": "Stranded Cruise Ships, Higher Fuel Prices: Iran War Eats Into TUI’s Profits",
-          "url": "https://skift.com/2026/08/12/tui-q3-earnings-iran-war",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T17:04:21Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "467a25179b7315afd25dcc7abc44ae350569fc70",
-          "title": "Stranded Cruise Ships, Higher Fuel Prices: Iran War Eats Into TUI’s Profits",
-          "url": "https://skift.com/2026/08/12/tui-q3-earnings-iran-war",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T17:04:21Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5556,
-      "importance": 0.5556,
-      "importance_score": 0.5556,
-      "ai_label": "travel_business",
-      "ai_score": 0.69,
-      "ai_signals": [],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.8808,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-12T17:04:21Z",
-      "latest_at": "2026-08-12T17:04:21Z",
-      "primary_item": {
-        "id": "467a25179b7315afd25dcc7abc44ae350569fc70",
-        "title": "Stranded Cruise Ships, Higher Fuel Prices: Iran War Eats Into TUI’s Profits",
-        "url": "https://skift.com/2026/08/12/tui-q3-earnings-iran-war",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_e1c8c7215ff3",
-      "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-      "url": "https://www.pinchain.com/article/349845",
-      "primary_url": "https://www.pinchain.com/article/349845",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-          "url": "https://www.pinchain.com/article/349845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:15:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-          "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-          "url": "https://www.pinchain.com/article/349845",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-12T07:15:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5679,
-      "importance": 0.5679,
-      "importance_score": 0.5679,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.77,
-      "ai_signals": [
-        "旅游",
-        "ai",
-        "平台"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5544,
-        "source_tier": 0.5,
-        "ai_relevance": 0.77,
-        "recency": 0.7644,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-12T07:15:12Z",
-      "latest_at": "2026-08-12T07:15:12Z",
-      "primary_item": {
-        "id": "ccff84a1b7dafd837ed1a49021b36ce809b59abd",
-        "title": "应对“白海豚” 部分在线旅游平台启动应急保障",
-        "url": "https://www.pinchain.com/article/349845",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.77
+        "ai_score": 0.75
       }
     }
   ]
