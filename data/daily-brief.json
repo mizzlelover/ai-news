@@ -1,8 +1,154 @@
 {
-  "generated_at": "2026-08-13T23:39:23.188197Z",
+  "generated_at": "2026-08-14T01:49:09.245362Z",
   "window_hours": 24,
-  "total_items": 14,
+  "total_items": 16,
   "items": [
+    {
+      "story_id": "story_1427a43b9665",
+      "title": "第八届“中国服务”·旅游产品创意案例征集",
+      "url": "https://www.pinchain.com/article/349920",
+      "primary_url": "https://www.pinchain.com/article/349920",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5f2fd499840db23e0ed2804b782c8d825a50d2ce",
+          "title": "第八届“中国服务”·旅游产品创意案例征集",
+          "url": "https://www.pinchain.com/article/349920",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T00:46:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "5f2fd499840db23e0ed2804b782c8d825a50d2ce",
+          "title": "第八届“中国服务”·旅游产品创意案例征集",
+          "url": "https://www.pinchain.com/article/349920",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T00:46:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5993,
+      "importance": 0.5993,
+      "importance_score": 0.5993,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.985,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T00:46:33Z",
+      "latest_at": "2026-08-14T00:46:33Z",
+      "primary_item": {
+        "id": "5f2fd499840db23e0ed2804b782c8d825a50d2ce",
+        "title": "第八届“中国服务”·旅游产品创意案例征集",
+        "url": "https://www.pinchain.com/article/349920",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_05aec84ea314",
+      "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+      "url": "https://www.ithome.com/0/989/525.htm",
+      "primary_url": "https://www.ithome.com/0/989/525.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "21ba775eeb15d1d1fb14367923a008241a7303ea",
+          "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+          "url": "https://www.ithome.com/0/989/525.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T01:10:06Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "21ba775eeb15d1d1fb14367923a008241a7303ea",
+          "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+          "url": "https://www.ithome.com/0/989/525.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T01:10:06Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5878,
+      "importance": 0.5878,
+      "importance_score": 0.5878,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "robot",
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9906,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T01:10:06Z",
+      "latest_at": "2026-08-14T01:10:06Z",
+      "primary_item": {
+        "id": "21ba775eeb15d1d1fb14367923a008241a7303ea",
+        "title": "小马智行与优步扩大合作，计划在欧洲 5 城部署超 2000 辆 Robotaxi",
+        "url": "https://www.ithome.com/0/989/525.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
+      }
+    },
     {
       "story_id": "story_6f7901113f20",
       "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
@@ -42,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5855,
-      "importance": 0.5855,
-      "importance_score": 0.5855,
+      "score": 0.5804,
+      "importance": 0.5804,
+      "importance_score": 0.5804,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +202,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9081,
+        "recency": 0.8802,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -74,6 +220,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_282da920b792",
+      "title": "自动驾驶公司文远知行 2026 上半年营收 3.5 亿同比增长 73%，Robotaxi 超 1800 辆",
+      "url": "https://www.ithome.com/0/989/504.htm",
+      "primary_url": "https://www.ithome.com/0/989/504.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2d20c6d9983562d38a8e3a4026dc97ca014807f3",
+          "title": "自动驾驶公司文远知行 2026 上半年营收 3.5 亿同比增长 73%，Robotaxi 超 1800 辆",
+          "url": "https://www.ithome.com/0/989/504.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T23:53:56Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "2d20c6d9983562d38a8e3a4026dc97ca014807f3",
+          "title": "自动驾驶公司文远知行 2026 上半年营收 3.5 亿同比增长 73%，Robotaxi 超 1800 辆",
+          "url": "https://www.ithome.com/0/989/504.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T23:53:56Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5846,
+      "importance": 0.5846,
+      "importance_score": 0.5846,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "robot",
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9727,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T23:53:56Z",
+      "latest_at": "2026-08-13T23:53:56Z",
+      "primary_item": {
+        "id": "2d20c6d9983562d38a8e3a4026dc97ca014807f3",
+        "title": "自动驾驶公司文远知行 2026 上半年营收 3.5 亿同比增长 73%，Robotaxi 超 1800 辆",
+        "url": "https://www.ithome.com/0/989/504.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
       }
     },
     {
@@ -115,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5817,
-      "importance": 0.5817,
-      "importance_score": 0.5817,
+      "score": 0.5775,
+      "importance": 0.5775,
+      "importance_score": 0.5775,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -131,7 +350,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7483,
+        "recency": 0.7253,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,80 +368,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_80d2e847ebf2",
-      "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
-      "url": "https://www.pinchain.com/article/349910",
-      "primary_url": "https://www.pinchain.com/article/349910",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
-          "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
-          "url": "https://www.pinchain.com/article/349910",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T06:26:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
-          "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
-          "url": "https://www.pinchain.com/article/349910",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T06:26:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "出境游",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7799,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-13T06:26:33Z",
-      "latest_at": "2026-08-13T06:26:33Z",
-      "primary_item": {
-        "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
-        "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
-        "url": "https://www.pinchain.com/article/349910",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -264,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.571,
-      "importance": 0.571,
-      "importance_score": 0.571,
+      "score": 0.5661,
+      "importance": 0.5661,
+      "importance_score": 0.5661,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +422,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8972,
+        "recency": 0.8696,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -295,6 +440,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_80d2e847ebf2",
+      "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
+      "url": "https://www.pinchain.com/article/349910",
+      "primary_url": "https://www.pinchain.com/article/349910",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
+          "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
+          "url": "https://www.pinchain.com/article/349910",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T06:26:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
+          "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
+          "url": "https://www.pinchain.com/article/349910",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T06:26:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "出境游",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7559,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T06:26:33Z",
+      "latest_at": "2026-08-13T06:26:33Z",
+      "primary_item": {
+        "id": "ba218205f401c405f6ecf4cd0de6102744cd2d8d",
+        "title": "众信旅游中秋十一黄金周出境游市场热度持续攀升",
+        "url": "https://www.pinchain.com/article/349910",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -336,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5684,
-      "importance": 0.5684,
-      "importance_score": 0.5684,
+      "score": 0.5643,
+      "importance": 0.5643,
+      "importance_score": 0.5643,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -351,7 +570,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7441,
+        "recency": 0.7212,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -410,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "score": 0.5642,
+      "importance": 0.5642,
+      "importance_score": 0.5642,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +644,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7434,
+        "recency": 0.7205,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5675,
-      "importance": 0.5675,
-      "importance_score": 0.5675,
+      "score": 0.5634,
+      "importance": 0.5634,
+      "importance_score": 0.5634,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +718,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7389,
+        "recency": 0.7162,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -512,80 +731,6 @@
         "id": "4b32e633b44345e16edcc44f3dbcd7ad05678092",
         "title": "大韩航空与韩亚航空合并协议获批",
         "url": "https://www.pinchain.com/article/349898",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_83e8b6ba036d",
-      "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-      "url": "https://www.pinchain.com/article/349875",
-      "primary_url": "https://www.pinchain.com/article/349875",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-          "url": "https://www.pinchain.com/article/349875",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T01:28:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-          "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-          "url": "https://www.pinchain.com/article/349875",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T01:28:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "旅行",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7259,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-13T01:28:23Z",
-      "latest_at": "2026-08-13T01:28:23Z",
-      "primary_item": {
-        "id": "461be3b1f602b1484a578a1400dffdfaf951f71a",
-        "title": "同程旅行:《欢迎来龙餐馆》热映,取景地热度大涨",
-        "url": "https://www.pinchain.com/article/349875",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -632,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5566,
-      "importance": 0.5566,
-      "importance_score": 0.5566,
+      "score": 0.5525,
+      "importance": 0.5525,
+      "importance_score": 0.5525,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -646,7 +791,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7478,
+        "recency": 0.7249,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -705,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5557,
-      "importance": 0.5557,
-      "importance_score": 0.5557,
+      "score": 0.5516,
+      "importance": 0.5516,
+      "importance_score": 0.5516,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -719,7 +864,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7428,
+        "recency": 0.7199,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -778,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5556,
-      "importance": 0.5556,
-      "importance_score": 0.5556,
+      "score": 0.5515,
+      "importance": 0.5515,
+      "importance_score": 0.5515,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -792,7 +937,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7422,
+        "recency": 0.7194,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -851,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5555,
-      "importance": 0.5555,
-      "importance_score": 0.5555,
+      "score": 0.5514,
+      "importance": 0.5514,
+      "importance_score": 0.5514,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -865,7 +1010,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7418,
+        "recency": 0.719,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5554,
-      "importance": 0.5554,
-      "importance_score": 0.5554,
+      "score": 0.5513,
+      "importance": 0.5513,
+      "importance_score": 0.5513,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -938,7 +1083,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7411,
+        "recency": 0.7183,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +1142,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5549,
-      "importance": 0.5549,
-      "importance_score": 0.5549,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1011,7 +1156,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7386,
+        "recency": 0.7159,
         "story_heat": 0.0
       },
       "category": "watch",
