@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T15:50:14.477691Z",
+  "generated_at": "2026-08-14T16:50:43.853000Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6039,
-      "importance": 0.6039,
-      "importance_score": 0.6039,
+      "score": 0.6016,
+      "importance": 0.6016,
+      "importance_score": 0.6016,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.872,
+        "recency": 0.8594,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5893,
-      "importance": 0.5893,
-      "importance_score": 0.5893,
+      "score": 0.5867,
+      "importance": 0.5867,
+      "importance_score": 0.5867,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.999,
+        "recency": 0.9845,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9793,
+        "recency": 0.9652,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5746,
-      "importance": 0.5746,
-      "importance_score": 0.5746,
+      "score": 0.572,
+      "importance": 0.572,
+      "importance_score": 0.572,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9865,
+        "recency": 0.9723,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -334,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5915,
-      "importance": 0.5915,
-      "importance_score": 0.5915,
+      "score": 0.5892,
+      "importance": 0.5892,
+      "importance_score": 0.5892,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -349,7 +349,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8723,
+        "recency": 0.8597,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -408,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5826,
-      "importance": 0.5826,
-      "importance_score": 0.5826,
+      "score": 0.5801,
+      "importance": 0.5801,
+      "importance_score": 0.5801,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -421,7 +421,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9618,
+        "recency": 0.9479,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +480,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.591,
-      "importance": 0.591,
-      "importance_score": 0.591,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -495,7 +495,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8696,
+        "recency": 0.857,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +554,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5908,
-      "importance": 0.5908,
-      "importance_score": 0.5908,
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -569,7 +569,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8684,
+        "recency": 0.8559,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -628,9 +628,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5552,
-      "importance": 0.5552,
-      "importance_score": 0.5552,
+      "score": 0.5531,
+      "importance": 0.5531,
+      "importance_score": 0.5531,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -642,7 +642,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8091,
+        "recency": 0.7974,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -701,9 +701,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5514,
-      "importance": 0.5514,
-      "importance_score": 0.5514,
+      "score": 0.5495,
+      "importance": 0.5495,
+      "importance_score": 0.5495,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -715,7 +715,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7189,
+        "recency": 0.7085,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -774,9 +774,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5907,
-      "importance": 0.5907,
-      "importance_score": 0.5907,
+      "score": 0.5884,
+      "importance": 0.5884,
+      "importance_score": 0.5884,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -789,7 +789,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8678,
+        "recency": 0.8553,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -848,9 +848,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5525,
-      "importance": 0.5525,
-      "importance_score": 0.5525,
+      "score": 0.5504,
+      "importance": 0.5504,
+      "importance_score": 0.5504,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -862,7 +862,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7944,
+        "recency": 0.7829,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -879,78 +879,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "travel_business",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_68f99065895f",
-      "title": "Minor Delays Plan for $1 Billion Hotel REIT",
-      "url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit",
-      "primary_url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2ef6d11fb26f24d54d4ced219f21e13c8ff7f27a",
-          "title": "Minor Delays Plan for $1 Billion Hotel REIT",
-          "url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T16:08:50Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "2ef6d11fb26f24d54d4ced219f21e13c8ff7f27a",
-          "title": "Minor Delays Plan for $1 Billion Hotel REIT",
-          "url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T16:08:50Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5374,
-      "importance": 0.5374,
-      "importance_score": 0.5374,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7103,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-13T16:08:50Z",
-      "latest_at": "2026-08-13T16:08:50Z",
-      "primary_item": {
-        "id": "2ef6d11fb26f24d54d4ced219f21e13c8ff7f27a",
-        "title": "Minor Delays Plan for $1 Billion Hotel REIT",
-        "url": "https://skift.com/2026/08/13/minor-delays-plan-for-1-billion-hotel-reit",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
         "ai_score": 0.72
       }
     },
@@ -993,9 +921,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5871,
-      "importance": 0.5871,
-      "importance_score": 0.5871,
+      "score": 0.5849,
+      "importance": 0.5849,
+      "importance_score": 0.5849,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1008,7 +936,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8712,
+        "recency": 0.8586,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1067,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
+      "score": 0.5847,
+      "importance": 0.5847,
+      "importance_score": 0.5847,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1082,7 +1010,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8705,
+        "recency": 0.8579,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1141,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5863,
-      "importance": 0.5863,
-      "importance_score": 0.5863,
+      "score": 0.584,
+      "importance": 0.584,
+      "importance_score": 0.584,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1156,7 +1084,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8665,
+        "recency": 0.8539,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1215,9 +1143,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5822,
-      "importance": 0.5822,
-      "importance_score": 0.5822,
+      "score": 0.5801,
+      "importance": 0.5801,
+      "importance_score": 0.5801,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1230,7 +1158,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8206,
+        "recency": 0.8088,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1289,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5821,
-      "importance": 0.5821,
-      "importance_score": 0.5821,
+      "score": 0.58,
+      "importance": 0.58,
+      "importance_score": 0.58,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1304,7 +1232,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.82,
+        "recency": 0.8082,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1291,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5805,
-      "importance": 0.5805,
-      "importance_score": 0.5805,
+      "score": 0.5783,
+      "importance": 0.5783,
+      "importance_score": 0.5783,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1378,7 +1306,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8344,
+        "recency": 0.8223,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1437,9 +1365,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5792,
-      "importance": 0.5792,
-      "importance_score": 0.5792,
+      "score": 0.5769,
+      "importance": 0.5769,
+      "importance_score": 0.5769,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1451,7 +1379,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8731,
+        "recency": 0.8605,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1464,6 +1392,79 @@
         "id": "6958c361fa2f686b8b907ef93ce98e2310dd9646",
         "title": "仁川机场国际航线旅客吞吐量居全球首位",
         "url": "https://www.pinchain.com/article/349964",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_dc3ee5014a25",
+      "title": "户外徒步团乱象调查：有人培训一两天就敢带队",
+      "url": "https://www.pinchain.com/article/349953",
+      "primary_url": "https://www.pinchain.com/article/349953",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a9f3f0e247268b98f218c519610ff48131a3d521",
+          "title": "户外徒步团乱象调查：有人培训一两天就敢带队",
+          "url": "https://www.pinchain.com/article/349953",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:11:43Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "a9f3f0e247268b98f218c519610ff48131a3d521",
+          "title": "户外徒步团乱象调查：有人培训一两天就敢带队",
+          "url": "https://www.pinchain.com/article/349953",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:11:43Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5763,
+      "importance": 0.5763,
+      "importance_score": 0.5763,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8574,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T06:11:43Z",
+      "latest_at": "2026-08-14T06:11:43Z",
+      "primary_item": {
+        "id": "a9f3f0e247268b98f218c519610ff48131a3d521",
+        "title": "户外徒步团乱象调查：有人培训一两天就敢带队",
+        "url": "https://www.pinchain.com/article/349953",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
