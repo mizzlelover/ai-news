@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14T12:07:39.591715Z",
+  "generated_at": "2026-08-14T13:52:42.043065Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6126,
-      "importance": 0.6126,
-      "importance_score": 0.6126,
+      "score": 0.6084,
+      "importance": 0.6084,
+      "importance_score": 0.6084,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.92,
+        "recency": 0.897,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -76,6 +76,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_380fbcf47713",
+      "title": "How Net Unit Growth Ate the Hotel Industry",
+      "url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry",
+      "primary_url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ba1d1e0c9bb2b0bf85844a4302dfb4a68baffc15",
+          "title": "How Net Unit Growth Ate the Hotel Industry",
+          "url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T13:08:13Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "ba1d1e0c9bb2b0bf85844a4302dfb4a68baffc15",
+          "title": "How Net Unit Growth Ate the Hotel Industry",
+          "url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T13:08:13Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5876,
+      "importance": 0.5876,
+      "importance_score": 0.5876,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9894,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T13:08:13Z",
+      "latest_at": "2026-08-14T13:08:13Z",
+      "primary_item": {
+        "id": "ba1d1e0c9bb2b0bf85844a4302dfb4a68baffc15",
+        "title": "How Net Unit Growth Ate the Hotel Industry",
+        "url": "https://skift.com/2026/08/14/how-net-unit-growth-ate-the-hotel-industry",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -117,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5632,
-      "importance": 0.5632,
-      "importance_score": 0.5632,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -131,7 +203,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8536,
+        "recency": 0.8323,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,79 +221,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_6f7901113f20",
-      "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
-      "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
-      "primary_url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
-          "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
-          "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T16:58:50Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
-          "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
-          "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-13T16:58:50Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5585,
-      "importance": 0.5585,
-      "importance_score": 0.5585,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7584,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-13T16:58:50Z",
-      "latest_at": "2026-08-13T16:58:50Z",
-      "primary_item": {
-        "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
-        "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
-        "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -263,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6001,
-      "importance": 0.6001,
-      "importance_score": 0.6001,
+      "score": 0.596,
+      "importance": 0.596,
+      "importance_score": 0.596,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -278,7 +277,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9203,
+        "recency": 0.8973,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -337,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5604,
-      "importance": 0.5604,
-      "importance_score": 0.5604,
+      "score": 0.5566,
+      "importance": 0.5566,
+      "importance_score": 0.5566,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -351,7 +350,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8381,
+        "recency": 0.8172,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -369,6 +368,79 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_6f7901113f20",
+      "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
+      "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
+      "primary_url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
+          "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
+          "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T16:58:50Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
+          "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
+          "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-13T16:58:50Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5551,
+      "importance": 0.5551,
+      "importance_score": 0.5551,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "travel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7395,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-13T16:58:50Z",
+      "latest_at": "2026-08-13T16:58:50Z",
+      "primary_item": {
+        "id": "93cd6abbb56c2e88f14e7aaea0e70c1178199732",
+        "title": "Overseas Travel to the U.S. Has Fallen for Four Straight Months — Despite the World Cup",
+        "url": "https://skift.com/2026/08/13/overseas-travel-to-the-u-s-has-fallen-for-four-straight-months-despite-the-world-cup",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -410,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5996,
-      "importance": 0.5996,
-      "importance_score": 0.5996,
+      "score": 0.5955,
+      "importance": 0.5955,
+      "importance_score": 0.5955,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -425,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9174,
+        "recency": 0.8945,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -484,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5994,
-      "importance": 0.5994,
-      "importance_score": 0.5994,
+      "score": 0.5953,
+      "importance": 0.5953,
+      "importance_score": 0.5953,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +571,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9162,
+        "recency": 0.8933,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -512,80 +584,6 @@
         "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
         "title": "深圳口岸出入境客流单日最高纪录达112万人次",
         "url": "https://www.pinchain.com/article/349946",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_3bf95a127327",
-      "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
-      "url": "https://www.pinchain.com/article/349945",
-      "primary_url": "https://www.pinchain.com/article/349945",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
-          "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
-          "url": "https://www.pinchain.com/article/349945",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:01:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
-          "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
-          "url": "https://www.pinchain.com/article/349945",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:01:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5993,
-      "importance": 0.5993,
-      "importance_score": 0.5993,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9156,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-14T06:01:14Z",
-      "latest_at": "2026-08-14T06:01:14Z",
-      "primary_item": {
-        "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
-        "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
-        "url": "https://www.pinchain.com/article/349945",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -632,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5444,
-      "importance": 0.5444,
-      "importance_score": 0.5444,
+      "score": 0.541,
+      "importance": 0.541,
+      "importance_score": 0.541,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -645,7 +643,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7494,
+        "recency": 0.7307,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -663,6 +661,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_3bf95a127327",
+      "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
+      "url": "https://www.pinchain.com/article/349945",
+      "primary_url": "https://www.pinchain.com/article/349945",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
+          "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
+          "url": "https://www.pinchain.com/article/349945",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:01:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
+          "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
+          "url": "https://www.pinchain.com/article/349945",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:01:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5952,
+      "importance": 0.5952,
+      "importance_score": 0.5952,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "博物馆",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8927,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T06:01:14Z",
+      "latest_at": "2026-08-14T06:01:14Z",
+      "primary_item": {
+        "id": "8714e63a7024662bce7d0c4c6773931cfbe8a9d0",
+        "title": "益阳市博物馆回应:已完成安检牌错字撤换整改",
+        "url": "https://www.pinchain.com/article/349945",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -704,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5958,
-      "importance": 0.5958,
-      "importance_score": 0.5958,
+      "score": 0.5916,
+      "importance": 0.5916,
+      "importance_score": 0.5916,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -719,7 +791,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9191,
+        "recency": 0.8962,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -778,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5956,
-      "importance": 0.5956,
-      "importance_score": 0.5956,
+      "score": 0.5915,
+      "importance": 0.5915,
+      "importance_score": 0.5915,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -793,7 +865,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9184,
+        "recency": 0.8955,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5949,
-      "importance": 0.5949,
-      "importance_score": 0.5949,
+      "score": 0.5908,
+      "importance": 0.5908,
+      "importance_score": 0.5908,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -867,7 +939,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9141,
+        "recency": 0.8913,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -926,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.5864,
+      "importance": 0.5864,
+      "importance_score": 0.5864,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -941,7 +1013,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8658,
+        "recency": 0.8442,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1000,9 +1072,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5902,
-      "importance": 0.5902,
-      "importance_score": 0.5902,
+      "score": 0.5863,
+      "importance": 0.5863,
+      "importance_score": 0.5863,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1015,7 +1087,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8652,
+        "recency": 0.8436,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1074,9 +1146,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5848,
+      "importance": 0.5848,
+      "importance_score": 0.5848,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -1089,7 +1161,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8803,
+        "recency": 0.8583,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1148,9 +1220,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5878,
-      "importance": 0.5878,
-      "importance_score": 0.5878,
+      "score": 0.5837,
+      "importance": 0.5837,
+      "importance_score": 0.5837,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1162,7 +1234,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9212,
+        "recency": 0.8982,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1221,9 +1293,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5872,
-      "importance": 0.5872,
-      "importance_score": 0.5872,
+      "score": 0.5831,
+      "importance": 0.5831,
+      "importance_score": 0.5831,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1235,7 +1307,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9179,
+        "recency": 0.895,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1294,9 +1366,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
+      "score": 0.5829,
+      "importance": 0.5829,
+      "importance_score": 0.5829,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1308,7 +1380,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9168,
+        "recency": 0.894,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1367,9 +1439,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5778,
-      "importance": 0.5778,
-      "importance_score": 0.5778,
+      "score": 0.5739,
+      "importance": 0.5739,
+      "importance_score": 0.5739,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1381,7 +1453,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8655,
+        "recency": 0.8439,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1394,79 +1466,6 @@
         "id": "14b250111b4a1a2f8aca9170be4a03669040029d",
         "title": "土耳其一艘观光游船起火 船上逾百人跳海避险",
         "url": "https://www.pinchain.com/article/349924",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_6486582f9da0",
-      "title": "企查查：今年已注册冰雪经济相关企业千余家",
-      "url": "https://www.pinchain.com/article/349926",
-      "primary_url": "https://www.pinchain.com/article/349926",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "eee6785c589a8caa531c51628dba20f526317426",
-          "title": "企查查：今年已注册冰雪经济相关企业千余家",
-          "url": "https://www.pinchain.com/article/349926",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T01:51:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "eee6785c589a8caa531c51628dba20f526317426",
-          "title": "企查查：今年已注册冰雪经济相关企业千余家",
-          "url": "https://www.pinchain.com/article/349926",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T01:51:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5772,
-      "importance": 0.5772,
-      "importance_score": 0.5772,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8621,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-14T01:51:16Z",
-      "latest_at": "2026-08-14T01:51:16Z",
-      "primary_item": {
-        "id": "eee6785c589a8caa531c51628dba20f526317426",
-        "title": "企查查：今年已注册冰雪经济相关企业千余家",
-        "url": "https://www.pinchain.com/article/349926",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
