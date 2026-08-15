@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T16:49:49.360598Z",
+  "generated_at": "2026-08-15T17:18:52.924540Z",
   "window_hours": 24,
   "total_items": 3,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5815,
-      "importance": 0.5815,
-      "importance_score": 0.5815,
+      "score": 0.5803,
+      "importance": 0.5803,
+      "importance_score": 0.5803,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -55,7 +55,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9552,
+        "recency": 0.9485,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -114,9 +114,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5576,
-      "importance": 0.5576,
-      "importance_score": 0.5576,
+      "score": 0.5566,
+      "importance": 0.5566,
+      "importance_score": 0.5566,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -128,7 +128,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8228,
+        "recency": 0.8171,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -187,9 +187,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5648,
-      "importance": 0.5648,
-      "importance_score": 0.5648,
+      "score": 0.5639,
+      "importance": 0.5639,
+      "importance_score": 0.5639,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -200,7 +200,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.724,
+        "recency": 0.719,
         "story_heat": 0.0
       },
       "category": "watch",
