@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-15T02:32:03.947858Z",
+  "generated_at": "2026-08-15T03:37:01.189447Z",
   "window_hours": 24,
   "total_items": 17,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
+      "score": 0.5922,
+      "importance": 0.5922,
+      "importance_score": 0.5922,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -55,7 +55,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.89,
+        "recency": 0.8762,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -73,6 +73,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_673293ddb6b1",
+      "title": "小马智行携手Uber，超2000台Robotaxi即将落地欧洲",
+      "url": "https://www.jiemian.com/article/14925917.html",
+      "primary_url": "https://www.jiemian.com/article/14925917.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "73bf6bc0a361d18eb953b894f44f58348e8614ce",
+          "title": "小马智行携手Uber，超2000台Robotaxi即将落地欧洲",
+          "url": "https://www.jiemian.com/article/14925917.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-15T03:19:39Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "73bf6bc0a361d18eb953b894f44f58348e8614ce",
+          "title": "小马智行携手Uber，超2000台Robotaxi即将落地欧洲",
+          "url": "https://www.jiemian.com/article/14925917.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-15T03:19:39Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5888,
+      "importance": 0.5888,
+      "importance_score": 0.5888,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "robot",
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9958,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-15T03:19:39Z",
+      "latest_at": "2026-08-15T03:19:39Z",
+      "primary_item": {
+        "id": "73bf6bc0a361d18eb953b894f44f58348e8614ce",
+        "title": "小马智行携手Uber，超2000台Robotaxi即将落地欧洲",
+        "url": "https://www.jiemian.com/article/14925917.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
       }
     },
     {
@@ -114,9 +187,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5814,
-      "importance": 0.5814,
-      "importance_score": 0.5814,
+      "score": 0.5794,
+      "importance": 0.5794,
+      "importance_score": 0.5794,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -130,7 +203,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7472,
+        "recency": 0.7356,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5606,
-      "importance": 0.5606,
-      "importance_score": 0.5606,
+      "score": 0.5582,
+      "importance": 0.5582,
+      "importance_score": 0.5582,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -202,7 +275,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8391,
+        "recency": 0.8261,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5492,
-      "importance": 0.5492,
-      "importance_score": 0.5492,
+      "score": 0.5468,
+      "importance": 0.5468,
+      "importance_score": 0.5468,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -275,7 +348,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8453,
+        "recency": 0.8322,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -334,9 +407,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.569,
-      "importance": 0.569,
-      "importance_score": 0.569,
+      "score": 0.5669,
+      "importance": 0.5669,
+      "importance_score": 0.5669,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -349,7 +422,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7474,
+        "recency": 0.7358,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -362,6 +435,80 @@
         "id": "0405e5be0a9d3adfb5d6223d298b881b2999f3a3",
         "title": "北京市属公园暑期预计接待游客将超2000万人次",
         "url": "https://www.pinchain.com/article/349965",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_cffe366314f2",
+      "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
+      "url": "https://www.pinchain.com/article/349952",
+      "primary_url": "https://www.pinchain.com/article/349952",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
+          "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
+          "url": "https://www.pinchain.com/article/349952",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:09:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
+          "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
+          "url": "https://www.pinchain.com/article/349952",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-14T06:09:35Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5665,
+      "importance": 0.5665,
+      "importance_score": 0.5665,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "目的地",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7336,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-14T06:09:35Z",
+      "latest_at": "2026-08-14T06:09:35Z",
+      "primary_item": {
+        "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
+        "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
+        "url": "https://www.pinchain.com/article/349952",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -408,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5636,
-      "importance": 0.5636,
-      "importance_score": 0.5636,
+      "score": 0.5612,
+      "importance": 0.5612,
+      "importance_score": 0.5612,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -421,7 +568,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.856,
+        "recency": 0.8427,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -442,21 +589,21 @@
       }
     },
     {
-      "story_id": "story_cffe366314f2",
-      "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
-      "url": "https://www.pinchain.com/article/349952",
-      "primary_url": "https://www.pinchain.com/article/349952",
+      "story_id": "story_e3ef9d8f0dcf",
+      "title": "深圳口岸出入境客流单日最高纪录达112万人次",
+      "url": "https://www.pinchain.com/article/349946",
+      "primary_url": "https://www.pinchain.com/article/349946",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
-          "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
-          "url": "https://www.pinchain.com/article/349952",
+          "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
+          "title": "深圳口岸出入境客流单日最高纪录达112万人次",
+          "url": "https://www.pinchain.com/article/349946",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:09:35Z",
+          "published_at": "2026-08-14T06:04:04Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -467,27 +614,27 @@
       ],
       "items": [
         {
-          "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
-          "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
-          "url": "https://www.pinchain.com/article/349952",
+          "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
+          "title": "深圳口岸出入境客流单日最高纪录达112万人次",
+          "url": "https://www.pinchain.com/article/349946",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:09:35Z",
+          "published_at": "2026-08-14T06:04:04Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5686,
-      "importance": 0.5686,
-      "importance_score": 0.5686,
+      "score": 0.5663,
+      "importance": 0.5663,
+      "importance_score": 0.5663,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "客流",
         "旅游",
-        "目的地",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -495,19 +642,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7451,
+        "recency": 0.7326,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-14T06:09:35Z",
-      "latest_at": "2026-08-14T06:09:35Z",
+      "earliest_at": "2026-08-14T06:04:04Z",
+      "latest_at": "2026-08-14T06:04:04Z",
       "primary_item": {
-        "id": "ae9f3ac9a49b86dc9ad4a075d32b9e42842da786",
-        "title": "外媒：中国如今跻身亚洲最成熟旅游目的地之列",
-        "url": "https://www.pinchain.com/article/349952",
+        "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
+        "title": "深圳口岸出入境客流单日最高纪录达112万人次",
+        "url": "https://www.pinchain.com/article/349946",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -554,9 +701,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5579,
-      "importance": 0.5579,
-      "importance_score": 0.5579,
+      "score": 0.5556,
+      "importance": 0.5556,
+      "importance_score": 0.5556,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -567,7 +714,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8241,
+        "recency": 0.8113,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -585,80 +732,6 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_e3ef9d8f0dcf",
-      "title": "深圳口岸出入境客流单日最高纪录达112万人次",
-      "url": "https://www.pinchain.com/article/349946",
-      "primary_url": "https://www.pinchain.com/article/349946",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
-          "title": "深圳口岸出入境客流单日最高纪录达112万人次",
-          "url": "https://www.pinchain.com/article/349946",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:04:04Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
-          "title": "深圳口岸出入境客流单日最高纪录达112万人次",
-          "url": "https://www.pinchain.com/article/349946",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T06:04:04Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5684,
-      "importance": 0.5684,
-      "importance_score": 0.5684,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "客流",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7441,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-14T06:04:04Z",
-      "latest_at": "2026-08-14T06:04:04Z",
-      "primary_item": {
-        "id": "7cdaf6de70520505acc4fa84f93893fc3e3b05d4",
-        "title": "深圳口岸出入境客流单日最高纪录达112万人次",
-        "url": "https://www.pinchain.com/article/349946",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -700,9 +773,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "score": 0.5663,
+      "importance": 0.5663,
+      "importance_score": 0.5663,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -715,7 +788,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7436,
+        "recency": 0.7321,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -774,9 +847,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5647,
-      "importance": 0.5647,
-      "importance_score": 0.5647,
+      "score": 0.5626,
+      "importance": 0.5626,
+      "importance_score": 0.5626,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -789,7 +862,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.7465,
+        "recency": 0.7349,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -848,9 +921,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5646,
-      "importance": 0.5646,
-      "importance_score": 0.5646,
+      "score": 0.5625,
+      "importance": 0.5625,
+      "importance_score": 0.5625,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -863,7 +936,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.7459,
+        "recency": 0.7343,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -922,9 +995,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.564,
-      "importance": 0.564,
-      "importance_score": 0.564,
+      "score": 0.5619,
+      "importance": 0.5619,
+      "importance_score": 0.5619,
       "ai_label": "tourism_tech",
       "ai_score": 0.77,
       "ai_signals": [
@@ -937,7 +1010,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.7424,
+        "recency": 0.7309,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -954,80 +1027,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.77
-      }
-    },
-    {
-      "story_id": "story_d1cef6801c99",
-      "title": "数读：从40省市数据拆解2026上半年入境旅游",
-      "url": "https://www.pinchain.com/article/349934",
-      "primary_url": "https://www.pinchain.com/article/349934",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "578cf4233210dd63d788809391af06da9678b2ec",
-          "title": "数读：从40省市数据拆解2026上半年入境旅游",
-          "url": "https://www.pinchain.com/article/349934",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T03:17:54Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.77
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "578cf4233210dd63d788809391af06da9678b2ec",
-          "title": "数读：从40省市数据拆解2026上半年入境旅游",
-          "url": "https://www.pinchain.com/article/349934",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-14T03:17:54Z",
-          "ai_label": "tourism_policy",
-          "ai_score": 0.77
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.559,
-      "importance": 0.559,
-      "importance_score": 0.559,
-      "ai_label": "tourism_policy",
-      "ai_score": 0.77,
-      "ai_signals": [
-        "旅游",
-        "ai",
-        "数据"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5544,
-        "source_tier": 0.5,
-        "ai_relevance": 0.77,
-        "recency": 0.715,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-14T03:17:54Z",
-      "latest_at": "2026-08-14T03:17:54Z",
-      "primary_item": {
-        "id": "578cf4233210dd63d788809391af06da9678b2ec",
-        "title": "数读：从40省市数据拆解2026上半年入境旅游",
-        "url": "https://www.pinchain.com/article/349934",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_policy",
         "ai_score": 0.77
       }
     },
@@ -1070,9 +1069,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5567,
-      "importance": 0.5567,
-      "importance_score": 0.5567,
+      "score": 0.5546,
+      "importance": 0.5546,
+      "importance_score": 0.5546,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1084,7 +1083,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7481,
+        "recency": 0.7365,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1143,9 +1142,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5562,
-      "importance": 0.5562,
-      "importance_score": 0.5562,
+      "score": 0.5541,
+      "importance": 0.5541,
+      "importance_score": 0.5541,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1157,7 +1156,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7455,
+        "recency": 0.7339,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1216,9 +1215,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.556,
-      "importance": 0.556,
-      "importance_score": 0.556,
+      "score": 0.554,
+      "importance": 0.554,
+      "importance_score": 0.554,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1230,7 +1229,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7446,
+        "recency": 0.7331,
         "story_heat": 0.0
       },
       "category": "watch",
