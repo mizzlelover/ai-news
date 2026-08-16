@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-16T06:37:15.229288Z",
+  "generated_at": "2026-08-16T07:29:56.820919Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 384,
-  "total_items_all_mode": 384,
+  "total_items_raw": 378,
+  "total_items_all_mode": 378,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 14910,
+  "archive_total": 14935,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 384
+      "raw_count": 378
     }
   ],
   "creator_window_days": 7,
@@ -32,7 +32,7 @@
       "url": "https://skift.com/2026/08/15/airbnb-cartrawler-partnership-details-1-month-in-scoop",
       "published_at": "2026-08-15T13:39:21Z",
       "first_seen_at": "2026-08-15T13:53:39.630146Z",
-      "last_seen_at": "2026-08-16T06:37:15.229288Z",
+      "last_seen_at": "2026-08-16T07:29:56.820919Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
@@ -60,7 +60,7 @@
       "url": "https://skift.com/2026/08/15/airbnb-cartrawler-partnership-details-1-month-in-scoop",
       "published_at": "2026-08-15T13:39:21Z",
       "first_seen_at": "2026-08-15T13:53:39.630146Z",
-      "last_seen_at": "2026-08-16T06:37:15.229288Z",
+      "last_seen_at": "2026-08-16T07:29:56.820919Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
