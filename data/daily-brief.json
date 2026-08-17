@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T15:23:04.835628Z",
+  "generated_at": "2026-08-17T16:25:01.634390Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6133,
-      "importance": 0.6133,
-      "importance_score": 0.6133,
+      "score": 0.6109,
+      "importance": 0.6109,
+      "importance_score": 0.6109,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9243,
+        "recency": 0.9107,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.598,
-      "importance": 0.598,
-      "importance_score": 0.598,
+      "score": 0.5954,
+      "importance": 0.5954,
+      "importance_score": 0.5954,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9776,
+        "recency": 0.9631,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5681,
-      "importance": 0.5681,
-      "importance_score": 0.5681,
+      "score": 0.5659,
+      "importance": 0.5659,
+      "importance_score": 0.5659,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8115,
+        "recency": 0.7995,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6089,
-      "importance": 0.6089,
-      "importance_score": 0.6089,
+      "score": 0.6065,
+      "importance": 0.6065,
+      "importance_score": 0.6065,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -280,7 +280,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8995,
+        "recency": 0.8862,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -339,9 +339,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5551,
-      "importance": 0.5551,
-      "importance_score": 0.5551,
+      "score": 0.5527,
+      "importance": 0.5527,
+      "importance_score": 0.5527,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -353,7 +353,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.878,
+        "recency": 0.865,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -374,21 +374,21 @@
       }
     },
     {
-      "story_id": "story_b523f0be7d58",
-      "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-      "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-      "primary_url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+      "story_id": "story_e713f10e53d8",
+      "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+      "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+      "primary_url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-17T14:51:33Z",
+          "published_at": "2026-08-17T16:05:17Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
@@ -399,22 +399,22 @@
       ],
       "items": [
         {
-          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-17T14:51:33Z",
+          "published_at": "2026-08-17T16:05:17Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5882,
-      "importance": 0.5882,
-      "importance_score": 0.5882,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -425,19 +425,19 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9924,
+        "recency": 0.9953,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-17T14:51:33Z",
-      "latest_at": "2026-08-17T14:51:33Z",
+      "earliest_at": "2026-08-17T16:05:17Z",
+      "latest_at": "2026-08-17T16:05:17Z",
       "primary_item": {
-        "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-        "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-        "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+        "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+        "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+        "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -484,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6007,
-      "importance": 0.6007,
-      "importance_score": 0.6007,
+      "score": 0.5983,
+      "importance": 0.5983,
+      "importance_score": 0.5983,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -499,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9237,
+        "recency": 0.91,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -517,6 +517,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_b523f0be7d58",
+      "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+      "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+      "primary_url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T14:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T14:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5855,
+      "importance": 0.5855,
+      "importance_score": 0.5855,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9778,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-17T14:51:33Z",
+      "latest_at": "2026-08-17T14:51:33Z",
+      "primary_item": {
+        "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+        "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+        "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -558,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6004,
-      "importance": 0.6004,
-      "importance_score": 0.6004,
+      "score": 0.5979,
+      "importance": 0.5979,
+      "importance_score": 0.5979,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -573,7 +645,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9216,
+        "recency": 0.908,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -632,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5962,
-      "importance": 0.5962,
-      "importance_score": 0.5962,
+      "score": 0.5938,
+      "importance": 0.5938,
+      "importance_score": 0.5938,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -647,7 +719,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8987,
+        "recency": 0.8854,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -706,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5912,
-      "importance": 0.5912,
-      "importance_score": 0.5912,
+      "score": 0.5889,
+      "importance": 0.5889,
+      "importance_score": 0.5889,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -721,7 +793,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8707,
+        "recency": 0.8578,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -780,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5908,
-      "importance": 0.5908,
-      "importance_score": 0.5908,
+      "score": 0.5883,
+      "importance": 0.5883,
+      "importance_score": 0.5883,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -794,7 +866,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9376,
+        "recency": 0.9237,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -853,9 +925,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5886,
-      "importance": 0.5886,
-      "importance_score": 0.5886,
+      "score": 0.5861,
+      "importance": 0.5861,
+      "importance_score": 0.5861,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -867,7 +939,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9256,
+        "recency": 0.9119,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -926,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5881,
-      "importance": 0.5881,
-      "importance_score": 0.5881,
+      "score": 0.5856,
+      "importance": 0.5856,
+      "importance_score": 0.5856,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -940,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9226,
+        "recency": 0.909,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -999,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5877,
-      "importance": 0.5877,
-      "importance_score": 0.5877,
+      "score": 0.5853,
+      "importance": 0.5853,
+      "importance_score": 0.5853,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1013,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9207,
+        "recency": 0.9071,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1072,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5868,
-      "importance": 0.5868,
-      "importance_score": 0.5868,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1086,7 +1158,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9156,
+        "recency": 0.9021,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5865,
-      "importance": 0.5865,
-      "importance_score": 0.5865,
+      "score": 0.584,
+      "importance": 0.584,
+      "importance_score": 0.584,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1159,7 +1231,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9136,
+        "recency": 0.9001,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1218,9 +1290,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5862,
-      "importance": 0.5862,
-      "importance_score": 0.5862,
+      "score": 0.584,
+      "importance": 0.584,
+      "importance_score": 0.584,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1233,7 +1305,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.843,
+        "recency": 0.8305,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1292,9 +1364,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5856,
-      "importance": 0.5856,
-      "importance_score": 0.5856,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1306,7 +1378,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9089,
+        "recency": 0.8954,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1365,9 +1437,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.583,
+      "importance": 0.583,
+      "importance_score": 0.583,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1379,7 +1451,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9078,
+        "recency": 0.8943,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1392,79 +1464,6 @@
         "id": "f0d15c0668129a9e0c412d9f6b9f0ba29acec153",
         "title": "澳大利亚旅游局发布“2035旅游战略”",
         "url": "https://www.pinchain.com/article/350006",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_f7493dae7c6f",
-      "title": "暑运以来广州边检所辖口岸入境外国人同比增四成五",
-      "url": "https://www.pinchain.com/article/349991",
-      "primary_url": "https://www.pinchain.com/article/349991",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a8d6d8ffcccdd1c4731dcf7be21663055b025d76",
-          "title": "暑运以来广州边检所辖口岸入境外国人同比增四成五",
-          "url": "https://www.pinchain.com/article/349991",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T08:34:02Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "a8d6d8ffcccdd1c4731dcf7be21663055b025d76",
-          "title": "暑运以来广州边检所辖口岸入境外国人同比增四成五",
-          "url": "https://www.pinchain.com/article/349991",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T08:34:02Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5851,
-      "importance": 0.5851,
-      "importance_score": 0.5851,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9062,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T08:34:02Z",
-      "latest_at": "2026-08-17T08:34:02Z",
-      "primary_item": {
-        "id": "a8d6d8ffcccdd1c4731dcf7be21663055b025d76",
-        "title": "暑运以来广州边检所辖口岸入境外国人同比增四成五",
-        "url": "https://www.pinchain.com/article/349991",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
