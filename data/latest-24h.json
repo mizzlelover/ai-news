@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-17T02:40:29.278435Z",
+  "generated_at": "2026-08-17T03:48:43.594689Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 431,
-  "total_items_all_mode": 431,
+  "total_items": 2,
+  "total_items_ai_raw": 2,
+  "total_items_raw": 465,
+  "total_items_all_mode": 465,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 14894,
+  "archive_total": 14953,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 2,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 1,
-      "raw_count": 431
+      "count": 2,
+      "raw_count": 465
     }
   ],
   "creator_window_days": 7,
@@ -23,6 +23,34 @@
   "creator_items_ai": [],
   "creator_items_all": [],
   "items": [
+    {
+      "id": "d90a3a9dbb3b1ddcc34aad8353345d6a2fcdcd1f",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "品橙旅游",
+      "title": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "url": "https://www.pinchain.com/article/349972",
+      "published_at": "2026-08-17T03:33:23Z",
+      "first_seen_at": "2026-08-17T03:48:43.594689Z",
+      "last_seen_at": "2026-08-17T03:48:43.594689Z",
+      "ai_is_related": true,
+      "ai_score": 0.78,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "title_en": null,
+      "title_zh": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "title_bilingual": "手搓景点批量爆红：文旅如何应对“牛来式流量”"
+    },
     {
       "id": "2d96f57db09972940eb254afa48209dcd95d3361",
       "site_id": "opmlrss",
@@ -32,7 +60,7 @@
       "url": "https://www.tmtpost.com/8105342.html",
       "published_at": "2026-08-17T00:55:07Z",
       "first_seen_at": "2026-08-17T01:10:12.048880Z",
-      "last_seen_at": "2026-08-17T02:40:29.278435Z",
+      "last_seen_at": "2026-08-17T03:48:43.594689Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
@@ -54,6 +82,34 @@
   ],
   "items_ai": [
     {
+      "id": "d90a3a9dbb3b1ddcc34aad8353345d6a2fcdcd1f",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "品橙旅游",
+      "title": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "url": "https://www.pinchain.com/article/349972",
+      "published_at": "2026-08-17T03:33:23Z",
+      "first_seen_at": "2026-08-17T03:48:43.594689Z",
+      "last_seen_at": "2026-08-17T03:48:43.594689Z",
+      "ai_is_related": true,
+      "ai_score": 0.78,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "matched_smart_tourism_signal",
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "title_en": null,
+      "title_zh": "手搓景点批量爆红：文旅如何应对“牛来式流量”",
+      "title_bilingual": "手搓景点批量爆红：文旅如何应对“牛来式流量”"
+    },
+    {
       "id": "2d96f57db09972940eb254afa48209dcd95d3361",
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
@@ -62,7 +118,7 @@
       "url": "https://www.tmtpost.com/8105342.html",
       "published_at": "2026-08-17T00:55:07Z",
       "first_seen_at": "2026-08-17T01:10:12.048880Z",
-      "last_seen_at": "2026-08-17T02:40:29.278435Z",
+      "last_seen_at": "2026-08-17T03:48:43.594689Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
