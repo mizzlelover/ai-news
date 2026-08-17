@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17T01:10:12.048880Z",
+  "generated_at": "2026-08-17T02:40:29.278435Z",
   "window_hours": 24,
   "total_items": 1,
   "total_items_ai_raw": 1,
-  "total_items_raw": 415,
-  "total_items_all_mode": 415,
+  "total_items_raw": 431,
+  "total_items_all_mode": 431,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 14944,
+  "archive_total": 14894,
   "site_count": 1,
   "source_count": 1,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 1,
-      "raw_count": 415
+      "raw_count": 431
     }
   ],
   "creator_window_days": 7,
@@ -32,7 +32,7 @@
       "url": "https://www.tmtpost.com/8105342.html",
       "published_at": "2026-08-17T00:55:07Z",
       "first_seen_at": "2026-08-17T01:10:12.048880Z",
-      "last_seen_at": "2026-08-17T01:10:12.048880Z",
+      "last_seen_at": "2026-08-17T02:40:29.278435Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
@@ -62,7 +62,7 @@
       "url": "https://www.tmtpost.com/8105342.html",
       "published_at": "2026-08-17T00:55:07Z",
       "first_seen_at": "2026-08-17T01:10:12.048880Z",
-      "last_seen_at": "2026-08-17T01:10:12.048880Z",
+      "last_seen_at": "2026-08-17T02:40:29.278435Z",
       "ai_is_related": true,
       "ai_score": 0.75,
       "ai_label": "tourism_tech",
