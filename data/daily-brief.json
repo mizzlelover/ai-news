@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-18T06:42:52.946088Z",
+  "generated_at": "2026-08-18T07:36:15.787602Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_5b36a2ead3d5",
-      "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
-      "url": "https://www.pinchain.com/article/350028",
-      "primary_url": "https://www.pinchain.com/article/350028",
+      "story_id": "story_f6e69389d3c2",
+      "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
+      "url": "https://www.pinchain.com/article/350059",
+      "primary_url": "https://www.pinchain.com/article/350059",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
-          "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
-          "url": "https://www.pinchain.com/article/350028",
+          "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
+          "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
+          "url": "https://www.pinchain.com/article/350059",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T04:16:46Z",
+          "published_at": "2026-08-18T06:48:05Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -29,27 +29,27 @@
       ],
       "items": [
         {
-          "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
-          "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
-          "url": "https://www.pinchain.com/article/350028",
+          "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
+          "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
+          "url": "https://www.pinchain.com/article/350059",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T04:16:46Z",
+          "published_at": "2026-08-18T06:48:05Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6083,
-      "importance": 0.6083,
-      "importance_score": 0.6083,
+      "score": 0.6124,
+      "importance": 0.6124,
+      "importance_score": 0.6124,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
         "旅游",
-        "沉浸式",
+        "邮轮",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -57,19 +57,19 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9654,
+        "recency": 0.9885,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-18T04:16:46Z",
-      "latest_at": "2026-08-18T04:16:46Z",
+      "earliest_at": "2026-08-18T06:48:05Z",
+      "latest_at": "2026-08-18T06:48:05Z",
       "primary_item": {
-        "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
-        "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
-        "url": "https://www.pinchain.com/article/350028",
+        "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
+        "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
+        "url": "https://www.pinchain.com/article/350059",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5962,
-      "importance": 0.5962,
-      "importance_score": 0.5962,
+      "score": 0.5941,
+      "importance": 0.5941,
+      "importance_score": 0.5941,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.9216,
+        "recency": 0.9098,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5952,
-      "importance": 0.5952,
-      "importance_score": 0.5952,
+      "score": 0.5933,
+      "importance": 0.5933,
+      "importance_score": 0.5933,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -204,7 +204,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8468,
+        "recency": 0.836,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -263,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5727,
-      "importance": 0.5727,
-      "importance_score": 0.5727,
+      "score": 0.5705,
+      "importance": 0.5705,
+      "importance_score": 0.5705,
       "ai_label": "hospitality_ops",
       "ai_score": 0.69,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9759,
+        "recency": 0.9634,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -336,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5725,
-      "importance": 0.5725,
-      "importance_score": 0.5725,
+      "score": 0.5702,
+      "importance": 0.5702,
+      "importance_score": 0.5702,
       "ai_label": "hospitality_ops",
       "ai_score": 0.69,
       "ai_signals": [
@@ -350,7 +350,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9745,
+        "recency": 0.9621,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -368,6 +368,154 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_865e7091daee",
+      "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
+      "url": "https://www.pinchain.com/article/350058",
+      "primary_url": "https://www.pinchain.com/article/350058",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7f9135bd755d063e865803373e9369e1216bb570",
+          "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
+          "url": "https://www.pinchain.com/article/350058",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:45:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "7f9135bd755d063e865803373e9369e1216bb570",
+          "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
+          "url": "https://www.pinchain.com/article/350058",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:45:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6123,
+      "importance": 0.6123,
+      "importance_score": 0.6123,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9878,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T06:45:23Z",
+      "latest_at": "2026-08-18T06:45:23Z",
+      "primary_item": {
+        "id": "7f9135bd755d063e865803373e9369e1216bb570",
+        "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
+        "url": "https://www.pinchain.com/article/350058",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_5b36a2ead3d5",
+      "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
+      "url": "https://www.pinchain.com/article/350028",
+      "primary_url": "https://www.pinchain.com/article/350028",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
+          "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
+          "url": "https://www.pinchain.com/article/350028",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T04:16:46Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
+          "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
+          "url": "https://www.pinchain.com/article/350028",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T04:16:46Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.606,
+      "importance": 0.606,
+      "importance_score": 0.606,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "沉浸式",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9531,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T04:16:46Z",
+      "latest_at": "2026-08-18T04:16:46Z",
+      "primary_item": {
+        "id": "667a8bb1ac448ad102dcedfcf2562e98e4640824",
+        "title": "3800㎡+沉浸式航天乐园,深圳天·宫阙9月10日启幕",
+        "url": "https://www.pinchain.com/article/350028",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -409,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6074,
-      "importance": 0.6074,
-      "importance_score": 0.6074,
+      "score": 0.6052,
+      "importance": 0.6052,
+      "importance_score": 0.6052,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -424,7 +572,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9605,
+        "recency": 0.9482,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -442,79 +590,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_374f084aa466",
-      "title": "德国旅游专家培训项目正式上线",
-      "url": "https://www.pinchain.com/article/350055",
-      "primary_url": "https://www.pinchain.com/article/350055",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
-          "title": "德国旅游专家培训项目正式上线",
-          "url": "https://www.pinchain.com/article/350055",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:41:15Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
-          "title": "德国旅游专家培训项目正式上线",
-          "url": "https://www.pinchain.com/article/350055",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:41:15Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6019,
-      "importance": 0.6019,
-      "importance_score": 0.6019,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9996,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T06:41:15Z",
-      "latest_at": "2026-08-18T06:41:15Z",
-      "primary_item": {
-        "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
-        "title": "德国旅游专家培训项目正式上线",
-        "url": "https://www.pinchain.com/article/350055",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -556,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5736,
-      "importance": 0.5736,
-      "importance_score": 0.5736,
+      "score": 0.5717,
+      "importance": 0.5717,
+      "importance_score": 0.5717,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -570,7 +645,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8423,
+        "recency": 0.8315,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -588,6 +663,442 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_735844b532ff",
+      "title": "机票买错为何不给退？商家小字隐藏退款规则",
+      "url": "https://www.pinchain.com/article/350064",
+      "primary_url": "https://www.pinchain.com/article/350064",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2fcf911331295bf202a8572d490e9afef22d7fea",
+          "title": "机票买错为何不给退？商家小字隐藏退款规则",
+          "url": "https://www.pinchain.com/article/350064",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:52:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2fcf911331295bf202a8572d490e9afef22d7fea",
+          "title": "机票买错为何不给退？商家小字隐藏退款规则",
+          "url": "https://www.pinchain.com/article/350064",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:52:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6001,
+      "importance": 0.6001,
+      "importance_score": 0.6001,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9895,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T06:52:19Z",
+      "latest_at": "2026-08-18T06:52:19Z",
+      "primary_item": {
+        "id": "2fcf911331295bf202a8572d490e9afef22d7fea",
+        "title": "机票买错为何不给退？商家小字隐藏退款规则",
+        "url": "https://www.pinchain.com/article/350064",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_0f4ee29d4b4e",
+      "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
+      "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
+      "primary_url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
+          "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
+          "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T13:48:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
+          "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
+          "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T13:48:59Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5612,
+      "importance": 0.5612,
+      "importance_score": 0.5612,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7735,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-17T13:48:59Z",
+      "latest_at": "2026-08-17T13:48:59Z",
+      "primary_item": {
+        "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
+        "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
+        "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_5cc3ba6ab917",
+      "title": "多方面优化升级 露营帐篷用织物新国标将实施",
+      "url": "https://www.pinchain.com/article/350060",
+      "primary_url": "https://www.pinchain.com/article/350060",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4dcceda50f7a09eefca5dd37d9e451416a0170f5",
+          "title": "多方面优化升级 露营帐篷用织物新国标将实施",
+          "url": "https://www.pinchain.com/article/350060",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:50:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4dcceda50f7a09eefca5dd37d9e451416a0170f5",
+          "title": "多方面优化升级 露营帐篷用织物新国标将实施",
+          "url": "https://www.pinchain.com/article/350060",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:50:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6,
+      "importance": 0.6,
+      "importance_score": 0.6,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.989,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T06:50:06Z",
+      "latest_at": "2026-08-18T06:50:06Z",
+      "primary_item": {
+        "id": "4dcceda50f7a09eefca5dd37d9e451416a0170f5",
+        "title": "多方面优化升级 露营帐篷用织物新国标将实施",
+        "url": "https://www.pinchain.com/article/350060",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e713f10e53d8",
+      "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+      "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+      "primary_url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T16:05:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T16:05:17Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5534,
+      "importance": 0.5534,
+      "importance_score": 0.5534,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7993,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-17T16:05:17Z",
+      "latest_at": "2026-08-17T16:05:17Z",
+      "primary_item": {
+        "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
+        "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
+        "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_374f084aa466",
+      "title": "德国旅游专家培训项目正式上线",
+      "url": "https://www.pinchain.com/article/350055",
+      "primary_url": "https://www.pinchain.com/article/350055",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
+          "title": "德国旅游专家培训项目正式上线",
+          "url": "https://www.pinchain.com/article/350055",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:41:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
+          "title": "德国旅游专家培训项目正式上线",
+          "url": "https://www.pinchain.com/article/350055",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T06:41:15Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5996,
+      "importance": 0.5996,
+      "importance_score": 0.5996,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9868,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T06:41:15Z",
+      "latest_at": "2026-08-18T06:41:15Z",
+      "primary_item": {
+        "id": "b3d0c69f61f9ba46b899d4331ea3e4ce2fc71be0",
+        "title": "德国旅游专家培训项目正式上线",
+        "url": "https://www.pinchain.com/article/350055",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_b523f0be7d58",
+      "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+      "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+      "primary_url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T14:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-17T14:51:33Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5509,
+      "importance": 0.5509,
+      "importance_score": 0.5509,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7852,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-17T14:51:33Z",
+      "latest_at": "2026-08-17T14:51:33Z",
+      "primary_item": {
+        "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
+        "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
+        "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
       }
     },
     {
@@ -629,9 +1140,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5964,
-      "importance": 0.5964,
-      "importance_score": 0.5964,
+      "score": 0.5942,
+      "importance": 0.5942,
+      "importance_score": 0.5942,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -643,7 +1154,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9691,
+        "recency": 0.9567,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -702,9 +1213,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5963,
-      "importance": 0.5963,
-      "importance_score": 0.5963,
+      "score": 0.5941,
+      "importance": 0.5941,
+      "importance_score": 0.5941,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -716,7 +1227,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9683,
+        "recency": 0.9559,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -730,79 +1241,6 @@
         "title": "​常飞的人，订机票到底比普通人快在哪？",
         "url": "https://www.pinchain.com/article/350042",
         "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0f4ee29d4b4e",
-      "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
-      "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
-      "primary_url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
-          "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
-          "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T13:48:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
-          "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
-          "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T13:48:59Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.563,
-      "importance": 0.563,
-      "importance_score": 0.563,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "hotel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7835,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T13:48:59Z",
-      "latest_at": "2026-08-17T13:48:59Z",
-      "primary_item": {
-        "id": "2325393e9c9c88147529046b1fc19e20b5659ab2",
-        "title": "Saudi Arabia and Egypt Lead Middle East’s Hotel Construction. The UAE Trails.",
-        "url": "https://skift.com/2026/08/17/saudi-arabia-and-egypt-lead-middle-easts-hotel-construction-the-uae-trails",
-        "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -848,9 +1286,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5957,
-      "importance": 0.5957,
-      "importance_score": 0.5957,
+      "score": 0.5935,
+      "importance": 0.5935,
+      "importance_score": 0.5935,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -862,7 +1300,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9651,
+        "recency": 0.9528,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -880,150 +1318,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e713f10e53d8",
-      "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
-      "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
-      "primary_url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
-          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
-          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T16:05:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
-          "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
-          "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T16:05:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5552,
-      "importance": 0.5552,
-      "importance_score": 0.5552,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8096,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T16:05:17Z",
-      "latest_at": "2026-08-17T16:05:17Z",
-      "primary_item": {
-        "id": "bff913b05ffce788ce51c0e35c4d24922e4c56ca",
-        "title": "Lawsuit Against Delta Raises a Bigger Question: How Airlines Use Carbon Offsets",
-        "url": "https://skift.com/2026/08/17/delta-greenwashing-lawsuit-carbon-credits",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_b523f0be7d58",
-      "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-      "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-      "primary_url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T14:51:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-          "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-          "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T14:51:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5527,
-      "importance": 0.5527,
-      "importance_score": 0.5527,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7954,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T14:51:33Z",
-      "latest_at": "2026-08-17T14:51:33Z",
-      "primary_item": {
-        "id": "0ff9e7b95466930b17d7849a6897d15a40c9e030",
-        "title": "Airbnb Has Quietly Rebuilt the Marketing Engine It Was Famous for Cutting",
-        "url": "https://skift.com/2026/08/17/airbnb-has-quietly-rebuilt-the-marketing-engine-it-was-famous-for-cutting",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -1065,9 +1359,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5803,
-      "importance": 0.5803,
-      "importance_score": 0.5803,
+      "score": 0.5786,
+      "importance": 0.5786,
+      "importance_score": 0.5786,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -1081,7 +1375,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7408,
+        "recency": 0.7313,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1140,9 +1434,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5767,
-      "importance": 0.5767,
-      "importance_score": 0.5767,
+      "score": 0.5751,
+      "importance": 0.5751,
+      "importance_score": 0.5751,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -1156,7 +1450,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7209,
+        "recency": 0.7117,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1174,301 +1468,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_ce447cb70737",
-      "title": "四川凉山：火把节引爆全域文旅热",
-      "url": "https://www.pinchain.com/article/350020",
-      "primary_url": "https://www.pinchain.com/article/350020",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5016ac495947e1629e55ceca03974d86ac2236bf",
-          "title": "四川凉山：火把节引爆全域文旅热",
-          "url": "https://www.pinchain.com/article/350020",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T09:53:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "5016ac495947e1629e55ceca03974d86ac2236bf",
-          "title": "四川凉山：火把节引爆全域文旅热",
-          "url": "https://www.pinchain.com/article/350020",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T09:53:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5677,
-      "importance": 0.5677,
-      "importance_score": 0.5677,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7403,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T09:53:20Z",
-      "latest_at": "2026-08-17T09:53:20Z",
-      "primary_item": {
-        "id": "5016ac495947e1629e55ceca03974d86ac2236bf",
-        "title": "四川凉山：火把节引爆全域文旅热",
-        "url": "https://www.pinchain.com/article/350020",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_472f0fe65be9",
-      "title": "南宁上半年东盟国家入境过夜游客同比增长71.9%",
-      "url": "https://www.pinchain.com/article/350005",
-      "primary_url": "https://www.pinchain.com/article/350005",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "cbc3d5dee9e3808f9e54f3b01ec36541d45174a2",
-          "title": "南宁上半年东盟国家入境过夜游客同比增长71.9%",
-          "url": "https://www.pinchain.com/article/350005",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T09:44:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "cbc3d5dee9e3808f9e54f3b01ec36541d45174a2",
-          "title": "南宁上半年东盟国家入境过夜游客同比增长71.9%",
-          "url": "https://www.pinchain.com/article/350005",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T09:44:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5674,
-      "importance": 0.5674,
-      "importance_score": 0.5674,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7386,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T09:44:00Z",
-      "latest_at": "2026-08-17T09:44:00Z",
-      "primary_item": {
-        "id": "cbc3d5dee9e3808f9e54f3b01ec36541d45174a2",
-        "title": "南宁上半年东盟国家入境过夜游客同比增长71.9%",
-        "url": "https://www.pinchain.com/article/350005",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_3d42f812fc11",
-      "title": "京津冀旅游景区联票升级:合作景区总数达241家",
-      "url": "https://www.pinchain.com/article/349986",
-      "primary_url": "https://www.pinchain.com/article/349986",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "fa6b71d945ee05497216f5aaa6ad46a1b807abca",
-          "title": "京津冀旅游景区联票升级:合作景区总数达241家",
-          "url": "https://www.pinchain.com/article/349986",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T07:59:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "fa6b71d945ee05497216f5aaa6ad46a1b807abca",
-          "title": "京津冀旅游景区联票升级:合作景区总数达241家",
-          "url": "https://www.pinchain.com/article/349986",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T07:59:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5641,
-      "importance": 0.5641,
-      "importance_score": 0.5641,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "景区",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7202,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T07:59:05Z",
-      "latest_at": "2026-08-17T07:59:05Z",
-      "primary_item": {
-        "id": "fa6b71d945ee05497216f5aaa6ad46a1b807abca",
-        "title": "京津冀旅游景区联票升级:合作景区总数达241家",
-        "url": "https://www.pinchain.com/article/349986",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_c39d4a18d193",
-      "title": "品橙旅游：2026年第34周在线旅游精品解读",
-      "url": "https://www.pinchain.com/article/350023",
-      "primary_url": "https://www.pinchain.com/article/350023",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "327eeaf93d72997c23411c7329a12b21b515769e",
-          "title": "品橙旅游：2026年第34周在线旅游精品解读",
-          "url": "https://www.pinchain.com/article/350023",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T10:55:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "327eeaf93d72997c23411c7329a12b21b515769e",
-          "title": "品橙旅游：2026年第34周在线旅游精品解读",
-          "url": "https://www.pinchain.com/article/350023",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-17T10:55:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5573,
-      "importance": 0.5573,
-      "importance_score": 0.5573,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7514,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-17T10:55:21Z",
-      "latest_at": "2026-08-17T10:55:21Z",
-      "primary_item": {
-        "id": "327eeaf93d72997c23411c7329a12b21b515769e",
-        "title": "品橙旅游：2026年第34周在线旅游精品解读",
-        "url": "https://www.pinchain.com/article/350023",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     }
   ]
