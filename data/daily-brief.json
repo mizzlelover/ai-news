@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-19T05:57:56.555643Z",
+  "generated_at": "2026-08-19T06:53:44.244917Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_43c656ebd4bb",
-      "title": "同程旅行：上海七夕夜游热度领跑全国",
-      "url": "https://www.pinchain.com/article/350097",
-      "primary_url": "https://www.pinchain.com/article/350097",
+      "story_id": "story_38bead70c9f6",
+      "title": "阿联酋航空:旅客目的地为迪拜时,可不限次免费改签",
+      "url": "https://www.pinchain.com/article/350102",
+      "primary_url": "https://www.pinchain.com/article/350102",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
-          "title": "同程旅行：上海七夕夜游热度领跑全国",
-          "url": "https://www.pinchain.com/article/350097",
+          "id": "2fef8185310a06ea2c7bdf6b8cbe09a2c3e59ec7",
+          "title": "阿联酋航空:旅客目的地为迪拜时,可不限次免费改签",
+          "url": "https://www.pinchain.com/article/350102",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T03:17:16Z",
+          "published_at": "2026-08-19T06:40:58Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "source_count": 1,
@@ -29,52 +29,53 @@
       ],
       "items": [
         {
-          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
-          "title": "同程旅行：上海七夕夜游热度领跑全国",
-          "url": "https://www.pinchain.com/article/350097",
+          "id": "2fef8185310a06ea2c7bdf6b8cbe09a2c3e59ec7",
+          "title": "阿联酋航空:旅客目的地为迪拜时,可不限次免费改签",
+          "url": "https://www.pinchain.com/article/350102",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T03:17:16Z",
+          "published_at": "2026-08-19T06:40:58Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6077,
-      "importance": 0.6077,
-      "importance_score": 0.6077,
+      "score": 0.6264,
+      "importance": 0.6264,
+      "importance_score": 0.6264,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.81,
       "ai_signals": [
         "旅游",
-        "旅行",
+        "目的地",
+        "航空",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.5832,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9621,
+        "ai_relevance": 0.81,
+        "recency": 0.9969,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-19T03:17:16Z",
-      "latest_at": "2026-08-19T03:17:16Z",
+      "earliest_at": "2026-08-19T06:40:58Z",
+      "latest_at": "2026-08-19T06:40:58Z",
       "primary_item": {
-        "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
-        "title": "同程旅行：上海七夕夜游热度领跑全国",
-        "url": "https://www.pinchain.com/article/350097",
+        "id": "2fef8185310a06ea2c7bdf6b8cbe09a2c3e59ec7",
+        "title": "阿联酋航空:旅客目的地为迪拜时,可不限次免费改签",
+        "url": "https://www.pinchain.com/article/350102",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.81
       }
     },
     {
@@ -116,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6028,
-      "importance": 0.6028,
-      "importance_score": 0.6028,
+      "score": 0.6008,
+      "importance": 0.6008,
+      "importance_score": 0.6008,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -130,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.866,
+        "recency": 0.8545,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.595,
-      "importance": 0.595,
-      "importance_score": 0.595,
+      "score": 0.5927,
+      "importance": 0.5927,
+      "importance_score": 0.5927,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -203,7 +204,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.961,
+        "recency": 0.9481,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5755,
+      "importance": 0.5755,
+      "importance_score": 0.5755,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9346,
+        "recency": 0.9221,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -294,6 +295,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_43c656ebd4bb",
+      "title": "同程旅行：上海七夕夜游热度领跑全国",
+      "url": "https://www.pinchain.com/article/350097",
+      "primary_url": "https://www.pinchain.com/article/350097",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+          "title": "同程旅行：上海七夕夜游热度领跑全国",
+          "url": "https://www.pinchain.com/article/350097",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T03:17:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+          "title": "同程旅行：上海七夕夜游热度领跑全国",
+          "url": "https://www.pinchain.com/article/350097",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T03:17:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6053,
+      "importance": 0.6053,
+      "importance_score": 0.6053,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9492,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T03:17:16Z",
+      "latest_at": "2026-08-19T03:17:16Z",
+      "primary_item": {
+        "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+        "title": "同程旅行：上海七夕夜游热度领跑全国",
+        "url": "https://www.pinchain.com/article/350097",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -335,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5863,
-      "importance": 0.5863,
-      "importance_score": 0.5863,
+      "score": 0.584,
+      "importance": 0.584,
+      "importance_score": 0.584,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -349,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9822,
+        "recency": 0.9691,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -366,6 +441,296 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_06021a97ab09",
+      "title": "河北：开展夏季旅游推广活动 探索发展新路径",
+      "url": "https://www.pinchain.com/article/350105",
+      "primary_url": "https://www.pinchain.com/article/350105",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
+          "title": "河北：开展夏季旅游推广活动 探索发展新路径",
+          "url": "https://www.pinchain.com/article/350105",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T06:35:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
+          "title": "河北：开展夏季旅游推广活动 探索发展新路径",
+          "url": "https://www.pinchain.com/article/350105",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T06:35:23Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6012,
+      "importance": 0.6012,
+      "importance_score": 0.6012,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9956,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T06:35:23Z",
+      "latest_at": "2026-08-19T06:35:23Z",
+      "primary_item": {
+        "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
+        "title": "河北：开展夏季旅游推广活动 探索发展新路径",
+        "url": "https://www.pinchain.com/article/350105",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_594fe4046c6a",
+      "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
+      "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+      "primary_url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
+          "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
+          "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T01:15:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
+          "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
+          "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T01:15:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5754,
+      "importance": 0.5754,
+      "importance_score": 0.5754,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9217,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T01:15:00Z",
+      "latest_at": "2026-08-19T01:15:00Z",
+      "primary_item": {
+        "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
+        "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
+        "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_d8b2ac7788da",
+      "title": "商务人士福音：Apple Pay改签便利性升级",
+      "url": "https://www.pinchain.com/article/350103",
+      "primary_url": "https://www.pinchain.com/article/350103",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
+          "title": "商务人士福音：Apple Pay改签便利性升级",
+          "url": "https://www.pinchain.com/article/350103",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T06:30:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
+          "title": "商务人士福音：Apple Pay改签便利性升级",
+          "url": "https://www.pinchain.com/article/350103",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T06:30:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.601,
+      "importance": 0.601,
+      "importance_score": 0.601,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9944,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T06:30:24Z",
+      "latest_at": "2026-08-19T06:30:24Z",
+      "primary_item": {
+        "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
+        "title": "商务人士福音：Apple Pay改签便利性升级",
+        "url": "https://www.pinchain.com/article/350103",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_d014fb3c90e8",
+      "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+      "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+      "primary_url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T13:42:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T13:42:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.55,
+      "importance": 0.55,
+      "importance_score": 0.55,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7802,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T13:42:20Z",
+      "latest_at": "2026-08-18T13:42:20Z",
+      "primary_item": {
+        "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+        "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+        "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
         "ai_score": 0.72
       }
     },
@@ -408,9 +773,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5799,
-      "importance": 0.5799,
-      "importance_score": 0.5799,
+      "score": 0.5781,
+      "importance": 0.5781,
+      "importance_score": 0.5781,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -424,7 +789,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7385,
+        "recency": 0.7286,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -442,78 +807,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_594fe4046c6a",
-      "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
-      "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
-      "primary_url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
-          "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
-          "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T01:15:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
-          "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
-          "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T01:15:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9342,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T01:15:00Z",
-      "latest_at": "2026-08-19T01:15:00Z",
-      "primary_item": {
-        "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
-        "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
-        "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -555,9 +848,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5704,
-      "importance": 0.5704,
-      "importance_score": 0.5704,
+      "score": 0.5686,
+      "importance": 0.5686,
+      "importance_score": 0.5686,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -570,7 +863,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.755,
+        "recency": 0.7449,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -629,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5679,
-      "importance": 0.5679,
-      "importance_score": 0.5679,
+      "score": 0.5661,
+      "importance": 0.5661,
+      "importance_score": 0.5661,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -644,7 +937,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7414,
+        "recency": 0.7315,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -662,78 +955,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_d014fb3c90e8",
-      "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-      "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-      "primary_url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T13:42:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T13:42:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5519,
-      "importance": 0.5519,
-      "importance_score": 0.5519,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7907,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T13:42:20Z",
-      "latest_at": "2026-08-18T13:42:20Z",
-      "primary_item": {
-        "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-        "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-        "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -775,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5676,
-      "importance": 0.5676,
-      "importance_score": 0.5676,
+      "score": 0.5658,
+      "importance": 0.5658,
+      "importance_score": 0.5658,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -790,7 +1011,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7396,
+        "recency": 0.7297,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -803,154 +1024,6 @@
         "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
         "title": "韩国NOL World 住宿预订服务上线",
         "url": "https://www.pinchain.com/article/350074",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_f6e69389d3c2",
-      "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
-      "url": "https://www.pinchain.com/article/350059",
-      "primary_url": "https://www.pinchain.com/article/350059",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
-          "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
-          "url": "https://www.pinchain.com/article/350059",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:48:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
-          "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
-          "url": "https://www.pinchain.com/article/350059",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:48:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5633,
-      "importance": 0.5633,
-      "importance_score": 0.5633,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7157,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T06:48:05Z",
-      "latest_at": "2026-08-18T06:48:05Z",
-      "primary_item": {
-        "id": "dcac45ad5567c82d13b4a8405fd671af5b893b6e",
-        "title": "邮轮扬帆渤海湾 暑期天津口岸海上旅游热度升",
-        "url": "https://www.pinchain.com/article/350059",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_865e7091daee",
-      "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
-      "url": "https://www.pinchain.com/article/350058",
-      "primary_url": "https://www.pinchain.com/article/350058",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7f9135bd755d063e865803373e9369e1216bb570",
-          "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
-          "url": "https://www.pinchain.com/article/350058",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:45:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "7f9135bd755d063e865803373e9369e1216bb570",
-          "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
-          "url": "https://www.pinchain.com/article/350058",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T06:45:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5632,
-      "importance": 0.5632,
-      "importance_score": 0.5632,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7152,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T06:45:23Z",
-      "latest_at": "2026-08-18T06:45:23Z",
-      "primary_item": {
-        "id": "7f9135bd755d063e865803373e9369e1216bb570",
-        "title": "首艘国产大型邮轮“爱达·魔都号”开启深圳首航",
-        "url": "https://www.pinchain.com/article/350058",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -997,9 +1070,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5556,
-      "importance": 0.5556,
-      "importance_score": 0.5556,
+      "score": 0.5538,
+      "importance": 0.5538,
+      "importance_score": 0.5538,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1011,7 +1084,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7419,
+        "recency": 0.732,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1070,9 +1143,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5554,
-      "importance": 0.5554,
-      "importance_score": 0.5554,
+      "score": 0.5536,
+      "importance": 0.5536,
+      "importance_score": 0.5536,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1084,7 +1157,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7409,
+        "recency": 0.731,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1143,9 +1216,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5549,
-      "importance": 0.5549,
-      "importance_score": 0.5549,
+      "score": 0.5531,
+      "importance": 0.5531,
+      "importance_score": 0.5531,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1157,7 +1230,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7382,
+        "recency": 0.7284,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1216,9 +1289,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5548,
-      "importance": 0.5548,
-      "importance_score": 0.5548,
+      "score": 0.553,
+      "importance": 0.553,
+      "importance_score": 0.553,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1230,7 +1303,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7375,
+        "recency": 0.7277,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1289,9 +1362,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
+      "score": 0.5529,
+      "importance": 0.5529,
+      "importance_score": 0.5529,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1303,7 +1376,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7369,
+        "recency": 0.7271,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1316,79 +1389,6 @@
         "id": "65070a179828927f0e4521cb2804d55244eacbbe",
         "title": "交通运输部:拟打造约6万公里精品自驾旅游公路",
         "url": "https://www.pinchain.com/article/350066",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_d1b616851c66",
-      "title": "海南三亚沙滩发现散落图钉 警方：隐患已清理",
-      "url": "https://www.pinchain.com/article/350067",
-      "primary_url": "https://www.pinchain.com/article/350067",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d1eeaf381bcc020535b00288d99807bdef5ac080",
-          "title": "海南三亚沙滩发现散落图钉 警方：隐患已清理",
-          "url": "https://www.pinchain.com/article/350067",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:47:55Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "d1eeaf381bcc020535b00288d99807bdef5ac080",
-          "title": "海南三亚沙滩发现散落图钉 警方：隐患已清理",
-          "url": "https://www.pinchain.com/article/350067",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:47:55Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7366,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T08:47:55Z",
-      "latest_at": "2026-08-18T08:47:55Z",
-      "primary_item": {
-        "id": "d1eeaf381bcc020535b00288d99807bdef5ac080",
-        "title": "海南三亚沙滩发现散落图钉 警方：隐患已清理",
-        "url": "https://www.pinchain.com/article/350067",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1435,9 +1435,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5545,
-      "importance": 0.5545,
-      "importance_score": 0.5545,
+      "score": 0.5528,
+      "importance": 0.5528,
+      "importance_score": 0.5528,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1449,7 +1449,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7364,
+        "recency": 0.7266,
         "story_heat": 0.0
       },
       "category": "watch",
