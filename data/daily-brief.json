@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-08-19T08:35:25.371786Z",
+  "generated_at": "2026-08-19T09:32:06.351596Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_8957c8ea478e",
-      "title": "同程旅行AR数字文创赋能成都文博新体验",
-      "url": "https://www.pinchain.com/article/350119",
-      "primary_url": "https://www.pinchain.com/article/350119",
+      "story_id": "story_3d47f8b5b08d",
+      "title": "飞猪把旅行AI从“嘴替”逼成“跑腿的”",
+      "url": "https://www.pinchain.com/article/350139",
+      "primary_url": "https://www.pinchain.com/article/350139",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
-          "title": "同程旅行AR数字文创赋能成都文博新体验",
-          "url": "https://www.pinchain.com/article/350119",
+          "id": "ddbcd7905d34859168c488bf27bfa9237c744624",
+          "title": "飞猪把旅行AI从“嘴替”逼成“跑腿的”",
+          "url": "https://www.pinchain.com/article/350139",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T08:17:57Z",
+          "published_at": "2026-08-19T09:08:50Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.83
         }
@@ -29,49 +29,47 @@
       ],
       "items": [
         {
-          "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
-          "title": "同程旅行AR数字文创赋能成都文博新体验",
-          "url": "https://www.pinchain.com/article/350119",
+          "id": "ddbcd7905d34859168c488bf27bfa9237c744624",
+          "title": "飞猪把旅行AI从“嘴替”逼成“跑腿的”",
+          "url": "https://www.pinchain.com/article/350139",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T08:17:57Z",
+          "published_at": "2026-08-19T09:08:50Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.83
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6345,
-      "importance": 0.6345,
-      "importance_score": 0.6345,
+      "score": 0.6343,
+      "importance": 0.6343,
+      "importance_score": 0.6343,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
-        "文创",
         "旅游",
         "旅行",
-        "ai",
-        "数字"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9958,
+        "recency": 0.9944,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-19T08:17:57Z",
-      "latest_at": "2026-08-19T08:17:57Z",
+      "earliest_at": "2026-08-19T09:08:50Z",
+      "latest_at": "2026-08-19T09:08:50Z",
       "primary_item": {
-        "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
-        "title": "同程旅行AR数字文创赋能成都文博新体验",
-        "url": "https://www.pinchain.com/article/350119",
+        "id": "ddbcd7905d34859168c488bf27bfa9237c744624",
+        "title": "飞猪把旅行AI从“嘴替”逼成“跑腿的”",
+        "url": "https://www.pinchain.com/article/350139",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -118,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.597,
-      "importance": 0.597,
-      "importance_score": 0.597,
+      "score": 0.595,
+      "importance": 0.595,
+      "importance_score": 0.595,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -132,7 +130,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8338,
+        "recency": 0.8225,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5885,
-      "importance": 0.5885,
-      "importance_score": 0.5885,
+      "score": 0.5863,
+      "importance": 0.5863,
+      "importance_score": 0.5863,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +203,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9252,
+        "recency": 0.9127,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -226,23 +224,23 @@
       }
     },
     {
-      "story_id": "story_78b09058378c",
-      "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
-      "url": "https://www.pinchain.com/article/350110",
-      "primary_url": "https://www.pinchain.com/article/350110",
+      "story_id": "story_8957c8ea478e",
+      "title": "同程旅行AR数字文创赋能成都文博新体验",
+      "url": "https://www.pinchain.com/article/350119",
+      "primary_url": "https://www.pinchain.com/article/350119",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
-          "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
-          "url": "https://www.pinchain.com/article/350110",
+          "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
+          "title": "同程旅行AR数字文创赋能成都文博新体验",
+          "url": "https://www.pinchain.com/article/350119",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:19:27Z",
+          "published_at": "2026-08-19T08:17:57Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.83
         }
       ],
       "source_count": 1,
@@ -251,53 +249,54 @@
       ],
       "items": [
         {
-          "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
-          "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
-          "url": "https://www.pinchain.com/article/350110",
+          "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
+          "title": "同程旅行AR数字文创赋能成都文博新体验",
+          "url": "https://www.pinchain.com/article/350119",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:19:27Z",
+          "published_at": "2026-08-19T08:17:57Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.83
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6237,
-      "importance": 0.6237,
-      "importance_score": 0.6237,
+      "score": 0.6321,
+      "importance": 0.6321,
+      "importance_score": 0.6321,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.83,
       "ai_signals": [
+        "文创",
         "旅游",
         "旅行",
-        "旅行社",
-        "ai"
+        "ai",
+        "数字"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5976,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.9819,
+        "ai_relevance": 0.83,
+        "recency": 0.9823,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-08-19T07:19:27Z",
-      "latest_at": "2026-08-19T07:19:27Z",
+      "earliest_at": "2026-08-19T08:17:57Z",
+      "latest_at": "2026-08-19T08:17:57Z",
       "primary_item": {
-        "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
-        "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
-        "url": "https://www.pinchain.com/article/350110",
+        "id": "abbb73c23047c0fdfef0b779719fe67929fb5418",
+        "title": "同程旅行AR数字文创赋能成都文博新体验",
+        "url": "https://www.pinchain.com/article/350119",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.83
       }
     },
     {
@@ -339,9 +338,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
+      "score": 0.5693,
+      "importance": 0.5693,
+      "importance_score": 0.5693,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -353,7 +352,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8998,
+        "recency": 0.8876,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5797,
-      "importance": 0.5797,
-      "importance_score": 0.5797,
+      "score": 0.5774,
+      "importance": 0.5774,
+      "importance_score": 0.5774,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -426,7 +425,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9457,
+        "recency": 0.9328,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -444,6 +443,81 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_78b09058378c",
+      "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
+      "url": "https://www.pinchain.com/article/350110",
+      "primary_url": "https://www.pinchain.com/article/350110",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
+          "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
+          "url": "https://www.pinchain.com/article/350110",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T07:19:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
+          "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
+          "url": "https://www.pinchain.com/article/350110",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T07:19:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6213,
+      "importance": 0.6213,
+      "importance_score": 0.6213,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "旅行社",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9686,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-19T07:19:27Z",
+      "latest_at": "2026-08-19T07:19:27Z",
+      "primary_item": {
+        "id": "ab9064d6a3e152dc492d8027a0b64e871bc2834b",
+        "title": "云南通报低价团调查结果:涉事旅行社和导游被立案调查",
+        "url": "https://www.pinchain.com/article/350110",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -485,9 +559,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6221,
-      "importance": 0.6221,
-      "importance_score": 0.6221,
+      "score": 0.6197,
+      "importance": 0.6197,
+      "importance_score": 0.6197,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -501,7 +575,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9728,
+        "recency": 0.9596,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -519,81 +593,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_e19fec4b9f7b",
-      "title": "上海科技馆18日实现海内外游客累计超1亿人次",
-      "url": "https://www.pinchain.com/article/350117",
-      "primary_url": "https://www.pinchain.com/article/350117",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
-          "title": "上海科技馆18日实现海内外游客累计超1亿人次",
-          "url": "https://www.pinchain.com/article/350117",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:41:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.8
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
-          "title": "上海科技馆18日实现海内外游客累计超1亿人次",
-          "url": "https://www.pinchain.com/article/350117",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:41:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.8
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6205,
-      "importance": 0.6205,
-      "importance_score": 0.6205,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.8,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.576,
-        "source_tier": 0.5,
-        "ai_relevance": 0.8,
-        "recency": 0.9871,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-19T07:41:32Z",
-      "latest_at": "2026-08-19T07:41:32Z",
-      "primary_item": {
-        "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
-        "title": "上海科技馆18日实现海内外游客累计超1亿人次",
-        "url": "https://www.pinchain.com/article/350117",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.8
       }
     },
     {
@@ -635,9 +634,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5714,
-      "importance": 0.5714,
-      "importance_score": 0.5714,
+      "score": 0.5692,
+      "importance": 0.5692,
+      "importance_score": 0.5692,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -648,7 +647,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8994,
+        "recency": 0.8872,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -661,6 +660,227 @@
         "id": "24f241ce59b189fa1ff6daa3ddd6b5964cc187d0",
         "title": "Five Asia-Pacific Airlines, One Huge Fuel Shock, Five Different Outcomes",
         "url": "https://skift.com/2026/08/18/five-asia-pacific-airlines-one-huge-fuel-shock-five-different-outcomes",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_e19fec4b9f7b",
+      "title": "上海科技馆18日实现海内外游客累计超1亿人次",
+      "url": "https://www.pinchain.com/article/350117",
+      "primary_url": "https://www.pinchain.com/article/350117",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
+          "title": "上海科技馆18日实现海内外游客累计超1亿人次",
+          "url": "https://www.pinchain.com/article/350117",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T07:41:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.8
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
+          "title": "上海科技馆18日实现海内外游客累计超1亿人次",
+          "url": "https://www.pinchain.com/article/350117",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T07:41:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.8
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6181,
+      "importance": 0.6181,
+      "importance_score": 0.6181,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.8,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai",
+        "科技"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.576,
+        "source_tier": 0.5,
+        "ai_relevance": 0.8,
+        "recency": 0.9737,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-19T07:41:32Z",
+      "latest_at": "2026-08-19T07:41:32Z",
+      "primary_item": {
+        "id": "99431c2d7a9ddd10c973c6ad5d14d184fdaa3c39",
+        "title": "上海科技馆18日实现海内外游客累计超1亿人次",
+        "url": "https://www.pinchain.com/article/350117",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.8
+      }
+    },
+    {
+      "story_id": "story_447ddd3b3e83",
+      "title": "来宾市赴南宁“邀客” 现场发布逾十项重点文旅项目",
+      "url": "https://www.pinchain.com/article/350138",
+      "primary_url": "https://www.pinchain.com/article/350138",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d21046ac24ad183e41de46bf9f5226eb23b4fa94",
+          "title": "来宾市赴南宁“邀客” 现场发布逾十项重点文旅项目",
+          "url": "https://www.pinchain.com/article/350138",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T08:49:30Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "d21046ac24ad183e41de46bf9f5226eb23b4fa94",
+          "title": "来宾市赴南宁“邀客” 现场发布逾十项重点文旅项目",
+          "url": "https://www.pinchain.com/article/350138",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T08:49:30Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6126,
+      "importance": 0.6126,
+      "importance_score": 0.6126,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9898,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T08:49:30Z",
+      "latest_at": "2026-08-19T08:49:30Z",
+      "primary_item": {
+        "id": "d21046ac24ad183e41de46bf9f5226eb23b4fa94",
+        "title": "来宾市赴南宁“邀客” 现场发布逾十项重点文旅项目",
+        "url": "https://www.pinchain.com/article/350138",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_d014fb3c90e8",
+      "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+      "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+      "primary_url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T13:42:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T13:42:20Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.751,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T13:42:20Z",
+      "latest_at": "2026-08-18T13:42:20Z",
+      "primary_item": {
+        "id": "a2702e65b552753c708e13ec735e418268ff46f7",
+        "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
+        "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -707,9 +927,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6142,
-      "importance": 0.6142,
-      "importance_score": 0.6142,
+      "score": 0.6117,
+      "importance": 0.6117,
+      "importance_score": 0.6117,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -722,7 +942,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9982,
+        "recency": 0.9847,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -781,9 +1001,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6139,
-      "importance": 0.6139,
-      "importance_score": 0.6139,
+      "score": 0.6115,
+      "importance": 0.6115,
+      "importance_score": 0.6115,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -796,7 +1016,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.997,
+        "recency": 0.9835,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -814,78 +1034,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_d014fb3c90e8",
-      "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-      "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-      "primary_url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T13:42:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-          "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-          "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T13:42:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5466,
-      "importance": 0.5466,
-      "importance_score": 0.5466,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7613,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T13:42:20Z",
-      "latest_at": "2026-08-18T13:42:20Z",
-      "primary_item": {
-        "id": "a2702e65b552753c708e13ec735e418268ff46f7",
-        "title": "Can Rerouting Planes Cut Aviation’s Climate Impact? An Airspace-Wide Contrail Trial Will Test It",
-        "url": "https://skift.com/2026/08/18/can-rerouting-planes-cut-aviations-climate-impact-an-airspace-wide-contrail-trial-will-test-it",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -927,9 +1075,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6136,
-      "importance": 0.6136,
-      "importance_score": 0.6136,
+      "score": 0.6112,
+      "importance": 0.6112,
+      "importance_score": 0.6112,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -942,7 +1090,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9953,
+        "recency": 0.9818,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -960,6 +1108,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_773d69f43419",
+      "title": "贵州贵阳：“避暑之都”的旅居生意经",
+      "url": "https://www.pinchain.com/article/350136",
+      "primary_url": "https://www.pinchain.com/article/350136",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "61a99a1f530f958baf0f1aaa565732555d6206fe",
+          "title": "贵州贵阳：“避暑之都”的旅居生意经",
+          "url": "https://www.pinchain.com/article/350136",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T08:40:47Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "61a99a1f530f958baf0f1aaa565732555d6206fe",
+          "title": "贵州贵阳：“避暑之都”的旅居生意经",
+          "url": "https://www.pinchain.com/article/350136",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T08:40:47Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5998,
+      "importance": 0.5998,
+      "importance_score": 0.5998,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9877,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T08:40:47Z",
+      "latest_at": "2026-08-19T08:40:47Z",
+      "primary_item": {
+        "id": "61a99a1f530f958baf0f1aaa565732555d6206fe",
+        "title": "贵州贵阳：“避暑之都”的旅居生意经",
+        "url": "https://www.pinchain.com/article/350136",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -1001,9 +1222,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6012,
-      "importance": 0.6012,
-      "importance_score": 0.6012,
+      "score": 0.599,
+      "importance": 0.599,
+      "importance_score": 0.599,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1016,7 +1237,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9263,
+        "recency": 0.9137,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1075,9 +1296,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5994,
-      "importance": 0.5994,
-      "importance_score": 0.5994,
+      "score": 0.597,
+      "importance": 0.597,
+      "importance_score": 0.597,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1089,7 +1310,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9856,
+        "recency": 0.9722,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1148,9 +1369,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5992,
-      "importance": 0.5992,
-      "importance_score": 0.5992,
+      "score": 0.5968,
+      "importance": 0.5968,
+      "importance_score": 0.5968,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1162,7 +1383,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9844,
+        "recency": 0.9711,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1221,9 +1442,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.599,
-      "importance": 0.599,
-      "importance_score": 0.599,
+      "score": 0.5966,
+      "importance": 0.5966,
+      "importance_score": 0.5966,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1235,7 +1456,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9832,
+        "recency": 0.9699,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1248,225 +1469,6 @@
         "id": "e51d1a19f8018533284c89ba77d22fc135d9fc93",
         "title": "柬埔寨首都金边启动“五年规划”提质旅游业",
         "url": "https://www.pinchain.com/article/350111",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_c47cd7d52538",
-      "title": "今年前7个月访港旅客3122万人次 同比增11％",
-      "url": "https://www.pinchain.com/article/350109",
-      "primary_url": "https://www.pinchain.com/article/350109",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "988df55d8514567b0af62e01a8e1aa102b32e7cb",
-          "title": "今年前7个月访港旅客3122万人次 同比增11％",
-          "url": "https://www.pinchain.com/article/350109",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:02:24Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "988df55d8514567b0af62e01a8e1aa102b32e7cb",
-          "title": "今年前7个月访港旅客3122万人次 同比增11％",
-          "url": "https://www.pinchain.com/article/350109",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T07:02:24Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.598,
-      "importance": 0.598,
-      "importance_score": 0.598,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9779,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T07:02:24Z",
-      "latest_at": "2026-08-19T07:02:24Z",
-      "primary_item": {
-        "id": "988df55d8514567b0af62e01a8e1aa102b32e7cb",
-        "title": "今年前7个月访港旅客3122万人次 同比增11％",
-        "url": "https://www.pinchain.com/article/350109",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_06021a97ab09",
-      "title": "河北：开展夏季旅游推广活动 探索发展新路径",
-      "url": "https://www.pinchain.com/article/350105",
-      "primary_url": "https://www.pinchain.com/article/350105",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
-          "title": "河北：开展夏季旅游推广活动 探索发展新路径",
-          "url": "https://www.pinchain.com/article/350105",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T06:35:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
-          "title": "河北：开展夏季旅游推广活动 探索发展新路径",
-          "url": "https://www.pinchain.com/article/350105",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T06:35:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5969,
-      "importance": 0.5969,
-      "importance_score": 0.5969,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9715,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T06:35:23Z",
-      "latest_at": "2026-08-19T06:35:23Z",
-      "primary_item": {
-        "id": "fba4d126d9a7b73b5584c959c48066293eb24a02",
-        "title": "河北：开展夏季旅游推广活动 探索发展新路径",
-        "url": "https://www.pinchain.com/article/350105",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_d8b2ac7788da",
-      "title": "商务人士福音：Apple Pay改签便利性升级",
-      "url": "https://www.pinchain.com/article/350103",
-      "primary_url": "https://www.pinchain.com/article/350103",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
-          "title": "商务人士福音：Apple Pay改签便利性升级",
-          "url": "https://www.pinchain.com/article/350103",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T06:30:24Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
-          "title": "商务人士福音：Apple Pay改签便利性升级",
-          "url": "https://www.pinchain.com/article/350103",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T06:30:24Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5967,
-      "importance": 0.5967,
-      "importance_score": 0.5967,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9704,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T06:30:24Z",
-      "latest_at": "2026-08-19T06:30:24Z",
-      "primary_item": {
-        "id": "1240561a2e98854f4a2ba59797d9b34e080a22f6",
-        "title": "商务人士福音：Apple Pay改签便利性升级",
-        "url": "https://www.pinchain.com/article/350103",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
