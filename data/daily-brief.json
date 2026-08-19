@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-08-19T02:37:46.068153Z",
+  "generated_at": "2026-08-19T03:44:39.597117Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
+    {
+      "story_id": "story_43c656ebd4bb",
+      "title": "同程旅行：上海七夕夜游热度领跑全国",
+      "url": "https://www.pinchain.com/article/350097",
+      "primary_url": "https://www.pinchain.com/article/350097",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+          "title": "同程旅行：上海七夕夜游热度领跑全国",
+          "url": "https://www.pinchain.com/article/350097",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T03:17:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+          "title": "同程旅行：上海七夕夜游热度领跑全国",
+          "url": "https://www.pinchain.com/article/350097",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-19T03:17:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6133,
+      "importance": 0.6133,
+      "importance_score": 0.6133,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9934,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-19T03:17:16Z",
+      "latest_at": "2026-08-19T03:17:16Z",
+      "primary_item": {
+        "id": "2ab45a98907e810c65e94a558db6ed9ef1ee10fc",
+        "title": "同程旅行：上海七夕夜游热度领跑全国",
+        "url": "https://www.pinchain.com/article/350097",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
     {
       "story_id": "story_e143caa478a0",
       "title": "Travel Has Started Weighing AI’s Worth",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6105,
-      "importance": 0.6105,
-      "importance_score": 0.6105,
+      "score": 0.6079,
+      "importance": 0.6079,
+      "importance_score": 0.6079,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +130,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9088,
+        "recency": 0.8943,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,78 +151,76 @@
       }
     },
     {
-      "story_id": "story_0f9bb175817a",
-      "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
-      "url": "https://www.pinchain.com/article/350079",
-      "primary_url": "https://www.pinchain.com/article/350079",
-      "source": "品橙旅游",
+      "story_id": "story_0797af189c53",
+      "title": "文旅疯抢AI短剧，但95%的产能换不来1%的爆款",
+      "url": "https://www.jiemian.com/article/14942819.html",
+      "primary_url": "https://www.jiemian.com/article/14942819.html",
+      "source": "界面新闻",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
-          "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
-          "url": "https://www.pinchain.com/article/350079",
-          "source": "品橙旅游",
+          "id": "452702cf32045bd137667cff2efe01ec25d2b0d4",
+          "title": "文旅疯抢AI短剧，但95%的产能换不来1%的爆款",
+          "url": "https://www.jiemian.com/article/14942819.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:58:19Z",
+          "published_at": "2026-08-19T03:12:28Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
       "source_names": [
-        "品橙旅游"
+        "界面新闻"
       ],
       "items": [
         {
-          "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
-          "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
-          "url": "https://www.pinchain.com/article/350079",
-          "source": "品橙旅游",
+          "id": "452702cf32045bd137667cff2efe01ec25d2b0d4",
+          "title": "文旅疯抢AI短剧，但95%的产能换不来1%的爆款",
+          "url": "https://www.jiemian.com/article/14942819.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:58:19Z",
+          "published_at": "2026-08-19T03:12:28Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5864,
-      "importance": 0.5864,
-      "importance_score": 0.5864,
+      "score": 0.6006,
+      "importance": 0.6006,
+      "importance_score": 0.6006,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.75,
       "ai_signals": [
-        "旅游",
-        "旅行",
-        "旅行社",
+        "文旅",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7749,
+        "ai_relevance": 0.75,
+        "recency": 0.9923,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-18T08:58:19Z",
-      "latest_at": "2026-08-18T08:58:19Z",
+      "earliest_at": "2026-08-19T03:12:28Z",
+      "latest_at": "2026-08-19T03:12:28Z",
       "primary_item": {
-        "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
-        "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
-        "url": "https://www.pinchain.com/article/350079",
-        "source": "品橙旅游",
+        "id": "452702cf32045bd137667cff2efe01ec25d2b0d4",
+        "title": "文旅疯抢AI短剧，但95%的产能换不来1%的爆款",
+        "url": "https://www.jiemian.com/article/14942819.html",
+        "source": "界面新闻",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.75
       }
     },
     {
@@ -190,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -204,7 +276,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9807,
+        "recency": 0.965,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -222,6 +294,81 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_0f9bb175817a",
+      "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
+      "url": "https://www.pinchain.com/article/350079",
+      "primary_url": "https://www.pinchain.com/article/350079",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
+          "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
+          "url": "https://www.pinchain.com/article/350079",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T08:58:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
+          "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
+          "url": "https://www.pinchain.com/article/350079",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T08:58:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5842,
+      "importance": 0.5842,
+      "importance_score": 0.5842,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "旅行社",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.7626,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-18T08:58:19Z",
+      "latest_at": "2026-08-18T08:58:19Z",
+      "primary_item": {
+        "id": "02c3b3d14979888ce03b5ad30093cbcc40b95264",
+        "title": "旅行社没钱退款？多地探索旅游纠纷处置新路径",
+        "url": "https://www.pinchain.com/article/350079",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -263,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.586,
-      "importance": 0.586,
-      "importance_score": 0.586,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -276,7 +423,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9803,
+        "recency": 0.9646,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -294,79 +441,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_d794754213b4",
-      "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
-      "url": "https://www.jiemian.com/article/14939506.html",
-      "primary_url": "https://www.jiemian.com/article/14939506.html",
-      "source": "界面新闻",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "575b7bc7c949aa910973e55d894154bcce68d042",
-          "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
-          "url": "https://www.jiemian.com/article/14939506.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T05:01:19Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "界面新闻"
-      ],
-      "items": [
-        {
-          "id": "575b7bc7c949aa910973e55d894154bcce68d042",
-          "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
-          "url": "https://www.jiemian.com/article/14939506.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T05:01:19Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5288,
-      "importance": 0.5288,
-      "importance_score": 0.5288,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.69,
-      "ai_signals": [
-        "酒店",
-        "投资"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.732,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T05:01:19Z",
-      "latest_at": "2026-08-18T05:01:19Z",
-      "primary_item": {
-        "id": "575b7bc7c949aa910973e55d894154bcce68d042",
-        "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
-        "url": "https://www.jiemian.com/article/14939506.html",
-        "source": "界面新闻",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.69
       }
     },
     {
@@ -408,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5771,
-      "importance": 0.5771,
-      "importance_score": 0.5771,
+      "score": 0.5748,
+      "importance": 0.5748,
+      "importance_score": 0.5748,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -423,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7923,
+        "recency": 0.7796,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -436,80 +510,6 @@
         "id": "98f6ee70c0b552ac7460af3c812e8d4e21166d28",
         "title": "优耐德旅游2026-2027全球邮轮主题发布会启幕",
         "url": "https://www.pinchain.com/article/350087",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_e873fe957b50",
-      "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
-      "url": "https://www.pinchain.com/article/350076",
-      "primary_url": "https://www.pinchain.com/article/350076",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
-          "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
-          "url": "https://www.pinchain.com/article/350076",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T09:14:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
-          "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
-          "url": "https://www.pinchain.com/article/350076",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T09:14:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5745,
-      "importance": 0.5745,
-      "importance_score": 0.5745,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7779,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T09:14:29Z",
-      "latest_at": "2026-08-18T09:14:29Z",
-      "primary_item": {
-        "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
-        "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
-        "url": "https://www.pinchain.com/article/350076",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -556,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5589,
-      "importance": 0.5589,
-      "importance_score": 0.5589,
+      "score": 0.5565,
+      "importance": 0.5565,
+      "importance_score": 0.5565,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -569,7 +569,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8298,
+        "recency": 0.8165,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -590,21 +590,21 @@
       }
     },
     {
-      "story_id": "story_18e1d3474ee7",
-      "title": "韩国NOL World 住宿预订服务上线",
-      "url": "https://www.pinchain.com/article/350074",
-      "primary_url": "https://www.pinchain.com/article/350074",
+      "story_id": "story_e873fe957b50",
+      "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
+      "url": "https://www.pinchain.com/article/350076",
+      "primary_url": "https://www.pinchain.com/article/350076",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
-          "title": "韩国NOL World 住宿预订服务上线",
-          "url": "https://www.pinchain.com/article/350074",
+          "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
+          "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
+          "url": "https://www.pinchain.com/article/350076",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T09:04:30Z",
+          "published_at": "2026-08-18T09:14:29Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -615,26 +615,26 @@
       ],
       "items": [
         {
-          "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
-          "title": "韩国NOL World 住宿预订服务上线",
-          "url": "https://www.pinchain.com/article/350074",
+          "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
+          "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
+          "url": "https://www.pinchain.com/article/350076",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-18T09:04:30Z",
+          "published_at": "2026-08-18T09:14:29Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5742,
-      "importance": 0.5742,
-      "importance_score": 0.5742,
+      "score": 0.5723,
+      "importance": 0.5723,
+      "importance_score": 0.5723,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
-        "住宿",
+        "文旅",
         "旅游",
         "ai"
       ],
@@ -643,24 +643,97 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7761,
+        "recency": 0.7655,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-18T09:04:30Z",
-      "latest_at": "2026-08-18T09:04:30Z",
+      "earliest_at": "2026-08-18T09:14:29Z",
+      "latest_at": "2026-08-18T09:14:29Z",
       "primary_item": {
-        "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
-        "title": "韩国NOL World 住宿预订服务上线",
-        "url": "https://www.pinchain.com/article/350074",
+        "id": "fbf7abaa66ae9a0c37ea4b257eaec47cd41c27ba",
+        "title": "跨界投身“农文旅” 台商在重庆拓创业新赛道",
+        "url": "https://www.pinchain.com/article/350076",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_d794754213b4",
+      "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
+      "url": "https://www.jiemian.com/article/14939506.html",
+      "primary_url": "https://www.jiemian.com/article/14939506.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "575b7bc7c949aa910973e55d894154bcce68d042",
+          "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
+          "url": "https://www.jiemian.com/article/14939506.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T05:01:19Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "575b7bc7c949aa910973e55d894154bcce68d042",
+          "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
+          "url": "https://www.jiemian.com/article/14939506.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T05:01:19Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5267,
+      "importance": 0.5267,
+      "importance_score": 0.5267,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "酒店",
+        "投资"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.7203,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T05:01:19Z",
+      "latest_at": "2026-08-18T05:01:19Z",
+      "primary_item": {
+        "id": "575b7bc7c949aa910973e55d894154bcce68d042",
+        "title": "酒店投资选对合作模式：特许经营、特许经营+还是委托管理？",
+        "url": "https://www.jiemian.com/article/14939506.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.69
       }
     },
     {
@@ -702,9 +775,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5286,
-      "importance": 0.5286,
-      "importance_score": 0.5286,
+      "score": 0.5265,
+      "importance": 0.5265,
+      "importance_score": 0.5265,
       "ai_label": "hospitality_ops",
       "ai_score": 0.69,
       "ai_signals": [
@@ -716,7 +789,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.731,
+        "recency": 0.7193,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -734,6 +807,80 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_18e1d3474ee7",
+      "title": "韩国NOL World 住宿预订服务上线",
+      "url": "https://www.pinchain.com/article/350074",
+      "primary_url": "https://www.pinchain.com/article/350074",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
+          "title": "韩国NOL World 住宿预订服务上线",
+          "url": "https://www.pinchain.com/article/350074",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T09:04:30Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
+          "title": "韩国NOL World 住宿预订服务上线",
+          "url": "https://www.pinchain.com/article/350074",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-18T09:04:30Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5719,
+      "importance": 0.5719,
+      "importance_score": 0.5719,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "住宿",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7637,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-18T09:04:30Z",
+      "latest_at": "2026-08-18T09:04:30Z",
+      "primary_item": {
+        "id": "9a038810e80fe134721e9a022de12ca06a08fb22",
+        "title": "韩国NOL World 住宿预订服务上线",
+        "url": "https://www.pinchain.com/article/350074",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -775,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5697,
-      "importance": 0.5697,
-      "importance_score": 0.5697,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -790,7 +937,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.751,
+        "recency": 0.739,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -849,9 +996,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -864,7 +1011,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7505,
+        "recency": 0.7385,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -923,9 +1070,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5648,
-      "importance": 0.5648,
-      "importance_score": 0.5648,
+      "score": 0.5627,
+      "importance": 0.5627,
+      "importance_score": 0.5627,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -938,7 +1085,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7242,
+        "recency": 0.7126,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5642,
-      "importance": 0.5642,
-      "importance_score": 0.5642,
+      "score": 0.5621,
+      "importance": 0.5621,
+      "importance_score": 0.5621,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1012,7 +1159,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7204,
+        "recency": 0.7089,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1071,9 +1218,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5621,
-      "importance": 0.5621,
-      "importance_score": 0.5621,
+      "score": 0.5599,
+      "importance": 0.5599,
+      "importance_score": 0.5599,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1085,7 +1232,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7786,
+        "recency": 0.7661,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1144,9 +1291,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5619,
-      "importance": 0.5619,
-      "importance_score": 0.5619,
+      "score": 0.5597,
+      "importance": 0.5597,
+      "importance_score": 0.5597,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1158,7 +1305,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7774,
+        "recency": 0.765,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1364,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5614,
-      "importance": 0.5614,
-      "importance_score": 0.5614,
+      "score": 0.5592,
+      "importance": 0.5592,
+      "importance_score": 0.5592,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1231,7 +1378,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7746,
+        "recency": 0.7623,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1290,9 +1437,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5613,
-      "importance": 0.5613,
-      "importance_score": 0.5613,
+      "score": 0.5591,
+      "importance": 0.5591,
+      "importance_score": 0.5591,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1304,7 +1451,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7739,
+        "recency": 0.7616,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1317,152 +1464,6 @@
         "id": "27cdd15f9e613a24ace9e1abc8b05af243e3abc7",
         "title": "塞尔维亚“清凉密码”：山林与河滩成避暑胜地",
         "url": "https://www.pinchain.com/article/350065",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_2ff47e1c2450",
-      "title": "交通运输部:拟打造约6万公里精品自驾旅游公路",
-      "url": "https://www.pinchain.com/article/350066",
-      "primary_url": "https://www.pinchain.com/article/350066",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "65070a179828927f0e4521cb2804d55244eacbbe",
-          "title": "交通运输部:拟打造约6万公里精品自驾旅游公路",
-          "url": "https://www.pinchain.com/article/350066",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:49:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "65070a179828927f0e4521cb2804d55244eacbbe",
-          "title": "交通运输部:拟打造约6万公里精品自驾旅游公路",
-          "url": "https://www.pinchain.com/article/350066",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:49:34Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5612,
-      "importance": 0.5612,
-      "importance_score": 0.5612,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7733,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T08:49:34Z",
-      "latest_at": "2026-08-18T08:49:34Z",
-      "primary_item": {
-        "id": "65070a179828927f0e4521cb2804d55244eacbbe",
-        "title": "交通运输部:拟打造约6万公里精品自驾旅游公路",
-        "url": "https://www.pinchain.com/article/350066",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_7f020c35aefc",
-      "title": "损毁严重未入名录 明代古城墙为何“拆旧建新”",
-      "url": "https://www.pinchain.com/article/350068",
-      "primary_url": "https://www.pinchain.com/article/350068",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "233edab7480789d410fe6c4570d1be9512387240",
-          "title": "损毁严重未入名录 明代古城墙为何“拆旧建新”",
-          "url": "https://www.pinchain.com/article/350068",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:46:28Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "233edab7480789d410fe6c4570d1be9512387240",
-          "title": "损毁严重未入名录 明代古城墙为何“拆旧建新”",
-          "url": "https://www.pinchain.com/article/350068",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-18T08:46:28Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5611,
-      "importance": 0.5611,
-      "importance_score": 0.5611,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7727,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-18T08:46:28Z",
-      "latest_at": "2026-08-18T08:46:28Z",
-      "primary_item": {
-        "id": "233edab7480789d410fe6c4570d1be9512387240",
-        "title": "损毁严重未入名录 明代古城墙为何“拆旧建新”",
-        "url": "https://www.pinchain.com/article/350068",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
