@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T14:34:29.337755Z",
+  "generated_at": "2026-08-20T15:31:35.240617Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6059,
-      "importance": 0.6059,
-      "importance_score": 0.6059,
+      "score": 0.6038,
+      "importance": 0.6038,
+      "importance_score": 0.6038,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.8831,
+        "recency": 0.8711,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6019,
-      "importance": 0.6019,
-      "importance_score": 0.6019,
+      "score": 0.5995,
+      "importance": 0.5995,
+      "importance_score": 0.5995,
       "ai_label": "tourism_policy",
       "ai_score": 0.75,
       "ai_signals": [
@@ -132,7 +132,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9996,
+        "recency": 0.986,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5942,
-      "importance": 0.5942,
-      "importance_score": 0.5942,
+      "score": 0.5918,
+      "importance": 0.5918,
+      "importance_score": 0.5918,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9566,
+        "recency": 0.9435,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5936,
-      "importance": 0.5936,
-      "importance_score": 0.5936,
+      "score": 0.5915,
+      "importance": 0.5915,
+      "importance_score": 0.5915,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -279,7 +279,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8841,
+        "recency": 0.8721,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -338,9 +338,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5456,
-      "importance": 0.5456,
-      "importance_score": 0.5456,
+      "score": 0.5435,
+      "importance": 0.5435,
+      "importance_score": 0.5435,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -352,7 +352,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8251,
+        "recency": 0.8139,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -411,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5936,
-      "importance": 0.5936,
-      "importance_score": 0.5936,
+      "score": 0.5914,
+      "importance": 0.5914,
+      "importance_score": 0.5914,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -426,7 +426,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8838,
+        "recency": 0.8717,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +485,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5934,
-      "importance": 0.5934,
-      "importance_score": 0.5934,
+      "score": 0.5912,
+      "importance": 0.5912,
+      "importance_score": 0.5912,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -500,7 +500,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8827,
+        "recency": 0.8707,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -559,9 +559,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5933,
-      "importance": 0.5933,
-      "importance_score": 0.5933,
+      "score": 0.5911,
+      "importance": 0.5911,
+      "importance_score": 0.5911,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -574,7 +574,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8821,
+        "recency": 0.8701,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -633,9 +633,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5399,
-      "importance": 0.5399,
-      "importance_score": 0.5399,
+      "score": 0.5381,
+      "importance": 0.5381,
+      "importance_score": 0.5381,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -647,7 +647,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7243,
+        "recency": 0.7145,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -664,78 +664,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "travel_business",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_b9e8372c2f2e",
-      "title": "GMH Hotels: The Metric That Broke Hotel Strategy",
-      "url": "https://skift.com/2026/08/19/gmh-hotels-the-metric-that-broke-hotel-strategy",
-      "primary_url": "https://skift.com/2026/08/19/gmh-hotels-the-metric-that-broke-hotel-strategy",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "1aa45b6b56fcfc229bd65e4ecec6f71bcdba659a",
-          "title": "GMH Hotels: The Metric That Broke Hotel Strategy",
-          "url": "https://skift.com/2026/08/19/gmh-hotels-the-metric-that-broke-hotel-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T14:43:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "1aa45b6b56fcfc229bd65e4ecec6f71bcdba659a",
-          "title": "GMH Hotels: The Metric That Broke Hotel Strategy",
-          "url": "https://skift.com/2026/08/19/gmh-hotels-the-metric-that-broke-hotel-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-19T14:43:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7086,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-19T14:43:00Z",
-      "latest_at": "2026-08-19T14:43:00Z",
-      "primary_item": {
-        "id": "1aa45b6b56fcfc229bd65e4ecec6f71bcdba659a",
-        "title": "GMH Hotels: The Metric That Broke Hotel Strategy",
-        "url": "https://skift.com/2026/08/19/gmh-hotels-the-metric-that-broke-hotel-strategy",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
         "ai_score": 0.72
       }
     },
@@ -778,9 +706,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5931,
-      "importance": 0.5931,
-      "importance_score": 0.5931,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -793,7 +721,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8813,
+        "recency": 0.8693,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -806,80 +734,6 @@
         "id": "e4eb7d4f4177d4bfb0e1ee4f9fc0fe94fd876f22",
         "title": "国家文物局：开展博物馆陈列展览内容核查整改",
         "url": "https://www.pinchain.com/article/350169",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_c7330c78ecbd",
-      "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
-      "url": "https://www.pinchain.com/article/350167",
-      "primary_url": "https://www.pinchain.com/article/350167",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
-          "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
-          "url": "https://www.pinchain.com/article/350167",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-20T05:41:37Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
-          "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
-          "url": "https://www.pinchain.com/article/350167",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-20T05:41:37Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5928,
-      "importance": 0.5928,
-      "importance_score": 0.5928,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "酒店",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8796,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-20T05:41:37Z",
-      "latest_at": "2026-08-20T05:41:37Z",
-      "primary_item": {
-        "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
-        "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
-        "url": "https://www.pinchain.com/article/350167",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -926,9 +780,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.529,
-      "importance": 0.529,
-      "importance_score": 0.529,
+      "score": 0.5272,
+      "importance": 0.5272,
+      "importance_score": 0.5272,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [],
@@ -937,7 +791,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7331,
+        "recency": 0.7231,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -955,6 +809,80 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_c7330c78ecbd",
+      "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
+      "url": "https://www.pinchain.com/article/350167",
+      "primary_url": "https://www.pinchain.com/article/350167",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
+          "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
+          "url": "https://www.pinchain.com/article/350167",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-20T05:41:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
+          "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
+          "url": "https://www.pinchain.com/article/350167",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-20T05:41:37Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5907,
+      "importance": 0.5907,
+      "importance_score": 0.5907,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8676,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T05:41:37Z",
+      "latest_at": "2026-08-20T05:41:37Z",
+      "primary_item": {
+        "id": "17faa1daeb217dd79a6b15d956a3f0dd11b9d184",
+        "title": "当带娃的父母变“I人” 住酒店不打扰成了全家刚需",
+        "url": "https://www.pinchain.com/article/350167",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -996,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.592,
-      "importance": 0.592,
-      "importance_score": 0.592,
+      "score": 0.5898,
+      "importance": 0.5898,
+      "importance_score": 0.5898,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1011,7 +939,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8749,
+        "recency": 0.863,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1070,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5865,
+      "importance": 0.5865,
+      "importance_score": 0.5865,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1084,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9265,
+        "recency": 0.9138,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1143,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5868,
-      "importance": 0.5868,
-      "importance_score": 0.5868,
+      "score": 0.5845,
+      "importance": 0.5845,
+      "importance_score": 0.5845,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1157,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9153,
+        "recency": 0.9028,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1216,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5864,
-      "importance": 0.5864,
-      "importance_score": 0.5864,
+      "score": 0.5842,
+      "importance": 0.5842,
+      "importance_score": 0.5842,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1230,7 +1158,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9135,
+        "recency": 0.901,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1289,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5857,
-      "importance": 0.5857,
-      "importance_score": 0.5857,
+      "score": 0.5837,
+      "importance": 0.5837,
+      "importance_score": 0.5837,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1304,7 +1232,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8403,
+        "recency": 0.8288,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1363,9 +1291,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5806,
-      "importance": 0.5806,
-      "importance_score": 0.5806,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1377,7 +1305,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8809,
+        "recency": 0.8689,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1436,9 +1364,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
+      "score": 0.5783,
+      "importance": 0.5783,
+      "importance_score": 0.5783,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1450,7 +1378,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8801,
+        "recency": 0.8681,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1463,6 +1391,79 @@
         "id": "42bacdbe8790daea56529ef43f0d93ebac168dbe",
         "title": "国家图书馆：正式启动中餐主题纪录片征集活动",
         "url": "https://www.pinchain.com/article/350166",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_91a7a702781e",
+      "title": "CITIE 2026广东旅博会国内板块亮点全面解锁",
+      "url": "https://www.pinchain.com/article/350155",
+      "primary_url": "https://www.pinchain.com/article/350155",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "beb91e4de8e269c038f6d83e66f785375323ff09",
+          "title": "CITIE 2026广东旅博会国内板块亮点全面解锁",
+          "url": "https://www.pinchain.com/article/350155",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-20T03:46:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "beb91e4de8e269c038f6d83e66f785375323ff09",
+          "title": "CITIE 2026广东旅博会国内板块亮点全面解锁",
+          "url": "https://www.pinchain.com/article/350155",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-20T03:46:24Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5739,
+      "importance": 0.5739,
+      "importance_score": 0.5739,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8439,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-20T03:46:24Z",
+      "latest_at": "2026-08-20T03:46:24Z",
+      "primary_item": {
+        "id": "beb91e4de8e269c038f6d83e66f785375323ff09",
+        "title": "CITIE 2026广东旅博会国内板块亮点全面解锁",
+        "url": "https://www.pinchain.com/article/350155",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
