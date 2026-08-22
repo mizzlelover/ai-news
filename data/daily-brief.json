@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T09:51:12.626267Z",
+  "generated_at": "2026-08-22T10:21:05.999472Z",
   "window_hours": 24,
-  "total_items": 6,
+  "total_items": 5,
   "items": [
     {
       "story_id": "story_4f0c37215567",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5803,
-      "importance": 0.5803,
-      "importance_score": 0.5803,
+      "score": 0.5792,
+      "importance": 0.5792,
+      "importance_score": 0.5792,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8794,
+        "recency": 0.8731,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5644,
-      "importance": 0.5644,
-      "importance_score": 0.5644,
+      "score": 0.5632,
+      "importance": 0.5632,
+      "importance_score": 0.5632,
       "ai_label": "destination_marketing",
       "ai_score": 0.69,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9297,
+        "recency": 0.923,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -147,78 +147,6 @@
         "site_id": "opmlrss",
         "ai_label": "destination_marketing",
         "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_e65d5a8143d9",
-      "title": "Hilton’s CEO on Why the Fundamentals Still Win in the AI Era",
-      "url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
-      "primary_url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7c150c2e1f949080b05672bf6383f58ad9c7a1f5",
-          "title": "Hilton’s CEO on Why the Fundamentals Still Win in the AI Era",
-          "url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-21T10:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "7c150c2e1f949080b05672bf6383f58ad9c7a1f5",
-          "title": "Hilton’s CEO on Why the Fundamentals Still Win in the AI Era",
-          "url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-21T10:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.562,
-      "importance": 0.562,
-      "importance_score": 0.562,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7086,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-21T10:00:00Z",
-      "latest_at": "2026-08-21T10:00:00Z",
-      "primary_item": {
-        "id": "7c150c2e1f949080b05672bf6383f58ad9c7a1f5",
-        "title": "Hilton’s CEO on Why the Fundamentals Still Win in the AI Era",
-        "url": "https://skift.com/2026/08/21/hiltons-ceo-on-why-the-fundamentals-still-win-in-the-ai-era",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -260,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5549,
-      "importance": 0.5549,
-      "importance_score": 0.5549,
+      "score": 0.5537,
+      "importance": 0.5537,
+      "importance_score": 0.5537,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -274,7 +202,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8768,
+        "recency": 0.8705,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -333,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5413,
-      "importance": 0.5413,
-      "importance_score": 0.5413,
+      "score": 0.5404,
+      "importance": 0.5404,
+      "importance_score": 0.5404,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -346,7 +274,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7322,
+        "recency": 0.727,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -405,9 +333,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5331,
-      "importance": 0.5331,
-      "importance_score": 0.5331,
+      "score": 0.5321,
+      "importance": 0.5321,
+      "importance_score": 0.5321,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -419,7 +347,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7559,
+        "recency": 0.7504,
         "story_heat": 0.0
       },
       "category": "watch",
