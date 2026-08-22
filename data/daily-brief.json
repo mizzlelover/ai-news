@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-22T06:37:14.181654Z",
+  "generated_at": "2026-08-22T07:30:13.187016Z",
   "window_hours": 24,
-  "total_items": 8,
+  "total_items": 6,
   "items": [
     {
       "story_id": "story_4f0c37215567",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5879,
-      "importance": 0.5879,
-      "importance_score": 0.5879,
+      "score": 0.5858,
+      "importance": 0.5858,
+      "importance_score": 0.5858,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9214,
+        "recency": 0.9097,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -74,79 +74,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0f2bcc1b99ed",
-      "title": "Travel’s AI Reckoning Has Arrived",
-      "url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
-      "primary_url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "93bd4b1de42a081414226a3a06de3834536d646a",
-          "title": "Travel’s AI Reckoning Has Arrived",
-          "url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-21T07:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "93bd4b1de42a081414226a3a06de3834536d646a",
-          "title": "Travel’s AI Reckoning Has Arrived",
-          "url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-21T07:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.81
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5749,
-      "importance": 0.5749,
-      "importance_score": 0.5749,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.81,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5832,
-        "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.711,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-21T07:00:00Z",
-      "latest_at": "2026-08-21T07:00:00Z",
-      "primary_item": {
-        "id": "93bd4b1de42a081414226a3a06de3834536d646a",
-        "title": "Travel’s AI Reckoning Has Arrived",
-        "url": "https://skift.com/2026/08/21/travels-ai-reckoning-has-arrived",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
       }
     },
     {
@@ -188,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5724,
-      "importance": 0.5724,
-      "importance_score": 0.5724,
+      "score": 0.5702,
+      "importance": 0.5702,
+      "importance_score": 0.5702,
       "ai_label": "destination_marketing",
       "ai_score": 0.69,
       "ai_signals": [
@@ -202,7 +129,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9741,
+        "recency": 0.9618,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -219,79 +146,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "destination_marketing",
-        "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_eff47540b945",
-      "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
-      "url": "https://www.jiemian.com/article/14966586.html",
-      "primary_url": "https://www.jiemian.com/article/14966586.html",
-      "source": "界面新闻",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
-          "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
-          "url": "https://www.jiemian.com/article/14966586.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-22T00:45:00Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "界面新闻"
-      ],
-      "items": [
-        {
-          "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
-          "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
-          "url": "https://www.jiemian.com/article/14966586.html",
-          "source": "界面新闻",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-22T00:45:00Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5624,
-      "importance": 0.5624,
-      "importance_score": 0.5624,
-      "ai_label": "travel_business",
-      "ai_score": 0.69,
-      "ai_signals": [
-        "旅行",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.9187,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-22T00:45:00Z",
-      "latest_at": "2026-08-22T00:45:00Z",
-      "primary_item": {
-        "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
-        "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
-        "url": "https://www.jiemian.com/article/14966586.html",
-        "source": "界面新闻",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
         "ai_score": 0.69
       }
     },
@@ -334,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5681,
-      "importance": 0.5681,
-      "importance_score": 0.5681,
+      "score": 0.5664,
+      "importance": 0.5664,
+      "importance_score": 0.5664,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -347,7 +201,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7425,
+        "recency": 0.7331,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -368,76 +222,76 @@
       }
     },
     {
-      "story_id": "story_018e9beb895e",
-      "title": "Apple pay闪购机票超轻松",
-      "url": "https://www.pinchain.com/article/350201",
-      "primary_url": "https://www.pinchain.com/article/350201",
-      "source": "品橙旅游",
+      "story_id": "story_eff47540b945",
+      "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
+      "url": "https://www.jiemian.com/article/14966586.html",
+      "primary_url": "https://www.jiemian.com/article/14966586.html",
+      "source": "界面新闻",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "7f04017779ad15ae3473020475bee7b7ceaac702",
-          "title": "Apple pay闪购机票超轻松",
-          "url": "https://www.pinchain.com/article/350201",
-          "source": "品橙旅游",
+          "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
+          "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
+          "url": "https://www.jiemian.com/article/14966586.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-21T07:08:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "published_at": "2026-08-22T00:45:00Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
         }
       ],
       "source_count": 1,
       "source_names": [
-        "品橙旅游"
+        "界面新闻"
       ],
       "items": [
         {
-          "id": "7f04017779ad15ae3473020475bee7b7ceaac702",
-          "title": "Apple pay闪购机票超轻松",
-          "url": "https://www.pinchain.com/article/350201",
-          "source": "品橙旅游",
+          "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
+          "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
+          "url": "https://www.jiemian.com/article/14966586.html",
+          "source": "界面新闻",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-21T07:08:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "published_at": "2026-08-22T00:45:00Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5502,
-      "importance": 0.5502,
-      "importance_score": 0.5502,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "score": 0.5603,
+      "importance": 0.5603,
+      "importance_score": 0.5603,
+      "ai_label": "travel_business",
+      "ai_score": 0.69,
       "ai_signals": [
-        "旅游",
-        "ai"
+        "旅行",
+        "科技"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.4968,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7124,
+        "ai_relevance": 0.69,
+        "recency": 0.9071,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-21T07:08:10Z",
-      "latest_at": "2026-08-21T07:08:10Z",
+      "earliest_at": "2026-08-22T00:45:00Z",
+      "latest_at": "2026-08-22T00:45:00Z",
       "primary_item": {
-        "id": "7f04017779ad15ae3473020475bee7b7ceaac702",
-        "title": "Apple pay闪购机票超轻松",
-        "url": "https://www.pinchain.com/article/350201",
-        "source": "品橙旅游",
+        "id": "eab813d6ac52298f6b50b18ea763f39e7f56640d",
+        "title": "科技早报 | 长江存储一季度营收470.42亿元，净利333.79亿元；同程旅行完成收购嘀嗒出行",
+        "url": "https://www.jiemian.com/article/14966586.html",
+        "source": "界面新闻",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_label": "travel_business",
+        "ai_score": 0.69
       }
     },
     {
@@ -479,9 +333,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5476,
-      "importance": 0.5476,
-      "importance_score": 0.5476,
+      "score": 0.5459,
+      "importance": 0.5459,
+      "importance_score": 0.5459,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -492,7 +346,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7672,
+        "recency": 0.7575,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -551,9 +405,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5396,
-      "importance": 0.5396,
-      "importance_score": 0.5396,
+      "score": 0.5378,
+      "importance": 0.5378,
+      "importance_score": 0.5378,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [
@@ -565,7 +419,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.792,
+        "recency": 0.782,
         "story_heat": 0.0
       },
       "category": "watch",
