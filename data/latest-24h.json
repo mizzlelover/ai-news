@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-23T08:27:37.565974Z",
+  "generated_at": "2026-08-23T08:58:42.614252Z",
   "window_hours": 24,
   "total_items": 4,
   "total_items_ai_raw": 4,
-  "total_items_raw": 397,
-  "total_items_all_mode": 397,
+  "total_items_raw": 391,
+  "total_items_all_mode": 391,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15860,
+  "archive_total": 15819,
   "site_count": 1,
   "source_count": 2,
   "site_stats": [
@@ -15,7 +15,7 @@
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
       "count": 4,
-      "raw_count": 397
+      "raw_count": 391
     }
   ],
   "creator_window_days": 7,
@@ -114,7 +114,7 @@
       "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
       "published_at": "2026-08-22T12:00:00Z",
       "first_seen_at": "2026-08-22T12:35:18.931880Z",
-      "last_seen_at": "2026-08-23T08:27:37.565974Z",
+      "last_seen_at": "2026-08-23T08:58:42.614252Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
@@ -224,7 +224,7 @@
       "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
       "published_at": "2026-08-22T12:00:00Z",
       "first_seen_at": "2026-08-22T12:35:18.931880Z",
-      "last_seen_at": "2026-08-23T08:27:37.565974Z",
+      "last_seen_at": "2026-08-23T08:58:42.614252Z",
       "ai_is_related": true,
       "ai_score": 0.72,
       "ai_label": "tourism_tech",
