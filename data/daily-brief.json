@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T11:19:19.168114Z",
+  "generated_at": "2026-08-23T11:45:22.655444Z",
   "window_hours": 24,
   "total_items": 4,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.574,
-      "importance": 0.574,
-      "importance_score": 0.574,
+      "score": 0.573,
+      "importance": 0.573,
+      "importance_score": 0.573,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8443,
+        "recency": 0.8391,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5381,
-      "importance": 0.5381,
-      "importance_score": 0.5381,
+      "score": 0.5372,
+      "importance": 0.5372,
+      "importance_score": 0.5372,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -129,7 +129,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7141,
+        "recency": 0.7096,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -188,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5618,
-      "importance": 0.5618,
-      "importance_score": 0.5618,
+      "score": 0.5609,
+      "importance": 0.5609,
+      "importance_score": 0.5609,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8461,
+        "recency": 0.8408,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5611,
-      "importance": 0.5611,
-      "importance_score": 0.5611,
+      "score": 0.5602,
+      "importance": 0.5602,
+      "importance_score": 0.5602,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8423,
+        "recency": 0.837,
         "story_heat": 0.0
       },
       "category": "watch",
