@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-08-23T11:45:22.655444Z",
+  "generated_at": "2026-08-23T12:36:21.398589Z",
   "window_hours": 24,
-  "total_items": 4,
-  "total_items_ai_raw": 4,
-  "total_items_raw": 385,
-  "total_items_all_mode": 385,
+  "total_items": 3,
+  "total_items_ai_raw": 3,
+  "total_items_raw": 369,
+  "total_items_all_mode": 369,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15840,
+  "archive_total": 15842,
   "site_count": 1,
-  "source_count": 2,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 4,
-      "raw_count": 385
+      "count": 3,
+      "raw_count": 369
     }
   ],
   "creator_window_days": 7,
@@ -104,32 +104,6 @@
       "title_en": null,
       "title_zh": "特斯拉获内华达州批准，可部署最多 5000 辆 Robotaxi",
       "title_bilingual": "特斯拉获内华达州批准，可部署最多 5000 辆 Robotaxi"
-    },
-    {
-      "id": "28e847ccb64f110ce1fa05feccaf952c6e09d398",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "In Praise of Kayak, 21 Years Later",
-      "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-      "published_at": "2026-08-22T12:00:00Z",
-      "first_seen_at": "2026-08-22T12:35:18.931880Z",
-      "last_seen_at": "2026-08-23T11:45:22.655444Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "trusted_tourism_source_default_keep",
-      "ai_signals": [
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "In Praise of Kayak, 21 Years Later",
-      "title_en": "In Praise of Kayak, 21 Years Later",
-      "title_zh": null,
-      "title_bilingual": "In Praise of Kayak, 21 Years Later"
     }
   ],
   "items_ai": [
@@ -214,32 +188,6 @@
       "title_en": null,
       "title_zh": "特斯拉获内华达州批准，可部署最多 5000 辆 Robotaxi",
       "title_bilingual": "特斯拉获内华达州批准，可部署最多 5000 辆 Robotaxi"
-    },
-    {
-      "id": "28e847ccb64f110ce1fa05feccaf952c6e09d398",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "In Praise of Kayak, 21 Years Later",
-      "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-      "published_at": "2026-08-22T12:00:00Z",
-      "first_seen_at": "2026-08-22T12:35:18.931880Z",
-      "last_seen_at": "2026-08-23T11:45:22.655444Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "tourism_tech",
-      "ai_relevance_reason": "trusted_tourism_source_default_keep",
-      "ai_signals": [
-        "ai"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "In Praise of Kayak, 21 Years Later",
-      "title_en": "In Praise of Kayak, 21 Years Later",
-      "title_zh": null,
-      "title_bilingual": "In Praise of Kayak, 21 Years Later"
     }
   ],
   "all_mode_data_url": "data/latest-24h-all.json",

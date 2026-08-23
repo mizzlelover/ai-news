@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-23T11:45:22.655444Z",
+  "generated_at": "2026-08-23T12:36:21.398589Z",
   "window_hours": 24,
-  "total_items": 4,
+  "total_items": 3,
   "items": [
     {
       "story_id": "story_46ffc588142a",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.573,
-      "importance": 0.573,
-      "importance_score": 0.573,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8391,
+        "recency": 0.8288,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -75,78 +75,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_0a244b357a77",
-      "title": "In Praise of Kayak, 21 Years Later",
-      "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-      "primary_url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "28e847ccb64f110ce1fa05feccaf952c6e09d398",
-          "title": "In Praise of Kayak, 21 Years Later",
-          "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-22T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "28e847ccb64f110ce1fa05feccaf952c6e09d398",
-          "title": "In Praise of Kayak, 21 Years Later",
-          "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-22T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5372,
-      "importance": 0.5372,
-      "importance_score": 0.5372,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7096,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-22T12:00:00Z",
-      "latest_at": "2026-08-22T12:00:00Z",
-      "primary_item": {
-        "id": "28e847ccb64f110ce1fa05feccaf952c6e09d398",
-        "title": "In Praise of Kayak, 21 Years Later",
-        "url": "https://skift.com/2026/08/22/in-praise-of-kayak-21-years-later",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -188,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5609,
-      "importance": 0.5609,
-      "importance_score": 0.5609,
+      "score": 0.559,
+      "importance": 0.559,
+      "importance_score": 0.559,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -202,7 +130,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8408,
+        "recency": 0.8306,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5602,
-      "importance": 0.5602,
-      "importance_score": 0.5602,
+      "score": 0.5583,
+      "importance": 0.5583,
+      "importance_score": 0.5583,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,7 +203,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.837,
+        "recency": 0.8268,
         "story_heat": 0.0
       },
       "category": "watch",
