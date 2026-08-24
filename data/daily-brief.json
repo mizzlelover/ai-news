@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-24T19:09:37.471750Z",
+  "generated_at": "2026-08-24T19:54:46.001130Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5989,
-      "importance": 0.5989,
-      "importance_score": 0.5989,
+      "score": 0.5973,
+      "importance": 0.5973,
+      "importance_score": 0.5973,
       "ai_label": "tourism_policy",
       "ai_score": 0.82,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5904,
         "source_tier": 0.5,
         "ai_relevance": 0.82,
-        "recency": 0.8213,
+        "recency": 0.8124,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,6 +77,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.82
+      }
+    },
+    {
+      "story_id": "story_e0715929b755",
+      "title": "Cruise Ports Top the Labor Day List and the K-Shaped Travel Gap is Narrowing",
+      "url": "https://skift.com/2026/08/24/labor-day-travel-k-shaped-economy",
+      "primary_url": "https://skift.com/2026/08/24/labor-day-travel-k-shaped-economy",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8932b23019d38879f3455c3ed4d4b2559107a062",
+          "title": "Cruise Ports Top the Labor Day List and the K-Shaped Travel Gap is Narrowing",
+          "url": "https://skift.com/2026/08/24/labor-day-travel-k-shaped-economy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T19:23:35Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "8932b23019d38879f3455c3ed4d4b2559107a062",
+          "title": "Cruise Ports Top the Labor Day List and the K-Shaped Travel Gap is Narrowing",
+          "url": "https://skift.com/2026/08/24/labor-day-travel-k-shaped-economy",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T19:23:35Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5882,
+      "importance": 0.5882,
+      "importance_score": 0.5882,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "travel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9925,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T19:23:35Z",
+      "latest_at": "2026-08-24T19:23:35Z",
+      "primary_item": {
+        "id": "8932b23019d38879f3455c3ed4d4b2559107a062",
+        "title": "Cruise Ports Top the Labor Day List and the K-Shaped Travel Gap is Narrowing",
+        "url": "https://skift.com/2026/08/24/labor-day-travel-k-shaped-economy",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
       }
     },
     {
@@ -118,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
+      "score": 0.5852,
+      "importance": 0.5852,
+      "importance_score": 0.5852,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -133,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9166,
+        "recency": 0.9067,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -151,78 +223,6 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_44fc0d8f30b0",
-      "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
-      "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
-      "primary_url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
-          "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
-          "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T15:10:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
-          "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
-          "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T15:10:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5794,
-      "importance": 0.5794,
-      "importance_score": 0.5794,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.944,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-24T15:10:00Z",
-      "latest_at": "2026-08-24T15:10:00Z",
-      "primary_item": {
-        "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
-        "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
-        "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -264,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5896,
-      "importance": 0.5896,
-      "importance_score": 0.5896,
+      "score": 0.588,
+      "importance": 0.588,
+      "importance_score": 0.588,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -280,7 +280,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8156,
+        "recency": 0.8068,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -301,23 +301,23 @@
       }
     },
     {
-      "story_id": "story_4ba462f916ed",
-      "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
-      "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
-      "primary_url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+      "story_id": "story_44fc0d8f30b0",
+      "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
+      "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
+      "primary_url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
-          "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
-          "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+          "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
+          "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
+          "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-24T09:02:02Z",
+          "published_at": "2026-08-24T15:10:00Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.72
         }
       ],
       "source_count": 1,
@@ -326,51 +326,50 @@
       ],
       "items": [
         {
-          "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
-          "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
-          "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+          "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
+          "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
+          "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-24T09:02:02Z",
+          "published_at": "2026-08-24T15:10:00Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5775,
-      "importance": 0.5775,
-      "importance_score": 0.5775,
+      "score": 0.5776,
+      "importance": 0.5776,
+      "importance_score": 0.5776,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.72,
       "ai_signals": [
-        "tourist",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5184,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.864,
+        "ai_relevance": 0.72,
+        "recency": 0.9338,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-24T09:02:02Z",
-      "latest_at": "2026-08-24T09:02:02Z",
+      "earliest_at": "2026-08-24T15:10:00Z",
+      "latest_at": "2026-08-24T15:10:00Z",
       "primary_item": {
-        "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
-        "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
-        "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+        "id": "abd7006c1797d2e016bda2c344d8411e054c5c00",
+        "title": "PE Money Is Coming for STR. The New StayTerra CEO Explains the Strategy.",
+        "url": "https://skift.com/2026/08/24/pe-money-is-coming-for-str-the-new-stayterra-ceo-explains-the-strategy",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.72
       }
     },
     {
@@ -412,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5695,
-      "importance": 0.5695,
-      "importance_score": 0.5695,
+      "score": 0.5679,
+      "importance": 0.5679,
+      "importance_score": 0.5679,
       "ai_label": "hospitality_ops",
       "ai_score": 0.75,
       "ai_signals": [
@@ -429,7 +428,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8194,
+        "recency": 0.8105,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -488,9 +487,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5852,
-      "importance": 0.5852,
-      "importance_score": 0.5852,
+      "score": 0.5835,
+      "importance": 0.5835,
+      "importance_score": 0.5835,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -503,7 +502,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8371,
+        "recency": 0.828,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -521,6 +520,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_4ba462f916ed",
+      "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
+      "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+      "primary_url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
+          "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
+          "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T09:02:02Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
+          "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
+          "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T09:02:02Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5758,
+      "importance": 0.5758,
+      "importance_score": 0.5758,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "tourist",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8546,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T09:02:02Z",
+      "latest_at": "2026-08-24T09:02:02Z",
+      "primary_item": {
+        "id": "c4b282a7642786c1e19aacdab0188a5fdb3697fb",
+        "title": "Thailand’s Six-Year Tourist Fee Saga Returns With a $14 Price Tag",
+        "url": "https://skift.com/2026/08/24/thailands-six-year-tourist-fee-saga-returns-with-a-14-price-tag",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -562,9 +634,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.585,
-      "importance": 0.585,
-      "importance_score": 0.585,
+      "score": 0.5833,
+      "importance": 0.5833,
+      "importance_score": 0.5833,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -577,7 +649,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.836,
+        "recency": 0.827,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -636,9 +708,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5848,
-      "importance": 0.5848,
-      "importance_score": 0.5848,
+      "score": 0.5832,
+      "importance": 0.5832,
+      "importance_score": 0.5832,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -651,7 +723,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.835,
+        "recency": 0.826,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -710,9 +782,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5815,
-      "importance": 0.5815,
-      "importance_score": 0.5815,
+      "score": 0.5799,
+      "importance": 0.5799,
+      "importance_score": 0.5799,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -725,7 +797,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8169,
+        "recency": 0.8081,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -784,9 +856,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.581,
-      "importance": 0.581,
-      "importance_score": 0.581,
+      "score": 0.5794,
+      "importance": 0.5794,
+      "importance_score": 0.5794,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -799,7 +871,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8372,
+        "recency": 0.8281,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -858,9 +930,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5803,
-      "importance": 0.5803,
-      "importance_score": 0.5803,
+      "score": 0.5787,
+      "importance": 0.5787,
+      "importance_score": 0.5787,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -873,7 +945,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8099,
+        "recency": 0.8011,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -932,9 +1004,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
+      "score": 0.5748,
+      "importance": 0.5748,
+      "importance_score": 0.5748,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -947,7 +1019,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7883,
+        "recency": 0.7798,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1006,9 +1078,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5726,
-      "importance": 0.5726,
-      "importance_score": 0.5726,
+      "score": 0.5709,
+      "importance": 0.5709,
+      "importance_score": 0.5709,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1020,7 +1092,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8365,
+        "recency": 0.8275,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1079,9 +1151,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5696,
-      "importance": 0.5696,
-      "importance_score": 0.5696,
+      "score": 0.568,
+      "importance": 0.568,
+      "importance_score": 0.568,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1093,7 +1165,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.82,
+        "recency": 0.8112,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1152,9 +1224,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5691,
-      "importance": 0.5691,
-      "importance_score": 0.5691,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1166,7 +1238,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8173,
+        "recency": 0.8085,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1225,9 +1297,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5685,
-      "importance": 0.5685,
-      "importance_score": 0.5685,
+      "score": 0.5669,
+      "importance": 0.5669,
+      "importance_score": 0.5669,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1239,7 +1311,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8139,
+        "recency": 0.8051,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1298,9 +1370,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5677,
-      "importance": 0.5677,
-      "importance_score": 0.5677,
+      "score": 0.5661,
+      "importance": 0.5661,
+      "importance_score": 0.5661,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1312,7 +1384,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8094,
+        "recency": 0.8007,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1371,9 +1443,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5664,
-      "importance": 0.5664,
-      "importance_score": 0.5664,
+      "score": 0.5649,
+      "importance": 0.5649,
+      "importance_score": 0.5649,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1385,7 +1457,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8024,
+        "recency": 0.7937,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1398,79 +1470,6 @@
         "id": "059cc68e1e45e7bf73e85988451e087abd32a6ea",
         "title": "《印象·大红袍》增速放缓，武夷山国资的港股新考",
         "url": "https://www.pinchain.com/article/350224",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_aa8d9c156b76",
-      "title": "品橙旅游：2026年第35周在线旅游精品解读",
-      "url": "https://www.pinchain.com/article/350215",
-      "primary_url": "https://www.pinchain.com/article/350215",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b20b21c5c0006d2a9a900fb6dc1eff4b36412baf",
-          "title": "品橙旅游：2026年第35周在线旅游精品解读",
-          "url": "https://www.pinchain.com/article/350215",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T02:31:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "b20b21c5c0006d2a9a900fb6dc1eff4b36412baf",
-          "title": "品橙旅游：2026年第35周在线旅游精品解读",
-          "url": "https://www.pinchain.com/article/350215",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T02:31:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5636,
-      "importance": 0.5636,
-      "importance_score": 0.5636,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7865,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-24T02:31:36Z",
-      "latest_at": "2026-08-24T02:31:36Z",
-      "primary_item": {
-        "id": "b20b21c5c0006d2a9a900fb6dc1eff4b36412baf",
-        "title": "品橙旅游：2026年第35周在线旅游精品解读",
-        "url": "https://www.pinchain.com/article/350215",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
