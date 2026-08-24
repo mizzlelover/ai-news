@@ -1,8 +1,82 @@
 {
-  "generated_at": "2026-08-24T03:52:54.502207Z",
+  "generated_at": "2026-08-24T04:42:14.310214Z",
   "window_hours": 24,
-  "total_items": 2,
+  "total_items": 5,
   "items": [
+    {
+      "story_id": "story_247c814fdcac",
+      "title": "“花样”文旅点亮夏日经济 激发消费全新活力",
+      "url": "https://www.pinchain.com/article/350228",
+      "primary_url": "https://www.pinchain.com/article/350228",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "42d0775a23f343f126503345578e3fbd79cd1214",
+          "title": "“花样”文旅点亮夏日经济 激发消费全新活力",
+          "url": "https://www.pinchain.com/article/350228",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T04:33:31Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "42d0775a23f343f126503345578e3fbd79cd1214",
+          "title": "“花样”文旅点亮夏日经济 激发消费全新活力",
+          "url": "https://www.pinchain.com/article/350228",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T04:33:31Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6141,
+      "importance": 0.6141,
+      "importance_score": 0.6141,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "文旅",
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9979,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T04:33:31Z",
+      "latest_at": "2026-08-24T04:33:31Z",
+      "primary_item": {
+        "id": "42d0775a23f343f126503345578e3fbd79cd1214",
+        "title": "“花样”文旅点亮夏日经济 激发消费全新活力",
+        "url": "https://www.pinchain.com/article/350228",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
     {
       "story_id": "story_b7da3e6ec409",
       "title": "汉庭用“两低两高”打开大体量酒店的新天花板",
@@ -42,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6114,
-      "importance": 0.6114,
-      "importance_score": 0.6114,
+      "score": 0.6093,
+      "importance": 0.6093,
+      "importance_score": 0.6093,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +131,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9829,
+        "recency": 0.9713,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -75,6 +149,152 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_5d09557edcca",
+      "title": "成都铁路局就“旅客买票占座放零食”发布致歉",
+      "url": "https://www.pinchain.com/article/350229",
+      "primary_url": "https://www.pinchain.com/article/350229",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ca3de23f56d040998eb3535ddf0abe635de783cc",
+          "title": "成都铁路局就“旅客买票占座放零食”发布致歉",
+          "url": "https://www.pinchain.com/article/350229",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T04:31:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ca3de23f56d040998eb3535ddf0abe635de783cc",
+          "title": "成都铁路局就“旅客买票占座放零食”发布致歉",
+          "url": "https://www.pinchain.com/article/350229",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T04:31:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6015,
+      "importance": 0.6015,
+      "importance_score": 0.6015,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9973,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T04:31:01Z",
+      "latest_at": "2026-08-24T04:31:01Z",
+      "primary_item": {
+        "id": "ca3de23f56d040998eb3535ddf0abe635de783cc",
+        "title": "成都铁路局就“旅客买票占座放零食”发布致歉",
+        "url": "https://www.pinchain.com/article/350229",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_fc4b861b2b8c",
+      "title": "《印象·大红袍》增速放缓，武夷山国资的港股新考",
+      "url": "https://www.pinchain.com/article/350224",
+      "primary_url": "https://www.pinchain.com/article/350224",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "059cc68e1e45e7bf73e85988451e087abd32a6ea",
+          "title": "《印象·大红袍》增速放缓，武夷山国资的港股新考",
+          "url": "https://www.pinchain.com/article/350224",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T03:54:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "059cc68e1e45e7bf73e85988451e087abd32a6ea",
+          "title": "《印象·大红袍》增速放缓，武夷山国资的港股新考",
+          "url": "https://www.pinchain.com/article/350224",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T03:54:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6,
+      "importance": 0.6,
+      "importance_score": 0.6,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9887,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T03:54:52Z",
+      "latest_at": "2026-08-24T03:54:52Z",
+      "primary_item": {
+        "id": "059cc68e1e45e7bf73e85988451e087abd32a6ea",
+        "title": "《印象·大红袍》增速放缓，武夷山国资的港股新考",
+        "url": "https://www.pinchain.com/article/350224",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -116,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5985,
-      "importance": 0.5985,
-      "importance_score": 0.5985,
+      "score": 0.5964,
+      "importance": 0.5964,
+      "importance_score": 0.5964,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -130,7 +350,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9806,
+        "recency": 0.969,
         "story_heat": 0.0
       },
       "category": "watch",
