@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-24T12:46:41.619461Z",
+  "generated_at": "2026-08-24T13:50:16.244161Z",
   "window_hours": 24,
-  "total_items": 18,
+  "total_items": 19,
   "items": [
     {
       "story_id": "story_7382c892e584",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6132,
-      "importance": 0.6132,
-      "importance_score": 0.6132,
+      "score": 0.6108,
+      "importance": 0.6108,
+      "importance_score": 0.6108,
       "ai_label": "tourism_policy",
       "ai_score": 0.82,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.5904,
         "source_tier": 0.5,
         "ai_relevance": 0.82,
-        "recency": 0.9005,
+        "recency": 0.8869,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,6 +77,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.82
+      }
+    },
+    {
+      "story_id": "story_6b1655e259aa",
+      "title": "何小鹏：目标在明年实现 Robotaxi 无安全员载客运营",
+      "url": "https://www.ithome.com/0/993/730.htm",
+      "primary_url": "https://www.ithome.com/0/993/730.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3c3ac7442bee2616817af2ede81e77a76e7f9706",
+          "title": "何小鹏：目标在明年实现 Robotaxi 无安全员载客运营",
+          "url": "https://www.ithome.com/0/993/730.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T13:07:58Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "3c3ac7442bee2616817af2ede81e77a76e7f9706",
+          "title": "何小鹏：目标在明年实现 Robotaxi 无安全员载客运营",
+          "url": "https://www.ithome.com/0/993/730.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T13:07:58Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6002,
+      "importance": 0.6002,
+      "importance_score": 0.6002,
+      "ai_label": "travel_business",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "robot",
+        "ota",
+        "运营"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9899,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T13:07:58Z",
+      "latest_at": "2026-08-24T13:07:58Z",
+      "primary_item": {
+        "id": "3c3ac7442bee2616817af2ede81e77a76e7f9706",
+        "title": "何小鹏：目标在明年实现 Robotaxi 无安全员载客运营",
+        "url": "https://www.ithome.com/0/993/730.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.75
       }
     },
     {
@@ -118,9 +192,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5925,
-      "importance": 0.5925,
-      "importance_score": 0.5925,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -132,7 +206,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9474,
+        "recency": 0.933,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -149,82 +223,6 @@
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_50c6d217ae54",
-      "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
-      "url": "https://www.ithome.com/0/993/488.htm",
-      "primary_url": "https://www.ithome.com/0/993/488.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
-          "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
-          "url": "https://www.ithome.com/0/993/488.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T05:22:01Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
-          "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
-          "url": "https://www.ithome.com/0/993/488.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T05:22:01Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5837,
-      "importance": 0.5837,
-      "importance_score": 0.5837,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "具身智能",
-        "具身",
-        "机器人",
-        "酒店",
-        "智能"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8985,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-24T05:22:01Z",
-      "latest_at": "2026-08-24T05:22:01Z",
-      "primary_item": {
-        "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
-        "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
-        "url": "https://www.ithome.com/0/993/488.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
         "ai_score": 0.75
       }
     },
@@ -267,9 +265,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6038,
-      "importance": 0.6038,
-      "importance_score": 0.6038,
+      "score": 0.6013,
+      "importance": 0.6013,
+      "importance_score": 0.6013,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -283,7 +281,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8943,
+        "recency": 0.8808,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -301,6 +299,82 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.8
+      }
+    },
+    {
+      "story_id": "story_50c6d217ae54",
+      "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
+      "url": "https://www.ithome.com/0/993/488.htm",
+      "primary_url": "https://www.ithome.com/0/993/488.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
+          "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
+          "url": "https://www.ithome.com/0/993/488.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T05:22:01Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
+          "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
+          "url": "https://www.ithome.com/0/993/488.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-24T05:22:01Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5813,
+      "importance": 0.5813,
+      "importance_score": 0.5813,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "具身智能",
+        "具身",
+        "机器人",
+        "酒店",
+        "智能"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8849,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-24T05:22:01Z",
+      "latest_at": "2026-08-24T05:22:01Z",
+      "primary_item": {
+        "id": "a6d54c897ef2c3121ea27206d1a3723eb5dcd689",
+        "title": "智元联合长隆打造全球首个具身智能主题乐园，含机器人服务酒店等",
+        "url": "https://www.ithome.com/0/993/488.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.75
       }
     },
     {
@@ -342,9 +416,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5997,
-      "importance": 0.5997,
-      "importance_score": 0.5997,
+      "score": 0.5972,
+      "importance": 0.5972,
+      "importance_score": 0.5972,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -357,7 +431,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9179,
+        "recency": 0.904,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -416,9 +490,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5995,
-      "importance": 0.5995,
-      "importance_score": 0.5995,
+      "score": 0.597,
+      "importance": 0.597,
+      "importance_score": 0.597,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -431,7 +505,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9167,
+        "recency": 0.9028,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -490,9 +564,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5993,
-      "importance": 0.5993,
-      "importance_score": 0.5993,
+      "score": 0.5968,
+      "importance": 0.5968,
+      "importance_score": 0.5968,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -505,7 +579,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9156,
+        "recency": 0.9017,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -564,9 +638,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5957,
-      "importance": 0.5957,
-      "importance_score": 0.5957,
+      "score": 0.5933,
+      "importance": 0.5933,
+      "importance_score": 0.5933,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -579,7 +653,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8958,
+        "recency": 0.8822,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -638,9 +712,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5956,
-      "importance": 0.5956,
-      "importance_score": 0.5956,
+      "score": 0.593,
+      "importance": 0.593,
+      "importance_score": 0.593,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -653,7 +727,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.918,
+        "recency": 0.9041,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -712,9 +786,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5943,
-      "importance": 0.5943,
-      "importance_score": 0.5943,
+      "score": 0.5919,
+      "importance": 0.5919,
+      "importance_score": 0.5919,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -727,7 +801,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8881,
+        "recency": 0.8746,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -786,9 +860,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5901,
-      "importance": 0.5901,
-      "importance_score": 0.5901,
+      "score": 0.5877,
+      "importance": 0.5877,
+      "importance_score": 0.5877,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -801,7 +875,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8644,
+        "recency": 0.8513,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -860,9 +934,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5871,
-      "importance": 0.5871,
-      "importance_score": 0.5871,
+      "score": 0.5846,
+      "importance": 0.5846,
+      "importance_score": 0.5846,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -874,7 +948,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9173,
+        "recency": 0.9034,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -933,9 +1007,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5839,
-      "importance": 0.5839,
-      "importance_score": 0.5839,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -947,7 +1021,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8992,
+        "recency": 0.8855,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1006,9 +1080,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5833,
-      "importance": 0.5833,
-      "importance_score": 0.5833,
+      "score": 0.5809,
+      "importance": 0.5809,
+      "importance_score": 0.5809,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1020,7 +1094,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8962,
+        "recency": 0.8826,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1079,9 +1153,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5826,
-      "importance": 0.5826,
-      "importance_score": 0.5826,
+      "score": 0.5802,
+      "importance": 0.5802,
+      "importance_score": 0.5802,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1093,7 +1167,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8925,
+        "recency": 0.8789,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1152,9 +1226,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5818,
-      "importance": 0.5818,
-      "importance_score": 0.5818,
+      "score": 0.5793,
+      "importance": 0.5793,
+      "importance_score": 0.5793,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1166,7 +1240,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8875,
+        "recency": 0.8741,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1225,9 +1299,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5804,
-      "importance": 0.5804,
-      "importance_score": 0.5804,
+      "score": 0.578,
+      "importance": 0.578,
+      "importance_score": 0.578,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1239,7 +1313,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8799,
+        "recency": 0.8665,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1298,9 +1372,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5772,
-      "importance": 0.5772,
-      "importance_score": 0.5772,
+      "score": 0.5749,
+      "importance": 0.5749,
+      "importance_score": 0.5749,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1312,7 +1386,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8624,
+        "recency": 0.8493,
         "story_heat": 0.0
       },
       "category": "watch",
