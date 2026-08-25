@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-25T07:01:21.766055Z",
+  "generated_at": "2026-08-25T08:06:57.431028Z",
   "window_hours": 24,
-  "total_items": 14,
+  "total_items": 18,
   "items": [
     {
       "story_id": "story_2253f7325f83",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6182,
-      "importance": 0.6182,
-      "importance_score": 0.6182,
+      "score": 0.6155,
+      "importance": 0.6155,
+      "importance_score": 0.6155,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9512,
+        "recency": 0.9363,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5882,
-      "importance": 0.5882,
-      "importance_score": 0.5882,
+      "score": 0.5854,
+      "importance": 0.5854,
+      "importance_score": 0.5854,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9925,
+        "recency": 0.9769,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +189,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5729,
-      "importance": 0.5729,
-      "importance_score": 0.5729,
+      "score": 0.5701,
+      "importance": 0.5701,
+      "importance_score": 0.5701,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -203,7 +203,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9767,
+        "recency": 0.9614,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6177,
-      "importance": 0.6177,
-      "importance_score": 0.6177,
+      "score": 0.615,
+      "importance": 0.615,
+      "importance_score": 0.615,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -278,7 +278,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9487,
+        "recency": 0.9338,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -337,9 +337,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.561,
-      "importance": 0.561,
-      "importance_score": 0.561,
+      "score": 0.5588,
+      "importance": 0.5588,
+      "importance_score": 0.5588,
       "ai_label": "travel_business",
       "ai_score": 0.75,
       "ai_signals": [
@@ -352,7 +352,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7723,
+        "recency": 0.7602,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -411,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5658,
-      "importance": 0.5658,
-      "importance_score": 0.5658,
+      "score": 0.5633,
+      "importance": 0.5633,
+      "importance_score": 0.5633,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -424,7 +424,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.868,
+        "recency": 0.8544,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -442,6 +442,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_63402dafcf09",
+      "title": "同程旅行:0.99元的红色研学卡,暑期已卖了2万份",
+      "url": "https://www.pinchain.com/article/350289",
+      "primary_url": "https://www.pinchain.com/article/350289",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3ecb7c403eef9a008b59046782cd7fbb4c641ae2",
+          "title": "同程旅行:0.99元的红色研学卡,暑期已卖了2万份",
+          "url": "https://www.pinchain.com/article/350289",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:28:11Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "3ecb7c403eef9a008b59046782cd7fbb4c641ae2",
+          "title": "同程旅行:0.99元的红色研学卡,暑期已卖了2万份",
+          "url": "https://www.pinchain.com/article/350289",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:28:11Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6128,
+      "importance": 0.6128,
+      "importance_score": 0.6128,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9907,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T07:28:11Z",
+      "latest_at": "2026-08-25T07:28:11Z",
+      "primary_item": {
+        "id": "3ecb7c403eef9a008b59046782cd7fbb4c641ae2",
+        "title": "同程旅行:0.99元的红色研学卡,暑期已卖了2万份",
+        "url": "https://www.pinchain.com/article/350289",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -483,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6145,
-      "importance": 0.6145,
-      "importance_score": 0.6145,
+      "score": 0.6116,
+      "importance": 0.6116,
+      "importance_score": 0.6116,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -498,7 +572,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9999,
+        "recency": 0.9842,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -511,80 +585,6 @@
         "id": "e34c9b88e5f56d23b121bb3d52b4e0c28ac8e349",
         "title": "国家级非遗代表性项目保护单位调整名单公布",
         "url": "https://www.pinchain.com/article/350275",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_1d6828e5196a",
-      "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
-      "url": "https://www.pinchain.com/article/350271",
-      "primary_url": "https://www.pinchain.com/article/350271",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
-          "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
-          "url": "https://www.pinchain.com/article/350271",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:56:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
-          "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
-          "url": "https://www.pinchain.com/article/350271",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:56:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6143,
-      "importance": 0.6143,
-      "importance_score": 0.6143,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文旅",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.9989,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-25T06:56:51Z",
-      "latest_at": "2026-08-25T06:56:51Z",
-      "primary_item": {
-        "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
-        "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
-        "url": "https://www.pinchain.com/article/350271",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -631,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5617,
-      "importance": 0.5617,
-      "importance_score": 0.5617,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -644,7 +644,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8454,
+        "recency": 0.8322,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -665,23 +665,23 @@
       }
     },
     {
-      "story_id": "story_a3b2d2cab429",
-      "title": "受台风天气影响 海南进出岛旅客列车全天停运",
-      "url": "https://www.pinchain.com/article/350274",
-      "primary_url": "https://www.pinchain.com/article/350274",
+      "story_id": "story_1d6828e5196a",
+      "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
+      "url": "https://www.pinchain.com/article/350271",
+      "primary_url": "https://www.pinchain.com/article/350271",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "f994508f073a03da25b8930087cae93446309fba",
-          "title": "受台风天气影响 海南进出岛旅客列车全天停运",
-          "url": "https://www.pinchain.com/article/350274",
+          "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
+          "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
+          "url": "https://www.pinchain.com/article/350271",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:58:16Z",
+          "published_at": "2026-08-25T06:56:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -690,51 +690,52 @@
       ],
       "items": [
         {
-          "id": "f994508f073a03da25b8930087cae93446309fba",
-          "title": "受台风天气影响 海南进出岛旅客列车全天停运",
-          "url": "https://www.pinchain.com/article/350274",
+          "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
+          "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
+          "url": "https://www.pinchain.com/article/350271",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:58:16Z",
+          "published_at": "2026-08-25T06:56:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.75
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6019,
-      "importance": 0.6019,
-      "importance_score": 0.6019,
+      "score": 0.6115,
+      "importance": 0.6115,
+      "importance_score": 0.6115,
       "ai_label": "tourism_tech",
-      "ai_score": 0.75,
+      "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.54,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9993,
+        "ai_relevance": 0.78,
+        "recency": 0.9833,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-25T06:58:16Z",
-      "latest_at": "2026-08-25T06:58:16Z",
+      "earliest_at": "2026-08-25T06:56:51Z",
+      "latest_at": "2026-08-25T06:56:51Z",
       "primary_item": {
-        "id": "f994508f073a03da25b8930087cae93446309fba",
-        "title": "受台风天气影响 海南进出岛旅客列车全天停运",
-        "url": "https://www.pinchain.com/article/350274",
+        "id": "39de62110fc24081eb6412f95adf9ec2a3f38dad",
+        "title": "今年暑期夜游火热“出圈” 文旅活力“满格”",
+        "url": "https://www.pinchain.com/article/350271",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.75
+        "ai_score": 0.78
       }
     },
     {
@@ -776,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.553,
-      "importance": 0.553,
-      "importance_score": 0.553,
+      "score": 0.551,
+      "importance": 0.551,
+      "importance_score": 0.551,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -790,7 +791,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7279,
+        "recency": 0.7165,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -811,21 +812,21 @@
       }
     },
     {
-      "story_id": "story_4a0de47804e9",
-      "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
-      "url": "https://www.pinchain.com/article/350266",
-      "primary_url": "https://www.pinchain.com/article/350266",
+      "story_id": "story_bb046d41dad2",
+      "title": "中国驻东京旅游办事处亮相“世界之旅·夏季展”",
+      "url": "https://www.pinchain.com/article/350278",
+      "primary_url": "https://www.pinchain.com/article/350278",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
-          "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
-          "url": "https://www.pinchain.com/article/350266",
+          "id": "abdd831ba38e9ac3bb6f818509af47e0d5e13644",
+          "title": "中国驻东京旅游办事处亮相“世界之旅·夏季展”",
+          "url": "https://www.pinchain.com/article/350278",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:53:22Z",
+          "published_at": "2026-08-25T07:05:34Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -836,22 +837,22 @@
       ],
       "items": [
         {
-          "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
-          "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
-          "url": "https://www.pinchain.com/article/350266",
+          "id": "abdd831ba38e9ac3bb6f818509af47e0d5e13644",
+          "title": "中国驻东京旅游办事处亮相“世界之旅·夏季展”",
+          "url": "https://www.pinchain.com/article/350278",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:53:22Z",
+          "published_at": "2026-08-25T07:05:34Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6017,
-      "importance": 0.6017,
-      "importance_score": 0.6017,
+      "score": 0.5994,
+      "importance": 0.5994,
+      "importance_score": 0.5994,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -863,19 +864,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9981,
+        "recency": 0.9853,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-25T06:53:22Z",
-      "latest_at": "2026-08-25T06:53:22Z",
+      "earliest_at": "2026-08-25T07:05:34Z",
+      "latest_at": "2026-08-25T07:05:34Z",
       "primary_item": {
-        "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
-        "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
-        "url": "https://www.pinchain.com/article/350266",
+        "id": "abdd831ba38e9ac3bb6f818509af47e0d5e13644",
+        "title": "中国驻东京旅游办事处亮相“世界之旅·夏季展”",
+        "url": "https://www.pinchain.com/article/350278",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -922,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5527,
-      "importance": 0.5527,
-      "importance_score": 0.5527,
+      "score": 0.5504,
+      "importance": 0.5504,
+      "importance_score": 0.5504,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -935,7 +936,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7954,
+        "recency": 0.7829,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -953,6 +954,225 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_371e91a9fe68",
+      "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+      "url": "https://www.pinchain.com/article/350277",
+      "primary_url": "https://www.pinchain.com/article/350277",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+          "url": "https://www.pinchain.com/article/350277",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:04:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+          "url": "https://www.pinchain.com/article/350277",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:04:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5993,
+      "importance": 0.5993,
+      "importance_score": 0.5993,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9851,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T07:04:26Z",
+      "latest_at": "2026-08-25T07:04:26Z",
+      "primary_item": {
+        "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+        "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+        "url": "https://www.pinchain.com/article/350277",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e592d54eac66",
+      "title": "国铁集团负责人再回应“旅客买票占座放零食”",
+      "url": "https://www.pinchain.com/article/350276",
+      "primary_url": "https://www.pinchain.com/article/350276",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "69702b542371e441eedb36ec1f9f899e2024caca",
+          "title": "国铁集团负责人再回应“旅客买票占座放零食”",
+          "url": "https://www.pinchain.com/article/350276",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:02:46Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "69702b542371e441eedb36ec1f9f899e2024caca",
+          "title": "国铁集团负责人再回应“旅客买票占座放零食”",
+          "url": "https://www.pinchain.com/article/350276",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:02:46Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5992,
+      "importance": 0.5992,
+      "importance_score": 0.5992,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9847,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T07:02:46Z",
+      "latest_at": "2026-08-25T07:02:46Z",
+      "primary_item": {
+        "id": "69702b542371e441eedb36ec1f9f899e2024caca",
+        "title": "国铁集团负责人再回应“旅客买票占座放零食”",
+        "url": "https://www.pinchain.com/article/350276",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_a3b2d2cab429",
+      "title": "受台风天气影响 海南进出岛旅客列车全天停运",
+      "url": "https://www.pinchain.com/article/350274",
+      "primary_url": "https://www.pinchain.com/article/350274",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f994508f073a03da25b8930087cae93446309fba",
+          "title": "受台风天气影响 海南进出岛旅客列车全天停运",
+          "url": "https://www.pinchain.com/article/350274",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T06:58:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "f994508f073a03da25b8930087cae93446309fba",
+          "title": "受台风天气影响 海南进出岛旅客列车全天停运",
+          "url": "https://www.pinchain.com/article/350274",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T06:58:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.599,
+      "importance": 0.599,
+      "importance_score": 0.599,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9836,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T06:58:16Z",
+      "latest_at": "2026-08-25T06:58:16Z",
+      "primary_item": {
+        "id": "f994508f073a03da25b8930087cae93446309fba",
+        "title": "受台风天气影响 海南进出岛旅客列车全天停运",
+        "url": "https://www.pinchain.com/article/350274",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -994,9 +1214,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6017,
-      "importance": 0.6017,
-      "importance_score": 0.6017,
+      "score": 0.5989,
+      "importance": 0.5989,
+      "importance_score": 0.5989,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1008,7 +1228,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9985,
+        "recency": 0.9828,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1021,6 +1241,79 @@
         "id": "8998a8ef8e0607d807ec8958194d3435b729c280",
         "title": "客群趋向年轻化 暑期红色旅游要热度更要深度",
         "url": "https://www.pinchain.com/article/350269",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_4a0de47804e9",
+      "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
+      "url": "https://www.pinchain.com/article/350266",
+      "primary_url": "https://www.pinchain.com/article/350266",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
+          "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
+          "url": "https://www.pinchain.com/article/350266",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T06:53:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
+          "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
+          "url": "https://www.pinchain.com/article/350266",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T06:53:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5988,
+      "importance": 0.5988,
+      "importance_score": 0.5988,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9824,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T06:53:22Z",
+      "latest_at": "2026-08-25T06:53:22Z",
+      "primary_item": {
+        "id": "8cf8fe972ebd00d2089babcf80c677fc4a97007d",
+        "title": "一影院推出“包月午睡”服务 多名新顾客开卡",
+        "url": "https://www.pinchain.com/article/350266",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
