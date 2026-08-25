@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T20:56:06.573082Z",
+  "generated_at": "2026-08-25T21:28:45.810471Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5996,
-      "importance": 0.5996,
-      "importance_score": 0.5996,
+      "score": 0.5984,
+      "importance": 0.5984,
+      "importance_score": 0.5984,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.8713,
+        "recency": 0.8645,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5679,
-      "importance": 0.5679,
-      "importance_score": 0.5679,
+      "score": 0.5665,
+      "importance": 0.5665,
+      "importance_score": 0.5665,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [],
@@ -128,7 +128,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9491,
+        "recency": 0.9417,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -187,9 +187,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5914,
-      "importance": 0.5914,
-      "importance_score": 0.5914,
+      "score": 0.5902,
+      "importance": 0.5902,
+      "importance_score": 0.5902,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -202,7 +202,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8717,
+        "recency": 0.8649,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -261,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5409,
-      "importance": 0.5409,
-      "importance_score": 0.5409,
+      "score": 0.5397,
+      "importance": 0.5397,
+      "importance_score": 0.5397,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.799,
+        "recency": 0.7927,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -334,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5557,
-      "importance": 0.5557,
-      "importance_score": 0.5557,
+      "score": 0.5545,
+      "importance": 0.5545,
+      "importance_score": 0.5545,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -347,7 +347,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8118,
+        "recency": 0.8055,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -406,9 +406,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5912,
-      "importance": 0.5912,
-      "importance_score": 0.5912,
+      "score": 0.59,
+      "importance": 0.59,
+      "importance_score": 0.59,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -421,7 +421,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8706,
+        "recency": 0.8637,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +480,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5906,
-      "importance": 0.5906,
-      "importance_score": 0.5906,
+      "score": 0.5893,
+      "importance": 0.5893,
+      "importance_score": 0.5893,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -495,7 +495,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8671,
+        "recency": 0.8603,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +554,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.587,
-      "importance": 0.587,
-      "importance_score": 0.587,
+      "score": 0.5859,
+      "importance": 0.5859,
+      "importance_score": 0.5859,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -570,7 +570,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.778,
+        "recency": 0.772,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -588,78 +588,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_b8add87c7076",
-      "title": "Wall Street Is Starting to Believe Airbnb’s Growth Story",
-      "url": "https://skift.com/2026/08/24/wall-street-is-starting-to-believe-airbnbs-growth-story",
-      "primary_url": "https://skift.com/2026/08/24/wall-street-is-starting-to-believe-airbnbs-growth-story",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "258e8667ce683458fc78dcaddefa923b9ba935c6",
-          "title": "Wall Street Is Starting to Believe Airbnb’s Growth Story",
-          "url": "https://skift.com/2026/08/24/wall-street-is-starting-to-believe-airbnbs-growth-story",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T21:13:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "258e8667ce683458fc78dcaddefa923b9ba935c6",
-          "title": "Wall Street Is Starting to Believe Airbnb’s Growth Story",
-          "url": "https://skift.com/2026/08/24/wall-street-is-starting-to-believe-airbnbs-growth-story",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-24T21:13:14Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5373,
-      "importance": 0.5373,
-      "importance_score": 0.5373,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.71,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-24T21:13:14Z",
-      "latest_at": "2026-08-24T21:13:14Z",
-      "primary_item": {
-        "id": "258e8667ce683458fc78dcaddefa923b9ba935c6",
-        "title": "Wall Street Is Starting to Believe Airbnb’s Growth Story",
-        "url": "https://skift.com/2026/08/24/wall-street-is-starting-to-believe-airbnbs-growth-story",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -701,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5866,
-      "importance": 0.5866,
-      "importance_score": 0.5866,
+      "score": 0.5855,
+      "importance": 0.5855,
+      "importance_score": 0.5855,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -717,7 +645,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.776,
+        "recency": 0.7699,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -776,9 +704,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.5837,
+      "importance": 0.5837,
+      "importance_score": 0.5837,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -791,7 +719,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8357,
+        "recency": 0.8292,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -850,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5827,
-      "importance": 0.5827,
-      "importance_score": 0.5827,
+      "score": 0.5815,
+      "importance": 0.5815,
+      "importance_score": 0.5815,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -865,7 +793,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8233,
+        "recency": 0.8168,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5817,
-      "importance": 0.5817,
-      "importance_score": 0.5817,
+      "score": 0.5806,
+      "importance": 0.5806,
+      "importance_score": 0.5806,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -939,7 +867,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8179,
+        "recency": 0.8115,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -998,9 +926,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5816,
-      "importance": 0.5816,
-      "importance_score": 0.5816,
+      "score": 0.5804,
+      "importance": 0.5804,
+      "importance_score": 0.5804,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1013,7 +941,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8171,
+        "recency": 0.8107,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1072,9 +1000,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5793,
-      "importance": 0.5793,
-      "importance_score": 0.5793,
+      "score": 0.578,
+      "importance": 0.578,
+      "importance_score": 0.578,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1086,7 +1014,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8737,
+        "recency": 0.8668,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1145,9 +1073,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5791,
-      "importance": 0.5791,
-      "importance_score": 0.5791,
+      "score": 0.5778,
+      "importance": 0.5778,
+      "importance_score": 0.5778,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1159,7 +1087,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8726,
+        "recency": 0.8657,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1218,9 +1146,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.578,
-      "importance": 0.578,
-      "importance_score": 0.578,
+      "score": 0.5767,
+      "importance": 0.5767,
+      "importance_score": 0.5767,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1232,7 +1160,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8665,
+        "recency": 0.8597,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1291,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5765,
+      "importance": 0.5765,
+      "importance_score": 0.5765,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1305,7 +1233,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.865,
+        "recency": 0.8582,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1364,9 +1292,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5694,
-      "importance": 0.5694,
-      "importance_score": 0.5694,
+      "score": 0.5682,
+      "importance": 0.5682,
+      "importance_score": 0.5682,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1378,7 +1306,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8188,
+        "recency": 0.8124,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1391,6 +1319,79 @@
         "id": "abdd831ba38e9ac3bb6f818509af47e0d5e13644",
         "title": "中国驻东京旅游办事处亮相“世界之旅·夏季展”",
         "url": "https://www.pinchain.com/article/350278",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_371e91a9fe68",
+      "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+      "url": "https://www.pinchain.com/article/350277",
+      "primary_url": "https://www.pinchain.com/article/350277",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+          "url": "https://www.pinchain.com/article/350277",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:04:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+          "url": "https://www.pinchain.com/article/350277",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T07:04:26Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5682,
+      "importance": 0.5682,
+      "importance_score": 0.5682,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8122,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T07:04:26Z",
+      "latest_at": "2026-08-25T07:04:26Z",
+      "primary_item": {
+        "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
+        "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
+        "url": "https://www.pinchain.com/article/350277",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -1437,9 +1438,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5693,
-      "importance": 0.5693,
-      "importance_score": 0.5693,
+      "score": 0.5681,
+      "importance": 0.5681,
+      "importance_score": 0.5681,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1451,7 +1452,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8183,
+        "recency": 0.8119,
         "story_heat": 0.0
       },
       "category": "watch",
