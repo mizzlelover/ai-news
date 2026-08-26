@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T05:32:28.872602Z",
+  "generated_at": "2026-08-26T06:45:53.732211Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.613,
-      "importance": 0.613,
-      "importance_score": 0.613,
+      "score": 0.6098,
+      "importance": 0.6098,
+      "importance_score": 0.6098,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +57,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9915,
+        "recency": 0.9742,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -116,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6127,
-      "importance": 0.6127,
-      "importance_score": 0.6127,
+      "score": 0.6096,
+      "importance": 0.6096,
+      "importance_score": 0.6096,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -131,7 +131,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.99,
+        "recency": 0.9727,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -190,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5479,
-      "importance": 0.5479,
-      "importance_score": 0.5479,
+      "score": 0.5453,
+      "importance": 0.5453,
+      "importance_score": 0.5453,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [],
@@ -201,7 +201,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8382,
+        "recency": 0.8235,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -260,9 +260,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6126,
-      "importance": 0.6126,
-      "importance_score": 0.6126,
+      "score": 0.6095,
+      "importance": 0.6095,
+      "importance_score": 0.6095,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9896,
+        "recency": 0.9723,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -293,78 +293,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_06c1135ac29c",
-      "title": "Ixigo  Tests Packaged Tours for Trains, Uber Becomes a New Distribution Engine",
-      "url": "https://skift.com/2026/08/25/ixigo-tests-packaged-tours-for-trains-uber-becomes-a-new-distribution-engine",
-      "primary_url": "https://skift.com/2026/08/25/ixigo-tests-packaged-tours-for-trains-uber-becomes-a-new-distribution-engine",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c4efb57653e1451a82f53a6d8f0ac814d1cbc6dd",
-          "title": "Ixigo  Tests Packaged Tours for Trains, Uber Becomes a New Distribution Engine",
-          "url": "https://skift.com/2026/08/25/ixigo-tests-packaged-tours-for-trains-uber-becomes-a-new-distribution-engine",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:30:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "c4efb57653e1451a82f53a6d8f0ac814d1cbc6dd",
-          "title": "Ixigo  Tests Packaged Tours for Trains, Uber Becomes a New Distribution Engine",
-          "url": "https://skift.com/2026/08/25/ixigo-tests-packaged-tours-for-trains-uber-becomes-a-new-distribution-engine",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T06:30:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5386,
-      "importance": 0.5386,
-      "importance_score": 0.5386,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.717,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-25T06:30:00Z",
-      "latest_at": "2026-08-25T06:30:00Z",
-      "primary_item": {
-        "id": "c4efb57653e1451a82f53a6d8f0ac814d1cbc6dd",
-        "title": "Ixigo  Tests Packaged Tours for Trains, Uber Becomes a New Distribution Engine",
-        "url": "https://skift.com/2026/08/25/ixigo-tests-packaged-tours-for-trains-uber-becomes-a-new-distribution-engine",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -406,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6091,
-      "importance": 0.6091,
-      "importance_score": 0.6091,
+      "score": 0.6059,
+      "importance": 0.6059,
+      "importance_score": 0.6059,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -421,7 +349,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.993,
+        "recency": 0.9756,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +408,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.609,
-      "importance": 0.609,
-      "importance_score": 0.609,
+      "score": 0.6059,
+      "importance": 0.6059,
+      "importance_score": 0.6059,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -495,7 +423,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9694,
+        "recency": 0.9524,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6041,
-      "importance": 0.6041,
-      "importance_score": 0.6041,
+      "score": 0.6011,
+      "importance": 0.6011,
+      "importance_score": 0.6011,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -569,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9423,
+        "recency": 0.9258,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -628,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.601,
-      "importance": 0.601,
-      "importance_score": 0.601,
+      "score": 0.5978,
+      "importance": 0.5978,
+      "importance_score": 0.5978,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -642,7 +570,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9943,
+        "recency": 0.9769,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -701,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6006,
-      "importance": 0.6006,
-      "importance_score": 0.6006,
+      "score": 0.5975,
+      "importance": 0.5975,
+      "importance_score": 0.5975,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -715,7 +643,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9925,
+        "recency": 0.9751,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -774,9 +702,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6004,
-      "importance": 0.6004,
-      "importance_score": 0.6004,
+      "score": 0.5973,
+      "importance": 0.5973,
+      "importance_score": 0.5973,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -788,7 +716,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.991,
+        "recency": 0.9737,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -847,9 +775,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6003,
-      "importance": 0.6003,
-      "importance_score": 0.6003,
+      "score": 0.5972,
+      "importance": 0.5972,
+      "importance_score": 0.5972,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -861,7 +789,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9906,
+        "recency": 0.9733,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -920,9 +848,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5813,
-      "importance": 0.5813,
-      "importance_score": 0.5813,
+      "score": 0.5789,
+      "importance": 0.5789,
+      "importance_score": 0.5789,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -936,7 +864,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.7695,
+        "recency": 0.756,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -995,9 +923,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5731,
-      "importance": 0.5731,
-      "importance_score": 0.5731,
+      "score": 0.5706,
+      "importance": 0.5706,
+      "importance_score": 0.5706,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1010,7 +938,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7699,
+        "recency": 0.7564,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5729,
-      "importance": 0.5729,
-      "importance_score": 0.5729,
+      "score": 0.5704,
+      "importance": 0.5704,
+      "importance_score": 0.5704,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1084,7 +1012,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7688,
+        "recency": 0.7554,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1143,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5723,
-      "importance": 0.5723,
-      "importance_score": 0.5723,
+      "score": 0.5699,
+      "importance": 0.5699,
+      "importance_score": 0.5699,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1158,7 +1086,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7658,
+        "recency": 0.7524,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1217,9 +1145,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5673,
-      "importance": 0.5673,
-      "importance_score": 0.5673,
+      "score": 0.565,
+      "importance": 0.565,
+      "importance_score": 0.565,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1232,7 +1160,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7381,
+        "recency": 0.7251,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1291,9 +1219,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5654,
-      "importance": 0.5654,
-      "importance_score": 0.5654,
+      "score": 0.5631,
+      "importance": 0.5631,
+      "importance_score": 0.5631,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1306,7 +1234,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7271,
+        "recency": 0.7143,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1365,9 +1293,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5645,
-      "importance": 0.5645,
-      "importance_score": 0.5645,
+      "score": 0.5622,
+      "importance": 0.5622,
+      "importance_score": 0.5622,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1380,7 +1308,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7223,
+        "recency": 0.7097,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1439,9 +1367,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5644,
-      "importance": 0.5644,
-      "importance_score": 0.5644,
+      "score": 0.5621,
+      "importance": 0.5621,
+      "importance_score": 0.5621,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1454,7 +1382,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7216,
+        "recency": 0.709,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1472,6 +1400,79 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_8ec1c789fe10",
+      "title": "从204%到23.8%:泡泡玛特的“高增长叙事”开始失速",
+      "url": "https://www.pinchain.com/article/350298",
+      "primary_url": "https://www.pinchain.com/article/350298",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2bc0cdeb5565195dfabd03030d3fc91948f9cf80",
+          "title": "从204%到23.8%:泡泡玛特的“高增长叙事”开始失速",
+          "url": "https://www.pinchain.com/article/350298",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:35:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2bc0cdeb5565195dfabd03030d3fc91948f9cf80",
+          "title": "从204%到23.8%:泡泡玛特的“高增长叙事”开始失速",
+          "url": "https://www.pinchain.com/article/350298",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:35:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5585,
+      "importance": 0.5585,
+      "importance_score": 0.5585,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7581,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T11:35:01Z",
+      "latest_at": "2026-08-25T11:35:01Z",
+      "primary_item": {
+        "id": "2bc0cdeb5565195dfabd03030d3fc91948f9cf80",
+        "title": "从204%到23.8%:泡泡玛特的“高增长叙事”开始失速",
+        "url": "https://www.pinchain.com/article/350298",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     }
   ]
