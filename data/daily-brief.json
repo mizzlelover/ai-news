@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-08-26T01:12:41.347951Z",
+  "generated_at": "2026-08-26T02:46:20.245302Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
     {
-      "story_id": "story_bf5d5dc77062",
-      "title": "希尔顿集团在华运营酒店突破1100家",
-      "url": "https://www.pinchain.com/article/350301",
-      "primary_url": "https://www.pinchain.com/article/350301",
+      "story_id": "story_40a610aa111a",
+      "title": "祥源文旅2026上半年成绩单解读",
+      "url": "https://www.pinchain.com/article/350310",
+      "primary_url": "https://www.pinchain.com/article/350310",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
-          "title": "希尔顿集团在华运营酒店突破1100家",
-          "url": "https://www.pinchain.com/article/350301",
+          "id": "5477eb5656faebc6ab271af212f47cf0a6e588e3",
+          "title": "祥源文旅2026上半年成绩单解读",
+          "url": "https://www.pinchain.com/article/350310",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T11:23:44Z",
+          "published_at": "2026-08-26T01:25:29Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.8
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -29,53 +29,52 @@
       ],
       "items": [
         {
-          "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
-          "title": "希尔顿集团在华运营酒店突破1100家",
-          "url": "https://www.pinchain.com/article/350301",
+          "id": "5477eb5656faebc6ab271af212f47cf0a6e588e3",
+          "title": "祥源文旅2026上半年成绩单解读",
+          "url": "https://www.pinchain.com/article/350310",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-25T11:23:44Z",
+          "published_at": "2026-08-26T01:25:29Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.8
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5902,
-      "importance": 0.5902,
-      "importance_score": 0.5902,
+      "score": 0.611,
+      "importance": 0.611,
+      "importance_score": 0.611,
       "ai_label": "tourism_tech",
-      "ai_score": 0.8,
+      "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
-        "酒店",
-        "ai",
-        "运营"
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.576,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.8,
-        "recency": 0.8191,
+        "ai_relevance": 0.78,
+        "recency": 0.9807,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-25T11:23:44Z",
-      "latest_at": "2026-08-25T11:23:44Z",
+      "earliest_at": "2026-08-26T01:25:29Z",
+      "latest_at": "2026-08-26T01:25:29Z",
       "primary_item": {
-        "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
-        "title": "希尔顿集团在华运营酒店突破1100家",
-        "url": "https://www.pinchain.com/article/350301",
+        "id": "5477eb5656faebc6ab271af212f47cf0a6e588e3",
+        "title": "祥源文旅2026上半年成绩单解读",
+        "url": "https://www.pinchain.com/article/350310",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.8
+        "ai_score": 0.78
       }
     },
     {
@@ -117,9 +116,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5577,
-      "importance": 0.5577,
-      "importance_score": 0.5577,
+      "score": 0.5541,
+      "importance": 0.5541,
+      "importance_score": 0.5541,
       "ai_label": "travel_business",
       "ai_score": 0.69,
       "ai_signals": [],
@@ -128,7 +127,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.8923,
+        "recency": 0.8724,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -146,6 +145,81 @@
         "site_id": "opmlrss",
         "ai_label": "travel_business",
         "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_bf5d5dc77062",
+      "title": "希尔顿集团在华运营酒店突破1100家",
+      "url": "https://www.pinchain.com/article/350301",
+      "primary_url": "https://www.pinchain.com/article/350301",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
+          "title": "希尔顿集团在华运营酒店突破1100家",
+          "url": "https://www.pinchain.com/article/350301",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:23:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.8
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
+          "title": "希尔顿集团在华运营酒店突破1100家",
+          "url": "https://www.pinchain.com/article/350301",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:23:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.8
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.587,
+      "importance": 0.587,
+      "importance_score": 0.587,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.8,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai",
+        "运营"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.576,
+        "source_tier": 0.5,
+        "ai_relevance": 0.8,
+        "recency": 0.8009,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-25T11:23:44Z",
+      "latest_at": "2026-08-25T11:23:44Z",
+      "primary_item": {
+        "id": "11e101afd477d8ed5c7f4c6a4faa2a83e760ec7b",
+        "title": "希尔顿集团在华运营酒店突破1100家",
+        "url": "https://www.pinchain.com/article/350301",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.8
       }
     },
     {
@@ -187,9 +261,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5322,
-      "importance": 0.5322,
-      "importance_score": 0.5322,
+      "score": 0.5292,
+      "importance": 0.5292,
+      "importance_score": 0.5292,
       "ai_label": "tourism_policy",
       "ai_score": 0.69,
       "ai_signals": [
@@ -201,7 +275,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.7511,
+        "recency": 0.7344,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -219,80 +293,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.69
-      }
-    },
-    {
-      "story_id": "story_7cc5c25a7b2e",
-      "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
-      "url": "https://www.pinchain.com/article/350300",
-      "primary_url": "https://www.pinchain.com/article/350300",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "f748103eb4826985350bb1636e928713ec44960d",
-          "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
-          "url": "https://www.pinchain.com/article/350300",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T11:25:48Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "f748103eb4826985350bb1636e928713ec44960d",
-          "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
-          "url": "https://www.pinchain.com/article/350300",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T11:25:48Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.582,
-      "importance": 0.582,
-      "importance_score": 0.582,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "酒店",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8195,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-25T11:25:48Z",
-      "latest_at": "2026-08-25T11:25:48Z",
-      "primary_item": {
-        "id": "f748103eb4826985350bb1636e928713ec44960d",
-        "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
-        "url": "https://www.pinchain.com/article/350300",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -334,9 +334,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5469,
-      "importance": 0.5469,
-      "importance_score": 0.5469,
+      "score": 0.5438,
+      "importance": 0.5438,
+      "importance_score": 0.5438,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -347,7 +347,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7632,
+        "recency": 0.7462,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -365,6 +365,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_7cc5c25a7b2e",
+      "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
+      "url": "https://www.pinchain.com/article/350300",
+      "primary_url": "https://www.pinchain.com/article/350300",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f748103eb4826985350bb1636e928713ec44960d",
+          "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
+          "url": "https://www.pinchain.com/article/350300",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:25:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "f748103eb4826985350bb1636e928713ec44960d",
+          "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
+          "url": "https://www.pinchain.com/article/350300",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T11:25:48Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5787,
+      "importance": 0.5787,
+      "importance_score": 0.5787,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "酒店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8013,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T11:25:48Z",
+      "latest_at": "2026-08-25T11:25:48Z",
+      "primary_item": {
+        "id": "f748103eb4826985350bb1636e928713ec44960d",
+        "title": "成都金融城雅高美憬阁精选酒店盛大启幕",
+        "url": "https://www.pinchain.com/article/350300",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -406,9 +480,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5818,
-      "importance": 0.5818,
-      "importance_score": 0.5818,
+      "score": 0.5785,
+      "importance": 0.5785,
+      "importance_score": 0.5785,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -421,7 +495,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8184,
+        "recency": 0.8002,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +554,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5812,
-      "importance": 0.5812,
-      "importance_score": 0.5812,
+      "score": 0.5779,
+      "importance": 0.5779,
+      "importance_score": 0.5779,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -495,7 +569,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8152,
+        "recency": 0.797,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -554,9 +628,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5786,
-      "importance": 0.5786,
-      "importance_score": 0.5786,
+      "score": 0.5757,
+      "importance": 0.5757,
+      "importance_score": 0.5757,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -570,7 +644,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7314,
+        "recency": 0.7151,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -629,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5783,
-      "importance": 0.5783,
-      "importance_score": 0.5783,
+      "score": 0.5754,
+      "importance": 0.5754,
+      "importance_score": 0.5754,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -645,7 +719,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7295,
+        "recency": 0.7133,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -704,9 +778,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5759,
-      "importance": 0.5759,
-      "importance_score": 0.5759,
+      "score": 0.5728,
+      "importance": 0.5728,
+      "importance_score": 0.5728,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -719,7 +793,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7857,
+        "recency": 0.7682,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -778,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5738,
-      "importance": 0.5738,
-      "importance_score": 0.5738,
+      "score": 0.5707,
+      "importance": 0.5707,
+      "importance_score": 0.5707,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -793,7 +867,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.774,
+        "recency": 0.7567,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +926,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5729,
-      "importance": 0.5729,
-      "importance_score": 0.5729,
+      "score": 0.5698,
+      "importance": 0.5698,
+      "importance_score": 0.5698,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -867,7 +941,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7689,
+        "recency": 0.7518,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -926,9 +1000,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5728,
-      "importance": 0.5728,
-      "importance_score": 0.5728,
+      "score": 0.5697,
+      "importance": 0.5697,
+      "importance_score": 0.5697,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -941,7 +1015,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7682,
+        "recency": 0.7511,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1000,9 +1074,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5698,
-      "importance": 0.5698,
-      "importance_score": 0.5698,
+      "score": 0.5665,
+      "importance": 0.5665,
+      "importance_score": 0.5665,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1014,7 +1088,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8214,
+        "recency": 0.8031,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1073,9 +1147,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5697,
-      "importance": 0.5697,
-      "importance_score": 0.5697,
+      "score": 0.5664,
+      "importance": 0.5664,
+      "importance_score": 0.5664,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1087,7 +1161,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8203,
+        "recency": 0.802,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1146,9 +1220,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5686,
-      "importance": 0.5686,
-      "importance_score": 0.5686,
+      "score": 0.5654,
+      "importance": 0.5654,
+      "importance_score": 0.5654,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1160,7 +1234,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8146,
+        "recency": 0.7965,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1219,9 +1293,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5684,
-      "importance": 0.5684,
-      "importance_score": 0.5684,
+      "score": 0.5651,
+      "importance": 0.5651,
+      "importance_score": 0.5651,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1233,7 +1307,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8132,
+        "recency": 0.7951,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1292,9 +1366,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5606,
-      "importance": 0.5606,
-      "importance_score": 0.5606,
+      "score": 0.5575,
+      "importance": 0.5575,
+      "importance_score": 0.5575,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1306,7 +1380,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7698,
+        "recency": 0.7526,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1365,9 +1439,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5605,
-      "importance": 0.5605,
-      "importance_score": 0.5605,
+      "score": 0.5574,
+      "importance": 0.5574,
+      "importance_score": 0.5574,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1379,7 +1453,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7693,
+        "recency": 0.7521,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1392,79 +1466,6 @@
         "id": "69702b542371e441eedb36ec1f9f899e2024caca",
         "title": "国铁集团负责人再回应“旅客买票占座放零食”",
         "url": "https://www.pinchain.com/article/350276",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_371e91a9fe68",
-      "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
-      "url": "https://www.pinchain.com/article/350277",
-      "primary_url": "https://www.pinchain.com/article/350277",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
-          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
-          "url": "https://www.pinchain.com/article/350277",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T07:04:26Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
-          "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
-          "url": "https://www.pinchain.com/article/350277",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T07:04:26Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5605,
-      "importance": 0.5605,
-      "importance_score": 0.5605,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7696,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-25T07:04:26Z",
-      "latest_at": "2026-08-25T07:04:26Z",
-      "primary_item": {
-        "id": "ae15e8e618d8950c0b4b1fdb634b03069356835f",
-        "title": "暑期旅游自驾出行 这5条安全要点务必牢记",
-        "url": "https://www.pinchain.com/article/350277",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
