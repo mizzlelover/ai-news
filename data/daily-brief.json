@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-08-26T13:05:10.186342Z",
+  "generated_at": "2026-08-26T14:10:58.082270Z",
   "window_hours": 24,
-  "total_items": 16,
+  "total_items": 17,
   "items": [
     {
       "story_id": "story_75402ac9ad93",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6131,
-      "importance": 0.6131,
-      "importance_score": 0.6131,
+      "score": 0.6103,
+      "importance": 0.6103,
+      "importance_score": 0.6103,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -55,7 +55,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9923,
+        "recency": 0.9767,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -114,9 +114,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.612,
-      "importance": 0.612,
-      "importance_score": 0.612,
+      "score": 0.6095,
+      "importance": 0.6095,
+      "importance_score": 0.6095,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -128,7 +128,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9172,
+        "recency": 0.9027,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -187,9 +187,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5618,
-      "importance": 0.5618,
-      "importance_score": 0.5618,
+      "score": 0.5592,
+      "importance": 0.5592,
+      "importance_score": 0.5592,
       "ai_label": "tourism_tech",
       "ai_score": 0.69,
       "ai_signals": [
@@ -201,7 +201,7 @@
         "editorial": 0.4968,
         "source_tier": 0.5,
         "ai_relevance": 0.69,
-        "recency": 0.9153,
+        "recency": 0.9009,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -260,9 +260,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5945,
-      "importance": 0.5945,
-      "importance_score": 0.5945,
+      "score": 0.592,
+      "importance": 0.592,
+      "importance_score": 0.592,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -275,7 +275,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8892,
+        "recency": 0.8752,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -296,21 +296,21 @@
       }
     },
     {
-      "story_id": "story_2073a7c8ded3",
-      "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
-      "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
-      "primary_url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+      "story_id": "story_bf2b7040f821",
+      "title": "Why Every Boutique Hotel Founder Eventually Sells",
+      "url": "https://skift.com/2026/08/26/why-every-boutique-hotel-founder-eventually-sells",
+      "primary_url": "https://skift.com/2026/08/26/why-every-boutique-hotel-founder-eventually-sells",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "f16efa8eb572225288505cbb912188477578ed9a",
-          "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
-          "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+          "id": "033e827adac71d0bad655e1a2200959e1c04f0cc",
+          "title": "Why Every Boutique Hotel Founder Eventually Sells",
+          "url": "https://skift.com/2026/08/26/why-every-boutique-hotel-founder-eventually-sells",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-26T12:11:13Z",
+          "published_at": "2026-08-26T13:30:00Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
@@ -321,22 +321,22 @@
       ],
       "items": [
         {
-          "id": "f16efa8eb572225288505cbb912188477578ed9a",
-          "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
-          "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+          "id": "033e827adac71d0bad655e1a2200959e1c04f0cc",
+          "title": "Why Every Boutique Hotel Founder Eventually Sells",
+          "url": "https://skift.com/2026/08/26/why-every-boutique-hotel-founder-eventually-sells",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-26T12:11:13Z",
+          "published_at": "2026-08-26T13:30:00Z",
           "ai_label": "hospitality_ops",
           "ai_score": 0.72
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5872,
-      "importance": 0.5872,
-      "importance_score": 0.5872,
+      "score": 0.5878,
+      "importance": 0.5878,
+      "importance_score": 0.5878,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -347,19 +347,19 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9871,
+        "recency": 0.9902,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-26T12:11:13Z",
-      "latest_at": "2026-08-26T12:11:13Z",
+      "earliest_at": "2026-08-26T13:30:00Z",
+      "latest_at": "2026-08-26T13:30:00Z",
       "primary_item": {
-        "id": "f16efa8eb572225288505cbb912188477578ed9a",
-        "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
-        "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+        "id": "033e827adac71d0bad655e1a2200959e1c04f0cc",
+        "title": "Why Every Boutique Hotel Founder Eventually Sells",
+        "url": "https://skift.com/2026/08/26/why-every-boutique-hotel-founder-eventually-sells",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -406,9 +406,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5943,
-      "importance": 0.5943,
-      "importance_score": 0.5943,
+      "score": 0.5918,
+      "importance": 0.5918,
+      "importance_score": 0.5918,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -421,7 +421,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8878,
+        "recency": 0.8739,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -480,9 +480,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5942,
-      "importance": 0.5942,
-      "importance_score": 0.5942,
+      "score": 0.5917,
+      "importance": 0.5917,
+      "importance_score": 0.5917,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -495,7 +495,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8874,
+        "recency": 0.8735,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -513,6 +513,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_2073a7c8ded3",
+      "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
+      "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+      "primary_url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "f16efa8eb572225288505cbb912188477578ed9a",
+          "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
+          "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-26T12:11:13Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "f16efa8eb572225288505cbb912188477578ed9a",
+          "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
+          "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-26T12:11:13Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5844,
+      "importance": 0.5844,
+      "importance_score": 0.5844,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9716,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-26T12:11:13Z",
+      "latest_at": "2026-08-26T12:11:13Z",
+      "primary_item": {
+        "id": "f16efa8eb572225288505cbb912188477578ed9a",
+        "title": "Why Taj-Parent IHCL Wants Full Control of Oriental Hotels",
+        "url": "https://skift.com/2026/08/26/why-taj-parent-ihcl-wants-full-control-of-oriental-hotels",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -554,9 +626,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.591,
-      "importance": 0.591,
-      "importance_score": 0.591,
+      "score": 0.5885,
+      "importance": 0.5885,
+      "importance_score": 0.5885,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -569,7 +641,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8693,
+        "recency": 0.8556,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -587,76 +659,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_381bcb8c544c",
-      "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
-      "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
-      "primary_url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d5e285b13520c172b866adb081304651a2cdab79",
-          "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
-          "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T17:19:15Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "d5e285b13520c172b866adb081304651a2cdab79",
-          "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
-          "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-25T17:19:15Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.69
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5323,
-      "importance": 0.5323,
-      "importance_score": 0.5323,
-      "ai_label": "travel_business",
-      "ai_score": 0.69,
-      "ai_signals": [],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.4968,
-        "source_tier": 0.5,
-        "ai_relevance": 0.69,
-        "recency": 0.7517,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-25T17:19:15Z",
-      "latest_at": "2026-08-25T17:19:15Z",
-      "primary_item": {
-        "id": "d5e285b13520c172b866adb081304651a2cdab79",
-        "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
-        "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.69
       }
     },
     {
@@ -698,9 +700,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5906,
-      "importance": 0.5906,
-      "importance_score": 0.5906,
+      "score": 0.5881,
+      "importance": 0.5881,
+      "importance_score": 0.5881,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -713,7 +715,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.8905,
+        "recency": 0.8765,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -731,6 +733,76 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.77
+      }
+    },
+    {
+      "story_id": "story_381bcb8c544c",
+      "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
+      "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+      "primary_url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d5e285b13520c172b866adb081304651a2cdab79",
+          "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
+          "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T17:19:15Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "d5e285b13520c172b866adb081304651a2cdab79",
+          "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
+          "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-25T17:19:15Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5302,
+      "importance": 0.5302,
+      "importance_score": 0.5302,
+      "ai_label": "travel_business",
+      "ai_score": 0.69,
+      "ai_signals": [],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.7399,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-25T17:19:15Z",
+      "latest_at": "2026-08-25T17:19:15Z",
+      "primary_item": {
+        "id": "d5e285b13520c172b866adb081304651a2cdab79",
+        "title": "VayKLife Just Acquired Xplorie. The Guest Experience Layer Finally Gets Its Moment.",
+        "url": "https://skift.com/2026/08/25/vayklife-just-acquired-xplorie-the-guest-experience-layer-finally-gets-its-moment",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.69
       }
     },
     {
@@ -772,9 +844,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5871,
-      "importance": 0.5871,
-      "importance_score": 0.5871,
+      "score": 0.5845,
+      "importance": 0.5845,
+      "importance_score": 0.5845,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -786,7 +858,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9172,
+        "recency": 0.9027,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -845,9 +917,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5866,
-      "importance": 0.5866,
-      "importance_score": 0.5866,
+      "score": 0.5842,
+      "importance": 0.5842,
+      "importance_score": 0.5842,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -860,7 +932,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.845,
+        "recency": 0.8317,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -919,9 +991,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5825,
-      "importance": 0.5825,
-      "importance_score": 0.5825,
+      "score": 0.58,
+      "importance": 0.58,
+      "importance_score": 0.58,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -933,7 +1005,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8917,
+        "recency": 0.8777,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -992,9 +1064,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5822,
-      "importance": 0.5822,
-      "importance_score": 0.5822,
+      "score": 0.5797,
+      "importance": 0.5797,
+      "importance_score": 0.5797,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1006,7 +1078,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.89,
+        "recency": 0.8761,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1065,9 +1137,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.582,
-      "importance": 0.582,
-      "importance_score": 0.582,
+      "score": 0.5795,
+      "importance": 0.5795,
+      "importance_score": 0.5795,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1079,7 +1151,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8887,
+        "recency": 0.8748,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1138,9 +1210,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5819,
-      "importance": 0.5819,
-      "importance_score": 0.5819,
+      "score": 0.5794,
+      "importance": 0.5794,
+      "importance_score": 0.5794,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1152,7 +1224,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8884,
+        "recency": 0.8744,
         "story_heat": 0.0
       },
       "category": "watch",
