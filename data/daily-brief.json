@@ -1,8 +1,154 @@
 {
-  "generated_at": "2026-08-27T13:53:49.103907Z",
+  "generated_at": "2026-08-27T23:36:58.745090Z",
   "window_hours": 24,
   "total_items": 14,
   "items": [
+    {
+      "story_id": "story_c1e4fc7d1872",
+      "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+      "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+      "primary_url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T19:09:55Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T19:09:55Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6158,
+      "importance": 0.6158,
+      "importance_score": 0.6158,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9377,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-27T19:09:55Z",
+      "latest_at": "2026-08-27T19:09:55Z",
+      "primary_item": {
+        "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+        "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+        "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_29b3fd021514",
+      "title": "【钛晨报】促进航空保税维修高质量发展，9部门联合发文；英伟达据称129亿美元收购Hugging Face；中金公司：换股吸收合并东兴证券、信达证券事项获上交所审核通过",
+      "url": "https://www.tmtpost.com/8119586.html",
+      "primary_url": "https://www.tmtpost.com/8119586.html",
+      "source": "钛媒体",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7658e6cbcdd5099e7cfb1d5124a553d11098b4d0",
+          "title": "【钛晨报】促进航空保税维修高质量发展，9部门联合发文；英伟达据称129亿美元收购Hugging Face；中金公司：换股吸收合并东兴证券、信达证券事项获上交所审核通过",
+          "url": "https://www.tmtpost.com/8119586.html",
+          "source": "钛媒体",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T23:20:00Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "钛媒体"
+      ],
+      "items": [
+        {
+          "id": "7658e6cbcdd5099e7cfb1d5124a553d11098b4d0",
+          "title": "【钛晨报】促进航空保税维修高质量发展，9部门联合发文；英伟达据称129亿美元收购Hugging Face；中金公司：换股吸收合并东兴证券、信达证券事项获上交所审核通过",
+          "url": "https://www.tmtpost.com/8119586.html",
+          "source": "钛媒体",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T23:20:00Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5888,
+      "importance": 0.5888,
+      "importance_score": 0.5888,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hugging face",
+        "航空"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9959,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-27T23:20:00Z",
+      "latest_at": "2026-08-27T23:20:00Z",
+      "primary_item": {
+        "id": "7658e6cbcdd5099e7cfb1d5124a553d11098b4d0",
+        "title": "【钛晨报】促进航空保税维修高质量发展，9部门联合发文；英伟达据称129亿美元收购Hugging Face；中金公司：换股吸收合并东兴证券、信达证券事项获上交所审核通过",
+        "url": "https://www.tmtpost.com/8119586.html",
+        "source": "钛媒体",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
+      }
+    },
     {
       "story_id": "story_7628c3eada88",
       "title": "同程旅行发布2026年暑期盘点",
@@ -42,9 +188,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.612,
-      "importance": 0.612,
-      "importance_score": 0.612,
+      "score": 0.5888,
+      "importance": 0.5888,
+      "importance_score": 0.5888,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -57,7 +203,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9862,
+        "recency": 0.8571,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -78,23 +224,23 @@
       }
     },
     {
-      "story_id": "story_796169dd3a33",
-      "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
-      "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
-      "primary_url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+      "story_id": "story_5a24e21fd742",
+      "title": "Why Flight Attendants Are Fighting Google’s Purchase of Spirit Airlines Data",
+      "url": "https://skift.com/2026/08/27/why-flight-attendants-are-fighting-googles-purchase-of-spirits-data",
+      "primary_url": "https://skift.com/2026/08/27/why-flight-attendants-are-fighting-googles-purchase-of-spirits-data",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "4470d67764094fb588395b0006144003fe38162c",
-          "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
-          "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+          "id": "c23db7ea993b3288cfc7faa4d93cd5fa74cb0994",
+          "title": "Why Flight Attendants Are Fighting Google’s Purchase of Spirit Airlines Data",
+          "url": "https://skift.com/2026/08/27/why-flight-attendants-are-fighting-googles-purchase-of-spirits-data",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T13:43:38Z",
+          "published_at": "2026-08-27T20:20:36Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.72
+          "ai_score": 0.74
         }
       ],
       "source_count": 1,
@@ -103,50 +249,51 @@
       ],
       "items": [
         {
-          "id": "4470d67764094fb588395b0006144003fe38162c",
-          "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
-          "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+          "id": "c23db7ea993b3288cfc7faa4d93cd5fa74cb0994",
+          "title": "Why Flight Attendants Are Fighting Google’s Purchase of Spirit Airlines Data",
+          "url": "https://skift.com/2026/08/27/why-flight-attendants-are-fighting-googles-purchase-of-spirits-data",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T13:43:38Z",
+          "published_at": "2026-08-27T20:20:36Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.72
+          "ai_score": 0.74
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5891,
-      "importance": 0.5891,
-      "importance_score": 0.5891,
+      "score": 0.5895,
+      "importance": 0.5895,
+      "importance_score": 0.5895,
       "ai_label": "tourism_tech",
-      "ai_score": 0.72,
+      "ai_score": 0.74,
       "ai_signals": [
-        "ai"
+        "ai",
+        "data"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5184,
+        "editorial": 0.5328,
         "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.9976,
+        "ai_relevance": 0.74,
+        "recency": 0.9538,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-27T13:43:38Z",
-      "latest_at": "2026-08-27T13:43:38Z",
+      "earliest_at": "2026-08-27T20:20:36Z",
+      "latest_at": "2026-08-27T20:20:36Z",
       "primary_item": {
-        "id": "4470d67764094fb588395b0006144003fe38162c",
-        "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
-        "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+        "id": "c23db7ea993b3288cfc7faa4d93cd5fa74cb0994",
+        "title": "Why Flight Attendants Are Fighting Google’s Purchase of Spirit Airlines Data",
+        "url": "https://skift.com/2026/08/27/why-flight-attendants-are-fighting-googles-purchase-of-spirits-data",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.72
+        "ai_score": 0.74
       }
     },
     {
@@ -188,9 +335,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6068,
-      "importance": 0.6068,
-      "importance_score": 0.6068,
+      "score": 0.5853,
+      "importance": 0.5853,
+      "importance_score": 0.5853,
       "ai_label": "tourism_tech",
       "ai_score": 0.8,
       "ai_signals": [
@@ -204,7 +351,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.9112,
+        "recency": 0.7919,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -222,152 +369,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.8
-      }
-    },
-    {
-      "story_id": "story_d523b827143c",
-      "title": "Confirmed: Brand USA CEO Fred Dixon to Lead NYC Tourism Again",
-      "url": "https://skift.com/2026/08/26/brand-usa-ceo-fred-dixon-nyc-tourism",
-      "primary_url": "https://skift.com/2026/08/26/brand-usa-ceo-fred-dixon-nyc-tourism",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "bc22c5814f6aac9ea659aff27e652f633f954e63",
-          "title": "Confirmed: Brand USA CEO Fred Dixon to Lead NYC Tourism Again",
-          "url": "https://skift.com/2026/08/26/brand-usa-ceo-fred-dixon-nyc-tourism",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T20:18:11Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "bc22c5814f6aac9ea659aff27e652f633f954e63",
-          "title": "Confirmed: Brand USA CEO Fred Dixon to Lead NYC Tourism Again",
-          "url": "https://skift.com/2026/08/26/brand-usa-ceo-fred-dixon-nyc-tourism",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T20:18:11Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5616,
-      "importance": 0.5616,
-      "importance_score": 0.5616,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "tourism",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7756,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-26T20:18:11Z",
-      "latest_at": "2026-08-26T20:18:11Z",
-      "primary_item": {
-        "id": "bc22c5814f6aac9ea659aff27e652f633f954e63",
-        "title": "Confirmed: Brand USA CEO Fred Dixon to Lead NYC Tourism Again",
-        "url": "https://skift.com/2026/08/26/brand-usa-ceo-fred-dixon-nyc-tourism",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_090e80765a2c",
-      "title": "希尔顿集团达成多项存量改造项目新签约",
-      "url": "https://www.pinchain.com/article/350395",
-      "primary_url": "https://www.pinchain.com/article/350395",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
-          "title": "希尔顿集团达成多项存量改造项目新签约",
-          "url": "https://www.pinchain.com/article/350395",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T12:41:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
-          "title": "希尔顿集团达成多项存量改造项目新签约",
-          "url": "https://www.pinchain.com/article/350395",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T12:41:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5989,
-      "importance": 0.5989,
-      "importance_score": 0.5989,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9827,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T12:41:16Z",
-      "latest_at": "2026-08-27T12:41:16Z",
-      "primary_item": {
-        "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
-        "title": "希尔顿集团达成多项存量改造项目新签约",
-        "url": "https://www.pinchain.com/article/350395",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -409,9 +410,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.598,
-      "importance": 0.598,
-      "importance_score": 0.598,
+      "score": 0.5766,
+      "importance": 0.5766,
+      "importance_score": 0.5766,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -424,7 +425,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9082,
+        "recency": 0.7893,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -483,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5977,
-      "importance": 0.5977,
-      "importance_score": 0.5977,
+      "score": 0.5763,
+      "importance": 0.5763,
+      "importance_score": 0.5763,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -498,7 +499,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9069,
+        "recency": 0.7882,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -516,6 +517,151 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_796169dd3a33",
+      "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
+      "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+      "primary_url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4470d67764094fb588395b0006144003fe38162c",
+          "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
+          "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T13:43:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "4470d67764094fb588395b0006144003fe38162c",
+          "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
+          "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T13:43:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5656,
+      "importance": 0.5656,
+      "importance_score": 0.5656,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8669,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-27T13:43:38Z",
+      "latest_at": "2026-08-27T13:43:38Z",
+      "primary_item": {
+        "id": "4470d67764094fb588395b0006144003fe38162c",
+        "title": "The UK’s Airport Record Hides a Huge Traffic Shift",
+        "url": "https://skift.com/2026/08/27/the-uks-airport-record-hides-a-huge-traffic-shift",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_090e80765a2c",
+      "title": "希尔顿集团达成多项存量改造项目新签约",
+      "url": "https://www.pinchain.com/article/350395",
+      "primary_url": "https://www.pinchain.com/article/350395",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
+          "title": "希尔顿集团达成多项存量改造项目新签约",
+          "url": "https://www.pinchain.com/article/350395",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T12:41:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
+          "title": "希尔顿集团达成多项存量改造项目新签约",
+          "url": "https://www.pinchain.com/article/350395",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T12:41:16Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5757,
+      "importance": 0.5757,
+      "importance_score": 0.5757,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.854,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-27T12:41:16Z",
+      "latest_at": "2026-08-27T12:41:16Z",
+      "primary_item": {
+        "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
+        "title": "希尔顿集团达成多项存量改造项目新签约",
+        "url": "https://www.pinchain.com/article/350395",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -557,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5865,
-      "importance": 0.5865,
-      "importance_score": 0.5865,
+      "score": 0.565,
+      "importance": 0.565,
+      "importance_score": 0.565,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -571,7 +717,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9141,
+        "recency": 0.7944,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -589,78 +735,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_00a536c52464",
-      "title": "Theme Parks Keep Closing. Why Dolly Parton’s Dollywood Bucks the Trend.",
-      "url": "https://skift.com/2026/08/26/dolly-parton-dollywood-theme-park-success",
-      "primary_url": "https://skift.com/2026/08/26/dolly-parton-dollywood-theme-park-success",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9530481aec035b105a1a9666d41576a908e771cb",
-          "title": "Theme Parks Keep Closing. Why Dolly Parton’s Dollywood Bucks the Trend.",
-          "url": "https://skift.com/2026/08/26/dolly-parton-dollywood-theme-park-success",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T19:24:33Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "9530481aec035b105a1a9666d41576a908e771cb",
-          "title": "Theme Parks Keep Closing. Why Dolly Parton’s Dollywood Bucks the Trend.",
-          "url": "https://skift.com/2026/08/26/dolly-parton-dollywood-theme-park-success",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T19:24:33Z",
-          "ai_label": "destination_marketing",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5473,
-      "importance": 0.5473,
-      "importance_score": 0.5473,
-      "ai_label": "destination_marketing",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "theme park"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7657,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-26T19:24:33Z",
-      "latest_at": "2026-08-26T19:24:33Z",
-      "primary_item": {
-        "id": "9530481aec035b105a1a9666d41576a908e771cb",
-        "title": "Theme Parks Keep Closing. Why Dolly Parton’s Dollywood Bucks the Trend.",
-        "url": "https://skift.com/2026/08/26/dolly-parton-dollywood-theme-park-success",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "destination_marketing",
-        "ai_score": 0.72
       }
     },
     {
@@ -702,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5858,
-      "importance": 0.5858,
-      "importance_score": 0.5858,
+      "score": 0.5643,
+      "importance": 0.5643,
+      "importance_score": 0.5643,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -716,7 +790,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9097,
+        "recency": 0.7906,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -734,78 +808,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_531adb777dac",
-      "title": "GMH Hotels: Harry Styles Is Moving Hotel Markets.",
-      "url": "https://skift.com/2026/08/26/gmh-hotels-harry-styles-is-moving-hotel-markets",
-      "primary_url": "https://skift.com/2026/08/26/gmh-hotels-harry-styles-is-moving-hotel-markets",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d24499fbce7cb84d04cf4aaa47f2a664639847ca",
-          "title": "GMH Hotels: Harry Styles Is Moving Hotel Markets.",
-          "url": "https://skift.com/2026/08/26/gmh-hotels-harry-styles-is-moving-hotel-markets",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T14:34:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "d24499fbce7cb84d04cf4aaa47f2a664639847ca",
-          "title": "GMH Hotels: Harry Styles Is Moving Hotel Markets.",
-          "url": "https://skift.com/2026/08/26/gmh-hotels-harry-styles-is-moving-hotel-markets",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-26T14:34:00Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.538,
-      "importance": 0.538,
-      "importance_score": 0.538,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.714,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-26T14:34:00Z",
-      "latest_at": "2026-08-26T14:34:00Z",
-      "primary_item": {
-        "id": "d24499fbce7cb84d04cf4aaa47f2a664639847ca",
-        "title": "GMH Hotels: Harry Styles Is Moving Hotel Markets.",
-        "url": "https://skift.com/2026/08/26/gmh-hotels-harry-styles-is-moving-hotel-markets",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
       }
     },
     {
@@ -847,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5856,
-      "importance": 0.5856,
-      "importance_score": 0.5856,
+      "score": 0.5642,
+      "importance": 0.5642,
+      "importance_score": 0.5642,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -861,7 +863,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9088,
+        "recency": 0.7898,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -874,79 +876,6 @@
         "id": "211afbe09878eb2a6ba65c3d175e1a137e1f5f2e",
         "title": "中使馆提醒加强喀麦隆境内旅游安全防范",
         "url": "https://www.pinchain.com/article/350379",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_9fe14a83e845",
-      "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-      "url": "https://www.pinchain.com/article/350366",
-      "primary_url": "https://www.pinchain.com/article/350366",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-          "url": "https://www.pinchain.com/article/350366",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:00:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-          "url": "https://www.pinchain.com/article/350366",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:00:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.585,
-      "importance": 0.585,
-      "importance_score": 0.585,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9053,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:00:21Z",
-      "latest_at": "2026-08-27T07:00:21Z",
-      "primary_item": {
-        "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-        "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-        "url": "https://www.pinchain.com/article/350366",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -993,9 +922,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.585,
-      "importance": 0.585,
-      "importance_score": 0.585,
+      "score": 0.5637,
+      "importance": 0.5637,
+      "importance_score": 0.5637,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1007,7 +936,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9057,
+        "recency": 0.7871,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1020,6 +949,79 @@
         "id": "328c0b7392fe57697b9d16b09f4911123f72cfed",
         "title": "桂林旅游2026年上半年净利润613.69万元",
         "url": "https://www.pinchain.com/article/350367",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_9fe14a83e845",
+      "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
+      "url": "https://www.pinchain.com/article/350366",
+      "primary_url": "https://www.pinchain.com/article/350366",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
+          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
+          "url": "https://www.pinchain.com/article/350366",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T07:00:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
+          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
+          "url": "https://www.pinchain.com/article/350366",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T07:00:21Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5636,
+      "importance": 0.5636,
+      "importance_score": 0.5636,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.7867,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-27T07:00:21Z",
+      "latest_at": "2026-08-27T07:00:21Z",
+      "primary_item": {
+        "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
+        "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
+        "url": "https://www.pinchain.com/article/350366",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
