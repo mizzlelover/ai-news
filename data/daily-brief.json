@@ -1,26 +1,101 @@
 {
-  "generated_at": "2026-08-27T23:36:58.745090Z",
+  "generated_at": "2026-08-28T09:40:41.111818Z",
   "window_hours": 24,
-  "total_items": 14,
+  "total_items": 18,
   "items": [
     {
-      "story_id": "story_c1e4fc7d1872",
-      "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
-      "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
-      "primary_url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+      "story_id": "story_f3299b016ada",
+      "title": "无目的地的邮轮“海上微度假”何以受追捧？",
+      "url": "https://www.pinchain.com/article/350444",
+      "primary_url": "https://www.pinchain.com/article/350444",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3b4df22acaac1f7e9dd6b0f727b34ac306ec0624",
+          "title": "无目的地的邮轮“海上微度假”何以受追捧？",
+          "url": "https://www.pinchain.com/article/350444",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:11:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "3b4df22acaac1f7e9dd6b0f727b34ac306ec0624",
+          "title": "无目的地的邮轮“海上微度假”何以受追捧？",
+          "url": "https://www.pinchain.com/article/350444",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:11:38Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6231,
+      "importance": 0.6231,
+      "importance_score": 0.6231,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "旅游",
+        "目的地",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9788,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-28T08:11:38Z",
+      "latest_at": "2026-08-28T08:11:38Z",
+      "primary_item": {
+        "id": "3b4df22acaac1f7e9dd6b0f727b34ac306ec0624",
+        "title": "无目的地的邮轮“海上微度假”何以受追捧？",
+        "url": "https://www.pinchain.com/article/350444",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_b8e663d6bcba",
+      "title": "Cheval Is Riding Out Dubai’s Demand Slump On Long-Stay Guests",
+      "url": "https://skift.com/2026/08/28/cheval-is-riding-out-dubais-demand-slump-on-long-stay-guests",
+      "primary_url": "https://skift.com/2026/08/28/cheval-is-riding-out-dubais-demand-slump-on-long-stay-guests",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
-          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
-          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "id": "c00b783e672fa2c4630bdf22896925fd4c016810",
+          "title": "Cheval Is Riding Out Dubai’s Demand Slump On Long-Stay Guests",
+          "url": "https://skift.com/2026/08/28/cheval-is-riding-out-dubais-demand-slump-on-long-stay-guests",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T19:09:55Z",
+          "published_at": "2026-08-28T09:00:00Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -29,51 +104,51 @@
       ],
       "items": [
         {
-          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
-          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
-          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "id": "c00b783e672fa2c4630bdf22896925fd4c016810",
+          "title": "Cheval Is Riding Out Dubai’s Demand Slump On Long-Stay Guests",
+          "url": "https://skift.com/2026/08/28/cheval-is-riding-out-dubais-demand-slump-on-long-stay-guests",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T19:09:55Z",
+          "published_at": "2026-08-28T09:00:00Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6158,
-      "importance": 0.6158,
-      "importance_score": 0.6158,
+      "score": 0.6127,
+      "importance": 0.6127,
+      "importance_score": 0.6127,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.78,
       "ai_signals": [
-        "hotel",
+        "eval",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.9377,
+        "ai_relevance": 0.78,
+        "recency": 0.9903,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-27T19:09:55Z",
-      "latest_at": "2026-08-27T19:09:55Z",
+      "earliest_at": "2026-08-28T09:00:00Z",
+      "latest_at": "2026-08-28T09:00:00Z",
       "primary_item": {
-        "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
-        "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
-        "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+        "id": "c00b783e672fa2c4630bdf22896925fd4c016810",
+        "title": "Cheval Is Riding Out Dubai’s Demand Slump On Long-Stay Guests",
+        "url": "https://skift.com/2026/08/28/cheval-is-riding-out-dubais-demand-slump-on-long-stay-guests",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.78
       }
     },
     {
@@ -115,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.5645,
+      "importance": 0.5645,
+      "importance_score": 0.5645,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -129,7 +204,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9959,
+        "recency": 0.8612,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -150,21 +225,21 @@
       }
     },
     {
-      "story_id": "story_7628c3eada88",
-      "title": "同程旅行发布2026年暑期盘点",
-      "url": "https://www.pinchain.com/article/350398",
-      "primary_url": "https://www.pinchain.com/article/350398",
+      "story_id": "story_c097710c898d",
+      "title": "千里山海双向奔赴 京玉共绘文旅交融新画卷",
+      "url": "https://www.pinchain.com/article/350471",
+      "primary_url": "https://www.pinchain.com/article/350471",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
-          "title": "同程旅行发布2026年暑期盘点",
-          "url": "https://www.pinchain.com/article/350398",
+          "id": "1827699ea7ed4d7a6c81d0ef97ac7d943fb26ff0",
+          "title": "千里山海双向奔赴 京玉共绘文旅交融新画卷",
+          "url": "https://www.pinchain.com/article/350471",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T12:56:13Z",
+          "published_at": "2026-08-28T08:33:40Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
@@ -175,27 +250,27 @@
       ],
       "items": [
         {
-          "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
-          "title": "同程旅行发布2026年暑期盘点",
-          "url": "https://www.pinchain.com/article/350398",
+          "id": "1827699ea7ed4d7a6c81d0ef97ac7d943fb26ff0",
+          "title": "千里山海双向奔赴 京玉共绘文旅交融新画卷",
+          "url": "https://www.pinchain.com/article/350471",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T12:56:13Z",
+          "published_at": "2026-08-28T08:33:40Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5888,
-      "importance": 0.5888,
-      "importance_score": 0.5888,
+      "score": 0.6116,
+      "importance": 0.6116,
+      "importance_score": 0.6116,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
+        "文旅",
         "旅游",
-        "旅行",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -203,19 +278,313 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8571,
+        "recency": 0.984,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-27T12:56:13Z",
-      "latest_at": "2026-08-27T12:56:13Z",
+      "earliest_at": "2026-08-28T08:33:40Z",
+      "latest_at": "2026-08-28T08:33:40Z",
       "primary_item": {
-        "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
-        "title": "同程旅行发布2026年暑期盘点",
-        "url": "https://www.pinchain.com/article/350398",
+        "id": "1827699ea7ed4d7a6c81d0ef97ac7d943fb26ff0",
+        "title": "千里山海双向奔赴 京玉共绘文旅交融新画卷",
+        "url": "https://www.pinchain.com/article/350471",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_52c55ba5fc44",
+      "title": "酒店投资的黄金时代，回不去了",
+      "url": "https://www.huxiu.com/article/4886650.html?f=rss",
+      "primary_url": "https://www.huxiu.com/article/4886650.html?f=rss",
+      "source": "虎嗅",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "85d01700a6419b1d619768e5d47bccc37ac557bf",
+          "title": "酒店投资的黄金时代，回不去了",
+          "url": "https://www.huxiu.com/article/4886650.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T02:21:07Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "虎嗅"
+      ],
+      "items": [
+        {
+          "id": "85d01700a6419b1d619768e5d47bccc37ac557bf",
+          "title": "酒店投资的黄金时代，回不去了",
+          "url": "https://www.huxiu.com/article/4886650.html?f=rss",
+          "source": "虎嗅",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T02:21:07Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.559,
+      "importance": 0.559,
+      "importance_score": 0.559,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "酒店",
+        "投资"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.8996,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T02:21:07Z",
+      "latest_at": "2026-08-28T02:21:07Z",
+      "primary_item": {
+        "id": "85d01700a6419b1d619768e5d47bccc37ac557bf",
+        "title": "酒店投资的黄金时代，回不去了",
+        "url": "https://www.huxiu.com/article/4886650.html?f=rss",
+        "source": "虎嗅",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.69
+      }
+    },
+    {
+      "story_id": "story_c1e4fc7d1872",
+      "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+      "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+      "primary_url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T19:09:55Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+          "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+          "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T19:09:55Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5929,
+      "importance": 0.5929,
+      "importance_score": 0.5929,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.8109,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-27T19:09:55Z",
+      "latest_at": "2026-08-27T19:09:55Z",
+      "primary_item": {
+        "id": "d05ea604768d157cad141e59fa65483a58cc03ea",
+        "title": "Google’s Agentic Hotel Booking Tool Comes to AI Mode",
+        "url": "https://skift.com/2026/08/27/googles-agentic-hotel-booking-tool-comes-to-ai-mode",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_5132cdf66df0",
+      "title": "皇家加勒比重磅亮相2026上海国际邮轮季",
+      "url": "https://www.pinchain.com/article/350455",
+      "primary_url": "https://www.pinchain.com/article/350455",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4a5a853127e3462052e78b22fe2f16070f3c1925",
+          "title": "皇家加勒比重磅亮相2026上海国际邮轮季",
+          "url": "https://www.pinchain.com/article/350455",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:29:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4a5a853127e3462052e78b22fe2f16070f3c1925",
+          "title": "皇家加勒比重磅亮相2026上海国际邮轮季",
+          "url": "https://www.pinchain.com/article/350455",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:29:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6114,
+      "importance": 0.6114,
+      "importance_score": 0.6114,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9829,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:29:04Z",
+      "latest_at": "2026-08-28T08:29:04Z",
+      "primary_item": {
+        "id": "4a5a853127e3462052e78b22fe2f16070f3c1925",
+        "title": "皇家加勒比重磅亮相2026上海国际邮轮季",
+        "url": "https://www.pinchain.com/article/350455",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_945f7629d497",
+      "title": "金陵饭店2026年上半年净利润2676.75万元",
+      "url": "https://www.pinchain.com/article/350447",
+      "primary_url": "https://www.pinchain.com/article/350447",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "369f2164e132deb89019181d315e4e32a82d7afe",
+          "title": "金陵饭店2026年上半年净利润2676.75万元",
+          "url": "https://www.pinchain.com/article/350447",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:02:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "369f2164e132deb89019181d315e4e32a82d7afe",
+          "title": "金陵饭店2026年上半年净利润2676.75万元",
+          "url": "https://www.pinchain.com/article/350447",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:02:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6103,
+      "importance": 0.6103,
+      "importance_score": 0.6103,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "饭店",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9767,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:02:52Z",
+      "latest_at": "2026-08-28T08:02:52Z",
+      "primary_item": {
+        "id": "369f2164e132deb89019181d315e4e32a82d7afe",
+        "title": "金陵饭店2026年上半年净利润2676.75万元",
+        "url": "https://www.pinchain.com/article/350447",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -262,9 +631,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5895,
-      "importance": 0.5895,
-      "importance_score": 0.5895,
+      "score": 0.5663,
+      "importance": 0.5663,
+      "importance_score": 0.5663,
       "ai_label": "tourism_tech",
       "ai_score": 0.74,
       "ai_signals": [
@@ -276,7 +645,7 @@
         "editorial": 0.5328,
         "source_tier": 0.5,
         "ai_relevance": 0.74,
-        "recency": 0.9538,
+        "recency": 0.8248,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -297,23 +666,23 @@
       }
     },
     {
-      "story_id": "story_498cb49108d6",
-      "title": "艺龙酒店科技与浩瀚能源达成战略合作",
-      "url": "https://www.pinchain.com/article/350382",
-      "primary_url": "https://www.pinchain.com/article/350382",
+      "story_id": "story_7bb0258fa996",
+      "title": "2026大众点评“必玩榜”境外首发",
+      "url": "https://www.pinchain.com/article/350456",
+      "primary_url": "https://www.pinchain.com/article/350456",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "22cc1948bd81dc40da304fdd94318f2d42f0abd9",
-          "title": "艺龙酒店科技与浩瀚能源达成战略合作",
-          "url": "https://www.pinchain.com/article/350382",
+          "id": "56bcb0965674e70f90220e62d4d5a53eb5e32574",
+          "title": "2026大众点评“必玩榜”境外首发",
+          "url": "https://www.pinchain.com/article/350456",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:27:39Z",
+          "published_at": "2026-08-28T08:25:43Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.8
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -322,201 +691,51 @@
       ],
       "items": [
         {
-          "id": "22cc1948bd81dc40da304fdd94318f2d42f0abd9",
-          "title": "艺龙酒店科技与浩瀚能源达成战略合作",
-          "url": "https://www.pinchain.com/article/350382",
+          "id": "56bcb0965674e70f90220e62d4d5a53eb5e32574",
+          "title": "2026大众点评“必玩榜”境外首发",
+          "url": "https://www.pinchain.com/article/350456",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:27:39Z",
+          "published_at": "2026-08-28T08:25:43Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.8
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5853,
-      "importance": 0.5853,
-      "importance_score": 0.5853,
+      "score": 0.5988,
+      "importance": 0.5988,
+      "importance_score": 0.5988,
       "ai_label": "tourism_tech",
-      "ai_score": 0.8,
+      "ai_score": 0.75,
       "ai_signals": [
-        "旅游",
-        "酒店",
-        "ai",
-        "科技"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.576,
-        "source_tier": 0.5,
-        "ai_relevance": 0.8,
-        "recency": 0.7919,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-08-27T07:27:39Z",
-      "latest_at": "2026-08-27T07:27:39Z",
-      "primary_item": {
-        "id": "22cc1948bd81dc40da304fdd94318f2d42f0abd9",
-        "title": "艺龙酒店科技与浩瀚能源达成战略合作",
-        "url": "https://www.pinchain.com/article/350382",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.8
-      }
-    },
-    {
-      "story_id": "story_0e3548c4a942",
-      "title": "108件成都金沙遗址博物馆参展文物全部返蓉",
-      "url": "https://www.pinchain.com/article/350380",
-      "primary_url": "https://www.pinchain.com/article/350380",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "835ba1b27de599d7c7de64d1a474eb46dc807b7e",
-          "title": "108件成都金沙遗址博物馆参展文物全部返蓉",
-          "url": "https://www.pinchain.com/article/350380",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:13:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "835ba1b27de599d7c7de64d1a474eb46dc807b7e",
-          "title": "108件成都金沙遗址博物馆参展文物全部返蓉",
-          "url": "https://www.pinchain.com/article/350380",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:13:57Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5766,
-      "importance": 0.5766,
-      "importance_score": 0.5766,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7893,
+        "ai_relevance": 0.75,
+        "recency": 0.9821,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-08-27T07:13:57Z",
-      "latest_at": "2026-08-27T07:13:57Z",
+      "earliest_at": "2026-08-28T08:25:43Z",
+      "latest_at": "2026-08-28T08:25:43Z",
       "primary_item": {
-        "id": "835ba1b27de599d7c7de64d1a474eb46dc807b7e",
-        "title": "108件成都金沙遗址博物馆参展文物全部返蓉",
-        "url": "https://www.pinchain.com/article/350380",
+        "id": "56bcb0965674e70f90220e62d4d5a53eb5e32574",
+        "title": "2026大众点评“必玩榜”境外首发",
+        "url": "https://www.pinchain.com/article/350456",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_866528db9de3",
-      "title": "澳门高校学生文创产品通过故宫评审",
-      "url": "https://www.pinchain.com/article/350381",
-      "primary_url": "https://www.pinchain.com/article/350381",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "3f582b4f54e5eb4eaa93b695b04ea269d22e83f9",
-          "title": "澳门高校学生文创产品通过故宫评审",
-          "url": "https://www.pinchain.com/article/350381",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:07:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "3f582b4f54e5eb4eaa93b695b04ea269d22e83f9",
-          "title": "澳门高校学生文创产品通过故宫评审",
-          "url": "https://www.pinchain.com/article/350381",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:07:51Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5763,
-      "importance": 0.5763,
-      "importance_score": 0.5763,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "文创",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7882,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:07:51Z",
-      "latest_at": "2026-08-27T07:07:51Z",
-      "primary_item": {
-        "id": "3f582b4f54e5eb4eaa93b695b04ea269d22e83f9",
-        "title": "澳门高校学生文创产品通过故宫评审",
-        "url": "https://www.pinchain.com/article/350381",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
       }
     },
     {
@@ -558,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
+      "score": 0.5445,
+      "importance": 0.5445,
+      "importance_score": 0.5445,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -571,7 +790,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8669,
+        "recency": 0.7497,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -589,6 +808,445 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_df8a7133e9c1",
+      "title": "多地电影院推进“电影+”多业态融合",
+      "url": "https://www.pinchain.com/article/350457",
+      "primary_url": "https://www.pinchain.com/article/350457",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5d207424ac80ba9d337d0c9ecdbeaf976ecff8a0",
+          "title": "多地电影院推进“电影+”多业态融合",
+          "url": "https://www.pinchain.com/article/350457",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:22:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "5d207424ac80ba9d337d0c9ecdbeaf976ecff8a0",
+          "title": "多地电影院推进“电影+”多业态融合",
+          "url": "https://www.pinchain.com/article/350457",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:22:05Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5986,
+      "importance": 0.5986,
+      "importance_score": 0.5986,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9813,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:22:05Z",
+      "latest_at": "2026-08-28T08:22:05Z",
+      "primary_item": {
+        "id": "5d207424ac80ba9d337d0c9ecdbeaf976ecff8a0",
+        "title": "多地电影院推进“电影+”多业态融合",
+        "url": "https://www.pinchain.com/article/350457",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_6f8d3d19a636",
+      "title": "香港蝉联亚洲最国际化城市",
+      "url": "https://www.pinchain.com/article/350458",
+      "primary_url": "https://www.pinchain.com/article/350458",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "5c73ff6e1085d1911c57fd9d6d9541a3f23324ae",
+          "title": "香港蝉联亚洲最国际化城市",
+          "url": "https://www.pinchain.com/article/350458",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:17:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "5c73ff6e1085d1911c57fd9d6d9541a3f23324ae",
+          "title": "香港蝉联亚洲最国际化城市",
+          "url": "https://www.pinchain.com/article/350458",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:17:22Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5984,
+      "importance": 0.5984,
+      "importance_score": 0.5984,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9801,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:17:22Z",
+      "latest_at": "2026-08-28T08:17:22Z",
+      "primary_item": {
+        "id": "5c73ff6e1085d1911c57fd9d6d9541a3f23324ae",
+        "title": "香港蝉联亚洲最国际化城市",
+        "url": "https://www.pinchain.com/article/350458",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_4deedc9372ad",
+      "title": "为乡愁托底 中国廊桥保护经验获世界认可",
+      "url": "https://www.pinchain.com/article/350459",
+      "primary_url": "https://www.pinchain.com/article/350459",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "36f9145101ad405bb3f85e14c37cc19fd0955d8b",
+          "title": "为乡愁托底 中国廊桥保护经验获世界认可",
+          "url": "https://www.pinchain.com/article/350459",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:15:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "36f9145101ad405bb3f85e14c37cc19fd0955d8b",
+          "title": "为乡愁托底 中国廊桥保护经验获世界认可",
+          "url": "https://www.pinchain.com/article/350459",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:15:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5983,
+      "importance": 0.5983,
+      "importance_score": 0.5983,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9796,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:15:00Z",
+      "latest_at": "2026-08-28T08:15:00Z",
+      "primary_item": {
+        "id": "36f9145101ad405bb3f85e14c37cc19fd0955d8b",
+        "title": "为乡愁托底 中国廊桥保护经验获世界认可",
+        "url": "https://www.pinchain.com/article/350459",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_46cd8f4a4825",
+      "title": "“中华第一舰”退出现役",
+      "url": "https://www.pinchain.com/article/350445",
+      "primary_url": "https://www.pinchain.com/article/350445",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "d2027cd2f613fe3bc34fd2243959b325767e7c57",
+          "title": "“中华第一舰”退出现役",
+          "url": "https://www.pinchain.com/article/350445",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:09:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "d2027cd2f613fe3bc34fd2243959b325767e7c57",
+          "title": "“中华第一舰”退出现役",
+          "url": "https://www.pinchain.com/article/350445",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:09:01Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5981,
+      "importance": 0.5981,
+      "importance_score": 0.5981,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9782,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:09:01Z",
+      "latest_at": "2026-08-28T08:09:01Z",
+      "primary_item": {
+        "id": "d2027cd2f613fe3bc34fd2243959b325767e7c57",
+        "title": "“中华第一舰”退出现役",
+        "url": "https://www.pinchain.com/article/350445",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_e9b0b9535c40",
+      "title": "峨眉山Ａ2026年上半年净利润1.23亿元",
+      "url": "https://www.pinchain.com/article/350446",
+      "primary_url": "https://www.pinchain.com/article/350446",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "e3a61524000766e9c59eb66a7bd39b019c4cc628",
+          "title": "峨眉山Ａ2026年上半年净利润1.23亿元",
+          "url": "https://www.pinchain.com/article/350446",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:05:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "e3a61524000766e9c59eb66a7bd39b019c4cc628",
+          "title": "峨眉山Ａ2026年上半年净利润1.23亿元",
+          "url": "https://www.pinchain.com/article/350446",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-28T08:05:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5979,
+      "importance": 0.5979,
+      "importance_score": 0.5979,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9772,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-28T08:05:04Z",
+      "latest_at": "2026-08-28T08:05:04Z",
+      "primary_item": {
+        "id": "e3a61524000766e9c59eb66a7bd39b019c4cc628",
+        "title": "峨眉山Ａ2026年上半年净利润1.23亿元",
+        "url": "https://www.pinchain.com/article/350446",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_7628c3eada88",
+      "title": "同程旅行发布2026年暑期盘点",
+      "url": "https://www.pinchain.com/article/350398",
+      "primary_url": "https://www.pinchain.com/article/350398",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
+          "title": "同程旅行发布2026年暑期盘点",
+          "url": "https://www.pinchain.com/article/350398",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T12:56:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
+          "title": "同程旅行发布2026年暑期盘点",
+          "url": "https://www.pinchain.com/article/350398",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-27T12:56:13Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5679,
+      "importance": 0.5679,
+      "importance_score": 0.5679,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "旅行",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7412,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-27T12:56:13Z",
+      "latest_at": "2026-08-27T12:56:13Z",
+      "primary_item": {
+        "id": "35eb987612b4eca5fa430de6446d9abf102eef2a",
+        "title": "同程旅行发布2026年暑期盘点",
+        "url": "https://www.pinchain.com/article/350398",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -630,9 +1288,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5757,
-      "importance": 0.5757,
-      "importance_score": 0.5757,
+      "score": 0.5549,
+      "importance": 0.5549,
+      "importance_score": 0.5549,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -644,7 +1302,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.854,
+        "recency": 0.7385,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -657,371 +1315,6 @@
         "id": "731fd183da4b4bbe0ed24c882cd82d81045be5b9",
         "title": "希尔顿集团达成多项存量改造项目新签约",
         "url": "https://www.pinchain.com/article/350395",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_be44071d8cee",
-      "title": "自如×马蜂窝联合发起“自如出发，下一站世界”",
-      "url": "https://www.pinchain.com/article/350391",
-      "primary_url": "https://www.pinchain.com/article/350391",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "dabb48903db14e4dfa5336de0456b5290dde1580",
-          "title": "自如×马蜂窝联合发起“自如出发，下一站世界”",
-          "url": "https://www.pinchain.com/article/350391",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:40:47Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "dabb48903db14e4dfa5336de0456b5290dde1580",
-          "title": "自如×马蜂窝联合发起“自如出发，下一站世界”",
-          "url": "https://www.pinchain.com/article/350391",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:40:47Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.565,
-      "importance": 0.565,
-      "importance_score": 0.565,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7944,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:40:47Z",
-      "latest_at": "2026-08-27T07:40:47Z",
-      "primary_item": {
-        "id": "dabb48903db14e4dfa5336de0456b5290dde1580",
-        "title": "自如×马蜂窝联合发起“自如出发，下一站世界”",
-        "url": "https://www.pinchain.com/article/350391",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_99a29a910282",
-      "title": "去哪儿:9月27日至10月1日机票价格为三年来最低",
-      "url": "https://www.pinchain.com/article/350378",
-      "primary_url": "https://www.pinchain.com/article/350378",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9b2c4e9aedd9cd3a8d7d7bd74fc3860c78b7e1f8",
-          "title": "去哪儿:9月27日至10月1日机票价格为三年来最低",
-          "url": "https://www.pinchain.com/article/350378",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:20:47Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "9b2c4e9aedd9cd3a8d7d7bd74fc3860c78b7e1f8",
-          "title": "去哪儿:9月27日至10月1日机票价格为三年来最低",
-          "url": "https://www.pinchain.com/article/350378",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:20:47Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5643,
-      "importance": 0.5643,
-      "importance_score": 0.5643,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7906,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:20:47Z",
-      "latest_at": "2026-08-27T07:20:47Z",
-      "primary_item": {
-        "id": "9b2c4e9aedd9cd3a8d7d7bd74fc3860c78b7e1f8",
-        "title": "去哪儿:9月27日至10月1日机票价格为三年来最低",
-        "url": "https://www.pinchain.com/article/350378",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_8a97d90d9d1e",
-      "title": "中使馆提醒加强喀麦隆境内旅游安全防范",
-      "url": "https://www.pinchain.com/article/350379",
-      "primary_url": "https://www.pinchain.com/article/350379",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "211afbe09878eb2a6ba65c3d175e1a137e1f5f2e",
-          "title": "中使馆提醒加强喀麦隆境内旅游安全防范",
-          "url": "https://www.pinchain.com/article/350379",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:16:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "211afbe09878eb2a6ba65c3d175e1a137e1f5f2e",
-          "title": "中使馆提醒加强喀麦隆境内旅游安全防范",
-          "url": "https://www.pinchain.com/article/350379",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:16:20Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5642,
-      "importance": 0.5642,
-      "importance_score": 0.5642,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7898,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:16:20Z",
-      "latest_at": "2026-08-27T07:16:20Z",
-      "primary_item": {
-        "id": "211afbe09878eb2a6ba65c3d175e1a137e1f5f2e",
-        "title": "中使馆提醒加强喀麦隆境内旅游安全防范",
-        "url": "https://www.pinchain.com/article/350379",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_56adf8ae081c",
-      "title": "桂林旅游2026年上半年净利润613.69万元",
-      "url": "https://www.pinchain.com/article/350367",
-      "primary_url": "https://www.pinchain.com/article/350367",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "328c0b7392fe57697b9d16b09f4911123f72cfed",
-          "title": "桂林旅游2026年上半年净利润613.69万元",
-          "url": "https://www.pinchain.com/article/350367",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:02:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "328c0b7392fe57697b9d16b09f4911123f72cfed",
-          "title": "桂林旅游2026年上半年净利润613.69万元",
-          "url": "https://www.pinchain.com/article/350367",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:02:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5637,
-      "importance": 0.5637,
-      "importance_score": 0.5637,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7871,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:02:06Z",
-      "latest_at": "2026-08-27T07:02:06Z",
-      "primary_item": {
-        "id": "328c0b7392fe57697b9d16b09f4911123f72cfed",
-        "title": "桂林旅游2026年上半年净利润613.69万元",
-        "url": "https://www.pinchain.com/article/350367",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_9fe14a83e845",
-      "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-      "url": "https://www.pinchain.com/article/350366",
-      "primary_url": "https://www.pinchain.com/article/350366",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-          "url": "https://www.pinchain.com/article/350366",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:00:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-          "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-          "url": "https://www.pinchain.com/article/350366",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-08-27T07:00:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5636,
-      "importance": 0.5636,
-      "importance_score": 0.5636,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7867,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-08-27T07:00:21Z",
-      "latest_at": "2026-08-27T07:00:21Z",
-      "primary_item": {
-        "id": "2becaf39e311fd8064784d58dd3d931e3cdef754",
-        "title": "中青旅产业合作生态联盟伙伴大会在古北水镇召开",
-        "url": "https://www.pinchain.com/article/350366",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
