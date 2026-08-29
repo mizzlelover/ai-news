@@ -1,83 +1,29 @@
 {
-  "generated_at": "2026-08-29T10:18:35.263368Z",
+  "generated_at": "2026-08-29T15:10:15.226274Z",
   "window_hours": 24,
-  "total_items": 1,
-  "total_items_ai_raw": 1,
-  "total_items_raw": 331,
-  "total_items_all_mode": 331,
+  "total_items": 0,
+  "total_items_ai_raw": 0,
+  "total_items_raw": 339,
+  "total_items_all_mode": 339,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15676,
+  "archive_total": 15678,
   "site_count": 1,
-  "source_count": 1,
+  "source_count": 0,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 1,
-      "raw_count": 331
+      "count": 0,
+      "raw_count": 339
     }
   ],
   "creator_window_days": 7,
   "creator_ranking": "engagement_85_fresh_24h_bonus_15_v1",
   "creator_items_ai": [],
   "creator_items_all": [],
-  "items": [
-    {
-      "id": "f824147c83ca6fc976b6e9c58a0e6598f10ae518",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "url": "https://skift.com/2026/08/28/what-hotelbeds-shrinking-margins-mean-for-hotel-distribution",
-      "published_at": "2026-08-28T14:33:32Z",
-      "first_seen_at": "2026-08-28T21:05:56.574621Z",
-      "last_seen_at": "2026-08-29T10:18:35.263368Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "hospitality_ops",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "title_en": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "title_zh": null,
-      "title_bilingual": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution"
-    }
-  ],
-  "items_ai": [
-    {
-      "id": "f824147c83ca6fc976b6e9c58a0e6598f10ae518",
-      "site_id": "opmlrss",
-      "site_name": "OPML RSS",
-      "source": "Skift",
-      "title": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "url": "https://skift.com/2026/08/28/what-hotelbeds-shrinking-margins-mean-for-hotel-distribution",
-      "published_at": "2026-08-28T14:33:32Z",
-      "first_seen_at": "2026-08-28T21:05:56.574621Z",
-      "last_seen_at": "2026-08-29T10:18:35.263368Z",
-      "ai_is_related": true,
-      "ai_score": 0.72,
-      "ai_label": "hospitality_ops",
-      "ai_relevance_reason": "matched_smart_tourism_signal",
-      "ai_signals": [
-        "hotel"
-      ],
-      "ai_noise": [],
-      "source_tier": "user_opml",
-      "source_tier_label": "RSS/OPML",
-      "source_tier_rank": 3,
-      "title_original": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "title_en": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution",
-      "title_zh": null,
-      "title_bilingual": "What Hotelbeds’ Shrinking Margins Mean for Hotel Distribution"
-    }
-  ],
+  "items": [],
+  "items_ai": [],
   "all_mode_data_url": "data/latest-24h-all.json",
   "stories_data_url": "data/stories-merged.json"
 }
