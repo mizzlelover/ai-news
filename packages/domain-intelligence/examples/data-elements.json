@@ -1,0 +1,159 @@
+{
+  "profile": {
+    "domain": "data-elements",
+    "decision_context": "track policy, market adoption, and overseas practice",
+    "requirements": [
+      {
+        "id": "pir-1",
+        "question": "What changed and what should be investigated next?",
+        "element_ids": ["e-policy", "e-market", "e-overseas"],
+        "priority": 1.0
+      }
+    ],
+    "elements": [
+      {"id": "e-policy", "label": "Policy and regulation", "topic_id": "policy", "weight": 1.0, "required_source_count": 1},
+      {"id": "e-market", "label": "Market implementation", "topic_id": "market", "weight": 1.0, "required_source_count": 2},
+      {"id": "e-overseas", "label": "Overseas practice", "topic_id": "overseas", "weight": 0.8, "required_source_count": 1}
+    ],
+    "topic_weights": [
+      {"topic_id": "policy", "weight": 1.0},
+      {"topic_id": "market", "weight": 0.9},
+      {"topic_id": "overseas", "weight": 0.7}
+    ],
+    "event_priorities": [
+      {"event_type": "policy_change", "weight": 1.0},
+      {"event_type": "project_launch", "weight": 0.8}
+    ]
+  },
+  "attention_graph": {
+    "experts": [
+      {"id": "expert-policy", "name": "Policy analyst", "community": "policy"},
+      {"id": "expert-builder", "name": "Industry builder", "community": "industry"}
+    ],
+    "sources": [
+      {
+        "id": "official-policy",
+        "name": "Official policy feed",
+        "role": "official_primary",
+        "topic_ids": ["policy"],
+        "element_ids": ["e-policy"],
+        "authority": 0.95,
+        "reliability": 0.95,
+        "stability": 0.9,
+        "accessibility": 0.9,
+        "cost": 1.0,
+        "acquisition": {"method": "rss", "endpoint": "https://example.com/policy.xml", "stable": true}
+      },
+      {
+        "id": "industry-brief",
+        "name": "Industry implementation brief",
+        "role": "expert_interpreter",
+        "topic_ids": ["market"],
+        "element_ids": ["e-market"],
+        "authority": 0.8,
+        "reliability": 0.8,
+        "stability": 0.8,
+        "accessibility": 0.8,
+        "cost": 1.0,
+        "acquisition": {"method": "rss", "endpoint": "https://example.com/industry.xml", "stable": true}
+      },
+      {
+        "id": "overseas-watch",
+        "name": "Overseas practice watch",
+        "role": "frontier_sensor",
+        "topic_ids": ["overseas"],
+        "element_ids": ["e-overseas"],
+        "authority": 0.65,
+        "reliability": 0.75,
+        "stability": 0.75,
+        "accessibility": 0.8,
+        "cost": 1.0,
+        "acquisition": {"method": "json", "endpoint": "https://example.com/overseas.json", "stable": true}
+      }
+    ],
+    "edges": [
+      {"from_node_id": "expert-policy", "to_node_id": "official-policy", "relation": "explicitly_recommends", "observed_at": "2026-08-29T08:00:00Z"},
+      {"from_node_id": "expert-policy", "to_node_id": "industry-brief", "relation": "cites", "observed_at": "2026-08-29T08:00:00Z"},
+      {"from_node_id": "expert-builder", "to_node_id": "industry-brief", "relation": "explicitly_recommends", "observed_at": "2026-08-29T08:00:00Z"},
+      {"from_node_id": "expert-builder", "to_node_id": "overseas-watch", "relation": "follows", "observed_at": "2026-08-29T08:00:00Z"}
+    ]
+  },
+  "attention_query": {
+    "seed_expert_ids": ["expert-policy", "expert-builder"],
+    "topic_ids": ["policy", "market", "overseas"],
+    "as_of": "2026-08-30T08:00:00Z"
+  },
+  "benchmark": {
+    "events": [
+      {
+        "id": "event-policy",
+        "title": "New data policy",
+        "nuggets": [
+          {"id": "n-policy", "event_id": "event-policy", "label": "Official policy published", "importance": 1.0, "available_at": "2026-08-28T08:00:00Z", "authoritative_at": "2026-08-30T08:00:00Z"}
+        ]
+      },
+      {
+        "id": "event-market",
+        "title": "Market project launch",
+        "nuggets": [
+          {"id": "n-market", "event_id": "event-market", "label": "Project entered operation", "importance": 1.0, "available_at": "2026-08-29T08:00:00Z", "authoritative_at": "2026-08-30T08:00:00Z"}
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "official-policy",
+        "name": "Official policy feed",
+        "role": "official_primary",
+        "topic_ids": ["policy"],
+        "element_ids": ["e-policy"],
+        "authority": 0.95,
+        "reliability": 0.95,
+        "stability": 0.9,
+        "accessibility": 0.9,
+        "cost": 1.0,
+        "acquisition": {"method": "rss", "endpoint": "https://example.com/policy.xml", "stable": true}
+      },
+      {
+        "id": "industry-brief",
+        "name": "Industry implementation brief",
+        "role": "expert_interpreter",
+        "topic_ids": ["market"],
+        "element_ids": ["e-market"],
+        "authority": 0.8,
+        "reliability": 0.8,
+        "stability": 0.8,
+        "accessibility": 0.8,
+        "cost": 1.0,
+        "acquisition": {"method": "rss", "endpoint": "https://example.com/industry.xml", "stable": true}
+      },
+      {
+        "id": "overseas-watch",
+        "name": "Overseas practice watch",
+        "role": "frontier_sensor",
+        "topic_ids": ["overseas"],
+        "element_ids": ["e-overseas"],
+        "authority": 0.65,
+        "reliability": 0.75,
+        "stability": 0.75,
+        "accessibility": 0.8,
+        "cost": 1.0,
+        "acquisition": {"method": "json", "endpoint": "https://example.com/overseas.json", "stable": true}
+      }
+    ],
+    "observations": [
+      {"id": "ob-policy", "source_id": "official-policy", "event_id": "event-policy", "nugget_id": "n-policy", "available_at": "2026-08-29T08:00:00Z", "publication_at": "2026-08-29T08:00:00Z", "is_original": true, "is_confirmed": true, "decision_utility": 0.9},
+      {"id": "ob-market", "source_id": "industry-brief", "event_id": "event-market", "nugget_id": "n-market", "available_at": "2026-08-29T20:00:00Z", "publication_at": "2026-08-29T20:00:00Z", "is_original": true, "is_confirmed": true, "decision_utility": 0.8}
+    ],
+    "cutoffs": ["2026-08-29T08:00:00Z", "2026-08-30T08:00:00Z"]
+  },
+  "signals": [
+    {"id": "signal-policy", "source_id": "official-policy", "title": "New data policy published", "url": "https://example.com/policy?utm_source=demo", "published_at": "2026-08-29T08:00:00Z", "available_at": "2026-08-29T08:00:00Z", "topic_ids": ["policy"], "event_type": "policy_change", "importance": 0.9, "originality": 1.0, "confirmed": true, "event_id": "event-policy"},
+    {"id": "signal-market", "source_id": "industry-brief", "title": "Market project launch follows policy", "url": "https://example.com/industry/launch", "published_at": "2026-08-29T20:00:00Z", "available_at": "2026-08-29T20:00:00Z", "topic_ids": ["market"], "event_type": "project_launch", "importance": 0.8, "originality": 0.8, "confirmed": true, "event_id": "event-market"}
+  ],
+  "budget": 3.0,
+  "max_sources": 3,
+  "as_of": "2026-08-30T08:00:00Z",
+  "window_hours": 24,
+  "daily_limit": 10
+}

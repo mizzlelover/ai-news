@@ -1,0 +1,6 @@
+interface:
+  display_name: "Domain Intelligence Bootstrap"
+  short_description: "Bootstrap auditable domain intelligence radars"
+  default_prompt: "Use $domain-intelligence-bootstrap to build and benchmark an auditable source portfolio for a new domain."
+policy:
+  allow_implicit_invocation: true

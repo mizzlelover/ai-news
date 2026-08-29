@@ -12,7 +12,7 @@
 [![Agent Skills](https://img.shields.io/badge/Agent%20Skills-ai--radar%20%2B%20%E4%BC%AF%E4%B9%90-blueviolet?style=flat-square)](skills/radar/README.md)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[在线页面](https://learnprompt.github.io/ai-news-radar/) · [English](README.en.md) · [雷达Skill](skills/radar/README.md) · [伯乐Skill](skills/ai-news-radar/README.md) · [信息源策略](docs/SOURCE_COVERAGE.md)
+[在线页面](https://learnprompt.github.io/ai-news-radar/) · [English](README.en.md) · [雷达Skill](skills/radar/README.md) · [伯乐Skill](skills/ai-news-radar/README.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [信息源策略](docs/SOURCE_COVERAGE.md)
 
 </div>
 
@@ -51,6 +51,20 @@ AI News Radar是一个自动更新的24小时AI更新雷达。它不只是把AI�
 它的核心逻辑是**伯乐Skill**，帮你从一堆信源里选出千里马。哪些源值得长期追踪，哪些源适合做成RSS/OPML，哪些源只能接付费的API，哪些源看起来更新很多但实际上跟你长期关注的方面比方AI只占了里面的5%不到。
 
 先判断清楚，再接入。
+
+## 领域情报日报的通用引擎
+
+如果目标不是做AI日报，而是为数据要素、机器人、文旅或任意新领域建立可审计的情报体系，可以直接使用仓库内的 [Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)。它把用户目的拆成情报需求和必需信息要素，再执行专家注意力重建、历史截点回放、信源组合优化、覆盖审计和日报生成。
+
+完整方法论见 [领域情报日报体系 V0.1](docs/DOMAIN_INTELLIGENCE_V0_1.md)。最小示例：
+
+```bash
+uv run --project packages/domain-intelligence dib \
+  packages/domain-intelligence/examples/data-elements.json \
+  --output-dir out/domain-intelligence
+```
+
+输出的 `bootstrap-report.json` 可供后续系统消费，Markdown 报告用于人工复核和交接；它与现有 AI News Radar 的采集、RSS 和 GitHub Actions 保持边界分离。
 
 ![AI News Radar 当前四宫格截图](assets/screenshots/ai-news-radar-current-grid.jpg)
 
