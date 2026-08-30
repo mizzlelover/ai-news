@@ -33,6 +33,8 @@
 | 路径 | 作用 |
 | --- | --- |
 | `docs/DOMAIN_INTELLIGENCE_V0_1.md` | 方法论、指标、边界和下一阶段实验 |
+| `demo/` | 面向专业从业者的价值说明、使用场景、方法论图示和可交互示例入口 |
+| `DESIGN.md` | 演示站的信息架构、视觉系统、可访问性和验收契约 |
 | `packages/domain-intelligence/` | DomainProfile、PIR/EIE、EAR、point-in-time replay、Portfolio、Coverage 和 Daily Brief 引擎 |
 | `skills/domain-intelligence-bootstrap/` | 面向新领域建模、回放、组合和审计的核心 Skill 路由 |
 | `packages/domain-intelligence/examples/` | 可复现的最小领域 Bundle，不代表某个外部项目的原始数据 |

@@ -798,6 +798,7 @@ strong {
   color: var(--ink);
   background: var(--paper-strong);
   box-shadow: var(--shadow-card);
+  transition: opacity 180ms ease, transform 180ms var(--ease-out);
 }
 
 .scenario-panel.is-changing {
