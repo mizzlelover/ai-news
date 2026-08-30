@@ -104,6 +104,8 @@ uv run --project packages/domain-intelligence dib \
 
 ![AI News Radar 兼容适配层页面截图](assets/screenshots/ai-news-radar-current-grid.jpg)
 
+兼容适配层的静态页面已从仓库根首页移到 [`legacy-ai-radar.html`](legacy-ai-radar.html)，根首页现在直接进入[私人情报所演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)。这样既保留上游轮子的可运行入口，也不会再让它占据本项目的产品首页。
+
 ### 伯乐 Skill（外部工程适配层）的既有能力
 
 好新闻分散在各处，
@@ -224,7 +226,7 @@ AI News Radar学习了现代新闻学的技术，不是简单堆信息源，一�
 
 ### 适配层快速开始
 
-普通用户不用安装，直接打开在线页面即可。
+普通用户不用安装，直接打开[兼容适配层页面](legacy-ai-radar.html)即可查看它生成的 AI/文旅信号；如果你要建立自己的专业情报体系，应从[私人情报所演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)开始。
 
 想fork改造新版本，可以本地运行：
 

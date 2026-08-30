@@ -47,7 +47,7 @@
 | --- | --- | --- |
 | `skills/ai-news-radar/` | AI 新闻信源判断、录入和静态日报维护适配器 | 本项目的领域情报方法论 |
 | `skills/radar/` | 读取公开 AI 日报 JSON 的消费侧适配器 | 通用领域情报引擎 |
-| `scripts/update_news.py`、`index.html`、`assets/` | 既有 AI/文旅页面的采集和展示运行时 | 新领域的需求、回测和覆盖内核 |
+| `scripts/update_news.py`、`legacy-ai-radar.html`、`assets/` | 既有 AI/文旅页面的采集和展示运行时；根首页已改为私人情报所入口 | 新领域的需求、回测和覆盖内核 |
 | `.github/workflows/update-news.yml` | 既有 AI/文旅数据更新任务 | 通用领域情报调度器 |
 
 这些轮子在“公开 AI 日报、RSS/OPML、去重、静态发布”场景下确实可以直接使用，因此没有必要重新制造一个同功能的抓取器。但它们只能作为采集、展示或消费适配器，不能替代本项目针对不同领域重新建立的 PIR、EIE、信源组合和历史评价。
