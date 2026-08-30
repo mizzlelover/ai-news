@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#061B31" />
+    <meta
+      name="description"
+      content="私人情报所：帮助文旅、制造、教育、农业、医疗、能源等专业从业者，用 AI 建立自己的可持续情报体系。"
+    />
+    <link rel="canonical" href="https://mizzlelover.github.io/private-intelligence-observatory/demo/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:title" content="私人情报所｜为你的专业领域建立自己的情报系统" />
+    <meta
+      property="og:description"
+      content="你提供专业问题，私人情报所把它变成长期工作的情报机制。"
+    />
+    <meta property="og:image" content="https://mizzlelover.github.io/private-intelligence-observatory/demo/assets/observatory-hero.png" />
+    <meta property="og:url" content="https://mizzlelover.github.io/private-intelligence-observatory/demo/" />
+    <title>私人情报所｜为你的专业领域建立自己的情报系统</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "私人情报所",
+        "alternateName": "Private Intelligence Observatory",
+        "applicationCategory": "ResearchApplication",
+        "operatingSystem": "Web",
+        "description": "帮助专业从业者用 AI 把自己的判断变成可持续、可审计的领域情报体系。",
+        "url": "https://mizzlelover.github.io/private-intelligence-observatory/demo/",
+        "isAccessibleForFree": true,
+        "codeRepository": "https://github.com/mizzlelover/private-intelligence-observatory"
+      }
+    </script>
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-nav" data-nav>
+        <a class="brand" href="#top" aria-label="私人情报所，回到顶部">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" role="img">
+              <circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <circle cx="18" cy="18" r="8" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <circle cx="23.5" cy="12.5" r="2.4" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>私人情报所</strong>
+            <small>PRIVATE INTELLIGENCE OBSERVATORY</small>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="主要导航">
+          <a href="#problem">它解决什么问题</a>
+          <a href="#method">怎么工作</a>
+          <a href="#scenarios">看一个例子</a>
+        </nav>
+        <a class="nav-cta" href="#start">开始搭建 <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main id="top">
+        <section class="hero" aria-labelledby="hero-title">
+          <div class="hero-backdrop" aria-hidden="true"></div>
+          <div class="hero-grain" aria-hidden="true"></div>
+          <div class="hero-inner section-width">
+            <div class="hero-copy reveal">
+              <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>给不在 AI 行业里的人</p>
+              <h1 id="hero-title">
+                不是每个人都需要<br />
+                <span>一份 AI 日报。</span><br />
+                你需要的是一套懂你<br />
+                行业的私人情报所。
+              </h1>
+              <p class="hero-lede">
+                你提供一个真实的专业问题。我们帮你把它拆成必须知道的变化、值得信任的来源和每天可用的判断。
+              </p>
+              <div class="hero-actions">
+                <a class="button button-primary" href="#scenarios">从一个问题开始 <span aria-hidden="true">↗</span></a>
+                <a class="button button-quiet" href="#method">先看方法怎么工作 <span aria-hidden="true">↓</span></a>
+              </div>
+              <div class="hero-note">
+                <span class="note-line" aria-hidden="true"></span>
+                不要求你先懂爬虫、RSS、Prompt 或数据库
+              </div>
+            </div>
+
+            <aside class="hero-brief reveal reveal-delay" aria-label="私人情报简报示例">
+              <div class="brief-window-bar">
+                <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+                <span>今日观察 · 示例</span>
+                <span class="brief-status"><span></span>正在守望</span>
+              </div>
+              <div class="hero-brief-body">
+                <p class="brief-kicker">你的判断</p>
+                <h2>是否投入新的县域文旅线路？</h2>
+                <div class="brief-signal">
+                  <span class="signal-rail" aria-hidden="true"></span>
+                  <div>
+                    <span class="signal-label">市场信号</span>
+                    <p>周边目的地开始把研学客群从团队游转向周末小团。</p>
+                  </div>
+                </div>
+                <div class="brief-meta">
+                  <span>2 个独立运营方信号</span>
+                  <span>待补：真实转化率</span>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="hero-rail" aria-hidden="true"><span></span><span></span><span></span></div>
+        </section>
+
+        <section class="section section-paper problem-section" id="problem" aria-labelledby="problem-title">
+          <div class="section-width">
+            <div class="section-heading split-heading reveal">
+              <div>
+                <p class="eyebrow">先把断层说清楚</p>
+                <h2 id="problem-title">现在缺的不是信息，<br /><em>是把信息变成判断的路径。</em></h2>
+              </div>
+              <p class="section-deck">
+                互联网正在把 AI 讲得越来越强，却很少有人替非 AI 专业的人回答：我的行业到底要盯什么，谁最早知道，哪些来源值得长期信任？
+              </p>
+            </div>
+
+            <div class="tension-grid reveal">
+              <article class="tension-panel tension-muted">
+                <p class="panel-index">网上常见的承诺</p>
+                <h3>“AI 可以帮你<br />构建个人知识引擎。”</h3>
+                <p>工具、Prompt、RSS、Agent、数据库都在这里。但它们往往从技术零件开始，默认你已经知道自己要建立什么。</p>
+                <div class="panel-footer"><span class="line-mark" aria-hidden="true"></span><span>会用的人先搭出了工具</span></div>
+              </article>
+              <article class="tension-panel tension-active">
+                <p class="panel-index">真正的使用现场</p>
+                <h3>“我只想知道<br />什么会改变我的判断。”</h3>
+                <p>文旅、制造、教育、农业、医疗、能源和城市建设的从业者需要长期关注，却不知道如何把专业问题交给 AI。</p>
+                <div class="panel-footer"><span class="line-mark line-mark-bright" aria-hidden="true"></span><span>需要的人还没有入口</span></div>
+              </article>
+            </div>
+
+            <div class="statement-band reveal">
+              <span class="statement-mark" aria-hidden="true">↘</span>
+              <p><strong>私人情报所补上的，是“会用的人”和“需要的人”之间的那条路。</strong>不把你变成工程师，而是先从你的专业问题开始。</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-violet scenarios-section" id="scenarios" aria-labelledby="scenarios-title">
+          <div class="section-width">
+            <div class="section-heading scenario-heading reveal">
+              <div>
+                <p class="eyebrow eyebrow-light">同一套方法，进入不同的工作现场</p>
+                <h2 id="scenarios-title">你不需要先选工具。<br /><span>先选一个要做的判断。</span></h2>
+              </div>
+              <p class="section-deck section-deck-light">下面只是四个入口。你的行业不在列表里，也可以从一句现实问题开始。</p>
+            </div>
+
+            <div class="scenario-layout reveal">
+              <div class="scenario-selector" role="tablist" aria-label="专业场景选择">
+                <button class="scenario-tab is-active" id="scenario-tourism" type="button" role="tab" aria-selected="true" aria-controls="scenario-panel" data-scenario="tourism">
+                  <span class="tab-number">01</span><span><strong>县域文旅</strong><small>项目投入与竞争变化</small></span><span class="tab-arrow" aria-hidden="true">↗</span>
+                </button>
+                <button class="scenario-tab" id="scenario-manufacturing" type="button" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="manufacturing">
+                  <span class="tab-number">02</span><span><strong>制造与供应链</strong><small>设备、材料与交付风险</small></span><span class="tab-arrow" aria-hidden="true">↗</span>
+                </button>
+                <button class="scenario-tab" id="scenario-education" type="button" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="education">
+                  <span class="tab-number">03</span><span><strong>教育与研究</strong><small>从概念走到可复制实践</small></span><span class="tab-arrow" aria-hidden="true">↗</span>
+                </button>
+                <button class="scenario-tab" id="scenario-practitioner" type="button" role="tab" aria-selected="false" aria-controls="scenario-panel" data-scenario="practitioner">
+                  <span class="tab-number">04</span><span><strong>你的专业现场</strong><small>客户、政策与行业变化</small></span><span class="tab-arrow" aria-hidden="true">↗</span>
+                </button>
+              </div>
+
+              <article class="scenario-panel" id="scenario-panel" role="tabpanel" aria-live="polite" aria-labelledby="scenario-tourism">
+                <div class="scenario-panel-top">
+                  <span class="live-chip"><span></span>示例情报所</span>
+                  <span class="panel-date">今天 · 07:40</span>
+                </div>
+                <p class="panel-question" data-field="question">是否投入新的县域文旅线路？</p>
+                <div class="scenario-signal" data-field="signal">
+                  <div class="signal-index">01</div>
+                  <div>
+                    <span class="signal-type" data-field="type">市场信号</span>
+                    <h3 data-field="headline">周边目的地开始把研学客群从团队游转向周末小团。</h3>
+                    <p data-field="why">这不是“市场已经验证”的结论，但说明竞品正在争夺同一客群，应优先补查客单价、复购和淡季承载能力。</p>
+                  </div>
+                </div>
+                <div class="scenario-details">
+                  <div><span>来源角色</span><strong data-field="sources">项目运营方 · 行业解释源</strong></div>
+                  <div><span>当前状态</span><strong data-field="status">候选信号，等待数据确认</strong></div>
+                  <div><span>覆盖缺口</span><strong data-field="gap">本地游客结构与真实转化率</strong></div>
+                </div>
+                <div class="scenario-panel-footer"><span>日报不是链接清单</span><strong>它告诉你下一步该判断什么 <span aria-hidden="true">→</span></strong></div>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-paper method-section" id="method" aria-labelledby="method-title">
+          <div class="section-width">
+            <div class="method-intro reveal">
+              <div>
+                <p class="eyebrow">从一个问题，到一个可持续系统</p>
+                <h2 id="method-title">方法论不是技术黑话。<br /><em>它是一条更稳的判断路径。</em></h2>
+              </div>
+              <div class="method-quote"><span class="quote-mark">“</span><p>你的专业问题，才是这套系统的起点。AI 只是把这条路径持续跑起来。</p></div>
+            </div>
+
+            <div class="method-visual reveal">
+              <div class="method-visual-copy">
+                <p class="eyebrow">看见信号如何汇聚</p>
+                <p>不是所有信息都要进入日报。每一次观察都要回到你的判断，并留下来源、时间和缺口。</p>
+                <img src="assets/aperture-map.png" alt="同心孔径与六条信号线汇聚到中央判断点的抽象方法图" loading="lazy" />
+              </div>
+              <div class="method-spine" aria-label="私人情报所七步方法">
+                <span class="spine-line" aria-hidden="true"></span>
+                <article class="method-step is-focus">
+                  <span class="step-node">01</span>
+                  <div><h3>一个判断</h3><p>先写下你要做的决定，而不是先列关键词。</p><small>Decision Context · PIR</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">02</span>
+                  <div><h3>必须知道什么</h3><p>把大问题拆成有限、可检查的信息要素。</p><small>Essential Information Elements</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">03</span>
+                  <div><h3>谁最早知道</h3><p>重建专家、组织、资料和主题之间的注意力网络。</p><small>Expert Attention Reconstruction</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">04</span>
+                  <div><h3>历史回放</h3><p>回到当时的时间截点，检验来源是否真的帮过你。</p><small>Point-in-time Source Benchmark</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">05</span>
+                  <div><h3>互补信源</h3><p>把官方、解释、前沿、广覆盖和社区角色组合起来。</p><small>Source Portfolio</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">06</span>
+                  <div><h3>覆盖缺口</h3><p>显示已知、待确认和仍然不知道的地方。</p><small>Coverage Audit</small></div>
+                </article>
+                <article class="method-step">
+                  <span class="step-node">07</span>
+                  <div><h3>私人情报简报</h3><p>最后才是日报、推送和下一轮反馈。</p><small>Domain-ranked Daily Brief</small></div>
+                </article>
+              </div>
+            </div>
+
+            <div class="method-footnote reveal"><span class="footnote-line" aria-hidden="true"></span><p>Coverage 的分母不是“搜到多少网页”，而是你声明过、必须长期掌握的要素。</p></div>
+          </div>
+        </section>
+
+        <section class="section section-ink brief-section" aria-labelledby="brief-title">
+          <div class="section-width brief-layout">
+            <div class="brief-image-wrap reveal">
+              <img src="assets/field-notes.png" alt="专业从业者在地图、笔记和证据卡片前整理自己的观察" loading="lazy" />
+              <span class="image-caption">从你的工作现场开始，不从工具列表开始。</span>
+            </div>
+            <div class="brief-copy reveal reveal-delay">
+              <p class="eyebrow eyebrow-light">日报只是最后一页</p>
+              <h2 id="brief-title">每一条简报，<br /><span>都要能回到一个判断。</span></h2>
+              <p>一份好的私人情报简报，不会用“今天有 37 条行业新闻”制造忙碌感。它应该回答：发生了什么，为什么现在出现，证据来自哪里，还需要补查什么。</p>
+              <div class="brief-stack" aria-label="一条情报简报的结构">
+                <div class="stack-card stack-question"><span>你的判断</span><strong>是否投入新的县域文旅线路？</strong></div>
+                <div class="stack-card stack-signal"><span>今天的信号</span><strong>竞品正在争夺周末小团客群</strong><small>项目运营方 · 14 天内</small></div>
+                <div class="stack-card stack-gap"><span>仍然不知道</span><strong>本地游客结构与真实转化率</strong><small>下一步：补一类一手经营数据</small></div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="section section-paper entrance-section" aria-labelledby="entrance-title">
+          <div class="section-width">
+            <div class="section-heading reveal">
+              <p class="eyebrow">同一个项目，两条清楚的入口</p>
+              <h2 id="entrance-title">先让使用者看懂价值，<br /><em>再让工程师看懂实现。</em></h2>
+            </div>
+            <div class="entrance-grid reveal">
+              <article class="entrance-panel entrance-user">
+                <div class="entrance-top"><span>给专业从业者</span><span class="entrance-number">A</span></div>
+                <h3>用自己的工作语言，开始一个情报所。</h3>
+                <p>你只需要说清楚要做什么判断、怕漏掉什么、希望多久知道一次。先从一个小问题开始，再逐步扩大。</p>
+                <a href="../docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md">阅读使用者指南 <span aria-hidden="true">↗</span></a>
+              </article>
+              <article class="entrance-panel entrance-engineer">
+                <div class="entrance-top"><span>给工程协作者</span><span class="entrance-number">B</span></div>
+                <h3>把需求、证据和来源变成可测试的系统。</h3>
+                <p>Schema、历史回放、组合优化、覆盖审计和日报引擎都在这里。采集与推送是边界层，可以替换。</p>
+                <a href="../packages/domain-intelligence/README.md">进入核心引擎 <span aria-hidden="true">↗</span></a>
+              </article>
+            </div>
+          </div>
+        </section>
+
+        <section class="section cta-section" id="start" aria-labelledby="start-title">
+          <div class="cta-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
+          <div class="section-width cta-inner reveal">
+            <p class="eyebrow eyebrow-light">现在就从一句话开始</p>
+            <h2 id="start-title">你提供专业问题，<br /><span>私人情报所负责长期守望。</span></h2>
+            <p>不用先学会一套工具。先说：我正在做什么判断？</p>
+            <div class="cta-actions">
+              <a class="button button-primary button-large" href="../docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md">写下我的第一个判断 <span aria-hidden="true">↗</span></a>
+              <a class="button button-outline" href="https://github.com/mizzlelover/private-intelligence-observatory">在 GitHub 查看实现 <span aria-hidden="true">↗</span></a>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div class="section-width footer-grid">
+          <div class="footer-brand"><a class="brand" href="#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" stroke-width="1.4" /><circle cx="18" cy="18" r="8" fill="none" stroke="currentColor" stroke-width="1.4" /><circle cx="23.5" cy="12.5" r="2.4" fill="currentColor" /></svg></span><span class="brand-copy"><strong>私人情报所</strong><small>PRIVATE INTELLIGENCE OBSERVATORY</small></span></a><p>把你的专业判断，变成长期工作的情报机制。</p></div>
+          <div class="footer-links"><div><span>继续阅读</span><a href="../docs/DOMAIN_INTELLIGENCE_V0_1.md">核心方法论</a><a href="../docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md">使用者指南</a></div><div><span>进入工程</span><a href="../packages/domain-intelligence/README.md">领域情报引擎</a><a href="https://github.com/mizzlelover/private-intelligence-observatory">GitHub 仓库</a></div><div><span>来源与归属</span><a href="../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md">项目范围与版权</a><a href="https://github.com/LearnPrompt/ai-news-radar">LearnPrompt/ai-news-radar ↗</a></div></div>
+        </div>
+        <div class="section-width footer-bottom"><span>© 2026 mizzlelover · Private Intelligence Observatory</span><span>AI News Radar / 伯乐 Skill 为明确标注来源的兼容适配层，采用 MIT License。</span></div>
+      </footer>
+    </div>
+    <noscript><div class="noscript-note">本演示站的场景切换需要启用 JavaScript；方法论、使用指南和工程入口仍可直接阅读。</div></noscript>
+    <script src="app.js" defer></script>
+  </body>
+</html>

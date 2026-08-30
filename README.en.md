@@ -4,18 +4,26 @@
 
 ## Domain Intelligence Methodology and Briefing System
 
-**A decision-first system for turning overlooked domains, knowledge areas, industries, and sectors into auditable, continuously maintained intelligence radars.**
+**A decision-first system that helps professionals in any domain build an auditable, continuously maintained intelligence practice with AI.**
 
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
+[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 </div>
 
 ---
 
 > **Scope and attribution:** the core of this project is the domain-intelligence methodology and engine. The retained AI News Radar, Radar Skill, and Scout/Bole Skill are optional compatibility components from or based on LearnPrompt/ai-news-radar, not this project's original core. Read [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) first.
+
+## Why this exists
+
+Most AI intelligence products are built around AI practitioners tracking AI. The people who need a durable intelligence habit in tourism, manufacturing, education, agriculture, healthcare, energy, city building, or any other domain are often not comfortable with RSS, crawlers, prompts, databases, or GitHub workflows. The people who can build those tools often do not know the user's actual decision context.
+
+Private Intelligence Observatory closes that gap. Start with the decision you need to make and the changes you cannot afford to miss. The system then turns that into a maintainable set of information requirements, source roles, historical checks, coverage gaps, and a daily brief. The daily brief is the delivery format; the methodology and evaluation loop are the product.
+
+Read the [practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) first if you work in a domain rather than in software. Read the engine and schemas when you are implementing or extending the system.
 
 ## What this project is
 

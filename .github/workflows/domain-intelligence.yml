@@ -5,12 +5,18 @@ on:
     paths:
       - "packages/domain-intelligence/**"
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
+      - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
+      - "DESIGN.md"
+      - "demo/**"
       - "skills/domain-intelligence-bootstrap/**"
       - ".github/workflows/domain-intelligence.yml"
   pull_request:
     paths:
       - "packages/domain-intelligence/**"
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
+      - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
+      - "DESIGN.md"
+      - "demo/**"
       - "skills/domain-intelligence-bootstrap/**"
       - ".github/workflows/domain-intelligence.yml"
   workflow_dispatch:
@@ -27,6 +33,50 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+
+      - name: Validate practitioner demo
+        working-directory: .
+        run: |
+          node --check demo/app.js
+          python - <<'PY'
+          from html.parser import HTMLParser
+          from pathlib import Path
+
+          class DemoParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.title = ""
+                  self.refs = []
+                  self.in_title = False
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag == "title":
+                      self.in_title = True
+                  if tag in {"img", "script", "link"}:
+                      for key in ("src", "href"):
+                          if attrs.get(key):
+                              self.refs.append(attrs[key])
+
+              def handle_endtag(self, tag):
+                  if tag == "title":
+                      self.in_title = False
+
+              def handle_data(self, data):
+                  if self.in_title:
+                      self.title += data
+
+          html = Path("demo/index.html")
+          parser = DemoParser()
+          parser.feed(html.read_text())
+          assert "私人情报所" in html.read_text()
+          assert "私人情报所" in parser.title
+          for ref in parser.refs:
+              if ref.startswith(("http://", "https://", "#", "data:")):
+                  continue
+              assert (html.parent / ref).exists(), ref
+          print("practitioner demo references are valid")
+          PY
 
       - name: Install uv
         uses: astral-sh/setup-uv@v6

@@ -1,6 +1,6 @@
 # 私人情报所：领域情报方法论 V0.1
 
-本文件描述私人情报所的核心领域情报方法论。仓库内的 AI News Radar、Radar Skill 和伯乐 Skill 是可选的兼容适配层，不是本方法论的来源或替代品；详见 [项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+本文件描述私人情报所的核心领域情报方法论。它服务于希望用 AI 建立自己专业情报体系的从业者，不要求使用者先成为工程师。仓库内的 AI News Radar、Radar Skill 和伯乐 Skill 是可选的兼容适配层，不是本方法论的来源或替代品；详见 [项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 1. 定位
 

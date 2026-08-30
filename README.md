@@ -4,12 +4,12 @@
 
 ## Private Intelligence Observatory
 
-**面向互联网上长期无人系统关注的领域、知识域、行业和产业，建立可审计、可持续的情报体系。**
+**让每一个专业领域，都能用 AI 建立自己的可审计、可持续情报体系。**
 
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
+[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 </div>
 
@@ -17,11 +17,32 @@
 
 > **主次与来源说明：**本项目的核心是领域情报方法论与通用引擎；仓库内的 AI News Radar、Radar Skill 和伯乐 Skill 是来自或基于 LearnPrompt/ai-news-radar 的可选兼容适配层，不是本项目原创核心。请先读 [NOTICE](NOTICE.md) 和 [项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
+## 为什么需要“私人情报所”
+
+AI 时代，几乎所有人都在教 AI 从业者追踪 AI、整理 AI、构建 AI 工具。但一个做文旅、制造、教育、农业、医疗、能源、城市建设，或任何具体专业的人，如果想让 AI 长期替自己盯住行业、找到关键变化、形成判断，网上几乎没有一套真正为他准备好的方法。
+
+需要这套能力的人，往往不会用爬虫、RSS、Prompt、数据库和 GitHub 上的各种零件；会搭工具的人，又往往只围绕自己熟悉的 AI 领域搭建信息流。结果是：真正懂行业的人没有情报机制，真正会做工具的人没有替他理解业务问题。
+
+**私人情报所要补上的，正是这条断路。**你不必先学会一套技术栈，也不必把自己的专业问题翻译成 AI 黑话。你只需要先说清楚：你正在做什么判断、最怕漏掉什么变化、希望每天知道什么。系统再把它变成一套能够持续采集、验证、解释、推送和改进的个人情报体系。
+
+它不是一个 AI 新闻网页，也不是把更多链接塞给你。它把你的专业目标变成：
+
+- 一组必须长期掌握的问题；
+- 一张知道“谁最早知道什么”的信源地图；
+- 一套经过历史回放和互补组合检验的来源；
+- 一份诚实标出“已知、待确认和仍然不知道”的每日简报。
+
+它服务的不是某一个行业，而是那些希望把 AI 用在自己专业判断上的人：行业负责人、研究者、内容工作者、项目经理、顾问、教师、创业者，以及任何不想被信息流牵着走的从业者。
+
+> **一句话：你提供专业问题，私人情报所负责把它变成长期工作的情报机制。**
+
+先用一个具体问题体验：[打开私人情报所演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)。想理解应用层方法，请读[面向专业从业者的使用指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)；想进入工程实现，再读下面的核心引擎。
+
 ## 这是什么
 
-这是一个“私人情报所”：面向互联网上长期无人系统关注的领域、知识域、行业和产业，建立专属、可审计、持续更新的情报体系。它不是一个以 AI 新闻网页为目的的聚合项目。
+这是一个以方法论为核心、以工程为支撑的“私人情报所”。日报、网页和推送只是最后的交付形式；真正的产品，是帮助你从一个现实判断开始，建立一套持续有效的领域情报系统。
 
-它的核心价值是：面对互联网上长期无人系统关注的领域、知识域、行业或产业，先明确决策目的和必须掌握的信息，再重建专家注意力、评价信源历史表现、选择互补信源组合、审计覆盖缺口，最后持续产出可追溯的情报日报和推送。
+它不是把 AI 新闻换个名字，也不是把某个现成的 AI 日报 Skill 包装成新工程。仓库里保留的 AI News Radar 和伯乐 Skill 是明确标注来源的可选兼容层；本项目自己的核心，是面向任意专业领域的需求建模、信源评价、历史回放、组合选择、覆盖审计和反馈闭环。
 
 ```text
 决策目的
@@ -39,9 +60,11 @@
 
 ## 30秒理解项目
 
-**① 建立新领域** → 先读[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)，把用户目的拆成 PIR、EIE、主题权重和事件优先级。
+**① 先说一个判断** → 先读[使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)，用自己的工作语言写下“我准备判断什么、必须知道什么”。
 
-**② 运行核心工程** → 用[Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)执行 EAR、历史回放、组合优化、覆盖审计和日报生成：
+**② 把问题变成系统** → 再读[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)，把用户目的拆成 PIR、EIE、主题权重和事件优先级。
+
+**③ 运行核心工程** → 用[Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)执行 EAR、历史回放、组合优化、覆盖审计和日报生成：
 
 ```bash
 uv run --project packages/domain-intelligence dib \
@@ -49,9 +72,9 @@ uv run --project packages/domain-intelligence dib \
   --output-dir out/domain-intelligence
 ```
 
-**③ 接入现实采集与推送** → 把公开 RSS、网页、数据库、邮件或其他适配器整理成结构化信号，再交给核心引擎；采集、推送和现成网页都是可替换的边界层。
+**④ 接入现实采集与推送** → 把公开 RSS、网页、数据库、邮件或其他适配器整理成结构化信号，再交给核心引擎；采集、推送和现成网页都是可替换的边界层。
 
-**④ 只想看 AI 日报** → 可以使用下方明确标注的 [AI News Radar 兼容适配层](#可选适配层ai-news-radar--伯乐-skill)，但它不是本项目的核心方法论，也不是本项目原创的伯乐 Skill。
+**⑤ 只想看 AI 日报** → 可以使用下方明确标注的 [AI News Radar 兼容适配层](#可选适配层ai-news-radar--伯乐-skill)，但它不是本项目的核心方法论，也不是本项目原创的伯乐 Skill。
 
 ---
 
