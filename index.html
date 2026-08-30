@@ -3,17 +3,54 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#061B31" />
     <meta http-equiv="refresh" content="0; url=./demo/" />
     <link rel="canonical" href="https://mizzlelover.github.io/private-intelligence-observatory/demo/" />
     <title>私人情报所｜为你的专业领域建立自己的情报系统</title>
     <meta name="description" content="你只需要说出一个行业、产业或领域，私人情报所帮你打开领域地图，找到人物、信源和知识引擎。" />
     <style>
-      :root { color-scheme: dark; }
-      body { min-height: 100vh; margin: 0; display: grid; place-items: center; color: #FFFFFF; background: #061B31; font: 16px/1.7 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif; }
-      main { width: min(640px, calc(100% - 48px)); }
-      p { color: rgb(255 255 255 / 66%); }
-      a { display: inline-block; margin-top: 12px; padding: 12px 18px; color: #061B31; background: #FFFFFF; text-decoration: none; border-radius: 4px; }
+      :root {
+        --fallback-ink: #061B31;
+        --fallback-white: #FFFFFF;
+        --fallback-white-66: rgb(255 255 255 / 66%);
+        --fallback-min-height: 100vh;
+        --fallback-content-max-width: 640px;
+        --fallback-page-gutter: 48px;
+        --fallback-body-size: 16px;
+        --fallback-body-line-height: 1.7;
+        --fallback-link-margin-top: 12px;
+        --fallback-link-padding: 12px 18px;
+        --fallback-link-radius: 4px;
+        --fallback-font: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", sans-serif;
+        color-scheme: dark;
+      }
+
+      body {
+        min-height: var(--fallback-min-height);
+        margin: 0;
+        display: grid;
+        place-items: center;
+        color: var(--fallback-white);
+        background: var(--fallback-ink);
+        font: var(--fallback-body-size) / var(--fallback-body-line-height) var(--fallback-font);
+      }
+
+      main {
+        width: min(var(--fallback-content-max-width), calc(100% - var(--fallback-page-gutter)));
+      }
+
+      p {
+        color: var(--fallback-white-66);
+      }
+
+      a {
+        display: inline-block;
+        margin-top: var(--fallback-link-margin-top);
+        padding: var(--fallback-link-padding);
+        color: var(--fallback-ink);
+        background: var(--fallback-white);
+        text-decoration: none;
+        border-radius: var(--fallback-link-radius);
+      }
     </style>
   </head>
   <body>
