@@ -17,14 +17,15 @@
 
 需要这套能力的人，往往不会使用 RSS、爬虫、Prompt、数据库和 GitHub 工作流；会搭工具的人，又常常不了解他们真正要做的业务判断。这就是“会用 AI 的人”和“真正需要情报的人”之间的断层。
 
-**私人情报所要解决的，是让非 AI 专业人士也能从一个现实问题出发，用 AI 建立自己的领域情报体系。**使用者不必先学习技术黑话，只需说清楚：正在做什么判断、最怕漏掉什么变化、希望持续知道什么。系统再把它变成能够采集、验证、解释、推送和改进的工作流。
+**私人情报所要解决的，是让非 AI 专业人士也能从一个领域关键词出发，用 AI 建立自己的领域情报体系。**使用者不必先学会提问，也不必先学习技术黑话；只需说出“我想了解/进入数字文旅产业”，系统就先帮他展开领域地图、关键人物、优质信源和知识引擎。等底图建立后，再把具体判断变成可持续追踪的工作流。
 
-日报、网页和推送只是交付形式。真正的产品是方法论：知道该问什么、谁最早知道、哪些来源过去有效、目前还缺什么，以及这些信息如何支持下一步判断。
+日报、网页和推送只是交付形式。真正的产品是方法论：先知道这个领域由什么组成、谁在其中持续产生信息、哪些来源过去有效、目前还缺什么，再把这些信息用于下一步判断。
 
 ## 核心方法论
 
 ~~~text
-决策目的
+Domain Seed
+→ Domain Map / Vocabulary / Participants
 → Intelligence Requirement Graph
 → Essential Information Elements
 → Expert Attention Reconstruction
@@ -32,27 +33,29 @@
 → Source Portfolio
 → Coverage Audit
 → Domain-ranked Daily Brief
-→ 人工反馈
+→ Focused Watch / 人工反馈
 ~~~
 
-它把“我想关注某个领域”变成一组可审计的问题：
+它先把“我只知道一个领域”变成一张可持续扩展的底图，再把其中的方向变成可审计的问题：
 
-- 我到底要支持哪一个判断？
-- 为了这个判断，哪些信息必须持续掌握？
+- 这个领域由哪些板块、参与者、术语和业务链组成？
+- 哪些人物、机构、项目和资料正在定义或改变这个领域？
+- 哪些信息要素必须长期掌握，哪些来源分别承担确认、解释、发现和反馈？
+- 如果我已经有具体判断，它需要什么 PIR 和 EIE？
 - 哪些专家、机构、论文、项目和事件能暴露早期信号？
 - 一个来源在当时是否真的可获得，过去是否证明过价值？
 - 当前组合覆盖了什么，仍然不知道什么？
 - 每日简报是否保留证据、时间和下一步查证路径？
 
-因此，同一套工程可以服务机器人、数据要素、文旅、网络安全、教育、农业或任何新领域；每个领域都应从自己的决策目的和信息要素开始，而不是把 AI 领域的栏目和阈值直接复制过去。
+因此，同一套工程可以服务机器人、数据要素、文旅、网络安全、教育、农业或任何新领域；每个领域都从自己的 Domain Seed 开始，再逐步形成决策目的、信息要素和观察规则，而不是把 AI 领域的栏目和阈值直接复制过去。
 
 ## 给两类使用者的入口
 
 ### 如果你是专业领域从业者
 
-先打开[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)，理解它如何从文旅、制造、教育和个人工作现场的问题开始。然后阅读[面向专业从业者的使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)，用自己的工作语言写下一个要支持的判断，再按[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)建立第一组 PIR、EIE 和来源角色。
+先打开[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)，输入一个领域关键词，例如“数字文旅产业”，理解它如何先展开领域底图，再进入具体问题。然后阅读[面向专业从业者的使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)，按[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)建立领域地图、来源角色，必要时再补 PIR、EIE 和 Focused Watch。
 
-你不需要先成为程序员。你需要先提供专业问题，私人情报所负责把问题翻译成可以长期运行的情报机制。
+你不需要先成为程序员，也不需要先提出专业问题。你只要提供领域，私人情报所负责把它翻译成可以长期运行的情报机制。
 
 ### 如果你是工程协作者
 
@@ -74,7 +77,7 @@ uv run --project packages/domain-intelligence dib \
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
-| skills/domain-intelligence-bootstrap/ | 将新领域问题路由到核心流程的 Skill |
+| skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |
 | docs/PROJECT_SCOPE_AND_ATTRIBUTION.md | 项目主次、第三方来源和版权边界 |
 

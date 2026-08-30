@@ -2,7 +2,7 @@
 
 一个面向任意领域的、可审计的情报自举内核，是私人情报所的通用工程核心。
 
-它解决的不是“再抓一批新闻”，而是：给定一个决策目的，声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，再按预算选择互补来源，最后生成有证据链接的领域日报。
+它解决的不是“再抓一批新闻”，而是：从一个行业、产业或知识域关键词开始，先建立领域地图、人物与机构、信源结构和知识引擎；当用户选出具体方向后，再声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，按预算选择互补来源，最后生成有证据链接的领域日报。
 
 这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中早期保留的 AI News Radar、伯乐 Skill 和 Radar Skill 只是历史或实验性的采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
@@ -40,12 +40,23 @@ uv run --project packages/domain-intelligence ruff check packages/domain-intelli
 
 输入是一个 JSON Bundle，包含：
 
-1. `profile`：决策场景、PIR、EIE、主题权重和事件优先级；
+1. `profile`：至少包含 `domain`；也可以包含领域别名、进入动机、Focused Watch 的决策场景、PIR、EIE、主题权重和事件优先级；
 2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；
 3. `attention_query`：种子专家、主题和回放时点；
 4. `benchmark`：Event、Nugget、Source、Observation 和 Cutoff；
 5. `signals`：待生成日报的结构化信号；
 6. 预算、来源数量、日报窗口和输出上限。
+
+最小的领域入口不要求先写专业问题：
+
+```python
+DomainProfile(
+    domain="数字文旅产业",
+    domain_aliases=("数字旅游", "文旅数字化"),
+)
+```
+
+它默认处于 `domain_foundation` 模式。完成领域底图后，才按需要补充 `decision_context`、PIR 和 EIE，并切换到 `focused_watch`。
 
 所有边界输入由 Pydantic v2 模型解析，内部算法只接收已解析对象。示例文件是完整的最小可运行 Bundle：`examples/data-elements.json`。
 

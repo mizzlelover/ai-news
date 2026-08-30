@@ -5,7 +5,7 @@ description: "Use when a user wants to bootstrap an information radar for a new 
 
 # 私人情报所核心入口：Domain Intelligence Bootstrap
 
-把“领域 → 信息生态”落成可审计的 Source Portfolio 和 Daily Brief。它适用于新领域建模、来源发现与评价、历史回放、覆盖审计和方法论/工程交接。
+把“一个领域关键词 → 信息生态”落成可审计的 Domain Map、Source Portfolio 和 Daily Brief。它适用于刚进入领域时的底图初始化，也适用于在底图之上继续做来源发现与评价、历史回放、覆盖审计和方法论/工程交接。
 
 ## 先读
 
@@ -23,12 +23,13 @@ description: "Use when a user wants to bootstrap an information radar for a new 
 
 ## 工作流
 
-1. 先把用户目的写成 `DomainProfile`，明确 PIR、EIE、主题权重和事件优先级。
-2. 将 Expert、Source、typed Attention Edge 和证据时间整理成 `BootstrapInput`；每条边保留关系类型、主题相关性、证据置信度、观察时间和证据 URL。
-3. 用 `dib <input.json> --output-dir <dir>` 运行 EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
-4. 先看 `bootstrap-report.json` 的结构化结果，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
-5. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
-6. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把早期 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+1. 先用一个领域名称或关键词初始化 `DomainProfile`；补充别名和进入动机，但不要要求用户先写专业问题。
+2. 从 Domain Seed 建立领域边界、词典、观察面、人物/机构和来源候选；领域底图完成后，再明确 PIR、EIE、主题权重和事件优先级。
+3. 将 Expert、Source、typed Attention Edge 和证据时间整理成 `BootstrapInput`；每条边保留关系类型、主题相关性、证据置信度、观察时间和证据 URL。
+4. 用 `dib <input.json> --output-dir <dir>` 运行 EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
+5. 先看 `bootstrap-report.json` 的结构化结果，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
+6. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
+7. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把早期 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
 
 ## 关键判据
 

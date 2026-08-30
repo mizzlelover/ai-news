@@ -3,9 +3,10 @@
 ## Scope
 
 This repo's primary product is Private Intelligence Observatory: a
-domain-agnostic intelligence methodology and runtime covering decision context,
-intelligence requirements, expert attention reconstruction, historical replay,
-source portfolio, coverage audit, and daily brief delivery. The old AI News
+domain-agnostic intelligence methodology and runtime covering domain seeds,
+domain maps, decision context, intelligence requirements, expert attention
+reconstruction, historical replay, source portfolio, coverage audit, and daily
+brief delivery. The old AI News
 Radar reader interface has been removed from the release surface. Early
 collection scripts, data, and Scout/Bole Skills remain only as optional
 historical or experimental engineering references.
@@ -17,8 +18,9 @@ historical or experimental engineering references.
 - Do not commit private feeds, secrets, tokens, cookies, or `.env` values.
 - Do not commit `feeds/follow.opml`; use `feeds/follow.example.opml` as the public template.
 - Prefer stable public RSS/Atom/OPML sources before adding custom scrapers.
-- Keep the core methodology visible: do not make AI-news collection or old
-  reader assets the default project story.
+- Keep the core methodology visible: start product and documentation from a
+  domain keyword and its map; do not make AI-news collection or old reader
+  assets the default project story.
 - Preserve `NOTICE.md` and `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md` when changing
   or redistributing retained upstream collection references.
 

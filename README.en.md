@@ -15,14 +15,16 @@
 
 Most AI assistants, daily briefings, and knowledge engines are built around AI practitioners tracking AI. Professionals in tourism, manufacturing, education, agriculture, healthcare, energy, city building, and other domains also need to track policy, projects, technology, competition, supply chains, and markets. Very few tools help them turn that need into a durable operating system.
 
-The people who need this capability often do not work with RSS, crawlers, prompts, databases, or GitHub workflows. The people who can build those tools often do not know the user's actual decision context. Private Intelligence Observatory closes that gap: start with a real professional question, then use AI to turn it into a maintainable process for collection, verification, interpretation, delivery, and improvement.
+The people who need this capability often do not work with RSS, crawlers, prompts, databases, or GitHub workflows. They may not even know which professional question to ask when they first enter a field. Private Intelligence Observatory closes that gap: start with one domain keyword, let the system build the map, people, sources, and knowledge engine, then turn a chosen question into a maintainable process for collection, verification, interpretation, delivery, and improvement.
 
 A daily brief, web page, or notification is only a delivery format. The product is the method: what to ask, who is likely to know first, which sources have proved useful, what remains uncovered, and how evidence supports the next decision.
 
 ## Core methodology
 
 ~~~text
-Decision context
+Domain seed
+→ Domain map / vocabulary / participants
+→ Decision context
 → Intelligence Requirement Graph
 → Essential Information Elements
 → Expert Attention Reconstruction
@@ -30,27 +32,29 @@ Decision context
 → Source Portfolio
 → Coverage Audit
 → Domain-ranked Daily Brief
-→ Human feedback
+→ Focused watch / human feedback
 ~~~
 
-The system turns “I want to follow this domain” into auditable questions:
+The system first turns “I only know this domain” into a durable field map, then into auditable questions:
 
-- Which decision should the intelligence support?
-- Which information elements must remain visible?
+- What are this domain's boundaries, participants, vocabulary, and operating chains?
+- Which people, organizations, projects, and artifacts define or change it?
+- Which information elements must remain visible, and which sources cover confirmation, interpretation, discovery, and frontline feedback?
+- Once I have a specific decision, which requirements and information elements should become a focused watch?
 - Which experts, institutions, artifacts, and events expose early signals?
 - Was a source actually available at the time, and has it proved useful historically?
 - What does the current portfolio cover, and what remains unknown?
 - Does the brief preserve evidence, timing, and a path for further checking?
 
-The same engine can support robotics, data assets, tourism, cybersecurity, education, agriculture, or a new domain. Each domain starts from its own decision context and information requirements rather than copying AI-news categories and thresholds.
+The same engine can support robotics, data assets, tourism, cybersecurity, education, agriculture, or a new domain. Each domain starts from its own seed and map, then develops decision context and information requirements rather than copying AI-news categories and thresholds.
 
 ## Start from the audience you are serving
 
 ### If you work in a professional domain
 
-Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) to see how the system starts from real questions in tourism, manufacturing, education, and individual work. Then read the [practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md), write down one decision to support, and use the [core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) to define your first PIRs, EIEs, and source roles.
+Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism”. See how the system builds the map before asking you to choose a focused question. Then read the [practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) and use the [core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) to define the domain, source roles, and, when needed, your first PIRs and EIEs.
 
-You do not need to become an engineer first. Bring the professional question; Private Intelligence Observatory turns it into a durable intelligence mechanism.
+You do not need to become an engineer first, or arrive with a polished professional question. Bring the domain; Private Intelligence Observatory turns it into a durable intelligence mechanism.
 
 ### If you are an engineering collaborator
 
@@ -68,7 +72,7 @@ uv run --project packages/domain-intelligence dib \
 
 | Path | Purpose |
 | --- | --- |
-| demo/ | Audience-facing product demo, scenarios, and methodology visuals |
+| demo/ | Audience-facing product demo, domain-first entry, and methodology visuals |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | Application guide for non-technical users |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | Methodology, metrics, and boundaries |
 | packages/domain-intelligence/ | Runnable core engine and minimal Bundle |

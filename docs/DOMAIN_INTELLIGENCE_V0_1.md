@@ -4,40 +4,59 @@
 
 ## 1. 定位
 
-这不是把更多 RSS 堆到一个页面，而是把“领域 → 信息生态”变成一条可复盘的工程流水线：
+这不是把更多 RSS 堆到一个页面，也不是要求刚进入行业的人先写出专业问题，而是把“一个领域关键词 → 可持续的信息生态”变成一条可复盘的工程流水线：
 
 ```text
-决策目的
-→ Intelligence Requirement Graph
-→ Source Archetypes
+Domain Seed
+→ Domain Boundary / Vocabulary / Map
+→ Topic and Essential Information Elements
 → Expert Attention Reconstruction
-→ Temporal Source Benchmark
+→ Source Archetypes and Temporal Benchmark
 → Source Portfolio
+→ Knowledge Graph / Domain Memory
 → Coverage Audit
 → Domain-ranked Daily Brief
-→ Feedback
+→ Optional Focused Watch / Feedback
 ```
 
-本版本把可证伪的核心机制落成了一个离线、确定性的 Python 包。公开的 AI/文旅日报站仍由既有 `scripts/update_news.py` 负责采集；新包负责把已结构化的来源、证据和信号转成可审计的情报资产。
+本版本把可证伪的核心机制落成了一个离线、确定性的 Python 包。它允许只用一个 `domain` 初始化领域底图；当用户从底图中选出具体方向后，再补充 `decision_context`、PIR 和更细的 EIE。公开的 AI/文旅日报站仍由既有 `scripts/update_news.py` 负责采集；新包负责把已结构化的来源、证据和信号转成可审计的情报资产。
 
 ## 2. 方法论原则
 
-### 2.1 需求先于搜索
+### 2.1 领域入口先于具体问题
 
-每个领域必须先声明：
+每个领域先声明一个最小 `DomainProfile`：
+
+- `domain`：行业、产业、知识域或细分领域的名称；
+- `domain_aliases`：同义词、旧称、上下游称呼和检索变体；
+- `domain_intent`：用户为什么想进入或了解它，可暂缺；
+- `mode`：默认是 `domain_foundation`，需要长期追踪某个判断时切换为 `focused_watch`。
+
+领域底图建立后，再逐步声明：
 
 - `decision_context`：情报要服务什么判断；
 - `IntelligenceRequirement`：必须回答的问题；
 - `EssentialInformationElement`：回答问题必须掌握的具体信息；
 - `EventPriority`：哪些事件类型应该进入日报优先级。
 
-覆盖率的分母就是声明过的 EIE 数量或权重，不用“找到多少网页”替代。
+覆盖率的分母就是已经确认的 EIE 数量或权重，不用“找到多少网页”替代。领域初始化阶段可以暂时没有 EIE；此时系统的任务是发现和整理观察面，而不是伪造覆盖率。
 
-### 2.2 Source 与 Acquisition 分离
+### 2.2 两层工作模式
+
+私人情报所把“建立领域体系”和“追踪具体问题”分开，但让两者可以衔接：
+
+| 层级 | 输入 | 主要输出 | 适用时机 |
+| --- | --- | --- | --- |
+| `domain_foundation` | 一个领域名称或关键词 | 领域边界、词典、参与者、来源地图、知识引擎底图和基础日报 | 刚进入领域，或希望先了解全貌 |
+| `focused_watch` | 领域底图 + 一个判断/问题 | PIR、细化 EIE、事件优先级、历史回放和专项推送 | 已经知道要持续盯住哪条线 |
+
+普通 AI 深度研究通常回答一次具体问题；私人情报所先让使用者拥有一个可持续更新的领域系统，再把一次性问题纳入长期观察。`decision_context` 不是入口门槛，而是第二层的定向器。
+
+### 2.3 Source 与 Acquisition 分离
 
 `SourceProfile` 描述信息生产者的角色、权威性、可靠性、主题和历史表现；`AcquisitionCapability` 描述 RSS、Atom、JSON、Sitemap、API 等获取路径。登录态、私有邮箱和不稳定桥接源必须留在外部适配层，不进入公共默认配置。
 
-### 2.3 Source Role 不等于 Reliability
+### 2.4 Source Role 不等于 Reliability
 
 同一个组合需要不同角色：
 
@@ -149,12 +168,13 @@ uv run --project packages/domain-intelligence \
 
 ## 10. 当前边界与下一阶段
 
-V0.1 已实现通用决策与评价内核，但没有把外部搜索、爬虫、LLM 语义判断、数据库或调度器硬编码进核心。这样可以在边界上复用早期采集工程的成熟零件，也能把私有来源和不同领域适配器隔离在边界上；这些零件不构成私人情报所的产品入口。
+V0.1 已实现领域情报的评价内核，并在 `DomainProfile` 中支持“只给领域名称”的最小初始化；它没有把外部搜索、爬虫、LLM 语义判断、数据库或调度器硬编码进核心。这样可以在边界上复用早期采集工程的成熟零件，也能把私有来源和不同领域适配器隔离在边界上；这些零件不构成私人情报所的产品入口。
 
 下一阶段应按冻结 Benchmark 推进：
 
-1. 选一个公开资料丰富的领域，建立 15～20 个异质 Expert Seed；
-2. 记录每条关系边的来源 URL、观察时间和证据置信度；
-3. 冻结历史 cutoff，补齐 Event × Nugget 标注；
-4. 比较普通热门列表与 EAR 的跨圈层来源及 Marginal Portfolio Gain；
-5. 只有通过回放和覆盖审计的来源，才进入长期采集组合。
+1. 选一个公开资料丰富的领域，从 Domain Seed 生成领域边界、词典和 6～10 个观察面；
+2. 为每个观察面建立 15～20 个异质 Expert Seed、人物/机构和来源候选；
+3. 记录每条关系边的来源 URL、观察时间和证据置信度；
+4. 冻结历史 cutoff，补齐 Event × Nugget 标注；
+5. 比较普通热门列表与 EAR 的跨圈层来源及 Marginal Portfolio Gain；
+6. 只有通过回放和覆盖审计的来源，才进入长期采集组合；再从底图中选择具体问题建立 Focused Watch。

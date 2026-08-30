@@ -15,18 +15,19 @@
 它面向所有想把 AI 用到自己专业判断中的人，尤其是那些没有现成情报团队、也不熟悉技术工具的行业从业者。核心任务不是“抓更多新闻”，而是把以下闭环工程化：
 
 ```text
-决策目的
-→ 情报需求图
-→ 必需信息要素
+领域关键词
+→ 领域边界、词典与地图
+→ 观察面与必需信息要素
 → 专家注意力重建
 → 历史截点回放
 → 信源组合优化
+→ 知识引擎
 → 覆盖缺口审计
 → 领域日报与推送
-→ 人工反馈
+→ 可选的具体问题追踪与人工反馈
 ```
 
-日报、网页和推送都是输出与交付形态；需求建模、证据时间、信源评价、组合选择和反馈闭环才是本项目的核心价值。
+使用者可以只给出“数字文旅产业”这样的领域关键词开始。具体决策目的、PIR 和 EIE 在领域底图建立后逐步补齐。日报、网页和推送都是输出与交付形态；领域建模、证据时间、信源评价、组合选择和反馈闭环才是本项目的核心价值。
 
 ## 2. 本项目新增的核心资产
 
@@ -37,7 +38,7 @@
 | `docs/DOMAIN_INTELLIGENCE_V0_1.md` | 方法论、指标、边界和下一阶段实验 |
 | `demo/` | 面向专业从业者的价值说明、使用场景、方法论图示和可交互示例入口 |
 | `DESIGN.md` | 演示站的信息架构、视觉系统、可访问性和验收契约 |
-| `packages/domain-intelligence/` | DomainProfile、PIR/EIE、EAR、point-in-time replay、Portfolio、Coverage 和 Daily Brief 引擎 |
+| `packages/domain-intelligence/` | Domain Seed/DomainProfile、领域底图、PIR/EIE、EAR、point-in-time replay、Portfolio、Coverage 和 Daily Brief 引擎 |
 | `skills/domain-intelligence-bootstrap/` | 面向新领域建模、回放、组合和审计的核心 Skill 路由 |
 | `packages/domain-intelligence/examples/` | 可复现的最小领域 Bundle，不代表某个外部项目的原始数据 |
 
@@ -75,7 +76,7 @@
 
 ## 6. 使用边界
 
-- 用户要为一个新领域建立情报体系：先使用 `domain-intelligence-bootstrap`，从决策目的和 EIE 开始。
+- 用户要为一个新领域建立情报体系：先使用 `domain-intelligence-bootstrap`，从 Domain Seed 和领域底图开始；底图完成后再补充决策目的和 EIE。
 - 用户需要研究早期 AI 新闻采集流程：可以查看仓库中保留的历史参考，但应在交付说明中注明上游来源和 MIT 版权；它不代表私人情报所的公开产品。
 - 用户要做新的行业、产业或知识域适配：复用采集器的接口可以，不能直接复制 AI 领域的栏目、阈值和“伯乐”叙事作为领域方法。
 - 任何日报输出都应保留证据链接、来源角色、可获得时间和覆盖缺口，不以网页数量或单一热度分数宣称完成情报建设。

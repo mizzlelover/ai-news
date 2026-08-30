@@ -1,79 +1,92 @@
-const scenarioData = {
-  tourism: {
-    question: "是否投入新的县域文旅线路？",
-    type: "市场信号",
-    headline: "周边目的地开始把研学客群从团队游转向周末小团。",
-    why: "这不是“市场已经验证”的结论，但说明竞品正在争夺同一客群，应优先补查客单价、复购和淡季承载能力。",
-    sources: "项目运营方 · 行业解释源",
-    status: "候选信号，等待数据确认",
-    gap: "本地游客结构与真实转化率",
+const domainData = {
+  "digital-tourism": {
+    name: "数字文旅产业",
+    summary: "先把行业的参与者、业务链和变化来源找全，再决定你要深入哪一条线。",
+    map: "政策与规则 · 技术与产品 · 项目与场景 · 市场与运营",
+    people: "主管部门 · 平台企业 · 项目运营者 · 研究者",
+    sources: "政策原文 · 项目/招采 · 厂商一手 · 行业解释",
+    engine: "领域词典 + 人物/机构图 + 来源组合 + 每日简报",
+    next: "先把领域看全，再进入具体问题和日常追踪",
   },
-  manufacturing: {
-    question: "明年要不要替换一类关键设备供应商？",
-    type: "供应链信号",
-    headline: "两家下游工厂开始调整设备验收指标，交付周期也出现分化。",
-    why: "先不要只看报价。指标变化可能影响换线成本和良率，应补查现场验证、备件周期与已有客户的连续运行记录。",
-    sources: "下游采购方 · 厂商技术源",
-    status: "早期信号，等待现场证据",
-    gap: "同工况下的连续运行表现",
+  robotics: {
+    name: "机器人产业",
+    summary: "先分清本体、核心零部件、模型、场景和交付链，再看哪些方向真的在落地。",
+    map: "本体与零部件 · 模型与控制 · 场景应用 · 供应链与交付",
+    people: "研发团队 · 厂商与集成商 · 下游客户 · 标准与研究机构",
+    sources: "标准原文 · 产品发布 · 招投标/客户 · 工程实践",
+    engine: "技术词典 + 产业链图 + 产品/项目档案 + 每日简报",
+    next: "从产业链地图里选一条线，继续建立长期观察",
+  },
+  "low-altitude": {
+    name: "低空经济",
+    summary: "先建立政策、基础设施、飞行器、运营场景和监管要求之间的全景关系。",
+    map: "政策与空域 · 飞行器与设施 · 运营场景 · 安全与监管",
+    people: "主管部门 · 飞行器企业 · 运营方 · 空域与安全专家",
+    sources: "政策/标准 · 试点项目 · 企业一手 · 运营数据",
+    engine: "领域词典 + 政策图谱 + 项目与主体档案 + 每日简报",
+    next: "从全景关系里找到最值得跟踪的应用方向",
   },
   education: {
-    question: "一种新的课程方法是否已经可复制？",
-    type: "落地信号",
-    headline: "三个学校试点开始公开课程结构，但学习结果仍然缺少横向比较。",
-    why: "从“有人提出”走到“可以复制”还差一段。下一步应区分课程设计、教师培训和学生结果，不把案例数量当成效果证据。",
-    sources: "学校试点 · 研究解释源",
-    status: "试点阶段，结果待核",
-    gap: "跨学校、跨周期的学习结果",
-  },
-  practitioner: {
-    question: "未来三个月，什么最可能改变我的工作方式？",
-    type: "变化信号",
-    headline: "一个原本只在小范围讨论的规则变化，开始被客户和同行同时提及。",
-    why: "单条讨论还不能成为结论，但跨角色出现意味着值得建立观察项。先确认规则原文，再看它是否会进入合同、流程或采购要求。",
-    sources: "客户反馈 · 行业社区 · 原始文件",
-    status: "观察项，等待权威确认",
-    gap: "规则生效时间与实际执行范围",
+    name: "职业教育",
+    summary: "先看政策、学校、专业、课程、企业需求和就业结果如何连成一条教育链。",
+    map: "政策与专业 · 学校与课程 · 企业需求 · 教师与学习结果",
+    people: "教育主管部门 · 学校与教师 · 用人企业 · 研究者",
+    sources: "政策原文 · 学校实践 · 企业招聘 · 研究解释",
+    engine: "概念词典 + 学校/企业图 + 实践证据库 + 每日简报",
+    next: "再从领域底图里选择一个专业方向深入",
   },
 };
 
-const tabs = [...document.querySelectorAll(".scenario-tab")];
-const panel = document.querySelector("#scenario-panel");
+const domainInput = document.querySelector("#domain-input");
+const domainBuild = document.querySelector("#domain-build");
+const domainPanel = document.querySelector("#domain-panel");
+const domainSuggestions = [...document.querySelectorAll(".domain-suggestion")];
 
-function updateScenario(key) {
-  const data = scenarioData[key];
-  const activeTab = tabs.find((tab) => tab.dataset.scenario === key);
-  if (!data || !activeTab || !panel) return;
+function customDomainData(name) {
+  return {
+    name,
+    summary: "先围绕这个领域补齐边界、参与者、关键变化和可信来源，再逐步形成你的长期观察。",
+    map: "政策与规则 · 核心技术与产品 · 企业与项目 · 人物与机构",
+    people: "主管部门 · 头部企业 · 一线实践者 · 研究与解释者",
+    sources: "官方原文 · 项目记录 · 企业一手 · 行业社区",
+    engine: "领域词典 + 参与者图 + 信源组合 + 每日简报",
+    next: "先把这个领域看全，再进入具体问题和日常追踪",
+  };
+}
 
-  tabs.forEach((tab) => {
-    const isActive = tab === activeTab;
-    tab.classList.toggle("is-active", isActive);
-    tab.setAttribute("aria-selected", String(isActive));
-    tab.tabIndex = isActive ? 0 : -1;
+function updateDomain(key) {
+  if (!domainInput || !domainPanel) return;
+  const inputName = domainInput.value.trim();
+  const data = domainData[key] || (inputName ? customDomainData(inputName) : null);
+  if (!data) return;
+
+  domainInput.value = data.name;
+  domainSuggestions.forEach((suggestion) => {
+    const isActive = suggestion.dataset.domainKey === key;
+    suggestion.classList.toggle("is-active", isActive);
+    suggestion.setAttribute("aria-pressed", String(isActive));
   });
 
-  panel.classList.add("is-changing");
-  panel.setAttribute("aria-labelledby", activeTab.id);
+  domainPanel.classList.add("is-changing");
   window.setTimeout(() => {
     Object.entries(data).forEach(([field, value]) => {
-      const target = panel.querySelector(`[data-field="${field}"]`);
+      const target = domainPanel.querySelector("[data-field=\"" + field + "\"]");
       if (target) target.textContent = value;
     });
-    panel.classList.remove("is-changing");
+    domainPanel.classList.remove("is-changing");
   }, 110);
 }
 
-tabs.forEach((tab, index) => {
-  tab.addEventListener("click", () => updateScenario(tab.dataset.scenario));
-  tab.addEventListener("keydown", (event) => {
-    const directions = { ArrowDown: 1, ArrowRight: 1, ArrowUp: -1, ArrowLeft: -1 };
-    if (!(event.key in directions)) return;
-    event.preventDefault();
-    const nextIndex = (index + directions[event.key] + tabs.length) % tabs.length;
-    const nextTab = tabs[nextIndex];
-    nextTab.focus();
-    updateScenario(nextTab.dataset.scenario);
-  });
+domainSuggestions.forEach((suggestion) => {
+  suggestion.setAttribute("aria-pressed", String(suggestion.classList.contains("is-active")));
+  suggestion.addEventListener("click", () => updateDomain(suggestion.dataset.domainKey));
+});
+
+domainBuild?.addEventListener("click", () => updateDomain());
+domainInput?.addEventListener("keydown", (event) => {
+  if (event.key !== "Enter") return;
+  event.preventDefault();
+  updateDomain();
 });
 
 const nav = document.querySelector("[data-nav]");

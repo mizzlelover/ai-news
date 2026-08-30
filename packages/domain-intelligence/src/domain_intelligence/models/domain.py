@@ -3,7 +3,7 @@ from __future__ import annotations
 from pydantic import Field
 
 from domain_intelligence.models.core import StrictModel
-from domain_intelligence.models.types import ElementId, EventId, TopicId
+from domain_intelligence.models.types import ElementId, EventId, IntelligenceMode, TopicId
 
 
 class EssentialInformationElement(StrictModel):
@@ -40,7 +40,10 @@ class StopRules(StrictModel):
 
 class DomainProfile(StrictModel):
     domain: str = Field(min_length=1)
-    decision_context: str = Field(min_length=1)
+    domain_aliases: tuple[str, ...] = ()
+    domain_intent: str | None = Field(default=None, min_length=1)
+    mode: IntelligenceMode = IntelligenceMode.DOMAIN_FOUNDATION
+    decision_context: str | None = Field(default=None, min_length=1)
     requirements: tuple[IntelligenceRequirement, ...] = ()
     elements: tuple[EssentialInformationElement, ...] = ()
     topic_weights: tuple[TopicWeight, ...] = ()

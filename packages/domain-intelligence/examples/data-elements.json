@@ -1,6 +1,7 @@
 {
   "profile": {
     "domain": "data-elements",
+    "mode": "focused_watch",
     "decision_context": "track policy, market adoption, and overseas practice",
     "requirements": [
       {

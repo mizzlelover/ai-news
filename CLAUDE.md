@@ -13,9 +13,10 @@ values. Keep the public repo usable without secrets.
 
 The product direction is methodology-first:
 
-- Core layer: decision context, intelligence requirements, EIE coverage denominator,
-  expert attention reconstruction, point-in-time replay, source portfolio,
-  coverage audit, and domain-ranked daily brief.
+- Core layer: domain seed and map, optional decision context, intelligence
+  requirements, EIE coverage denominator, expert attention reconstruction,
+  point-in-time replay, source portfolio, coverage audit, and domain-ranked
+  daily brief.
 - Boundary layer: source adapters, delivery channels, and the Private Intelligence
   Observatory demo. The old AI News Radar reader interface is no longer shipped.
 
@@ -25,6 +26,6 @@ historical or experimental engineering references and must be described as
 based on LearnPrompt/ai-news-radar, with its MIT and LearnPrompt copyright notice
 preserved. The old reader page and its page-specific assets are removed.
 
-When adding a new domain, start from the core Bundle and declare the decision
-context, PIR, EIE, source role, availability time, and audit output before
-choosing a collection adapter. Prefer stable public sources at the boundary.
+When adding a new domain, start from a domain seed and establish its map before
+declaring a focused decision context, PIR, EIE, source role, availability time,
+and audit output. Prefer stable public sources at the boundary.

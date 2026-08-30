@@ -12,6 +12,11 @@ NuggetId = NewType("NuggetId", str)
 SignalId = NewType("SignalId", str)
 
 
+class IntelligenceMode(StrEnum):
+    DOMAIN_FOUNDATION = "domain_foundation"
+    FOCUSED_WATCH = "focused_watch"
+
+
 class SourceRole(StrEnum):
     OFFICIAL_PRIMARY = "official_primary"
     EXPERT_INTERPRETER = "expert_interpreter"
