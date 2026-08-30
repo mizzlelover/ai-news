@@ -6,6 +6,12 @@
 
 这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中早期保留的 AI News Radar、伯乐 Skill 和 Radar Skill 只是历史或实验性的采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
+## 面向谁
+
+这个引擎首先服务两类使用者：刚进入一个领域、没有知识背景且不知道该看谁和该信谁的人；以及已经在领域里、手上有一些专业信源但信息覆盖不够广的人。两类使用者都从同一个目标开始：构建这个领域的知识域，明确领域边界、参与者、专家、来源角色、证据和缺口，再让采集、更新、日报与推送围绕知识域运行。
+
+已经能够独立配置信源、搭建日报并维护知识引擎的人，不是本项目的主要目标用户；他们可以复用本包的工程组件。`domain_foundation` 是面向前两类使用者的共同起点，`focused_watch` 则是在领域知识域建立后，对某个判断或问题做进一步追踪。已有信源在工程上通过 Bundle 的 `attention_graph` 作为种子传入，不是新进入者的前置条件。
+
 ## 快速运行
 
 在仓库根目录执行：
@@ -41,13 +47,13 @@ uv run --project packages/domain-intelligence ruff check packages/domain-intelli
 输入是一个 JSON Bundle，包含：
 
 1. `profile`：至少包含 `domain`；也可以包含领域别名、进入动机、Focused Watch 的决策场景、PIR、EIE、主题权重和事件优先级；
-2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；
+2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；对已经有信源的使用者，现有来源和专家从这里作为扩展种子进入；
 3. `attention_query`：种子专家、主题和回放时点；
 4. `benchmark`：Event、Nugget、Source、Observation 和 Cutoff；
 5. `signals`：待生成日报的结构化信号；
 6. 预算、来源数量、日报窗口和输出上限。
 
-最小的领域入口不要求先写专业问题：
+最小的领域入口不要求先写专业问题，也不要求先准备信源清单：
 
 ```python
 DomainProfile(

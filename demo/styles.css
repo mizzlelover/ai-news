@@ -1581,7 +1581,7 @@ strong {
   color: var(--ink);
 }
 
-.entrance-engineer {
+.entrance-practitioner {
   color: var(--white);
   border-color: var(--ink);
   background: var(--ink);
@@ -1594,7 +1594,7 @@ strong {
   color: var(--ink-soft);
 }
 
-.entrance-engineer .entrance-top {
+.entrance-practitioner .entrance-top {
   color: var(--white-66);
 }
 
@@ -1604,7 +1604,7 @@ strong {
   font-size: var(--text-default);
 }
 
-.entrance-engineer .entrance-number {
+.entrance-practitioner .entrance-number {
   color: var(--magenta);
 }
 
@@ -1624,7 +1624,7 @@ strong {
   line-height: 1.8;
 }
 
-.entrance-engineer p {
+.entrance-practitioner p {
   color: var(--white-66);
 }
 
@@ -1642,7 +1642,7 @@ strong {
   gap: var(--entrance-link-hover-gap);
 }
 
-.entrance-engineer a {
+.entrance-practitioner a {
   color: var(--magenta);
 }
 

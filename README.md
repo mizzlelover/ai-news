@@ -2,7 +2,7 @@
 
 ## Private Intelligence Observatory
 
-**让每一个专业领域，都能用 AI 建立自己的可审计、可持续情报体系。**
+**你不必先知道该看谁。给我一个领域，私人情报所帮你把它搭成可持续的情报知识域。**
 
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
@@ -15,11 +15,13 @@
 
 现在网上的 AI 助手、日报和知识引擎，大多围绕 AI 从业者自己的信息需求搭建。做文旅、制造、教育、农业、医疗、能源、城市建设，或其他专业工作的用户，同样需要持续掌握政策、项目、技术、竞争、供应链和市场变化，却很少有人帮他们把这件事做成一套能长期运行的机制。
 
-需要这套能力的人，往往不会使用 RSS、爬虫、Prompt、数据库和 GitHub 工作流；会搭工具的人，又常常不了解他们真正要做的业务判断。这就是“会用 AI 的人”和“真正需要情报的人”之间的断层。
+真正的断层，不只是“有没有工具”，而是最需要这套能力的人往往还没有进入情报工作的起点：他不知道这个领域由什么组成，不知道该看谁、该信谁，也不知道应该先提出什么问题。即使已经在领域里工作的人，手上有一些专业信源，也常常只覆盖自己熟悉的一条线，缺少一张能发现盲区的领域地图。
 
-**私人情报所要解决的，是让非 AI 专业人士也能从一个领域关键词出发，用 AI 建立自己的领域情报体系。**使用者不必先学会提问，也不必先学习技术黑话；只需说出“我想了解/进入数字文旅产业”，系统就先帮他展开领域地图、关键人物、优质信源和知识引擎。等底图建立后，再把具体判断变成可持续追踪的工作流。
+**私人情报所首先服务两类人：刚进入一个领域、几乎没有知识背景的人；以及已经在领域里，但希望把信源和视野拓宽的人。**两类人的共同目标不是先订一份日报，而是从一个领域关键词开始，把“该知道什么、该看谁、该信什么”逐步搭成自己的领域知识域，再借助工具持续更新、生成日报、推送变化，最后形成可以长期使用的知识引擎。
 
-日报、网页和推送只是交付形式。真正的产品是方法论：先知道这个领域由什么组成、谁在其中持续产生信息、哪些来源过去有效、目前还缺什么，再把这些信息用于下一步判断。
+已经能够独立使用 AI 配置信源、搭建日报并维护知识引擎的人，不是本项目的主要目标用户；他们可以借鉴工程实现，但不构成私人情报所要解决的核心矛盾。
+
+日报、网页和推送只是交付形式。真正的产品是方法论：先建立领域边界、人物与专家、来源角色和证据结构，验证哪些来源过去有效、目前还缺什么，再把这些信息用于下一步判断。
 
 ## 核心方法论
 
@@ -51,15 +53,19 @@ Domain Seed
 
 ## 给两类使用者的入口
 
-### 如果你是专业领域从业者
+### 第一类，也是最重要的一类：刚进入一个领域的人
 
-先打开[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)，输入一个领域关键词，例如“数字文旅产业”，理解它如何先展开领域底图，再进入具体问题。然后阅读[面向专业从业者的使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)，按[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)建立领域地图、来源角色，必要时再补 PIR、EIE 和 Focused Watch。
+你可能只有一个行业、产业或知识域的名字，完全不知道从哪里开始，也不知道哪个专家值得信、哪个来源值得长期跟。先打开[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)，输入一个领域关键词，例如“数字文旅产业”，看它如何从领域底图开始，帮你找到观察面、参与者、专家和信源。再阅读[面向领域使用者的指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)，不必先写专业问题，也不必先学会工具配置。
 
-你不需要先成为程序员，也不需要先提出专业问题。你只要提供领域，私人情报所负责把它翻译成可以长期运行的情报机制。
+### 第二类：已经在领域里，但信息覆盖还不够广的人
+
+你已经有一些专业信源、专家或工作材料，只是它们可能集中在熟悉的圈层，难以发现相邻参与者、早期信号和长期缺口。先用[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)建立领域底图，再把已有来源交给[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)和使用者指南，比较“我已经知道什么”和“这个领域还缺什么”，最后再建立持续更新、日报和 Focused Watch。
+
+这两类入口使用的是同一套方法：先构建想进入或已经身处其中的领域知识域，再把知识域交给工具持续更新。
 
 ### 如果你是工程协作者
 
-从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。
+从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把领域知识域可靠地更新和交付给前两类使用者，而不是把现成的 AI 日报页面当成产品本身。
 
 最小可运行示例：
 

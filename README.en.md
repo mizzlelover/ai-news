@@ -2,7 +2,7 @@
 
 ## Domain Intelligence Methodology and Briefing System
 
-**Help professionals in any domain build an auditable, continuously maintained intelligence practice with AI.**
+**You do not need to know who to follow first. Give us a domain, and Private Intelligence Observatory helps you build its living intelligence knowledge domain.**
 
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
@@ -15,7 +15,11 @@
 
 Most AI assistants, daily briefings, and knowledge engines are built around AI practitioners tracking AI. Professionals in tourism, manufacturing, education, agriculture, healthcare, energy, city building, and other domains also need to track policy, projects, technology, competition, supply chains, and markets. Very few tools help them turn that need into a durable operating system.
 
-The people who need this capability often do not work with RSS, crawlers, prompts, databases, or GitHub workflows. They may not even know which professional question to ask when they first enter a field. Private Intelligence Observatory closes that gap: start with one domain keyword, let the system build the map, people, sources, and knowledge engine, then turn a chosen question into a maintainable process for collection, verification, interpretation, delivery, and improvement.
+The real gap is not simply whether a tool exists. The people who need this capability most often do not know what their domain contains, who is worth following, which source is trustworthy, or even which professional question to ask first. Practitioners who already have a few trusted sources may still see only a narrow slice of the field and miss adjacent participants, early signals, and structural gaps.
+
+**Private Intelligence Observatory serves two groups first: people entering a domain from zero, and people already working in a domain who want broader coverage.** Both groups are trying to build the same thing: a domain knowledge base of what matters, who knows it, which sources deserve attention, and what remains unknown. Tools then keep that knowledge domain updated, turn changes into briefs and notifications, and grow it into a maintainable knowledge engine.
+
+People who can already configure sources, build daily briefings, and maintain an AI knowledge engine on their own are not the primary audience. They may reuse the engineering pieces, but they are not the gap this project is designed to close.
 
 A daily brief, web page, or notification is only a delivery format. The product is the method: what to ask, who is likely to know first, which sources have proved useful, what remains uncovered, and how evidence supports the next decision.
 
@@ -50,15 +54,19 @@ The same engine can support robotics, data assets, tourism, cybersecurity, educa
 
 ## Start from the audience you are serving
 
-### If you work in a professional domain
+### First: people entering a domain from zero
 
-Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism”. See how the system builds the map before asking you to choose a focused question. Then read the [practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) and use the [core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) to define the domain, source roles, and, when needed, your first PIRs and EIEs.
+You may only have the name of an industry, sector, or knowledge domain. You do not know where to start, which expert to trust, or which sources deserve a place in your working system. Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism”. The [user guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) explains how to begin without a polished question or technical setup.
 
-You do not need to become an engineer first, or arrive with a polished professional question. Bring the domain; Private Intelligence Observatory turns it into a durable intelligence mechanism.
+### Second: practitioners whose coverage is still narrow
+
+You already have trusted sources, experts, or working materials, but they cover only familiar circles or one line of the field. Use the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and [core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) to build the wider domain map, discover missing source roles, and then add a maintainable watch, daily brief, or notification flow.
+
+Both paths use the same method: build the domain knowledge base first, then use tools to keep it current.
 
 ### If you are an engineering collaborator
 
-Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters.
+Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable for the two user groups above, not to turn an existing AI-news page into the product.
 
 Minimal runnable example:
 
