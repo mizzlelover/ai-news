@@ -16,13 +16,14 @@ The product direction is methodology-first:
 - Core layer: decision context, intelligence requirements, EIE coverage denominator,
   expert attention reconstruction, point-in-time replay, source portfolio,
   coverage audit, and domain-ranked daily brief.
-- Boundary layer: source adapters, delivery channels, static pages, and optional
-  AI News Radar compatibility components.
+- Boundary layer: source adapters, delivery channels, and the Private Intelligence
+  Observatory demo. The old AI News Radar reader interface is no longer shipped.
 
 `skills/ai-news-radar/`, `skills/radar/`, the existing AI/文旅 fetch pipeline,
-and its static page are not the core method of this project. They are retained
-for reuse and must be described as based on LearnPrompt/ai-news-radar, with its
-MIT and LearnPrompt copyright notice preserved.
+and its data are not the core method of this project. They are retained only as
+historical or experimental engineering references and must be described as
+based on LearnPrompt/ai-news-radar, with its MIT and LearnPrompt copyright notice
+preserved. The old reader page and its page-specific assets are removed.
 
 When adding a new domain, start from the core Bundle and declare the decision
 context, PIR, EIE, source role, availability time, and audit output before

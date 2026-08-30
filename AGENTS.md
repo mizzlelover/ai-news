@@ -2,11 +2,13 @@
 
 ## Scope
 
-This repo's primary product is a domain-agnostic intelligence methodology and
-runtime: decision context, intelligence requirements, expert attention
-reconstruction, historical replay, source portfolio, coverage audit, and daily
-brief delivery. The existing AI News Radar static site and Scout/Bole Skills are
-optional compatibility components for AI/tech collection and publishing.
+This repo's primary product is Private Intelligence Observatory: a
+domain-agnostic intelligence methodology and runtime covering decision context,
+intelligence requirements, expert attention reconstruction, historical replay,
+source portfolio, coverage audit, and daily brief delivery. The old AI News
+Radar reader interface has been removed from the release surface. Early
+collection scripts, data, and Scout/Bole Skills remain only as optional
+historical or experimental engineering references.
 
 ## Working Rules
 
@@ -15,10 +17,10 @@ optional compatibility components for AI/tech collection and publishing.
 - Do not commit private feeds, secrets, tokens, cookies, or `.env` values.
 - Do not commit `feeds/follow.opml`; use `feeds/follow.example.opml` as the public template.
 - Prefer stable public RSS/Atom/OPML sources before adding custom scrapers.
-- Keep the core methodology visible: do not make AI-news collection or the
-  existing static page the default project story.
+- Keep the core methodology visible: do not make AI-news collection or old
+  reader assets the default project story.
 - Preserve `NOTICE.md` and `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md` when changing
-  or redistributing the retained AI News Radar compatibility components.
+  or redistributing retained upstream collection references.
 
 ## Source Strategy
 
@@ -47,5 +49,5 @@ python -m http.server 8080
 ```
 
 For core agent workflows, read `skills/domain-intelligence-bootstrap/SKILL.md`.
-Read `skills/ai-news-radar/SKILL.md` only when working on the optional AI News
-Radar compatibility layer.
+Read `skills/ai-news-radar/SKILL.md` only when working on the retained historical
+or experimental collection reference.

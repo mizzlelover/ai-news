@@ -4,7 +4,7 @@
 
 它解决的不是“再抓一批新闻”，而是：给定一个决策目的，声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，再按预算选择互补来源，最后生成有证据链接的领域日报。
 
-这是本项目的核心工程，不依赖 AI News Radar 才能运行。AI News Radar、伯乐 Skill 和 Radar Skill 只是可选的采集/展示/消费适配层，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中早期保留的 AI News Radar、伯乐 Skill 和 Radar Skill 只是历史或实验性的采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 快速运行
 
@@ -61,9 +61,9 @@ pipeline.py   end-to-end orchestration
 io.py         JSON and Markdown report surface
 ```
 
-## 与 AI News Radar 的关系
+## 与早期采集适配器的关系
 
-仓库原有 `scripts/update_news.py` 是面向公开 AI/文旅场景的采集与静态发布层；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。
+仓库原有 `scripts/update_news.py` 是面向公开 AI/文旅场景的历史采集与静态数据发布层；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。旧阅读界面不再随本项目发布。
 
 这个边界允许：
 

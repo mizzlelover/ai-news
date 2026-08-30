@@ -2,11 +2,13 @@
 
 更新时间：2026-08-30
 
-这份说明用于解决一个容易产生误解的问题：本仓库同时保留了一个现成的 AI 日报工程和一套新建设的领域情报方法论。两者可以组合使用，但不是同一个产品，也不能把前者的作者、名称或能力包装成后者的原创成果。
+这份说明用于解决一个容易产生误解的问题：本仓库以私人情报所的方法论和核心引擎为主，另有早期采集工程作为边界参考。两者可以组合使用，但不是同一个产品，也不能把前者的作者、名称或能力包装成后者的原创成果。
 
 ## 1. 项目身份
 
 本项目的正式名称是：**私人情报所（Private Intelligence Observatory）**。
+
+旧的 AI News Reader / AI News Radar 兼容界面来源不完整，已从当前发布面移除。旧页面、根目录下为该页面服务的专属 `assets/` 和 `site.webmanifest` 均不再作为产品入口；根首页只进入私人情报所演示站。
 
 它的核心方法论是领域情报方法论，日报只是其中一种输出形态。
 
@@ -39,26 +41,26 @@
 | `skills/domain-intelligence-bootstrap/` | 面向新领域建模、回放、组合和审计的核心 Skill 路由 |
 | `packages/domain-intelligence/examples/` | 可复现的最小领域 Bundle，不代表某个外部项目的原始数据 |
 
-这些内容不依赖 AI News Radar 才成立。未来可以接入 RSS、数据库、搜索、邮件、企业系统或其他采集器，只要它们能在边界上提供结构化信号和证据时间。
+这些内容不依赖任何现成 AI 日报页面或 Skill 才成立。未来可以接入 RSS、数据库、搜索、邮件、企业系统或其他采集器，只要它们能在边界上提供结构化信号和证据时间。
 
-## 3. 可直接复用但不属于核心的方法论层
+## 3. 历史或实验性工程参考（不属于核心方法论层）
 
-仓库中以下内容作为**可选兼容适配层**保留：
+仓库中以下内容仅作为**历史或实验性工程参考**保留；它们不是公开产品入口，也不构成私人情报所的方法论核心：
 
 | 路径/能力 | 在本项目中的位置 | 不能被误读为 |
 | --- | --- | --- |
 | `skills/ai-news-radar/` | AI 新闻信源判断、录入和静态日报维护适配器 | 本项目的领域情报方法论 |
 | `skills/radar/` | 读取公开 AI 日报 JSON 的消费侧适配器 | 通用领域情报引擎 |
-| `scripts/update_news.py`、`legacy-ai-radar.html`、`assets/` | 既有 AI/文旅页面的采集和展示运行时；根首页已改为私人情报所入口 | 新领域的需求、回测和覆盖内核 |
+| `scripts/update_news.py`、`data/`、`feeds/` | 早期 AI/文旅场景的采集与数据运行时 | 新领域的需求、回测和覆盖内核，也不是当前产品页面 |
 | `.github/workflows/update-news.yml` | 既有 AI/文旅数据更新任务 | 通用领域情报调度器 |
 
-这些轮子在“公开 AI 日报、RSS/OPML、去重、静态发布”场景下确实可以直接使用，因此没有必要重新制造一个同功能的抓取器。但它们只能作为采集、展示或消费适配器，不能替代本项目针对不同领域重新建立的 PIR、EIE、信源组合和历史评价。
+这些轮子在“公开 AI 日报、RSS/OPML、去重、静态数据发布”场景下确实可以直接复用，因此没有必要为了同一类边界能力重复造轮子。但它们只能作为采集或消费适配参考，不能替代本项目针对不同领域重新建立的 PIR、EIE、信源组合和历史评价；本项目不再把旧阅读界面作为展示产品。
 
 ## 4. 外部工程来源
 
-上述 AI News Radar 兼容层来自或基于公开的 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 工程保留和适配。上游工程的公开 Skill 文件是 [`skills/ai-news-radar/SKILL.md`](https://github.com/LearnPrompt/ai-news-radar/blob/master/skills/ai-news-radar/SKILL.md)，文件元数据明确将其命名为 `ai-news-radar`，并将其定位为 AI News Radar 的维护 Skill。
+上述保留的 AI News Radar 采集参考来自或基于公开的 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 工程。上游工程的公开 Skill 文件是 [`skills/ai-news-radar/SKILL.md`](https://github.com/LearnPrompt/ai-news-radar/blob/master/skills/ai-news-radar/SKILL.md)，文件元数据明确将其命名为 `ai-news-radar`，并将其定位为 AI News Radar 的维护 Skill。
 
-因此，本仓库不把 `skills/ai-news-radar/` 称为本项目原创的“伯乐 Skill”，也不把 AI News Radar 的页面、采集器和 Radar Skill 作为本项目的核心成果。相关目录内均放置了就地来源提示，打开这些文件时应先阅读提示和本说明。
+因此，本仓库不把 `skills/ai-news-radar/` 称为本项目原创的“伯乐 Skill”，也不把 AI News Radar 的页面、采集器和 Radar Skill 作为本项目的核心成果。旧页面已移除；仍保留的参考目录内均放置了就地来源提示，打开这些文件时应先阅读提示和本说明。
 
 ## 5. 版权与许可证
 
@@ -74,7 +76,7 @@
 ## 6. 使用边界
 
 - 用户要为一个新领域建立情报体系：先使用 `domain-intelligence-bootstrap`，从决策目的和 EIE 开始。
-- 用户需要 AI 新闻采集或公开 AI 日报：可以使用 AI News Radar 兼容层，但应在交付说明中注明上游来源和 MIT 版权。
+- 用户需要研究早期 AI 新闻采集流程：可以查看仓库中保留的历史参考，但应在交付说明中注明上游来源和 MIT 版权；它不代表私人情报所的公开产品。
 - 用户要做新的行业、产业或知识域适配：复用采集器的接口可以，不能直接复制 AI 领域的栏目、阈值和“伯乐”叙事作为领域方法。
 - 任何日报输出都应保留证据链接、来源角色、可获得时间和覆盖缺口，不以网页数量或单一热度分数宣称完成情报建设。
 
@@ -83,8 +85,8 @@
 先问它解决的是哪一个问题：
 
 ```text
-来源怎么抓、网页怎么发、AI日报怎么读
-→ 兼容适配层
+来源怎么抓、数据怎么发、早期 AI 日报怎么读
+→ 历史或实验性采集参考
 
 这个领域必须知道什么、谁最早知道、来源是否被历史证明有效、组合是否覆盖决策需求
 → 本项目核心方法论
