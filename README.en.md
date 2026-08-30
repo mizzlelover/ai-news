@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
+[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 ---
 

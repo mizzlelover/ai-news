@@ -1,0 +1,324 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#061B31" />
+    <meta
+      name="description"
+      content="私人情报所阅读室：用使用者能看懂的语言，讲清领域情报方法、工程实现与来源边界。"
+    />
+    <link rel="canonical" href="https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html" />
+    <meta property="og:type" content="article" />
+    <meta property="og:locale" content="zh_CN" />
+    <meta property="og:title" content="私人情报所阅读室｜从一个领域开始建立情报系统" />
+    <meta
+      property="og:description"
+      content="面向专业从业者与工程协作者的使用指南、核心方法论、领域情报引擎和来源版权说明。"
+    />
+    <meta property="og:url" content="https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html" />
+    <title>私人情报所阅读室｜方法、使用与工程</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="reading.css" />
+  </head>
+  <body class="reading-page">
+    <div class="site-shell">
+      <header class="site-nav" data-nav>
+        <a class="brand" href="index.html#top" aria-label="私人情报所，回到演示站顶部">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 36 36" role="img">
+              <circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <circle cx="18" cy="18" r="8" fill="none" stroke="currentColor" stroke-width="1.4" />
+              <circle cx="23.5" cy="12.5" r="2.4" fill="currentColor" />
+            </svg>
+          </span>
+          <span class="brand-copy">
+            <strong>私人情报所</strong>
+            <small>PRIVATE INTELLIGENCE OBSERVATORY</small>
+          </span>
+        </a>
+        <nav class="nav-links" aria-label="演示站导航">
+          <a href="index.html#problem">为什么需要它</a>
+          <a href="index.html#domain-entry">从领域开始</a>
+          <a href="index.html#method">它怎么展开</a>
+        </nav>
+        <a class="nav-cta" href="index.html#domain-entry">开始搭建 <span aria-hidden="true">↗</span></a>
+      </header>
+
+      <main class="reading-main" id="top">
+        <section class="reading-hero" aria-labelledby="reading-title">
+          <div class="section-width reading-hero-grid">
+            <div>
+              <p class="eyebrow eyebrow-light"><span class="eyebrow-dot"></span>PRIVATE INTELLIGENCE OBSERVATORY / READING ROOM</p>
+              <h1 id="reading-title">先把方法读懂，<br /><span>再把领域打开。</span></h1>
+              <p class="reading-hero-copy">
+                这里把私人情报所的价值、使用场景、核心方法、工程边界和来源归属放在同一个可阅读的 HTML 页面里。你可以先按自己的身份阅读，再回到演示站输入一个领域关键词。
+              </p>
+            </div>
+            <aside class="reading-hero-card" aria-label="阅读室导航说明">
+              <small>四个入口</small>
+              <strong>使用者 · 方法 · 工程 · 归属</strong>
+              <p>不要求你先读懂技术。先判断它是否能为你的领域建立长期情报体系，再进入实现细节。</p>
+            </aside>
+          </div>
+        </section>
+
+        <div class="section-width reading-layout">
+          <aside class="reading-index" aria-label="阅读室目录">
+            <p>在这里回答</p>
+            <nav>
+              <a href="#guide">01 · 我怎么开始</a>
+              <a href="#method">02 · 方法怎么工作</a>
+              <a href="#engine">03 · 工程怎么运行</a>
+              <a href="#attribution">04 · 谁的成果</a>
+              <a class="reading-index-back" href="index.html#domain-entry">← 回到领域入口</a>
+            </nav>
+          </aside>
+
+          <div class="reading-content">
+            <article class="reading-article" id="guide" aria-labelledby="guide-title">
+              <p class="eyebrow">给使用者的入口</p>
+              <h2 id="guide-title">你不必先提出一个专业问题。</h2>
+              <p class="reading-lede">
+                如果你刚进入一个行业、产业或细分领域，手上只有“我想了解数字文旅产业”这样的关键词，这已经足够成为第一步。私人情报所先帮你建立领域底图，再让你决定下一步要深入什么。
+              </p>
+
+              <div class="reading-callout">
+                <strong>一句话定位</strong>
+                <p>私人情报所不是替你订一份 AI 日报，而是让你从一个领域关键词开始，逐步建立自己的地图、人物、信源、知识引擎、日报与持续追踪系统。</p>
+              </div>
+
+              <h3>这套东西为谁而做</h3>
+              <p>它服务于那些想用 AI 建立专业情报体系，却没有现成情报团队、也不熟悉技术工具的人：刚进入行业的从业者、需要建立行业全景的负责人、教育工作者、研究者，以及已经从业但过去没有把信息工作系统化的人。</p>
+              <p>网上很多工具要么围绕 AI 从业者追踪 AI，要么要求使用者先会写出专业问题。真正需要这套能力的人，反而常常不知道该看谁、该信谁、该从哪里开始。私人情报所把入口放回“领域”，而不是技术配置或一次性提问。</p>
+
+              <h3>你只需要提供什么</h3>
+              <div class="reading-soft-card">
+                <p><strong>我想了解/进入的领域是：数字文旅产业</strong></p>
+                <p>可选补充：我现在和它的关系是准备进入、正在从业，或需要研究。</p>
+                <p>你不需要先学会爬虫、RSS、API、数据库、Prompt 工程或 GitHub Actions。那些是实现层的零件，不是使用门槛。</p>
+              </div>
+
+              <h3>四个从一个关键词开始的场景</h3>
+              <div class="reading-scenario-grid">
+                <article class="reading-scenario">
+                  <small>场景一</small>
+                  <strong>县域文旅项目负责人</strong>
+                  <p>先看政策、项目、客群、供应商、运营方和竞争格局，再决定要不要深入某类项目和落地路径。</p>
+                </article>
+                <article class="reading-scenario">
+                  <small>场景二</small>
+                  <strong>制造业与供应链负责人</strong>
+                  <p>先铺开标准、设备、材料、交付、客户采用、竞品采购和现场反馈，不必先判断是否替换供应商。</p>
+                </article>
+                <article class="reading-scenario">
+                  <small>场景三</small>
+                  <strong>教育工作者或研究者</strong>
+                  <p>从职业教育、智能制造人才培养等领域名开始，连接政策、试点、论文、供应商、教师社区与学生反馈。</p>
+                </article>
+                <article class="reading-scenario">
+                  <small>场景四</small>
+                  <strong>已经有问题的行业人士</strong>
+                  <p>先用领域底图校准自己的信息边界，再把某个判断转成第二层 Focused Watch，而不是把一次研究误当成长期情报系统。</p>
+                </article>
+              </div>
+
+              <h3>从领域底图到每日简报</h3>
+              <div class="reading-flow" aria-label="使用者路径">
+                <div class="reading-flow-item"><span class="reading-flow-number">01</span><div><strong>一个领域关键词</strong><span>行业、产业、知识域、细分领域，甚至一个尚未整理的词都可以。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">02</span><div><strong>领域边界、词典与观察面</strong><span>先知道这个领域由什么组成，而不是立刻要求你写出完整提纲。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">03</span><div><strong>人物、机构、项目与资料</strong><span>找到正在定义、改变或最早感知这个领域变化的参与者。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">04</span><div><strong>不同角色的高质量信源</strong><span>官方原文负责确认，专家负责解释，前沿来源负责发现，一线记录负责观察落地。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">05</span><div><strong>历史回放、覆盖审计与日报</strong><span>回看来源过去是否有效，显示还不知道的地方，最后才生成日报与推送。</span></div></div>
+              </div>
+
+              <h3>一份好的简报长什么样</h3>
+              <div class="reading-callout">
+                <strong>数字文旅产业 · 候选信号</strong>
+                <p>今天发生了什么：周边两座目的地开始把研学客群从团队游转向周末小团。</p>
+                <p>为什么值得看：过去 14 天出现项目发布与课程调整两条独立运营方信号。</p>
+                <p>当前边界：这不是“市场已经验证”的结论，仍需补查运营数据、客单价和复购。</p>
+              </div>
+
+              <h3>怎么开始</h3>
+              <ol>
+                <li>回到<a href="index.html#domain-entry">领域入口</a>，输入一个行业、产业或关键词。</li>
+                <li>观察系统先展开领域地图、人物与机构、高质量信源和知识引擎。</li>
+                <li>从底图里选择真正想深入的方向，再建立具体问题的持续追踪。</li>
+                <li>如果需要工程协作，再进入工程与方法页面，不必让技术学习成为第一道门槛。</li>
+              </ol>
+            </article>
+
+            <article class="reading-article" id="method" aria-labelledby="method-title">
+              <p class="eyebrow">核心方法论 V0.1</p>
+              <h2 id="method-title">方法不是技术黑话，而是一条判断路径。</h2>
+              <p class="reading-lede">这套方法把“一个领域关键词 → 可持续的信息生态”变成一条可复盘的工程流水线。领域底图是核心，日报只是最后一种交付形态。</p>
+
+              <div class="reading-flow" aria-label="领域情报方法链">
+                <div class="reading-flow-item"><span class="reading-flow-number">01</span><div><strong>Domain Seed</strong><span>保存领域名称、别名和用户进入动机，允许只给一个词启动。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">02</span><div><strong>Domain Map + EIE</strong><span>把领域拆成边界、观察面和必须掌握的 Essential Information Elements。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">03</span><div><strong>Expert Attention Reconstruction</strong><span>从专家、来源、资料、组织和主题关系中重建专业注意力，而不是排粉丝榜。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">04</span><div><strong>Historical Replay</strong><span>在 point-in-time 截点上检验来源过去是否提前提供过有用信号。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">05</span><div><strong>Source Portfolio</strong><span>按角色、质量、成本和互补性组合来源，减少信息盲区。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">06</span><div><strong>Knowledge Engine + Coverage Audit</strong><span>记录已掌握、待确认和缺口，避免用网页数量伪造覆盖率。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">07</span><div><strong>Daily Brief + Focused Watch</strong><span>领域底图成熟后，再叠加日报、推送和具体问题追踪。</span></div></div>
+              </div>
+
+              <h3>两层工作模式</h3>
+              <div class="reading-table-wrap">
+                <table class="reading-table">
+                  <thead><tr><th>层级</th><th>输入</th><th>输出</th><th>适用时机</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>domain_foundation</strong></td><td>一个领域名称或关键词</td><td>边界、词典、参与者、来源地图、知识引擎底图</td><td>刚进入领域，或希望先了解全貌</td></tr>
+                    <tr><td><strong>focused_watch</strong></td><td>领域底图 + 一个判断/问题</td><td>PIR、细化 EIE、事件优先级、历史回放和专项推送</td><td>已经知道要持续盯住哪条线</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3>Source Role 不等于 Reliability</h3>
+              <p>不同来源承担不同观察职责，可靠性则回答它能否被信任。官方源可能权威但慢，专家源可能解释好但覆盖窄，前沿传感器可能早但噪音高，广覆盖源能防漏但需要筛选。</p>
+              <div class="reading-metric-grid">
+                <article class="reading-metric"><small>official_primary</small><strong>原始发布与权威确认</strong><p>政策、规则、公告和正式数据。</p></article>
+                <article class="reading-metric"><small>expert_interpreter</small><strong>解释机制与影响</strong><p>研究者、行业专家和专业分析。</p></article>
+                <article class="reading-metric"><small>frontier_sensor</small><strong>发现尚未主流化的信号</strong><p>前沿社区、现场记录和早期项目。</p></article>
+                <article class="reading-metric"><small>community</small><strong>观察使用与反馈</strong><p>从业者讨论、用户反馈和一线经验。</p></article>
+              </div>
+
+              <h3>三个必须可审计的机制</h3>
+              <div class="reading-module-grid">
+                <article class="reading-module"><small>EAR</small><strong>重建注意力网络</strong><p>每条边保存关系强度、主题相关性、证据置信度和观察时间，通过 Personalized PageRank 传播并做跨圈层校正。</p></article>
+                <article class="reading-module"><small>Historical Replay</small><strong>严格 point-in-time</strong><p>区分事实最早可获得时间与权威确认时间，只允许使用截止时已经可获得的观察。</p></article>
+                <article class="reading-module"><small>Portfolio</small><strong>优化互补组合</strong><p>综合角色、质量、成本、边际覆盖和 Bundle synergy，不把来源做成单一总榜。</p></article>
+                <article class="reading-module"><small>Coverage Audit</small><strong>知道自己不知道什么</strong><p>对每个 EIE 输出来源、覆盖比、缺口原因和历史证据状态，保留诚实的未知。</p></article>
+              </div>
+
+              <h3>来源生命周期</h3>
+              <pre class="reading-code">discovered → candidate → approved → observing → validated → active
+                    ├→ rejected             └→ watchlist → retired</pre>
+              <p>进入 active 前至少需要来源角色、主题或 EIE 映射、获取路径、证据记录和历史回放结果。来源健康下降时进入 watchlist，不自动删除。</p>
+
+              <h3>当前边界与下一步</h3>
+              <ul class="reading-checklist">
+                <li>核心引擎保持离线、确定性和可测试，不把外部搜索、爬虫、LLM、数据库或调度器硬编码进去。</li>
+                <li>选定一个公开资料丰富的领域，先从 Domain Seed 生成边界、词典和观察面。</li>
+                <li>为每个观察面建立异质 Expert Seed、人物/机构和来源候选，并记录关系证据与时间。</li>
+                <li>冻结历史 cutoff，比较普通热门列表与 EAR 的跨圈层来源及组合增益。</li>
+              </ul>
+            </article>
+
+            <article class="reading-article" id="engine" aria-labelledby="engine-title">
+              <p class="eyebrow">给工程协作者的入口</p>
+              <h2 id="engine-title">把领域地图变成可持续的情报引擎。</h2>
+              <p class="reading-lede">Domain Intelligence Bootstrap 是私人情报所的核心工程。它解决的不是“再抓一批新闻”，而是把来源、证据、覆盖缺口和领域日报排序纳入同一份可审计资产。</p>
+
+              <h3>最小领域入口</h3>
+              <pre class="reading-code">from domain_intelligence.models import DomainProfile
+
+profile = DomainProfile(
+    domain="数字文旅产业",
+    domain_aliases=("数字旅游", "文旅数字化"),
+)
+
+# 默认 mode: domain_foundation
+# 完成底图后，再补 decision_context、PIR、EIE
+</pre>
+              <p>领域初始化阶段可以暂时没有 EIE。系统此时的任务是发现和整理观察面，而不是伪造覆盖率。</p>
+
+              <h3>输入与输出</h3>
+              <div class="reading-table-wrap">
+                <table class="reading-table">
+                  <thead><tr><th>输入 Bundle</th><th>用途</th><th>输出</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>profile</strong></td><td>领域、别名、进入动机、决策场景、PIR、EIE</td><td rowspan="6">结构化 JSON 报告 + 人类可读的 HTML 阅读层 / Markdown 交接版</td></tr>
+                    <tr><td><strong>attention_graph</strong></td><td>Expert、Source、Artifact、Organization、Topic、Event 与 typed edge</td></tr>
+                    <tr><td><strong>attention_query</strong></td><td>种子专家、主题和回放时点</td></tr>
+                    <tr><td><strong>benchmark</strong></td><td>Event、Nugget、Observation、Cutoff</td></tr>
+                    <tr><td><strong>signals</strong></td><td>待生成领域日报的结构化信号</td></tr>
+                    <tr><td><strong>constraints</strong></td><td>预算、来源数量、日报窗口和输出上限</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3>运行最小 Bundle</h3>
+              <pre class="reading-code">uv run --project packages/domain-intelligence \
+  dib packages/domain-intelligence/examples/data-elements.json \
+  --output-dir /tmp/domain-intelligence-preview</pre>
+              <div class="reading-scenario-grid">
+                <article class="reading-scenario"><small>bootstrap-report.json</small><strong>给程序与审计流水线</strong><p>保留来源、证据、缺口、覆盖率和日报排序所需的结构化结果。</p></article>
+                <article class="reading-scenario"><small>bootstrap-report.md</small><strong>给交接与评审</strong><p>工程边界仍可输出 Markdown 交接版，但演示站的面向使用者阅读入口已经转为本 HTML 阅读室。</p></article>
+              </div>
+
+              <h3>模块分工</h3>
+              <div class="reading-module-grid">
+                <article class="reading-module"><small>graph.py</small><strong>EAR / 注意力传播</strong><p>根据 typed edge 和主题查询发现跨圈层来源。</p></article>
+                <article class="reading-module"><small>backtest.py</small><strong>历史回放</strong><p>按 available_at 做严格的来源评价。</p></article>
+                <article class="reading-module"><small>portfolio.py</small><strong>来源组合</strong><p>在预算和角色约束下选择互补来源。</p></article>
+                <article class="reading-module"><small>coverage.py</small><strong>覆盖审计</strong><p>以 EIE 作为分母，输出机器可读缺口。</p></article>
+                <article class="reading-module"><small>daily.py</small><strong>领域日报</strong><p>去重、排序并保留证据链接与来源角色。</p></article>
+                <article class="reading-module"><small>pipeline.py</small><strong>全链路编排</strong><p>把上述模块组合成一份可复现报告。</p></article>
+              </div>
+
+              <div class="reading-callout">
+                <strong>边界原则</strong>
+                <p>采集器、数据库、邮件、飞书、网页和推送都是可替换的边界适配器。领域模型、证据时间、来源评价、组合选择和覆盖审计才是核心工程。</p>
+              </div>
+            </article>
+
+            <article class="reading-article" id="attribution" aria-labelledby="attribution-title">
+              <p class="eyebrow">项目范围与来源 / 版权</p>
+              <h2 id="attribution-title">主产品是方法论，轮子只是边界参考。</h2>
+              <p class="reading-lede">私人情报所（Private Intelligence Observatory）以领域情报方法论、核心引擎和面向使用者的演示站为主线。仓库中保留的早期 AI News Radar 采集工程可以复用，但不能替代这条主线，也不能被包装成原创成果。</p>
+
+              <h3>本项目的核心资产</h3>
+              <ul class="reading-checklist">
+                <li>从领域关键词开始的 Domain Seed、Domain Map、EIE 和两层工作模式。</li>
+                <li>Expert Attention Reconstruction、历史截点回放、来源组合优化和 Coverage Audit。</li>
+                <li>面向文旅、制造、教育、农业、医疗、能源等领域的可替换适配边界。</li>
+                <li>面向不熟悉技术的专业从业者的使用场景、演示入口和可视化阅读层。</li>
+              </ul>
+
+              <h3>保留的历史或实验性参考</h3>
+              <div class="reading-table-wrap">
+                <table class="reading-table">
+                  <thead><tr><th>路径 / 能力</th><th>可以借鉴什么</th><th>不能被误读为</th></tr></thead>
+                  <tbody>
+                    <tr><td><strong>skills/ai-news-radar/</strong></td><td>AI 新闻信源判断、录入和静态日报维护适配</td><td>私人情报所的核心方法论或原创“伯乐 Skill”</td></tr>
+                    <tr><td><strong>skills/radar/</strong></td><td>公开 AI 日报 JSON 的消费侧适配</td><td>通用领域情报引擎</td></tr>
+                    <tr><td><strong>scripts/update_news.py / data / feeds</strong></td><td>RSS、OPML、去重和静态数据发布</td><td>新领域的需求、回测和覆盖内核</td></tr>
+                    <tr><td><strong>旧 AI News Reader 界面</strong></td><td>不再作为产品页面保留</td><td>私人情报所的当前入口</td></tr>
+                  </tbody>
+                </table>
+              </div>
+
+              <h3>外部工程来源</h3>
+              <p>仓库中保留的 AI News Radar 采集参考来自或基于公开的 <a href="https://github.com/LearnPrompt/ai-news-radar">LearnPrompt/ai-news-radar</a> 工程。上游公开 Skill 的元数据将其命名为 <code class="reading-inline-code">ai-news-radar</code>，定位是 AI News Radar 的维护 Skill。</p>
+              <p>因此，本项目不把仓库中的 <code class="reading-inline-code">skills/ai-news-radar/</code> 称为原创的“伯乐 Skill”，也不把 AI News Radar 的页面、采集器和 Radar Skill 当成私人情报所的核心成果。</p>
+
+              <div class="reading-callout reading-notice" id="notice">
+                <strong>NOTICE / 归属提示</strong>
+                <p><strong>主产品：</strong>私人情报所的方法论、领域情报模型、核心引擎、演示站和阅读室。</p>
+                <p><strong>第三方参考：</strong>保留的 AI News Radar 采集适配层来自或基于 LearnPrompt/ai-news-radar。</p>
+                <p><strong>许可证：</strong>上游公开工程为 MIT License，并保留 Copyright (c) 2026 LearnPrompt。来源不同不等于不能复用，许可证允许复用也不等于来源相同。</p>
+              </div>
+
+              <h3>以后如何判断新增内容属于哪一层</h3>
+              <div class="reading-flow">
+                <div class="reading-flow-item"><span class="reading-flow-number">A</span><div><strong>来源怎么抓、数据怎么发、早期 AI 日报怎么读</strong><span>归入历史或实验性采集参考。</span></div></div>
+                <div class="reading-flow-item"><span class="reading-flow-number">B</span><div><strong>这个领域必须知道什么、谁最早知道、来源是否被证明有效</strong><span>归入私人情报所核心方法论。</span></div></div>
+              </div>
+              <p class="reading-bottom-note">完整工程、许可证原文和就地来源提示仍保留在 GitHub 仓库；本阅读室负责把判断与边界以面向使用者的方式讲清楚。</p>
+            </article>
+          </div>
+        </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="section-width footer-grid">
+          <div class="footer-brand"><a class="brand" href="index.html#top"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 36 36"><circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" stroke-width="1.4" /><circle cx="18" cy="18" r="8" fill="none" stroke="currentColor" stroke-width="1.4" /><circle cx="23.5" cy="12.5" r="2.4" fill="currentColor" /></svg></span><span class="brand-copy"><strong>私人情报所</strong><small>PRIVATE INTELLIGENCE OBSERVATORY</small></span></a><p>把你的领域，变成长期工作的情报系统。</p></div>
+          <div class="footer-links"><div><span>继续阅读</span><a href="#guide">使用者入口</a><a href="#method">核心方法论</a></div><div><span>回到产品</span><a href="index.html#domain-entry">从领域开始</a><a href="https://github.com/mizzlelover/private-intelligence-observatory">GitHub 仓库</a></div><div><span>来源与归属</span><a href="#attribution">项目范围与版权</a><a href="#notice">NOTICE</a></div></div>
+        </div>
+        <div class="section-width footer-bottom"><span>© 2026 mizzlelover · Private Intelligence Observatory</span><span>方法论优先，采集与推送是可替换的边界。</span></div>
+      </footer>
+    </div>
+  </body>
+</html>

@@ -14,11 +14,13 @@
 python3 -m http.server 8080
 ~~~
 
-打开 http://127.0.0.1:8080/demo/。
+打开 http://127.0.0.1:8080/demo/；需要阅读方法、使用场景、工程入口和来源边界时，打开 http://127.0.0.1:8080/demo/reading.html。
 
 ## 页面组成
 
 - index.html：页面结构、SEO 元数据、结构化数据和面向使用者的领域优先叙事；
+- reading.html：面向使用者与协作者的 HTML 阅读室，不把 Markdown 文件作为演示站的阅读入口；
 - styles.css：设计 token、响应式布局、材质、状态和 reduced-motion；
+- reading.css：阅读室的长文排版、目录、表格、代码和响应式阅读层；
 - app.js：领域示例、关键词输入、动态领域展开和滚动显现；
 - assets/：本项目演示站使用的 Hero、工作现场和方法流程视觉资产。
