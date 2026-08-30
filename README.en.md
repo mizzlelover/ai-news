@@ -1,60 +1,63 @@
 <div align="center">
 
-# AI News Radar
+# Domain Intelligence Radar
 
-## 24h AI Updates Radar｜Scout Skill
+## Domain Intelligence Daily Briefing System
 
-**Scout Skill helps you find the thoroughbreds among a pile of sources, then turns scattered updates into a traceable AI story timeline.**
+**A decision-first system for turning overlooked domains, knowledge areas, industries, and sectors into auditable, continuously maintained intelligence radars.**
 
-[![GitHub stars](https://img.shields.io/github/stars/LearnPrompt/ai-news-radar?style=flat-square&color=f5c542)](https://github.com/LearnPrompt/ai-news-radar/stargazers)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green?style=flat-square)](https://learnprompt.github.io/ai-news-radar/)
-[![Actions](https://img.shields.io/github/actions/workflow/status/LearnPrompt/ai-news-radar/update-news.yml?branch=master&label=update&style=flat-square)](https://github.com/LearnPrompt/ai-news-radar/actions/workflows/update-news.yml)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-ai--radar%20%2B%20Scout-blueviolet?style=flat-square)](skills/radar/README.md)
+[![Domain Intelligence CI](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Live site](https://learnprompt.github.io/ai-news-radar/) · [中文](README.md) · [Radar Skill](skills/radar/README.md) · [Scout Skill](skills/ai-news-radar/README.md) · [Source strategy](docs/SOURCE_COVERAGE.md)
+[Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 </div>
 
 ---
 
-## Pick your lane in 30 seconds
+> **Scope and attribution:** the core of this project is the domain-intelligence methodology and engine. The retained AI News Radar, Radar Skill, and Scout/Bole Skill are optional compatibility components from or based on LearnPrompt/ai-news-radar, not this project's original core. Read [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) first.
 
-**① Just want the daily AI brief** → no install needed, open the [live site](https://learnprompt.github.io/ai-news-radar/).
+## What this project is
 
-**② Want your agent to read it for you** → install the Radar Skill (ai-radar). Zero API, zero key, zero server:
+This repository is methodology-first. Its core loop is:
 
-```bash
-npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
+```text
+Decision context
+→ Intelligence Requirement Graph
+→ Essential Information Elements
+→ Expert Attention Reconstruction
+→ Point-in-time Source Benchmark
+→ Source Portfolio
+→ Coverage Audit
+→ Domain-ranked Daily Brief
+→ Feedback
 ```
 
-Then just ask your agent: `What happened in AI today?`
+The daily brief is an output format. The durable value is the requirement model, evidence timeline, source evaluation, coverage denominator, and feedback loop behind it.
 
-![ai-radar demo](skills/radar/assets/demo.gif)
+## Start in 30 seconds
 
-**③ Want a radar that is fully yours** → fork this repo and let the in-repo [Scout Skill](skills/ai-news-radar/README.md) classify your sources and deploy GitHub Pages. Your sources, your data.
+1. Read the [core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) and define the decision context, PIRs, EIEs, topic weights, and event priorities.
+2. Run the [Domain Intelligence Bootstrap](packages/domain-intelligence/README.md):
 
-The three lanes are one road: read the brief → let your agent read it → run your own radar.
+```bash
+uv run --project packages/domain-intelligence dib \
+  packages/domain-intelligence/examples/data-elements.json \
+  --output-dir out/domain-intelligence
+```
 
----
+3. Convert public feeds, pages, databases, email, or other adapters into structured signals and pass them to the core engine. Collection, delivery, and a ready-made web page are replaceable boundary layers.
+4. If you only need an AI news brief, use the separately marked [AI News Radar compatibility layer](#optional-adapter-ai-news-radar--scout-skill). It is not this project's core methodology or an original Skill of this project.
 
-## What is this?
+## Scope, ownership, and attribution
 
-AI News Radar is an auto-updating 24h radar for AI updates. It does more than fetch AI news. It judges source quality first, merges the same event into a story timeline, then uses Scout picks, AI labels, source health, and AI ratio to help you decide:
+The core project additions are the domain-intelligence methodology, schemas, replay/portfolio/coverage engine, and domain adapter boundary. The retained AI News Radar page, fetch pipeline, Radar Skill, and Scout/Bole Skill are a separate compatibility layer. See [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) and [NOTICE](NOTICE.md) before treating those paths as project-original.
 
-what is worth reading, what deserves deeper research, and what is just noise.
+## Optional adapter: AI News Radar / Scout Skill
 
-Readers can open the page and scan the last 24 hours of AI, model, and developer-tool updates. Developers can fork this repo and connect their own OPML/RSS, public feeds, static pages, or AgentMail inboxes. Codex / Claude Code-style agents can use the in-repo **Scout Skill** to judge new sources, maintain fetch logic, and deploy to GitHub Pages.
+The remaining sections describe the optional AI News Radar compatibility layer, retained for reusable AI-news collection, deduplication, static publishing, and agent consumption. It does not replace domain requirements, historical replay, or coverage audit.
 
-This project will never be “one more news page”.
-
-Its core logic is **Scout Skill**. It helps you find the thoroughbreds among a pile of sources. Which sources are worth tracking long term? Which ones should become RSS/OPML inputs? Which ones only make sense through a paid API? Which sources update all day, but have less than 5% AI signal for what you actually care about?
-
-Judge first. Then connect.
-
-![AI News Radar current screenshot grid](assets/screenshots/ai-news-radar-current-grid.jpg)
-
-## Why Scout Skill?
+### Existing adapter capabilities
 
 Good updates are scattered everywhere.
 
@@ -68,13 +71,13 @@ Let Scout Skill handle the first pass: **which sources are thoroughbreds, and wh
 
 You can keep adding sources freely. You can also put a source into the input set, let it run for a week, and decide later whether it deserves to be promoted.
 
-AI News Radar was never just about fetching information.
+This compatibility layer was never just about fetching information.
 
 It is closer to a lightweight news pipeline: source judgement, fetching, deduplication, AI-relevance filtering, source health, and static web publishing. Once deployed, the core flow does not spend model tokens.
 
-## What it can do
+### What the adapter can do
 
-### For readers
+#### For readers
 
 - Open the live site and scan the last 24 hours of AI, model, Agent, developer-tool, and tech-ecosystem updates
 - Use “Scout Picks” to see high-value story timelines first, instead of manually filtering hundreds of items
@@ -83,22 +86,22 @@ It is closer to a lightweight news pipeline: source judgement, fetching, dedupli
 - See each item’s AI label, AI-relevance score, source platform, and publish time
 - Use source health and AI ratio to tell which sources are actually useful, and which ones update a lot but contain little AI signal
 
-### For content creators
+#### For content creators
 
 - Preserve original source links for deeper research, fact checking, and topic planning
 - Merge multiple sources for the same event, reducing duplicate reading
 - Use AI labels to judge whether an item is better for a post, short video, or hands-on tool test
 - Use signals such as multi-source overlap, official-first source, and single-source watch item to judge topic credibility and priority
 
-### For developers and agents
+#### For developers and agents
 
 - Requires no API key, login state, or LLM quota by default
 - Supports official RSS/changelog sources, OPML/RSS, public GitHub feed/JSON files, static pages, and AgentMail
 - GitHub Actions automatically generates `data/*.json` and publishes to GitHub Pages
-- Codex / Claude Code / Hermes / OpenClaw can use the in-repo Scout Skill to maintain sources, fetch logic, and the web page
+- Codex / Claude Code / Hermes / OpenClaw can use the retained compatibility Scout Skill to maintain AI sources, fetch logic, and the web page
 - Advanced sources can be connected through GitHub Secrets or local environment variables, without committing tokens, cookies, private OPML files, or email bodies
 
-## v0.7: from timeline to hot radar
+### Adapter history: v0.7
 
 v0.6 merged scattered messages into story lines. v0.7 answers the next question:
 
@@ -113,7 +116,7 @@ v0.7 ships these core pieces:
 
 Story merging, AI labels/scores, and source health from v0.6 remain the foundation. See [Releases](https://github.com/LearnPrompt/ai-news-radar/releases) for the full history.
 
-## How it works
+### How the adapter works
 
 ```mermaid
 flowchart LR
@@ -154,7 +157,7 @@ AI News Radar borrows from modern newsroom workflows. Dumping thousands of items
 
 It stays lightweight on purpose. The public version does not require an LLM API key, login state, cookies, X API access, or email access. When you need advanced sources, Scout Skill can connect them through GitHub Secrets or local environment variables.
 
-## Data outputs
+### Adapter data outputs
 
 Each update generates a set of static JSON files. The page only reads these files and does not need a backend service.
 
@@ -169,7 +172,7 @@ Core files include:
 
 If `daily-brief.json` is not available yet, the page falls back to candidate Scout signals; if it exists but no story passed the quality gate that day, the picks block hides entirely and the page shows the pure timeline.
 
-## Quick start
+### Adapter quick start
 
 Readers do not need to install anything. Open the live site directly.
 
@@ -199,7 +202,7 @@ cp feeds/follow.example.opml feeds/follow.opml
 python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.opml
 ```
 
-## Tutorial for agents
+### Adapter tutorial for agents
 
 If you want Codex / Claude Code / OpenClaw / Hermes to help you build your own version, say:
 
@@ -220,7 +223,7 @@ When a new agent takes over validation, read these first:
 - `docs/SOURCE_COVERAGE.md`
 - `docs/V2_PRODUCT_BRIEF.md`
 
-## GitHub Actions updates
+### Adapter GitHub Actions updates
 
 `.github/workflows/update-news.yml` is already configured.
 

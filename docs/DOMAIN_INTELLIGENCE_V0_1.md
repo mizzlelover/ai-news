@@ -1,5 +1,7 @@
 # Domain Intelligence Bootstrap V0.1
 
+本文件描述本项目的核心方法论。仓库内的 AI News Radar、Radar Skill 和伯乐 Skill 是可选的兼容适配层，不是本方法论的来源或替代品；详见 [项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+
 ## 1. 定位
 
 这不是把更多 RSS 堆到一个页面，而是把“领域 → 信息生态”变成一条可复盘的工程流水线：

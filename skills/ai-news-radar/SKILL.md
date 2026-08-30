@@ -3,6 +3,8 @@ name: ai-news-radar
 description: "Use when working on AI News Radar, 24 小时 AI 更新雷达, AI 更新雷达, 伯乐Skill, or Scout Skill: finding high-signal AI/tech sources, adding RSS/OPML/GitHub feeds, checking source health, updating the web UI, GitHub Actions, or GitHub Pages deployment."
 ---
 
+> 来源与归属：这是本仓库保留的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；上游 MIT 版权归属为 LearnPrompt。它不是本项目的核心方法论或原创伯乐 Skill。详见 `NOTICE.md` 和 `../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`。
+
 # AI News Radar
 
 ## First Reads

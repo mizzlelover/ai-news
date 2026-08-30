@@ -1,4 +1,6 @@
-# GPT Handoff: AI News Radar V2
+# GPT Handoff: AI News Radar Compatibility Layer V2
+
+> 文档性质：这是保留的 AI News Radar 兼容适配层历史交接文档，不是本项目当前的核心产品说明。新领域任务必须先阅读 `NOTICE.md`、`docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`、`docs/DOMAIN_INTELLIGENCE_V0_1.md` 和 `skills/domain-intelligence-bootstrap/SKILL.md`。
 
 Use this document to hand the project to a fresh GPT/Codex/Claude session for
 verification.

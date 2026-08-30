@@ -1,20 +1,31 @@
 {
-  "name": "ai-news-radar",
-  "owner": { "name": "LearnPrompt", "url": "https://github.com/LearnPrompt" },
-  "metadata": { "description": "Marketplace hosting AI News Radar and Domain Intelligence Bootstrap: 24h AI radar, source scouting, and auditable any-domain intelligence bootstrapping." },
+  "name": "domain-intelligence-radar",
+  "owner": { "name": "mizzlelover", "url": "https://github.com/mizzlelover" },
+  "metadata": { "description": "Methodology-first domain intelligence radar: requirements, evidence-time replay, source portfolios, coverage audits, and daily briefs, with an optional AI News Radar compatibility layer." },
   "plugins": [
     {
+      "name": "domain-intelligence-radar",
+      "description": "领域情报日报体系核心：从决策目的出发，建立需求图、专家注意力、历史回放、信源组合、覆盖审计和日报输出。",
+      "version": "0.2.0",
+      "author": { "name": "mizzlelover", "url": "https://github.com/mizzlelover" },
+      "source": "./",
+      "category": "research",
+      "homepage": "https://github.com/mizzlelover/ai-news",
+      "skills": [
+        "./skills/domain-intelligence-bootstrap"
+      ]
+    },
+    {
       "name": "ai-news-radar",
-      "description": "24小时AI更新雷达、伯乐信源Skill，以及可审计的任意领域情报自举Skill。",
-      "version": "1.1.0",
+      "description": "可选兼容适配层：来自或基于 LearnPrompt/ai-news-radar 的 AI 日报采集、信源维护和公开 JSON 消费 Skill；不是本项目核心方法论。",
+      "version": "1.1.1",
       "author": { "name": "LearnPrompt", "url": "https://github.com/LearnPrompt" },
       "source": "./",
       "category": "productivity",
       "homepage": "https://github.com/LearnPrompt/ai-news-radar",
       "skills": [
         "./skills/radar",
-        "./skills/ai-news-radar",
-        "./skills/domain-intelligence-bootstrap"
+        "./skills/ai-news-radar"
       ]
     }
   ]

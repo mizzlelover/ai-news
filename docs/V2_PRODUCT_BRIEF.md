@@ -1,4 +1,6 @@
-# AI News Radar V2 Product Brief
+# AI News Radar Compatibility Layer V2 Product Brief
+
+> 文档性质：这是 LearnPrompt/ai-news-radar 兼容适配层的历史产品简报，仅用于维护现有 AI/文旅采集与页面层。它不代表本项目的核心定位；当前核心定位见 `docs/DOMAIN_INTELLIGENCE_V0_1.md`。
 
 Generated from an Office Hours style product diagnostic plus a Superpowers style
 implementation loop.

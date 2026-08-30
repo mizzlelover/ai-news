@@ -4,6 +4,8 @@
 
 它解决的不是“再抓一批新闻”，而是：给定一个决策目的，声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，再按预算选择互补来源，最后生成有证据链接的领域日报。
 
+这是本项目的核心工程，不依赖 AI News Radar 才能运行。AI News Radar、伯乐 Skill 和 Radar Skill 只是可选的采集/展示/消费适配层，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+
 ## 快速运行
 
 在仓库根目录执行：

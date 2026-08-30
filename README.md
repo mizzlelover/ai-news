@@ -1,60 +1,63 @@
 <div align="center">
 
-# AI News Radar
+# 领域情报日报体系
 
-## 24小时AI更新雷达｜伯乐Skill
+## Domain Intelligence Radar
 
-**伯乐Skill（Scout Skill）帮你从一堆信源里选出千里马，并把分散消息合并成可追踪的AI故事线。**
+**面向互联网上长期无人系统关注的领域、知识域、行业和产业，建立可审计、可持续的情报体系。**
 
-[![GitHub stars](https://img.shields.io/github/stars/LearnPrompt/ai-news-radar?style=flat-square&color=f5c542)](https://github.com/LearnPrompt/ai-news-radar/stargazers)
-[![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-Live-green?style=flat-square)](https://learnprompt.github.io/ai-news-radar/)
-[![Actions](https://img.shields.io/github/actions/workflow/status/LearnPrompt/ai-news-radar/update-news.yml?branch=master&label=update&style=flat-square)](https://github.com/LearnPrompt/ai-news-radar/actions/workflows/update-news.yml)
-[![Agent Skills](https://img.shields.io/badge/Agent%20Skills-ai--radar%20%2B%20%E4%BC%AF%E4%B9%90-blueviolet?style=flat-square)](skills/radar/README.md)
+[![Domain Intelligence CI](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[在线页面](https://learnprompt.github.io/ai-news-radar/) · [English](README.en.md) · [雷达Skill](skills/radar/README.md) · [伯乐Skill](skills/ai-news-radar/README.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [信息源策略](docs/SOURCE_COVERAGE.md)
+[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 </div>
 
 ---
 
-## 30秒选边上车
-
-**① 只想看AI日报** → 不用装任何东西，直接打开[在线页面](https://learnprompt.github.io/ai-news-radar/)。
-
-**② 想让Agent替你读** → 装雷达Skill（ai-radar），零API、零Key、零服务器：
-
-```bash
-npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
-```
-
-装完对Agent说一句：`今天AI圈有什么？`
-
-![ai-radar demo](skills/radar/assets/demo.gif)
-
-**③ 想要一个完全属于自己的雷达** → fork本仓库，让内置的[伯乐Skill](skills/ai-news-radar/README.md)帮你录入信源、部署GitHub Pages。信源你选，数据归你。
-
-三层是一条路：看报 → 让Agent读报 → 自己办报。
-
----
+> **主次与来源说明：**本项目的核心是领域情报方法论与通用引擎；仓库内的 AI News Radar、Radar Skill 和伯乐 Skill 是来自或基于 LearnPrompt/ai-news-radar 的可选兼容适配层，不是本项目原创核心。请先读 [NOTICE](NOTICE.md) 和 [项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 这是什么
 
-AI News Radar是一个自动更新的24小时AI更新雷达。它不只是把AI新闻抓回来，会先判断信息源质量，把同一个事件合并成故事线，最后用伯乐Skill精选、AI标签、源健康和AI占比帮你判断，
+这是一个“领域情报日报体系”，不是一个以 AI 新闻网页为目的的聚合项目。
 
-什么信息值得看，什么值得深挖，什么只是噪音。
+它的核心价值是：面对互联网上长期无人系统关注的领域、知识域、行业或产业，先明确决策目的和必须掌握的信息，再重建专家注意力、评价信源历史表现、选择互补信源组合、审计覆盖缺口，最后持续产出可追溯的情报日报和推送。
 
-普通用户直接打开网页，看最近24小时AI、模型、开发者工具和技术生态更新。开发者可以fork这个仓库，接入自己的OPML/RSS、公开feed、静态页面或AgentMail邮箱。Codex / Claude Code这类 Agent 可以使用项目内置的 **伯乐Skill**，继续帮你判断新的信息源、维护抓取逻辑、部署 GitHub Pages。
+```text
+决策目的
+→ Intelligence Requirement Graph
+→ Essential Information Elements
+→ Expert Attention Reconstruction
+→ Point-in-time Source Benchmark
+→ Source Portfolio
+→ Coverage Audit
+→ Domain-ranked Daily Brief
+→ Feedback
+```
 
-这个项目永远都不会是“又一个新闻网页”。
+这里的日报只是输出形态，方法论和评价闭环才是项目主体。
 
-它的核心逻辑是**伯乐Skill**，帮你从一堆信源里选出千里马。哪些源值得长期追踪，哪些源适合做成RSS/OPML，哪些源只能接付费的API，哪些源看起来更新很多但实际上跟你长期关注的方面比方AI只占了里面的5%不到。
+## 30秒理解项目
 
-先判断清楚，再接入。
+**① 建立新领域** → 先读[核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md)，把用户目的拆成 PIR、EIE、主题权重和事件优先级。
 
-## 领域情报日报的通用引擎
+**② 运行核心工程** → 用[Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)执行 EAR、历史回放、组合优化、覆盖审计和日报生成：
 
-如果目标不是做AI日报，而是为数据要素、机器人、文旅或任意新领域建立可审计的情报体系，可以直接使用仓库内的 [Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)。它把用户目的拆成情报需求和必需信息要素，再执行专家注意力重建、历史截点回放、信源组合优化、覆盖审计和日报生成。
+```bash
+uv run --project packages/domain-intelligence dib \
+  packages/domain-intelligence/examples/data-elements.json \
+  --output-dir out/domain-intelligence
+```
+
+**③ 接入现实采集与推送** → 把公开 RSS、网页、数据库、邮件或其他适配器整理成结构化信号，再交给核心引擎；采集、推送和现成网页都是可替换的边界层。
+
+**④ 只想看 AI 日报** → 可以使用下方明确标注的 [AI News Radar 兼容适配层](#可选适配层ai-news-radar--伯乐-skill)，但它不是本项目的核心方法论，也不是本项目原创的伯乐 Skill。
+
+---
+
+## 核心工程：领域情报引擎
+
+如果目标是为数据要素、机器人、文旅、网络安全、教育或任意新领域建立可审计的情报体系，使用仓库内的 [Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)。它把用户目的拆成情报需求和必需信息要素，再执行专家注意力重建、历史截点回放、信源组合优化、覆盖审计和日报生成。
 
 完整方法论见 [领域情报日报体系 V0.1](docs/DOMAIN_INTELLIGENCE_V0_1.md)。最小示例：
 
@@ -66,9 +69,19 @@ uv run --project packages/domain-intelligence dib \
 
 输出的 `bootstrap-report.json` 可供后续系统消费，Markdown 报告用于人工复核和交接；它与现有 AI News Radar 的采集、RSS 和 GitHub Actions 保持边界分离。
 
-![AI News Radar 当前四宫格截图](assets/screenshots/ai-news-radar-current-grid.jpg)
+## 项目归属、来源与版权
 
-## 为什么需要伯乐Skill
+本项目的核心资产是本仓库新增并持续维护的领域情报方法论、数据模型、回放/组合/覆盖算法、通用引擎和领域适配边界。原有 AI News Radar 页面、采集脚本、雷达 Skill 和伯乐 Skill 属于单独的兼容适配层。
+
+完整的来源、版权、许可证和目录边界见 [项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。打开 `skills/ai-news-radar/` 或 `skills/radar/` 时，也应先看其中的来源说明。
+
+## 可选适配层：AI News Radar / 伯乐 Skill
+
+以下内容描述的是仓库中保留的 AI News Radar 兼容适配层，用于复用现成的 AI 日报采集、去重、静态页面和 Agent 消费流程。它不是领域情报体系的核心，也不能替代需求建模、历史回放和覆盖审计。
+
+![AI News Radar 兼容适配层页面截图](assets/screenshots/ai-news-radar-current-grid.jpg)
+
+### 伯乐 Skill（外部工程适配层）的既有能力
 
 好新闻分散在各处，
 
@@ -82,13 +95,13 @@ uv run --project packages/domain-intelligence dib \
 
 你可以随意增加信息源，还可以把一个信息源纳入输入范围，先让它在单独运行一周，再判断要不要录入。
 
-AI News Radar从来都不是单纯把信息抓回来，
+这个兼容适配层不只是把信息抓回来，
 
 它更像是一条轻量的新闻pipeline，把来源判断、抓取、去重、AI强相关过滤、信息源健康状态和静态网页发布串起来，上线后不消耗模型额度。
 
-## 能做什么
+### 适配层能做什么
 
-### 给普通读者
+#### 给普通读者
 
 - 打开在线页面，直接看最近24小时AI、模型、Agent、开发者工具和技术生态更新
 - 通过“伯乐精选”先看高价值故事线，再不用从几百条消息里肉眼筛选
@@ -97,22 +110,22 @@ AI News Radar从来都不是单纯把信息抓回来，
 - 看到每条消息的AI标签、AI相关性分数、来源平台和发布时间
 - 通过源健康和AI占比判断：哪些源是真有料，哪些源更新很多但AI含量低
 
-### 给内容创作者
+#### 给内容创作者
 
 - 保留原始来源链接，方便继续深挖、核对事实和做选题
 - 把同一个事件的多个来源聚合到一起，减少重复阅读
 - 用AI标签快速判断一条消息适合做图文、短视频、还是工具实测
 - 用多源重合、官方一手、单源观察等信号判断选题可信度和优先级
 
-### 给开发者和Agent
+#### 给开发者和Agent
 
 - 默认不需要 API Key、不需要登录态、不需要 LLM额度
 - 支持官方 RSS/changelog、精选 AI 媒体 RSS、OPML/RSS、公开 GitHub feed/JSON、静态页面、AgentMail 等来源类型
 - GitHub Actions自动生成 `data/*.json` 并发布到 GitHub Pages
-- Codex / Claude Code / Hermes / OpenClaw 可以通过项目内置的伯乐Skill继续维护信源、抓取逻辑和页面
+- Codex / Claude Code / Hermes / OpenClaw 可以通过兼容适配层中保留的伯乐Skill维护 AI 信源、抓取逻辑和页面
 - 高级来源可以通过 GitHub Secrets或本地环境变量接入，避免把 token、cookies、私有 OPML 和邮箱正文写进仓库
 
-## v0.7：从时间线到热点雷达
+### 适配层历史版本：v0.7
 
 v0.6 把分散的消息合并成了故事线。v0.7 回答的是下一个问题：
 
@@ -129,7 +142,7 @@ v0.7 重点能力包括：
 
 v0.6 引入的故事线合并、AI标签分数、源健康与AI占比，仍是这一切的地基。历次改动见 [Releases](https://github.com/LearnPrompt/ai-news-radar/releases)。
 
-## 工作原理
+### 适配层工作原理
 
 ```mermaid
 flowchart LR
@@ -171,7 +184,7 @@ AI News Radar学习了现代新闻学的技术，不是简单堆信息源，一�
 
 在保证稳定性的同时追求轻量化，公开版不要求用户配置LLM API Key，不依赖登录态，cookies，X API和邮箱。需要这些进阶能力时，可以通过伯乐Skill用GitHub Secrets或本地环境变量接入。
 
-## 数据产物
+### 适配层数据产物
 
 每次更新会生成一组静态JSON文件，页面只读取这些文件，不需要后端服务。
 
@@ -186,7 +199,7 @@ AI News Radar学习了现代新闻学的技术，不是简单堆信息源，一�
 
 如果 `daily-brief.json` 暂时不存在，页面会回退到候选信号列表；如果 `stories-merged.json` 存在，页面会用完整故事池补齐后续故事线，避免只有少量精选故事被接入。
 
-## 快速开始
+### 适配层快速开始
 
 普通用户不用安装，直接打开在线页面即可。
 
@@ -216,7 +229,7 @@ cp feeds/follow.example.opml feeds/follow.opml
 python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml feeds/follow.opml
 ```
 
-## 给Agent看的教程
+### 适配层 Agent 教程
 
 如果你想让Codex / Claude Code / OpenClaw / Hermes帮你搭自己的版本，可以直接说：
 
@@ -224,7 +237,7 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 请使用伯乐Skill，先问我要信息源清单，然后帮我判断每个信源该用RSS、公开feed、静态页面、Jina兜底、AgentMail邮箱还是跳过。目标是部署一个不需要服务器、能用GitHub Actions自动更新的 AI 日报网站。不要把任何API Key、cookies、token、私有邮件内容写入仓库。
 ```
 
-项目内置两个 Skill，分工是「雷达管读，伯乐管选」：
+兼容适配层保留两个上游相关 Skill，分工是「雷达管读，伯乐管选」：
 
 - `skills/radar/`：**ai-radar 雷达Skill**（消费侧）——不用fork就能装，自然语言问AI资讯，读本站公开JSON出简报
 - `skills/ai-news-radar/`：**伯乐Skill**（维护侧）——fork后用它录入信源、维护抓取逻辑、部署 GitHub Pages
@@ -237,7 +250,7 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 - `docs/SOURCE_COVERAGE.md`
 - `docs/V2_PRODUCT_BRIEF.md`
 
-## GitHub 自动更新
+### 适配层 GitHub 自动更新
 
 `.github/workflows/update-news.yml` 已经配置好定时任务。
 

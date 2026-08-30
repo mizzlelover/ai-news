@@ -7,6 +7,8 @@ description: |
   不要用于维护 AI News Radar 仓库本身（加信源、改抓取逻辑、部署 Pages——那用伯乐Skill / ai-news-radar）；不要用于非AI的通用新闻查询；不要用于需要登录态的私有信息源。
 ---
 
+> 来源与归属：这是本仓库保留的可选 AI 日报消费适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；上游 MIT 版权归属为 LearnPrompt。它不是本项目的核心方法论或原创 Skill。详见 `NOTICE.md` 和 `../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`。
+
 # 雷达Skill | AI Radar
 
 你在帮用户从 AI News Radar 的公开数据里取出最近 24 小时的 AI 信号，整理成中文简报。

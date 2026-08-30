@@ -1,10 +1,12 @@
-# AI News Radar Agent Notes
+# Domain Intelligence Radar Agent Notes
 
 ## Scope
 
-This repo powers the public AI News Radar static site and Scout Skill source workflow.
-Use it for high-signal AI/tech news aggregation, OPML-based custom feeds,
-GitHub Actions refresh jobs, and GitHub Pages publishing.
+This repo's primary product is a domain-agnostic intelligence methodology and
+runtime: decision context, intelligence requirements, expert attention
+reconstruction, historical replay, source portfolio, coverage audit, and daily
+brief delivery. The existing AI News Radar static site and Scout/Bole Skills are
+optional compatibility components for AI/tech collection and publishing.
 
 ## Working Rules
 
@@ -13,7 +15,10 @@ GitHub Actions refresh jobs, and GitHub Pages publishing.
 - Do not commit private feeds, secrets, tokens, cookies, or `.env` values.
 - Do not commit `feeds/follow.opml`; use `feeds/follow.example.opml` as the public template.
 - Prefer stable public RSS/Atom/OPML sources before adding custom scrapers.
-- Keep the reader-facing product simple: default to a curated AI-focused view, hide noisy or advanced source details behind existing filters/docs.
+- Keep the core methodology visible: do not make AI-news collection or the
+  existing static page the default project story.
+- Preserve `NOTICE.md` and `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md` when changing
+  or redistributing the retained AI News Radar compatibility components.
 
 ## Source Strategy
 
@@ -41,4 +46,6 @@ python scripts/update_news.py --output-dir data --window-hours 24 --rss-opml fee
 python -m http.server 8080
 ```
 
-For agent workflows, read `skills/ai-news-radar/SKILL.md`.
+For core agent workflows, read `skills/domain-intelligence-bootstrap/SKILL.md`.
+Read `skills/ai-news-radar/SKILL.md` only when working on the optional AI News
+Radar compatibility layer.

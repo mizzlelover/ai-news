@@ -16,6 +16,8 @@
 
 ---
 
+> 来源与归属：本目录是本仓库的可选 AI 日报消费适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的 Radar Skill。上游为 MIT License，版权声明为 LearnPrompt；它不是领域情报日报体系的核心方法论。详见 [`NOTICE.md`](NOTICE.md) 与 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+
 ## 你什么时候需要它
 
 - 每天打开十几个网站追AI新闻，想让Agent替你跑腿。
