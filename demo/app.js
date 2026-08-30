@@ -41,6 +41,74 @@ const domainInput = document.querySelector("#domain-input");
 const domainBuild = document.querySelector("#domain-build");
 const domainPanel = document.querySelector("#domain-panel");
 const domainSuggestions = [...document.querySelectorAll(".domain-suggestion")];
+const DOMAIN_NAME_FALLBACK_CHUNK_SIZE = 4;
+const DOMAIN_NAME_TERMS = [
+  "数字文旅产业",
+  "机器人产业",
+  "低空经济",
+  "职业教育",
+  "跨领域",
+  "量子农业",
+  "农业科技",
+  "科技产业链",
+  "观察实验室",
+  "产业链",
+  "实验室",
+  "知识引擎",
+  "专业领域",
+  "行业社区",
+].sort((left, right) => Array.from(right).length - Array.from(left).length);
+
+function splitDomainName(value) {
+  const text = String(value);
+  if (typeof Intl !== "undefined" && typeof Intl.Segmenter === "function") {
+    const segments = Array.from(new Intl.Segmenter("zh-CN", { granularity: "word" }).segment(text));
+    const chunks = [];
+    let start = 0;
+    let segmentIndex = 0;
+    while (start < text.length) {
+      const term = DOMAIN_NAME_TERMS.find((candidate) => text.startsWith(candidate, start));
+      if (term) {
+        chunks.push(term);
+        start += term.length;
+        continue;
+      }
+
+      while (segments[segmentIndex] && segments[segmentIndex].index < start) segmentIndex += 1;
+      const segment = segments[segmentIndex];
+      if (!segment || segment.index !== start) break;
+      chunks.push(segment.segment);
+      start += segment.segment.length;
+      segmentIndex += 1;
+    }
+    if (start === text.length) return chunks;
+  }
+
+  const characters = Array.from(text);
+  const chunks = [];
+  let start = 0;
+  while (start < characters.length) {
+    const term = DOMAIN_NAME_TERMS.find((candidate) => text.startsWith(candidate, start));
+    if (term) {
+      chunks.push(term);
+      start += Array.from(term).length;
+      continue;
+    }
+    chunks.push(characters.slice(start, start + DOMAIN_NAME_FALLBACK_CHUNK_SIZE).join(""));
+    start += DOMAIN_NAME_FALLBACK_CHUNK_SIZE;
+  }
+  return chunks;
+}
+
+function renderDomainName(target, value) {
+  target.replaceChildren();
+  splitDomainName(value).forEach((segment) => {
+    const chunk = document.createElement("span");
+    chunk.className = "domain-title-chunk";
+    chunk.textContent = segment;
+    target.append(chunk);
+  });
+}
 
 function customDomainData(name) {
   return {
@@ -71,11 +139,19 @@ function updateDomain(key) {
   window.setTimeout(() => {
     Object.entries(data).forEach(([field, value]) => {
       const target = domainPanel.querySelector("[data-field=\"" + field + "\"]");
-      if (target) target.textContent = value;
+      if (!target) return;
+      if (field === "name") {
+        renderDomainName(target, value);
+        return;
+      }
+      target.textContent = value;
     });
     domainPanel.classList.remove("is-changing");
   }, 110);
 }
+
+const initialDomainTitle = domainPanel?.querySelector('[data-field="name"]');
+if (initialDomainTitle) renderDomainName(initialDomainTitle, initialDomainTitle.textContent);
 
 domainSuggestions.forEach((suggestion) => {
   suggestion.setAttribute("aria-pressed", String(suggestion.classList.contains("is-active")));
