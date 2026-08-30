@@ -19,7 +19,7 @@ Domain Seed
 → Optional Focused Watch / Feedback
 ```
 
-本版本把可证伪的核心机制落成了一个离线、确定性的 Python 包。它允许只用一个 `domain` 初始化领域底图；当用户从底图中选出具体方向后，再补充 `decision_context`、PIR 和更细的 EIE。公开的 AI/文旅日报站仍由既有 `scripts/update_news.py` 负责采集；新包负责把已结构化的来源、证据和信号转成可审计的情报资产。
+可证伪的核心机制已经落成一个离线、确定性的 Python 包。它允许只用一个 `domain` 初始化领域底图；当用户从底图中选出具体方向后，再补充 `decision_context`、PIR 和更细的 EIE。公开的 AI/文旅日报站由 `scripts/update_news.py` 负责采集；新包负责把已结构化的来源、证据和信号转成可审计的情报资产。
 
 ## 2. 方法论原则
 

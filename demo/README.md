@@ -8,7 +8,7 @@
 
 演示站不把任何现成 AI 日报页面或外部 Skill 当成产品主体。页面中的领域、展开结果和人物均为说明方法的示例，不代表实时采集结果；真实来源、历史回放、覆盖审计和推送需要从核心引擎与用户自己的采集适配器接入。
 
-旧的 AI News Reader / AI News Radar 兼容界面已从发布面移除。仓库中仍保留的早期采集脚本、数据和旧 Skill 仅供历史或实验性工程参考，来源与版权见 [../NOTICE.md](../NOTICE.md) 和 [../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md](../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+当前公开入口只有私人情报所演示站与阅读室。仓库中的 AI News Radar 采集脚本、数据和 Skill 仅供边界适配参考，来源与版权见 [../NOTICE.md](../NOTICE.md) 和 [../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md](../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 本地预览
 

@@ -4,7 +4,7 @@
 
 它解决的不是“再抓一批新闻”，而是：从一个行业、产业或知识域关键词开始，先建立领域地图、人物与机构、信源结构和知识引擎；当用户选出具体方向后，再声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，按预算选择互补来源，最后生成有证据链接的领域日报。
 
-这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中早期保留的 AI News Radar、伯乐 Skill 和 Radar Skill 只是历史或实验性的采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中的 AI News Radar、伯乐 Skill 和 Radar Skill 只是采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 面向谁
 
@@ -80,7 +80,7 @@ io.py         JSON and Markdown report surface
 
 ## 与早期采集适配器的关系
 
-仓库原有 `scripts/update_news.py` 是面向公开 AI/文旅场景的历史采集与静态数据发布层；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。旧阅读界面不再随本项目发布。
+仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。AI News Reader 兼容界面不属于本项目当前发布面。
 
 这个边界允许：
 

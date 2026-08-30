@@ -66,7 +66,7 @@ Both paths use the same method: build the domain knowledge base first, then use 
 
 ### If you are an engineering collaborator
 
-Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable for the two user groups above, not to turn an existing AI-news page into the product.
+Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable for the two user groups above.
 
 Minimal runnable example:
 
@@ -90,9 +90,9 @@ uv run --project packages/domain-intelligence dib \
 
 ## Release boundary and third-party sources
 
-The old AI News Reader / AI News Radar compatibility interface had incomplete source coverage and has been removed from the project release surface. Its page, page-specific static assets/, and site.webmanifest are no longer entry points or maintained product surfaces; the root page now leads only to the Private Intelligence Observatory demo.
+The current public surface is the Private Intelligence Observatory demo and reading room. The AI News Reader / AI News Radar compatibility page and its page-specific static assets/ and site.webmanifest are not product entry points.
 
-The retained scripts/update_news.py, data/, feeds/, .github/workflows/update-news.yml, skills/ai-news-radar/, and skills/radar/ are historical or experimental collection references, not the core methodology, product home, or an original “Bole Skill” of this project. They come from or are based on [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar), under the MIT License. See [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) for directory-level attribution and redistribution rules.
+The retained scripts/update_news.py, data/, feeds/, .github/workflows/update-news.yml, skills/ai-news-radar/, and skills/radar/ are collection or consumption references, not the core methodology or an original “Bole Skill” of this project. They come from or are based on [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar), under the MIT License. See [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) for directory-level attribution and redistribution rules.
 
 Mature collection components may be reused at the boundary, but they do not replace domain-specific requirement modeling, historical evaluation, portfolio design, or coverage auditing.
 

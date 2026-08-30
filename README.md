@@ -65,7 +65,7 @@ Domain Seed
 
 ### 如果你是工程协作者
 
-从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把领域知识域可靠地更新和交付给前两类使用者，而不是把现成的 AI 日报页面当成产品本身。
+从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把领域知识域可靠地更新和交付给前两类使用者。
 
 最小可运行示例：
 
@@ -89,9 +89,9 @@ uv run --project packages/domain-intelligence dib \
 
 ## 发布边界与第三方来源
 
-旧的 AI News Reader / AI News Radar 兼容界面来源不完整，已从本项目发布面移除。旧页面、页面专属静态 assets/ 和 site.webmanifest 不再是仓库入口，也不再作为演示产品维护；根首页只进入私人情报所演示站。
+当前发布面只有私人情报所演示站与阅读室。AI News Reader / AI News Radar 兼容页面及其专属静态 assets/、site.webmanifest 不属于产品入口。
 
-仓库中仍保留的 scripts/update_news.py、data/、feeds/、.github/workflows/update-news.yml 以及 skills/ai-news-radar/、skills/radar/，只作为历史或实验性的采集工程参考，不是私人情报所的核心方法论、产品首页或“伯乐 Skill”原创成果。相关内容来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)，采用 MIT License；具体目录、版权和再分发边界见 [NOTICE](NOTICE.md) 与[项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+仓库中保留的 scripts/update_news.py、data/、feeds/、.github/workflows/update-news.yml 以及 skills/ai-news-radar/、skills/radar/，只作为采集或消费适配参考，不是私人情报所的核心方法论，也不是本项目原创的“伯乐 Skill”。相关内容来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)，采用 MIT License；具体目录、版权和再分发边界见 [NOTICE](NOTICE.md) 与[项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 这意味着：成熟的采集轮子可以在边界上复用，但不能替代针对具体行业重新完成的需求建模、历史评价、来源组合和覆盖审计。
 

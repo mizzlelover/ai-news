@@ -2,13 +2,13 @@
 
 更新时间：2026-08-30
 
-这份说明用于解决一个容易产生误解的问题：本仓库以私人情报所的方法论和核心引擎为主，另有早期采集工程作为边界参考。两者可以组合使用，但不是同一个产品，也不能把前者的作者、名称或能力包装成后者的原创成果。
+本仓库包含私人情报所的主产品，以及一组独立的采集和消费适配参考。主产品是领域情报方法论、核心引擎、演示站与阅读室；参考工程可以在边界上组合使用，但不属于主产品的方法论资产。
 
 ## 1. 项目身份
 
 本项目的正式名称是：**私人情报所（Private Intelligence Observatory）**。
 
-旧的 AI News Reader / AI News Radar 兼容界面来源不完整，已从当前发布面移除。旧页面、根目录下为该页面服务的专属 `assets/` 和 `site.webmanifest` 均不再作为产品入口；根首页只进入私人情报所演示站。
+AI News Reader / AI News Radar 兼容界面不属于当前产品发布面；其专属页面资产、`assets/` 和 `site.webmanifest` 也不是产品入口。公开入口是私人情报所演示站与阅读室。
 
 它的核心方法论是领域情报方法论，日报只是其中一种输出形态。
 
@@ -61,7 +61,7 @@
 
 上述保留的 AI News Radar 采集参考来自或基于公开的 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 工程。上游工程的公开 Skill 文件是 [`skills/ai-news-radar/SKILL.md`](https://github.com/LearnPrompt/ai-news-radar/blob/master/skills/ai-news-radar/SKILL.md)，文件元数据明确将其命名为 `ai-news-radar`，并将其定位为 AI News Radar 的维护 Skill。
 
-因此，本仓库不把 `skills/ai-news-radar/` 称为本项目原创的“伯乐 Skill”，也不把 AI News Radar 的页面、采集器和 Radar Skill 作为本项目的核心成果。旧页面已移除；仍保留的参考目录内均放置了就地来源提示，打开这些文件时应先阅读提示和本说明。
+来源边界如下：`skills/ai-news-radar/` 不是本项目原创的“伯乐 Skill”，AI News Radar 的页面、采集器和 Radar Skill 也不属于私人情报所的核心成果；参考目录内均放置了就地来源提示，打开这些文件时应先阅读提示和本说明。
 
 ## 5. 版权与许可证
 
