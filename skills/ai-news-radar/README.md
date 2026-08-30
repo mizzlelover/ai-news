@@ -22,7 +22,7 @@
 
 ---
 
-> 来源与归属：本目录是本仓库的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的伯乐 / Scout Skill。上游为 MIT License，版权声明为 LearnPrompt；本目录不是领域情报日报体系的核心方法论。详见 [`NOTICE.md`](NOTICE.md) 与 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+> 来源与归属：本目录是本仓库的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的伯乐 / Scout Skill。上游为 MIT License，版权声明为 LearnPrompt；本目录不是私人情报所的核心方法论。详见 [`NOTICE.md`](NOTICE.md) 与 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 它解决什么问题
 

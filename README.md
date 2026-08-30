@@ -1,12 +1,12 @@
 <div align="center">
 
-# 领域情报日报体系
+# 私人情报所
 
-## Domain Intelligence Radar
+## Private Intelligence Observatory
 
 **面向互联网上长期无人系统关注的领域、知识域、行业和产业，建立可审计、可持续的情报体系。**
 
-[![Domain Intelligence CI](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml)
+[![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
 [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
@@ -19,7 +19,7 @@
 
 ## 这是什么
 
-这是一个“领域情报日报体系”，不是一个以 AI 新闻网页为目的的聚合项目。
+这是一个“私人情报所”：面向互联网上长期无人系统关注的领域、知识域、行业和产业，建立专属、可审计、持续更新的情报体系。它不是一个以 AI 新闻网页为目的的聚合项目。
 
 它的核心价值是：面对互联网上长期无人系统关注的领域、知识域、行业或产业，先明确决策目的和必须掌握的信息，再重建专家注意力、评价信源历史表现、选择互补信源组合、审计覆盖缺口，最后持续产出可追溯的情报日报和推送。
 
@@ -59,7 +59,7 @@ uv run --project packages/domain-intelligence dib \
 
 如果目标是为数据要素、机器人、文旅、网络安全、教育或任意新领域建立可审计的情报体系，使用仓库内的 [Domain Intelligence Bootstrap](packages/domain-intelligence/README.md)。它把用户目的拆成情报需求和必需信息要素，再执行专家注意力重建、历史截点回放、信源组合优化、覆盖审计和日报生成。
 
-完整方法论见 [领域情报日报体系 V0.1](docs/DOMAIN_INTELLIGENCE_V0_1.md)。最小示例：
+完整方法论见 [私人情报所：领域情报方法论 V0.1](docs/DOMAIN_INTELLIGENCE_V0_1.md)。最小示例：
 
 ```bash
 uv run --project packages/domain-intelligence dib \
@@ -77,7 +77,7 @@ uv run --project packages/domain-intelligence dib \
 
 ## 可选适配层：AI News Radar / 伯乐 Skill
 
-以下内容描述的是仓库中保留的 AI News Radar 兼容适配层，用于复用现成的 AI 日报采集、去重、静态页面和 Agent 消费流程。它不是领域情报体系的核心，也不能替代需求建模、历史回放和覆盖审计。
+以下内容描述的是仓库中保留的 AI News Radar 兼容适配层，用于复用现成的 AI 日报采集、去重、静态页面和 Agent 消费流程。它不是私人情报所的核心，也不能替代需求建模、历史回放和覆盖审计。
 
 ![AI News Radar 兼容适配层页面截图](assets/screenshots/ai-news-radar-current-grid.jpg)
 

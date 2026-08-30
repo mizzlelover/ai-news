@@ -1,4 +1,4 @@
-# Domain Intelligence Radar Claude Code Notes
+# Private Intelligence Observatory Claude Code Notes
 
 Before changing this project, read:
 

@@ -132,8 +132,8 @@ FOLLOW_OPML_B64=上一步复制的 base64 内容
 配置完成后，手动运行：
 
 ```bash
-gh workflow run update-news.yml --repo mizzlelover/ai-news --ref master
-gh run list --repo mizzlelover/ai-news --limit 5
+gh workflow run update-news.yml --repo mizzlelover/private-intelligence-observatory --ref master
+gh run list --repo mizzlelover/private-intelligence-observatory --limit 5
 ```
 
 页面状态应看到：
@@ -141,4 +141,3 @@ gh run list --repo mizzlelover/ai-news --limit 5
 - X 源有 `SocialData X` 或 `X API` 状态
 - RSS 健康数增加，微信桥接 RSS 会进入 RSS 明细
 - `data/source-status.json` 中能看到失败的具体 RSS 或 API 错误
-

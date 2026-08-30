@@ -3,7 +3,7 @@ name: domain-intelligence-bootstrap
 description: "Use when a user wants to bootstrap an information radar for a new domain, reconstruct expert attention, benchmark sources at historical cutoffs, optimize a source portfolio, audit coverage gaps, or package a domain-specific daily brief."
 ---
 
-# Domain Intelligence Bootstrap
+# 私人情报所核心入口：Domain Intelligence Bootstrap
 
 把“领域 → 信息生态”落成可审计的 Source Portfolio 和 Daily Brief。它适用于新领域建模、来源发现与评价、历史回放、覆盖审计和方法论/工程交接。
 
@@ -19,7 +19,7 @@ description: "Use when a user wants to bootstrap an information radar for a new 
 
 ## 产品归属边界
 
-本 Skill 是本项目的核心入口。`skills/ai-news-radar/` 和 `skills/radar/` 是来自或基于 LearnPrompt/ai-news-radar 的可选兼容适配层，不得把它们称为本项目原创的伯乐 Skill，也不得让 AI 新闻采集能力取代需求建模、历史回放、信源组合和覆盖审计。
+本 Skill 是私人情报所的核心入口。`skills/ai-news-radar/` 和 `skills/radar/` 是来自或基于 LearnPrompt/ai-news-radar 的可选兼容适配层，不得把它们称为本项目原创的伯乐 Skill，也不得让 AI 新闻采集能力取代需求建模、历史回放、信源组合和覆盖审计。
 
 ## 工作流
 

@@ -1,12 +1,12 @@
 <div align="center">
 
-# Domain Intelligence Radar
+# Private Intelligence Observatory
 
-## Domain Intelligence Daily Briefing System
+## Domain Intelligence Methodology and Briefing System
 
 **A decision-first system for turning overlooked domains, knowledge areas, industries, and sectors into auditable, continuously maintained intelligence radars.**
 
-[![Domain Intelligence CI](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/ai-news/actions/workflows/domain-intelligence.yml)
+[![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
 [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
@@ -19,7 +19,7 @@
 
 ## What this project is
 
-This repository is methodology-first. Its core loop is:
+This repository is the implementation of Private Intelligence Observatory, and it is methodology-first. Its core loop is:
 
 ```text
 Decision context

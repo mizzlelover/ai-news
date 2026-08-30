@@ -1,4 +1,4 @@
-# Domain Intelligence Radar Agent Notes
+# Private Intelligence Observatory Agent Notes
 
 ## Scope
 

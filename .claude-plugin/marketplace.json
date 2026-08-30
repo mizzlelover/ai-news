@@ -1,16 +1,16 @@
 {
-  "name": "domain-intelligence-radar",
+  "name": "private-intelligence-observatory",
   "owner": { "name": "mizzlelover", "url": "https://github.com/mizzlelover" },
-  "metadata": { "description": "Methodology-first domain intelligence radar: requirements, evidence-time replay, source portfolios, coverage audits, and daily briefs, with an optional AI News Radar compatibility layer." },
+  "metadata": { "description": "Private Intelligence Observatory: a methodology-first system for overlooked domains, with requirements, evidence-time replay, source portfolios, coverage audits, and daily briefs." },
   "plugins": [
     {
-      "name": "domain-intelligence-radar",
-      "description": "领域情报日报体系核心：从决策目的出发，建立需求图、专家注意力、历史回放、信源组合、覆盖审计和日报输出。",
+      "name": "private-intelligence-observatory",
+      "description": "私人情报所核心：从决策目的出发，为被忽略的领域建立需求图、专家注意力、历史回放、信源组合、覆盖审计和日报输出。",
       "version": "0.2.0",
       "author": { "name": "mizzlelover", "url": "https://github.com/mizzlelover" },
       "source": "./",
       "category": "research",
-      "homepage": "https://github.com/mizzlelover/ai-news",
+      "homepage": "https://github.com/mizzlelover/private-intelligence-observatory",
       "skills": [
         "./skills/domain-intelligence-bootstrap"
       ]
