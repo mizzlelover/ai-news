@@ -1,29 +1,83 @@
 {
-  "generated_at": "2026-08-29T23:53:24.915014Z",
+  "generated_at": "2026-08-30T03:47:08.721315Z",
   "window_hours": 24,
-  "total_items": 0,
-  "total_items_ai_raw": 0,
-  "total_items_raw": 336,
-  "total_items_all_mode": 336,
+  "total_items": 1,
+  "total_items_ai_raw": 1,
+  "total_items_raw": 320,
+  "total_items_all_mode": 320,
   "topic_filter": "smart_tourism_scoring_v1",
   "ai_relevance_threshold": 0.65,
-  "archive_total": 15571,
+  "archive_total": 15597,
   "site_count": 1,
-  "source_count": 0,
+  "source_count": 1,
   "site_stats": [
     {
       "site_id": "opmlrss",
       "site_name": "OPML RSS",
-      "count": 0,
-      "raw_count": 336
+      "count": 1,
+      "raw_count": 320
     }
   ],
   "creator_window_days": 7,
   "creator_ranking": "engagement_85_fresh_24h_bonus_15_v1",
   "creator_items_ai": [],
   "creator_items_all": [],
-  "items": [],
-  "items_ai": [],
+  "items": [
+    {
+      "id": "6e780813b3c7a6e18815475a7da17860453d1ef9",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "Skift",
+      "title": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "url": "https://skift.com/2026/08/29/airbnb-is-testing-lower-fees-for-hosts-who-bring-their-own-guests",
+      "published_at": "2026-08-30T02:56:56Z",
+      "first_seen_at": "2026-08-30T03:47:08.721315Z",
+      "last_seen_at": "2026-08-30T03:47:08.721315Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "trusted_tourism_source_default_keep",
+      "ai_signals": [
+        "ai"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "title_en": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "title_zh": null,
+      "title_bilingual": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests"
+    }
+  ],
+  "items_ai": [
+    {
+      "id": "6e780813b3c7a6e18815475a7da17860453d1ef9",
+      "site_id": "opmlrss",
+      "site_name": "OPML RSS",
+      "source": "Skift",
+      "title": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "url": "https://skift.com/2026/08/29/airbnb-is-testing-lower-fees-for-hosts-who-bring-their-own-guests",
+      "published_at": "2026-08-30T02:56:56Z",
+      "first_seen_at": "2026-08-30T03:47:08.721315Z",
+      "last_seen_at": "2026-08-30T03:47:08.721315Z",
+      "ai_is_related": true,
+      "ai_score": 0.72,
+      "ai_label": "tourism_tech",
+      "ai_relevance_reason": "trusted_tourism_source_default_keep",
+      "ai_signals": [
+        "ai"
+      ],
+      "ai_noise": [],
+      "source_tier": "user_opml",
+      "source_tier_label": "RSS/OPML",
+      "source_tier_rank": 3,
+      "title_original": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "title_en": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests",
+      "title_zh": null,
+      "title_bilingual": "Airbnb Is Testing Lower Fees for Hosts Who Bring Their Own Guests"
+    }
+  ],
   "all_mode_data_url": "data/latest-24h-all.json",
   "stories_data_url": "data/stories-merged.json"
 }
