@@ -78,7 +78,7 @@ pipeline.py   end-to-end orchestration
 io.py         JSON and Markdown report surface
 ```
 
-## 与早期采集适配器的关系
+## 与采集适配器的关系
 
 仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。AI News Reader 兼容界面不属于本项目当前发布面。
 

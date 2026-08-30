@@ -10,16 +10,16 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 ## 先读
 
 - `docs/DOMAIN_INTELLIGENCE_V0_1.md`：方法论、指标、状态机和边界。
-- `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`：本项目核心与早期 AI News Radar 采集参考的归属、来源和版权边界。
+- `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`：本项目核心与 AI News Radar 采集参考的归属、来源和版权边界。
 - `packages/domain-intelligence/README.md`：安装、输入 Bundle 和验证命令。
 - `packages/domain-intelligence/examples/data-elements.json`：完整最小示例。
 - `packages/domain-intelligence/src/domain_intelligence/models/`：边界 Schema。
 
-如果任务同时涉及仓库中保留的早期 AI News Radar 采集、RSS、OPML、GitHub Actions 或 Pages，再读 `skills/ai-news-radar/SKILL.md`、`docs/SOURCE_COVERAGE.md` 和 `scripts/update_news.py`。它们是历史或实验性的采集参考，不是产品入口；采集层与情报判断层保持分离。
+如果任务同时涉及仓库中的 AI News Radar 采集、RSS、OPML、GitHub Actions 或 Pages，再读 `skills/ai-news-radar/SKILL.md`、`docs/SOURCE_COVERAGE.md` 和 `scripts/update_news.py`。它们是独立的采集参考，不是产品入口；采集层与情报判断层保持分离。
 
 ## 产品归属边界
 
-本 Skill 是私人情报所的核心入口。`skills/ai-news-radar/` 和 `skills/radar/` 是来自或基于 LearnPrompt/ai-news-radar 的历史或实验性采集参考，不得把它们称为本项目原创的伯乐 Skill，也不得让 AI 新闻采集能力取代需求建模、历史回放、信源组合和覆盖审计。
+本 Skill 是私人情报所的核心入口。`skills/ai-news-radar/` 和 `skills/radar/` 是来自或基于 LearnPrompt/ai-news-radar 的采集参考，不得把它们称为本项目原创的伯乐 Skill，也不得让 AI 新闻采集能力取代需求建模、历史回放、信源组合和覆盖审计。
 
 ## 先判断使用者所处阶段
 
@@ -36,7 +36,7 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 4. 用 `dib <input.json> --output-dir <dir>` 运行 EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
 5. 先看 `bootstrap-report.json` 的结构化结果，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
 6. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
-7. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把早期 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+7. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
 
 ## 关键判据
 

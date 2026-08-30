@@ -310,6 +310,12 @@
   --noscript-max-width: 340px;
   --noscript-padding: 14px 16px;
   --noscript-font-size: 13px;
+  --nav-backdrop-blur: 16px;
+  --nav-item-transition: opacity 180ms ease, transform 180ms var(--ease-out);
+  --button-transition: transform 180ms var(--ease-out), box-shadow 180ms ease, background-color 180ms ease, color 180ms ease;
+  --domain-suggestion-active-offset: -2px;
+  --reveal-offset: 20px;
+  --reveal-transition: opacity 560ms var(--ease-out), transform 560ms var(--ease-out);
   --ease-out: cubic-bezier(0.22, 1, 0.36, 1);
 }
 
@@ -417,8 +423,8 @@ strong {
   color: var(--ink);
   background: var(--paper-90);
   box-shadow: var(--nav-scrolled-shadow);
-  -webkit-backdrop-filter: blur(16px);
-  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(var(--nav-backdrop-blur));
+  backdrop-filter: blur(var(--nav-backdrop-blur));
 }
 
 .brand {
@@ -473,7 +479,7 @@ strong {
 
 .nav-links a,
 .nav-cta {
-  transition: opacity 180ms ease, transform 180ms var(--ease-out);
+  transition: var(--nav-item-transition);
 }
 
 .nav-links a:hover,
@@ -627,7 +633,7 @@ strong {
   font-size: var(--text-body-sm);
   font-weight: var(--weight-strong);
   line-height: 1.2;
-  transition: transform 180ms var(--ease-out), box-shadow 180ms ease, background-color 180ms ease, color 180ms ease;
+  transition: var(--button-transition);
 }
 
 .button:hover {
@@ -1111,7 +1117,7 @@ strong {
   border-color: var(--magenta);
   color: var(--white);
   background: var(--magenta-15);
-  transform: translateY(-2px);
+  transform: translateY(var(--domain-suggestion-active-offset));
 }
 
 .domain-promise {
@@ -1814,8 +1820,8 @@ strong {
 
 .reveal {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity 560ms var(--ease-out), transform 560ms var(--ease-out);
+  transform: translateY(var(--reveal-offset));
+  transition: var(--reveal-transition);
 }
 
 .reveal-delay {
@@ -1992,7 +1998,7 @@ strong {
   }
 
   .hero-copy {
-    padding-bottom: 60px;
+    padding-bottom: var(--hero-copy-padding-bottom);
   }
 
   .hero h1 {
