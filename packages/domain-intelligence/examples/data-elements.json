@@ -152,6 +152,14 @@
     {"id": "signal-policy", "source_id": "official-policy", "title": "New data policy published", "url": "https://example.com/policy?utm_source=demo", "published_at": "2026-08-29T08:00:00Z", "available_at": "2026-08-29T08:00:00Z", "topic_ids": ["policy"], "event_type": "policy_change", "importance": 0.9, "originality": 1.0, "confirmed": true, "event_id": "event-policy"},
     {"id": "signal-market", "source_id": "industry-brief", "title": "Market project launch follows policy", "url": "https://example.com/industry/launch", "published_at": "2026-08-29T20:00:00Z", "available_at": "2026-08-29T20:00:00Z", "topic_ids": ["market"], "event_type": "project_launch", "importance": 0.8, "originality": 0.8, "confirmed": true, "event_id": "event-market"}
   ],
+  "acquisition_runs": [
+    {"id": "run-policy", "source_id": "official-policy", "status": "succeeded", "retrieved_at": "2026-08-30T08:00:00Z", "evidence_ids": ["signal-policy"]},
+    {"id": "run-market", "source_id": "industry-brief", "status": "succeeded", "retrieved_at": "2026-08-30T08:00:00Z", "evidence_ids": ["signal-market"]}
+  ],
+  "evidence": [
+    {"id": "signal-policy", "source_id": "official-policy", "title": "New data policy published", "url": "https://example.com/policy?utm_source=demo", "summary": "The official policy entered the public record.", "published_at": "2026-08-29T08:00:00Z", "available_at": "2026-08-29T08:00:00Z", "retrieved_at": "2026-08-30T08:00:00Z", "content_hash": "sha256:signal-policy", "topic_ids": ["policy"], "element_ids": ["e-policy"], "event_type": "policy_change", "importance": 0.9, "originality": 1.0, "confirmed": true, "event_id": "event-policy"},
+    {"id": "signal-market", "source_id": "industry-brief", "title": "Market project launch follows policy", "url": "https://example.com/industry/launch", "summary": "An implementation project entered the public record.", "published_at": "2026-08-29T20:00:00Z", "available_at": "2026-08-29T20:00:00Z", "retrieved_at": "2026-08-30T08:00:00Z", "content_hash": "sha256:signal-market", "topic_ids": ["market"], "element_ids": ["e-market"], "event_type": "project_launch", "importance": 0.8, "originality": 0.8, "confirmed": true, "event_id": "event-market"}
+  ],
   "budget": 3.0,
   "max_sources": 3,
   "as_of": "2026-08-30T08:00:00Z",

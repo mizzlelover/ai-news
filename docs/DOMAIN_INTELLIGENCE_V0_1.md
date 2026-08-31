@@ -13,13 +13,15 @@ Domain Seed
 → Expert Attention Reconstruction
 → Source Archetypes and Temporal Benchmark
 → Source Portfolio
+→ Source Activation / Evidence Records
 → Domain Knowledge Domain / Knowledge Graph / Domain Memory
+→ Knowledge-domain Delta
 → Coverage Audit
 → Domain-ranked Daily Brief
 → Optional Focused Watch / Feedback
 ```
 
-可证伪的核心机制已经落成一个离线、确定性的 Python 包。它允许只用一个 `domain` 初始化领域底图；当用户从底图中选出具体方向后，再补充 `decision_context`、PIR 和更细的 EIE。公开的 AI/文旅日报站由 `scripts/update_news.py` 负责采集；新包负责把已结构化的来源、证据和信号转成可审计的情报资产。
+可证伪的核心机制已经落成一个离线、确定性的 Python 包。它允许只用一个 `domain` 初始化领域底图；当用户从底图中选出具体方向后，再补充 `decision_context`、PIR 和更细的 EIE。来源适配器提交采集运行和证据记录后，核心会把它们转换为来源状态、日报信号和知识域增量；公开的 AI/文旅日报站由 `scripts/update_news.py` 负责采集，但不是私人情报所的方法论入口。
 
 ## 2. 方法论原则
 
@@ -107,6 +109,7 @@ Domain Seed
 | EAR 注意力图 | `graph.rank_attention_sources` | 跨圈层来源推荐 |
 | 历史回放 | `backtest.replay_benchmark` | `Event × Nugget × Cutoff` 单元与指标向量 |
 | 来源组合 | `portfolio.optimize_portfolio` | 预算约束下的来源组合与互补 Bundle |
+| 来源激活 | `activation.build_activation_report` | 采集运行、证据记录、日报信号和知识域增量 |
 | 覆盖审计 | `coverage.audit_coverage` | EIE 分母、覆盖率、机器可读缺口原因 |
 | 日报排序 | `daily.build_daily_brief` | 去重后的故事线与证据链接 |
 | 全链路 | `pipeline.build_bootstrap_report` | 一份 JSON + 一份 Markdown 报告 |
@@ -196,15 +199,19 @@ uv run --project packages/domain-intelligence \
 
 示例故意保留一个海外 EIE 缺口，便于验证系统不会用“来源数量”掩盖未覆盖区域。
 
-## 10. 当前边界与下一阶段
+## 10. 来源激活与当前边界
 
-领域情报评价内核在 `DomainProfile` 中支持“只给领域名称”的最小初始化；它没有把外部搜索、爬虫、LLM 语义判断、数据库或调度器硬编码进核心。这样可以在边界上复用采集工程的成熟零件，也能把私有来源和不同领域适配器隔离在边界上；这些零件不构成私人情报所的产品入口。宽领域的公开样例可直接运行 `packages/domain-intelligence/examples/digital-twin-expanded.json`，以检查规模化来源网络不会被误缩减为少数日报入口。
+来源网络满足角色、EIE、获取路径和历史回放条件后，进入 Source Activation Run。适配器提交 `SourceAcquisitionRun` 和 `EvidenceRecord`，核心生成来源运行状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`，然后把信号交给去重、日报排序和后续知识域处理。字段和运行示例见 [`SOURCE_ACTIVATION_RUN.md`](SOURCE_ACTIVATION_RUN.md)。
 
-下一阶段应按冻结 Benchmark 推进：
+这一层明确区分四件事：来源可以获取，不等于获得了证据；获得了证据，不等于完成了事实确认；产生了信号，不等于应该进入日报；进入日报，也不等于该来源已经通过历史质量评价。`available_at`、原始 URL、内容哈希和来源角色必须被保留，才能回到当时的证据现场。
 
-1. 选一个公开资料丰富的领域，从 Domain Seed 生成领域边界、词典和 6～10 个观察面；
-2. 为每个观察面建立 15～20 个异质 Expert Seed、人物/机构和来源候选；
-3. 记录每条关系边的来源 URL、观察时间和证据置信度；
-4. 冻结历史 cutoff，补齐 Event × Nugget 标注；
-5. 比较普通热门列表与 EAR 的跨圈层来源及 Marginal Portfolio Gain；
-6. 只有通过回放和覆盖审计的来源，才进入长期采集组合；再从底图中选择具体问题建立 Focused Watch。
+当前核心已经实现“适配器运行结果 → 证据 → 信号/知识域增量”的确定性转换，但仍然没有把外部搜索、爬虫、数据库、调度器、LLM 语义抽取或邮件推送硬编码进核心。它们应作为可替换边界适配器接入，不能取代领域需求建模、历史回放、来源组合和覆盖审计。宽领域的公开样例可直接运行 `packages/domain-intelligence/examples/digital-twin-expanded.json`，以检查规模化来源网络不会被误缩减为少数日报入口。
+
+接下来的工程顺序是：
+
+1. 为公开 RSS、Atom、JSON 和稳定静态页面接入适配器，并输出统一运行记录；
+2. 保存响应快照、内容哈希、获取时间、失败原因和来源版权边界；
+3. 增加事件/EIE 抽取、多源印证和人工确认记录；
+4. 增加领域知识域的持久化更新和变更历史；
+5. 接入调度、推送与用户反馈；
+6. 用真实运行数据补齐 117 个来源的历史回放，再重算长期组合。

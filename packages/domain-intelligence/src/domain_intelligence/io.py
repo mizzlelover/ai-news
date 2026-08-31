@@ -49,11 +49,24 @@ def render_markdown(report: BootstrapReport) -> str:
         ),
         f"- Portfolio: `{portfolio_sources}`",
         "",
-        "## Attention recommendations",
+        "## Source activation",
         "",
-        "| Source | Score | Cross-cluster | Supporting experts |",
-        "| --- | ---: | ---: | --- |",
+        f"- Evidence records: `{len(report.activation.evidence)}`",
+        f"- Signals created: `{len(report.activation.signals)}`",
+        f"- Knowledge-domain deltas: `{len(report.activation.knowledge_deltas)}`",
     ]
+    for status in sorted({item.status.value for item in report.activation.source_statuses}):
+        count = sum(item.status.value == status for item in report.activation.source_statuses)
+        lines.append(f"- `{status}` sources: `{count}`")
+    lines.extend(
+        [
+            "",
+            "## Attention recommendations",
+            "",
+            "| Source | Score | Cross-cluster | Supporting experts |",
+            "| --- | ---: | ---: | --- |",
+        ],
+    )
     lines.extend(_attention_line(item) for item in report.attention_recommendations)
     lines.extend(
         [

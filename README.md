@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
+[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [来源激活运行](docs/SOURCE_ACTIVATION_RUN.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 ---
 
@@ -35,6 +35,8 @@ Domain Seed
 → Expert Attention Reconstruction
 → Point-in-time Source Benchmark
 → Source Portfolio
+→ Source Activation / Evidence Records
+→ Knowledge-domain Delta
 → Coverage Audit
 → Domain-ranked Daily Brief
 → Focused Watch / 人工反馈
@@ -69,7 +71,7 @@ Domain Seed
 
 ### 如果你是工程协作者
 
-从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把从领域开始建立的知识体系可靠地更新和交付给使用者。
+从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、来源激活、证据转换、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把从领域开始建立的知识体系可靠地更新和交付给使用者。
 
 最小可运行示例：
 
@@ -87,6 +89,7 @@ uv run --project packages/domain-intelligence dib \
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
 | docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层、激活状态和公开样例 |
+| docs/SOURCE_ACTIVATION_RUN.md | 采集运行、证据记录、日报信号和知识域增量契约 |
 | docs/examples/digital-twin-source-expansion-matrix.md | 数字孪生 117 入口样例的来源矩阵 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |

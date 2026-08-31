@@ -8,10 +8,11 @@
 
 ```text
 领域关键词 → 来源候选雷达 → 专家注意力重建 → 历史回放
-→ 互补来源组合 → 覆盖审计 → 日报、推送与持续守望
+→ 互补来源组合 → 来源激活与证据记录 → 知识域增量
+→ 覆盖审计 → 日报、推送与持续守望
 ```
 
-来源规模与激活状态的规则见 [`SOURCE_PORTFOLIO_SCALE.md`](SOURCE_PORTFOLIO_SCALE.md)。以下内容只服务于保留的 AI News Radar 采集参考。
+来源规模与候选/组合激活规则见 [`SOURCE_PORTFOLIO_SCALE.md`](SOURCE_PORTFOLIO_SCALE.md)；来源运行和证据进入核心的契约见 [`SOURCE_ACTIVATION_RUN.md`](SOURCE_ACTIVATION_RUN.md)。以下内容只服务于保留的 AI News Radar 采集参考。
 
 ## 保留的 AI News Radar 兼容路线
 

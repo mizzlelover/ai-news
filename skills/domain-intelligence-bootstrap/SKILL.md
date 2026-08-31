@@ -35,20 +35,23 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 1. 先用一个领域名称或关键词初始化 `DomainProfile`；不要要求使用者先写专业问题或准备信源清单。
 2. 从 Domain Seed 建立领域边界、词典、观察面、人物/机构和来源候选；领域底图完成后，再按指令加入已有信源，并明确 PIR、EIE、主题权重和事件优先级。
 3. 将 Expert、Source、typed Attention Edge 和证据时间整理成 `BootstrapInput`；每条边保留关系类型、主题相关性、证据置信度、观察时间和证据 URL。
-4. 用 `dib <input.json> --output-dir <dir>` 运行 EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
-5. 先看 `bootstrap-report.json` 的结构化结果，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
-6. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
-7. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+4. 当采集器已有运行结果时，把 `SourceAcquisitionRun` 和 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。
+5. 用 `dib <input.json> --output-dir <dir>` 运行来源激活、EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
+6. 先看 `bootstrap-report.json` 的 `activation`、历史回放、Portfolio 和 Coverage，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
+7. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
+8. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
 
 宽领域不要在首轮把来源网络缩减为少数日报入口。以公开数字孪生样例为基准，第一轮候选雷达可以从约 80–150 个可独立采集的入口起步，再用历史回放、来源角色和覆盖审计决定进入每日组合的来源；来源数量本身不等于覆盖或权威。
 
 ## 关键判据
 
 - `available_at` 是回放的唯一可见性门槛，不能用事后上传时间或最终内容替代。
+- `retrieved_at` 记录本次采集实际获得证据的时间；它不能替代 `available_at`，也不能单独证明事实已经确认。
 - Source Role 和 Reliability 分开；官方源、解释源、前沿传感器和广覆盖源承担不同职责。
 - 覆盖率分母来自声明的 EIE，不来自搜索结果数量。
 - 组合优化允许 `SourceBundle` 表示互补效应，启发式选择应标注为基线而非数学最优。
 - Daily Brief 必须保留原始证据 URL；标题、摘要和排序不能取代证据。
+- 来源可获取、证据已获得、信号可入选和来源已通过历史评价是四个不同状态，不能合并成一个“已覆盖”。
 
 ## 验证
 

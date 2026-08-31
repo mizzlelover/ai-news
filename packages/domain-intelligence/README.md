@@ -2,7 +2,7 @@
 
 一个面向任意领域的、可审计的情报自举内核，是私人情报所的通用工程核心。
 
-它解决的不是“再抓一批新闻”，而是：从一个行业、产业或知识域关键词开始，先建立领域地图、人物与机构、信源结构和知识引擎；当用户选出具体方向后，再声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，按预算选择互补来源，最后生成有证据链接的领域日报。
+它解决的不是“再抓一批新闻”，而是：从一个行业、产业或知识域关键词开始，先建立领域地图、人物与机构、信源结构和知识引擎；当用户选出具体方向后，再声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，按预算选择互补来源，再把采集器提交的运行结果和证据记录转换为知识域增量与有证据链接的领域日报。
 
 这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中保留的 AI News Radar 页面、`ai-news-radar` Skill 和 Radar Skill 只是采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
@@ -46,6 +46,8 @@ uv run --project packages/domain-intelligence dib \
 - `bootstrap-report.json`：结构化结果；
 - `bootstrap-report.md`：交接与阅读版报告。
 
+如果 Bundle 提供 `acquisition_runs` 和 `evidence`，报告还会包含来源激活状态、证据记录、自动生成的日报信号和知识域增量。字段契约与边界见 [`../../docs/SOURCE_ACTIVATION_RUN.md`](../../docs/SOURCE_ACTIVATION_RUN.md)。
+
 ## 运行测试
 
 ```bash
@@ -62,8 +64,10 @@ uv run --project packages/domain-intelligence ruff check packages/domain-intelli
 2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；领域底图建立后，已有来源和专家可以从这里作为扩展种子进入；
 3. `attention_query`：种子专家、主题和回放时点；
 4. `benchmark`：Event、Nugget、Source、Observation 和 Cutoff；
-5. `signals`：待生成日报的结构化信号；
-6. 预算、来源数量、日报窗口和输出上限。
+5. `signals`：已有的结构化信号，可与激活运行生成的信号合并；
+6. `acquisition_runs`：采集器本次运行的成功、空结果或失败状态；
+7. `evidence`：带有来源 URL、可获得时间、实际获取时间和内容哈希的证据记录；
+8. 预算、来源数量、日报窗口和输出上限。
 
 最小的领域入口不要求先写专业问题，也不要求先准备信源清单：
 
@@ -85,6 +89,7 @@ graph.py      EAR / Personalized PageRank / degree correction
 backtest.py   availability-time replay / metric vector
 portfolio.py  budgeted portfolio / source bundle synergy
 coverage.py   EIE denominator / gap audit
+activation.py acquisition run, evidence, signal, and knowledge-delta intake
 daily.py      URL + title deduplication / domain ranking
 pipeline.py   end-to-end orchestration
 io.py         JSON and Markdown report surface
@@ -92,7 +97,7 @@ io.py         JSON and Markdown report surface
 
 ## 与采集适配器的关系
 
-仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包是通用的情报判断与评价层。前者可以产出结构化 signals，后者负责把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。AI News Reader 兼容界面不属于本项目当前发布面。
+仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包现在提供通用的来源激活契约和情报判断层。外部适配器提交 `acquisition_runs` 与 `evidence`，本包将它们转换为来源状态、日报 signals 和知识域 deltas，再把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。AI News Reader 兼容界面不属于本项目当前发布面。
 
 这个边界允许：
 

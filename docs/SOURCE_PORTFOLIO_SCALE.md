@@ -101,7 +101,7 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /tmp/private-intelligence-digital-twin
 ```
 
-这个 Bundle 是方法论和工程的公开回放夹具，不宣称已经接通 117 个来源的实时订阅。真实生产还需要为每个来源配置稳定采集器、持续保存快照，并用真实运行数据替换首轮历史夹具。
+这个 Bundle 是方法论和工程的公开回放夹具，不宣称已经接通 117 个来源的实时订阅。来源适配器把运行结果和证据交给核心的契约见[来源激活运行](SOURCE_ACTIVATION_RUN.md)。真实生产还需要为每个来源配置稳定采集器、持续保存快照，并用真实运行数据替换首轮历史夹具。
 
 ## 对使用者意味着什么
 

@@ -4,6 +4,11 @@ from datetime import datetime
 
 from pydantic import Field
 
+from domain_intelligence.models.activation import (
+    ActivationReport,
+    EvidenceRecord,
+    SourceAcquisitionRun,
+)
 from domain_intelligence.models.core import (
     AttentionGraph,
     AttentionQuery,
@@ -79,6 +84,8 @@ class BootstrapInput(StrictModel):
     attention_query: AttentionQuery
     benchmark: TemporalBenchmark
     signals: tuple[DailySignal, ...] = ()
+    acquisition_runs: tuple[SourceAcquisitionRun, ...] = ()
+    evidence: tuple[EvidenceRecord, ...] = ()
     budget: float = Field(default=10.0, gt=0)
     max_sources: int = Field(default=10, ge=1, le=200)
     bundles: tuple[SourceBundle, ...] = ()
@@ -90,6 +97,7 @@ class BootstrapInput(StrictModel):
 class BootstrapReport(StrictModel):
     generated_at: datetime
     domain: str
+    activation: ActivationReport
     attention_recommendations: tuple[AttentionRecommendation, ...]
     replay: ReplayReport
     evaluations: tuple[SourceEvaluation, ...]

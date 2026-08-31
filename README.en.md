@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Source scale and activation](docs/SOURCE_PORTFOLIO_SCALE.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
+[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Source scale and activation](docs/SOURCE_PORTFOLIO_SCALE.md) · [Source activation run](docs/SOURCE_ACTIVATION_RUN.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 ---
 
@@ -36,6 +36,8 @@ Domain seed
 → Expert Attention Reconstruction
 → Point-in-time Source Benchmark
 → Source Portfolio
+→ Source Activation / Evidence Records
+→ Knowledge-domain Delta
 → Coverage Audit
 → Domain-ranked Daily Brief
 → Focused watch / human feedback
@@ -70,7 +72,7 @@ Once you have built the foundation in the actual workflow, tell the AI to add an
 
 ### If you are an engineering collaborator
 
-Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable after the domain-first entry.
+Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, source activation, evidence conversion, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable after the domain-first entry.
 
 Minimal runnable example:
 
@@ -88,6 +90,7 @@ uv run --project packages/domain-intelligence dib \
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | Application guide for non-technical users |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | Methodology, metrics, and boundaries |
 | docs/SOURCE_PORTFOLIO_SCALE.md | Source-network scale, layers, activation states, and public example |
+| docs/SOURCE_ACTIVATION_RUN.md | Acquisition runs, evidence records, daily signals, and knowledge-domain deltas |
 | docs/examples/digital-twin-source-expansion-matrix.md | Human-readable source matrix for the 117-entry Digital Twin example |
 | packages/domain-intelligence/ | Runnable core engine and minimal Bundle |
 | skills/domain-intelligence-bootstrap/ | Skill routing new domains into the core workflow |
