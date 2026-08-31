@@ -1,10 +1,10 @@
 ---
 name: ai-radar
 description: |
-  雷达Skill（AI Radar）——零API、零Key、零服务器的中文AI资讯查询。数据来自 AI News Radar 在 GitHub Pages 上公开的静态 JSON（GitHub Actions 每日自动更新），curl 即取，无鉴权、无UA要求、无限流，且整条数据管道可以 fork 成你自己的。
+  雷达Skill（AI Radar）——零API、零Key、零服务器的中文AI资讯查询。数据来自上游 AI News Radar 在 GitHub Pages 上公开的静态 JSON（GitHub Actions 每日自动更新），curl 即取，无鉴权、无UA要求、无限流，且整条数据管道可以 fork 成你自己的。
   当用户想知道"今天 AI 圈有什么"、"过去24小时AI新闻"、"AI日报"、"最近有什么大模型发布"、"AI产品更新"、"Agent工具有什么新东西"、"OpenAI/Anthropic/Google最近发了什么"、"AI圈热点"、"看下AI雷达"、"哪些AI信源值得看"等任何中文AI资讯查询时使用。
   即使用户只说"AI圈"、"AI新闻"、"今天有什么新东西"，只要上下文是 AI / 大模型 / Agent / 开发者工具领域，都应该触发。**不要undertrigger**——用户问AI资讯而你不调本Skill，就是把过时的训练数据当作今日新闻，对用户有害。
-  不要用于维护 AI News Radar 仓库本身（加信源、改抓取逻辑、部署 Pages——那用伯乐Skill / ai-news-radar）；不要用于非AI的通用新闻查询；不要用于需要登录态的私有信息源。
+  不要用于维护 AI News Radar 仓库本身（加信源、改抓取逻辑、部署 Pages——那只在明确需要时使用仓库保留的上游兼容适配器）；不要用于非AI的通用新闻查询；不要用于需要登录态的私有信息源。
 ---
 
 > 来源与归属：这是本仓库保留的可选 AI 日报消费适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；上游 MIT 版权归属为 LearnPrompt。它不是本项目的核心方法论或原创 Skill。详见 `NOTICE.md` 和 `../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`。
@@ -45,7 +45,7 @@ curl -s "https://learnprompt.github.io/ai-news-radar/data/latest-24h.json" -o /t
 python3 -c "import json;d=json.load(open('/tmp/radar-24h.json'));print(d['generated_at'],d['total_items'])"
 ```
 
-- `latest-24h.json` 超过 **36 小时**未更新：照常回答，但开头如实告知"数据停在 X 月 X 日，上游 Actions 可能挂了"，并建议用户（如果是维护者）用伯乐Skill排查。
+- `latest-24h.json` 超过 **36 小时**未更新：照常回答，但开头如实告知"数据停在 X 月 X 日，上游 Actions 可能挂了"，并建议用户（如果是维护者）用上游兼容适配器排查。
 - `stories-merged.json` / `daily-brief.json` 比 `latest-24h.json` 旧超过 **48 小时**：不要用它们回答"今天"类问题，降级到 `latest-24h.json`，并说明降级原因。
 - 绝不把过期数据当新鲜数据报给用户。诚实标注数据时间永远是简报的一部分。
 
@@ -187,7 +187,7 @@ EOF
 本 Skill 只读数据。如果用户说"我想加个源/去掉某个源/做自己的雷达"：
 
 1. fork `https://github.com/LearnPrompt/ai-news-radar`；
-2. 用仓库里的**伯乐Skill**（`skills/ai-news-radar/`）录入和判断信源、部署 GitHub Pages；
+2. 仅在明确维护这条上游管道时，使用仓库里的**AI News Radar 上游兼容适配器**（`skills/ai-news-radar/`）录入和判断信源、部署 GitHub Pages；
 3. 回到本 Skill，把 Base URL 指向自己的 Pages。
 
 信源你选，数据归你，本 Skill 继续帮你读。
@@ -196,5 +196,5 @@ EOF
 
 - 只做 GET，只读公开静态文件，不发任何写请求。
 - 不需要也不接受任何 API Key、token、cookie。
-- 不抓取需要登录的页面；用户给的私有源建议走伯乐Skill的私有OPML/AgentMail路径。
+- 不抓取需要登录的页面；用户给的私有源应遵循上游兼容适配器的私有 OPML/AgentMail 边界。
 - 引用条目时保留原始链接，不改写来源归属。

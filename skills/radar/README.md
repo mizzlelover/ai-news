@@ -72,10 +72,10 @@ npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
 
 ## 想换信源？
 
-这正是它和兄弟Skill的分工：**ai-radar 管读，[伯乐Skill](../ai-news-radar/README.md) 管选。**
+这正是它和上游适配器的分工：**ai-radar 管读，AI News Radar 上游兼容适配器（[`skills/ai-news-radar/`](../ai-news-radar/README.md)）管选。**
 
 1. fork [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；
-2. 用伯乐Skill判断和录入你的信源（RSS/OPML/公开feed/静态页/AgentMail）；
+2. 仅在明确维护上游管道时，用 AI News Radar 上游兼容适配器判断和录入你的信源（RSS/OPML/公开feed/静态页/AgentMail）；
 3. 把 ai-radar 的 Base URL 指向你自己的 Pages。
 
 信源你选，数据归你。
@@ -118,7 +118,7 @@ bash skills/radar/assets/demo.sh
 
 ## English
 
-**ai-radar** answers "What happened in AI today?" by reading the public static JSON that [AI News Radar](https://github.com/LearnPrompt/ai-news-radar) publishes on GitHub Pages every 30 minutes. Zero API, zero key, zero server — and because the whole data pipeline is forkable, the skill can never be bricked by someone else's service going down.
+**ai-radar** answers "What happened in AI today?" by reading the public static JSON that upstream [AI News Radar](https://github.com/LearnPrompt/ai-news-radar) publishes on GitHub Pages every 30 minutes. Zero API, zero key, zero server — and because the whole data pipeline is forkable, the skill can never be bricked by someone else's service going down.
 
 ```bash
 npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
@@ -126,4 +126,4 @@ npx skills add LearnPrompt/ai-news-radar -s ai-radar -g
 
 Then ask your agent: `What happened in AI today?`
 
-Want your own sources? Fork the repo, let the in-repo [Scout Skill](../ai-news-radar/README.md) classify and ingest them, and point ai-radar at your own Pages URL.
+Want your own sources? Fork the upstream repo, let the retained [AI News Radar compatibility adapter](../ai-news-radar/README.md) classify and ingest them, and point ai-radar at your own Pages URL.

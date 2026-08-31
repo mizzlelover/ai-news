@@ -1,5 +1,12 @@
 #!/usr/bin/env python3
-"""Aggregate updates from multiple AI news sites and produce 24h snapshot data."""
+"""Aggregate updates from multiple AI news sites and produce 24h snapshot data.
+
+This collector is retained as an optional AI News Radar compatibility reference.
+It comes from or is based on LearnPrompt/ai-news-radar
+(https://github.com/LearnPrompt/ai-news-radar), under the upstream MIT License
+and Copyright (c) 2026 LearnPrompt. It is not the core methodology of Private
+Intelligence Observatory.
+"""
 
 from __future__ import annotations
 

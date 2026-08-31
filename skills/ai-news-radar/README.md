@@ -1,6 +1,6 @@
 <div align="center">
 
-# 伯乐Skill
+# AI News Radar 兼容适配层（上游材料存档）
 
 > 从一堆信源里选出千里马。
 
@@ -10,19 +10,19 @@
 
 <br>
 
-**伯乐Skill is Scout Skill for AI News Radar.**
+**这是 LearnPrompt/ai-news-radar 的上游材料兼容存档，不是私人情报所的核心产品。**
 
 它帮你判断哪些 AI 信息源值得长期追踪，并把它们接入一个自动更新的 AI 日报网站。
 
 <br>
 
-[在线示例](https://learnprompt.github.io/ai-news-radar/) · [安装](#安装) · [安装后第一句话](#安装后第一句话) · [快速录入信息源](#快速录入信息源) · [伯乐会选什么](#伯乐Skill会选什么) · [工作原理](#工作原理)
+[上游在线示例](https://learnprompt.github.io/ai-news-radar/) · [适配器说明](#来源与归属) · [上游安装](#安装) · [来源录入](#快速录入信息源) · [工作原理](#工作原理)
 
 </div>
 
 ---
 
-> 来源与归属：本目录是本仓库的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的伯乐 / Scout Skill。上游为 MIT License，版权声明为 LearnPrompt；本目录不是私人情报所的核心方法论。详见 [`NOTICE.md`](NOTICE.md) 与 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+> 来源与归属：本目录是本仓库的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的上游源筛选 / Scout 工作流。上游为 MIT License，版权声明为 `Copyright (c) 2026 LearnPrompt`；本目录不是私人情报所的核心方法论、当前公共入口或原创 Skill。下文保留上游操作材料，仅供明确维护该兼容适配器时参考。详见 [`NOTICE.md`](NOTICE.md) 与 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 它解决什么问题
 
@@ -36,11 +36,11 @@ AI News Radar原本是给自己用的AI日报网站，专门覆盖那些平时�
 
 但用了一段时间后，新的问题来了：如果一直往里面加信息源，它很快就会变成一天几千条、几万条更新。看起来很强，实际上还是看不完。
 
-所以这次没有继续简单加源，而是在AI News Radar上做了一个Skill。
+上游项目没有继续简单加源，而是提供了一套源筛选工作流。
 
-它叫：**伯乐Skill**。
+上游材料将这套工作流称为：**伯乐 Skill / Scout Skill**。
 
-伯乐Skill不是什么源都加。它只做一件事：
+它不是什么源都加，只做一件事：
 
 **从乱七八糟的信源里，选出值得长期追踪的千里马。**
 

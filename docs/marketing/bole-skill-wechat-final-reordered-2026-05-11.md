@@ -1,4 +1,10 @@
-# 我做了一个伯乐Skill，不是帮你刷新闻，是帮你判断哪些信息源值得追
+# 【已归档】早期 AI News Radar / “伯乐 Skill”营销草稿
+
+> 状态：历史营销素材，仅保留作内部研究记录，不代表私人情报所当前产品、当前用户入口或当前对外文案。文中把“伯乐 Skill”写成本项目主角的说法已经退役，请勿直接发布或引用。
+>
+> 当前产品是私人情报所（Private Intelligence Observatory）：给出一个领域，先建立完整的知识体系与情报体系，再持续更新。仓库中保留的 AI News Radar、相关 Skill 和采集器只是来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar) 的可选兼容参考，受上游 MIT License 与 `Copyright (c) 2026 LearnPrompt` 约束，不属于私人情报所的核心原创成果。当前发布入口见 [`README.md`](../../README.md) 与 [`demo/`](../../demo/)。
+
+---
 
 先说结论。
 

@@ -1,18 +1,18 @@
 ---
 name: ai-news-radar
-description: "Use when working on AI News Radar, 24 小时 AI 更新雷达, AI 更新雷达, 伯乐Skill, or Scout Skill: finding high-signal AI/tech sources, adding RSS/OPML/GitHub feeds, checking source health, updating the web UI, GitHub Actions, or GitHub Pages deployment."
+description: "Use only when explicitly maintaining the retained upstream AI News Radar compatibility adapter: classifying high-signal AI/tech sources, adding RSS/OPML/GitHub feeds, checking source health, or updating its collector and Pages workflow."
 ---
 
-> 来源与归属：这是本仓库保留的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；上游 MIT 版权归属为 LearnPrompt。它不是本项目的核心方法论或原创伯乐 Skill。详见 `NOTICE.md` 和 `../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`。
+> 来源与归属：这是本仓库保留的可选兼容适配层，来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)；上游采用 MIT License，版权声明为 `Copyright (c) 2026 LearnPrompt`。它不是本项目的核心方法论或原创 Skill。详见 `NOTICE.md` 和 `../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`。
 
-# AI News Radar
+# AI News Radar 兼容适配器（上游参考）
 
 ## First Reads
 
 When this skill triggers inside the repo, read these files first:
 
-- `skills/ai-news-radar/README.md` for the public-facing 伯乐Skill / Scout Skill positioning,
-  source-intake prompt, and install-after-first-message guidance.
+- `skills/ai-news-radar/README.md` for the upstream adapter scope, attribution,
+  source-intake prompt, and operational notes.
 - `README.md` for project usage and current commands.
 - `docs/GPT_HANDOFF.md` before release-readiness checks or handing the project
   to another agent.
@@ -27,11 +27,11 @@ When this skill triggers inside the repo, read these files first:
 - `references/v2-method.md` when the user asks for product optimization, source
   coverage strategy, Skill packaging, or "v2" direction.
 
-## V2 Workflow
+## Adapter Workflow
 
 Use this order for non-trivial product or source-strategy work:
 
-1. **Context pass**: read the current docs, source status, recent commits, and
+1. **Context pass**: read the upstream adapter docs, source status, recent commits, and
    the smallest relevant code surface before proposing changes.
 2. **Product diagnostic**: identify the user, current workaround, signal-density
    problem, narrowest useful default, and what must stay in the advanced layer.
@@ -45,21 +45,19 @@ Use this order for non-trivial product or source-strategy work:
 
 For detailed prompts and decision criteria, read `references/v2-method.md`.
 
-## Product Direction
+## Scope Boundary
 
-Maintain a two-layer product:
+This Skill documents a retained upstream AI News Radar compatibility adapter.
+It is not a second product layer of Private Intelligence Observatory, and it is
+not its core methodology or an original Skill from this repository. Do not use it
+as the public entry point for a new domain: use
+`skills/domain-intelligence-bootstrap/SKILL.md` for the current product.
 
-- **Default layer**: a simple curated Signal view for ordinary AI enthusiasts.
-- **Advanced layer**: custom OPML, source health, GitHub Actions, AgentMail email intelligence, and maintainer controls.
-
-Avoid adding many reader-facing choices. Prefer better defaults, source quality,
-and clearer status output.
-
-The v2 packaging goal is a forkable public site plus a reusable agent Skill.
-The public-facing Skill name is **伯乐Skill** in Chinese and **Scout Skill** in English. It should feel concrete and easy to use: a scout that helps choose high-signal sources worth tracking, instead of implying that the system knows everything or blindly adding every noisy feed.
-Ordinary users should be able to browse the hosted page. Maintainers should be
-able to add their own sources with OPML, public generated feeds, or secret-backed
-optional adapters without changing the public default.
+Only when a user explicitly asks to maintain the upstream adapter may this
+workflow classify sources, maintain its static AI-news output, or connect an
+optional source. The current product promise remains one domain first: build the
+domain knowledge and intelligence system, then add updates, briefs, and sources
+as the domain requires.
 
 ## Safety Rules
 
@@ -83,13 +81,13 @@ optional adapters without changing the public default.
   publication when the maintainer explicitly sets `EMAIL_DIGEST_PUBLISH=1` and
   understands the site/repo privacy implications.
 
-## Add Personal Sources
+## Add Sources to the Retained Adapter
 
-When the user has installed or forked the project but does not know how to start,
-ask them for a source list first. A good kickoff prompt is:
+When the user explicitly wants to maintain this retained adapter, ask for a
+source list first. A suitable upstream-adapter prompt is:
 
 ```text
-请使用伯乐Skill，先问我要信息源清单，然后帮我判断每个信源该用 RSS、OPML、公开 feed、静态页面、Jina 兜底、AgentMail 邮箱还是跳过。目标是部署一个不需要服务器、能用 GitHub Actions 自动更新的 AI 日报网站。不要把任何 API Key、cookies、token、真实 OPML、邮箱正文或私有邮件内容写入仓库。
+请使用仓库中保留的 AI News Radar 上游兼容适配器，先问我要信息源清单，然后帮我判断每个信源该用 RSS、OPML、公开 feed、静态页面、Jina 兜底、AgentMail 邮箱还是跳过。目标是维护一份不需要服务器、能用 GitHub Actions 自动更新的上游 AI 日报兼容输出。不要把任何 API Key、cookies、token、真实 OPML、邮箱正文或私有邮件内容写入仓库。
 ```
 
 Use OPML for private customization:
