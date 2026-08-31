@@ -56,9 +56,9 @@ The same engine can support robotics, data assets, tourism, cybersecurity, educa
 
 ## Start from a domain
 
-You may only have the name of an industry, sector, or knowledge domain. You do not know where to start, which expert to trust, or which sources deserve a place in your working system. Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism”. The [user guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) explains how to begin without a polished question or technical setup.
+You may only have the name of an industry, sector, or knowledge domain. You do not know where to start, which expert to trust, or which sources deserve a place in your working system. Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism” to preview how a domain expands into a foundation, observation surfaces, participants, experts, and sources. This is a static interaction demo; it does not perform live research or generate a real briefing. To build a domain in practice, follow the [user guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) into the core Skill and engine.
 
-Once the foundation exists, tell the AI to add any experts, websites, reports, or project materials you already use. Then add a focused question when you are ready; neither action replaces the domain-first entry.
+Once you have built the foundation in the actual workflow, tell the AI to add any experts, websites, reports, or project materials you already use. Then add a focused question when you are ready; neither action replaces the domain-first entry.
 
 ### If you are an engineering collaborator
 

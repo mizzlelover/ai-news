@@ -54,10 +54,10 @@
         </a>
         <nav class="nav-links" aria-label="主要导航">
           <a href="#problem">为什么需要它</a>
-          <a href="#domain-entry">从领域开始</a>
+          <a href="#domain-entry">看领域演示</a>
           <a href="#method">它怎么展开</a>
         </nav>
-        <a class="nav-cta" href="#start">开始搭建 <span aria-hidden="true">↗</span></a>
+        <a class="nav-cta" href="#start">查看演示 <span aria-hidden="true">↗</span></a>
       </header>
 
       <main id="top">
@@ -77,8 +77,8 @@
                 比如：我想进入数字文旅产业。即使你还不知道该看谁，也可以从一个领域名字开始。你已有的专家、网站或材料，之后直接告诉 AI 加入。
               </p>
               <div class="hero-actions">
-                <a class="button button-primary" href="#domain-entry">从一个领域开始 <span aria-hidden="true">↗</span></a>
-                <a class="button button-quiet" href="#method">看看它会搭出什么 <span aria-hidden="true">↓</span></a>
+                <a class="button button-primary" href="#domain-entry">看一个领域如何展开 <span aria-hidden="true">↗</span></a>
+                <a class="button button-quiet" href="#method">看方法如何展开 <span aria-hidden="true">↓</span></a>
               </div>
               <div class="hero-note">
                 <span class="note-line" aria-hidden="true"></span>
@@ -89,8 +89,8 @@
             <aside class="hero-brief reveal reveal-delay" aria-label="私人情报简报示例">
               <div class="brief-window-bar">
                 <span class="window-dots" aria-hidden="true"><i></i><i></i><i></i></span>
-                <span>领域初始化 · 示例</span>
-                <span class="brief-status"><span></span>正在建立</span>
+                <span>领域底图 · 静态示例</span>
+                <span class="brief-status"><span></span>结构预览</span>
               </div>
               <div class="hero-brief-body">
                 <p class="brief-kicker">你的领域</p>
@@ -150,21 +150,25 @@
           <div class="section-width">
             <div class="section-heading domain-heading reveal">
               <div>
-                <p class="eyebrow eyebrow-light">一个入口 · 先建立领域知识域</p>
-                <h2 id="domain-entry-title"><span class="domain-heading-line">先告诉我你想<br />打开哪个领域。</span><span class="domain-heading-line domain-heading-line-accent">先把该知道的、<br />该看的人与信源找出来。</span></h2>
+                <p class="eyebrow eyebrow-light">领域展开 · 静态交互演示</p>
+                <h2 id="domain-entry-title"><span class="domain-heading-line">选一个领域，<br />看看底图如何展开。</span><span class="domain-heading-line domain-heading-line-accent">真实运行时，<br />再接入信源与更新。</span></h2>
               </div>
-              <p class="section-deck section-deck-light">行业、产业、细分领域或一个关键词都可以。系统先搭完整的领域底图，再进入更新、日报与具体问题追踪。</p>
+              <p class="section-deck section-deck-light">下面的输入框只切换预设结构，不会联网检索或生成真实情报；它用来展示一个领域如何从关键词展开为知识域。</p>
             </div>
 
             <div class="domain-layout domain-entry-layout reveal">
-              <div class="domain-entry-form" aria-label="领域入口">
-                <p class="domain-form-kicker">领域入口 · 不需要先知道该看谁</p>
-                <label for="domain-input">你想建立哪个领域的情报体系？</label>
+              <div class="domain-entry-form" aria-label="领域静态演示">
+                <p class="domain-form-kicker">领域演示 · 预设结果</p>
+                <label for="domain-input">预览哪个领域的展开方式？</label>
                 <div class="domain-input-row">
-                  <input class="domain-input" id="domain-input" name="domain" type="text" value="数字文旅产业" autocomplete="off" spellcheck="false" />
-                  <button class="domain-build" id="domain-build" type="button">建立领域底图 <span aria-hidden="true">↗</span></button>
+                  <input class="domain-input" id="domain-input" name="domain" type="text" value="数字文旅产业" autocomplete="off" spellcheck="false" aria-describedby="domain-demo-boundary" />
+                  <button class="domain-build" id="domain-build" type="button">查看预设示例 <span aria-hidden="true">↗</span></button>
                 </div>
-                <p class="domain-form-note">可以只写一个词。系统会先补齐领域边界、观察面、人物和信源，再进入更新、日报与推送。已有信源之后直接告诉 AI 加入即可。</p>
+                <div class="domain-demo-boundary" id="domain-demo-boundary" role="note">
+                  <strong>当前页面是静态交互演示</strong>
+                  <p>输入或选择领域只会切换预设的展示结果，不会实时检索互联网、发现专家或生成日报。</p>
+                  <a href="reading.html#engine">看实际运行说明 <span aria-hidden="true">↗</span></a>
+                </div>
                 <div class="domain-suggestions" aria-label="示例领域">
                   <button class="domain-suggestion is-active" type="button" data-domain-key="digital-tourism">数字文旅产业</button>
                   <button class="domain-suggestion" type="button" data-domain-key="robotics">机器人产业</button>
@@ -172,17 +176,17 @@
                   <button class="domain-suggestion" type="button" data-domain-key="education">职业教育</button>
                 </div>
                 <div class="domain-promise">
-                  <span>从一个领域开始</span>
-                  <strong>我们帮你把知识与情报底图搭起来</strong>
+                  <span>演示看到的结构</span>
+                  <strong>领域 → 知识域 → 专家与信源 → 持续更新</strong>
                 </div>
               </div>
 
               <article class="domain-panel" id="domain-panel" role="region" aria-live="polite" aria-labelledby="domain-entry-title">
                 <div class="domain-panel-top">
                   <span class="live-chip"><span></span>演示输出</span>
-                  <span class="panel-date">领域初始化 · 第一步</span>
+                  <span class="panel-date">预设结构 · 示例展开</span>
                 </div>
-                <p class="domain-panel-label">你给出的领域</p>
+                <p class="domain-panel-label">示例领域</p>
                 <h3 class="domain-panel-title" data-field="name">数字文旅产业</h3>
                 <p class="domain-summary" data-field="summary">先把这个领域由什么组成、谁在持续产生信息、哪些来源值得长期跟清楚，再决定你要深入哪一条线。</p>
                 <div class="domain-result-grid">
@@ -191,7 +195,7 @@
                   <div class="domain-result"><span>高质量信源</span><strong data-field="sources">政策原文 · 项目/招采 · 厂商一手 · 行业解释</strong></div>
                   <div class="domain-result"><span>知识引擎</span><strong data-field="engine">领域知识域 + 人物/机构图 + 来源组合 + 每日简报</strong></div>
                 </div>
-                <div class="domain-panel-footer"><span>第一步不是日报</span><strong data-field="next">先把领域知识域搭起来，再进入更新与具体问题追踪 <span aria-hidden="true">→</span></strong></div>
+                <div class="domain-panel-footer"><span>演示只展示结构</span><strong data-field="next">实际运行再接入信源、更新、日报与具体问题追踪 <span aria-hidden="true">→</span></strong></div>
               </article>
             </div>
           </div>
@@ -280,7 +284,7 @@
                 <div class="entrance-top"><span>01 · 一个领域</span><span class="entrance-number">A</span></div>
                 <h3>你只需要说出领域。</h3>
                 <p>行业、产业、知识域、细分方向，甚至一个还没整理好的关键词，都可以成为 Domain Seed。</p>
-                <a href="#domain-entry">输入我的领域 <span aria-hidden="true">↗</span></a>
+                <a href="#domain-entry">查看领域演示 <span aria-hidden="true">↗</span></a>
               </article>
               <article class="entrance-panel entrance-core">
                 <div class="entrance-top"><span>02 · 一张完整底图</span><span class="entrance-number">B</span></div>
@@ -302,11 +306,11 @@
         <section class="section cta-section" id="start" aria-labelledby="start-title">
           <div class="cta-orbit" aria-hidden="true"><span></span><span></span><span></span></div>
           <div class="section-width cta-inner reveal">
-            <p class="eyebrow eyebrow-light">给我一个领域，就够开始</p>
+            <p class="eyebrow eyebrow-light">先看一个领域演示</p>
             <h2 id="start-title">你提供领域关键词，<br /><span>私人情报所负责把知识域打开。</span></h2>
-            <p>你不必先会提问，也不必先整理信源。先给出一个领域，建立领域知识域；已有信源、日报、推送和具体问题，都在底图之上继续接入。</p>
+            <p>先在演示中看清一个领域如何展开；实际运行时，再把同一个领域关键词交给核心引擎，接入信源、更新、日报和推送。</p>
             <div class="cta-actions">
-              <a class="button button-primary button-large" href="#domain-entry">开始建立我的领域 <span aria-hidden="true">↗</span></a>
+              <a class="button button-primary button-large" href="#domain-entry">查看领域演示 <span aria-hidden="true">↗</span></a>
               <a class="button button-outline" href="reading.html#guide">看使用者指南 <span aria-hidden="true">↗</span></a>
             </div>
           </div>
@@ -321,7 +325,7 @@
         <div class="section-width footer-bottom"><span>© 2026 mizzlelover · Private Intelligence Observatory</span><span>方法论优先，采集与推送是可替换的边界。</span></div>
       </footer>
     </div>
-    <noscript><div class="noscript-note">本演示站的领域展开需要启用 JavaScript；方法论、使用指南和工程入口仍可直接阅读。</div></noscript>
+    <noscript><div class="noscript-note">本演示站的预设领域切换需要启用 JavaScript；方法论、使用指南和工程入口仍可直接阅读。</div></noscript>
     <script src="app.js" defer></script>
   </body>
 </html>
