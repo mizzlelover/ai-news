@@ -10,6 +10,7 @@ from domain_intelligence.models.activation import (
     EvidenceRecord,
     SourceAcquisitionRun,
 )
+from domain_intelligence.models.content import ContentArtifact, ContentInventory
 from domain_intelligence.models.core import AttentionGraph, SourceProfile, StrictModel
 from domain_intelligence.models.domain import DomainProfile
 from domain_intelligence.models.knowledge import KnowledgeGraph
@@ -45,6 +46,7 @@ class SnapshotCollectionRequest(StrictModel):
 class AcquisitionBatch(StrictModel):
     runs: tuple[SourceAcquisitionRun, ...]
     evidence: tuple[EvidenceRecord, ...]
+    contents: tuple[ContentArtifact, ...] = ()
 
 
 class DomainRunManifest(StrictModel):
@@ -56,6 +58,8 @@ class DomainRunManifest(StrictModel):
     ready_source_count: int = Field(ge=0)
     blocked_source_count: int = Field(ge=0)
     evidence_count: int = Field(ge=0)
+    content_count: int = Field(ge=0)
+    captured_content_count: int = Field(ge=0)
     signal_count: int = Field(ge=0)
     story_count: int = Field(ge=0)
     artifacts: tuple[str, ...] = Field(min_length=1)
@@ -69,3 +73,4 @@ class DomainRunResult(StrictModel):
     activation: ActivationReport
     knowledge_graph: KnowledgeGraph
     report: BootstrapReport
+    content_inventory: ContentInventory

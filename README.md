@@ -89,7 +89,20 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /tmp/private-intelligence-run
 ~~~
 
-运行会生成 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、日报 JSON/Markdown、Bootstrap 报告和 `run-manifest.json`。`--snapshots` 是可复现的本地采集适配器；真实 RSS、API、浏览器或登录态采集器应在外部边界完成，再把结构化运行结果交给核心。
+如果要在本机直接验证公开来源的真实内容采集，可以使用内置的公开 HTTP 适配器：
+
+~~~bash
+uv run --project packages/domain-intelligence dib \
+  --domain "你的领域" \
+  --bundle /path/to/local/domain-seed.json \
+  --fetch \
+  --snapshots /path/to/local/capture \
+  --output-dir /path/to/local/run
+~~~
+
+`--fetch` 会尝试采集已配置且允许公开获取的来源入口，并把规范化全文、原始响应、内容哈希、失败原因和证据引用写入本地。`--snapshots` 不带 `--fetch` 时仍然是可复现的本地快照回放；需要浏览器渲染、登录态或私有凭证的来源会明确保留为 blocked/failed，不会被伪装成已采集。
+
+运行会生成 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、日报 JSON/Markdown、Bootstrap 报告和 `run-manifest.json`。当本次运行有内容时，还会生成 `content-inventory.json`、`content-inventory.md` 和 `content/` 全文/原始响应目录。`content-inventory` 是“来源入口/内容资产/证据”的索引：只有带 `evidence_id` 的内容才会进入 Evidence、知识图谱和日报；仅成功抓到的静态介绍页会保留在全文库，但不会自动变成日报新闻。
 
 ## 仓库结构
 

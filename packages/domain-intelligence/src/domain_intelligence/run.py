@@ -8,6 +8,8 @@ from domain_intelligence.models import (
     AcquisitionBatch,
     AcquisitionPlanStatus,
     BootstrapInput,
+    ContentCaptureStatus,
+    ContentInventory,
     DomainRunManifest,
     DomainRunResult,
 )
@@ -32,6 +34,7 @@ def build_domain_run(
     domain: str,
     inputs: BootstrapInput,
     acquisition: AcquisitionBatch | None = None,
+    input_mode: str = "domain_seed_bundle",
 ) -> DomainRunResult:
     requested_domain = domain.strip()
     if requested_domain != inputs.profile.domain:
@@ -44,6 +47,9 @@ def build_domain_run(
     plan = build_acquisition_plan(inputs.attention_graph.sources, inputs.as_of)
     ready_count = sum(item.status is AcquisitionPlanStatus.READY for item in plan.items)
     blocked_count = len(plan.items) - ready_count
+    contents = acquisition.contents if acquisition is not None else ()
+    content_inventory = ContentInventory(generated_at=inputs.as_of, items=contents)
+    captured_content_count = sum(item.status is ContentCaptureStatus.CAPTURED for item in contents)
     run_id = hashlib.sha256(
         f"{requested_domain}|{inputs.as_of.isoformat()}".encode(),
     ).hexdigest()[:16]
@@ -51,11 +57,13 @@ def build_domain_run(
         run_id=run_id,
         domain=requested_domain,
         generated_at=inputs.as_of,
-        input_mode="domain_seed_bundle",
+        input_mode=input_mode,
         source_count=len(inputs.attention_graph.sources),
         ready_source_count=ready_count,
         blocked_source_count=blocked_count,
         evidence_count=len(report.activation.evidence),
+        content_count=len(contents),
+        captured_content_count=captured_content_count,
         signal_count=len(report.signals),
         story_count=len(report.brief.stories),
         artifacts=(
@@ -64,10 +72,14 @@ def build_domain_run(
             "acquisition-plan.json",
             "source-activation.json",
             "knowledge-graph.json",
+            "knowledge-graph.md",
             "bootstrap-report.json",
             "bootstrap-report.md",
             "daily-brief.json",
             "daily-brief.md",
+            "content-inventory.json",
+            "content-inventory.md",
+            *(("content/",) if captured_content_count else ()),
             "run-manifest.json",
         ),
     )
@@ -79,4 +91,5 @@ def build_domain_run(
         activation=report.activation,
         knowledge_graph=report.knowledge_graph,
         report=report,
+        content_inventory=content_inventory,
     )

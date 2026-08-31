@@ -31,7 +31,11 @@ def _plan_item(source: SourceProfile) -> AcquisitionPlanItem:
     elif not endpoint:
         status = AcquisitionPlanStatus.BLOCKED
         reason = "source has no acquisition endpoint"
-    elif method in {AcquisitionMethod.MANUAL, AcquisitionMethod.UNKNOWN}:
+    elif method in {
+        AcquisitionMethod.BROWSER,
+        AcquisitionMethod.MANUAL,
+        AcquisitionMethod.UNKNOWN,
+    }:
         status = AcquisitionPlanStatus.BLOCKED
         reason = f"acquisition method {method.value} needs an external adapter"
     else:

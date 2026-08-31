@@ -172,7 +172,7 @@
 
 ### 7. 让来源开始生产证据
 
-来源网络建立以后，系统还要记录每次来源运行：这次是否成功、是否为空、是否失败，实际获得了哪些证据。证据必须保留原始 URL、`available_at`、`retrieved_at` 和内容哈希，再转换成日报信号和知识域增量。来源可以获取，不等于事实已经确认；一条信号进入日报，也不等于它已经通过历史质量评价。
+来源网络建立以后，系统还要记录每次来源运行：这次是否成功、是否为空、是否失败，实际获得了哪些内容和证据。每次运行都会有一份内容清单：哪些入口已经抓到规范化全文和原始响应，哪些入口失败，哪些入口因为需要浏览器或登录态被阻断；证据再通过 `content_ref` 回到全文文件，并保留原始 URL、`available_at`、`retrieved_at` 和内容哈希。来源可以获取，不等于事实已经确认；一条信号进入日报，也不等于它已经通过历史质量评价。
 
 ### 8. 最后才是日报、推送和具体问题追踪
 
@@ -223,15 +223,15 @@
 1. 打开[私人情报所演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)。
 2. 先在页面中选择或输入一个行业、产业、细分领域或关键词，例如“数字文旅产业”；这里是静态演示，只用于查看预设的领域展开结构，不会实时联网调研。
 3. 要实际建立领域知识域，请在支持 `domain-intelligence-bootstrap` 的 AI 对话中输入一个领域关键词。AI 在本地生成 typed seed Bundle 后，运行[核心引擎](../packages/domain-intelligence/README.md)的完整领域命令；不需要先带上信源或写出完整问题。
-4. 用本地来源快照执行采集验证，检查运行清单、来源激活、知识图谱和日报；真实 RSS、API 或浏览器采集器再按同一契约接入。
+4. 用 `dib --fetch` 采集公开来源，检查运行清单、内容清单、全文文件、来源激活、知识图谱及其证据追踪摘要和日报；需要浏览器或登录态的来源再按同一契约接入外部适配器。
 5. 领域底图建立后，直接告诉 AI 加入你已有的专家、网站、报告或项目材料；需要更具体的判断时再建立 Focused Watch。
 
 ### 适合技术协作者的入口
 
 1. 阅读[核心方法论](DOMAIN_INTELLIGENCE_V0_1.md)和[项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 2. 先用 `DomainProfile(domain="你的领域")` 初始化领域底图，再按需要补充别名、观察面、PIR、EIE 和 Focused Watch。
-3. 用[Domain Intelligence Bootstrap](../packages/domain-intelligence/README.md)生成本地 seed Bundle，并用 `dib --domain ... --bundle ... --snapshots ...` 运行完整交付链路。
-4. 检查 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`daily-brief.md` 和 `run-manifest.json`。
+3. 用[Domain Intelligence Bootstrap](../packages/domain-intelligence/README.md)生成本地 seed Bundle，并用 `dib --domain ... --bundle ... --fetch --snapshots ...` 运行完整交付链路。
+4. 检查 `domain-profile.json`、`source-map.json`、`content-inventory.json`/`.md`、`content/`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`/`.md`、`daily-brief.md` 和 `run-manifest.json`。
 5. 将 RSS、网页、数据库、邮件或企业系统适配成 `SourceAcquisitionRun` 和 `EvidenceRecord`，再由核心转换为结构化信号，不把采集层误当成需求层。
 6. 阅读[来源激活运行契约](SOURCE_ACTIVATION_RUN.md)，确认 `available_at`、`retrieved_at`、原始 URL 和内容哈希都被保留。
 7. 用测试、历史回放和覆盖审计验证新领域适配。

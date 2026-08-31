@@ -20,7 +20,7 @@ from domain_intelligence.models.daily import DailySignal
 from domain_intelligence.models.types import AcquisitionMethod, SourceId
 
 BLOCKED_ACQUISITION_METHODS: Final = frozenset(
-    {AcquisitionMethod.MANUAL, AcquisitionMethod.UNKNOWN},
+    {AcquisitionMethod.BROWSER, AcquisitionMethod.MANUAL, AcquisitionMethod.UNKNOWN},
 )
 
 

@@ -206,7 +206,28 @@ uv run --project packages/domain-intelligence \
 
 这一层明确区分四件事：来源可以获取，不等于获得了证据；获得了证据，不等于完成了事实确认；产生了信号，不等于应该进入日报；进入日报，也不等于该来源已经通过历史质量评价。`available_at`、原始 URL、内容哈希和来源角色必须被保留，才能回到当时的证据现场。
 
-当前核心已经实现“领域 seed → 采集计划/本地快照 → 证据 → 信号/知识域增量 → 知识图谱/日报”的确定性转换，但仍然没有把外部搜索、数据库、调度器、LLM 语义抽取或邮件推送硬编码进核心。它们应作为可替换边界适配器接入，不能取代领域需求建模、历史回放、来源组合和覆盖审计。`--snapshots` 提供可复现的本地采集边界，便于在推广前完成完整运行验收。
+当前核心已经实现“领域 seed → 采集计划/公开 HTTP 采集或本地快照 → 内容全文与原始响应 → 证据 → 信号/知识域增量 → 知识图谱/日报”的确定性转换，但仍然没有把外部搜索、数据库、调度器、LLM 语义抽取或邮件推送硬编码进核心。公开 RSS、Atom、JSON、Sitemap、OPML、API 和稳定静态页面可通过 `dib --fetch` 验证；浏览器渲染、登录态和私有凭证仍作为可替换边界适配器接入。它们不能取代领域需求建模、历史回放、来源组合和覆盖审计。`--snapshots` 提供可复现的本地采集边界，便于对真实内容做重复验收。
+
+一次完整运行的交付物不是只有日报：
+
+```text
+source-map.json
+  → 专家、来源、typed attention edges
+content-inventory.json / .md
+  → 每个来源入口和内容资产的 captured/failed/blocked 状态
+content/
+  → 规范化全文 Markdown与原始响应
+source-activation.json
+  → 运行、证据、信号和知识域增量
+knowledge-graph.json
+  → domain/topic/element/source/evidence/event/nugget 节点及 typed edges
+bootstrap-report.json / .md
+  → 来源推荐、历史评价、组合、覆盖缺口
+daily-brief.json / .md
+  → 本次真实证据经过筛选后的日报
+```
+
+`EvidenceRecord.content_ref` 会回指 `content/` 下的规范化全文；`content_hash` 和原始 URL 用于回读与审计。内容捕获成功不等于事实确认，也不等于一定进入日报。
 
 接下来的工程顺序是：
 

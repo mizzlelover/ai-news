@@ -9,6 +9,11 @@ from domain_intelligence.models.activation import (
     SourceAcquisitionRun,
     SourceActivation,
 )
+from domain_intelligence.models.content import (
+    ContentArtifact,
+    ContentCaptureStatus,
+    ContentInventory,
+)
 from domain_intelligence.models.core import (
     AcquisitionCapability,
     AttentionEdge,
@@ -99,6 +104,9 @@ __all__ = [
     "BenchmarkEvent",
     "BootstrapInput",
     "BootstrapReport",
+    "ContentArtifact",
+    "ContentCaptureStatus",
+    "ContentInventory",
     "CoverageInput",
     "CoverageReport",
     "CoverageRow",

@@ -43,18 +43,33 @@ uv run --project packages/domain-intelligence dib \
 
 `--domain` 是运行时的领域输入，`--bundle` 是 Skill 在本地生成并经 Pydantic 校验的领域底图与来源网络，`--snapshots` 用于执行可复现的本地采集边界。领域 seed、快照和输出目录都属于本地运行数据，不应提交到公共仓库。
 
+要直接采集公开来源并留存内容资产，使用：
+
+```bash
+uv run --project packages/domain-intelligence dib \
+  --domain "your domain" \
+  --bundle /path/to/local/domain-seed.json \
+  --fetch \
+  --snapshots /path/to/local/capture \
+  --output-dir /tmp/private-intelligence-run
+```
+
+`--fetch` 使用内置公开 HTTP 适配器尝试获取 RSS、Atom、JSON、Sitemap、OPML、API 和稳定静态页面；`--snapshots` 是采集目录或可复现快照目录。需要浏览器渲染、登录态、私有凭证或不稳定路径的来源会留下明确的 blocked/failed 结果。领域 seed、快照、采集全文和输出目录都属于本地运行数据，不应提交到公共仓库。
+
 输出目录包含：
 
 - `domain-profile.json`：领域边界、主题和信息要素；
 - `source-map.json`：专家、来源和 typed attention edges；
 - `acquisition-plan.json`：每个来源的获取方式、入口和可执行状态；
 - `source-activation.json`：本次运行、证据、信号和知识域增量；
-- `knowledge-graph.json`：带来源和时间证据的领域知识图谱；
+- `knowledge-graph.json` / `knowledge-graph.md`：带来源和时间证据的领域知识图谱，以及可读的证据追踪摘要；
+- `content-inventory.json` / `content-inventory.md`：每个内容资产的来源、证据映射、状态、全文路径、原始响应路径和失败原因；
+- `content/`：本次运行复制出的规范化全文 Markdown 与原始响应文件；
 - `daily-brief.json` / `daily-brief.md`：日报交付；
 - `bootstrap-report.json` / `bootstrap-report.md`：完整机器版和阅读版报告；
 - `run-manifest.json`：本次运行的范围、计数和交付物清单。
 
-如果不提供 `--snapshots`，运行会使用 Bundle 中已有的 `acquisition_runs` 和 `evidence`；提供后，快照采集结果会替换本次运行的激活输入。RSS、Atom、JSON、浏览器和登录态适配器可以在外部采集层实现，只要向同一契约提交运行和证据。
+如果不提供 `--snapshots` 或 `--fetch`，运行会使用 Bundle 中已有的 `acquisition_runs` 和 `evidence`。`--fetch` 会把真实采集结果替换为本次运行的激活输入，并清除仅作为发现线索的 seed signals；因此日报只能由本次采集后实际建立了内容引用的证据产生。来源入口抓取成功不等于证据产生：没有明确证据映射的静态页面只进入 `content-inventory`，不会自动进入日报。
 
 ## 运行测试
 
@@ -74,7 +89,7 @@ uv run --project packages/domain-intelligence ruff check packages/domain-intelli
 4. `benchmark`：Event、Nugget、Source、Observation 和 Cutoff；
 5. `signals`：已有的结构化信号，可与激活运行生成的信号合并；
 6. `acquisition_runs`：采集器本次运行的成功、空结果或失败状态；
-7. `evidence`：带有来源 URL、可获得时间、实际获取时间和内容哈希的证据记录；
+7. `evidence`：带有来源 URL、可获得时间、实际获取时间、内容哈希和可选全文引用的证据记录；
 8. 预算、来源数量、日报窗口和输出上限。
 
 最小的领域入口不要求先写专业问题，也不要求先准备信源清单：
@@ -98,7 +113,9 @@ backtest.py   availability-time replay / metric vector
 portfolio.py  budgeted portfolio / source bundle synergy
 coverage.py   EIE denominator / gap audit
 activation.py acquisition run, evidence, signal, and knowledge-delta intake
-snapshot.py   reproducible local acquisition adapter
+ snapshot.py   reproducible local snapshot adapter and content validation
+ public_capture.py public HTTP capture and full-text archive adapter
+ capture_parser.py HTML/JSON/XML visible-text and date extraction
 knowledge_graph.py typed domain knowledge graph assembly
 acquisition.py source acquisition plan
 run.py        domain input and complete delivery orchestration
@@ -109,7 +126,7 @@ io.py         JSON and Markdown report surface
 
 ## 与采集适配器的关系
 
-仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包现在提供通用的来源激活契约和情报判断层。外部适配器提交 `acquisition_runs` 与 `evidence`，本包将它们转换为来源状态、日报 signals 和知识域 deltas，再把来源组合、历史证据、覆盖缺口和日报排序纳入同一份报告。AI News Reader 兼容界面不属于本项目当前发布面。
+仓库中的 `scripts/update_news.py` 面向公开 AI/文旅场景提供采集与静态数据发布；本包提供通用的来源激活契约、情报判断层和一个面向公开 HTTP 入口的基础采集器。`--fetch` 会将公开响应存为原始文件，同时生成规范化全文和 `ContentArtifact`；只有被证据记录引用的内容才进入日报和知识域增量。需要浏览器渲染、登录态、私有凭证或领域专属解析的适配器仍可在外部边界实现，并提交同一契约。AI News Reader 兼容界面不属于本项目当前发布面。
 
 这个边界允许：
 

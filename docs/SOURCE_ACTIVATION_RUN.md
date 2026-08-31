@@ -13,7 +13,7 @@ Source Profile
 → Daily Brief / Knowledge Domain
 ```
 
-这是候选来源网络建立后的第一条生产链路。所有来源可以共享同一套核心契约，但每个来源的 RSS、Atom、公开 API、静态页面、人工或登录态适配器仍然属于外部边界。
+这是候选来源网络建立后的第一条生产链路。公开 HTTP 入口可以由核心包的 `--fetch` 适配器直接采集；浏览器渲染、登录态、私有凭证和领域专属解析仍然属于外部边界。任何边界都必须返回同一套运行、内容和证据契约。
 
 ## 采集器提交什么
 
@@ -37,9 +37,20 @@ Source Profile
 - `available_at`：系统客观上最早可以获得该信息的时间；
 - `retrieved_at`：本次采集实际获得它的时间；
 - `content_hash`：用于去重、审计和后续回放；
+- `content_ref`、`content_type`、`content_char_count`：把证据映射回本次运行的规范化全文；
 - 主题、EIE、事件类型、重要性、原创性和确认状态。
 
 其中 `available_at` 仍然是 point-in-time 回放的时间依据，不能用 `retrieved_at` 替代。
+
+采集结果还会生成 `ContentArtifact` 和 `ContentInventory`：
+
+| 内容状态 | 含义 |
+| --- | --- |
+| `captured` | 已保存规范化全文和原始响应，可通过 `relative_path`、`raw_relative_path` 回读 |
+| `failed` | 已尝试获取但请求、状态码、解析或大小限制失败，保留 `error_code` |
+| `blocked` | 因未批准、不稳定、需要浏览器或不支持的获取方式没有执行请求 |
+
+来源入口成功抓取只说明内容资产可回读，不自动等价于证据。只有有明确 `evidence_id` 的内容才会生成 `EvidenceRecord`，进入知识图谱、知识域增量和日报。
 
 ## 核心引擎做什么
 
@@ -100,6 +111,31 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /tmp/private-intelligence-activation
 ```
 
+直接做公开来源真实采集时：
+
+```bash
+uv run --project packages/domain-intelligence dib \
+  --domain "your domain" \
+  --bundle /path/to/local/domain-seed.json \
+  --fetch \
+  --snapshots /path/to/local/capture \
+  --output-dir /tmp/private-intelligence-activation
+```
+
+验收时先看 `run-manifest.json`，再按下面的顺序回读：
+
+```text
+source-map.json
+→ content-inventory.json / content-inventory.md
+→ content/<artifact>.md 与原始响应
+→ source-activation.json 的 evidence.content_ref
+→ knowledge-graph.json / knowledge-graph.md 的 evidence/publishes/supports_element 边
+→ bootstrap-report.json 的 attention_recommendations / portfolio
+→ daily-brief.json / daily-brief.md
+```
+
+`--fetch` 运行会把输入 Bundle 中的 seed signals 当作待验证的公开页面线索；只有成功回读并建立全文引用的信号才会进入本次日报，避免把预先写入 Bundle 的标题误报成实时采集结果。
+
 ## 与候选来源网络的关系
 
 候选雷达规模不是每次日报的条数。每次来源激活运行都应同时看四个层次：
@@ -115,13 +151,12 @@ uv run --project packages/domain-intelligence dib \
 
 ## 后续工程边界
 
-当前核心已经实现本地快照适配器结果到情报资产的确定性转换。接下来按这个顺序扩展：
+当前核心已经实现公开 HTTP 采集、本地全文/原始响应归档、本地快照回放，以及从内容到证据、知识域增量和日报的确定性转换。后续按这个顺序扩展：
 
-1. 为公开 RSS、Atom、JSON 和稳定静态页面接入外部可复用适配器；
-2. 保存原始响应快照、内容哈希、抓取时间和失败状态；
-3. 增加事件/信息要素抽取与多源印证记录；
-4. 增加领域知识域的持久化更新和变更历史；
-5. 接入调度、邮件/消息推送和用户反馈；
-6. 用真实运行数据补齐候选来源的历史回放，再重新计算来源组合。
+1. 为浏览器渲染、登录态和领域专属页面增加外部边界适配器；
+2. 增加事件/信息要素抽取与多源印证记录；
+3. 增加领域知识域的持久化更新和变更历史；
+4. 接入调度、邮件/消息推送和用户反馈；
+5. 用真实运行数据补齐候选来源的历史回放，再重新计算来源组合。
 
 这条边界保留了成熟采集轮子的可替换性，同时确保采集结果必须经过私人情报所自己的证据、知识域、组合和覆盖规则。

@@ -54,6 +54,9 @@ class EvidenceRecord(StrictModel):
     originality: float = Field(default=0.5, ge=0, le=1)
     confirmed: bool = False
     event_id: EventId | None = None
+    content_ref: str | None = Field(default=None, min_length=1)
+    content_type: str | None = Field(default=None, min_length=1)
+    content_char_count: int = Field(default=0, ge=0)
 
 
 class SourceActivation(StrictModel):

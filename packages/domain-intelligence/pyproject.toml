@@ -9,6 +9,8 @@ description = "An auditable, domain-agnostic intelligence radar bootstrap engine
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "anyio>=4.9,<5",
+    "httpx2[http2,brotli,zstd]>=2.12,<3",
     "pydantic>=2.11,<3",
     "typer>=0.16,<1",
 ]
@@ -56,6 +58,9 @@ ignore = [
 
 [tool.ruff.lint.per-file-ignores]
 "tests/**/*.py" = ["S101", "ARG", "PLR2004", "PLR0913", "PLR0917", "S603", "SLF001", "D"]
+"src/domain_intelligence/io.py" = ["D105"]
+"src/domain_intelligence/snapshot.py" = ["D107"]
+"src/domain_intelligence/cli.py" = ["FBT003", "PLR0913", "PLR0917"]
 
 [tool.ruff.lint.flake8-bugbear]
 extend-immutable-calls = ["typer.Argument", "typer.Option"]

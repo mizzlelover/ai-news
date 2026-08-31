@@ -45,9 +45,20 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
      --output-dir /tmp/private-intelligence-run
    ```
 
-   `--snapshots` 会逐个执行本地来源快照适配器；没有快照的来源必须在 `source-activation.json` 中留下 `failed` 运行记录，不能静默跳过。
-6. 检查 `run-manifest.json` 的交付物清单和计数，再看 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`daily-brief.md` 与 Bootstrap 报告。
-7. 当真实外部采集器已有运行结果时，把 `SourceAcquisitionRun` 和 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。
+   `--snapshots` 会逐个执行本地来源快照适配器；没有快照的来源必须在 `source-activation.json` 中留下 `failed` 运行记录，不能静默跳过。需要直接验证公开来源真实内容时，将 `--snapshots` 与 `--fetch` 一起使用：
+
+   ```bash
+   uv run --project packages/domain-intelligence dib \
+     --domain "你的领域" \
+     --bundle /path/to/local/seed.json \
+     --fetch \
+     --snapshots /path/to/local/capture \
+     --output-dir /tmp/private-intelligence-run
+   ```
+
+   `--fetch` 会逐个尝试公开 HTTP 入口，并写出原始响应、规范化全文、`content-inventory.json` 和来源快照；需要浏览器、登录态或私有凭证的来源必须明确留下 `blocked`/`failed`，不能静默跳过。
+6. 检查 `run-manifest.json` 的交付物清单和计数，再依次看 `domain-profile.json`、`source-map.json`、`content-inventory.json`/`.md`、`content/`、`source-activation.json`、`knowledge-graph.json`、`bootstrap-report.json`/`.md`、`daily-brief.json`/`.md` 与 Bootstrap 报告。
+7. 当真实外部采集器已有运行结果时，把 `SourceAcquisitionRun` 和带 `content_ref` 的 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。没有证据引用的静态页面只保留在内容清单，不会自动进入日报。
 8. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
 9. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
 
@@ -61,6 +72,7 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 - 覆盖率分母来自声明的 EIE，不来自搜索结果数量。
 - 组合优化允许 `SourceBundle` 表示互补效应，启发式选择应标注为基线而非数学最优。
 - Daily Brief 必须保留原始证据 URL；标题、摘要和排序不能取代证据。
+- `ContentInventory` 必须能从证据引用回规范化全文和原始响应；内容捕获成功不等于证据成立。
 - 来源可获取、证据已获得、信号可入选和来源已通过历史评价是四个不同状态，不能合并成一个“已覆盖”。
 
 ## 验证

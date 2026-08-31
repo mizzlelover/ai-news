@@ -8,8 +8,13 @@ from pathlib import Path
 
 import pytest
 
-from domain_intelligence.io import load_input
-from domain_intelligence.models import SnapshotCollectionRequest
+from domain_intelligence.io import load_input, write_domain_run
+from domain_intelligence.models import (
+    AcquisitionBatch,
+    ContentArtifact,
+    ContentCaptureStatus,
+    SnapshotCollectionRequest,
+)
 from domain_intelligence.run import DomainMismatchError, build_domain_run
 from domain_intelligence.snapshot import collect_snapshots
 
@@ -79,6 +84,48 @@ def test_domain_run_can_replace_seed_evidence_with_collection_results(tmp_path: 
     assert result.manifest.evidence_count == 1
 
 
+def test_domain_run_exports_content_inventory_and_full_text(tmp_path: Path) -> None:
+    fixture = Path(__file__).parents[1] / "examples" / "data-elements.json"
+    inputs = load_input(fixture)
+    content_root = tmp_path / "capture"
+    text_path = content_root / "content" / "signal-policy.md"
+    text_path.parent.mkdir(parents=True)
+    text_path.write_text("Policy evidence full text.", encoding="utf-8")
+    content = ContentArtifact(
+        id="content-signal-policy",
+        source_id="official-policy",
+        evidence_id="signal-policy",
+        title="New data policy published",
+        url="https://example.com/policy?utm_source=demo",
+        captured_at=inputs.as_of,
+        content_type="text/markdown",
+        relative_path="content/signal-policy.md",
+        content_hash="sha256:content-policy",
+        character_count=28,
+        status=ContentCaptureStatus.CAPTURED,
+    )
+    result = build_domain_run(
+        "data-elements",
+        inputs,
+        AcquisitionBatch(
+            runs=inputs.acquisition_runs,
+            evidence=inputs.evidence,
+            contents=(content,),
+        ),
+    )
+
+    output_dir = tmp_path / "out"
+    write_domain_run(result, output_dir, content_root=content_root)
+
+    assert result.manifest.content_count == 1
+    assert result.manifest.captured_content_count == 1
+    assert (output_dir / "content-inventory.json").is_file()
+    assert (output_dir / "content-inventory.md").is_file()
+    assert (output_dir / "content" / "signal-policy.md").read_text(encoding="utf-8") == (
+        "Policy evidence full text."
+    )
+
+
 def test_cli_domain_run_writes_the_complete_delivery_bundle(tmp_path: Path) -> None:
     fixture = Path(__file__).parents[1] / "examples" / "data-elements.json"
     output_dir = tmp_path / "out"
@@ -111,10 +158,13 @@ def test_cli_domain_run_writes_the_complete_delivery_bundle(tmp_path: Path) -> N
         "acquisition-plan.json",
         "source-activation.json",
         "knowledge-graph.json",
+        "knowledge-graph.md",
         "bootstrap-report.json",
         "bootstrap-report.md",
         "daily-brief.json",
         "daily-brief.md",
+        "content-inventory.json",
+        "content-inventory.md",
         "run-manifest.json",
     }
     assert {path.name for path in output_dir.iterdir()} == expected

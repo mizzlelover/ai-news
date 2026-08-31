@@ -90,7 +90,18 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /tmp/private-intelligence-run
 ~~~
 
-The run writes the domain profile, source map, acquisition plan, source activation, knowledge graph, daily brief JSON/Markdown, Bootstrap report, and `run-manifest.json`. `--snapshots` is a reproducible local acquisition adapter; live RSS, API, browser, or authenticated adapters remain replaceable boundary components.
+To verify real public content locally, add `--fetch`:
+
+~~~bash
+uv run --project packages/domain-intelligence dib \
+  --domain "your domain" \
+  --bundle /path/to/local/domain-seed.json \
+  --fetch \
+  --snapshots /path/to/local/capture \
+  --output-dir /path/to/local/run
+~~~
+
+The built-in public HTTP adapter attempts RSS, Atom, JSON, Sitemap, OPML, API, and stable static-page endpoints. It saves normalized full text, raw responses, content hashes, failure reasons, and evidence references. Browser-rendered, authenticated, private, or unstable sources remain explicitly `blocked`/`failed`. A run writes `content-inventory.json`, `content-inventory.md`, and `content/` alongside the domain profile, source map, acquisition plan, source activation, knowledge graph, daily brief, Bootstrap report, and `run-manifest.json`. Only content with an `evidence_id` enters the knowledge graph and daily brief; a captured static reference page remains in the inventory without becoming news automatically.
 
 ## Repository map
 
