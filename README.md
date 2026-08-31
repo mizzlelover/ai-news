@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
+[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 ---
 
@@ -53,6 +53,14 @@ Domain Seed
 
 因此，同一套工程可以服务机器人、数据要素、文旅、网络安全、教育、农业或任何新领域；每个领域都从自己的 Domain Seed 开始，再逐步形成决策目的、信息要素和观察规则，而不是把 AI 领域的栏目和阈值直接复制过去。
 
+## 私人情报所必须有规模化来源网络
+
+私人情报所不是“二十几条链接加一份日报”。一个领域要真正形成情报网络，至少要同时观察标准与政策、研究与专家、项目采购与交付、平台与厂商、开源生态以及 Newsletter、播客、媒体和社区等早期信号层。
+
+公开的数字孪生样例已经从首轮 22 个核心入口扩展到 **117 个来源入口**，其中新增 95 个，覆盖七个来源层；31 个入口已有历史回放，当前在预算约束下选出 24 个进入组合。117 是候选雷达规模，24 是一次组合选择结果，不是项目上限，也不把所有来源都直接塞进每日推送。
+
+这套“先起量、再回放、后激活”的规则写在[来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md)中；完整的可运行样例见[`digital-twin-expanded.json`](packages/domain-intelligence/examples/digital-twin-expanded.json)，来源逐项矩阵见[数字孪生扩展来源矩阵](docs/examples/digital-twin-source-expansion-matrix.md)。
+
 ## 从一个领域开始
 
 你可能只知道一个行业、产业、知识域或细分方向的名字，完全不知道从哪里开始，也不知道哪个专家值得信、哪个来源值得长期跟。打开[演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)，输入一个领域关键词，例如“数字文旅产业”，查看一个领域如何从关键词展开为领域底图、观察面、参与者、专家和信源。这里是静态交互演示，不会实时联网调研或生成真实日报；要实际建立领域知识域，请按[面向领域使用者的指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md)进入核心 Skill 与引擎。
@@ -78,6 +86,8 @@ uv run --project packages/domain-intelligence dib \
 | demo/ | 面向使用者的产品演示、使用场景和方法论图示 |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
+| docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层、激活状态和公开样例 |
+| docs/examples/digital-twin-source-expansion-matrix.md | 数字孪生 117 入口样例的来源矩阵 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |

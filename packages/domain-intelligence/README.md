@@ -29,6 +29,18 @@ cd packages/domain-intelligence
 uv run dib examples/data-elements.json --output-dir /tmp/domain-intelligence-preview
 ```
 
+## 规模化领域样例
+
+最小 Bundle 用来验证安装和接口；它不代表私人情报所的来源规模。仓库同时提供一个 117 个来源入口的数字孪生公开样例，用于验证宽领域的来源扩展、注意力图、历史回放、来源组合、覆盖审计和日报链路：
+
+```bash
+uv run --project packages/domain-intelligence dib \
+  packages/domain-intelligence/examples/digital-twin-expanded.json \
+  --output-dir /tmp/private-intelligence-digital-twin
+```
+
+该样例包含 117 个来源节点、16 个专家/机构群体、31 个历史评价来源和 24 个当前组合来源。117 是候选雷达规模，24 是该次 Bundle 的组合约束，不是通用领域上限；完整的规模政策与来源层说明见 [`../../docs/SOURCE_PORTFOLIO_SCALE.md`](../../docs/SOURCE_PORTFOLIO_SCALE.md)。
+
 输出目录包含：
 
 - `bootstrap-report.json`：结构化结果；
@@ -64,7 +76,7 @@ DomainProfile(
 
 它默认处于 `domain_foundation` 模式。完成领域底图后，才按需要补充 `decision_context`、PIR 和 EIE，并切换到 `focused_watch`。
 
-所有边界输入由 Pydantic v2 模型解析，内部算法只接收已解析对象。示例文件是完整的最小可运行 Bundle：`examples/data-elements.json`。
+所有边界输入由 Pydantic v2 模型解析，内部算法只接收已解析对象。`examples/data-elements.json` 是安装验证用的最小 Bundle；`examples/digital-twin-expanded.json` 是用于验证规模化来源网络的公开领域 Bundle。
 
 ## 模块
 

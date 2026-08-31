@@ -13,6 +13,8 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 - `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`：本项目核心与 AI News Radar 采集参考的归属、来源和版权边界。
 - `packages/domain-intelligence/README.md`：安装、输入 Bundle 和验证命令。
 - `packages/domain-intelligence/examples/data-elements.json`：完整最小示例。
+- `packages/domain-intelligence/examples/digital-twin-expanded.json`：117 个来源入口的规模化领域样例。
+- `docs/SOURCE_PORTFOLIO_SCALE.md`：来源网络的分层、规模和激活规则。
 - `packages/domain-intelligence/src/domain_intelligence/models/`：边界 Schema。
 
 如果任务同时涉及仓库中的 AI News Radar 采集、RSS、OPML、GitHub Actions 或 Pages，再读 `skills/ai-news-radar/SKILL.md`、`docs/SOURCE_COVERAGE.md` 和 `scripts/update_news.py`。它们是独立的采集参考，不是产品入口；采集层与情报判断层保持分离。
@@ -37,6 +39,8 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 5. 先看 `bootstrap-report.json` 的结构化结果，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
 6. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
 7. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+
+宽领域不要在首轮把来源网络缩减为少数日报入口。以公开数字孪生样例为基准，第一轮候选雷达可以从约 80–150 个可独立采集的入口起步，再用历史回放、来源角色和覆盖审计决定进入每日组合的来源；来源数量本身不等于覆盖或权威。
 
 ## 关键判据
 

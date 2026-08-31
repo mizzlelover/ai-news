@@ -1,6 +1,6 @@
 # 私人情报所：项目范围与来源/版权说明
 
-更新时间：2026-08-30
+更新时间：2026-08-31
 
 本仓库包含私人情报所的主产品，以及一组独立的采集和消费适配参考。主产品是领域情报方法论、核心引擎、演示站与阅读室；参考工程可以在边界上组合使用，但不属于主产品的方法论资产。
 
@@ -41,6 +41,10 @@ AI News Reader / AI News Radar 兼容界面不属于当前产品发布面；其�
 | `packages/domain-intelligence/` | Domain Seed/DomainProfile、领域底图、PIR/EIE、EAR、point-in-time replay、Portfolio、Coverage 和 Daily Brief 引擎 |
 | `skills/domain-intelligence-bootstrap/` | 面向新领域建模、回放、组合和审计的核心 Skill 路由 |
 | `packages/domain-intelligence/examples/` | 可复现的最小领域 Bundle，不代表某个外部项目的原始数据 |
+| `docs/SOURCE_PORTFOLIO_SCALE.md` | 来源网络规模、分层、激活状态和来源归属规则 |
+| `docs/examples/digital-twin-source-expansion-matrix.md` | 数字孪生 117 入口公开来源矩阵，逐项保留角色、入口和边界 |
+
+当前仓库还保留了一个可运行的 `packages/domain-intelligence/examples/digital-twin-expanded.json` 领域样例。它包含 117 个来源入口，其中 95 个是扩展入口；这些入口记录的是公开来源的 URL、角色、采集方式和证据关系，不复制第三方内容。这个样例用于验证私人情报所的规模化来源网络和回放链路，不把任何一个外部组织、平台、媒体或开源项目包装成私人情报所原创资产。
 
 这些内容不依赖任何现成 AI 日报页面或 Skill 才成立。未来可以接入 RSS、数据库、搜索、邮件、企业系统或其他采集器，只要它们能在边界上提供结构化信号和证据时间。
 

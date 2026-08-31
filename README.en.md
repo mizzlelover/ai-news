@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
+[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Source scale and activation](docs/SOURCE_PORTFOLIO_SCALE.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 ---
 
@@ -54,6 +54,14 @@ The system first turns “I only know this domain” into a durable field map, t
 
 The same engine can support robotics, data assets, tourism, cybersecurity, education, agriculture, or a new domain. Each domain starts from its own seed and map, then develops decision context and information requirements rather than copying AI-news categories and thresholds.
 
+## A private observatory needs a source network with real scale
+
+Private Intelligence Observatory is not a few dozen links wrapped in a daily digest. A real domain network needs multiple layers: standards and policy, research and experts, procurement and delivery evidence, platforms and vendors, open-source ecosystems, and early signals from newsletters, podcasts, media, and communities.
+
+The public Digital Twin example has grown from 22 first-round core entries to **117 source entries**: 95 new entries across seven source layers. Thirty-one entries have historical replay evidence, and 24 are selected into the current portfolio under a deliberate budget constraint. 117 is candidate-radar scale; 24 is one portfolio result, not a project ceiling and not a claim that every source should appear in every daily brief.
+
+The [source scale and activation rules](docs/SOURCE_PORTFOLIO_SCALE.md) document this “expand, replay, then activate” model. The runnable fixture is [`digital-twin-expanded.json`](packages/domain-intelligence/examples/digital-twin-expanded.json), with the human-readable [Digital Twin source matrix](docs/examples/digital-twin-source-expansion-matrix.md).
+
 ## Start from a domain
 
 You may only have the name of an industry, sector, or knowledge domain. You do not know where to start, which expert to trust, or which sources deserve a place in your working system. Open the [demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) and enter a domain keyword such as “digital tourism” to preview how a domain expands into a foundation, observation surfaces, participants, experts, and sources. This is a static interaction demo; it does not perform live research or generate a real briefing. To build a domain in practice, follow the [user guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) into the core Skill and engine.
@@ -79,6 +87,8 @@ uv run --project packages/domain-intelligence dib \
 | demo/ | Audience-facing product demo, domain-first entry, and methodology visuals |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | Application guide for non-technical users |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | Methodology, metrics, and boundaries |
+| docs/SOURCE_PORTFOLIO_SCALE.md | Source-network scale, layers, activation states, and public example |
+| docs/examples/digital-twin-source-expansion-matrix.md | Human-readable source matrix for the 117-entry Digital Twin example |
 | packages/domain-intelligence/ | Runnable core engine and minimal Bundle |
 | skills/domain-intelligence-bootstrap/ | Skill routing new domains into the core workflow |
 | DESIGN.md | Demo information architecture, visual system, and acceptance contract |

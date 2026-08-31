@@ -1,4 +1,19 @@
-# AI News Radar Roadmap
+# 采集边界参考路线图
+
+> 本文件保留的是 AI News Radar 兼容采集层的历史路线，不是私人情报所的主产品路线。私人情报所的主线是从领域关键词建立知识域、规模化来源网络、历史评价、来源组合、覆盖审计和领域日报；请先阅读 [`docs/DOMAIN_INTELLIGENCE_V0_1.md`](DOMAIN_INTELLIGENCE_V0_1.md) 与 [`docs/SOURCE_PORTFOLIO_SCALE.md`](SOURCE_PORTFOLIO_SCALE.md)。
+
+## 主产品路线
+
+私人情报所的公开工程样例已经验证了 117 个入口的数字孪生来源网络。后续主产品路线围绕以下顺序推进：
+
+```text
+领域关键词 → 来源候选雷达 → 专家注意力重建 → 历史回放
+→ 互补来源组合 → 覆盖审计 → 日报、推送与持续守望
+```
+
+来源规模与激活状态的规则见 [`SOURCE_PORTFOLIO_SCALE.md`](SOURCE_PORTFOLIO_SCALE.md)。以下内容只服务于保留的 AI News Radar 采集参考。
+
+## 保留的 AI News Radar 兼容路线
 
 ## v0.3.0 — Source Overlap Check
 
