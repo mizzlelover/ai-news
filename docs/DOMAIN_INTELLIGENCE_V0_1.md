@@ -100,7 +100,7 @@ Domain Seed
 | Historical Replay | 已有历史观察、可以评价提前量和可靠性的来源 |
 | Daily Portfolio | 在预算、角色互补和证据约束下进入当前日报组合的来源 |
 
-数字孪生公开样例从首轮 22 个核心入口扩展到 117 个入口，其中 95 个为新增来源，31 个进入历史回放，当前组合为 24 个。这个样例不是把数量直接等同于质量，而是验证“扩展候选面 → 历史评价 → 组合激活”的完整链路。具体入口、角色、采集方式、状态与归属见[来源规模与激活规则](SOURCE_PORTFOLIO_SCALE.md)和[数字孪生来源矩阵](examples/digital-twin-source-expansion-matrix.md)。
+具体领域的来源网络规模不写死在方法论文档中，而由每次 Domain Seed 运行的 `source-map.json`、`acquisition-plan.json` 和 `run-manifest.json` 报告。宽领域先按来源层扩展候选面，再用历史评价、来源角色和覆盖审计决定进入日报组合的来源。
 
 ## 3. 工程实现映射
 
@@ -112,7 +112,8 @@ Domain Seed
 | 来源激活 | `activation.build_activation_report` | 采集运行、证据记录、日报信号和知识域增量 |
 | 覆盖审计 | `coverage.audit_coverage` | EIE 分母、覆盖率、机器可读缺口原因 |
 | 日报排序 | `daily.build_daily_brief` | 去重后的故事线与证据链接 |
-| 全链路 | `pipeline.build_bootstrap_report` | 一份 JSON + 一份 Markdown 报告 |
+| 知识图谱 | `knowledge_graph.build_knowledge_graph` | 节点、typed edges、来源和时间证据 |
+| 全链路 | `run.build_domain_run` | 领域底图、采集计划、激活、图谱、日报和运行清单 |
 
 ## 4. EAR：从专家种子重建注意力网络
 
@@ -205,7 +206,7 @@ uv run --project packages/domain-intelligence \
 
 这一层明确区分四件事：来源可以获取，不等于获得了证据；获得了证据，不等于完成了事实确认；产生了信号，不等于应该进入日报；进入日报，也不等于该来源已经通过历史质量评价。`available_at`、原始 URL、内容哈希和来源角色必须被保留，才能回到当时的证据现场。
 
-当前核心已经实现“适配器运行结果 → 证据 → 信号/知识域增量”的确定性转换，但仍然没有把外部搜索、爬虫、数据库、调度器、LLM 语义抽取或邮件推送硬编码进核心。它们应作为可替换边界适配器接入，不能取代领域需求建模、历史回放、来源组合和覆盖审计。宽领域的公开样例可直接运行 `packages/domain-intelligence/examples/digital-twin-expanded.json`，以检查规模化来源网络不会被误缩减为少数日报入口。
+当前核心已经实现“领域 seed → 采集计划/本地快照 → 证据 → 信号/知识域增量 → 知识图谱/日报”的确定性转换，但仍然没有把外部搜索、数据库、调度器、LLM 语义抽取或邮件推送硬编码进核心。它们应作为可替换边界适配器接入，不能取代领域需求建模、历史回放、来源组合和覆盖审计。`--snapshots` 提供可复现的本地采集边界，便于在推广前完成完整运行验收。
 
 接下来的工程顺序是：
 
@@ -214,4 +215,4 @@ uv run --project packages/domain-intelligence \
 3. 增加事件/EIE 抽取、多源印证和人工确认记录；
 4. 增加领域知识域的持久化更新和变更历史；
 5. 接入调度、推送与用户反馈；
-6. 用真实运行数据补齐 117 个来源的历史回放，再重算长期组合。
+6. 用真实运行数据补齐候选来源的历史回放，再重算长期组合。

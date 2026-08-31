@@ -59,9 +59,7 @@ Domain Seed
 
 私人情报所不是“二十几条链接加一份日报”。一个领域要真正形成情报网络，至少要同时观察标准与政策、研究与专家、项目采购与交付、平台与厂商、开源生态以及 Newsletter、播客、媒体和社区等早期信号层。
 
-公开的数字孪生样例已经从首轮 22 个核心入口扩展到 **117 个来源入口**，其中新增 95 个，覆盖七个来源层；31 个入口已有历史回放，当前在预算约束下选出 24 个进入组合。117 是候选雷达规模，24 是一次组合选择结果，不是项目上限，也不把所有来源都直接塞进每日推送。
-
-这套“先起量、再回放、后激活”的规则写在[来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md)中；完整的可运行样例见[`digital-twin-expanded.json`](packages/domain-intelligence/examples/digital-twin-expanded.json)，来源逐项矩阵见[数字孪生扩展来源矩阵](docs/examples/digital-twin-source-expansion-matrix.md)。
+这套“先起量、再回放、后激活”的规则写在[来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md)中。具体领域的来源网络、历史证据和本地采集快照属于一次运行的工作数据，不作为仓库里的产品代码或公开样例提交。
 
 ## 从一个领域开始
 
@@ -81,6 +79,18 @@ uv run --project packages/domain-intelligence dib \
   --output-dir out/domain-intelligence
 ~~~
 
+完整领域运行使用 Skill 生成的本地 seed Bundle。领域名称是使用者唯一需要提出的领域输入；Bundle 和快照目录由本地运行保存，不提交到 GitHub：
+
+~~~bash
+uv run --project packages/domain-intelligence dib \
+  --domain "你的领域" \
+  --bundle /path/to/local/domain-seed.json \
+  --snapshots /path/to/local/snapshots \
+  --output-dir /tmp/private-intelligence-run
+~~~
+
+运行会生成 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、日报 JSON/Markdown、Bootstrap 报告和 `run-manifest.json`。`--snapshots` 是可复现的本地采集适配器；真实 RSS、API、浏览器或登录态采集器应在外部边界完成，再把结构化运行结果交给核心。
+
 ## 仓库结构
 
 | 路径 | 作用 |
@@ -88,9 +98,8 @@ uv run --project packages/domain-intelligence dib \
 | demo/ | 面向使用者的产品演示、使用场景和方法论图示 |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
-| docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层、激活状态和公开样例 |
+| docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层和激活状态 |
 | docs/SOURCE_ACTIVATION_RUN.md | 采集运行、证据记录、日报信号和知识域增量契约 |
-| docs/examples/digital-twin-source-expansion-matrix.md | 数字孪生 117 入口样例的来源矩阵 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |

@@ -29,6 +29,13 @@ from domain_intelligence.models.domain import (
     StopRules,
     TopicWeight,
 )
+from domain_intelligence.models.knowledge import (
+    KnowledgeGraph,
+    KnowledgeGraphEdge,
+    KnowledgeNode,
+    KnowledgeNodeKind,
+    KnowledgeRelationType,
+)
 from domain_intelligence.models.outputs import (
     AttentionRecommendation,
     BootstrapInput,
@@ -39,6 +46,15 @@ from domain_intelligence.models.outputs import (
     PortfolioInput,
     PortfolioResult,
     SourceBundle,
+)
+from domain_intelligence.models.run import (
+    AcquisitionBatch,
+    AcquisitionPlan,
+    AcquisitionPlanItem,
+    AcquisitionPlanStatus,
+    DomainRunManifest,
+    DomainRunResult,
+    SnapshotCollectionRequest,
 )
 from domain_intelligence.models.temporal import (
     BenchmarkEvent,
@@ -66,8 +82,12 @@ from domain_intelligence.models.types import (
 )
 
 __all__ = [
+    "AcquisitionBatch",
     "AcquisitionCapability",
     "AcquisitionMethod",
+    "AcquisitionPlan",
+    "AcquisitionPlanItem",
+    "AcquisitionPlanStatus",
     "AcquisitionRunStatus",
     "ActivationInput",
     "ActivationReport",
@@ -88,6 +108,8 @@ __all__ = [
     "DailyStory",
     "DomainEvent",
     "DomainProfile",
+    "DomainRunManifest",
+    "DomainRunResult",
     "ElementId",
     "EssentialInformationElement",
     "EventId",
@@ -101,6 +123,11 @@ __all__ = [
     "IntelligenceRequirement",
     "KnowledgeChangeType",
     "KnowledgeDomainDelta",
+    "KnowledgeGraph",
+    "KnowledgeGraphEdge",
+    "KnowledgeNode",
+    "KnowledgeNodeKind",
+    "KnowledgeRelationType",
     "NuggetId",
     "Observation",
     "PortfolioInput",
@@ -111,6 +138,7 @@ __all__ = [
     "ReplayReport",
     "ScoreComponent",
     "SignalId",
+    "SnapshotCollectionRequest",
     "SourceAcquisitionRun",
     "SourceActivation",
     "SourceBundle",

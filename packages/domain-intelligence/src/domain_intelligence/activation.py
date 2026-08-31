@@ -208,6 +208,7 @@ def build_activation_report(inputs: ActivationInput) -> ActivationReport:
         generated_at=inputs.as_of,
         window_start=window_start,
         source_statuses=source_statuses,
+        runs=tuple(sorted(runs.values(), key=lambda item: str(item.id))),
         evidence=evidence,
         signals=signals,
         knowledge_deltas=knowledge_deltas,

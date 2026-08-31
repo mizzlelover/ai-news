@@ -18,6 +18,7 @@ from domain_intelligence.models.core import (
 )
 from domain_intelligence.models.daily import DailyBrief, DailySignal
 from domain_intelligence.models.domain import DomainProfile
+from domain_intelligence.models.knowledge import KnowledgeGraph
 from domain_intelligence.models.temporal import (
     ReplayReport,
     SourceEvaluation,
@@ -97,7 +98,9 @@ class BootstrapInput(StrictModel):
 class BootstrapReport(StrictModel):
     generated_at: datetime
     domain: str
+    knowledge_graph: KnowledgeGraph
     activation: ActivationReport
+    signals: tuple[DailySignal, ...]
     attention_recommendations: tuple[AttentionRecommendation, ...]
     replay: ReplayReport
     evaluations: tuple[SourceEvaluation, ...]

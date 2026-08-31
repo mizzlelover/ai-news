@@ -66,7 +66,7 @@
 
 私人情报所不是替你找二十几条链接，也不是把已有的几个网站换成一份日报。你刚进入一个领域时，真正缺的是一张足够宽的知识生产地图：谁制定规则，谁做研究，谁在建设项目，谁提供产品，谁维护开源实现，谁最早在 Newsletter、播客、媒体和社区里讨论变化。
 
-所以系统先建立候选来源雷达，再决定哪些来源进入每日组合。公开的数字孪生样例已经从 22 个首轮核心入口扩展到 117 个入口，覆盖七个来源层；31 个入口已有历史回放，24 个在当前预算下进入组合。这个过程不是让你手工收集 117 个网址，而是让你只给出“数字孪生”这个领域，系统负责把来源网络先铺开，再用证据和历史表现收敛。
+所以系统先建立有层次的候选来源雷达，再决定哪些来源进入每日组合。这个过程不是让你手工收集网址，而是让你只给出一个领域，系统负责把知识生产者、解释者、落地者和早期信号来源先铺开，再用证据和历史表现收敛。
 
 你每天看到的来源数量可以少于候选雷达，但不能因为日报需要简洁，就在领域还没有看清之前把来源网络压缩成几条熟悉链接。完整的来源分层和激活规则见[来源规模与激活规则](SOURCE_PORTFOLIO_SCALE.md)。
 
@@ -222,17 +222,19 @@
 
 1. 打开[私人情报所演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/)。
 2. 先在页面中选择或输入一个行业、产业、细分领域或关键词，例如“数字文旅产业”；这里是静态演示，只用于查看预设的领域展开结构，不会实时联网调研。
-3. 要实际建立领域知识域，请在支持 `domain-intelligence-bootstrap` 的 AI 对话中输入一个领域关键词，再按[核心引擎说明](../demo/reading.html#engine)运行；不需要先带上信源或写出完整问题。
-4. 领域底图建立后，直接告诉 AI 加入你已有的专家、网站、报告或项目材料；让知识域进入持续更新、日报和推送，需要更具体的判断时再建立 Focused Watch。
+3. 要实际建立领域知识域，请在支持 `domain-intelligence-bootstrap` 的 AI 对话中输入一个领域关键词。AI 在本地生成 typed seed Bundle 后，运行[核心引擎](../packages/domain-intelligence/README.md)的完整领域命令；不需要先带上信源或写出完整问题。
+4. 用本地来源快照执行采集验证，检查运行清单、来源激活、知识图谱和日报；真实 RSS、API 或浏览器采集器再按同一契约接入。
+5. 领域底图建立后，直接告诉 AI 加入你已有的专家、网站、报告或项目材料；需要更具体的判断时再建立 Focused Watch。
 
 ### 适合技术协作者的入口
 
 1. 阅读[核心方法论](DOMAIN_INTELLIGENCE_V0_1.md)和[项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)。
-2. 先用 `DomainProfile(domain="你的领域")` 初始化领域底图，再按需要补充已有信源、别名、观察面和 Focused Watch。
-3. 用[Domain Intelligence Bootstrap](../packages/domain-intelligence/README.md)运行最小 Bundle。
-4. 将 RSS、网页、数据库、邮件或企业系统适配成 `SourceAcquisitionRun` 和 `EvidenceRecord`，再由核心转换为结构化信号，不把采集层误当成需求层。
-5. 阅读[来源激活运行契约](SOURCE_ACTIVATION_RUN.md)，确认 `available_at`、`retrieved_at`、原始 URL 和内容哈希都被保留。
-6. 用测试、历史回放和覆盖审计验证新领域适配。
+2. 先用 `DomainProfile(domain="你的领域")` 初始化领域底图，再按需要补充别名、观察面、PIR、EIE 和 Focused Watch。
+3. 用[Domain Intelligence Bootstrap](../packages/domain-intelligence/README.md)生成本地 seed Bundle，并用 `dib --domain ... --bundle ... --snapshots ...` 运行完整交付链路。
+4. 检查 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`daily-brief.md` 和 `run-manifest.json`。
+5. 将 RSS、网页、数据库、邮件或企业系统适配成 `SourceAcquisitionRun` 和 `EvidenceRecord`，再由核心转换为结构化信号，不把采集层误当成需求层。
+6. 阅读[来源激活运行契约](SOURCE_ACTIVATION_RUN.md)，确认 `available_at`、`retrieved_at`、原始 URL 和内容哈希都被保留。
+7. 用测试、历史回放和覆盖审计验证新领域适配。
 
 使用者先从领域底图开始；技术协作者再把更新、推送和工程实现接上去。
 

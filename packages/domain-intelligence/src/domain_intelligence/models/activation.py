@@ -83,6 +83,7 @@ class ActivationReport(StrictModel):
     generated_at: datetime
     window_start: datetime
     source_statuses: tuple[SourceActivation, ...]
+    runs: tuple[SourceAcquisitionRun, ...]
     evidence: tuple[EvidenceRecord, ...]
     signals: tuple[DailySignal, ...]
     knowledge_deltas: tuple[KnowledgeDomainDelta, ...]

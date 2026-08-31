@@ -60,9 +60,7 @@ The same engine can support robotics, data assets, tourism, cybersecurity, educa
 
 Private Intelligence Observatory is not a few dozen links wrapped in a daily digest. A real domain network needs multiple layers: standards and policy, research and experts, procurement and delivery evidence, platforms and vendors, open-source ecosystems, and early signals from newsletters, podcasts, media, and communities.
 
-The public Digital Twin example has grown from 22 first-round core entries to **117 source entries**: 95 new entries across seven source layers. Thirty-one entries have historical replay evidence, and 24 are selected into the current portfolio under a deliberate budget constraint. 117 is candidate-radar scale; 24 is one portfolio result, not a project ceiling and not a claim that every source should appear in every daily brief.
-
-The [source scale and activation rules](docs/SOURCE_PORTFOLIO_SCALE.md) document this “expand, replay, then activate” model. The runnable fixture is [`digital-twin-expanded.json`](packages/domain-intelligence/examples/digital-twin-expanded.json), with the human-readable [Digital Twin source matrix](docs/examples/digital-twin-source-expansion-matrix.md).
+The [source scale and activation rules](docs/SOURCE_PORTFOLIO_SCALE.md) document this “expand, replay, then activate” model. A concrete domain's source network, historical evidence, and local acquisition snapshots belong to a run workspace, not to the public product code or repository examples.
 
 ## Start from a domain
 
@@ -82,6 +80,18 @@ uv run --project packages/domain-intelligence dib \
   --output-dir out/domain-intelligence
 ~~~
 
+For the complete domain workflow, the Skill creates a local typed seed Bundle. The domain name is the only domain input a practitioner needs to provide; the Bundle and snapshots stay in the local run workspace:
+
+~~~bash
+uv run --project packages/domain-intelligence dib \
+  --domain "your domain" \
+  --bundle /path/to/local/domain-seed.json \
+  --snapshots /path/to/local/snapshots \
+  --output-dir /tmp/private-intelligence-run
+~~~
+
+The run writes the domain profile, source map, acquisition plan, source activation, knowledge graph, daily brief JSON/Markdown, Bootstrap report, and `run-manifest.json`. `--snapshots` is a reproducible local acquisition adapter; live RSS, API, browser, or authenticated adapters remain replaceable boundary components.
+
 ## Repository map
 
 | Path | Purpose |
@@ -89,9 +99,8 @@ uv run --project packages/domain-intelligence dib \
 | demo/ | Audience-facing product demo, domain-first entry, and methodology visuals |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | Application guide for non-technical users |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | Methodology, metrics, and boundaries |
-| docs/SOURCE_PORTFOLIO_SCALE.md | Source-network scale, layers, activation states, and public example |
+| docs/SOURCE_PORTFOLIO_SCALE.md | Source-network scale, layers, and activation states |
 | docs/SOURCE_ACTIVATION_RUN.md | Acquisition runs, evidence records, daily signals, and knowledge-domain deltas |
-| docs/examples/digital-twin-source-expansion-matrix.md | Human-readable source matrix for the 117-entry Digital Twin example |
 | packages/domain-intelligence/ | Runnable core engine and minimal Bundle |
 | skills/domain-intelligence-bootstrap/ | Skill routing new domains into the core workflow |
 | DESIGN.md | Demo information architecture, visual system, and acceptance contract |

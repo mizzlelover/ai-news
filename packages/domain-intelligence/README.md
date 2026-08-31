@@ -29,24 +29,32 @@ cd packages/domain-intelligence
 uv run dib examples/data-elements.json --output-dir /tmp/domain-intelligence-preview
 ```
 
-## 规模化领域样例
+## 完整领域运行
 
-最小 Bundle 用来验证安装和接口；它不代表私人情报所的来源规模。仓库同时提供一个 117 个来源入口的数字孪生公开样例，用于验证宽领域的来源扩展、注意力图、历史回放、来源组合、覆盖审计和日报链路：
+当 Skill 根据用户给出的领域建立好本地 typed seed Bundle 后，使用领域运行入口：
 
 ```bash
 uv run --project packages/domain-intelligence dib \
-  packages/domain-intelligence/examples/digital-twin-expanded.json \
-  --output-dir /tmp/private-intelligence-digital-twin
+  --domain "your domain" \
+  --bundle /path/to/local/domain-seed.json \
+  --snapshots /path/to/local/snapshots \
+  --output-dir /tmp/private-intelligence-run
 ```
 
-该样例包含 117 个来源节点、16 个专家/机构群体、31 个历史评价来源和 24 个当前组合来源。117 是候选雷达规模，24 是该次 Bundle 的组合约束，不是通用领域上限；完整的规模政策与来源层说明见 [`../../docs/SOURCE_PORTFOLIO_SCALE.md`](../../docs/SOURCE_PORTFOLIO_SCALE.md)。
+`--domain` 是运行时的领域输入，`--bundle` 是 Skill 在本地生成并经 Pydantic 校验的领域底图与来源网络，`--snapshots` 用于执行可复现的本地采集边界。领域 seed、快照和输出目录都属于本地运行数据，不应提交到公共仓库。
 
 输出目录包含：
 
-- `bootstrap-report.json`：结构化结果；
-- `bootstrap-report.md`：交接与阅读版报告。
+- `domain-profile.json`：领域边界、主题和信息要素；
+- `source-map.json`：专家、来源和 typed attention edges；
+- `acquisition-plan.json`：每个来源的获取方式、入口和可执行状态；
+- `source-activation.json`：本次运行、证据、信号和知识域增量；
+- `knowledge-graph.json`：带来源和时间证据的领域知识图谱；
+- `daily-brief.json` / `daily-brief.md`：日报交付；
+- `bootstrap-report.json` / `bootstrap-report.md`：完整机器版和阅读版报告；
+- `run-manifest.json`：本次运行的范围、计数和交付物清单。
 
-如果 Bundle 提供 `acquisition_runs` 和 `evidence`，报告还会包含来源激活状态、证据记录、自动生成的日报信号和知识域增量。字段契约与边界见 [`../../docs/SOURCE_ACTIVATION_RUN.md`](../../docs/SOURCE_ACTIVATION_RUN.md)。
+如果不提供 `--snapshots`，运行会使用 Bundle 中已有的 `acquisition_runs` 和 `evidence`；提供后，快照采集结果会替换本次运行的激活输入。RSS、Atom、JSON、浏览器和登录态适配器可以在外部采集层实现，只要向同一契约提交运行和证据。
 
 ## 运行测试
 
@@ -80,7 +88,7 @@ DomainProfile(
 
 它默认处于 `domain_foundation` 模式。完成领域底图后，才按需要补充 `decision_context`、PIR 和 EIE，并切换到 `focused_watch`。
 
-所有边界输入由 Pydantic v2 模型解析，内部算法只接收已解析对象。`examples/data-elements.json` 是安装验证用的最小 Bundle；`examples/digital-twin-expanded.json` 是用于验证规模化来源网络的公开领域 Bundle。
+所有边界输入由 Pydantic v2 模型解析，内部算法只接收已解析对象。`examples/data-elements.json` 是安装验证用的最小 Bundle；具体领域的 seed Bundle 和来源网络由 Skill 在本地运行时生成。
 
 ## 模块
 
@@ -90,6 +98,10 @@ backtest.py   availability-time replay / metric vector
 portfolio.py  budgeted portfolio / source bundle synergy
 coverage.py   EIE denominator / gap audit
 activation.py acquisition run, evidence, signal, and knowledge-delta intake
+snapshot.py   reproducible local acquisition adapter
+knowledge_graph.py typed domain knowledge graph assembly
+acquisition.py source acquisition plan
+run.py        domain input and complete delivery orchestration
 daily.py      URL + title deduplication / domain ranking
 pipeline.py   end-to-end orchestration
 io.py         JSON and Markdown report surface

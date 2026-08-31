@@ -7,7 +7,6 @@ on:
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
       - "docs/SOURCE_PORTFOLIO_SCALE.md"
       - "docs/SOURCE_ACTIVATION_RUN.md"
-      - "docs/examples/**"
       - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
       - "DESIGN.md"
       - "demo/**"
@@ -19,7 +18,6 @@ on:
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
       - "docs/SOURCE_PORTFOLIO_SCALE.md"
       - "docs/SOURCE_ACTIVATION_RUN.md"
-      - "docs/examples/**"
       - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
       - "DESIGN.md"
       - "demo/**"
@@ -89,26 +87,6 @@ jobs:
 
       - name: Run tests
         run: uv run --locked --group dev pytest -q
-
-      - name: Run scaled Digital Twin fixture
-        working-directory: .
-        run: |
-          uv run --locked --project packages/domain-intelligence dib \
-            packages/domain-intelligence/examples/digital-twin-expanded.json \
-            --output-dir /tmp/private-intelligence-digital-twin-ci
-          python - <<'PY'
-          import json
-          from pathlib import Path
-
-          bundle = json.loads(Path("packages/domain-intelligence/examples/digital-twin-expanded.json").read_text())
-          report = json.loads(Path("/tmp/private-intelligence-digital-twin-ci/bootstrap-report.json").read_text())
-          assert len(bundle["attention_graph"]["sources"]) == 117
-          assert len(bundle["attention_graph"]["edges"]) == 117
-          assert len(report["attention_recommendations"]) == 117
-          assert len(report["portfolio"]["selected_source_ids"]) == 24
-          assert len(report["brief"]["stories"]) == 7
-          print("scaled Digital Twin fixture passed: 117 radar entries, 24 portfolio entries")
-          PY
 
       - name: Check formatting
         run: uv run --locked --group dev ruff format --check src tests

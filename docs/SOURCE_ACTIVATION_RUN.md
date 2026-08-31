@@ -13,7 +13,7 @@ Source Profile
 → Daily Brief / Knowledge Domain
 ```
 
-这是“117 个来源之后”的第一条生产链路。117 个来源可以共享同一套核心契约，但每个来源的 RSS、Atom、公开 API、静态页面、人工或登录态适配器仍然属于外部边界。
+这是候选来源网络建立后的第一条生产链路。所有来源可以共享同一套核心契约，但每个来源的 RSS、Atom、公开 API、静态页面、人工或登录态适配器仍然属于外部边界。
 
 ## 采集器提交什么
 
@@ -46,7 +46,7 @@ Source Profile
 `build_activation_report` 会完成四件事：
 
 1. 检查证据和运行记录是否属于来源图，拒绝悬空来源和重复证据；
-2. 为 117 个来源生成本次运行状态：`blocked`、`ready`、`observed`、`empty` 或 `failed`；
+2. 为来源网络生成本次运行状态：`blocked`、`ready`、`observed`、`empty` 或 `failed`，并把每条 `SourceAcquisitionRun` 原样写入报告；
 3. 把窗口内的证据转换成 `DailySignal`，交给去重、聚类、排序和日报生成；
 4. 为每条证据产生一个 `KnowledgeDomainDelta`，把主题和 EIE 映射带回领域知识域更新入口。
 
@@ -90,17 +90,19 @@ Source Profile
 }
 ```
 
-运行后，`bootstrap-report.json` 会新增 `activation` 节点，阅读版报告会显示证据数、生成信号数、知识域增量数和来源状态分布。
+运行后，`source-activation.json` 和 `bootstrap-report.json` 会包含 `activation` 节点，阅读版报告会显示证据数、生成信号数、知识域增量数和来源状态分布。
 
 ```bash
 uv run --project packages/domain-intelligence dib \
-  packages/domain-intelligence/examples/data-elements.json \
+  --domain "data-elements" \
+  --bundle packages/domain-intelligence/examples/data-elements.json \
+  --snapshots /path/to/local/snapshots \
   --output-dir /tmp/private-intelligence-activation
 ```
 
-## 与 117 个来源的关系
+## 与候选来源网络的关系
 
-117 是候选雷达规模，不是每次日报的条数。每次来源激活运行都应同时看四个层次：
+候选雷达规模不是每次日报的条数。每次来源激活运行都应同时看四个层次：
 
 | 层次 | 要回答的问题 |
 | --- | --- |
@@ -113,13 +115,13 @@ uv run --project packages/domain-intelligence dib \
 
 ## 后续工程边界
 
-当前核心已经实现适配器结果到情报资产的确定性转换。接下来按这个顺序扩展：
+当前核心已经实现本地快照适配器结果到情报资产的确定性转换。接下来按这个顺序扩展：
 
-1. 为公开 RSS、Atom、JSON 和稳定静态页面接入可复用适配器；
+1. 为公开 RSS、Atom、JSON 和稳定静态页面接入外部可复用适配器；
 2. 保存原始响应快照、内容哈希、抓取时间和失败状态；
 3. 增加事件/信息要素抽取与多源印证记录；
 4. 增加领域知识域的持久化更新和变更历史；
 5. 接入调度、邮件/消息推送和用户反馈；
-6. 用真实运行数据补齐 117 个来源的历史回放，再重新计算来源组合。
+6. 用真实运行数据补齐候选来源的历史回放，再重新计算来源组合。
 
 这条边界保留了成熟采集轮子的可替换性，同时确保采集结果必须经过私人情报所自己的证据、知识域、组合和覆盖规则。

@@ -5,6 +5,7 @@ from domain_intelligence.backtest import replay_benchmark
 from domain_intelligence.coverage import audit_coverage
 from domain_intelligence.daily import build_daily_brief
 from domain_intelligence.graph import rank_attention_sources
+from domain_intelligence.knowledge_graph import build_knowledge_graph
 from domain_intelligence.models import (
     ActivationInput,
     BootstrapInput,
@@ -27,6 +28,7 @@ def build_bootstrap_report(inputs: BootstrapInput) -> BootstrapReport:
             window_hours=inputs.window_hours,
         ),
     )
+    knowledge_graph = build_knowledge_graph(inputs, activation)
     signals_by_id = {str(signal.id): signal for signal in inputs.signals}
     signals_by_id.update({str(signal.id): signal for signal in activation.signals})
     signals = tuple(
@@ -66,7 +68,9 @@ def build_bootstrap_report(inputs: BootstrapInput) -> BootstrapReport:
     return BootstrapReport(
         generated_at=inputs.as_of,
         domain=inputs.profile.domain,
+        knowledge_graph=knowledge_graph,
         activation=activation,
+        signals=signals,
         attention_recommendations=recommendations,
         replay=replay,
         evaluations=evaluations,

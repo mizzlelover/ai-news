@@ -13,7 +13,6 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 - `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`：本项目核心与 AI News Radar 采集参考的归属、来源和版权边界。
 - `packages/domain-intelligence/README.md`：安装、输入 Bundle 和验证命令。
 - `packages/domain-intelligence/examples/data-elements.json`：完整最小示例。
-- `packages/domain-intelligence/examples/digital-twin-expanded.json`：117 个来源入口的规模化领域样例。
 - `docs/SOURCE_PORTFOLIO_SCALE.md`：来源网络的分层、规模和激活规则。
 - `packages/domain-intelligence/src/domain_intelligence/models/`：边界 Schema。
 
@@ -35,13 +34,24 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 1. 先用一个领域名称或关键词初始化 `DomainProfile`；不要要求使用者先写专业问题或准备信源清单。
 2. 从 Domain Seed 建立领域边界、词典、观察面、人物/机构和来源候选；领域底图完成后，再按指令加入已有信源，并明确 PIR、EIE、主题权重和事件优先级。
 3. 将 Expert、Source、typed Attention Edge 和证据时间整理成 `BootstrapInput`；每条边保留关系类型、主题相关性、证据置信度、观察时间和证据 URL。
-4. 当采集器已有运行结果时，把 `SourceAcquisitionRun` 和 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。
-5. 用 `dib <input.json> --output-dir <dir>` 运行来源激活、EAR、point-in-time replay、Portfolio、Coverage Audit 和 Daily Brief。
-6. 先看 `bootstrap-report.json` 的 `activation`、历史回放、Portfolio 和 Coverage，再用 Markdown 报告交接；不以来源数量或单一总分宣称覆盖完成。
-7. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
-8. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+4. 把完整的 typed seed Bundle 写入本地运行目录（例如 `.private-intelligence/<domain>/seed.json`），不要把具体领域 Bundle、来源清单或采集快照提交到仓库。
+5. 用领域运行入口执行完整流程：
 
-宽领域不要在首轮把来源网络缩减为少数日报入口。以公开数字孪生样例为基准，第一轮候选雷达可以从约 80–150 个可独立采集的入口起步，再用历史回放、来源角色和覆盖审计决定进入每日组合的来源；来源数量本身不等于覆盖或权威。
+   ```bash
+   uv run --project packages/domain-intelligence dib \
+     --domain "你的领域" \
+     --bundle /path/to/local/seed.json \
+     --snapshots /path/to/local/snapshots \
+     --output-dir /tmp/private-intelligence-run
+   ```
+
+   `--snapshots` 会逐个执行本地来源快照适配器；没有快照的来源必须在 `source-activation.json` 中留下 `failed` 运行记录，不能静默跳过。
+6. 检查 `run-manifest.json` 的交付物清单和计数，再看 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`daily-brief.md` 与 Bootstrap 报告。
+7. 当真实外部采集器已有运行结果时，把 `SourceAcquisitionRun` 和 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。
+8. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
+9. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。
+
+宽领域不要在首轮把来源网络缩减为少数日报入口。第一轮候选雷达可以从约 80–150 个可独立采集的入口起步，再用历史回放、来源角色和覆盖审计决定进入每日组合的来源；来源数量本身不等于覆盖或权威。这个数量是运行时工程基线，不对应某个公开领域样例。
 
 ## 关键判据
 
