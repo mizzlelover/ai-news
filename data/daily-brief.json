@@ -1,8 +1,81 @@
 {
-  "generated_at": "2026-08-31T10:34:00.631357Z",
+  "generated_at": "2026-08-31T17:53:25.970852Z",
   "window_hours": 24,
-  "total_items": 10,
+  "total_items": 12,
   "items": [
+    {
+      "story_id": "story_1f00d94ae592",
+      "title": "Your Hotel Is Hot on TikTok Go. But AI Got All The Facts Wrong.",
+      "url": "https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos",
+      "primary_url": "https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "da7383f9af5fe624d5340648e21d59cea1fef301",
+          "title": "Your Hotel Is Hot on TikTok Go. But AI Got All The Facts Wrong.",
+          "url": "https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-31T14:45:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "da7383f9af5fe624d5340648e21d59cea1fef301",
+          "title": "Your Hotel Is Hot on TikTok Go. But AI Got All The Facts Wrong.",
+          "url": "https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-31T14:45:54Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.619,
+      "importance": 0.619,
+      "importance_score": 0.619,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "hotel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.9559,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-08-31T14:45:54Z",
+      "latest_at": "2026-08-31T14:45:54Z",
+      "primary_item": {
+        "id": "da7383f9af5fe624d5340648e21d59cea1fef301",
+        "title": "Your Hotel Is Hot on TikTok Go. But AI Got All The Facts Wrong.",
+        "url": "https://skift.com/2026/08/31/ai-generated-tiktok-go-hotel-videos",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
     {
       "story_id": "story_1e8307108ab6",
       "title": "民宿里的本地体验，成为游客选择的新理由",
@@ -42,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6233,
-      "importance": 0.6233,
-      "importance_score": 0.6233,
+      "score": 0.6056,
+      "importance": 0.6056,
+      "importance_score": 0.6056,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -58,7 +131,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9799,
+        "recency": 0.8815,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -117,9 +190,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.606,
-      "importance": 0.606,
-      "importance_score": 0.606,
+      "score": 0.5884,
+      "importance": 0.5884,
+      "importance_score": 0.5884,
       "ai_label": "tourism_policy",
       "ai_score": 0.77,
       "ai_signals": [
@@ -132,7 +205,7 @@
         "editorial": 0.5544,
         "source_tier": 0.5,
         "ai_relevance": 0.77,
-        "recency": 0.976,
+        "recency": 0.878,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -191,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6188,
-      "importance": 0.6188,
-      "importance_score": 0.6188,
+      "score": 0.6011,
+      "importance": 0.6011,
+      "importance_score": 0.6011,
       "ai_label": "tourism_policy",
       "ai_score": 0.8,
       "ai_signals": [
@@ -207,7 +280,7 @@
         "editorial": 0.576,
         "source_tier": 0.5,
         "ai_relevance": 0.8,
-        "recency": 0.9778,
+        "recency": 0.8797,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -225,6 +298,78 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_policy",
         "ai_score": 0.8
+      }
+    },
+    {
+      "story_id": "story_9c948089697e",
+      "title": "Choice Hotels Hands CEO Job to Insider as It Tries to Reverse a Slump Versus Rivals",
+      "url": "https://skift.com/2026/08/31/choice-hotels-hands-ceo-job-to-insider-as-it-tries-to-reverse-a-slump-versus-rivals",
+      "primary_url": "https://skift.com/2026/08/31/choice-hotels-hands-ceo-job-to-insider-as-it-tries-to-reverse-a-slump-versus-rivals",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "8a6733407cc106697932d0bddada7359e919c8a7",
+          "title": "Choice Hotels Hands CEO Job to Insider as It Tries to Reverse a Slump Versus Rivals",
+          "url": "https://skift.com/2026/08/31/choice-hotels-hands-ceo-job-to-insider-as-it-tries-to-reverse-a-slump-versus-rivals",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-31T14:40:26Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "8a6733407cc106697932d0bddada7359e919c8a7",
+          "title": "Choice Hotels Hands CEO Job to Insider as It Tries to Reverse a Slump Versus Rivals",
+          "url": "https://skift.com/2026/08/31/choice-hotels-hands-ceo-job-to-insider-as-it-tries-to-reverse-a-slump-versus-rivals",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-08-31T14:40:26Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5814,
+      "importance": 0.5814,
+      "importance_score": 0.5814,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9546,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-08-31T14:40:26Z",
+      "latest_at": "2026-08-31T14:40:26Z",
+      "primary_item": {
+        "id": "8a6733407cc106697932d0bddada7359e919c8a7",
+        "title": "Choice Hotels Hands CEO Job to Insider as It Tries to Reverse a Slump Versus Rivals",
+        "url": "https://skift.com/2026/08/31/choice-hotels-hands-ceo-job-to-insider-as-it-tries-to-reverse-a-slump-versus-rivals",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
       }
     },
     {
@@ -266,9 +411,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5682,
-      "importance": 0.5682,
-      "importance_score": 0.5682,
+      "score": 0.5523,
+      "importance": 0.5523,
+      "importance_score": 0.5523,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -280,7 +425,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8814,
+        "recency": 0.793,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -339,9 +484,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5978,
-      "importance": 0.5978,
-      "importance_score": 0.5978,
+      "score": 0.5802,
+      "importance": 0.5802,
+      "importance_score": 0.5802,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -353,7 +498,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9767,
+        "recency": 0.8787,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5957,
-      "importance": 0.5957,
-      "importance_score": 0.5957,
+      "score": 0.5783,
+      "importance": 0.5783,
+      "importance_score": 0.5783,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -426,7 +571,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9652,
+        "recency": 0.8683,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +630,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5952,
-      "importance": 0.5952,
-      "importance_score": 0.5952,
+      "score": 0.5778,
+      "importance": 0.5778,
+      "importance_score": 0.5778,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -499,7 +644,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9622,
+        "recency": 0.8656,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -558,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5854,
-      "importance": 0.5854,
-      "importance_score": 0.5854,
+      "score": 0.569,
+      "importance": 0.569,
+      "importance_score": 0.569,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -572,7 +717,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9077,
+        "recency": 0.8166,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -631,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5843,
-      "importance": 0.5843,
-      "importance_score": 0.5843,
+      "score": 0.568,
+      "importance": 0.568,
+      "importance_score": 0.568,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -645,7 +790,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9014,
+        "recency": 0.811,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -704,9 +849,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5838,
-      "importance": 0.5838,
-      "importance_score": 0.5838,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -718,7 +863,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8987,
+        "recency": 0.8085,
         "story_heat": 0.0
       },
       "category": "watch",
