@@ -4,13 +4,13 @@
 
 它解决的不是“再抓一批新闻”，而是：从一个行业、产业或知识域关键词开始，先建立领域地图、人物与机构、信源结构和知识引擎；当用户选出具体方向后，再声明必须掌握的信息，重建专家注意力网络，用严格的可获得时间回放信源，按预算选择互补来源，最后生成有证据链接的领域日报。
 
-这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中的 AI News Radar、伯乐 Skill 和 Radar Skill 只是采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+这是本项目的核心工程，不依赖任何现成 AI 日报页面或 Skill 才能运行。仓库中保留的 AI News Radar 页面、`ai-news-radar` Skill 和 Radar Skill 只是采集/展示/消费适配参考，来源与版权边界见 [`../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`](../../docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 ## 面向谁
 
-这个引擎首先服务两类使用者：刚进入一个领域、没有知识背景且不知道该看谁和该信谁的人；以及已经在领域里、手上有一些专业信源但信息覆盖不够广的人。两类使用者都从同一个目标开始：构建这个领域的知识域，明确领域边界、参与者、专家、来源角色、证据和缺口，再让采集、更新、日报与推送围绕知识域运行。
+这个引擎把“给出一个领域”作为唯一入口：先建立领域边界、参与者、专家、来源角色、证据和缺口，再让采集、更新、日报与推送围绕这张知识域运行。它尤其解决刚进入领域、没有知识背景且不知道该看谁和该信谁的人所面对的起点问题。
 
-已经能够独立配置信源、搭建日报并维护知识引擎的人，不是本项目的主要目标用户；他们可以复用本包的工程组件。`domain_foundation` 是面向前两类使用者的共同起点，`focused_watch` 则是在领域知识域建立后，对某个判断或问题做进一步追踪。已有信源在工程上通过 Bundle 的 `attention_graph` 作为种子传入，不是新进入者的前置条件。
+已经能够独立配置信源、搭建日报并维护知识引擎的人，不是本项目的主要目标用户；他们可以复用本包的工程组件。`domain_foundation` 是任何领域的默认起点，`focused_watch` 则是在领域知识域建立后，对某个判断或问题做进一步追踪。已有专家、网站、报告或项目材料可以在底图建立后，通过 AI 指令映射进 Bundle 的 `attention_graph`，不是入口前提。
 
 ## 快速运行
 
@@ -47,7 +47,7 @@ uv run --project packages/domain-intelligence ruff check packages/domain-intelli
 输入是一个 JSON Bundle，包含：
 
 1. `profile`：至少包含 `domain`；也可以包含领域别名、进入动机、Focused Watch 的决策场景、PIR、EIE、主题权重和事件优先级；
-2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；对已经有信源的使用者，现有来源和专家从这里作为扩展种子进入；
+2. `attention_graph`：异质 Expert、Source 和 typed Attention Edge；领域底图建立后，已有来源和专家可以从这里作为扩展种子进入；
 3. `attention_query`：种子专家、主题和回放时点；
 4. `benchmark`：Event、Nugget、Source、Observation 和 Cutoff；
 5. `signals`：待生成日报的结构化信号；

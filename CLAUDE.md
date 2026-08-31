@@ -13,14 +13,16 @@ values. Keep the public repo usable without secrets.
 
 The product direction is methodology-first:
 
-- Primary users: people entering a domain from zero who do not know the field,
-  authoritative experts, or trustworthy sources.
-- Secondary users: practitioners who already have some professional sources but
-  need broader coverage and a clearer domain knowledge base.
-- Shared outcome: build the domain intelligence knowledge base first; updates,
-  daily briefs, notifications, and the knowledge engine are delivery and
-  maintenance layers. People who can already configure all of that with AI are
-  not the primary audience.
+- Entry contract: give the system a domain name or keyword; it builds the
+  domain intelligence knowledge base first, including the map, participants,
+  experts, source roles, evidence, and gaps.
+- Intended starting point: people entering a domain from zero who do not know
+  the field, authoritative experts, or trustworthy sources. Existing experts,
+  websites, reports, and project materials can be added later by instruction;
+  they are not an entry requirement.
+- Shared outcome: updates, daily briefs, notifications, and the knowledge
+  engine are delivery and maintenance layers. People who can already configure
+  all of that with AI are not the primary audience.
 
 - Core layer: domain seed and map, optional decision context, intelligence
   requirements, EIE coverage denominator, expert attention reconstruction,

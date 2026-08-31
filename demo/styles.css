@@ -267,6 +267,7 @@
   --entrance-padding-bottom: 140px;
   --entrance-heading-margin-bottom: 56px;
   --entrance-grid-gap: var(--space-4);
+  --entrance-grid-columns: repeat(3, minmax(0, 1fr));
   --entrance-panel-min-height: 330px;
   --entrance-panel-padding: 27px 30px 30px;
   --entrance-panel-hover-offset: -5px;
@@ -1565,7 +1566,7 @@ strong {
 
 .entrance-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
+  grid-template-columns: var(--entrance-grid-columns);
   gap: var(--entrance-grid-gap);
 }
 
@@ -1587,7 +1588,7 @@ strong {
   color: var(--ink);
 }
 
-.entrance-practitioner {
+.entrance-core {
   color: var(--white);
   border-color: var(--ink);
   background: var(--ink);
@@ -1600,7 +1601,7 @@ strong {
   color: var(--ink-soft);
 }
 
-.entrance-practitioner .entrance-top {
+.entrance-core .entrance-top {
   color: var(--white-66);
 }
 
@@ -1610,7 +1611,7 @@ strong {
   font-size: var(--text-default);
 }
 
-.entrance-practitioner .entrance-number {
+.entrance-core .entrance-number {
   color: var(--magenta);
 }
 
@@ -1630,7 +1631,7 @@ strong {
   line-height: 1.8;
 }
 
-.entrance-practitioner p {
+.entrance-core p {
   color: var(--white-66);
 }
 
@@ -1648,7 +1649,7 @@ strong {
   gap: var(--entrance-link-hover-gap);
 }
 
-.entrance-practitioner a {
+.entrance-core a {
   color: var(--magenta);
 }
 
@@ -1847,6 +1848,7 @@ strong {
     --domain-layout-gap: 45px;
     --method-visual-gap: 45px;
     --brief-grid-gap: 55px;
+    --entrance-grid-columns: repeat(2, minmax(0, 1fr));
   }
 
   .section-width {
