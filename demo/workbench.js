@@ -1158,6 +1158,14 @@
         });
       });
     };
+    const validateArrayFields = (items, label, fields) => {
+      items.forEach((item, index) => {
+        if (!isRecord(item)) return;
+        fields.forEach((field) => {
+          if (!Array.isArray(item[field])) errors.push(`${label}[${index}] 的 ${field} 必须是数组`);
+        });
+      });
+    };
     const elements = checkedArray(profile.elements, "domain-profile.elements", true);
     const requirements = checkedArray(profile.requirements, "domain-profile.requirements", true);
     const sources = checkedArray(sourceMap.sources, "source-map.sources", true);
@@ -1191,6 +1199,7 @@
     validateFields(recommendations, "bootstrap-report.attention_recommendations", ["source_id"]);
     validateFields(stories, "daily-brief.stories", ["id", "title", "primary_source_id", "event_type"]);
     validateFields(contents, "content-inventory.items", ["id", "source_id", "title", "url", "status"]);
+    validateArrayFields(stories, "daily-brief.stories", ["source_ids", "signal_ids", "topic_ids"]);
 
     if (!nonEmptyString(manifest.run_id)) errors.push("run-manifest.run_id 未提供");
     if (!nonEmptyString(manifest.domain)) errors.push("run-manifest.domain 未提供");
@@ -1254,6 +1263,9 @@
       || coverage.rows.length !== coverage.total_elements) {
       errors.push("bootstrap-report.coverage 缺少有效计数");
     }
+    const coverageRows = isRecord(coverage) && Array.isArray(coverage.rows) ? coverage.rows : [];
+    validateFields(coverageRows, "bootstrap-report.coverage.rows", ["element_id"]);
+    validateArrayFields(coverageRows, "bootstrap-report.coverage.rows", ["source_ids"]);
 
     const validContentStatuses = new Set(["captured", "failed", "blocked"]);
     contents.forEach((item, index) => {
