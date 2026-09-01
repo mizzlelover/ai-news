@@ -1,10 +1,12 @@
 from __future__ import annotations
 
+import hashlib
 import json
 from collections.abc import Iterator
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from pathlib import Path
 from threading import Thread
+from unittest.mock import Mock, patch
 from urllib.parse import urlparse
 
 import pytest
@@ -133,6 +135,16 @@ def test_parser_extracts_visible_text_and_publication_time() -> None:
     assert document.published_at.isoformat() == "2026-08-30T07:00:00+00:00"
 
 
+def test_parser_extracts_pdf_text() -> None:
+    page = Mock()
+    page.extract_text.return_value = "数字孪生标准正文"
+    with patch("domain_intelligence.capture_parser.PdfReader") as reader:
+        reader.return_value.pages = [page]
+        document = parse_document("%PDF-1.7", "application/pdf", b"%PDF-1.7")
+
+    assert document.text == "数字孪生标准正文"
+
+
 def test_public_capture_writes_content_and_evidence_snapshots(
     fixture_server: str,
     tmp_path: Path,
@@ -159,6 +171,21 @@ def test_public_capture_writes_content_and_evidence_snapshots(
     )
     assert all(record.content_ref for record in batch.evidence)
     assert all(record.content_char_count > 0 for record in batch.evidence)
+    assert all(
+        record.content_hash
+        == "sha256:"
+        + hashlib.sha256(
+            (capture_root / record.content_ref).read_bytes(),
+        ).hexdigest()
+        for record in batch.evidence
+        if record.content_ref is not None
+    )
+    assert all(
+        record.content_char_count
+        == len((capture_root / record.content_ref).read_text(encoding="utf-8"))
+        for record in batch.evidence
+        if record.content_ref is not None
+    )
     assert batch.evidence[0].element_ids
     assert (capture_root / "content-inventory.json").is_file()
     assert json.loads((capture_root / "official-policy.json").read_text(encoding="utf-8"))

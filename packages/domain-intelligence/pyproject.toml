@@ -13,6 +13,7 @@ dependencies = [
     "defusedxml>=0.7,<1",
     "httpx2[http2,brotli,zstd]>=2.12,<3",
     "pydantic>=2.11,<3",
+    "pypdf[crypto]>=6.0,<7",
     "typer>=0.16,<1",
 ]
 

@@ -12,6 +12,7 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 - `docs/DOMAIN_INTELLIGENCE_V0_1.md`：方法论、指标、状态机和边界。
 - `docs/PROJECT_SCOPE_AND_ATTRIBUTION.md`：本项目核心与 AI News Radar 采集参考的归属、来源和版权边界。
 - `packages/domain-intelligence/README.md`：安装、输入 Bundle 和验证命令。
+- `docs/WORKBENCH.md`：把一次真实运行的图谱、来源、内容全文、证据和日报导入可视化工作台。
 - `packages/domain-intelligence/examples/data-elements.json`：完整最小示例。
 - `docs/SOURCE_PORTFOLIO_SCALE.md`：来源网络的分层、规模和激活规则。
 - `packages/domain-intelligence/src/domain_intelligence/models/`：边界 Schema。
@@ -56,8 +57,9 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
      --output-dir /tmp/private-intelligence-run
    ```
 
-   `--fetch` 会逐个尝试公开 HTTP 入口，并写出原始响应、规范化全文、`content-inventory.json` 和来源快照；需要浏览器、登录态或私有凭证的来源必须明确留下 `blocked`/`failed`，不能静默跳过。
+   `--fetch` 会逐个尝试公开 HTTP 入口。RSS/Atom 会继续发现条目并尝试归档条目全文；JSON、Sitemap、OPML、API 和静态页面目前保留端点采集结果，条目级展开和证据映射由领域适配器补充。所有路径都会写出可回看的状态；需要浏览器、登录态或私有凭证的来源必须明确留下 `blocked`/`failed`，不能静默跳过。
 6. 检查 `run-manifest.json` 的交付物清单和计数，再依次看 `domain-profile.json`、`source-map.json`、`content-inventory.json`/`.md`、`content/`、`source-activation.json`、`knowledge-graph.json`、`bootstrap-report.json`/`.md`、`daily-brief.json`/`.md` 与 Bootstrap 报告。
+   面向使用者交付时，打开 `demo/workbench.html` 并导入运行目录；它会把上述文件放在运行总览、知识图谱、信源网络、内容清单和日报与证据五个视图中。
 7. 当真实外部采集器已有运行结果时，把 `SourceAcquisitionRun` 和带 `content_ref` 的 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。没有证据引用的静态页面只保留在内容清单，不会自动进入日报。
 8. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
 9. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。

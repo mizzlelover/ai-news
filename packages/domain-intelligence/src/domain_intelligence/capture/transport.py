@@ -10,7 +10,12 @@ from urllib.parse import urlparse
 import anyio
 import httpx2
 
-from domain_intelligence.capture.archive import content_id, failure, write_capture_files
+from domain_intelligence.capture.archive import (
+    content_id,
+    failure,
+    normalize_content_text,
+    write_capture_files,
+)
 from domain_intelligence.capture.contracts import (
     CaptureContext,
     CapturedDocument,
@@ -194,17 +199,18 @@ async def fetch_one(
                     )
                 except FeedParseError as error:
                     discovery_error_code = error.error_code
-            parsed = parse_document(raw_text, content_type)
+            parsed = parse_document(raw_text, content_type, body)
             parsed_text = raw_text.strip() if not parsed.text else parsed.text
-            content_hash = f"sha256:{hashlib.sha256(parsed_text.encode()).hexdigest()}"
+            archived_text = normalize_content_text(parsed_text)
+            content_hash = f"sha256:{hashlib.sha256(archived_text.encode()).hexdigest()}"
             relative_path, raw_relative_path = write_capture_files(
                 context.capture_root,
                 target,
                 body,
-                parsed_text,
+                archived_text,
                 content_type,
             )
-            document = CapturedDocument(parsed_text, content_type, content_hash, relative_path)
+            document = CapturedDocument(archived_text, content_type, content_hash, relative_path)
             evidence = _evidence_from_capture(target, document, context.as_of)
             feed_published_at = target.feed_item.published_at if target.feed_item else None
             signal = _effective_signal(target)
@@ -227,7 +233,7 @@ async def fetch_one(
                 relative_path=relative_path,
                 raw_relative_path=raw_relative_path,
                 content_hash=content_hash,
-                character_count=len(parsed_text),
+                character_count=len(archived_text),
                 status=ContentCaptureStatus.CAPTURED,
             )
             return CaptureOutcome(

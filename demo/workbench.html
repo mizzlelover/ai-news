@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#061B31" />
+    <meta
+      name="description"
+      content="私人情报所运行工作台：查看领域底图、信源激活、全文归档、证据链与日报。"
+    />
+    <link rel="canonical" href="https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html" />
+    <link rel="icon" href="data:," />
+    <title>我的私人情报所｜运行工作台</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="workbench.css?v=20260901-2" />
+  </head>
+  <body class="workbench-page">
+    <header class="workbench-topbar">
+      <a class="workbench-brand" href="./" aria-label="私人情报所演示站">
+        <span class="brand-mark" aria-hidden="true">
+          <svg viewBox="0 0 36 36" role="img">
+            <circle cx="18" cy="18" r="14" fill="none" stroke="currentColor" stroke-width="1.4" />
+            <circle cx="18" cy="18" r="8" fill="none" stroke="currentColor" stroke-width="1.4" />
+            <circle cx="23.5" cy="12.5" r="2.4" fill="currentColor" />
+          </svg>
+        </span>
+        <span class="workbench-brand-copy">
+          <strong>私人情报所</strong>
+          <small>MY INTELLIGENCE WORKSPACE</small>
+        </span>
+      </a>
+      <div class="workbench-context" aria-live="polite">
+        <span class="context-label">当前运行</span>
+        <strong id="run-domain">演示运行 · 数字孪生</strong>
+        <span class="run-badge" id="run-badge">演示数据</span>
+      </div>
+      <div class="workbench-actions">
+        <label class="import-button" for="run-import">
+          <span>导入运行目录</span>
+          <input id="run-import" type="file" webkitdirectory multiple />
+        </label>
+        <a class="quiet-link" href="reading.html#engine">看运行说明 <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <div class="workbench-shell">
+      <aside class="workbench-sidebar" aria-label="运行产物导航">
+        <div class="sidebar-intro">
+          <span class="sidebar-kicker">领域工作台</span>
+          <p>从一次运行里，看见这套情报体系到底建立了什么。</p>
+        </div>
+        <nav class="workbench-nav" aria-label="工作台视图">
+          <button class="workbench-nav-item is-active" type="button" data-view="overview" aria-selected="true">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="3" /></svg></span>
+            <span><strong>运行总览</strong><small>从领域到底稿</small></span>
+          </button>
+          <button class="workbench-nav-item" type="button" data-view="graph" aria-selected="false">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="6" cy="6" r="2.5" /><circle cx="18" cy="6" r="2.5" /><circle cx="12" cy="18" r="2.5" /><path d="m8.2 7.4 2.1 7.1m5.5-7.1-2.1 7.1m-5-6.3h6.6" /></svg></span>
+            <span><strong>知识图谱</strong><small>领域、来源与证据</small></span>
+          </button>
+          <button class="workbench-nav-item" type="button" data-view="sources" aria-selected="false">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16" /><circle cx="8" cy="7" r="1.5" /><circle cx="15" cy="12" r="1.5" /><circle cx="11" cy="17" r="1.5" /></svg></span>
+            <span><strong>信源网络</strong><small>角色与激活状态</small></span>
+          </button>
+          <button class="workbench-nav-item" type="button" data-view="content" aria-selected="false">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="5" y="4" width="14" height="16" rx="1" /><path d="M8 8h8M8 12h8M8 16h5" /></svg></span>
+            <span><strong>内容清单</strong><small>全文与原始响应</small></span>
+          </button>
+          <button class="workbench-nav-item" type="button" data-view="brief" aria-selected="false">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3.5 14 10l6.5 2-6.5 2-2 6.5-2-6.5-6.5-2 6.5-2z" /></svg></span>
+            <span><strong>日报与证据</strong><small>推荐如何产生</small></span>
+          </button>
+        </nav>
+        <div class="sidebar-boundary">
+          <span class="boundary-dot" aria-hidden="true"></span>
+          <p>工作台读取运行产物，不会把“演示数据”冒充实时情报。</p>
+        </div>
+      </aside>
+
+      <main class="workbench-main" id="workbench-main">
+        <section class="workbench-view is-visible" id="view-overview" data-panel="overview" aria-labelledby="overview-title">
+          <div class="workspace-hero">
+            <div class="workspace-hero-copy">
+              <p class="workspace-eyebrow"><span></span>一次运行 · 一套可复核的领域底图</p>
+              <h1 id="overview-title">你的领域，已经长成了什么？</h1>
+              <p class="workspace-lede" id="overview-lede">这里不是一张日报截图，而是一次运行留下的完整链路：领域底图、信源网络、真实内容、证据映射与最后的日报。</p>
+              <div class="workspace-hero-actions">
+                <button class="primary-action" type="button" data-view-target="content">先看抓到的内容 <span aria-hidden="true">↗</span></button>
+                <button class="secondary-action" type="button" data-view-target="brief">再看日报如何形成 <span aria-hidden="true">→</span></button>
+              </div>
+              <p class="import-hint" id="import-hint">当前为演示运行。点击右上角“导入运行目录”，即可查看你实际运行生成的全部文件。</p>
+            </div>
+            <div class="workspace-hero-art" aria-label="观测孔径示意图">
+              <img src="assets/aperture-map.png" alt="同心孔径、信号线与证据节点组成的情报观察示意图" width="720" height="480" />
+              <div class="hero-art-card hero-art-card-top"><span>领域节点</span><strong id="hero-graph-count">224</strong></div>
+              <div class="hero-art-card hero-art-card-bottom"><span>已形成证据</span><strong id="hero-evidence-count">4</strong></div>
+            </div>
+          </div>
+
+          <div class="metric-grid" aria-label="运行关键指标">
+            <article class="metric-card metric-card-primary"><span>来源候选</span><strong id="metric-sources">117</strong><small>已进入领域雷达</small></article>
+            <article class="metric-card"><span>真实内容</span><strong id="metric-content">29</strong><small id="metric-content-note">规范化全文已归档</small></article>
+            <article class="metric-card"><span>证据记录</span><strong id="metric-evidence">4</strong><small>进入知识域与日报</small></article>
+            <article class="metric-card"><span>今日故事</span><strong id="metric-stories">3</strong><small>按来源角色与证据排序</small></article>
+          </div>
+
+          <div class="workspace-section-heading">
+            <div><p class="workspace-eyebrow">从输入到交付</p><h2>这一次运行经过了哪些层？</h2></div>
+            <p id="run-summary">结构、采集、证据和日报分开记录，任何一层都可以回看。</p>
+          </div>
+          <div class="process-strip" id="run-pipeline" aria-label="运行过程"></div>
+
+          <div class="overview-grid">
+            <section class="panel brief-preview-panel" aria-labelledby="brief-preview-title">
+              <div class="panel-heading"><div><span class="panel-kicker">推荐先看</span><h2 id="brief-preview-title">今天值得先读的变化</h2></div><button class="text-action" type="button" data-view-target="brief">全部日报 <span aria-hidden="true">↗</span></button></div>
+              <div class="story-preview-list" id="story-preview-list"></div>
+            </section>
+            <section class="panel coverage-panel" aria-labelledby="coverage-title">
+              <div class="panel-heading"><div><span class="panel-kicker">诚实的边界</span><h2 id="coverage-title">系统知道与不知道</h2></div><button class="text-action" type="button" data-view-target="sources">查看来源 <span aria-hidden="true">→</span></button></div>
+              <div class="coverage-score"><strong id="coverage-value">13 / 13</strong><span>必掌握信息要素已建立采集路径</span></div>
+              <div class="coverage-bar" aria-hidden="true"><span id="coverage-bar-fill"></span></div>
+              <ul class="coverage-list" id="coverage-list"></ul>
+            </section>
+          </div>
+
+          <section class="panel artifact-panel" aria-labelledby="artifact-title">
+            <div class="panel-heading"><div><span class="panel-kicker">可交付文件</span><h2 id="artifact-title">这次运行留下的产物</h2></div><span class="panel-side-note">JSON 是机器契约，全文是人类入口</span></div>
+            <div class="artifact-list" id="artifact-list"></div>
+          </section>
+        </section>
+
+        <section class="workbench-view" id="view-graph" data-panel="graph" aria-labelledby="graph-title" hidden>
+          <div class="view-heading"><p class="workspace-eyebrow"><span></span>结构层 · Knowledge Graph</p><h1 id="graph-title">先看领域如何连起来。</h1><p>完整图谱保存在 `knowledge-graph.json`。这里把它压缩成可读的关系视图，同时保留节点与边的真实计数。</p></div>
+          <div class="graph-layout">
+            <section class="panel graph-panel" aria-labelledby="graph-stage-title"><div class="panel-heading"><div><span class="panel-kicker">关系视图</span><h2 id="graph-stage-title">领域 → 来源 → 证据</h2></div><span class="panel-side-note" id="graph-stage-note">抽取主要节点</span></div><div class="graph-stage"><svg id="graph-svg" viewBox="0 0 820 520" role="img" aria-labelledby="graph-svg-title graph-svg-desc"><title id="graph-svg-title">知识图谱关系视图</title><desc id="graph-svg-desc">领域节点连接到来源和证据节点。</desc></svg></div></section>
+            <aside class="graph-inspector">
+              <section class="panel graph-stats-panel"><span class="panel-kicker">图谱规模</span><div class="graph-stats" id="graph-stats"></div></section>
+              <section class="panel graph-list-panel"><div class="panel-heading"><div><span class="panel-kicker">可读节点</span><h2>关系中的关键对象</h2></div></div><div id="graph-node-list" class="graph-node-list"></div></section>
+            </aside>
+          </div>
+          <section class="panel graph-inventory-panel" aria-labelledby="graph-inventory-title">
+            <div class="panel-heading"><div><span class="panel-kicker">完整图谱</span><h2 id="graph-inventory-title">节点和关系都可检索。</h2></div><span class="panel-side-note" id="graph-inventory-summary">显示完整节点清单</span></div>
+            <div class="graph-inventory-toolbar">
+              <div class="filter-tabs" role="tablist" aria-label="图谱对象筛选"><button class="filter-tab is-active" type="button" data-graph-inventory="nodes" aria-selected="true">节点</button><button class="filter-tab" type="button" data-graph-inventory="edges" aria-selected="false">关系</button></div>
+              <label class="search-field"><span class="sr-only">搜索图谱</span><input id="graph-search" type="search" placeholder="搜索节点、关系或证据" /></label>
+            </div>
+            <div class="graph-inventory-wrap"><table class="graph-inventory-table"><thead><tr><th>对象</th><th>类型</th><th>连接</th><th>说明 / 证据</th></tr></thead><tbody id="graph-inventory-body"></tbody></table></div>
+            <p class="empty-state" id="graph-inventory-empty" hidden>没有符合条件的图谱对象。</p>
+          </section>
+        </section>
+
+        <section class="workbench-view" id="view-sources" data-panel="sources" aria-labelledby="sources-title" hidden>
+          <div class="view-heading"><p class="workspace-eyebrow"><span></span>来源层 · Source Portfolio</p><h1 id="sources-title">不是一串链接，是一张有角色的网络。</h1><p>来源候选、获取方式、激活结果和证据数量分开显示。一个入口抓取成功，不等于它已经成为情报证据。</p></div>
+          <section class="panel source-panel"><div class="source-toolbar"><div class="filter-tabs" role="tablist" aria-label="来源状态筛选"><button class="filter-tab is-active" type="button" data-source-filter="all" aria-selected="true">全部</button><button class="filter-tab" type="button" data-source-filter="observed" aria-selected="false">已观察</button><button class="filter-tab" type="button" data-source-filter="blocked" aria-selected="false">待处理</button></div><label class="search-field"><span class="sr-only">搜索来源</span><input id="source-search" type="search" placeholder="搜索来源名称或角色" /></label></div><div class="source-table-wrap"><table class="source-table"><thead><tr><th>来源</th><th>角色</th><th>入口</th><th>结果</th><th>证据</th></tr></thead><tbody id="source-table-body"></tbody></table></div><p class="empty-state" id="source-empty" hidden>没有符合条件的来源。</p></section>
+        </section>
+
+        <section class="workbench-view" id="view-content" data-panel="content" aria-labelledby="content-title" hidden>
+          <div class="view-heading"><p class="workspace-eyebrow"><span></span>内容层 · Content Inventory</p><h1 id="content-title">所有抓取结果，都在这里留下记录。</h1><p>打开一条内容，你会看到规范化全文、原始响应、内容哈希、来源入口与它是否真正进入证据链。</p></div>
+          <section class="panel content-panel"><div class="content-toolbar"><div class="filter-tabs" role="tablist" aria-label="内容状态筛选"><button class="filter-tab is-active" type="button" data-content-filter="all" aria-selected="true">全部</button><button class="filter-tab" type="button" data-content-filter="captured" aria-selected="false">已抓取</button><button class="filter-tab" type="button" data-content-filter="failed" aria-selected="false">失败</button><button class="filter-tab" type="button" data-content-filter="blocked" aria-selected="false">阻断</button></div><label class="search-field"><span class="sr-only">搜索内容</span><input id="content-search" type="search" placeholder="搜索标题、来源或证据编号" /></label></div><div class="content-list" id="content-list"></div><p class="empty-state" id="content-empty" hidden>没有符合条件的内容。</p></section>
+        </section>
+
+        <section class="workbench-view" id="view-brief" data-panel="brief" aria-labelledby="brief-title" hidden>
+          <div class="view-heading"><p class="workspace-eyebrow"><span></span>判断层 · Daily Brief</p><h1 id="brief-title">日报不是起点，是证据链最后的交付。</h1><p>只有进入本次运行、拥有内容引用并通过激活的信号，才会来到这里。每一条推荐都可以回到证据和全文。</p></div>
+          <div class="brief-layout"><section class="panel daily-panel"><div class="panel-heading"><div><span class="panel-kicker">本次运行日报</span><h2 id="daily-brief-heading">数字孪生 · Daily Brief</h2></div><span class="panel-side-note" id="daily-window"></span></div><div id="brief-list" class="brief-list"></div></section><aside class="panel evidence-panel"><div class="panel-heading"><div><span class="panel-kicker">证据回链</span><h2>推荐从哪里来</h2></div></div><div id="evidence-list" class="evidence-list"></div></aside></div>
+        </section>
+      </main>
+    </div>
+
+    <div class="drawer-backdrop" id="drawer-backdrop" hidden></div>
+    <aside class="content-drawer" id="content-drawer" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="drawer-title">
+      <div class="drawer-header"><div><span class="panel-kicker" id="drawer-kicker">内容详情</span><h2 id="drawer-title">打开一条内容</h2></div><button class="drawer-close" id="drawer-close" type="button" aria-label="关闭详情">×</button></div>
+      <div class="drawer-meta" id="drawer-meta"></div>
+      <div class="drawer-links" id="drawer-links"></div>
+      <div class="drawer-body-wrap"><pre class="drawer-body" id="drawer-body">请选择内容清单中的一条记录。</pre></div>
+    </aside>
+
+    <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+    <script src="workbench.js" defer></script>
+  </body>
+</html>

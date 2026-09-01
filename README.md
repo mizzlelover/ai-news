@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [来源激活运行](docs/SOURCE_ACTIVATION_RUN.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
+[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [来源激活运行](docs/SOURCE_ACTIVATION_RUN.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 ---
 
@@ -100,19 +100,26 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /path/to/local/run
 ~~~
 
-`--fetch` 会尝试采集已配置且允许公开获取的来源入口，并把规范化全文、原始响应、内容哈希、失败原因和证据引用写入本地。`--snapshots` 不带 `--fetch` 时仍然是可复现的本地快照回放；需要浏览器渲染、登录态或私有凭证的来源会明确保留为 blocked/failed，不会被伪装成已采集。
+`--fetch` 会尝试采集已配置且允许公开获取的来源入口，并把规范化全文、原始响应、内容哈希、失败原因和证据引用写入本地；HTML、JSON、RSS/Atom 和 PDF 入口有对应的内置文本归档边界。`--snapshots` 不带 `--fetch` 时仍然是可复现的本地快照回放；需要浏览器渲染、登录态或私有凭证的来源会明确保留为 blocked/failed，不会被伪装成已采集。
 
 运行会生成 `domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、日报 JSON/Markdown、Bootstrap 报告和 `run-manifest.json`。当本次运行有内容时，还会生成 `content-inventory.json`、`content-inventory.md` 和 `content/` 全文/原始响应目录。`content-inventory` 是“来源入口/内容资产/证据”的索引：只有带 `evidence_id` 的内容才会进入 Evidence、知识图谱和日报；仅成功抓到的静态介绍页会保留在全文库，但不会自动变成日报新闻。
+
+### 用运行工作台查看全部产物
+
+运行完成后，打开[运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html)，点击“导入运行目录”，选择这次命令生成的输出目录。工作台会把运行总览、知识图谱、信源状态、内容清单、规范化全文、原始响应、证据回链和日报放在同一个可视化入口中；它读取的是你导入的本地文件，顶部显示“已导入”时才代表当前页面正在展示真实运行。
+
+完整操作和回读顺序见[运行工作台说明](docs/WORKBENCH.md)。
 
 ## 仓库结构
 
 | 路径 | 作用 |
 | --- | --- |
-| demo/ | 面向使用者的产品演示、使用场景和方法论图示 |
+| demo/ | 面向使用者的产品演示、运行工作台、使用场景和方法论图示 |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
 | docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层和激活状态 |
 | docs/SOURCE_ACTIVATION_RUN.md | 采集运行、证据记录、日报信号和知识域增量契约 |
+| docs/WORKBENCH.md | 导入真实运行目录、查看全部产物与回读证据的使用说明 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |
@@ -120,7 +127,7 @@ uv run --project packages/domain-intelligence dib \
 
 ## 发布边界与第三方来源
 
-当前发布面只有私人情报所演示站与阅读室。AI News Reader / AI News Radar 兼容页面及其专属静态 assets/、site.webmanifest 不属于产品入口。
+当前发布面是私人情报所演示站、运行工作台与阅读室。AI News Reader / AI News Radar 兼容页面及其专属静态 assets/、site.webmanifest 不属于产品入口。
 
 仓库中保留的 scripts/update_news.py、data/、feeds/、.github/workflows/update-news.yml 以及 skills/ai-news-radar/、skills/radar/，只作为采集或消费适配参考，不是私人情报所的核心方法论，也不是本项目原创的“伯乐 Skill”。相关内容来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)，采用 MIT License；具体目录、版权和再分发边界见 [NOTICE](NOTICE.md) 与[项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
@@ -134,7 +141,7 @@ uv run --project packages/domain-intelligence dib \
 python3 -m http.server 8080
 ~~~
 
-然后打开 http://127.0.0.1:8080/demo/。
+然后打开 http://127.0.0.1:8080/demo/。如果已有一次真实运行，打开 http://127.0.0.1:8080/demo/workbench.html 并导入运行目录。
 
 核心引擎测试与格式检查：
 

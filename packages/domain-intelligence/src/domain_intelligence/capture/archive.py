@@ -27,6 +27,8 @@ def content_id(target: CaptureTarget) -> str:
 
 def raw_extension(content_type: str) -> str:
     normalized_type = content_type.casefold()
+    if "pdf" in normalized_type:
+        return ".pdf"
     if "json" in normalized_type:
         return ".json"
     if "xml" in normalized_type or "rss" in normalized_type or "atom" in normalized_type:
@@ -34,6 +36,10 @@ def raw_extension(content_type: str) -> str:
     if "html" in normalized_type:
         return ".html"
     return ".txt"
+
+
+def normalize_content_text(text: str) -> str:
+    return text.rstrip("\r\n") + "\n"
 
 
 def failure(
@@ -75,7 +81,10 @@ def write_capture_files(
     current_id = content_id(target)
     text_relative_path = f"content/{current_id}.md"
     raw_relative_path = f"content/{current_id}{raw_extension(content_type)}"
-    (capture_root / text_relative_path).write_text(text + "\n", encoding="utf-8")
+    (capture_root / text_relative_path).write_text(
+        normalize_content_text(text),
+        encoding="utf-8",
+    )
     (capture_root / raw_relative_path).write_bytes(body)
     return text_relative_path, raw_relative_path
 

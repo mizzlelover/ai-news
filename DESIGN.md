@@ -1,6 +1,6 @@
-# 私人情报所：演示站设计契约
+# 私人情报所：演示站与运行工作台设计契约
 
-这是 `demo/` 面向领域使用者与技术协作者的共同设计契约。演示站不是 AI 新闻仪表盘，也不以外部 Skill 代替核心方法论；它要让第一次接触项目的人先理解“给出一个领域，私人情报所如何把知识体系与情报体系搭起来”，再决定是否进入技术实现。
+这是 `demo/` 面向领域使用者与技术协作者的共同设计契约。公开演示站不是 AI 新闻仪表盘，也不以外部 Skill 代替核心方法论；运行工作台则负责把一次真实运行的过程和产物放在同一处，让使用者可以看见“领域如何展开、来源如何激活、全文如何归档、证据如何进入日报”。
 
 ## 0. Design references
 
@@ -57,6 +57,39 @@
 | `--white` | `#FFFFFF` | 深色面反白文字 |
 | `--reading-hero-mid` | `#102B49` | 阅读室 Hero 渐变中间停点 |
 | `--reading-hero-deep` | `#271A63` | 阅读室 Hero 渐变深处停点 |
+| `--workbench-hero-mid` | `#102B49` | 运行工作台 Hero 渐变中间停点 |
+| `--workbench-hero-deep` | `#271A63` | 运行工作台 Hero 渐变深处停点 |
+| `--workbench-sidebar-width` | `232px` | 桌面端工作台导航宽度 |
+| `--workbench-topbar-height` | `72px` | 工作台顶部运行上下文高度 |
+| `--workbench-content-max-width` | `1440px` | 工作台主内容最大宽度 |
+| `--workbench-panel-radius` | `8px` | 工作台面板圆角 |
+| `--workbench-panel-padding` | `24px` | 工作台面板内边距 |
+| `--workbench-grid-gap` | `16px` | 工作台卡片网格间距 |
+| `--workbench-drawer-width` | `min(720px, 92vw)` | 全文与证据抽屉宽度 |
+| `--workbench-nav-icon-size` | `20px` | 工作台导航线性图标尺寸 |
+
+工作台的布局、字号和响应式边界也必须先声明为 token，再在组件规则中引用。关键契约如下：
+
+| Token | Value | 用途 |
+| --- | --- | --- |
+| `--workbench-context-max-width` | `270px` | 顶部运行上下文名称最大宽度 |
+| `--workbench-title-max-width` | `760px` | 工作台 Hero 标题最大宽度 |
+| `--workbench-view-heading-max-width` | `920px` | 视图标题区最大宽度 |
+| `--workbench-view-copy-max-width` | `700px` | 视图说明文字最大宽度 |
+| `--workbench-hero-copy-max-width` | `680px` | Hero 主文案最大宽度 |
+| `--workbench-hero-lede-max-width` | `620px` | Hero 导语与导入提示最大宽度 |
+| `--workbench-art-card-min-width` | `112px` | Hero 结构卡片最小宽度 |
+| `--workbench-graph-table-min-width` | `760px` | 图谱清单表格最小宽度 |
+| `--workbench-graph-inventory-max-height` | `720px` | 图谱清单滚动区最大高度 |
+| `--workbench-source-table-min-width` | `720px` | 信源清单表格最小宽度 |
+| `--workbench-source-endpoint-max-width` | `240px` | 信源入口列最大宽度 |
+| `--workbench-section-title-size` | `clamp(1.5rem, 2.6vw, 2.25rem)` | 工作台区块标题 |
+| `--workbench-panel-title-size` | `clamp(1.35rem, 2vw, 1.8rem)` | 面板标题 |
+| `--workbench-drawer-title-size` | `clamp(1.35rem, 3vw, 2rem)` | 全文抽屉标题 |
+| `--workbench-mobile-art-min-height` | `250px` | 移动端 Hero 结构预览高度 |
+| `--workbench-mobile-metric-min-height` | `118px` | 移动端指标卡最小高度 |
+| `--workbench-mobile-graph-min-height` | `330px` | 移动端图谱区最小高度 |
+| `--workbench-mobile-drawer-title-size` | `1.4rem` | 移动端抽屉标题 |
 
 深色段落使用 `--ink` 作为底色，浅色页面使用 `--paper`。渐变只允许出现在 Hero/深色 CTA 的背景氛围中，不用于文字或信息卡片。
 
@@ -87,6 +120,10 @@
 - `coverage-gap`：诚实展示系统不知道什么，避免把“覆盖率”包装成自信分数。
 - `cta-band`：深色、明确的下一步，链接到 demo/方法论/仓库三类路径。
 - `reading-room`：把使用者指南、核心方法、工程入口和来源边界放进同一套 HTML 阅读层；演示站不把 `.md` 文件作为使用者阅读入口。
+- `workbench-shell`：运行上下文、导航、产物面板和阅读抽屉组成可复核的工作区，不把 JSON 文件路径当成用户入口。
+- `status-matrix`：把 captured、failed、blocked、evidence 和 story 分开显示，状态只靠文字与颜色共同表达。
+- `graph-stage`：用可缩放的 SVG 关系层呈现领域、来源和证据之间的结构，同时保留可读的列表视图。
+- `content-drawer`：从内容清单打开规范化全文，并显示原始响应、哈希、证据引用和来源入口。
 
 状态必须包括默认、hover/focus、selected、disabled（仅在必要时）和 reduced-motion。焦点态使用可见的 `outline`，不可只靠颜色区分。
 
@@ -125,9 +162,9 @@
 
 ## 9. Product boundary and acceptance
 
-- AI News Radar 阅读界面和采集适配器属于独立的边界参考；私人情报所的公开产品面是演示站与阅读室。
-- 演示站使用静态示例数据，不宣称实时情报；真实采集和推送仍由可替换适配器接入核心引擎。
-- 当前不引入账号、后端或在线配置向导；目标是让用户理解方法并能进入工程，而不是在演示站伪装成完整 SaaS。
+- AI News Radar 阅读界面和采集适配器属于独立的边界参考；私人情报所的公开产品面是演示站、阅读室和运行工作台。
+- 演示站继续使用静态示例数据，不宣称实时情报；`workbench.html` 是本地运行产物的可视化阅读与复核界面，支持直接导入一次 `run` 目录。
+- 当前不引入账号、远程数据库或在线配置向导；领域构建仍由 Skill、核心引擎和可替换采集器完成，工作台负责把过程和结果组织给使用者看。
 - 演示站的 CTA、输入框和状态必须明确指向“查看/预览演示”；不得用“开始搭建”“生成结果”“正在建立”等文案让使用者误以为页面会实时调用 AI、检索互联网或生成领域情报。实际运行路径应明确指向核心 Skill 与引擎说明。
 
 ### Acceptance checks
@@ -138,3 +175,6 @@
 - 默认输入为“数字文旅产业”；领域示例按钮应同步更新领域名称、地图、人物/机构、信源和知识引擎；任意非空关键词也应给出通用底图结果。
 - 浏览器控制台不应出现 error 或 warning；`prefers-reduced-motion` 下内容应直接可见。
 - `reading.html` 应在移动端、平板和桌面端可访问，目录锚点应能定位到使用者、方法、工程和归属四个区块，页面不应有 Markdown 直链或横向溢出。
+- `workbench.html` 在 375px、768px、1280px 下均可访问；导入一个真实运行目录后，概览、知识图谱、信源网络、内容清单、全文抽屉、证据链和日报都必须能从同一份产物数据渲染。
+- 工作台不能把 endpoint capture 当成 evidence；内容清单必须同时显示 captured/failed/blocked，全文入口必须能定位到 `content/` 下的规范化文件，日报卡片必须能回到对应证据和全文。
+- 未导入真实运行目录时，工作台必须明确显示“演示运行”，不能把内置示例冒充用户真实运行。

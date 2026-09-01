@@ -7,6 +7,7 @@ on:
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
       - "docs/SOURCE_PORTFOLIO_SCALE.md"
       - "docs/SOURCE_ACTIVATION_RUN.md"
+      - "docs/WORKBENCH.md"
       - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
       - "DESIGN.md"
       - "demo/**"
@@ -18,6 +19,7 @@ on:
       - "docs/DOMAIN_INTELLIGENCE_V0_1.md"
       - "docs/SOURCE_PORTFOLIO_SCALE.md"
       - "docs/SOURCE_ACTIVATION_RUN.md"
+      - "docs/WORKBENCH.md"
       - "docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md"
       - "DESIGN.md"
       - "demo/**"
@@ -42,6 +44,7 @@ jobs:
         working-directory: .
         run: |
           node --check demo/app.js
+          node --check demo/workbench.js
           python - <<'PY'
           from html.parser import HTMLParser
           from pathlib import Path

@@ -29,6 +29,9 @@ data/email-digest.json
 # Local domain seed, acquisition snapshots, and generated run bundles
 .private-intelligence/
 
+# Local QA evidence and agent work products
+.omo/
+
 # Local OS/editor noise
 .DS_Store
 .idea/

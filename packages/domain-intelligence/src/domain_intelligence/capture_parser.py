@@ -6,6 +6,10 @@ from dataclasses import dataclass
 from datetime import UTC, datetime
 from email.utils import parsedate_to_datetime
 from html.parser import HTMLParser
+from io import BytesIO
+
+from pypdf import PdfReader
+from pypdf.errors import DependencyError, PdfReadError, PyPdfError
 
 
 @dataclass(frozen=True, slots=True)
@@ -112,8 +116,21 @@ def _parse_json(text: str) -> ParsedDocument:
     return ParsedDocument(title="", text=formatted, published_at=None)
 
 
-def parse_document(text: str, content_type: str) -> ParsedDocument:
+def _parse_pdf(body: bytes) -> ParsedDocument:
+    try:
+        reader = PdfReader(BytesIO(body))
+        text = normalize_text("\n".join(page.extract_text() or "" for page in reader.pages))
+    except (DependencyError, OSError, PdfReadError, PyPdfError, ValueError):
+        text = ""
+    return ParsedDocument(title="", text=text, published_at=None)
+
+
+def parse_document(text: str, content_type: str, body: bytes | None = None) -> ParsedDocument:
     normalized_type = content_type.casefold()
+    if "pdf" in normalized_type and body:
+        parsed = _parse_pdf(body)
+        if parsed.text:
+            return parsed
     if "json" in normalized_type:
         parsed = _parse_json(text)
         return ParsedDocument(

@@ -54,7 +54,7 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /tmp/private-intelligence-run
 ```
 
-`--fetch` 使用内置公开 HTTP 适配器尝试获取 RSS、Atom、JSON、Sitemap、OPML、API 和稳定静态页面；`--snapshots` 是采集目录或可复现快照目录。需要浏览器渲染、登录态、私有凭证或不稳定路径的来源会留下明确的 blocked/failed 结果。领域 seed、快照、采集全文和输出目录都属于本地运行数据，不应提交到公共仓库。
+`--fetch` 使用内置公开 HTTP 适配器获取 RSS/Atom 端点，并对符合条件的 feed item 继续抓取规范化全文；HTML、JSON 和 PDF 入口会归档可读的规范化全文，原始响应单独保留。Sitemap、OPML、API 和静态页面目前作为端点采集边界，只有领域适配器提供条目展开与证据映射时才会继续形成条目级证据。`--snapshots` 是采集目录或可复现快照目录。需要浏览器渲染、登录态、私有凭证或不稳定路径的来源会留下明确的 blocked/failed 结果。领域 seed、快照、采集全文和输出目录都属于本地运行数据，不应提交到公共仓库。
 
 输出目录包含：
 
@@ -113,9 +113,11 @@ backtest.py   availability-time replay / metric vector
 portfolio.py  budgeted portfolio / source bundle synergy
 coverage.py   EIE denominator / gap audit
 activation.py acquisition run, evidence, signal, and knowledge-delta intake
- snapshot.py   reproducible local snapshot adapter and content validation
- public_capture.py public HTTP capture and full-text archive adapter
- capture_parser.py HTML/JSON/XML visible-text and date extraction
+snapshot.py   reproducible local snapshot adapter and content validation
+capture/      public capture orchestration, transport, archive, and planning
+feed_discovery.py RSS/Atom item discovery and XML boundary parsing
+public_capture.py compatibility facade for the public capture entry point
+capture_parser.py HTML/JSON/XML visible-text and date extraction
 knowledge_graph.py typed domain knowledge graph assembly
 acquisition.py source acquisition plan
 run.py        domain input and complete delivery orchestration
@@ -123,6 +125,18 @@ daily.py      URL + title deduplication / domain ranking
 pipeline.py   end-to-end orchestration
 io.py         JSON and Markdown report surface
 ```
+
+## `--fetch` 的格式边界
+
+| 来源入口 | 核心内置行为 | 什么时候形成条目级全文/证据 |
+| --- | --- | --- |
+| RSS / Atom | 获取 feed，发现条目，按条目 URL 继续获取公开全文 | 条目有可用 URL、正文通过解析且来源映射允许入选 |
+| PDF | 提取可读文本并保存规范化全文，同时保留原始 PDF | 有可读文本且来源映射允许入选 |
+| JSON / Sitemap / OPML / API | 保存端点响应并登记内容资产 | 需要领域适配器负责 schema 解析、条目展开和 evidence mapping |
+| 稳定静态页面 | 获取页面并保存规范化全文与原始响应 | 页面本身不自动成为日报证据；需要明确证据映射 |
+| 浏览器、登录态、私有凭证或不稳定入口 | 留下 blocked/failed 状态和原因 | 由外部边界适配器按同一契约接入 |
+
+因此，`source-activation.json` 的来源状态、`content-inventory.json` 的内容状态和 `daily-brief.json` 的证据引用必须一起阅读；“端点已抓取”不等于“日报已有事实”。
 
 ## 与采集适配器的关系
 

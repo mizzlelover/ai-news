@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Source scale and activation](docs/SOURCE_PORTFOLIO_SCALE.md) · [Source activation run](docs/SOURCE_ACTIVATION_RUN.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
+[Try the demo](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [Run workbench](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html) · [Visual reading room](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [Practitioner guide](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [Core methodology](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [Source scale and activation](docs/SOURCE_PORTFOLIO_SCALE.md) · [Source activation run](docs/SOURCE_ACTIVATION_RUN.md) · [Engine](packages/domain-intelligence/README.md) · [Scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [中文](README.md)
 
 ---
 
@@ -101,17 +101,20 @@ uv run --project packages/domain-intelligence dib \
   --output-dir /path/to/local/run
 ~~~
 
-The built-in public HTTP adapter attempts RSS, Atom, JSON, Sitemap, OPML, API, and stable static-page endpoints. It saves normalized full text, raw responses, content hashes, failure reasons, and evidence references. Browser-rendered, authenticated, private, or unstable sources remain explicitly `blocked`/`failed`. A run writes `content-inventory.json`, `content-inventory.md`, and `content/` alongside the domain profile, source map, acquisition plan, source activation, knowledge graph, daily brief, Bootstrap report, and `run-manifest.json`. Only content with an `evidence_id` enters the knowledge graph and daily brief; a captured static reference page remains in the inventory without becoming news automatically.
+The built-in public HTTP adapter captures RSS and Atom endpoints, expands eligible feed items, parses readable HTML/JSON/PDF content into normalized full text, and archives raw responses, content hashes, failure reasons, and evidence references. JSON, Sitemap, OPML, API, and stable static-page inputs are currently endpoint-capture boundaries unless a domain adapter supplies item expansion and evidence mapping. Browser-rendered, authenticated, private, or unstable sources remain explicitly `blocked`/`failed`. A run writes `content-inventory.json`, `content-inventory.md`, and `content/` alongside the domain profile, source map, acquisition plan, source activation, knowledge graph, daily brief, Bootstrap report, and `run-manifest.json`. Only content with an `evidence_id` enters the knowledge graph and daily brief; a captured static reference page remains in the inventory without becoming news automatically.
+
+To inspect a real run without opening files one by one, open the [run workbench](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html) and import the generated output directory. The workbench distinguishes demo data from imported data and links the graph, source statuses, content inventory, full text, evidence, and daily brief.
 
 ## Repository map
 
 | Path | Purpose |
 | --- | --- |
-| demo/ | Audience-facing product demo, domain-first entry, and methodology visuals |
+| demo/ | Audience-facing product demo, run workbench, domain-first entry, and methodology visuals |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | Application guide for non-technical users |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | Methodology, metrics, and boundaries |
 | docs/SOURCE_PORTFOLIO_SCALE.md | Source-network scale, layers, and activation states |
 | docs/SOURCE_ACTIVATION_RUN.md | Acquisition runs, evidence records, daily signals, and knowledge-domain deltas |
+| docs/WORKBENCH.md | Importing a real run directory and reading its complete artifact chain |
 | packages/domain-intelligence/ | Runnable core engine and minimal Bundle |
 | skills/domain-intelligence-bootstrap/ | Skill routing new domains into the core workflow |
 | DESIGN.md | Demo information architecture, visual system, and acceptance contract |
@@ -119,7 +122,7 @@ The built-in public HTTP adapter attempts RSS, Atom, JSON, Sitemap, OPML, API, a
 
 ## Release boundary and third-party sources
 
-The current public surface is the Private Intelligence Observatory demo and reading room. The AI News Reader / AI News Radar compatibility page and its page-specific static assets/ and site.webmanifest are not product entry points.
+The current public surface is the Private Intelligence Observatory demo, run workbench, and reading room. The AI News Reader / AI News Radar compatibility page and its page-specific static assets/ and site.webmanifest are not product entry points.
 
 The retained scripts/update_news.py, data/, feeds/, .github/workflows/update-news.yml, skills/ai-news-radar/, and skills/radar/ are collection or consumption references, not the core methodology or an original “Bole Skill” of this project. They come from or are based on [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar), under the MIT License. See [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) for directory-level attribution and redistribution rules.
 
@@ -133,7 +136,7 @@ Start the demo:
 python3 -m http.server 8080
 ~~~
 
-Open http://127.0.0.1:8080/demo/.
+Open http://127.0.0.1:8080/demo/. To inspect a real generated run, open http://127.0.0.1:8080/demo/workbench.html and import its output directory.
 
 Core tests and checks:
 

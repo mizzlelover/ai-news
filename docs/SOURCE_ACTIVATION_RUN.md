@@ -15,6 +15,18 @@ Source Profile
 
 这是候选来源网络建立后的第一条生产链路。公开 HTTP 入口可以由核心包的 `--fetch` 适配器直接采集；浏览器渲染、登录态、私有凭证和领域专属解析仍然属于外部边界。任何边界都必须返回同一套运行、内容和证据契约。
 
+当前内置公开采集边界的行为如下：
+
+| 入口格式 | 内置行为 | 条目级证据 |
+| --- | --- | --- |
+| RSS / Atom | 获取端点、发现 feed item，并尝试获取 item URL 的规范化全文 | 满足时间窗口、正文和映射条件时产生 |
+| PDF | 提取可读文本为规范化全文，同时保留原始 PDF | 有可读文本且满足映射条件时产生 |
+| JSON / Sitemap / OPML / API | 获取并归档端点响应，登记内容资产 | 需要领域适配器解析条目并建立映射 |
+| 稳定静态页面 | 获取页面、规范化全文和原始响应 | 页面不会因为抓取成功自动进入日报 |
+| 浏览器渲染、登录态、私有凭证 | 保留阻断/失败状态 | 由外部适配器接入 |
+
+因此，`captured` 只说明内容资产已归档；`EvidenceRecord` 还必须有来源、时间、内容哈希和可回读的 `content_ref`。
+
 ## 采集器提交什么
 
 在 Bundle 顶层增加两个字段：
@@ -121,6 +133,8 @@ uv run --project packages/domain-intelligence dib \
   --snapshots /path/to/local/capture \
   --output-dir /tmp/private-intelligence-activation
 ```
+
+运行结束后，打开仓库的 `demo/workbench.html`，点击“导入运行目录”，可以在浏览器里查看本次运行的完整产物链路。工作台按 `run-manifest.json` 识别运行范围，按 `content-inventory.json` 回读全文，按 `source-activation.json` 回链证据，再把 `daily-brief.json` 的推荐落回来源和内容。
 
 验收时先看 `run-manifest.json`，再按下面的顺序回读：
 
