@@ -73,7 +73,7 @@ class _VisibleTextParser(HTMLParser):
             self.text_parts.append(value)
 
 
-def _parse_datetime(value: str) -> datetime | None:
+def parse_datetime(value: str) -> datetime | None:
     candidate = value.strip()
     if not candidate:
         return None
@@ -129,7 +129,7 @@ def parse_document(text: str, content_type: str) -> ParsedDocument:
     if not text_value and "html" not in normalized_type and "xml" not in normalized_type:
         text_value = normalize_text(text)
     published_at = next(
-        (parsed for value in parser.published_values if (parsed := _parse_datetime(value))),
+        (parsed for value in parser.published_values if (parsed := parse_datetime(value))),
         None,
     )
     return ParsedDocument(title=title.strip(), text=text_value, published_at=published_at)
