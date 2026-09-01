@@ -12,7 +12,7 @@
     <link rel="icon" href="data:," />
     <title>我的私人情报所｜运行工作台</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="stylesheet" href="workbench.css?v=20260901-2" />
+    <link rel="stylesheet" href="workbench.css?v=20260901-3" />
   </head>
   <body class="workbench-page">
     <header class="workbench-topbar">
@@ -50,6 +50,10 @@
           <p>从一次运行里，看见这套情报体系到底建立了什么。</p>
         </div>
         <nav class="workbench-nav" aria-label="工作台视图">
+          <button class="workbench-nav-item" type="button" data-view="control" aria-selected="false">
+            <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 5h14M5 12h14M5 19h14" /><circle cx="9" cy="5" r="2" /><circle cx="15" cy="12" r="2" /><circle cx="11" cy="19" r="2" /></svg></span>
+            <span><strong>运行管理</strong><small>开始、跟进、交付</small></span>
+          </button>
           <button class="workbench-nav-item is-active" type="button" data-view="overview" aria-selected="true">
             <span class="nav-glyph" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8" /><circle cx="12" cy="12" r="3" /></svg></span>
             <span><strong>运行总览</strong><small>从领域到底稿</small></span>
@@ -78,6 +82,40 @@
       </aside>
 
       <main class="workbench-main" id="workbench-main">
+        <section class="workbench-view" id="view-control" data-panel="control" aria-labelledby="control-title" hidden>
+          <div class="view-heading"><p class="workspace-eyebrow"><span></span>控制层 · Run Control</p><h1 id="control-title">一个领域，一条可回看的构建链。</h1><p>从这里准备下一次领域运行，跟进当前运行经过的每一层，并把待处理来源、全文、证据和日报交给同一个工作区管理。浏览器不会把未执行的任务写成已完成。</p></div>
+          <div class="control-hero-grid">
+            <section class="panel control-command-panel" aria-labelledby="control-command-title">
+              <div class="panel-heading"><div><span class="panel-kicker">下一次运行</span><h2 id="control-command-title">告诉我你要进入哪个领域</h2></div><span class="panel-side-note">领域是唯一入口</span></div>
+              <p class="control-command-copy">输入一个领域名称或关键词，工作台会生成一份可执行的本地运行指引。真正的领域底图、来源发现和采集仍由 Skill 与核心引擎执行，再把生成的运行目录导入这里。</p>
+              <form class="run-guide-form" id="run-guide-form">
+                <label for="control-domain-input">领域名称 / 关键词</label>
+                <div class="run-guide-input-row"><input id="control-domain-input" name="domain" type="text" value="数字孪生" autocomplete="off" required /><button class="primary-action" type="submit">生成运行指引</button></div>
+                <small>这一步只生成运行指引，不在网页里伪装实时联网调研。</small>
+              </form>
+            </section>
+            <section class="panel control-status-panel" aria-labelledby="control-status-title">
+              <div class="panel-heading"><div><span class="panel-kicker">当前运行</span><h2 id="control-status-title">这一次跑到了哪一层？</h2></div><span class="status-badge" id="control-run-state">演示运行</span></div>
+              <div class="control-run-identity"><h2 id="control-run-domain">数字孪生</h2><p id="control-run-id">run demo-digital-twin</p></div>
+              <dl class="control-run-meta" id="control-run-meta"></dl>
+            </section>
+          </div>
+          <div class="control-grid">
+            <section class="panel control-stages-panel" aria-labelledby="control-stages-title">
+              <div class="panel-heading"><div><span class="panel-kicker">过程状态</span><h2 id="control-stages-title">从领域底图到日报交付</h2></div><span class="panel-side-note" id="control-stage-summary">5 个阶段</span></div>
+              <div class="control-stage-list" id="control-stage-list"></div>
+            </section>
+            <aside class="panel control-next-panel" aria-labelledby="control-next-title">
+              <div class="panel-heading"><div><span class="panel-kicker">下一步动作</span><h2 id="control-next-title">继续把运行做实</h2></div></div>
+              <div class="control-action-list" id="control-action-list"></div>
+            </aside>
+          </div>
+          <section class="panel control-log-panel" aria-labelledby="control-log-title">
+            <div class="panel-heading"><div><span class="panel-kicker">运行记录</span><h2 id="control-log-title">每个状态都有来处</h2></div><span class="panel-side-note">可回到原始产物</span></div>
+            <div class="control-log-grid" id="control-log-grid"></div>
+          </section>
+          <p class="control-boundary-note">工作台现在管理的是本地运行目录的过程与产物。部署完整系统时，调度器、Skill 执行器、采集适配器和推送服务可以把同一套运行状态写入这里；界面始终保留 captured、failed、blocked、evidence 和 story 的区别。</p>
+        </section>
         <section class="workbench-view is-visible" id="view-overview" data-panel="overview" aria-labelledby="overview-title">
           <div class="workspace-hero">
             <div class="workspace-hero-copy">

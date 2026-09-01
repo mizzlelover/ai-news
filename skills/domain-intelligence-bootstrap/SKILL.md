@@ -59,7 +59,7 @@ description: "Use when a user wants to build a domain intelligence knowledge dom
 
    `--fetch` 会逐个尝试公开 HTTP 入口。RSS/Atom 会继续发现条目并尝试归档条目全文；JSON、Sitemap、OPML、API 和静态页面目前保留端点采集结果，条目级展开和证据映射由领域适配器补充。所有路径都会写出可回看的状态；需要浏览器、登录态或私有凭证的来源必须明确留下 `blocked`/`failed`，不能静默跳过。
 6. 检查 `run-manifest.json` 的交付物清单和计数，再依次看 `domain-profile.json`、`source-map.json`、`content-inventory.json`/`.md`、`content/`、`source-activation.json`、`knowledge-graph.json`、`bootstrap-report.json`/`.md`、`daily-brief.json`/`.md` 与 Bootstrap 报告。
-   面向使用者交付时，打开 `demo/workbench.html` 并导入运行目录；它会把上述文件放在运行总览、知识图谱、信源网络、内容清单和日报与证据五个视图中。
+   面向使用者交付时，打开 `demo/workbench.html` 并导入运行目录；它会把上述文件放在运行管理、运行总览、知识图谱、信源网络、内容清单和日报与证据六个视图中。
 7. 当真实外部采集器已有运行结果时，把 `SourceAcquisitionRun` 和带 `content_ref` 的 `EvidenceRecord` 放入 Bundle 的 `acquisition_runs`、`evidence` 字段；核心会生成来源激活状态、窗口内 `DailySignal` 和 `KnowledgeDomainDelta`。没有证据引用的静态页面只保留在内容清单，不会自动进入日报。
 8. 来源进入长期组合前，确认它有角色、EIE 映射、稳定获取路径、证据记录和历史回放证据；不稳定、登录态、私有邮箱和需要 token 的来源放到用户自己的边界适配器。
 9. 新增来源或领域适配时，补充一个最小行为测试和一个可运行 Bundle；不要把 AI News Radar 的默认来源、栏目或阈值直接当成新领域方案。

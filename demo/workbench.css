@@ -77,6 +77,10 @@
   --workbench-mobile-drawer-title-size: 1.4rem;
   --workbench-mobile-art-card-top: 4%;
   --workbench-mobile-art-card-bottom: 3%;
+  --workbench-control-input-min-width: 210px;
+  --workbench-control-stage-marker-size: 36px;
+  --workbench-control-stage-action-min-width: 96px;
+  --workbench-control-log-item-min-width: 150px;
   --workbench-tablet-topbar-column-min-width: 190px;
   --workbench-tablet-nav-min-width: 150px;
   --workbench-tablet-hero-column-min-width: 250px;
@@ -215,6 +219,18 @@
 }
 
 .status-badge.is-empty {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: var(--amber-18);
+}
+
+.status-badge.is-complete {
+  border-color: var(--violet);
+  color: var(--violet);
+  background: var(--violet-soft);
+}
+
+.status-badge.is-partial {
   border-color: var(--amber);
   color: var(--amber);
   background: var(--amber-18);
@@ -936,6 +952,293 @@
   font-size: var(--text-lede);
 }
 
+.control-hero-grid,
+.control-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.15fr) minmax(var(--workbench-secondary-column-min-width), 0.85fr);
+  gap: var(--workbench-grid-gap);
+  margin-bottom: var(--space-8);
+}
+
+.control-command-panel,
+.control-status-panel {
+  min-height: var(--workbench-hero-min-height);
+}
+
+.control-command-copy {
+  max-width: var(--workbench-view-copy-max-width);
+  margin: 0 0 var(--space-8);
+  color: var(--ink-soft);
+  font-size: var(--text-body-sm);
+  line-height: 1.75;
+}
+
+.run-guide-form {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.run-guide-form label {
+  color: var(--ink);
+  font-size: var(--text-form-label);
+  font-weight: var(--weight-semibold);
+}
+
+.run-guide-input-row {
+  display: flex;
+  align-items: stretch;
+  gap: var(--space-3);
+}
+
+.run-guide-input-row input {
+  min-width: var(--workbench-control-input-min-width);
+  flex: 1 1 auto;
+  min-height: var(--control-height-md);
+  padding: 0 var(--space-4);
+  border: var(--line-width) solid var(--line);
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  background: var(--paper);
+  font: inherit;
+  font-size: var(--text-body-sm);
+}
+
+.run-guide-input-row input:focus {
+  border-color: var(--violet);
+  outline: var(--focus-outline-width) solid var(--violet-soft);
+  outline-offset: 0;
+}
+
+.run-guide-input-row .primary-action {
+  border-color: var(--ink);
+  color: var(--white);
+  background: var(--ink);
+  white-space: nowrap;
+}
+
+.run-guide-input-row .primary-action:hover,
+.run-guide-input-row .primary-action:focus-visible {
+  background: var(--violet);
+}
+
+.run-guide-form small {
+  color: var(--ink-soft);
+  font-size: var(--text-caption);
+  line-height: 1.6;
+}
+
+.control-run-identity {
+  padding: var(--space-4) 0 var(--space-6);
+  border-bottom: var(--line-width) solid var(--line);
+}
+
+.control-run-identity h2 {
+  margin: 0;
+  font-size: var(--workbench-section-title-size);
+  letter-spacing: var(--workbench-heading-letter-spacing);
+}
+
+.control-run-identity p {
+  margin: var(--space-2) 0 0;
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: var(--text-caption);
+  overflow-wrap: anywhere;
+}
+
+.control-run-meta {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: var(--space-4);
+  margin: var(--space-6) 0 0;
+}
+
+.control-run-meta div {
+  min-width: 0;
+}
+
+.control-run-meta dt {
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: var(--text-caption);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.control-run-meta dd {
+  margin: var(--space-2) 0 0;
+  color: var(--ink);
+  font-size: var(--text-body-sm);
+  line-height: 1.45;
+  overflow-wrap: anywhere;
+}
+
+.control-grid {
+  grid-template-columns: minmax(0, 1.35fr) minmax(var(--workbench-secondary-column-min-width), 0.65fr);
+}
+
+.control-stage-list {
+  display: grid;
+}
+
+.control-stage {
+  display: grid;
+  grid-template-columns: var(--workbench-control-stage-marker-size) minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: var(--space-4);
+  padding: var(--space-4) 0;
+  border-top: var(--line-width) solid var(--line);
+}
+
+.control-stage:first-child {
+  padding-top: 0;
+  border-top: 0;
+}
+
+.control-stage:last-child {
+  padding-bottom: 0;
+}
+
+.control-stage-marker {
+  display: grid;
+  width: var(--workbench-control-stage-marker-size);
+  height: var(--workbench-control-stage-marker-size);
+  place-items: center;
+  border: var(--line-width) solid var(--line);
+  border-radius: var(--radius-round);
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: var(--text-caption);
+}
+
+.control-stage.is-complete .control-stage-marker {
+  border-color: var(--violet);
+  color: var(--violet);
+  background: var(--violet-soft);
+}
+
+.control-stage.is-partial .control-stage-marker {
+  border-color: var(--amber);
+  color: var(--amber);
+  background: var(--amber-18);
+}
+
+.control-stage-copy {
+  min-width: 0;
+}
+
+.control-stage-copy strong,
+.control-stage-copy small {
+  display: block;
+}
+
+.control-stage-copy strong {
+  color: var(--ink);
+  font-size: var(--text-body-sm);
+  font-weight: var(--weight-semibold);
+}
+
+.control-stage-copy small {
+  margin-top: var(--space-1);
+  color: var(--ink-soft);
+  font-size: var(--text-caption);
+  line-height: 1.5;
+}
+
+.control-stage-status {
+  justify-self: end;
+}
+
+.control-stage-action {
+  min-width: var(--workbench-control-stage-action-min-width);
+  padding: var(--space-2) var(--space-3);
+  border: var(--line-width) solid var(--line);
+  border-radius: var(--radius-sm);
+  color: var(--violet);
+  background: var(--paper);
+  font-size: var(--text-caption);
+  white-space: nowrap;
+}
+
+.control-stage-action:hover,
+.control-stage-action:focus-visible {
+  border-color: var(--violet);
+  background: var(--violet-soft);
+}
+
+.control-action-list {
+  display: grid;
+  gap: var(--space-3);
+}
+
+.control-action {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-3);
+  width: 100%;
+  padding: var(--space-4);
+  border: var(--line-width) solid var(--line);
+  border-radius: var(--radius-sm);
+  color: var(--ink);
+  background: var(--paper);
+  text-align: left;
+  font-size: var(--text-body-sm);
+}
+
+.control-action::after {
+  color: var(--violet);
+  content: "↗";
+  font-family: var(--mono);
+}
+
+.control-action:hover,
+.control-action:focus-visible {
+  border-color: var(--violet);
+  color: var(--violet);
+  background: var(--violet-soft);
+}
+
+.control-log-panel {
+  margin-bottom: var(--space-6);
+}
+
+.control-log-grid {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(var(--workbench-control-log-item-min-width), 1fr));
+  gap: var(--workbench-grid-gap);
+}
+
+.control-log-grid > div {
+  min-width: 0;
+  padding-top: var(--space-4);
+  border-top: var(--line-width) solid var(--line);
+}
+
+.control-log-grid dt {
+  color: var(--ink-soft);
+  font-family: var(--mono);
+  font-size: var(--text-caption);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.control-log-grid dd {
+  margin: var(--space-2) 0 0;
+  color: var(--ink);
+  font-size: var(--text-body-sm);
+  line-height: 1.5;
+  overflow-wrap: anywhere;
+}
+
+.control-boundary-note {
+  max-width: var(--workbench-view-copy-max-width);
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: var(--text-caption);
+  line-height: 1.7;
+}
+
 .graph-layout {
   grid-template-columns: minmax(0, 1.55fr) minmax(var(--workbench-graph-inspector-min-width), 0.45fr);
   align-items: start;
@@ -1588,8 +1891,14 @@
   }
 
   .graph-layout,
-  .brief-layout {
+  .brief-layout,
+  .control-hero-grid,
+  .control-grid {
     grid-template-columns: 1fr;
+  }
+
+  .control-log-grid {
+    grid-template-columns: repeat(2, minmax(var(--workbench-control-log-item-min-width), 1fr));
   }
 }
 
@@ -1696,6 +2005,21 @@
     display: block;
   }
 
+  .run-guide-input-row {
+    display: block;
+  }
+
+  .run-guide-input-row input,
+  .run-guide-input-row .primary-action {
+    display: block;
+    width: 100%;
+    min-width: 0;
+  }
+
+  .run-guide-input-row .primary-action {
+    margin-top: var(--space-3);
+  }
+
   .workspace-section-heading > p,
   .panel-side-note {
     margin-top: var(--space-3);
@@ -1766,6 +2090,22 @@
   .graph-stage,
   .graph-stage svg {
     min-height: var(--workbench-mobile-graph-min-height);
+  }
+
+  .control-run-meta,
+  .control-log-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .control-stage {
+    grid-template-columns: var(--workbench-control-stage-marker-size) minmax(0, 1fr);
+    align-items: start;
+  }
+
+  .control-stage-status,
+  .control-stage-action {
+    grid-column: 2;
+    justify-self: start;
   }
 
   .drawer-header h2 {

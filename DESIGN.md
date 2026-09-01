@@ -90,6 +90,10 @@
 | `--workbench-mobile-metric-min-height` | `118px` | 移动端指标卡最小高度 |
 | `--workbench-mobile-graph-min-height` | `330px` | 移动端图谱区最小高度 |
 | `--workbench-mobile-drawer-title-size` | `1.4rem` | 移动端抽屉标题 |
+| `--workbench-control-input-min-width` | `210px` | 运行管理领域输入框最小宽度 |
+| `--workbench-control-stage-marker-size` | `36px` | 运行阶段编号标记尺寸 |
+| `--workbench-control-stage-action-min-width` | `96px` | 阶段跳转动作最小宽度 |
+| `--workbench-control-log-item-min-width` | `150px` | 运行记录字段最小宽度 |
 
 深色段落使用 `--ink` 作为底色，浅色页面使用 `--paper`。渐变只允许出现在 Hero/深色 CTA 的背景氛围中，不用于文字或信息卡片。
 
@@ -121,6 +125,7 @@
 - `cta-band`：深色、明确的下一步，链接到 demo/方法论/仓库三类路径。
 - `reading-room`：把使用者指南、核心方法、工程入口和来源边界放进同一套 HTML 阅读层；演示站不把 `.md` 文件作为使用者阅读入口。
 - `workbench-shell`：运行上下文、导航、产物面板和阅读抽屉组成可复核的工作区，不把 JSON 文件路径当成用户入口。
+- `run-control`：把下一次领域输入、当前运行状态、五层过程和待处理动作放在同一个控制面，不把“开始”写成浏览器已经执行。
 - `status-matrix`：把 captured、failed、blocked、evidence 和 story 分开显示，状态只靠文字与颜色共同表达。
 - `graph-stage`：用可缩放的 SVG 关系层呈现领域、来源和证据之间的结构，同时保留可读的列表视图。
 - `content-drawer`：从内容清单打开规范化全文，并显示原始响应、哈希、证据引用和来源入口。

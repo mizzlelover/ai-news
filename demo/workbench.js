@@ -34,9 +34,11 @@
   const STATUS_LABELS = {
     blocked: "阻断",
     captured: "已抓取",
+    complete: "已完成",
     empty: "无新内容",
     failed: "失败",
     observed: "已观察",
+    partial: "部分完成",
     pending: "待处理",
     ready: "待运行",
     succeeded: "成功",
@@ -84,6 +86,16 @@
     metricStories: document.getElementById("metric-stories"),
     runSummary: document.getElementById("run-summary"),
     pipeline: document.getElementById("run-pipeline"),
+    runGuideForm: document.getElementById("run-guide-form"),
+    controlDomainInput: document.getElementById("control-domain-input"),
+    controlRunState: document.getElementById("control-run-state"),
+    controlRunDomain: document.getElementById("control-run-domain"),
+    controlRunId: document.getElementById("control-run-id"),
+    controlRunMeta: document.getElementById("control-run-meta"),
+    controlStageSummary: document.getElementById("control-stage-summary"),
+    controlStageList: document.getElementById("control-stage-list"),
+    controlActionList: document.getElementById("control-action-list"),
+    controlLogGrid: document.getElementById("control-log-grid"),
     storyPreview: document.getElementById("story-preview-list"),
     coverageValue: document.getElementById("coverage-value"),
     coverageBar: document.getElementById("coverage-bar-fill"),
@@ -335,6 +347,116 @@
       dom.pipeline.append(item);
     });
     dom.runSummary.textContent = `${number(graph.nodes.length)} 个节点、${number(graph.edges.length)} 条有类型关系；失败与阻断也保留在同一次运行里。`;
+  }
+
+  function activateSourceFilter(filter) {
+    state.sourceFilter = filter;
+    document.querySelectorAll("[data-source-filter]").forEach((tab) => {
+      const active = tab.dataset.sourceFilter === filter;
+      tab.classList.toggle("is-active", active);
+      tab.setAttribute("aria-selected", String(active));
+    });
+    renderSources();
+  }
+
+  function activateContentFilter(filter) {
+    state.contentFilter = filter;
+    document.querySelectorAll("[data-content-filter]").forEach((tab) => {
+      const active = tab.dataset.contentFilter === filter;
+      tab.classList.toggle("is-active", active);
+      tab.setAttribute("aria-selected", String(active));
+    });
+    renderContent();
+  }
+
+  function renderControl() {
+    const manifest = state.run.manifest;
+    const activation = state.run.activation;
+    const graph = state.run.graph;
+    const profile = state.run.profile;
+    const items = contentList();
+    const captured = Number(manifest.captured_content_count || items.filter((item) => item.status === "captured").length);
+    const failed = items.filter((item) => item.status === "failed").length;
+    const blocked = items.filter((item) => item.status === "blocked").length;
+    const pending = failed + blocked;
+    const evidenceCount = Array.isArray(activation.evidence) ? activation.evidence.length : 0;
+    const storyCount = storyList().length;
+    const isDemo = state.mode === "demo";
+    const runState = isDemo ? "empty" : pending ? "partial" : "complete";
+
+    dom.controlRunState.className = "status-badge";
+    dom.controlRunState.classList.add(`is-${runState}`);
+    dom.controlRunState.textContent = isDemo ? "演示运行" : statusLabel(runState);
+    dom.controlRunState.dataset.status = runState;
+    dom.controlRunDomain.textContent = manifest.domain || "未命名领域";
+    dom.controlRunId.textContent = `run ${manifest.run_id || "unindexed-run"}`;
+    if (document.activeElement !== dom.controlDomainInput) {
+      dom.controlDomainInput.value = manifest.domain || "";
+    }
+    clear(dom.controlRunMeta);
+    [
+      ["生成时间", dateTime(manifest.generated_at)],
+      ["运行窗口", `${date(activation.window_start)} 至 ${date(activation.generated_at || manifest.generated_at)}`],
+      ["采集入口", `${number(manifest.ready_source_count)} 个可运行`],
+    ].forEach(([label, value]) => {
+      const item = makeElement("div");
+      item.append(makeElement("dt", "", label), makeElement("dd", "", value));
+      dom.controlRunMeta.append(item);
+    });
+
+    const stages = [
+      { index: "01", title: "领域底图", detail: `${number(graph.nodes?.length)} 个节点 · ${number(profile.elements?.length)} 个信息要素`, status: graph.nodes?.length ? "complete" : "pending", action: "看知识图谱", target: "graph" },
+      { index: "02", title: "来源网络", detail: `${number(manifest.source_count)} 个候选 · ${number(manifest.ready_source_count)} 个可运行入口`, status: manifest.source_count ? "complete" : "pending", action: "看信源网络", target: "sources" },
+      { index: "03", title: "采集与归档", detail: `${number(captured)} / ${number(manifest.content_count)} 条形成规范化全文`, status: captured ? (pending ? "partial" : "complete") : "pending", action: "看内容清单", target: "content" },
+      { index: "04", title: "证据与知识域", detail: `${number(evidenceCount)} 条证据 · ${number(manifest.signal_count)} 条信号`, status: evidenceCount ? "complete" : "pending", action: "看证据链", target: "brief" },
+      { index: "05", title: "日报交付", detail: `${number(storyCount)} 条故事 · 可回到证据与全文`, status: storyCount ? "complete" : "pending", action: "打开日报", target: "brief" },
+    ];
+    dom.controlStageSummary.textContent = `${stages.length} 个阶段 · ${isDemo ? "演示流程" : "当前运行"}`;
+    clear(dom.controlStageList);
+    stages.forEach((stage) => {
+      const item = makeElement("article", `control-stage is-${stage.status}`);
+      item.append(makeElement("span", "control-stage-marker", stage.index));
+      const copy = makeElement("div", "control-stage-copy");
+      copy.append(makeElement("strong", "", stage.title), makeElement("small", "", stage.detail));
+      const stageStatus = createBadge(stage.status, statusLabel(stage.status));
+      stageStatus.classList.add("control-stage-status");
+      item.append(copy, stageStatus);
+      const action = createAction(stage.action, "control-stage-action", () => {
+        if (stage.target === "sources") activateSourceFilter("all");
+        if (stage.target === "content") activateContentFilter("all");
+        showView(stage.target, true);
+      });
+      action.classList.add("control-stage-action");
+      item.append(action);
+      dom.controlStageList.append(item);
+    });
+
+    const sourcePending = sourceList().filter((source) => ["blocked", "failed", "pending", "empty"].includes(effectiveSourceStatus(source))).length;
+    clear(dom.controlActionList);
+    const actions = [
+      { label: `导入另一份运行目录`, handler: () => dom.importInput.click() },
+      { label: `查看待处理来源与空结果 · ${number(sourcePending)} 条`, handler: () => { activateSourceFilter("blocked"); showView("sources", true); } },
+      { label: `复核规范化全文 · ${number(captured)} 条`, handler: () => { activateContentFilter("captured"); showView("content", true); } },
+      { label: `打开本次日报 · ${number(storyCount)} 条故事`, handler: () => showView("brief", true) },
+      { label: "打开运行清单", handler: () => openArtifact("run-manifest.json") },
+    ];
+    actions.forEach((entry) => dom.controlActionList.append(createAction(entry.label, "control-action", entry.handler)));
+
+    clear(dom.controlLogGrid);
+    [
+      ["运行模式", isDemo ? "演示数据" : "本地真实运行"],
+      ["输入方式", manifest.input_mode || "未记录"],
+      ["候选来源", `${number(manifest.source_count)} 个`],
+      ["待处理结果", `${number(pending)} 条失败或阻断`],
+      ["可回链证据", `${number(evidenceCount)} 条`],
+      ["知识图谱", `${number(graph.nodes?.length)} 节点 / ${number(graph.edges?.length)} 关系`],
+      ["可交付文件", `${number(manifest.artifacts?.length || ARTIFACT_ORDER.length)} 项`],
+      ["最后交付", `${number(storyCount)} 条日报故事`],
+    ].forEach(([label, value]) => {
+      const item = makeElement("div");
+      item.append(makeElement("dt", "", label), makeElement("dd", "", value));
+      dom.controlLogGrid.append(item);
+    });
   }
 
   function renderStoriesPreview() {
@@ -737,6 +859,7 @@
     setRunHeader();
     renderMetrics();
     renderPipeline();
+    renderControl();
     renderStoriesPreview();
     renderCoverage();
     renderArtifacts();
@@ -748,8 +871,8 @@
   }
 
   function showView(view, updateUrl) {
-    const validViews = ["overview", "graph", "sources", "content", "brief"];
-    const next = validViews.includes(view) ? view : "overview";
+    const validViews = ["control", "overview", "graph", "sources", "content", "brief"];
+    const next = validViews.includes(view) ? view : "control";
     state.activeView = next;
     document.querySelectorAll("[data-view]").forEach((button) => {
       const active = button.dataset.view === next;
@@ -814,6 +937,23 @@
     if (file) return file.text();
     if (state.mode === "demo") return demoArtifactText(path);
     return `运行目录中没有找到 ${path}。\n\n请确认导入的是 CLI 生成的运行目录，而不是上级的验证目录。`;
+  }
+
+  function openRunGuide(domain) {
+    const cleanDomain = domain.trim();
+    revokeObjectUrls();
+    setDrawerBase("下一次运行指南", `${cleanDomain} · 本地构建指引`, ["领域输入", cleanDomain, "工作台不执行联网任务"]);
+    dom.drawerLinks.append(createLink("阅读使用者指南", "reading.html#guide"));
+    dom.drawerLinks.append(createLink("打开核心引擎说明", "reading.html#engine"));
+    dom.drawerBody.textContent = [
+      `1. 在支持 domain-intelligence-bootstrap 的 AI 工作流中输入：${cleanDomain}`,
+      "2. 让 Skill 生成并校验这个领域的 typed seed Bundle。",
+      "3. 运行 dib --domain、--bundle、--fetch，指定本地输出目录。",
+      "4. 回到本工作台，导入生成的运行目录。",
+      "",
+      "导入后，运行管理页会显示每一层的真实状态；知识图谱、信源网络、全文、证据和日报会从同一份运行产物展开。",
+    ].join("\n");
+    openDrawer();
   }
 
   function demoArtifactText(path) {
@@ -1057,6 +1197,16 @@
     document.querySelectorAll("[data-view-target]").forEach((button) => {
       button.addEventListener("click", () => showView(button.dataset.viewTarget, true));
     });
+    dom.runGuideForm.addEventListener("submit", (event) => {
+      event.preventDefault();
+      const domain = dom.controlDomainInput.value.trim();
+      if (!domain) {
+        showToast("请先输入一个领域名称或关键词。");
+        dom.controlDomainInput.focus();
+        return;
+      }
+      openRunGuide(domain);
+    });
     document.querySelectorAll("[data-source-filter]").forEach((button) => {
       button.addEventListener("click", () => {
         state.sourceFilter = button.dataset.sourceFilter;
@@ -1114,5 +1264,5 @@
   state.run = buildDemoRun();
   bindEvents();
   renderAll();
-  showView(window.location.hash.slice(1) || "overview", false);
+  showView(window.location.hash.slice(1) || "control", false);
 })();

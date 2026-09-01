@@ -106,7 +106,7 @@ uv run --project packages/domain-intelligence dib \
 
 ### 用运行工作台查看全部产物
 
-运行完成后，打开[运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html)，点击“导入运行目录”，选择这次命令生成的输出目录。工作台会把运行总览、知识图谱、信源状态、内容清单、规范化全文、原始响应、证据回链和日报放在同一个可视化入口中；它读取的是你导入的本地文件，顶部显示“已导入”时才代表当前页面正在展示真实运行。
+运行完成后，打开[运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html)，先在“运行管理”页查看当前运行和待处理任务，再点击“导入运行目录”选择这次命令生成的输出目录。工作台会把运行总览、知识图谱、信源状态、内容清单、规范化全文、原始响应、证据回链和日报放在同一个可视化入口中；它读取的是你导入的本地文件，顶部显示“已导入”时才代表当前页面正在展示真实运行。
 
 完整操作和回读顺序见[运行工作台说明](docs/WORKBENCH.md)。
 
