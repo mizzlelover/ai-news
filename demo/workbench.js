@@ -18,6 +18,18 @@
     "run-manifest.json",
   ];
 
+  const REQUIRED_RUN_JSON = [
+    "run-manifest.json",
+    "domain-profile.json",
+    "source-map.json",
+    "acquisition-plan.json",
+    "source-activation.json",
+    "knowledge-graph.json",
+    "bootstrap-report.json",
+    "daily-brief.json",
+    "content-inventory.json",
+  ];
+
   const METHOD_LABELS = {
     api: "API",
     atom: "Atom",
@@ -488,7 +500,7 @@
     const covered = Number(coverage.covered_elements || 0);
     const weighted = Number(coverage.weighted_coverage || 0);
     dom.coverageValue.textContent = formatCountPair(covered, total);
-    dom.coverageBar.style.width = `${Math.round(weighted * 100)}%`;
+    dom.coverageBar.style.transform = `scaleX(${Math.max(0, Math.min(1, weighted))})`;
     clear(dom.coverageList);
     const labels = elementLabels();
     const rows = Array.isArray(coverage.rows) ? coverage.rows : [];
@@ -1062,8 +1074,9 @@
       if (!name.endsWith(".json")) continue;
       parsed[name] = parseJson(await file.text(), name);
     }
-    if (!parsed["run-manifest.json"] && !parsed["domain-profile.json"] && !parsed["source-map.json"]) {
-      showToast("没有识别到运行产物。请选择包含 run-manifest.json 的运行目录。");
+    const missingArtifacts = REQUIRED_RUN_JSON.filter((name) => !parsed[name]);
+    if (missingArtifacts.length) {
+      showToast(`运行目录不完整，未导入真实运行：还缺少 ${missingArtifacts.join("、")}。`);
       return;
     }
     state.files = selected;

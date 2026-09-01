@@ -40,6 +40,8 @@ python3 -m http.server 8080
 
 导入时要选择运行目录本身，而不是只选择其中一个 JSON 文件。工作台会读取根目录下的 JSON 产物，并按 `content-inventory.json` 中的 `relative_path` 找到 `content/` 下的规范化全文和原始响应。
 
+为了避免把半套文件误判为完整运行，导入目录必须同时包含 `run-manifest.json`、`domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`bootstrap-report.json`、`daily-brief.json` 和 `content-inventory.json`。缺少其中任一项时，工作台会保留当前状态并提示补齐，不会切换成“已导入”。
+
 ## 建议的回读顺序
 
 工作台里的页面顺序就是一次运行的复核顺序：
