@@ -42,6 +42,8 @@ python3 -m http.server 8080
 
 为了避免把半套文件误判为完整运行，导入目录必须同时包含 `run-manifest.json`、`domain-profile.json`、`source-map.json`、`acquisition-plan.json`、`source-activation.json`、`knowledge-graph.json`、`bootstrap-report.json`、`daily-brief.json` 和 `content-inventory.json`。缺少其中任一项时，工作台会保留当前状态并提示补齐，不会切换成“已导入”。
 
+工作台还会校验这些 JSON 的基本结构和相互关系：领域名称、来源/内容/证据/故事计数、知识图谱节点端点、覆盖审计行，以及已抓取全文的路径、哈希和字符数。空对象、空的领域底图、计数不一致或无法确认归属的文件不会被标记为“已导入”。导入失败时会保留上一次有效运行，并清空文件选择状态，便于重新选择同一个目录。
+
 ## 建议的回读顺序
 
 工作台里的页面顺序就是一次运行的复核顺序：

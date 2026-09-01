@@ -30,6 +30,8 @@
     "content-inventory.json",
   ];
 
+  const ROOT_RUN_ARTIFACTS = new Set(ARTIFACT_ORDER.filter((path) => !path.endsWith("/")));
+
   const METHOD_LABELS = {
     api: "API",
     atom: "Atom",
@@ -70,6 +72,7 @@
   const state = {
     run: null,
     files: [],
+    runRoot: "",
     mode: "demo",
     objectUrls: [],
     activeView: "overview",
@@ -201,6 +204,32 @@
       .replace(/^\/+/, "");
   }
 
+  function hasUnsafePath(value) {
+    return normalizePath(value).split("/").some((segment) => segment === "." || segment === "..");
+  }
+
+  function selectedFilePath(file) {
+    return normalizePath(file?.webkitRelativePath || file?.name);
+  }
+
+  function runRootForFiles(files) {
+    const firstPath = selectedFilePath(files[0]);
+    if (!firstPath || hasUnsafePath(firstPath)) return "";
+    const separator = firstPath.indexOf("/");
+    return separator > 0 ? firstPath.slice(0, separator) : "";
+  }
+
+  function relativeRunPath(path, root = state.runRoot) {
+    const normalized = normalizePath(path);
+    if (!normalized || hasUnsafePath(normalized) || !root) return "";
+    const prefix = `${root}/`;
+    return normalized.startsWith(prefix) ? normalized.slice(prefix.length) : "";
+  }
+
+  function fileRelativePath(file) {
+    return relativeRunPath(selectedFilePath(file));
+  }
+
   function basename(value) {
     const path = normalizePath(value);
     return path.slice(path.lastIndexOf("/") + 1);
@@ -222,6 +251,20 @@
     link.target = "_blank";
     link.rel = "noreferrer noopener";
     return link;
+  }
+
+  function safeExternalUrl(href) {
+    try {
+      const parsed = new URL(String(href || ""));
+      return ["http:", "https:"].includes(parsed.protocol) ? parsed.href : "";
+    } catch {
+      return "";
+    }
+  }
+
+  function createExternalLink(label, href) {
+    const safeHref = safeExternalUrl(href);
+    return safeHref ? createLink(label, safeHref) : null;
   }
 
   function createAction(label, className, handler) {
@@ -292,11 +335,10 @@
 
   function findFile(relativePath) {
     const target = normalizePath(relativePath);
-    if (!target) return null;
+    if (!target || hasUnsafePath(target)) return null;
     return (
       state.files.find((file) => {
-        const path = normalizePath(file.webkitRelativePath || file.name);
-        return path === target || path.endsWith(`/${target}`) || normalizePath(file.name) === target;
+        return fileRelativePath(file) === target;
       }) || null
     );
   }
@@ -532,7 +574,7 @@
 
   function artifactState(path) {
     if (state.mode === "demo") return "演示预览";
-    if (path === "content/") return state.files.some((file) => normalizePath(file.webkitRelativePath || file.name).includes("/content/")) ? "已导入" : "未找到文件夹";
+    if (path === "content/") return state.files.some((file) => fileRelativePath(file).startsWith("content/")) ? "已导入" : "未找到文件夹";
     return findFile(path) ? "已导入" : "未找到";
   }
 
@@ -775,7 +817,8 @@
       result.append(makeElement("span", "", sourceStatus?.last_run_at ? dateTime(sourceStatus.last_run_at) : run?.error_code || "尚未形成结果"));
       const evidence = makeElement("td");
       evidence.append(makeElement("strong", "", number(sourceStatus?.evidence_count || 0)));
-      if (source.acquisition?.endpoint) evidence.append(createLink("打开入口", source.acquisition.endpoint));
+      const link = createExternalLink("打开入口", source.acquisition?.endpoint);
+      if (link) evidence.append(link);
       row.append(identity, role, entry, result, evidence);
       dom.sourceTable.append(row);
     });
@@ -844,7 +887,10 @@
       meta.append(makeElement("span", "", `交叉印证 ${percent(story.corroboration)}`));
       const action = createAction(evidence ? "回到证据与全文" : "查看来源入口", "evidence-open", () => {
         if (evidence) openEvidence(evidence);
-        else if (source?.acquisition?.endpoint) window.open(source.acquisition.endpoint, "_blank", "noopener,noreferrer");
+        else {
+          const url = safeExternalUrl(source?.acquisition?.endpoint);
+          if (url) window.open(url, "_blank", "noopener,noreferrer");
+        }
       });
       meta.append(action);
       card.append(meta);
@@ -941,7 +987,8 @@
   }
 
   function addSourceLink(source) {
-    if (source?.acquisition?.endpoint) dom.drawerLinks.append(createLink("打开来源入口", source.acquisition.endpoint));
+    const link = createExternalLink("打开来源入口", source?.acquisition?.endpoint);
+    if (link) dom.drawerLinks.append(link);
   }
 
   async function readArtifactText(path) {
@@ -1041,7 +1088,8 @@
     const source = sourceMap().get(evidence.source_id);
     setDrawerBase("证据记录", evidence.title, [evidence.id, source?.name || evidence.source_id, evidence.content_hash]);
     addSourceLink(source);
-    if (evidence.url) dom.drawerLinks.append(createLink("打开证据来源", evidence.url));
+    const link = createExternalLink("打开证据来源", evidence.url);
+    if (link) dom.drawerLinks.append(link);
     openDrawer();
     dom.drawerBody.textContent = JSON.stringify(evidence, null, 2);
   }
@@ -1059,44 +1107,245 @@
     }
   }
 
+  function isRecord(value) {
+    return Boolean(value) && typeof value === "object" && !Array.isArray(value);
+  }
+
+  function validateImportedRun(parsed) {
+    const errors = [];
+    const objectArtifacts = [
+      ["run-manifest.json", parsed["run-manifest.json"]],
+      ["domain-profile.json", parsed["domain-profile.json"]],
+      ["source-map.json", parsed["source-map.json"]],
+      ["acquisition-plan.json", parsed["acquisition-plan.json"]],
+      ["source-activation.json", parsed["source-activation.json"]],
+      ["knowledge-graph.json", parsed["knowledge-graph.json"]],
+      ["bootstrap-report.json", parsed["bootstrap-report.json"]],
+      ["daily-brief.json", parsed["daily-brief.json"]],
+      ["content-inventory.json", parsed["content-inventory.json"]],
+    ];
+    objectArtifacts.forEach(([name, value]) => {
+      if (!isRecord(value)) errors.push(`${name} 必须是 JSON 对象`);
+    });
+    if (errors.length) return { ok: false, message: errors.slice(0, 5).join("；") };
+
+    const manifest = parsed["run-manifest.json"];
+    const profile = parsed["domain-profile.json"];
+    const sourceMap = parsed["source-map.json"];
+    const plan = parsed["acquisition-plan.json"];
+    const activation = parsed["source-activation.json"];
+    const graph = parsed["knowledge-graph.json"];
+    const report = parsed["bootstrap-report.json"];
+    const brief = parsed["daily-brief.json"];
+    const contentInventory = parsed["content-inventory.json"];
+    const nonEmptyString = (value) => typeof value === "string" && value.trim().length > 0;
+    const checkedArray = (value, label, nonEmpty = false) => {
+      if (!Array.isArray(value)) {
+        errors.push(`${label} 必须是数组`);
+        return [];
+      }
+      if (nonEmpty && value.length === 0) errors.push(`${label} 不能是空数组`);
+      return value;
+    };
+    const validateFields = (items, label, fields) => {
+      items.forEach((item, index) => {
+        if (!isRecord(item)) {
+          errors.push(`${label}[${index}] 必须是对象`);
+          return;
+        }
+        fields.forEach((field) => {
+          if (!nonEmptyString(item[field])) errors.push(`${label}[${index}] 缺少 ${field}`);
+        });
+      });
+    };
+    const elements = checkedArray(profile.elements, "domain-profile.elements", true);
+    const requirements = checkedArray(profile.requirements, "domain-profile.requirements", true);
+    const sources = checkedArray(sourceMap.sources, "source-map.sources", true);
+    const experts = checkedArray(sourceMap.experts, "source-map.experts");
+    const attentionEdges = checkedArray(sourceMap.edges, "source-map.edges");
+    const planItems = checkedArray(plan.items, "acquisition-plan.items", true);
+    const sourceStatuses = checkedArray(activation.source_statuses, "source-activation.source_statuses", true);
+    const activationRuns = checkedArray(activation.runs, "source-activation.runs");
+    const evidence = checkedArray(activation.evidence, "source-activation.evidence");
+    const activationSignals = checkedArray(activation.signals, "source-activation.signals");
+    const nodes = checkedArray(graph.nodes, "knowledge-graph.nodes", true);
+    const graphEdges = checkedArray(graph.edges, "knowledge-graph.edges");
+    const reportSignals = checkedArray(report.signals, "bootstrap-report.signals");
+    const recommendations = checkedArray(report.attention_recommendations, "bootstrap-report.attention_recommendations");
+    const stories = checkedArray(brief.stories, "daily-brief.stories");
+    const contents = checkedArray(contentInventory.items, "content-inventory.items");
+
+    validateFields(elements, "domain-profile.elements", ["id", "label", "topic_id"]);
+    validateFields(requirements, "domain-profile.requirements", ["id", "question"]);
+    validateFields(sources, "source-map.sources", ["id", "name", "role"]);
+    validateFields(experts, "source-map.experts", ["id", "name", "community"]);
+    validateFields(attentionEdges, "source-map.edges", ["from_node_id", "to_node_id", "relation"]);
+    validateFields(planItems, "acquisition-plan.items", ["source_id", "method", "status", "reason"]);
+    validateFields(sourceStatuses, "source-activation.source_statuses", ["source_id", "status"]);
+    validateFields(activationRuns, "source-activation.runs", ["id", "source_id", "status"]);
+    validateFields(evidence, "source-activation.evidence", ["id", "source_id", "title", "url"]);
+    validateFields(activationSignals, "source-activation.signals", ["id", "source_id", "title", "url"]);
+    validateFields(nodes, "knowledge-graph.nodes", ["id", "kind", "label"]);
+    validateFields(graphEdges, "knowledge-graph.edges", ["id", "from_node_id", "to_node_id", "relation"]);
+    validateFields(reportSignals, "bootstrap-report.signals", ["id", "source_id", "title", "url"]);
+    validateFields(recommendations, "bootstrap-report.attention_recommendations", ["source_id"]);
+    validateFields(stories, "daily-brief.stories", ["id", "title", "primary_source_id", "event_type"]);
+    validateFields(contents, "content-inventory.items", ["id", "source_id", "title", "url", "status"]);
+
+    if (!nonEmptyString(manifest.run_id)) errors.push("run-manifest.run_id 未提供");
+    if (!nonEmptyString(manifest.domain)) errors.push("run-manifest.domain 未提供");
+    if (!nonEmptyString(manifest.input_mode)) errors.push("run-manifest.input_mode 未提供");
+    [
+      ["domain-profile.json", profile.domain],
+      ["knowledge-graph.json", graph.domain],
+      ["bootstrap-report.json", report.domain],
+      ["daily-brief.json", brief.domain],
+    ].forEach(([name, domain]) => {
+      if (!nonEmptyString(domain)) errors.push(`${name} 未提供 domain`);
+      else if (domain !== manifest.domain) errors.push(`${name} 的 domain 与 run-manifest 不一致`);
+    });
+
+    if (!Array.isArray(manifest.artifacts) || !REQUIRED_RUN_JSON.every((name) => manifest.artifacts.includes(name))) {
+      errors.push("run-manifest.artifacts 未列出完整的根目录 JSON 产物");
+    }
+    const checkCount = (field, actual, label) => {
+      const value = manifest[field];
+      if (!Number.isInteger(value) || value < 0) errors.push(`run-manifest.${field} 不是有效计数`);
+      else if (value !== actual) errors.push(`run-manifest.${field} 与${label}不一致`);
+    };
+    checkCount("source_count", sources.length, "信源数量");
+    checkCount("ready_source_count", planItems.filter((item) => item?.status === "ready").length, "可运行信源数量");
+    checkCount("blocked_source_count", planItems.filter((item) => item?.status === "blocked").length, "阻断信源数量");
+    checkCount("evidence_count", evidence.length, "证据数量");
+    checkCount("content_count", contents.length, "内容记录数量");
+    checkCount("captured_content_count", contents.filter((item) => item?.status === "captured").length, "全文数量");
+    checkCount("signal_count", activationSignals.length, "信号数量");
+    checkCount("story_count", stories.length, "日报故事数量");
+    if (Number.isInteger(manifest.ready_source_count) && Number.isInteger(manifest.blocked_source_count)
+      && manifest.ready_source_count + manifest.blocked_source_count !== sources.length) {
+      errors.push("可运行信源与阻断信源数量之和不等于信源总数");
+    }
+
+    const sourceIds = new Set();
+    sources.forEach((source, index) => {
+      if (!isRecord(source) || !nonEmptyString(source.id)) errors.push(`source-map.sources[${index}] 缺少 id`);
+      else if (sourceIds.has(source.id)) errors.push(`source-map.sources 存在重复 id：${source.id}`);
+      else sourceIds.add(source.id);
+    });
+    const nodeIds = new Set();
+    nodes.forEach((node, index) => {
+      if (!isRecord(node) || !nonEmptyString(node.id)) errors.push(`knowledge-graph.nodes[${index}] 缺少 id`);
+      else if (nodeIds.has(node.id)) errors.push(`knowledge-graph.nodes 存在重复 id：${node.id}`);
+      else nodeIds.add(node.id);
+    });
+    graphEdges.forEach((edge, index) => {
+      if (!isRecord(edge) || !nonEmptyString(edge.from_node_id) || !nonEmptyString(edge.to_node_id)) {
+        errors.push(`knowledge-graph.edges[${index}] 缺少端点`);
+      } else if (!nodeIds.has(edge.from_node_id) || !nodeIds.has(edge.to_node_id)) {
+        errors.push(`knowledge-graph.edges[${index}] 引用了不存在的节点`);
+      }
+    });
+
+    const coverage = report.coverage;
+    if (!isRecord(coverage) || !Array.isArray(coverage.rows)) {
+      errors.push("bootstrap-report.coverage 未提供有效覆盖审计");
+    } else if (!Number.isInteger(coverage.total_elements) || !Number.isInteger(coverage.covered_elements)
+      || typeof coverage.weighted_coverage !== "number" || coverage.total_elements !== elements.length
+      || coverage.rows.length !== coverage.total_elements) {
+      errors.push("bootstrap-report.coverage 缺少有效计数");
+    }
+
+    const validContentStatuses = new Set(["captured", "failed", "blocked"]);
+    contents.forEach((item, index) => {
+      if (!isRecord(item)) {
+        errors.push(`content-inventory.items[${index}] 必须是对象`);
+        return;
+      }
+      if (!validContentStatuses.has(item.status)) errors.push(`content-inventory.items[${index}] 状态无效`);
+      if (item.status === "captured") {
+        const textPath = normalizePath(item.relative_path);
+        const rawPath = normalizePath(item.raw_relative_path);
+        if (!textPath.startsWith("content/") || hasUnsafePath(textPath)) errors.push(`content-inventory.items[${index}] 全文路径无效`);
+        if (item.raw_relative_path && (!rawPath.startsWith("content/") || hasUnsafePath(rawPath))) errors.push(`content-inventory.items[${index}] 原始响应路径无效`);
+        if (!nonEmptyString(item.content_hash) || !Number.isInteger(item.character_count) || item.character_count <= 0) {
+          errors.push(`content-inventory.items[${index}] 已抓取内容缺少哈希或字符数`);
+        }
+      }
+    });
+
+    return errors.length
+      ? { ok: false, message: errors.slice(0, 6).join("；") }
+      : { ok: true, message: "" };
+  }
+
   async function importRun(files) {
     const selected = Array.from(files || []);
     if (!selected.length) return;
-    if (dom.drawer.classList.contains("is-open")) closeDrawer();
-    const jsonFiles = new Map();
-    selected.forEach((file) => {
-      const path = normalizePath(file.webkitRelativePath || file.name);
-      const name = basename(path);
-      if (ARTIFACT_ORDER.includes(name)) jsonFiles.set(name, file);
-    });
-    const parsed = {};
-    for (const [name, file] of jsonFiles.entries()) {
-      if (!name.endsWith(".json")) continue;
-      parsed[name] = parseJson(await file.text(), name);
+    try {
+      if (dom.drawer.classList.contains("is-open")) closeDrawer();
+      const runRoot = runRootForFiles(selected);
+      if (!runRoot) {
+        showToast("请通过“导入运行目录”选择运行目录本身，不要只选择单个文件。");
+        return;
+      }
+      const jsonFiles = new Map();
+      const duplicateArtifacts = new Set();
+      const invalidPaths = [];
+      selected.forEach((file) => {
+        const path = selectedFilePath(file);
+        const relative = relativeRunPath(path, runRoot);
+        if (!relative) {
+          invalidPaths.push(path || file.name || "未知文件");
+          return;
+        }
+        if (ROOT_RUN_ARTIFACTS.has(relative) && relative.endsWith(".json")) {
+          if (jsonFiles.has(relative)) duplicateArtifacts.add(relative);
+          else jsonFiles.set(relative, file);
+        }
+      });
+      if (invalidPaths.length) {
+        showToast(`运行目录包含无法确认归属的路径，未导入：${invalidPaths.slice(0, 2).join("、")}。`);
+        return;
+      }
+      if (duplicateArtifacts.size) {
+        showToast(`运行目录存在重复根产物，未导入：${Array.from(duplicateArtifacts).join("、")}。`);
+        return;
+      }
+      const missingArtifacts = REQUIRED_RUN_JSON.filter((name) => !jsonFiles.has(name));
+      if (missingArtifacts.length) {
+        showToast(`运行目录不完整，未导入真实运行：还缺少 ${missingArtifacts.join("、")}。`);
+        return;
+      }
+      const parsed = {};
+      for (const [name, file] of jsonFiles.entries()) parsed[name] = parseJson(await file.text(), name);
+      const validation = validateImportedRun(parsed);
+      if (!validation.ok) {
+        showToast(`运行目录校验未通过，未导入真实运行：${validation.message}`);
+        return;
+      }
+      state.files = selected;
+      state.runRoot = runRoot;
+      state.mode = "imported";
+      state.graphInventoryMode = "nodes";
+      state.graphQuery = "";
+      state.run = normalizeRun({
+        manifest: parsed["run-manifest.json"],
+        profile: parsed["domain-profile.json"],
+        sourceMap: parsed["source-map.json"],
+        plan: parsed["acquisition-plan.json"],
+        activation: parsed["source-activation.json"],
+        graph: parsed["knowledge-graph.json"],
+        report: parsed["bootstrap-report.json"],
+        brief: parsed["daily-brief.json"],
+        contentInventory: parsed["content-inventory.json"],
+      });
+      renderAll();
+      showToast(`已导入 ${runRoot}：${number(state.run.contentInventory.items.length)} 条内容记录，${number(state.run.activation.evidence.length)} 条证据。`);
+    } catch (error) {
+      showToast(`运行目录读取失败，未导入真实运行：${error instanceof Error ? error.message : String(error)}`);
+    } finally {
+      dom.importInput.value = "";
     }
-    const missingArtifacts = REQUIRED_RUN_JSON.filter((name) => !parsed[name]);
-    if (missingArtifacts.length) {
-      showToast(`运行目录不完整，未导入真实运行：还缺少 ${missingArtifacts.join("、")}。`);
-      return;
-    }
-    state.files = selected;
-    state.mode = "imported";
-    state.graphInventoryMode = "nodes";
-    state.graphQuery = "";
-    state.run = normalizeRun({
-      manifest: parsed["run-manifest.json"],
-      profile: parsed["domain-profile.json"],
-      sourceMap: parsed["source-map.json"],
-      plan: parsed["acquisition-plan.json"],
-      activation: parsed["source-activation.json"],
-      graph: parsed["knowledge-graph.json"],
-      report: parsed["bootstrap-report.json"],
-      brief: parsed["daily-brief.json"],
-      contentInventory: parsed["content-inventory.json"],
-    });
-    renderAll();
-    const folder = selected[0]?.webkitRelativePath?.split("/")[0] || "运行目录";
-    showToast(`已导入 ${folder}：${number(state.run.contentInventory.items.length)} 条内容记录，${number(state.run.activation.evidence.length)} 条证据。`);
   }
 
   function normalizeRun(input) {
