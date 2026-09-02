@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T09:18:19.983097Z",
+  "generated_at": "2026-09-02T13:46:37.104343Z",
   "window_hours": 24,
-  "total_items": 14,
+  "total_items": 20,
   "items": [
     {
       "story_id": "story_458db8f57249",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6245,
-      "importance": 0.6245,
-      "importance_score": 0.6245,
+      "score": 0.6141,
+      "importance": 0.6141,
+      "importance_score": 0.6141,
       "ai_label": "tourism_tech",
       "ai_score": 0.84,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.6048,
         "source_tier": 0.5,
         "ai_relevance": 0.84,
-        "recency": 0.9168,
+        "recency": 0.8595,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -77,6 +77,667 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.84
+      }
+    },
+    {
+      "story_id": "story_79f4526884ed",
+      "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
+      "url": "https://www.ithome.com/0/997/663.htm",
+      "primary_url": "https://www.ithome.com/0/997/663.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
+          "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
+          "url": "https://www.ithome.com/0/997/663.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T13:25:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
+          "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
+          "url": "https://www.ithome.com/0/997/663.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T13:25:32Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6011,
+      "importance": 0.6011,
+      "importance_score": 0.6011,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "算力",
+        "gpu",
+        "adr",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9949,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T13:25:32Z",
+      "latest_at": "2026-09-02T13:25:32Z",
+      "primary_item": {
+        "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
+        "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
+        "url": "https://www.ithome.com/0/997/663.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_6c681cbb6b0e",
+      "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
+      "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
+      "primary_url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
+          "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
+          "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T12:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
+          "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
+          "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T12:00:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5974,
+      "importance": 0.5974,
+      "importance_score": 0.5974,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "travel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9747,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T12:00:00Z",
+      "latest_at": "2026-09-02T12:00:00Z",
+      "primary_item": {
+        "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
+        "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
+        "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_99957116208c",
+      "title": "交通运输部:2025年国内水路旅游客运精品航线",
+      "url": "https://www.pinchain.com/article/350606",
+      "primary_url": "https://www.pinchain.com/article/350606",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+          "title": "交通运输部:2025年国内水路旅游客运精品航线",
+          "url": "https://www.pinchain.com/article/350606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T10:32:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+          "title": "交通运输部:2025年国内水路旅游客运精品航线",
+          "url": "https://www.pinchain.com/article/350606",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T10:32:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6063,
+      "importance": 0.6063,
+      "importance_score": 0.6063,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.9543,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T10:32:10Z",
+      "latest_at": "2026-09-02T10:32:10Z",
+      "primary_item": {
+        "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+        "title": "交通运输部:2025年国内水路旅游客运精品航线",
+        "url": "https://www.pinchain.com/article/350606",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_7aada86444d9",
+      "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
+      "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
+      "primary_url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
+      "source": "Hotel Management",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
+          "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
+          "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-01T17:55:41Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Hotel Management"
+      ],
+      "items": [
+        {
+          "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
+          "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
+          "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
+          "source": "Hotel Management",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-01T17:55:41Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5447,
+      "importance": 0.5447,
+      "importance_score": 0.5447,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "hotel"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.7508,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-01T17:55:41Z",
+      "latest_at": "2026-09-01T17:55:41Z",
+      "primary_item": {
+        "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
+        "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
+        "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
+        "source": "Hotel Management",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_2003d6bf7d19",
+      "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
+      "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+      "primary_url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
+          "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
+          "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T13:37:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
+          "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
+          "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T13:37:12Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5891,
+      "importance": 0.5891,
+      "importance_score": 0.5891,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9977,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T13:37:12Z",
+      "latest_at": "2026-09-02T13:37:12Z",
+      "primary_item": {
+        "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
+        "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
+        "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_4e2248daec8c",
+      "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+      "url": "https://www.pinchain.com/article/350579",
+      "primary_url": "https://www.pinchain.com/article/350579",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "bf6a40c88902dc59c2187941051200280d593384",
+          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+          "url": "https://www.pinchain.com/article/350579",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:26:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "bf6a40c88902dc59c2187941051200280d593384",
+          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+          "url": "https://www.pinchain.com/article/350579",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:26:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6043,
+      "importance": 0.6043,
+      "importance_score": 0.6043,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "旅游",
+        "目的地",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.874,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-02T04:26:52Z",
+      "latest_at": "2026-09-02T04:26:52Z",
+      "primary_item": {
+        "id": "bf6a40c88902dc59c2187941051200280d593384",
+        "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+        "url": "https://www.pinchain.com/article/350579",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
+      }
+    },
+    {
+      "story_id": "story_acf5e03299b3",
+      "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
+      "url": "https://www.ithome.com/0/997/641.htm",
+      "primary_url": "https://www.ithome.com/0/997/641.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
+          "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
+          "url": "https://www.ithome.com/0/997/641.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T11:40:34Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
+          "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
+          "url": "https://www.ithome.com/0/997/641.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T11:40:34Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5841,
+      "importance": 0.5841,
+      "importance_score": 0.5841,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "robot",
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9701,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T11:40:34Z",
+      "latest_at": "2026-09-02T11:40:34Z",
+      "primary_item": {
+        "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
+        "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
+        "url": "https://www.ithome.com/0/997/641.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_c23ee928e053",
+      "title": "For UAE Short-Term Rentals, Occupancy Is Recovering — Demand Hasn’t Fully Caught Up",
+      "url": "https://skift.com/2026/09/02/for-uae-short-term-rentals-occupancy-is-recovering-demand-hasnt-fully-caught-up",
+      "primary_url": "https://skift.com/2026/09/02/for-uae-short-term-rentals-occupancy-is-recovering-demand-hasnt-fully-caught-up",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "18b9078692a767b7dbd2859a22c26f54ba8b7275",
+          "title": "For UAE Short-Term Rentals, Occupancy Is Recovering — Demand Hasn’t Fully Caught Up",
+          "url": "https://skift.com/2026/09/02/for-uae-short-term-rentals-occupancy-is-recovering-demand-hasnt-fully-caught-up",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T10:00:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "18b9078692a767b7dbd2859a22c26f54ba8b7275",
+          "title": "For UAE Short-Term Rentals, Occupancy Is Recovering — Demand Hasn’t Fully Caught Up",
+          "url": "https://skift.com/2026/09/02/for-uae-short-term-rentals-occupancy-is-recovering-demand-hasnt-fully-caught-up",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T10:00:00Z",
+          "ai_label": "hospitality_ops",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.58,
+      "importance": 0.58,
+      "importance_score": 0.58,
+      "ai_label": "hospitality_ops",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "occupancy"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.9469,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T10:00:00Z",
+      "latest_at": "2026-09-02T10:00:00Z",
+      "primary_item": {
+        "id": "18b9078692a767b7dbd2859a22c26f54ba8b7275",
+        "title": "For UAE Short-Term Rentals, Occupancy Is Recovering — Demand Hasn’t Fully Caught Up",
+        "url": "https://skift.com/2026/09/02/for-uae-short-term-rentals-occupancy-is-recovering-demand-hasnt-fully-caught-up",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "hospitality_ops",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_a72bcbdc983f",
+      "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+      "url": "https://www.pinchain.com/article/350571",
+      "primary_url": "https://www.pinchain.com/article/350571",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+          "url": "https://www.pinchain.com/article/350571",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:23:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+          "url": "https://www.pinchain.com/article/350571",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:23:44Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6042,
+      "importance": 0.6042,
+      "importance_score": 0.6042,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "旅游",
+        "景区",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.8733,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-02T04:23:44Z",
+      "latest_at": "2026-09-02T04:23:44Z",
+      "primary_item": {
+        "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+        "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+        "url": "https://www.pinchain.com/article/350571",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -140,9 +801,9 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5862,
-      "importance": 0.5862,
-      "importance_score": 0.5862,
+      "score": 0.5775,
+      "importance": 0.5775,
+      "importance_score": 0.5775,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -154,7 +815,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7733,
+        "recency": 0.7249,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -175,23 +836,23 @@
       }
     },
     {
-      "story_id": "story_4e2248daec8c",
-      "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-      "url": "https://www.pinchain.com/article/350579",
-      "primary_url": "https://www.pinchain.com/article/350579",
+      "story_id": "story_8caa2996f0f0",
+      "title": "2026年8月重庆“两江游”完成客运量46.5万人",
+      "url": "https://www.pinchain.com/article/350595",
+      "primary_url": "https://www.pinchain.com/article/350595",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "bf6a40c88902dc59c2187941051200280d593384",
-          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-          "url": "https://www.pinchain.com/article/350579",
+          "id": "3346a715c7b86d74ed64e5a45f3615ef9ca0ce50",
+          "title": "2026年8月重庆“两江游”完成客运量46.5万人",
+          "url": "https://www.pinchain.com/article/350595",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:26:52Z",
+          "published_at": "2026-09-02T10:26:35Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -200,145 +861,71 @@
       ],
       "items": [
         {
-          "id": "bf6a40c88902dc59c2187941051200280d593384",
-          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-          "url": "https://www.pinchain.com/article/350579",
+          "id": "3346a715c7b86d74ed64e5a45f3615ef9ca0ce50",
+          "title": "2026年8月重庆“两江游”完成客运量46.5万人",
+          "url": "https://www.pinchain.com/article/350595",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:26:52Z",
+          "published_at": "2026-09-02T10:26:35Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6148,
-      "importance": 0.6148,
-      "importance_score": 0.6148,
+      "score": 0.5935,
+      "importance": 0.5935,
+      "importance_score": 0.5935,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "目的地",
-        "邮轮",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.9323,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "high_ai_relevance"
-      ],
-      "earliest_at": "2026-09-02T04:26:52Z",
-      "latest_at": "2026-09-02T04:26:52Z",
-      "primary_item": {
-        "id": "bf6a40c88902dc59c2187941051200280d593384",
-        "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-        "url": "https://www.pinchain.com/article/350579",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.81
-      }
-    },
-    {
-      "story_id": "story_7aada86444d9",
-      "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
-      "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
-      "primary_url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
-      "source": "Hotel Management",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
-          "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
-          "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
-          "source": "Hotel Management",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T17:55:41Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Hotel Management"
-      ],
-      "items": [
-        {
-          "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
-          "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
-          "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
-          "source": "Hotel Management",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T17:55:41Z",
-          "ai_label": "hospitality_ops",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5537,
-      "importance": 0.5537,
-      "importance_score": 0.5537,
-      "ai_label": "hospitality_ops",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "hotel"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8009,
+        "ai_relevance": 0.75,
+        "recency": 0.953,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-01T17:55:41Z",
-      "latest_at": "2026-09-01T17:55:41Z",
+      "earliest_at": "2026-09-02T10:26:35Z",
+      "latest_at": "2026-09-02T10:26:35Z",
       "primary_item": {
-        "id": "87bd41d0df31ff79985848fa74c1fc3b4b46bdf6",
-        "title": "Smarter Purchasing, Stronger Profits: Hotel Management's Top Purchasing Tips for 2027",
-        "url": "https://www.hotelmanagement.net/resource/smarter-purchasing-stronger-profits-hotel-managements-top-purchasing-tips-2027",
-        "source": "Hotel Management",
+        "id": "3346a715c7b86d74ed64e5a45f3615ef9ca0ce50",
+        "title": "2026年8月重庆“两江游”完成客运量46.5万人",
+        "url": "https://www.pinchain.com/article/350595",
+        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "hospitality_ops",
-        "ai_score": 0.72
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
-      "story_id": "story_a72bcbdc983f",
-      "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-      "url": "https://www.pinchain.com/article/350571",
-      "primary_url": "https://www.pinchain.com/article/350571",
+      "story_id": "story_495827871c04",
+      "title": "2026年8月长江三峡游轮发船478艘次",
+      "url": "https://www.pinchain.com/article/350597",
+      "primary_url": "https://www.pinchain.com/article/350597",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-          "url": "https://www.pinchain.com/article/350571",
+          "id": "6237d68a98122ac333dd9836362ce149d274f136",
+          "title": "2026年8月长江三峡游轮发船478艘次",
+          "url": "https://www.pinchain.com/article/350597",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:23:44Z",
+          "published_at": "2026-09-02T10:24:58Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -347,53 +934,51 @@
       ],
       "items": [
         {
-          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-          "url": "https://www.pinchain.com/article/350571",
+          "id": "6237d68a98122ac333dd9836362ce149d274f136",
+          "title": "2026年8月长江三峡游轮发船478艘次",
+          "url": "https://www.pinchain.com/article/350597",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:23:44Z",
+          "published_at": "2026-09-02T10:24:58Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6146,
-      "importance": 0.6146,
-      "importance_score": 0.6146,
+      "score": 0.5935,
+      "importance": 0.5935,
+      "importance_score": 0.5935,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.75,
       "ai_signals": [
         "旅游",
-        "景区",
-        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.9316,
+        "ai_relevance": 0.75,
+        "recency": 0.9526,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T04:23:44Z",
-      "latest_at": "2026-09-02T04:23:44Z",
+      "earliest_at": "2026-09-02T10:24:58Z",
+      "latest_at": "2026-09-02T10:24:58Z",
       "primary_item": {
-        "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-        "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-        "url": "https://www.pinchain.com/article/350571",
+        "id": "6237d68a98122ac333dd9836362ce149d274f136",
+        "title": "2026年8月长江三峡游轮发船478艘次",
+        "url": "https://www.pinchain.com/article/350597",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.75
       }
     },
     {
@@ -435,9 +1020,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5634,
-      "importance": 0.5634,
-      "importance_score": 0.5634,
+      "score": 0.5546,
+      "importance": 0.5546,
+      "importance_score": 0.5546,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -449,7 +1034,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7856,
+        "recency": 0.7365,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -470,21 +1055,21 @@
       }
     },
     {
-      "story_id": "story_c6a45330efae",
-      "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
-      "url": "https://www.pinchain.com/article/350590",
-      "primary_url": "https://www.pinchain.com/article/350590",
+      "story_id": "story_a06ccad2fd0f",
+      "title": "爱彼迎宣布多项高管任命及组织调整",
+      "url": "https://www.pinchain.com/article/350598",
+      "primary_url": "https://www.pinchain.com/article/350598",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
-          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
-          "url": "https://www.pinchain.com/article/350590",
+          "id": "5f7ade3904f713328f7c020104c7a23987a6662f",
+          "title": "爱彼迎宣布多项高管任命及组织调整",
+          "url": "https://www.pinchain.com/article/350598",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T09:08:27Z",
+          "published_at": "2026-09-02T10:23:07Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -495,22 +1080,22 @@
       ],
       "items": [
         {
-          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
-          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
-          "url": "https://www.pinchain.com/article/350590",
+          "id": "5f7ade3904f713328f7c020104c7a23987a6662f",
+          "title": "爱彼迎宣布多项高管任命及组织调整",
+          "url": "https://www.pinchain.com/article/350598",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T09:08:27Z",
+          "published_at": "2026-09-02T10:23:07Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6016,
-      "importance": 0.6016,
-      "importance_score": 0.6016,
+      "score": 0.5934,
+      "importance": 0.5934,
+      "importance_score": 0.5934,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -522,19 +1107,165 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9976,
+        "recency": 0.9522,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T09:08:27Z",
-      "latest_at": "2026-09-02T09:08:27Z",
+      "earliest_at": "2026-09-02T10:23:07Z",
+      "latest_at": "2026-09-02T10:23:07Z",
       "primary_item": {
-        "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
-        "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
-        "url": "https://www.pinchain.com/article/350590",
+        "id": "5f7ade3904f713328f7c020104c7a23987a6662f",
+        "title": "爱彼迎宣布多项高管任命及组织调整",
+        "url": "https://www.pinchain.com/article/350598",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_846c9360d6e3",
+      "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+      "url": "https://www.pinchain.com/article/350596",
+      "primary_url": "https://www.pinchain.com/article/350596",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+          "url": "https://www.pinchain.com/article/350596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:58:07Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+          "url": "https://www.pinchain.com/article/350596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:58:07Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5924,
+      "importance": 0.5924,
+      "importance_score": 0.5924,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9465,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T09:58:07Z",
+      "latest_at": "2026-09-02T09:58:07Z",
+      "primary_item": {
+        "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+        "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+        "url": "https://www.pinchain.com/article/350596",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_90cc5636e538",
+      "title": "中国驻泰使馆：中国公民赴泰仍可30天免签",
+      "url": "https://www.pinchain.com/article/350599",
+      "primary_url": "https://www.pinchain.com/article/350599",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "2683526e701304d506f47d4a383a3b1fcde2cf37",
+          "title": "中国驻泰使馆：中国公民赴泰仍可30天免签",
+          "url": "https://www.pinchain.com/article/350599",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:24:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "2683526e701304d506f47d4a383a3b1fcde2cf37",
+          "title": "中国驻泰使馆：中国公民赴泰仍可30天免签",
+          "url": "https://www.pinchain.com/article/350599",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:24:00Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.591,
+      "importance": 0.591,
+      "importance_score": 0.591,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9388,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T09:24:00Z",
+      "latest_at": "2026-09-02T09:24:00Z",
+      "primary_item": {
+        "id": "2683526e701304d506f47d4a383a3b1fcde2cf37",
+        "title": "中国驻泰使馆：中国公民赴泰仍可30天免签",
+        "url": "https://www.pinchain.com/article/350599",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -581,9 +1312,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6014,
-      "importance": 0.6014,
-      "importance_score": 0.6014,
+      "score": 0.591,
+      "importance": 0.591,
+      "importance_score": 0.591,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -596,7 +1327,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9274,
+        "recency": 0.8694,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -655,9 +1386,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6013,
-      "importance": 0.6013,
-      "importance_score": 0.6013,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -670,7 +1401,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9269,
+        "recency": 0.869,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -691,21 +1422,21 @@
       }
     },
     {
-      "story_id": "story_61d06086efaa",
-      "title": "北京西城上线“开学趣玩消费月”活动",
-      "url": "https://www.pinchain.com/article/350580",
-      "primary_url": "https://www.pinchain.com/article/350580",
+      "story_id": "story_c6a45330efae",
+      "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+      "url": "https://www.pinchain.com/article/350590",
+      "primary_url": "https://www.pinchain.com/article/350590",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-          "title": "北京西城上线“开学趣玩消费月”活动",
-          "url": "https://www.pinchain.com/article/350580",
+          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+          "url": "https://www.pinchain.com/article/350590",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:30:49Z",
+          "published_at": "2026-09-02T09:08:27Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -716,22 +1447,22 @@
       ],
       "items": [
         {
-          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-          "title": "北京西城上线“开学趣玩消费月”活动",
-          "url": "https://www.pinchain.com/article/350580",
+          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+          "url": "https://www.pinchain.com/article/350590",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:30:49Z",
+          "published_at": "2026-09-02T09:08:27Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.59,
-      "importance": 0.59,
-      "importance_score": 0.59,
+      "score": 0.5903,
+      "importance": 0.5903,
+      "importance_score": 0.5903,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -743,311 +1474,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9331,
+        "recency": 0.9352,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T04:30:49Z",
-      "latest_at": "2026-09-02T04:30:49Z",
+      "earliest_at": "2026-09-02T09:08:27Z",
+      "latest_at": "2026-09-02T09:08:27Z",
       "primary_item": {
-        "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-        "title": "北京西城上线“开学趣玩消费月”活动",
-        "url": "https://www.pinchain.com/article/350580",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_304616e1f57d",
-      "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-      "url": "https://www.pinchain.com/article/350581",
-      "primary_url": "https://www.pinchain.com/article/350581",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.59,
-      "importance": 0.59,
-      "importance_score": 0.59,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9335,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T04:32:19Z",
-      "latest_at": "2026-09-02T04:32:19Z",
-      "primary_item": {
-        "id": "46173df2290507fc823466b4d892e55155d57e49",
-        "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-        "url": "https://www.pinchain.com/article/350581",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_853244d7e915",
-      "title": "云南机场暑运旅客量破1556万人次 多地破纪录",
-      "url": "https://www.pinchain.com/article/350578",
-      "primary_url": "https://www.pinchain.com/article/350578",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5d15f284840f8ebe727ac5b64a33fb60d14dbc95",
-          "title": "云南机场暑运旅客量破1556万人次 多地破纪录",
-          "url": "https://www.pinchain.com/article/350578",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:28:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "5d15f284840f8ebe727ac5b64a33fb60d14dbc95",
-          "title": "云南机场暑运旅客量破1556万人次 多地破纪录",
-          "url": "https://www.pinchain.com/article/350578",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:28:35Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5899,
-      "importance": 0.5899,
-      "importance_score": 0.5899,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9326,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T04:28:35Z",
-      "latest_at": "2026-09-02T04:28:35Z",
-      "primary_item": {
-        "id": "5d15f284840f8ebe727ac5b64a33fb60d14dbc95",
-        "title": "云南机场暑运旅客量破1556万人次 多地破纪录",
-        "url": "https://www.pinchain.com/article/350578",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_e13854cf53d2",
-      "title": "重庆：加快打造巴蜀文化旅游走廊标志性成果",
-      "url": "https://www.pinchain.com/article/350568",
-      "primary_url": "https://www.pinchain.com/article/350568",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "87a1d9738f20c603cbf25331d13c1d31c6b60f51",
-          "title": "重庆：加快打造巴蜀文化旅游走廊标志性成果",
-          "url": "https://www.pinchain.com/article/350568",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:00:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "87a1d9738f20c603cbf25331d13c1d31c6b60f51",
-          "title": "重庆：加快打造巴蜀文化旅游走廊标志性成果",
-          "url": "https://www.pinchain.com/article/350568",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:00:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5887,
-      "importance": 0.5887,
-      "importance_score": 0.5887,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9264,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T04:00:33Z",
-      "latest_at": "2026-09-02T04:00:33Z",
-      "primary_item": {
-        "id": "87a1d9738f20c603cbf25331d13c1d31c6b60f51",
-        "title": "重庆：加快打造巴蜀文化旅游走廊标志性成果",
-        "url": "https://www.pinchain.com/article/350568",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_fcd10531eef0",
-      "title": "今年暑运收官 拱北口岸暑期迎客近2200万人次",
-      "url": "https://www.pinchain.com/article/350561",
-      "primary_url": "https://www.pinchain.com/article/350561",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "9213271d05bd8518848432f8d8a02baea5d164be",
-          "title": "今年暑运收官 拱北口岸暑期迎客近2200万人次",
-          "url": "https://www.pinchain.com/article/350561",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T10:09:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "9213271d05bd8518848432f8d8a02baea5d164be",
-          "title": "今年暑运收官 拱北口岸暑期迎客近2200万人次",
-          "url": "https://www.pinchain.com/article/350561",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T10:09:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5508,
-      "importance": 0.5508,
-      "importance_score": 0.5508,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7158,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T10:09:10Z",
-      "latest_at": "2026-09-01T10:09:10Z",
-      "primary_item": {
-        "id": "9213271d05bd8518848432f8d8a02baea5d164be",
-        "title": "今年暑运收官 拱北口岸暑期迎客近2200万人次",
-        "url": "https://www.pinchain.com/article/350561",
+        "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+        "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+        "url": "https://www.pinchain.com/article/350590",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
