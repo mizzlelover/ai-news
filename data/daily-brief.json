@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-02T04:54:03.639464Z",
+  "generated_at": "2026-09-02T09:18:19.983097Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 14,
   "items": [
     {
       "story_id": "story_458db8f57249",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6353,
-      "importance": 0.6353,
-      "importance_score": 0.6353,
+      "score": 0.6245,
+      "importance": 0.6245,
+      "importance_score": 0.6245,
       "ai_label": "tourism_tech",
       "ai_score": 0.84,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.6048,
         "source_tier": 0.5,
         "ai_relevance": 0.84,
-        "recency": 0.977,
+        "recency": 0.9168,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -140,9 +140,9 @@
       ],
       "item_count": 2,
       "duplicate_count": 2,
-      "score": 0.5953,
-      "importance": 0.5953,
-      "importance_score": 0.5953,
+      "score": 0.5862,
+      "importance": 0.5862,
+      "importance_score": 0.5862,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -154,7 +154,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8241,
+        "recency": 0.7733,
         "story_heat": 0.25
       },
       "category": "watch",
@@ -213,9 +213,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6258,
-      "importance": 0.6258,
-      "importance_score": 0.6258,
+      "score": 0.6148,
+      "importance": 0.6148,
+      "importance_score": 0.6148,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -229,7 +229,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9935,
+        "recency": 0.9323,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -288,9 +288,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5631,
-      "importance": 0.5631,
-      "importance_score": 0.5631,
+      "score": 0.5537,
+      "importance": 0.5537,
+      "importance_score": 0.5537,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -301,7 +301,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8535,
+        "recency": 0.8009,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -360,9 +360,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6257,
-      "importance": 0.6257,
-      "importance_score": 0.6257,
+      "score": 0.6146,
+      "importance": 0.6146,
+      "importance_score": 0.6146,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -376,7 +376,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9927,
+        "recency": 0.9316,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -435,9 +435,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5727,
-      "importance": 0.5727,
-      "importance_score": 0.5727,
+      "score": 0.5634,
+      "importance": 0.5634,
+      "importance_score": 0.5634,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -449,7 +449,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8372,
+        "recency": 0.7856,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -463,6 +463,79 @@
         "title": "AirDNA Enters Revenue Management Market With Host Dynamic Pricing Tool: Exclusive",
         "url": "https://skift.com/2026/09/01/airdna-enters-revenue-management-market-with-host-dynamic-pricing-tool-exclusive",
         "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_c6a45330efae",
+      "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+      "url": "https://www.pinchain.com/article/350590",
+      "primary_url": "https://www.pinchain.com/article/350590",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+          "url": "https://www.pinchain.com/article/350590",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:08:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+          "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+          "url": "https://www.pinchain.com/article/350590",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:08:27Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.6016,
+      "importance": 0.6016,
+      "importance_score": 0.6016,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9976,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T09:08:27Z",
+      "latest_at": "2026-09-02T09:08:27Z",
+      "primary_item": {
+        "id": "727a711d4100121bbb0de0e7dd38fa06376f43aa",
+        "title": "京玉邻里情,共赏三江源 雪域风情即将席卷京城",
+        "url": "https://www.pinchain.com/article/350590",
+        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
@@ -508,9 +581,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6124,
-      "importance": 0.6124,
-      "importance_score": 0.6124,
+      "score": 0.6014,
+      "importance": 0.6014,
+      "importance_score": 0.6014,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -523,7 +596,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9883,
+        "recency": 0.9274,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -582,9 +655,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6123,
-      "importance": 0.6123,
-      "importance_score": 0.6123,
+      "score": 0.6013,
+      "importance": 0.6013,
+      "importance_score": 0.6013,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -597,7 +670,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9878,
+        "recency": 0.9269,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -615,79 +688,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_304616e1f57d",
-      "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-      "url": "https://www.pinchain.com/article/350581",
-      "primary_url": "https://www.pinchain.com/article/350581",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.6011,
-      "importance": 0.6011,
-      "importance_score": 0.6011,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.9948,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T04:32:19Z",
-      "latest_at": "2026-09-02T04:32:19Z",
-      "primary_item": {
-        "id": "46173df2290507fc823466b4d892e55155d57e49",
-        "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-        "url": "https://www.pinchain.com/article/350581",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -729,9 +729,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.601,
-      "importance": 0.601,
-      "importance_score": 0.601,
+      "score": 0.59,
+      "importance": 0.59,
+      "importance_score": 0.59,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -743,7 +743,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9944,
+        "recency": 0.9331,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -756,6 +756,79 @@
         "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
         "title": "北京西城上线“开学趣玩消费月”活动",
         "url": "https://www.pinchain.com/article/350580",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_304616e1f57d",
+      "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+      "url": "https://www.pinchain.com/article/350581",
+      "primary_url": "https://www.pinchain.com/article/350581",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "46173df2290507fc823466b4d892e55155d57e49",
+          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+          "url": "https://www.pinchain.com/article/350581",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:32:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "46173df2290507fc823466b4d892e55155d57e49",
+          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+          "url": "https://www.pinchain.com/article/350581",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:32:19Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.59,
+      "importance": 0.59,
+      "importance_score": 0.59,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.9335,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T04:32:19Z",
+      "latest_at": "2026-09-02T04:32:19Z",
+      "primary_item": {
+        "id": "46173df2290507fc823466b4d892e55155d57e49",
+        "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+        "url": "https://www.pinchain.com/article/350581",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -802,9 +875,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6009,
-      "importance": 0.6009,
-      "importance_score": 0.6009,
+      "score": 0.5899,
+      "importance": 0.5899,
+      "importance_score": 0.5899,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -816,7 +889,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9939,
+        "recency": 0.9326,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -875,9 +948,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5997,
-      "importance": 0.5997,
-      "importance_score": 0.5997,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -889,7 +962,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9872,
+        "recency": 0.9264,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -907,302 +980,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_47e2439cda76",
-      "title": "国家动物博物馆公告：强烈谴责破坏标本的行为",
-      "url": "https://www.pinchain.com/article/350556",
-      "primary_url": "https://www.pinchain.com/article/350556",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "5fae028a70aac8fcdfe038d75ffc98ebd78c1304",
-          "title": "国家动物博物馆公告：强烈谴责破坏标本的行为",
-          "url": "https://www.pinchain.com/article/350556",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:39:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "5fae028a70aac8fcdfe038d75ffc98ebd78c1304",
-          "title": "国家动物博物馆公告：强烈谴责破坏标本的行为",
-          "url": "https://www.pinchain.com/article/350556",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:39:17Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5688,
-      "importance": 0.5688,
-      "importance_score": 0.5688,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7465,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T08:39:17Z",
-      "latest_at": "2026-09-01T08:39:17Z",
-      "primary_item": {
-        "id": "5fae028a70aac8fcdfe038d75ffc98ebd78c1304",
-        "title": "国家动物博物馆公告：强烈谴责破坏标本的行为",
-        "url": "https://www.pinchain.com/article/350556",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_9e84224ba739",
-      "title": "中国农业博物馆：二十四节气系列文化活动启幕",
-      "url": "https://www.pinchain.com/article/350546",
-      "primary_url": "https://www.pinchain.com/article/350546",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "4855b2ada6dae54724abf960492127f39bd21728",
-          "title": "中国农业博物馆：二十四节气系列文化活动启幕",
-          "url": "https://www.pinchain.com/article/350546",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:34:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "4855b2ada6dae54724abf960492127f39bd21728",
-          "title": "中国农业博物馆：二十四节气系列文化活动启幕",
-          "url": "https://www.pinchain.com/article/350546",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:34:40Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5668,
-      "importance": 0.5668,
-      "importance_score": 0.5668,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.735,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T07:34:40Z",
-      "latest_at": "2026-09-01T07:34:40Z",
-      "primary_item": {
-        "id": "4855b2ada6dae54724abf960492127f39bd21728",
-        "title": "中国农业博物馆：二十四节气系列文化活动启幕",
-        "url": "https://www.pinchain.com/article/350546",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_bb73e3e411d3",
-      "title": "《博物馆藏品管理办法》公布，11月1日起施行",
-      "url": "https://www.pinchain.com/article/350545",
-      "primary_url": "https://www.pinchain.com/article/350545",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "b11533f31ea2e8a49dc301a654652d6fcb166d15",
-          "title": "《博物馆藏品管理办法》公布，11月1日起施行",
-          "url": "https://www.pinchain.com/article/350545",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:24:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "b11533f31ea2e8a49dc301a654652d6fcb166d15",
-          "title": "《博物馆藏品管理办法》公布，11月1日起施行",
-          "url": "https://www.pinchain.com/article/350545",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:24:23Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5664,
-      "importance": 0.5664,
-      "importance_score": 0.5664,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "博物馆",
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7332,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T07:24:23Z",
-      "latest_at": "2026-09-01T07:24:23Z",
-      "primary_item": {
-        "id": "b11533f31ea2e8a49dc301a654652d6fcb166d15",
-        "title": "《博物馆藏品管理办法》公布，11月1日起施行",
-        "url": "https://www.pinchain.com/article/350545",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_a9f931088895",
-      "title": "铁路暑运结束 多条新线路投入运营后成绩亮眼",
-      "url": "https://www.pinchain.com/article/350555",
-      "primary_url": "https://www.pinchain.com/article/350555",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "59c21762d920f63a239ffc1bbb5fc1efa3c1a818",
-          "title": "铁路暑运结束 多条新线路投入运营后成绩亮眼",
-          "url": "https://www.pinchain.com/article/350555",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:10:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "59c21762d920f63a239ffc1bbb5fc1efa3c1a818",
-          "title": "铁路暑运结束 多条新线路投入运营后成绩亮眼",
-          "url": "https://www.pinchain.com/article/350555",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:10:39Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.77
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5638,
-      "importance": 0.5638,
-      "importance_score": 0.5638,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.77,
-      "ai_signals": [
-        "旅游",
-        "ai",
-        "运营"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5544,
-        "source_tier": 0.5,
-        "ai_relevance": 0.77,
-        "recency": 0.7414,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T08:10:39Z",
-      "latest_at": "2026-09-01T08:10:39Z",
-      "primary_item": {
-        "id": "59c21762d920f63a239ffc1bbb5fc1efa3c1a818",
-        "title": "铁路暑运结束 多条新线路投入运营后成绩亮眼",
-        "url": "https://www.pinchain.com/article/350555",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.77
       }
     },
     {
@@ -1244,9 +1021,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5593,
-      "importance": 0.5593,
-      "importance_score": 0.5593,
+      "score": 0.5508,
+      "importance": 0.5508,
+      "importance_score": 0.5508,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1258,7 +1035,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7628,
+        "recency": 0.7158,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1271,225 +1048,6 @@
         "id": "9213271d05bd8518848432f8d8a02baea5d164be",
         "title": "今年暑运收官 拱北口岸暑期迎客近2200万人次",
         "url": "https://www.pinchain.com/article/350561",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_de9bc15c531d",
-      "title": "Cityboat走红：河湖生态向好 亲水消费兴起",
-      "url": "https://www.pinchain.com/article/350558",
-      "primary_url": "https://www.pinchain.com/article/350558",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2462407d314830e262ee6b4b7bd60528e170d764",
-          "title": "Cityboat走红：河湖生态向好 亲水消费兴起",
-          "url": "https://www.pinchain.com/article/350558",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:42:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "2462407d314830e262ee6b4b7bd60528e170d764",
-          "title": "Cityboat走红：河湖生态向好 亲水消费兴起",
-          "url": "https://www.pinchain.com/article/350558",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T08:42:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5565,
-      "importance": 0.5565,
-      "importance_score": 0.5565,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7471,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T08:42:29Z",
-      "latest_at": "2026-09-01T08:42:29Z",
-      "primary_item": {
-        "id": "2462407d314830e262ee6b4b7bd60528e170d764",
-        "title": "Cityboat走红：河湖生态向好 亲水消费兴起",
-        "url": "https://www.pinchain.com/article/350558",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_4fb871fce51d",
-      "title": "出游需求加速释放 “奔县游”、体验游成亮点",
-      "url": "https://www.pinchain.com/article/350548",
-      "primary_url": "https://www.pinchain.com/article/350548",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "64e92f0aac280b56f1d08960dc139b672ed8a4d3",
-          "title": "出游需求加速释放 “奔县游”、体验游成亮点",
-          "url": "https://www.pinchain.com/article/350548",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:44:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "64e92f0aac280b56f1d08960dc139b672ed8a4d3",
-          "title": "出游需求加速释放 “奔县游”、体验游成亮点",
-          "url": "https://www.pinchain.com/article/350548",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:44:36Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5546,
-      "importance": 0.5546,
-      "importance_score": 0.5546,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7367,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T07:44:36Z",
-      "latest_at": "2026-09-01T07:44:36Z",
-      "primary_item": {
-        "id": "64e92f0aac280b56f1d08960dc139b672ed8a4d3",
-        "title": "出游需求加速释放 “奔县游”、体验游成亮点",
-        "url": "https://www.pinchain.com/article/350548",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_960ad5e77afe",
-      "title": "暑运期间732.8万人次自上海机场口岸出入境",
-      "url": "https://www.pinchain.com/article/350547",
-      "primary_url": "https://www.pinchain.com/article/350547",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "6db6c537f2cd587912ea8a6545486802d6dc02bf",
-          "title": "暑运期间732.8万人次自上海机场口岸出入境",
-          "url": "https://www.pinchain.com/article/350547",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:41:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "6db6c537f2cd587912ea8a6545486802d6dc02bf",
-          "title": "暑运期间732.8万人次自上海机场口岸出入境",
-          "url": "https://www.pinchain.com/article/350547",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-01T07:41:33Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5545,
-      "importance": 0.5545,
-      "importance_score": 0.5545,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7362,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-01T07:41:33Z",
-      "latest_at": "2026-09-01T07:41:33Z",
-      "primary_item": {
-        "id": "6db6c537f2cd587912ea8a6545486802d6dc02bf",
-        "title": "暑运期间732.8万人次自上海机场口岸出入境",
-        "url": "https://www.pinchain.com/article/350547",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
