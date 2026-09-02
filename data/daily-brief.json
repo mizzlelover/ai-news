@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T20:32:01.677278Z",
+  "generated_at": "2026-09-02T22:58:58.898359Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5998,
-      "importance": 0.5998,
-      "importance_score": 0.5998,
+      "score": 0.5949,
+      "importance": 0.5949,
+      "importance_score": 0.5949,
       "ai_label": "tourism_tech",
       "ai_score": 0.84,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.6048,
         "source_tier": 0.5,
         "ai_relevance": 0.84,
-        "recency": 0.7796,
+        "recency": 0.7525,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -118,9 +118,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5844,
-      "importance": 0.5844,
-      "importance_score": 0.5844,
+      "score": 0.5788,
+      "importance": 0.5788,
+      "importance_score": 0.5788,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -134,7 +134,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9024,
+        "recency": 0.8711,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -193,9 +193,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5811,
-      "importance": 0.5811,
-      "importance_score": 0.5811,
+      "score": 0.5756,
+      "importance": 0.5756,
+      "importance_score": 0.5756,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -207,7 +207,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8841,
+        "recency": 0.8533,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -266,9 +266,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5903,
-      "importance": 0.5903,
-      "importance_score": 0.5903,
+      "score": 0.5849,
+      "importance": 0.5849,
+      "importance_score": 0.5849,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -281,7 +281,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8656,
+        "recency": 0.8355,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -303,7 +303,7 @@
     },
     {
       "story_id": "story_e6d9954a16e4",
-      "title": "Southwest to Launch ‘At Least’ 11 Airport Lounges in Chase Partnership",
+      "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
       "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
       "primary_url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
       "source": "Skift",
@@ -311,7 +311,7 @@
       "sources": [
         {
           "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-          "title": "Southwest to Launch ‘At Least’ 11 Airport Lounges in Chase Partnership",
+          "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
           "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
           "source": "Skift",
           "source_name": "OPML RSS",
@@ -328,7 +328,7 @@
       "items": [
         {
           "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-          "title": "Southwest to Launch ‘At Least’ 11 Airport Lounges in Chase Partnership",
+          "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
           "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
           "source": "Skift",
           "source_name": "OPML RSS",
@@ -340,9 +340,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5743,
-      "importance": 0.5743,
-      "importance_score": 0.5743,
+      "score": 0.5685,
+      "importance": 0.5685,
+      "importance_score": 0.5685,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -353,7 +353,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9153,
+        "recency": 0.8835,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -364,7 +364,7 @@
       "latest_at": "2026-09-02T14:24:13Z",
       "primary_item": {
         "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-        "title": "Southwest to Launch ‘At Least’ 11 Airport Lounges in Chase Partnership",
+        "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
         "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
         "source": "Skift",
         "source_name": "OPML RSS",
@@ -412,9 +412,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5679,
-      "importance": 0.5679,
-      "importance_score": 0.5679,
+      "score": 0.5624,
+      "importance": 0.5624,
+      "importance_score": 0.5624,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -426,7 +426,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8799,
+        "recency": 0.8494,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -485,9 +485,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5896,
-      "importance": 0.5896,
-      "importance_score": 0.5896,
+      "score": 0.5847,
+      "importance": 0.5847,
+      "importance_score": 0.5847,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -501,7 +501,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7927,
+        "recency": 0.7652,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -560,9 +560,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.574,
-      "importance": 0.574,
-      "importance_score": 0.574,
+      "score": 0.5683,
+      "importance": 0.5683,
+      "importance_score": 0.5683,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -573,7 +573,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.914,
+        "recency": 0.8822,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -632,9 +632,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5895,
-      "importance": 0.5895,
-      "importance_score": 0.5895,
+      "score": 0.5846,
+      "importance": 0.5846,
+      "importance_score": 0.5846,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -648,7 +648,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7921,
+        "recency": 0.7646,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -707,9 +707,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5724,
-      "importance": 0.5724,
-      "importance_score": 0.5724,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -720,7 +720,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.905,
+        "recency": 0.8735,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -779,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5776,
-      "importance": 0.5776,
-      "importance_score": 0.5776,
+      "score": 0.5722,
+      "importance": 0.5722,
+      "importance_score": 0.5722,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -793,7 +793,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8644,
+        "recency": 0.8344,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5641,
-      "importance": 0.5641,
-      "importance_score": 0.5641,
+      "score": 0.5587,
+      "importance": 0.5587,
+      "importance_score": 0.5587,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -865,7 +865,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8589,
+        "recency": 0.829,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5775,
-      "importance": 0.5775,
-      "importance_score": 0.5775,
+      "score": 0.5721,
+      "importance": 0.5721,
+      "importance_score": 0.5721,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -938,7 +938,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8641,
+        "recency": 0.834,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5775,
-      "importance": 0.5775,
-      "importance_score": 0.5775,
+      "score": 0.5721,
+      "importance": 0.5721,
+      "importance_score": 0.5721,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1011,7 +1011,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8637,
+        "recency": 0.8337,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1029,153 +1029,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_846c9360d6e3",
-      "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
-      "url": "https://www.pinchain.com/article/350596",
-      "primary_url": "https://www.pinchain.com/article/350596",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
-          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
-          "url": "https://www.pinchain.com/article/350596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T09:58:07Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
-          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
-          "url": "https://www.pinchain.com/article/350596",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T09:58:07Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5765,
-      "importance": 0.5765,
-      "importance_score": 0.5765,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.8585,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T09:58:07Z",
-      "latest_at": "2026-09-02T09:58:07Z",
-      "primary_item": {
-        "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
-        "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
-        "url": "https://www.pinchain.com/article/350596",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_ec3e5fa63017",
-      "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
-      "url": "https://www.pinchain.com/article/350569",
-      "primary_url": "https://www.pinchain.com/article/350569",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
-          "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
-          "url": "https://www.pinchain.com/article/350569",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:03:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
-          "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
-          "url": "https://www.pinchain.com/article/350569",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:03:08Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "游客",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7882,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T04:03:08Z",
-      "latest_at": "2026-09-02T04:03:08Z",
-      "primary_item": {
-        "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
-        "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
-        "url": "https://www.pinchain.com/article/350569",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -1217,9 +1070,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5764,
-      "importance": 0.5764,
-      "importance_score": 0.5764,
+      "score": 0.5715,
+      "importance": 0.5715,
+      "importance_score": 0.5715,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1232,7 +1085,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7886,
+        "recency": 0.7612,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1250,6 +1103,153 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_ec3e5fa63017",
+      "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
+      "url": "https://www.pinchain.com/article/350569",
+      "primary_url": "https://www.pinchain.com/article/350569",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
+          "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
+          "url": "https://www.pinchain.com/article/350569",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:03:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
+          "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
+          "url": "https://www.pinchain.com/article/350569",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T04:03:08Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5714,
+      "importance": 0.5714,
+      "importance_score": 0.5714,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "游客",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7608,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T04:03:08Z",
+      "latest_at": "2026-09-02T04:03:08Z",
+      "primary_item": {
+        "id": "33f2e8f872ab7d171842780cd4ee9fcb7d371ade",
+        "title": "中吉联合宣言：加强旅游合作扩大往来游客数量",
+        "url": "https://www.pinchain.com/article/350569",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_846c9360d6e3",
+      "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+      "url": "https://www.pinchain.com/article/350596",
+      "primary_url": "https://www.pinchain.com/article/350596",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+          "url": "https://www.pinchain.com/article/350596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:58:07Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+          "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+          "url": "https://www.pinchain.com/article/350596",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-02T09:58:07Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5712,
+      "importance": 0.5712,
+      "importance_score": 0.5712,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8287,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-02T09:58:07Z",
+      "latest_at": "2026-09-02T09:58:07Z",
+      "primary_item": {
+        "id": "ef637c6a1d53ba6118b842c37e975869a97ff47f",
+        "title": "瑞典推出免费海景木屋,入住条件是:开启“静音模式”",
+        "url": "https://www.pinchain.com/article/350596",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -1291,9 +1291,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
+      "score": 0.5699,
+      "importance": 0.5699,
+      "importance_score": 0.5699,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1305,7 +1305,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8515,
+        "recency": 0.8219,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1364,9 +1364,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5747,
-      "importance": 0.5747,
-      "importance_score": 0.5747,
+      "score": 0.5694,
+      "importance": 0.5694,
+      "importance_score": 0.5694,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1378,7 +1378,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8483,
+        "recency": 0.8188,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1399,21 +1399,21 @@
       }
     },
     {
-      "story_id": "story_304616e1f57d",
-      "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-      "url": "https://www.pinchain.com/article/350581",
-      "primary_url": "https://www.pinchain.com/article/350581",
+      "story_id": "story_61d06086efaa",
+      "title": "北京西城上线“开学趣玩消费月”活动",
+      "url": "https://www.pinchain.com/article/350580",
+      "primary_url": "https://www.pinchain.com/article/350580",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
+          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
+          "title": "北京西城上线“开学趣玩消费月”活动",
+          "url": "https://www.pinchain.com/article/350580",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
+          "published_at": "2026-09-02T04:30:49Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -1424,22 +1424,22 @@
       ],
       "items": [
         {
-          "id": "46173df2290507fc823466b4d892e55155d57e49",
-          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-          "url": "https://www.pinchain.com/article/350581",
+          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
+          "title": "北京西城上线“开学趣玩消费月”活动",
+          "url": "https://www.pinchain.com/article/350580",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:32:19Z",
+          "published_at": "2026-09-02T04:30:49Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5649,
-      "importance": 0.5649,
-      "importance_score": 0.5649,
+      "score": 0.5599,
+      "importance": 0.5599,
+      "importance_score": 0.5599,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1451,19 +1451,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7938,
+        "recency": 0.7659,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T04:32:19Z",
-      "latest_at": "2026-09-02T04:32:19Z",
+      "earliest_at": "2026-09-02T04:30:49Z",
+      "latest_at": "2026-09-02T04:30:49Z",
       "primary_item": {
-        "id": "46173df2290507fc823466b4d892e55155d57e49",
-        "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
-        "url": "https://www.pinchain.com/article/350581",
+        "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
+        "title": "北京西城上线“开学趣玩消费月”活动",
+        "url": "https://www.pinchain.com/article/350580",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
