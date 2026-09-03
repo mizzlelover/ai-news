@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-03T11:30:55.401878Z",
+  "generated_at": "2026-09-03T15:49:27.411138Z",
   "window_hours": 24,
-  "total_items": 20,
+  "total_items": 18,
   "items": [
     {
       "story_id": "story_543f25be6bce",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6105,
-      "importance": 0.6105,
-      "importance_score": 0.6105,
+      "score": 0.6006,
+      "importance": 0.6006,
+      "importance_score": 0.6006,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
@@ -56,7 +56,7 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.9085,
+        "recency": 0.8537,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -115,9 +115,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6083,
-      "importance": 0.6083,
-      "importance_score": 0.6083,
+      "score": 0.5978,
+      "importance": 0.5978,
+      "importance_score": 0.5978,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -130,7 +130,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9657,
+        "recency": 0.9074,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -151,23 +151,23 @@
       }
     },
     {
-      "story_id": "story_bfdac8e7de90",
-      "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
-      "url": "https://www.ithome.com/0/997/758.htm",
-      "primary_url": "https://www.ithome.com/0/997/758.htm",
+      "story_id": "story_8388afed24c5",
+      "title": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
+      "url": "https://www.ithome.com/0/998/157.htm",
+      "primary_url": "https://www.ithome.com/0/998/157.htm",
       "source": "IT之家",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
-          "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
-          "url": "https://www.ithome.com/0/997/758.htm",
+          "id": "3d9b2ee570620008d4bc95348baf811f35e7f289",
+          "title": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
+          "url": "https://www.ithome.com/0/998/157.htm",
           "source": "IT之家",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T01:39:04Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
+          "published_at": "2026-09-03T13:31:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -176,51 +176,51 @@
       ],
       "items": [
         {
-          "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
-          "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
-          "url": "https://www.ithome.com/0/997/758.htm",
+          "id": "3d9b2ee570620008d4bc95348baf811f35e7f289",
+          "title": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
+          "url": "https://www.ithome.com/0/998/157.htm",
           "source": "IT之家",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T01:39:04Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
+          "published_at": "2026-09-03T13:31:51Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
-      "ai_label": "travel_business",
-      "ai_score": 0.72,
+      "score": 0.5961,
+      "importance": 0.5961,
+      "importance_score": 0.5961,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
       "ai_signals": [
-        "robot",
-        "ota"
+        "民宿",
+        "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5184,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.8672,
+        "ai_relevance": 0.75,
+        "recency": 0.9674,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-03T01:39:04Z",
-      "latest_at": "2026-09-03T01:39:04Z",
+      "earliest_at": "2026-09-03T13:31:51Z",
+      "latest_at": "2026-09-03T13:31:51Z",
       "primary_item": {
-        "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
-        "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
-        "url": "https://www.ithome.com/0/997/758.htm",
+        "id": "3d9b2ee570620008d4bc95348baf811f35e7f289",
+        "title": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
+        "url": "https://www.ithome.com/0/998/157.htm",
         "source": "IT之家",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.72
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
       }
     },
     {
@@ -262,9 +262,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6076,
-      "importance": 0.6076,
-      "importance_score": 0.6076,
+      "score": 0.5972,
+      "importance": 0.5972,
+      "importance_score": 0.5972,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -277,7 +277,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9619,
+        "recency": 0.9039,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -295,6 +295,151 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_063d79d311e4",
+      "title": "How Airports Are Growing Without Blowing Their Climate Goals",
+      "url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+      "primary_url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "49d2d9dff9ac4d6e3c66cda955b5a88278cee863",
+          "title": "How Airports Are Growing Without Blowing Their Climate Goals",
+          "url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T14:38:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "49d2d9dff9ac4d6e3c66cda955b5a88278cee863",
+          "title": "How Airports Are Growing Without Blowing Their Climate Goals",
+          "url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T14:38:04Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5865,
+      "importance": 0.5865,
+      "importance_score": 0.5865,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.983,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T14:38:04Z",
+      "latest_at": "2026-09-03T14:38:04Z",
+      "primary_item": {
+        "id": "49d2d9dff9ac4d6e3c66cda955b5a88278cee863",
+        "title": "How Airports Are Growing Without Blowing Their Climate Goals",
+        "url": "https://skift.com/2026/09/03/how-airports-are-growing-without-blowing-their-climate-goals",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_bfdac8e7de90",
+      "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
+      "url": "https://www.ithome.com/0/997/758.htm",
+      "primary_url": "https://www.ithome.com/0/997/758.htm",
+      "source": "IT之家",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
+          "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
+          "url": "https://www.ithome.com/0/997/758.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T01:39:04Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "IT之家"
+      ],
+      "items": [
+        {
+          "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
+          "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
+          "url": "https://www.ithome.com/0/997/758.htm",
+          "source": "IT之家",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T01:39:04Z",
+          "ai_label": "travel_business",
+          "ai_score": 0.72
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5562,
+      "importance": 0.5562,
+      "importance_score": 0.5562,
+      "ai_label": "travel_business",
+      "ai_score": 0.72,
+      "ai_signals": [
+        "robot",
+        "ota"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5184,
+        "source_tier": 0.5,
+        "ai_relevance": 0.72,
+        "recency": 0.8149,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T01:39:04Z",
+      "latest_at": "2026-09-03T01:39:04Z",
+      "primary_item": {
+        "id": "97b31d3191f81dbd6f370d0f103835b0c9724086",
+        "title": "Wayve 携手 Uber 推出英国首个有人值守 Robotaxi 服务",
+        "url": "https://www.ithome.com/0/997/758.htm",
+        "source": "IT之家",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "travel_business",
+        "ai_score": 0.72
       }
     },
     {
@@ -336,9 +481,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6074,
-      "importance": 0.6074,
-      "importance_score": 0.6074,
+      "score": 0.597,
+      "importance": 0.597,
+      "importance_score": 0.597,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -351,7 +496,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9609,
+        "recency": 0.9029,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -369,81 +514,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_79f4526884ed",
-      "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
-      "url": "https://www.ithome.com/0/997/663.htm",
-      "primary_url": "https://www.ithome.com/0/997/663.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
-          "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
-          "url": "https://www.ithome.com/0/997/663.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T13:25:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
-          "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
-          "url": "https://www.ithome.com/0/997/663.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T13:25:32Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5528,
-      "importance": 0.5528,
-      "importance_score": 0.5528,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "算力",
-        "gpu",
-        "adr",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7269,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T13:25:32Z",
-      "latest_at": "2026-09-02T13:25:32Z",
-      "primary_item": {
-        "id": "de70d53e8ea28c34ab61f130c474c23472de60ee",
-        "title": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
-        "url": "https://www.ithome.com/0/997/663.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -485,9 +555,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6071,
-      "importance": 0.6071,
-      "importance_score": 0.6071,
+      "score": 0.5966,
+      "importance": 0.5966,
+      "importance_score": 0.5966,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -500,7 +570,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9587,
+        "recency": 0.9009,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -559,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.6063,
-      "importance": 0.6063,
-      "importance_score": 0.6063,
+      "score": 0.5959,
+      "importance": 0.5959,
+      "importance_score": 0.5959,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -574,7 +644,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9545,
+        "recency": 0.8969,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -592,79 +662,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_6c681cbb6b0e",
-      "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
-      "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
-      "primary_url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
-          "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
-          "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
-          "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
-          "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T12:00:00Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5502,
-      "importance": 0.5502,
-      "importance_score": 0.5502,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "travel",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7121,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T12:00:00Z",
-      "latest_at": "2026-09-02T12:00:00Z",
-      "primary_item": {
-        "id": "7b9a8d30735420eb6fb84750e596360ff60ce109",
-        "title": "Intrepid Partners With Air Canada Vacations Right as Canada Pushes For More Domestic Travel: Exclusive",
-        "url": "https://skift.com/2026/09/02/intrepid-air-canada-vacations-partner",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
       }
     },
     {
@@ -706,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5986,
-      "importance": 0.5986,
-      "importance_score": 0.5986,
+      "score": 0.5887,
+      "importance": 0.5887,
+      "importance_score": 0.5887,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -721,7 +718,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9116,
+        "recency": 0.8566,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -739,151 +736,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_acf5e03299b3",
-      "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
-      "url": "https://www.ithome.com/0/997/641.htm",
-      "primary_url": "https://www.ithome.com/0/997/641.htm",
-      "source": "IT之家",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
-          "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
-          "url": "https://www.ithome.com/0/997/641.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T11:40:34Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "IT之家"
-      ],
-      "items": [
-        {
-          "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
-          "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
-          "url": "https://www.ithome.com/0/997/641.htm",
-          "source": "IT之家",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T11:40:34Z",
-          "ai_label": "travel_business",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5371,
-      "importance": 0.5371,
-      "importance_score": 0.5371,
-      "ai_label": "travel_business",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "robot",
-        "ota"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7087,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T11:40:34Z",
-      "latest_at": "2026-09-02T11:40:34Z",
-      "primary_item": {
-        "id": "849032ff209f4ec174305c0a08f8049013d34fa6",
-        "title": "优步全球裁员 10%：为网约车、Robotaxi 业务省钱，3300 岗位受波及",
-        "url": "https://www.ithome.com/0/997/641.htm",
-        "source": "IT之家",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "travel_business",
-        "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_e6d9954a16e4",
-      "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
-      "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
-      "primary_url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-          "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
-          "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T14:24:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-          "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
-          "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T14:24:13Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5422,
-      "importance": 0.5422,
-      "importance_score": 0.5422,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7372,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T14:24:13Z",
-      "latest_at": "2026-09-02T14:24:13Z",
-      "primary_item": {
-        "id": "ec4301a7ab3c863bd4f7dcb217523cfb31ddc4de",
-        "title": "Southwest to Launch ‘at Least’ 11 Airport Lounges in Chase Partnership",
-        "url": "https://skift.com/2026/09/02/southwest-to-launch-airport-lounges-in-2027",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -925,9 +777,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5979,
-      "importance": 0.5979,
-      "importance_score": 0.5979,
+      "score": 0.588,
+      "importance": 0.588,
+      "importance_score": 0.588,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -940,7 +792,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.9077,
+        "recency": 0.8529,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -958,78 +810,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_a448e6394c7b",
-      "title": "Virgin’s New International Trains Could Cut Emissions, Fares — and Fuel Its Loyalty Program",
-      "url": "https://skift.com/2026/09/02/virgins-new-international-trains-could-cut-emissions-fares-and-fuel-its-loyalty-program",
-      "primary_url": "https://skift.com/2026/09/02/virgins-new-international-trains-could-cut-emissions-fares-and-fuel-its-loyalty-program",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "ec0a83e9169c13767be88451a22955e11a6a5258",
-          "title": "Virgin’s New International Trains Could Cut Emissions, Fares — and Fuel Its Loyalty Program",
-          "url": "https://skift.com/2026/09/02/virgins-new-international-trains-could-cut-emissions-fares-and-fuel-its-loyalty-program",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T14:18:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "ec0a83e9169c13767be88451a22955e11a6a5258",
-          "title": "Virgin’s New International Trains Could Cut Emissions, Fares — and Fuel Its Loyalty Program",
-          "url": "https://skift.com/2026/09/02/virgins-new-international-trains-could-cut-emissions-fares-and-fuel-its-loyalty-program",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T14:18:21Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.542,
-      "importance": 0.542,
-      "importance_score": 0.542,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7362,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T14:18:21Z",
-      "latest_at": "2026-09-02T14:18:21Z",
-      "primary_item": {
-        "id": "ec0a83e9169c13767be88451a22955e11a6a5258",
-        "title": "Virgin’s New International Trains Could Cut Emissions, Fares — and Fuel Its Loyalty Program",
-        "url": "https://skift.com/2026/09/02/virgins-new-international-trains-could-cut-emissions-fares-and-fuel-its-loyalty-program",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -1071,9 +851,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5947,
-      "importance": 0.5947,
-      "importance_score": 0.5947,
+      "score": 0.5843,
+      "importance": 0.5843,
+      "importance_score": 0.5843,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1085,7 +865,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9594,
+        "recency": 0.9016,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1103,78 +883,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_2003d6bf7d19",
-      "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
-      "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
-      "primary_url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
-      "source": "Skift",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
-          "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
-          "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T13:37:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "Skift"
-      ],
-      "items": [
-        {
-          "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
-          "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
-          "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
-          "source": "Skift",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-02T13:37:12Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.72
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5407,
-      "importance": 0.5407,
-      "importance_score": 0.5407,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.72,
-      "ai_signals": [
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5184,
-        "source_tier": 0.5,
-        "ai_relevance": 0.72,
-        "recency": 0.7289,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-02T13:37:12Z",
-      "latest_at": "2026-09-02T13:37:12Z",
-      "primary_item": {
-        "id": "2d55b1cebb723386c331c319fefc4ce3cb51768c",
-        "title": "Ryanair Pulls Winter Capacity and Warns Rivals May Struggle to Survive",
-        "url": "https://skift.com/2026/09/02/ryanair-pulls-winter-capacity-and-warns-rivals-may-struggle-to-survive",
-        "source": "Skift",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.72
       }
     },
     {
@@ -1216,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5922,
-      "importance": 0.5922,
-      "importance_score": 0.5922,
+      "score": 0.582,
+      "importance": 0.582,
+      "importance_score": 0.582,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1230,7 +938,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9457,
+        "recency": 0.8887,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1289,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.591,
-      "importance": 0.591,
-      "importance_score": 0.591,
+      "score": 0.5808,
+      "importance": 0.5808,
+      "importance_score": 0.5808,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1303,7 +1011,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9387,
+        "recency": 0.8821,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1362,9 +1070,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5873,
-      "importance": 0.5873,
-      "importance_score": 0.5873,
+      "score": 0.5773,
+      "importance": 0.5773,
+      "importance_score": 0.5773,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1376,7 +1084,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.9185,
+        "recency": 0.8631,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1435,9 +1143,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5862,
-      "importance": 0.5862,
-      "importance_score": 0.5862,
+      "score": 0.5763,
+      "importance": 0.5763,
+      "importance_score": 0.5763,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1449,7 +1157,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.912,
+        "recency": 0.857,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1462,6 +1170,152 @@
         "id": "d194ccaab5b75bb534ee1fd53d6fafb5078d34cd",
         "title": "考古文物移交时间表 国家文物局发布试行办法",
         "url": "https://www.pinchain.com/article/350612",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_906a2ebebb68",
+      "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
+      "url": "https://www.pinchain.com/article/350610",
+      "primary_url": "https://www.pinchain.com/article/350610",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
+          "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
+          "url": "https://www.pinchain.com/article/350610",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T05:04:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
+          "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
+          "url": "https://www.pinchain.com/article/350610",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T05:04:10Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5761,
+      "importance": 0.5761,
+      "importance_score": 0.5761,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8562,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T05:04:10Z",
+      "latest_at": "2026-09-03T05:04:10Z",
+      "primary_item": {
+        "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
+        "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
+        "url": "https://www.pinchain.com/article/350610",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_a82f0d4e9a41",
+      "title": "七部门：促优质文化用品消费 拓体育消费场景",
+      "url": "https://www.pinchain.com/article/350614",
+      "primary_url": "https://www.pinchain.com/article/350614",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "673447e30b79a978408a4dfa0396480e90270bb1",
+          "title": "七部门：促优质文化用品消费 拓体育消费场景",
+          "url": "https://www.pinchain.com/article/350614",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T05:01:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "673447e30b79a978408a4dfa0396480e90270bb1",
+          "title": "七部门：促优质文化用品消费 拓体育消费场景",
+          "url": "https://www.pinchain.com/article/350614",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T05:01:52Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.75
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.576,
+      "importance": 0.576,
+      "importance_score": 0.576,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.75,
+      "ai_signals": [
+        "旅游",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.54,
+        "source_tier": 0.5,
+        "ai_relevance": 0.75,
+        "recency": 0.8557,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T05:01:52Z",
+      "latest_at": "2026-09-03T05:01:52Z",
+      "primary_item": {
+        "id": "673447e30b79a978408a4dfa0396480e90270bb1",
+        "title": "七部门：促优质文化用品消费 拓体育消费场景",
+        "url": "https://www.pinchain.com/article/350614",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
