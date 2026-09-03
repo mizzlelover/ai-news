@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T22:58:58.898359Z",
+  "generated_at": "2026-09-03T01:02:59.849799Z",
   "window_hours": 24,
   "total_items": 20,
   "items": [
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5949,
-      "importance": 0.5949,
-      "importance_score": 0.5949,
+      "score": 0.5909,
+      "importance": 0.5909,
+      "importance_score": 0.5909,
       "ai_label": "tourism_tech",
       "ai_score": 0.84,
       "ai_signals": [
@@ -59,7 +59,7 @@
         "editorial": 0.6048,
         "source_tier": 0.5,
         "ai_relevance": 0.84,
-        "recency": 0.7525,
+        "recency": 0.7304,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -118,9 +118,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5788,
-      "importance": 0.5788,
-      "importance_score": 0.5788,
+      "score": 0.5742,
+      "importance": 0.5742,
+      "importance_score": 0.5742,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -134,7 +134,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8711,
+        "recency": 0.8455,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -193,9 +193,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5756,
-      "importance": 0.5756,
-      "importance_score": 0.5756,
+      "score": 0.5711,
+      "importance": 0.5711,
+      "importance_score": 0.5711,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -207,7 +207,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8533,
+        "recency": 0.8282,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -228,23 +228,23 @@
       }
     },
     {
-      "story_id": "story_99957116208c",
-      "title": "交通运输部:2025年国内水路旅游客运精品航线",
-      "url": "https://www.pinchain.com/article/350606",
-      "primary_url": "https://www.pinchain.com/article/350606",
+      "story_id": "story_4e2248daec8c",
+      "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+      "url": "https://www.pinchain.com/article/350579",
+      "primary_url": "https://www.pinchain.com/article/350579",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
-          "title": "交通运输部:2025年国内水路旅游客运精品航线",
-          "url": "https://www.pinchain.com/article/350606",
+          "id": "bf6a40c88902dc59c2187941051200280d593384",
+          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+          "url": "https://www.pinchain.com/article/350579",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T10:32:10Z",
+          "published_at": "2026-09-02T04:26:52Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "source_count": 1,
@@ -253,52 +253,53 @@
       ],
       "items": [
         {
-          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
-          "title": "交通运输部:2025年国内水路旅游客运精品航线",
-          "url": "https://www.pinchain.com/article/350606",
+          "id": "bf6a40c88902dc59c2187941051200280d593384",
+          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+          "url": "https://www.pinchain.com/article/350579",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T10:32:10Z",
+          "published_at": "2026-09-02T04:26:52Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5849,
-      "importance": 0.5849,
-      "importance_score": 0.5849,
+      "score": 0.5806,
+      "importance": 0.5806,
+      "importance_score": 0.5806,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.81,
       "ai_signals": [
         "旅游",
-        "游客",
+        "目的地",
+        "邮轮",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.5832,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8355,
+        "ai_relevance": 0.81,
+        "recency": 0.7427,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "recent_ai_signal"
+        "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-02T10:32:10Z",
-      "latest_at": "2026-09-02T10:32:10Z",
+      "earliest_at": "2026-09-02T04:26:52Z",
+      "latest_at": "2026-09-02T04:26:52Z",
       "primary_item": {
-        "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
-        "title": "交通运输部:2025年国内水路旅游客运精品航线",
-        "url": "https://www.pinchain.com/article/350606",
+        "id": "bf6a40c88902dc59c2187941051200280d593384",
+        "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
+        "url": "https://www.pinchain.com/article/350579",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.81
       }
     },
     {
@@ -340,9 +341,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5685,
-      "importance": 0.5685,
-      "importance_score": 0.5685,
+      "score": 0.5639,
+      "importance": 0.5639,
+      "importance_score": 0.5639,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -353,7 +354,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8835,
+        "recency": 0.8575,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -412,9 +413,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5624,
-      "importance": 0.5624,
-      "importance_score": 0.5624,
+      "score": 0.5579,
+      "importance": 0.5579,
+      "importance_score": 0.5579,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -426,7 +427,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8494,
+        "recency": 0.8244,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -447,21 +448,21 @@
       }
     },
     {
-      "story_id": "story_4e2248daec8c",
-      "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-      "url": "https://www.pinchain.com/article/350579",
-      "primary_url": "https://www.pinchain.com/article/350579",
+      "story_id": "story_a72bcbdc983f",
+      "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+      "url": "https://www.pinchain.com/article/350571",
+      "primary_url": "https://www.pinchain.com/article/350571",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "bf6a40c88902dc59c2187941051200280d593384",
-          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-          "url": "https://www.pinchain.com/article/350579",
+          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+          "url": "https://www.pinchain.com/article/350571",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:26:52Z",
+          "published_at": "2026-09-02T04:23:44Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.81
         }
@@ -472,28 +473,28 @@
       ],
       "items": [
         {
-          "id": "bf6a40c88902dc59c2187941051200280d593384",
-          "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-          "url": "https://www.pinchain.com/article/350579",
+          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+          "url": "https://www.pinchain.com/article/350571",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:26:52Z",
+          "published_at": "2026-09-02T04:23:44Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.81
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5847,
-      "importance": 0.5847,
-      "importance_score": 0.5847,
+      "score": 0.5805,
+      "importance": 0.5805,
+      "importance_score": 0.5805,
       "ai_label": "tourism_tech",
       "ai_score": 0.81,
       "ai_signals": [
         "旅游",
-        "目的地",
-        "邮轮",
+        "景区",
+        "游客",
         "ai"
       ],
       "importance_label": "值得关注",
@@ -501,19 +502,19 @@
         "editorial": 0.5832,
         "source_tier": 0.5,
         "ai_relevance": 0.81,
-        "recency": 0.7652,
+        "recency": 0.7421,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-02T04:26:52Z",
-      "latest_at": "2026-09-02T04:26:52Z",
+      "earliest_at": "2026-09-02T04:23:44Z",
+      "latest_at": "2026-09-02T04:23:44Z",
       "primary_item": {
-        "id": "bf6a40c88902dc59c2187941051200280d593384",
-        "title": "天津开启邮轮无目的地海上游 创单日旅客新高",
-        "url": "https://www.pinchain.com/article/350579",
+        "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
+        "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
+        "url": "https://www.pinchain.com/article/350571",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -560,9 +561,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5683,
-      "importance": 0.5683,
-      "importance_score": 0.5683,
+      "score": 0.5637,
+      "importance": 0.5637,
+      "importance_score": 0.5637,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -573,7 +574,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8822,
+        "recency": 0.8563,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -594,23 +595,23 @@
       }
     },
     {
-      "story_id": "story_a72bcbdc983f",
-      "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-      "url": "https://www.pinchain.com/article/350571",
-      "primary_url": "https://www.pinchain.com/article/350571",
+      "story_id": "story_99957116208c",
+      "title": "交通运输部:2025年国内水路旅游客运精品航线",
+      "url": "https://www.pinchain.com/article/350606",
+      "primary_url": "https://www.pinchain.com/article/350606",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-          "url": "https://www.pinchain.com/article/350571",
+          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+          "title": "交通运输部:2025年国内水路旅游客运精品航线",
+          "url": "https://www.pinchain.com/article/350606",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:23:44Z",
+          "published_at": "2026-09-02T10:32:10Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
@@ -619,53 +620,52 @@
       ],
       "items": [
         {
-          "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-          "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-          "url": "https://www.pinchain.com/article/350571",
+          "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+          "title": "交通运输部:2025年国内水路旅游客运精品航线",
+          "url": "https://www.pinchain.com/article/350606",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:23:44Z",
+          "published_at": "2026-09-02T10:32:10Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5846,
-      "importance": 0.5846,
-      "importance_score": 0.5846,
+      "score": 0.5804,
+      "importance": 0.5804,
+      "importance_score": 0.5804,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.78,
       "ai_signals": [
         "旅游",
-        "景区",
         "游客",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7646,
+        "ai_relevance": 0.78,
+        "recency": 0.8109,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T04:23:44Z",
-      "latest_at": "2026-09-02T04:23:44Z",
+      "earliest_at": "2026-09-02T10:32:10Z",
+      "latest_at": "2026-09-02T10:32:10Z",
       "primary_item": {
-        "id": "4166aa5e98934cb76b0e035efe8a9fd46a0c865b",
-        "title": "游客跨越围栏开闪光灯拍壁画 山西一景区通报",
-        "url": "https://www.pinchain.com/article/350571",
+        "id": "a35a7b14426d3084af3b202aa20fa10803af0238",
+        "title": "交通运输部:2025年国内水路旅游客运精品航线",
+        "url": "https://www.pinchain.com/article/350606",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.78
       }
     },
     {
@@ -707,9 +707,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5668,
-      "importance": 0.5668,
-      "importance_score": 0.5668,
+      "score": 0.5621,
+      "importance": 0.5621,
+      "importance_score": 0.5621,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -720,7 +720,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8735,
+        "recency": 0.8478,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -779,9 +779,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5722,
-      "importance": 0.5722,
-      "importance_score": 0.5722,
+      "score": 0.5678,
+      "importance": 0.5678,
+      "importance_score": 0.5678,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -793,7 +793,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8344,
+        "recency": 0.8098,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -852,9 +852,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5587,
-      "importance": 0.5587,
-      "importance_score": 0.5587,
+      "score": 0.5544,
+      "importance": 0.5544,
+      "importance_score": 0.5544,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -865,7 +865,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.829,
+        "recency": 0.8047,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -924,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5721,
-      "importance": 0.5721,
-      "importance_score": 0.5721,
+      "score": 0.5677,
+      "importance": 0.5677,
+      "importance_score": 0.5677,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -938,7 +938,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.834,
+        "recency": 0.8095,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -997,9 +997,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5721,
-      "importance": 0.5721,
-      "importance_score": 0.5721,
+      "score": 0.5676,
+      "importance": 0.5676,
+      "importance_score": 0.5676,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1011,7 +1011,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8337,
+        "recency": 0.8092,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1070,9 +1070,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5715,
-      "importance": 0.5715,
-      "importance_score": 0.5715,
+      "score": 0.5675,
+      "importance": 0.5675,
+      "importance_score": 0.5675,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1085,7 +1085,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7612,
+        "recency": 0.7388,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1144,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5714,
-      "importance": 0.5714,
-      "importance_score": 0.5714,
+      "score": 0.5674,
+      "importance": 0.5674,
+      "importance_score": 0.5674,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -1159,7 +1159,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7608,
+        "recency": 0.7384,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1218,9 +1218,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5712,
-      "importance": 0.5712,
-      "importance_score": 0.5712,
+      "score": 0.5668,
+      "importance": 0.5668,
+      "importance_score": 0.5668,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1232,7 +1232,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8287,
+        "recency": 0.8043,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1291,9 +1291,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5699,
-      "importance": 0.5699,
-      "importance_score": 0.5699,
+      "score": 0.5656,
+      "importance": 0.5656,
+      "importance_score": 0.5656,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1305,7 +1305,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8219,
+        "recency": 0.7977,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1364,9 +1364,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5694,
-      "importance": 0.5694,
-      "importance_score": 0.5694,
+      "score": 0.5651,
+      "importance": 0.5651,
+      "importance_score": 0.5651,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1378,7 +1378,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8188,
+        "recency": 0.7947,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1399,21 +1399,21 @@
       }
     },
     {
-      "story_id": "story_61d06086efaa",
-      "title": "北京西城上线“开学趣玩消费月”活动",
-      "url": "https://www.pinchain.com/article/350580",
-      "primary_url": "https://www.pinchain.com/article/350580",
+      "story_id": "story_304616e1f57d",
+      "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+      "url": "https://www.pinchain.com/article/350581",
+      "primary_url": "https://www.pinchain.com/article/350581",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-          "title": "北京西城上线“开学趣玩消费月”活动",
-          "url": "https://www.pinchain.com/article/350580",
+          "id": "46173df2290507fc823466b4d892e55155d57e49",
+          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+          "url": "https://www.pinchain.com/article/350581",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:30:49Z",
+          "published_at": "2026-09-02T04:32:19Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
@@ -1424,22 +1424,22 @@
       ],
       "items": [
         {
-          "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-          "title": "北京西城上线“开学趣玩消费月”活动",
-          "url": "https://www.pinchain.com/article/350580",
+          "id": "46173df2290507fc823466b4d892e55155d57e49",
+          "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+          "url": "https://www.pinchain.com/article/350581",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-02T04:30:49Z",
+          "published_at": "2026-09-02T04:32:19Z",
           "ai_label": "tourism_tech",
           "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5599,
-      "importance": 0.5599,
-      "importance_score": 0.5599,
+      "score": 0.5559,
+      "importance": 0.5559,
+      "importance_score": 0.5559,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1451,19 +1451,19 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7659,
+        "recency": 0.7436,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-02T04:30:49Z",
-      "latest_at": "2026-09-02T04:30:49Z",
+      "earliest_at": "2026-09-02T04:32:19Z",
+      "latest_at": "2026-09-02T04:32:19Z",
       "primary_item": {
-        "id": "fffc1ab0ea86a060ca2d72aea14e86f3dffb87f0",
-        "title": "北京西城上线“开学趣玩消费月”活动",
-        "url": "https://www.pinchain.com/article/350580",
+        "id": "46173df2290507fc823466b4d892e55155d57e49",
+        "title": "暑运期间北京大兴机场累计运送旅客1098.94万人次",
+        "url": "https://www.pinchain.com/article/350581",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
