@@ -1,0 +1,105 @@
+# 数字孪生真实运行验收记录
+
+更新时间：2026-09-03  
+运行时间：2026-08-31  运行编号：`df570e8510c16187`
+
+这是一份“从一个领域开始建立私人情报所”的真实运行记录。它不是静态演示数据，也不是把来源数量当成完成度；它记录了领域底图、来源网络、采集结果、全文归档、证据、知识图谱和日报之间的实际关系。
+
+## 一、从哪里查看
+
+打开[运行工作台](../demo/workbench.html)，点击“导入运行目录”，选择本机运行目录本身：
+
+```text
+<仓库根目录>/.private-intelligence/digital-twin/verification/true-run-v8/
+```
+
+在当前验证机上，它的完整路径是：
+
+```text
+/Users/a1-6/.codex/.chatgpt-projects/g-p-6a930f7143f08191a8b954f72226c332/ai-news/.private-intelligence/digital-twin/verification/true-run-v8/
+```
+
+不要只选择某一个 JSON 文件，也不要选择上级的 `verification/` 文件夹。导入成功后，工作台顶部显示“已导入”，再按以下顺序回读：
+
+```text
+运行管理 → 运行总览 → 知识图谱 → 信源网络 → 内容清单 → 日报与证据
+```
+
+工作台会逐项显示本次运行的 14 项产物，并允许从内容记录回到规范化全文、原始响应、来源入口和证据链接。
+
+## 二、运行结果
+
+| 层次 | 结果 |
+| --- | --- |
+| 领域 | 数字孪生 |
+| 来源候选 | 117 |
+| 运行清单中的可采集来源 | 79 |
+| 明确阻断的来源 | 38 |
+| 内容记录 | 117 |
+| 已保存规范化全文 | 32 |
+| 已保存原始响应 | 32，与全文一一对应 |
+| 采集失败 | 47 |
+| 内容阻断 | 38 |
+| 证据记录 | 3 |
+| 知识域信号 | 2 |
+| 日报故事 | 2 |
+| 知识图谱 | 223 个节点，1,297 条 typed edges |
+| 必需信息要素覆盖 | 13/13 |
+
+`13/13` 是 13 个必需信息要素都有来源映射，不等于 117 个来源都已经成功抓取。真正的采集完成度应同时查看内容清单中的 `captured`、`failed` 和 `blocked`；来源激活层另外保留 `empty` 与 `observed` 状态。
+
+## 三、完整产物清单
+
+这些文件都位于本次运行目录根部，工作台的“运行总览 → 这次运行留下的产物”可以逐项打开：
+
+| 产物 | 内容 |
+| --- | --- |
+| `run-manifest.json` | 运行编号、计数、时间和全部产物索引 |
+| `domain-profile.json` | 领域边界、主题、情报要求和 13 个必需信息要素 |
+| `source-map.json` | 专家、机构、来源、来源角色和领域关系 |
+| `acquisition-plan.json` | 每个来源的获取方法、入口和边界 |
+| `source-activation.json` | 来源状态、运行记录、证据、信号和知识域增量 |
+| `knowledge-graph.json` | 完整图谱节点和 typed edges |
+| `knowledge-graph.md` | 图谱的可读版摘要 |
+| `bootstrap-report.json` | 覆盖审计、注意力推荐、历史回放、来源评价和日报结果 |
+| `bootstrap-report.md` | 综合报告的可读版 |
+| `content-inventory.json` | 117 条内容记录及其状态、哈希、全文路径和原始响应路径 |
+| `content-inventory.md` | 内容清单的可读版 |
+| `content/` | 32 份规范化全文与 32 份对应原始响应；其中 3 份原始响应为 PDF |
+| `daily-brief.json` | 日报机器契约、故事、来源、信号和证据 URL |
+| `daily-brief.md` | 日报可读版 |
+
+## 四、这次实际推荐了什么
+
+### 信源注意力推荐
+
+根据领域关联、来源权威性、专家注意力、跨角色支持和新颖度计算，前五个来源是：
+
+1. `cn-water-standard`：SL/T 853-2025《数字孪生流域建设技术导则》
+2. `iso-23247`：ISO 23247-2:2021 面向制造的数字孪生框架
+3. `ogc-geo`：OGC 26-050 可互操作、AI-ready 地理数据构件
+4. `dtc-definition`：Digital Twin Consortium Definition of a Digital Twin
+5. `idta-aas`：IDTA Asset Administration Shell Specifications
+
+### 当期日报
+
+日报窗口为 `2026-08-01T08:00:00Z` 至 `2026-08-31T08:00:00Z`，最终进入日报的故事有两条：
+
+1. [国家标准索引显示数字孪生标准谱系持续扩展](https://openstd.samr.gov.cn/bzgk/std/std_list?p.p1=0&p.p2=%E6%95%B0%E5%AD%97%E5%AD%AA%E7%94%9F&p.p90=circulation_date&p.p91=desc)，评分 `0.851`。
+2. [北京信息科技大学数字孪生校园项目披露建设与验收信息](https://www.ncsti.gov.cn/kjdt/scyq/wlkxc/wldt/202608/t20260810_252700.html)，评分 `0.699`。
+
+另有一条“GB/T 43441.2-2026 数字实体标准已进入实施阶段”的证据留在证据层，没有因为已经抓到就强行进入日报。这是“证据库”和“日报推荐”分层工作的结果。
+
+## 五、验收结果
+
+- 根目录测试：`133 passed`。
+- 领域情报包测试：`37 passed`。
+- Ruff 检查、包构建、JavaScript 语法检查和 `git diff --check` 均通过。
+- 浏览器人工验收覆盖：公开入口、阅读室、运行工作台、有效导入、半套目录拒绝、损坏 JSON 拒绝、六个工作台视图、全文抽屉、原始响应入口、证据回链和移动端布局。
+- 14 项运行产物均已在工作台中逐项打开验证；已抓取内容可读出实际全文，且规范化全文与原始响应的哈希和字符数校验通过。
+
+## 六、为什么真实运行数据不直接放进公开仓库
+
+公开 GitHub 仓库保存的是方法论、核心引擎、Skill、工作台、契约、测试和最小示例；本次运行的来源清单、第三方网页全文和原始响应保存在用户本机的 `.private-intelligence/` 目录中。这样既能在工作台完整回读，也不会把第三方内容快照直接作为公共仓库数据重新发布。
+
+当前公开工程与页面版本见[项目范围与来源/版权说明](PROJECT_SCOPE_AND_ATTRIBUTION.md)、[运行工作台说明](WORKBENCH.md)和[GitHub 仓库](https://github.com/mizzlelover/private-intelligence-observatory)。

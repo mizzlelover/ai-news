@@ -7,7 +7,7 @@
 [![Private Intelligence Observatory CI](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml/badge.svg)](https://github.com/mizzlelover/private-intelligence-observatory/actions/workflows/domain-intelligence.yml)
 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat-square)](LICENSE)
 
-[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [来源激活运行](docs/SOURCE_ACTIVATION_RUN.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
+[先看演示站](https://mizzlelover.github.io/private-intelligence-observatory/demo/) · [运行工作台](https://mizzlelover.github.io/private-intelligence-observatory/demo/workbench.html) · [可视化阅读室](https://mizzlelover.github.io/private-intelligence-observatory/demo/reading.html) · [数字孪生真实验收记录](docs/VERIFICATION_DIGITAL_TWIN.md) · [使用者指南](docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md) · [核心方法论](docs/DOMAIN_INTELLIGENCE_V0_1.md) · [来源规模与激活规则](docs/SOURCE_PORTFOLIO_SCALE.md) · [来源激活运行](docs/SOURCE_ACTIVATION_RUN.md) · [领域情报引擎](packages/domain-intelligence/README.md) · [项目范围与来源/版权](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) · [NOTICE](NOTICE.md) · [English](README.en.md)
 
 ---
 
@@ -120,6 +120,7 @@ uv run --project packages/domain-intelligence dib \
 | docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层和激活状态 |
 | docs/SOURCE_ACTIVATION_RUN.md | 采集运行、证据记录、日报信号和知识域增量契约 |
 | docs/WORKBENCH.md | 导入真实运行目录、查看全部产物与回读证据的使用说明 |
+| docs/VERIFICATION_DIGITAL_TWIN.md | 数字孪生真实运行的结果、产物索引和验收记录 |
 | packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |
