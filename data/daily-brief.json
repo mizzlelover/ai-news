@@ -1,26 +1,26 @@
 {
-  "generated_at": "2026-09-03T21:48:22.562307Z",
+  "generated_at": "2026-09-03T23:47:24.143420Z",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 20,
   "items": [
     {
-      "story_id": "story_543f25be6bce",
-      "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-      "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-      "primary_url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+      "story_id": "story_77a49541a5ce",
+      "title": "Amadeus Brings Travel Tech Into Claude",
+      "url": "https://skift.com/2026/09/03/amadeus-brings-travel-tech-into-claude",
+      "primary_url": "https://skift.com/2026/09/03/amadeus-brings-travel-tech-into-claude",
       "source": "Skift",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+          "id": "ce1d17838c03d1b7de2c978a00f2a8a821943e6c",
+          "title": "Amadeus Brings Travel Tech Into Claude",
+          "url": "https://skift.com/2026/09/03/amadeus-brings-travel-tech-into-claude",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:52:14Z",
+          "published_at": "2026-09-03T23:21:01Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.83
         }
       ],
       "source_count": 1,
@@ -29,51 +29,53 @@
       ],
       "items": [
         {
-          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+          "id": "ce1d17838c03d1b7de2c978a00f2a8a821943e6c",
+          "title": "Amadeus Brings Travel Tech Into Claude",
+          "url": "https://skift.com/2026/09/03/amadeus-brings-travel-tech-into-claude",
           "source": "Skift",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:52:14Z",
+          "published_at": "2026-09-03T23:21:01Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.83
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5879,
-      "importance": 0.5879,
-      "importance_score": 0.5879,
+      "score": 0.6341,
+      "importance": 0.6341,
+      "importance_score": 0.6341,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.83,
       "ai_signals": [
+        "claude",
         "travel",
-        "ai"
+        "travel tech",
+        "tech"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5976,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.783,
+        "ai_relevance": 0.83,
+        "recency": 0.9937,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "high_ai_relevance"
       ],
-      "earliest_at": "2026-09-03T04:52:14Z",
-      "latest_at": "2026-09-03T04:52:14Z",
+      "earliest_at": "2026-09-03T23:21:01Z",
+      "latest_at": "2026-09-03T23:21:01Z",
       "primary_item": {
-        "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-        "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-        "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+        "id": "ce1d17838c03d1b7de2c978a00f2a8a821943e6c",
+        "title": "Amadeus Brings Travel Tech Into Claude",
+        "url": "https://skift.com/2026/09/03/amadeus-brings-travel-tech-into-claude",
         "source": "Skift",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.83
       }
     },
     {
@@ -115,9 +117,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5843,
-      "importance": 0.5843,
-      "importance_score": 0.5843,
+      "score": 0.5801,
+      "importance": 0.5801,
+      "importance_score": 0.5801,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -130,7 +132,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8323,
+        "recency": 0.8088,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -189,9 +191,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5817,
-      "importance": 0.5817,
-      "importance_score": 0.5817,
+      "score": 0.5772,
+      "importance": 0.5772,
+      "importance_score": 0.5772,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -203,7 +205,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8874,
+        "recency": 0.8623,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -262,9 +264,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5774,
-      "importance": 0.5774,
-      "importance_score": 0.5774,
+      "score": 0.5726,
+      "importance": 0.5726,
+      "importance_score": 0.5726,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -275,7 +277,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9326,
+        "recency": 0.9062,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -293,6 +295,79 @@
         "site_id": "opmlrss",
         "ai_label": "hospitality_ops",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_543f25be6bce",
+      "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
+      "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+      "primary_url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+      "source": "Skift",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
+          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
+          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T04:52:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "Skift"
+      ],
+      "items": [
+        {
+          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
+          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
+          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+          "source": "Skift",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T04:52:14Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.81
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5839,
+      "importance": 0.5839,
+      "importance_score": 0.5839,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.81,
+      "ai_signals": [
+        "travel",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5832,
+        "source_tier": 0.5,
+        "ai_relevance": 0.81,
+        "recency": 0.7609,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "high_ai_relevance"
+      ],
+      "earliest_at": "2026-09-03T04:52:14Z",
+      "latest_at": "2026-09-03T04:52:14Z",
+      "primary_item": {
+        "id": "0344fa0262d57b68107fba1642070f53114f9d04",
+        "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
+        "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
+        "source": "Skift",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.81
       }
     },
     {
@@ -334,9 +409,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5837,
-      "importance": 0.5837,
-      "importance_score": 0.5837,
+      "score": 0.5795,
+      "importance": 0.5795,
+      "importance_score": 0.5795,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -349,7 +424,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8291,
+        "recency": 0.8057,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -362,6 +437,80 @@
         "id": "1a332b4a2d3a661b531514641d9a816c0a49041d",
         "title": "同程旅行：避开暑期人潮躲开国庆溢价",
         "url": "https://www.pinchain.com/article/350638",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
+      }
+    },
+    {
+      "story_id": "story_49437735c906",
+      "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+      "url": "https://www.pinchain.com/article/350639",
+      "primary_url": "https://www.pinchain.com/article/350639",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "87547d3183938739466745051baf034c86cc4050",
+          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+          "url": "https://www.pinchain.com/article/350639",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T08:45:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "87547d3183938739466745051baf034c86cc4050",
+          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+          "url": "https://www.pinchain.com/article/350639",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T08:45:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5793,
+      "importance": 0.5793,
+      "importance_score": 0.5793,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.8048,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T08:45:06Z",
+      "latest_at": "2026-09-03T08:45:06Z",
+      "primary_item": {
+        "id": "87547d3183938739466745051baf034c86cc4050",
+        "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+        "url": "https://www.pinchain.com/article/350639",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -408,9 +557,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5718,
-      "importance": 0.5718,
-      "importance_score": 0.5718,
+      "score": 0.5672,
+      "importance": 0.5672,
+      "importance_score": 0.5672,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -421,7 +570,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.9016,
+        "recency": 0.8762,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -439,80 +588,6 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
-      }
-    },
-    {
-      "story_id": "story_49437735c906",
-      "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-      "url": "https://www.pinchain.com/article/350639",
-      "primary_url": "https://www.pinchain.com/article/350639",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "87547d3183938739466745051baf034c86cc4050",
-          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-          "url": "https://www.pinchain.com/article/350639",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T08:45:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "87547d3183938739466745051baf034c86cc4050",
-          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-          "url": "https://www.pinchain.com/article/350639",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T08:45:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5836,
-      "importance": 0.5836,
-      "importance_score": 0.5836,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.8282,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T08:45:06Z",
-      "latest_at": "2026-09-03T08:45:06Z",
-      "primary_item": {
-        "id": "87547d3183938739466745051baf034c86cc4050",
-        "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-        "url": "https://www.pinchain.com/article/350639",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
       }
     },
     {
@@ -554,9 +629,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5832,
-      "importance": 0.5832,
-      "importance_score": 0.5832,
+      "score": 0.579,
+      "importance": 0.579,
+      "importance_score": 0.579,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -569,7 +644,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8264,
+        "recency": 0.803,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -628,9 +703,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5441,
-      "importance": 0.5441,
-      "importance_score": 0.5441,
+      "score": 0.5403,
+      "importance": 0.5403,
+      "importance_score": 0.5403,
       "ai_label": "travel_business",
       "ai_score": 0.72,
       "ai_signals": [
@@ -642,7 +717,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.7475,
+        "recency": 0.7264,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -701,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5826,
-      "importance": 0.5826,
-      "importance_score": 0.5826,
+      "score": 0.5784,
+      "importance": 0.5784,
+      "importance_score": 0.5784,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -716,7 +791,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.8227,
+        "recency": 0.7995,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -775,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5759,
-      "importance": 0.5759,
-      "importance_score": 0.5759,
+      "score": 0.5719,
+      "importance": 0.5719,
+      "importance_score": 0.5719,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -790,7 +865,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7857,
+        "recency": 0.7635,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -849,9 +924,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5753,
-      "importance": 0.5753,
-      "importance_score": 0.5753,
+      "score": 0.5713,
+      "importance": 0.5713,
+      "importance_score": 0.5713,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -864,7 +939,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7823,
+        "recency": 0.7602,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -923,9 +998,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5708,
-      "importance": 0.5708,
-      "importance_score": 0.5708,
+      "score": 0.5666,
+      "importance": 0.5666,
+      "importance_score": 0.5666,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -937,7 +1012,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8269,
+        "recency": 0.8036,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -996,9 +1071,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5687,
-      "importance": 0.5687,
-      "importance_score": 0.5687,
+      "score": 0.5646,
+      "importance": 0.5646,
+      "importance_score": 0.5646,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1010,7 +1085,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8151,
+        "recency": 0.7921,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1069,9 +1144,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5676,
-      "importance": 0.5676,
-      "importance_score": 0.5676,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1083,7 +1158,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8091,
+        "recency": 0.7862,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1142,9 +1217,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5645,
-      "importance": 0.5645,
-      "importance_score": 0.5645,
+      "score": 0.5605,
+      "importance": 0.5605,
+      "importance_score": 0.5605,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1156,7 +1231,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7916,
+        "recency": 0.7693,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1215,9 +1290,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5635,
-      "importance": 0.5635,
-      "importance_score": 0.5635,
+      "score": 0.5595,
+      "importance": 0.5595,
+      "importance_score": 0.5595,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1229,7 +1304,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7861,
+        "recency": 0.7639,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1288,9 +1363,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5634,
-      "importance": 0.5634,
-      "importance_score": 0.5634,
+      "score": 0.5594,
+      "importance": 0.5594,
+      "importance_score": 0.5594,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1302,7 +1377,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7853,
+        "recency": 0.7631,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -1361,9 +1436,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5633,
-      "importance": 0.5633,
-      "importance_score": 0.5633,
+      "score": 0.5593,
+      "importance": 0.5593,
+      "importance_score": 0.5593,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -1375,7 +1450,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7849,
+        "recency": 0.7627,
         "story_heat": 0.0
       },
       "category": "watch",
