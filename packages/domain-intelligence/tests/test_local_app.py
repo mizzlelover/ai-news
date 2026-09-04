@@ -142,6 +142,10 @@ def test_local_failed_job_survives_process_restart(tmp_path: Path) -> None:
         error="AI 接口请求失败",
         percent=0,
     )
+    (state.runs_root / job_id / "run-manifest.json").write_text(
+        '{"domain":"数字孪生"}',
+        encoding="utf-8",
+    )
 
     restarted = LocalAppState(tmp_path)
 

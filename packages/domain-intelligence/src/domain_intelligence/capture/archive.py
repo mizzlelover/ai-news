@@ -2,7 +2,11 @@ from __future__ import annotations
 
 import hashlib
 import json
+import os
 import re
+import secrets
+import stat
+from contextlib import suppress
 from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
@@ -21,6 +25,11 @@ SAFE_SOURCE_ID_PATTERN = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$")
 @dataclass(frozen=True, slots=True)
 class UnsafeSourceIdError(ValueError):
     source_id: str
+
+
+@dataclass(frozen=True, slots=True)
+class UnsafeCapturePathError(ValueError):
+    relative_path: str
 
 
 def content_id(target: CaptureTarget) -> str:
@@ -48,6 +57,76 @@ def raw_extension(content_type: str) -> str:
 
 def normalize_content_text(text: str) -> str:
     return text.rstrip("\r\n") + "\n"
+
+
+def _open_directory(path: Path, relative_path: str) -> int:
+    if path.is_symlink():
+        raise UnsafeCapturePathError(relative_path)
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(path, flags)
+    except OSError as error:
+        raise UnsafeCapturePathError(relative_path) from error
+    try:
+        is_directory = stat.S_ISDIR(os.fstat(descriptor).st_mode)
+    except OSError:
+        os.close(descriptor)
+        raise
+    if not is_directory:
+        os.close(descriptor)
+        raise UnsafeCapturePathError(relative_path)
+    return descriptor
+
+
+def _open_directory_at(parent: int, name: str, relative_path: str) -> int:
+    flags = os.O_RDONLY | getattr(os, "O_NOFOLLOW", 0)
+    try:
+        descriptor = os.open(name, flags, dir_fd=parent)
+    except OSError as error:
+        raise UnsafeCapturePathError(relative_path) from error
+    try:
+        is_directory = stat.S_ISDIR(os.fstat(descriptor).st_mode)
+    except OSError:
+        os.close(descriptor)
+        raise
+    if not is_directory:
+        os.close(descriptor)
+        raise UnsafeCapturePathError(relative_path)
+    return descriptor
+
+
+def _atomic_write_at(directory: int, filename: str, payload: bytes) -> None:
+    if not filename or Path(filename).name != filename or filename in {".", ".."}:
+        raise UnsafeCapturePathError(filename)
+    try:
+        existing = os.stat(filename, dir_fd=directory, follow_symlinks=False)
+    except FileNotFoundError:
+        existing = None
+    if existing is not None and stat.S_ISLNK(existing.st_mode):
+        raise UnsafeCapturePathError(filename)
+
+    temporary_name = f".{filename}.{secrets.token_hex(8)}.tmp"
+    descriptor: int | None = None
+    try:
+        flags = os.O_WRONLY | os.O_CREAT | os.O_EXCL | getattr(os, "O_NOFOLLOW", 0)
+        descriptor = os.open(temporary_name, flags, 0o600, dir_fd=directory)
+        with os.fdopen(descriptor, "wb") as stream:
+            descriptor = None
+            stream.write(payload)
+            stream.flush()
+            os.fsync(stream.fileno())
+        os.replace(
+            temporary_name,
+            filename,
+            src_dir_fd=directory,
+            dst_dir_fd=directory,
+        )
+    except Exception:
+        if descriptor is not None:
+            os.close(descriptor)
+        with suppress(OSError):
+            os.unlink(temporary_name, dir_fd=directory)
+        raise
 
 
 def source_snapshot_path(capture_root: Path, source_id: str) -> Path:
@@ -97,16 +176,29 @@ def write_capture_files(
     text: str,
     content_type: str,
 ) -> tuple[str, str]:
-    content_dir = capture_root / "content"
-    content_dir.mkdir(parents=True, exist_ok=True)
     current_id = content_id(target)
     text_relative_path = f"content/{current_id}.md"
     raw_relative_path = f"content/{current_id}{raw_extension(content_type)}"
-    (capture_root / text_relative_path).write_text(
-        normalize_content_text(text),
-        encoding="utf-8",
-    )
-    (capture_root / raw_relative_path).write_bytes(body)
+    root_descriptor = _open_directory(capture_root, ".")
+    try:
+        with suppress(FileExistsError):
+            os.mkdir("content", 0o755, dir_fd=root_descriptor)
+        content_descriptor = _open_directory_at(root_descriptor, "content", "content")
+        try:
+            _atomic_write_at(
+                content_descriptor,
+                f"{current_id}.md",
+                normalize_content_text(text).encode("utf-8"),
+            )
+            _atomic_write_at(
+                content_descriptor,
+                f"{current_id}{raw_extension(content_type)}",
+                body,
+            )
+        finally:
+            os.close(content_descriptor)
+    finally:
+        os.close(root_descriptor)
     return text_relative_path, raw_relative_path
 
 
@@ -115,17 +207,24 @@ def write_source_snapshots(
     sources: tuple[SourceProfile, ...],
     outcomes_by_source: dict[str, tuple[CaptureOutcome, ...]],
 ) -> None:
-    for source in sources:
-        evidence = tuple(
-            outcome.evidence
-            for outcome in outcomes_by_source.get(str(source.id), ())
-            if outcome.evidence is not None
-        )
-        payload = [record.model_dump(mode="json") for record in evidence]
-        source_snapshot_path(capture_root, str(source.id)).write_text(
-            json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
-        )
+    root_descriptor = _open_directory(capture_root, ".")
+    try:
+        for source in sources:
+            source_id = str(source.id)
+            source_snapshot_path(capture_root, source_id)
+            evidence = tuple(
+                outcome.evidence
+                for outcome in outcomes_by_source.get(source_id, ())
+                if outcome.evidence is not None
+            )
+            payload = [record.model_dump(mode="json") for record in evidence]
+            _atomic_write_at(
+                root_descriptor,
+                f"{source_id}.json",
+                (json.dumps(payload, ensure_ascii=False, indent=2) + "\n").encode("utf-8"),
+            )
+    finally:
+        os.close(root_descriptor)
 
 
 def write_capture_inventory(
@@ -134,7 +233,12 @@ def write_capture_inventory(
     artifacts: tuple[ContentArtifact, ...],
 ) -> None:
     inventory = ContentInventory(generated_at=as_of, items=artifacts)
-    (capture_root / "content-inventory.json").write_text(
-        inventory.model_dump_json(indent=2) + "\n",
-        encoding="utf-8",
-    )
+    root_descriptor = _open_directory(capture_root, ".")
+    try:
+        _atomic_write_at(
+            root_descriptor,
+            "content-inventory.json",
+            (inventory.model_dump_json(indent=2) + "\n").encode("utf-8"),
+        )
+    finally:
+        os.close(root_descriptor)

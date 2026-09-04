@@ -11,7 +11,14 @@ import pytest
 from pydantic import ValidationError
 
 from domain_intelligence.capture import transport
-from domain_intelligence.capture.archive import UnsafeSourceIdError, write_source_snapshots
+from domain_intelligence.capture.archive import (
+    UnsafeCapturePathError,
+    UnsafeSourceIdError,
+    content_id,
+    write_capture_files,
+    write_source_snapshots,
+)
+from domain_intelligence.capture.contracts import CaptureTarget
 from domain_intelligence.models import (
     AcquisitionCapability,
     AcquisitionMethod,
@@ -48,6 +55,36 @@ def test_snapshot_writer_rejects_path_like_id_even_if_model_was_bypassed(
         write_source_snapshots(capture_root, (source,), {})
 
     assert not (tmp_path / "outside.json").exists()
+
+
+def test_capture_writer_rejects_content_directory_symlink(tmp_path: Path) -> None:
+    capture_root = tmp_path / "capture"
+    capture_root.mkdir()
+    outside = tmp_path / "outside"
+    outside.mkdir()
+    (capture_root / "content").symlink_to(outside, target_is_directory=True)
+    target = CaptureTarget(_source("safe-source"), "https://example.com", None, None)
+
+    with pytest.raises(UnsafeCapturePathError):
+        write_capture_files(capture_root, target, b"raw", "正文", "text/html")
+
+    assert not tuple(outside.iterdir())
+
+
+def test_capture_writer_rejects_destination_symlink(tmp_path: Path) -> None:
+    capture_root = tmp_path / "capture"
+    content_root = capture_root / "content"
+    content_root.mkdir(parents=True)
+    outside = tmp_path / "outside.txt"
+    outside.write_text("keep", encoding="utf-8")
+    target = CaptureTarget(_source("safe-source"), "https://example.com", None, None)
+    text_path = content_root / f"{content_id(target)}.md"
+    text_path.symlink_to(outside)
+
+    with pytest.raises(UnsafeCapturePathError):
+        write_capture_files(capture_root, target, b"raw", "正文", "text/html")
+
+    assert outside.read_text(encoding="utf-8") == "keep"
 
 
 def test_public_url_rejects_loopback_literal() -> None:

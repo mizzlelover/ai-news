@@ -168,43 +168,47 @@ def _job_snapshot(state: LocalAppState, job_id: str) -> dict[str, str | int | No
         return current
     if not _is_safe_id(job_id):
         return None
-    manifest_path = _safe_artifact_path(state, job_id, "run-manifest.json")
-    if manifest_path is not None and manifest_path.is_file():
+    status_path = _safe_artifact_path(state, job_id, JOB_STATUS_FILE)
+    if status_path is not None and status_path.is_file():
         try:
-            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+            payload = json.loads(status_path.read_text(encoding="utf-8"))
         except (OSError, json.JSONDecodeError):
             return None
-        if not isinstance(manifest, dict):
+        if not isinstance(payload, dict) or payload.get("id") != job_id:
             return None
-        return {
-            "id": job_id,
-            "domain": str(manifest.get("domain", "")),
-            "status": "complete",
-            "phase": "complete",
-            "message": "领域情报所已经建立，可以打开运行工作台",
-            "percent": 100,
-            "error": None,
-        }
-    status_path = _safe_artifact_path(state, job_id, JOB_STATUS_FILE)
-    if status_path is None or not status_path.is_file():
+        status = payload.get("status")
+        if status in {"queued", "running", "failed"}:
+            return {
+                "id": job_id,
+                "domain": str(payload.get("domain", "")),
+                "status": status,
+                "phase": str(payload.get("phase", status)),
+                "message": str(payload.get("message", "本地运行记录")),
+                "percent": payload.get("percent", 0)
+                if isinstance(payload.get("percent", 0), int)
+                else 0,
+                "error": str(payload["error"]) if payload.get("error") is not None else None,
+            }
+        if status != "complete":
+            return None
+
+    manifest_path = _safe_artifact_path(state, job_id, "run-manifest.json")
+    if manifest_path is None or not manifest_path.is_file():
         return None
     try:
-        payload = json.loads(status_path.read_text(encoding="utf-8"))
+        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
-    if not isinstance(payload, dict) or payload.get("id") != job_id:
-        return None
-    status = payload.get("status")
-    if status not in {"queued", "running", "failed"}:
+    if not isinstance(manifest, dict):
         return None
     return {
         "id": job_id,
-        "domain": str(payload.get("domain", "")),
-        "status": status,
-        "phase": str(payload.get("phase", status)),
-        "message": str(payload.get("message", "本地运行记录")),
-        "percent": payload.get("percent", 0) if isinstance(payload.get("percent", 0), int) else 0,
-        "error": str(payload["error"]) if payload.get("error") is not None else None,
+        "domain": str(manifest.get("domain", "")),
+        "status": "complete",
+        "phase": "complete",
+        "message": "领域情报所已经建立，可以打开运行工作台",
+        "percent": 100,
+        "error": None,
     }
 
 
