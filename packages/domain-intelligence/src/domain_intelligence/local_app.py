@@ -26,6 +26,7 @@ from domain_intelligence.models import BootstrapInput
 
 MAX_REQUEST_BYTES = 16_384
 JOB_STATUS_FILE = "job-status.json"
+JOB_RESTART_ERROR = "本地服务在运行过程中重启，原运行未完成，请重新开始。"
 SAFE_ID = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_.-"
 LOCAL_HOSTS = {"127.0.0.1", "localhost", "::1"}
 JSONScalar = str | int | float | bool | None
@@ -62,7 +63,7 @@ class LocalAppState:
         provider = self.provider()
         return bool(_provider_endpoint(provider.endpoint) and provider.model)
 
-    def _persist_job(self, job: dict[str, str | int | None]) -> None:
+    def persist_job(self, job: dict[str, str | int | None]) -> None:
         status_path = self.runs_root / str(job["id"]) / JOB_STATUS_FILE
         temporary_path = status_path.with_name(f".{JOB_STATUS_FILE}.{secrets.token_hex(4)}.tmp")
         temporary_path.write_text(
@@ -85,7 +86,7 @@ class LocalAppState:
         }
         with self._lock:
             self._jobs[job_id] = job
-        self._persist_job(job)
+        self.persist_job(job)
         return job_id
 
     def update_job(self, job_id: str, **updates: str | int | None) -> None:
@@ -95,7 +96,7 @@ class LocalAppState:
                 return
             job.update(updates)
             snapshot = dict(job)
-        self._persist_job(snapshot)
+        self.persist_job(snapshot)
 
     def job(self, job_id: str) -> dict[str, str | int | None] | None:
         with self._lock:
@@ -177,7 +178,19 @@ def _job_snapshot(state: LocalAppState, job_id: str) -> dict[str, str | int | No
         if not isinstance(payload, dict) or payload.get("id") != job_id:
             return None
         status = payload.get("status")
-        if status in {"queued", "running", "failed"}:
+        if status in {"queued", "running"}:
+            recovered = {
+                "id": job_id,
+                "domain": str(payload.get("domain", "")),
+                "status": "failed",
+                "phase": "failed",
+                "message": "本次运行因本地服务重启而中断",
+                "percent": 0,
+                "error": JOB_RESTART_ERROR,
+            }
+            state.persist_job(recovered)
+            return recovered
+        if status == "failed":
             return {
                 "id": job_id,
                 "domain": str(payload.get("domain", "")),

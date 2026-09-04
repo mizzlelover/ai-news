@@ -134,7 +134,7 @@ To inspect and manage a real run without opening files one by one, open the [run
 
 The current public surface is the Private Intelligence Observatory demo, run workbench, and reading room. The AI News Reader / AI News Radar compatibility page and its page-specific static assets/ and site.webmanifest are not product entry points.
 
-The retained scripts/update_news.py, data/, feeds/, .github/workflows/update-news.yml, skills/ai-news-radar/, and skills/radar/ are collection or consumption references, not the core methodology or an original “Bole Skill” of this project. They come from or are based on [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar), under the MIT License. See [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) for directory-level attribution and redistribution rules.
+The retained scripts/update_news.py, data/, feeds/, skills/ai-news-radar/, and skills/radar/ are collection or consumption references, not the core methodology or an original “Bole Skill” of this project. The old `.github/workflows/update-news.yml` has been moved out of active workflows to `docs/archive/update-news.yml.disabled` and is not part of the current Pages deployment. These materials come from or are based on [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar), under the MIT License. See [NOTICE](NOTICE.md) and [scope and attribution](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md) for directory-level attribution and redistribution rules.
 
 Mature collection components may be reused at the boundary, but they do not replace domain-specific requirement modeling, historical evaluation, portfolio design, or coverage auditing.
 

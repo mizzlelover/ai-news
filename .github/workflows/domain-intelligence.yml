@@ -45,6 +45,7 @@ jobs:
         run: |
           node --check demo/app.js
           node --check demo/workbench.js
+          node --test tests/workbench-contract.test.mjs
           python - <<'PY'
           from html.parser import HTMLParser
           from pathlib import Path

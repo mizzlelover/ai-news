@@ -144,7 +144,7 @@ uv run --project packages/domain-intelligence dib \
 
 当前发布面是私人情报所演示站、运行工作台与阅读室。AI News Reader / AI News Radar 兼容页面及其专属静态 assets/、site.webmanifest 不属于产品入口。
 
-仓库中保留的 scripts/update_news.py、data/、feeds/、.github/workflows/update-news.yml 以及 skills/ai-news-radar/、skills/radar/，只作为采集或消费适配参考，不是私人情报所的核心方法论，也不是本项目原创的“伯乐 Skill”。相关内容来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)，采用 MIT License；具体目录、版权和再分发边界见 [NOTICE](NOTICE.md) 与[项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
+仓库中保留的 scripts/update_news.py、data/、feeds/ 以及 skills/ai-news-radar/、skills/radar/，只作为采集或消费适配参考，不是私人情报所的核心方法论，也不是本项目原创的“伯乐 Skill”。旧的 `.github/workflows/update-news.yml` 已移出 active workflows，并归档在 `docs/archive/update-news.yml.disabled`，不会参与当前 Pages 发布。相关内容来自或基于 [LearnPrompt/ai-news-radar](https://github.com/LearnPrompt/ai-news-radar)，采用 MIT License；具体目录、版权和再分发边界见 [NOTICE](NOTICE.md) 与[项目范围与来源/版权说明](docs/PROJECT_SCOPE_AND_ATTRIBUTION.md)。
 
 这意味着：成熟的采集轮子可以在边界上复用，但不能替代针对具体行业重新完成的需求建模、历史评价、来源组合和覆盖审计。
 

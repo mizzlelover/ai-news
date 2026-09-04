@@ -1,6 +1,8 @@
-# AI News Radar — 配置与参数手册 (Config Reference)
+# AI News Radar — 历史配置与参数参考 (Config Reference)
 
-> 适用文件:`scripts/update_news.py`、`.github/workflows/update-news.yml`
+> 历史说明：本文件只用于理解保留的 AI News Radar 采集参考。旧的 `.github/workflows/update-news.yml` 已归档为 `docs/archive/update-news.yml.disabled`，不再参与当前私人情报所的 GitHub Pages 发布或定时运行。
+
+> 适用文件:`scripts/update_news.py`、`docs/archive/update-news.yml.disabled`
 >
 > **核心原则:** 除了 **API 密钥**(必须放 GitHub Secrets),几乎所有可调参数都已写进代码常量。改一行常量即可,**不用再去 GitHub 配变量**。
 >
@@ -112,7 +114,7 @@ SocialData 同时跑两路:① 中英关键词搜索发现新声音;② 一个�
 
 | 参数 | 当前值 | 改哪里 |
 |---|---|---|
-| 运行频率 | 每 30 分钟 | `.github/workflows/update-news.yml` → `cron: "*/30 * * * *"`(第 6 行) |
+| 历史运行频率 | 每 30 分钟 | `docs/archive/update-news.yml.disabled` → `cron: "*/30 * * * *"` |
 | 付费源运行间隔 | 24 小时一次 | `PAID_SOURCE_DEFAULT_INTERVAL_HOURS`(约 188 行) |
 | 主时间窗 | 24 小时 | workflow 里 `--window-hours 24`(命令行参数) |
 | 归档保留 | 21 天 | workflow 里 `--archive-days 21` |

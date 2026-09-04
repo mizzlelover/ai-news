@@ -160,6 +160,41 @@ def test_local_failed_job_survives_process_restart(tmp_path: Path) -> None:
     }
 
 
+@pytest.mark.parametrize("status", ["queued", "running"])
+def test_local_in_progress_job_is_failed_after_process_restart(
+    status: str,
+    tmp_path: Path,
+) -> None:
+    state = LocalAppState(tmp_path)
+    job_id = state.create_job("数字孪生")
+    state.update_job(
+        job_id,
+        status=status,
+        phase=status,
+        message="正在建立领域底图",
+        percent=12,
+    )
+
+    restarted = LocalAppState(tmp_path)
+    snapshot = _job_snapshot(restarted, job_id)
+
+    assert snapshot == {
+        "id": job_id,
+        "domain": "数字孪生",
+        "status": "failed",
+        "phase": "failed",
+        "message": "本次运行因本地服务重启而中断",
+        "percent": 0,
+        "error": local_app_module.JOB_RESTART_ERROR,
+    }
+    persisted = json.loads(
+        (restarted.runs_root / job_id / local_app_module.JOB_STATUS_FILE).read_text(
+            encoding="utf-8",
+        ),
+    )
+    assert persisted == snapshot
+
+
 def test_local_site_can_add_source_to_completed_run(
     monkeypatch: pytest.MonkeyPatch,
     tmp_path: Path,

@@ -58,7 +58,7 @@ AI News Reader / AI News Radar 兼容界面不属于当前产品发布面；其�
 | `skills/ai-news-radar/` | AI 新闻信源判断、录入和静态日报维护适配器 | 本项目的领域情报方法论 |
 | `skills/radar/` | 读取公开 AI 日报 JSON 的消费侧适配器 | 通用领域情报引擎 |
 | `scripts/update_news.py`、`data/`、`feeds/` | AI/文旅场景的采集与数据运行时 | 新领域的需求、回测和覆盖内核，也不是当前产品页面 |
-| `.github/workflows/update-news.yml` | 既有 AI/文旅数据更新任务 | 通用领域情报调度器 |
+| `docs/archive/update-news.yml.disabled` | 历史 AI/文旅数据更新任务，已移出 active workflows | 当前领域情报调度器或 Pages 发布任务 |
 
 这些轮子在“公开 AI 日报、RSS/OPML、去重、静态数据发布”场景下确实可以直接复用，因此没有必要为了同一类边界能力重复造轮子。但它们只能作为采集或消费适配参考，不能替代本项目针对不同领域重新建立的 PIR、EIE、信源组合和历史评价；本项目不把 AI News Reader 兼容界面作为展示产品。
 

@@ -1,5 +1,7 @@
 # 智慧文旅 X 与微信私有源配置指南
 
+> 历史参考：本指南面向旧的智慧文旅日报采集链。旧的定时工作流已归档至 `docs/archive/update-news.yml.disabled`，不会参与当前私人情报所的 Pages 发布；当前产品请从一个领域开始使用 `domain-intelligence-bootstrap`。
+
 本指南用于把附件 100 个信源中的 X 账号和微信公众号接入当前智慧文旅日报。不要把 API Key、cookies、微信桥接后台地址或私人 OPML 直接提交到仓库。
 
 ## 1. X 账号
@@ -129,10 +131,10 @@ FOLLOW_OPML_B64=上一步复制的 base64 内容
 
 ## 3. 验证
 
-配置完成后，手动运行：
+配置完成后，历史上可以手动运行：
 
 ```bash
-gh workflow run update-news.yml --repo mizzlelover/private-intelligence-observatory --ref master
+gh workflow run update-news.yml --repo mizzlelover/private-intelligence-observatory --ref master  # 仅适用于仍保留该历史工作流的旧分支
 gh run list --repo mizzlelover/private-intelligence-observatory --limit 5
 ```
 

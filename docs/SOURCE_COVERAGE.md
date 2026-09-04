@@ -1,5 +1,7 @@
 # Source Coverage Plan
 
+> 历史参考：本文档描述的是旧的 AI/文旅采集层，不是私人情报所当前的公开发布面。旧的 `update-news.yml` 已归档，当前 Pages 只发布 `demo/` 的私人情报所演示站、运行工作台和阅读室；领域运行产物保存在本地运行目录。
+
 This project should help ordinary AI enthusiasts scan high-signal updates
 without forcing them to follow noisy timelines or manage many source choices.
 
@@ -262,10 +264,10 @@ Use this only for sources that should benefit every public visitor:
 
 ## Deployment
 
-The public deployment should remain GitHub Pages + GitHub Actions:
+The historical deployment used GitHub Pages + GitHub Actions:
 
-- GitHub Actions updates `data/*.json`.
-- GitHub Pages serves `index.html` and `assets/*`.
+- The archived workflow updated `data/*.json`.
+- The current Pages workflow serves only the Private Intelligence Observatory static surface.
 - Private OPML input belongs in `FOLLOW_OPML_B64`, not in the repository.
 
 This keeps the public version easy to fork while still letting each maintainer
