@@ -14,10 +14,20 @@ from urllib.parse import unquote, urlsplit
 import httpx2
 from pydantic import ValidationError
 
-from domain_intelligence.local_builder import ProviderConfig, SeedBuilderError, build_local_run
+from domain_intelligence.io_json import load_input
+from domain_intelligence.local_builder import (
+    ProviderConfig,
+    SeedBuilderError,
+    add_source_to_input,
+    build_local_input_run,
+    build_local_run,
+)
+from domain_intelligence.models import BootstrapInput
 
 MAX_REQUEST_BYTES = 16_384
+JOB_STATUS_FILE = "job-status.json"
 SAFE_ID = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_.-"
+LOCAL_HOSTS = {"127.0.0.1", "localhost", "::1"}
 JSONScalar = str | int | float | bool | None
 JSONValue = JSONScalar | list["JSONValue"] | dict[str, "JSONValue"]
 
@@ -52,25 +62,40 @@ class LocalAppState:
         provider = self.provider()
         return bool(_provider_endpoint(provider.endpoint) and provider.model)
 
+    def _persist_job(self, job: dict[str, str | int | None]) -> None:
+        status_path = self.runs_root / str(job["id"]) / JOB_STATUS_FILE
+        temporary_path = status_path.with_name(f".{JOB_STATUS_FILE}.{secrets.token_hex(4)}.tmp")
+        temporary_path.write_text(
+            json.dumps(job, ensure_ascii=False, separators=(",", ":")),
+            encoding="utf-8",
+        )
+        temporary_path.replace(status_path)
+
     def create_job(self, domain: str) -> str:
         job_id = secrets.token_hex(8)
-        with self._lock:
-            self._jobs[job_id] = {
-                "id": job_id,
-                "domain": domain,
-                "status": "queued",
-                "phase": "queued",
-                "message": "已排队，准备建立领域底图",
-                "percent": 0,
-                "error": None,
-            }
         (self.runs_root / job_id).mkdir(parents=True, exist_ok=False)
+        job = {
+            "id": job_id,
+            "domain": domain,
+            "status": "queued",
+            "phase": "queued",
+            "message": "已排队，准备建立领域底图",
+            "percent": 0,
+            "error": None,
+        }
+        with self._lock:
+            self._jobs[job_id] = job
+        self._persist_job(job)
         return job_id
 
     def update_job(self, job_id: str, **updates: str | int | None) -> None:
         with self._lock:
-            if job_id in self._jobs:
-                self._jobs[job_id].update(updates)
+            job = self._jobs.get(job_id)
+            if job is None:
+                return
+            job.update(updates)
+            snapshot = dict(job)
+        self._persist_job(snapshot)
 
     def job(self, job_id: str) -> dict[str, str | int | None] | None:
         with self._lock:
@@ -125,37 +150,84 @@ def _safe_artifact_path(state: LocalAppState, job_id: str, relative: str) -> Pat
     return candidate
 
 
+def _safe_demo_path(state: LocalAppState, relative: str) -> Path | None:
+    if not relative or Path(relative).is_absolute() or ".." in Path(relative).parts:
+        return None
+    demo_root = state.demo_root.resolve()
+    candidate = (state.demo_root / relative).resolve()
+    try:
+        candidate.relative_to(demo_root)
+    except ValueError:
+        return None
+    return candidate
+
+
 def _job_snapshot(state: LocalAppState, job_id: str) -> dict[str, str | int | None] | None:
     current = state.job(job_id)
     if current is not None:
         return current
-    manifest_path = state.runs_root / job_id / "run-manifest.json"
-    if not _is_safe_id(job_id) or not manifest_path.is_file():
+    if not _is_safe_id(job_id):
+        return None
+    manifest_path = _safe_artifact_path(state, job_id, "run-manifest.json")
+    if manifest_path is not None and manifest_path.is_file():
+        try:
+            manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            return None
+        if not isinstance(manifest, dict):
+            return None
+        return {
+            "id": job_id,
+            "domain": str(manifest.get("domain", "")),
+            "status": "complete",
+            "phase": "complete",
+            "message": "领域情报所已经建立，可以打开运行工作台",
+            "percent": 100,
+            "error": None,
+        }
+    status_path = _safe_artifact_path(state, job_id, JOB_STATUS_FILE)
+    if status_path is None or not status_path.is_file():
         return None
     try:
-        manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+        payload = json.loads(status_path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
         return None
-    if not isinstance(manifest, dict):
+    if not isinstance(payload, dict) or payload.get("id") != job_id:
+        return None
+    status = payload.get("status")
+    if status not in {"queued", "running", "failed"}:
         return None
     return {
         "id": job_id,
-        "domain": str(manifest.get("domain", "")),
-        "status": "complete",
-        "phase": "complete",
-        "message": "领域情报所已经建立，可以打开运行工作台",
-        "percent": 100,
-        "error": None,
+        "domain": str(payload.get("domain", "")),
+        "status": status,
+        "phase": str(payload.get("phase", status)),
+        "message": str(payload.get("message", "本地运行记录")),
+        "percent": payload.get("percent", 0) if isinstance(payload.get("percent", 0), int) else 0,
+        "error": str(payload["error"]) if payload.get("error") is not None else None,
     }
 
 
-def _start_job(state: LocalAppState, job_id: str, domain: str) -> None:
+def _start_job(
+    state: LocalAppState,
+    job_id: str,
+    domain: str,
+    inputs: BootstrapInput | None = None,
+) -> None:
     def progress(phase: str, message: str, percent: int) -> None:
         state.update_job(job_id, status="running", phase=phase, message=message, percent=percent)
 
     def worker() -> None:
         try:
-            build_local_run(domain, state.provider(), state.runs_root / job_id, progress)
+            if inputs is None:
+                build_local_run(domain, state.provider(), state.runs_root / job_id, progress)
+            else:
+                build_local_input_run(
+                    inputs,
+                    state.runs_root / job_id,
+                    progress,
+                    input_mode="local_source_addition_live_capture",
+                )
         except (
             SeedBuilderError,
             ValidationError,
@@ -232,6 +304,18 @@ def _make_handler(state: LocalAppState) -> type[BaseHTTPRequestHandler]:
             self.end_headers()
             self.wfile.write(body)
 
+        def _local_request_allowed(self) -> bool:
+            host = urlsplit(f"//{self.headers.get('Host', '')}").hostname
+            if host not in LOCAL_HOSTS:
+                return False
+            origin = self.headers.get("Origin")
+            if not origin:
+                return True
+            parsed_origin = urlsplit(origin)
+            return (
+                parsed_origin.scheme in {"http", "https"} and parsed_origin.hostname in LOCAL_HOSTS
+            )
+
         def do_GET(self) -> None:
             parsed = urlsplit(self.path)
             path = unquote(parsed.path)
@@ -264,22 +348,42 @@ def _make_handler(state: LocalAppState) -> type[BaseHTTPRequestHandler]:
                 self._send_json(HTTPStatus.OK, snapshot)
                 return
             if path in {"", "/"}:
-                self._send_file(state.demo_root / "local.html")
+                asset = _safe_demo_path(state, "local.html")
+                if asset is None or not asset.is_file():
+                    self.send_error(HTTPStatus.NOT_FOUND)
+                    return
+                self._send_file(asset)
                 return
             if path in {"/local.css", "/local.js"}:
-                self._send_file(state.demo_root / path[1:])
+                asset = _safe_demo_path(state, path[1:])
+                if asset is None or not asset.is_file():
+                    self.send_error(HTTPStatus.NOT_FOUND)
+                    return
+                self._send_file(asset)
                 return
             if path.startswith("/demo/"):
                 relative = path.removeprefix("/demo/")
-                if not relative or ".." in Path(relative).parts:
+                if not relative:
+                    relative = "index.html"
+                asset = _safe_demo_path(state, relative)
+                if asset is None or not asset.is_file():
                     self.send_error(HTTPStatus.NOT_FOUND)
                     return
-                self._send_file(state.demo_root / relative)
+                self._send_file(asset)
                 return
             self.send_error(HTTPStatus.NOT_FOUND)
 
         def do_POST(self) -> None:
             parsed = urlsplit(self.path)
+            if not self._local_request_allowed():
+                self._send_json(
+                    HTTPStatus.FORBIDDEN,
+                    {
+                        "status": "local_request_only",
+                        "message": "私人情报所只接受本机页面发起的写入请求。",
+                    },
+                )
+                return
             try:
                 payload = self._read_json()
                 if parsed.path == "/api/settings":
@@ -320,6 +424,61 @@ def _make_handler(state: LocalAppState) -> type[BaseHTTPRequestHandler]:
                         {"id": job_id, "status": "queued", "message": "已开始建立领域底图"},
                     )
                     return
+                parts = parsed.path.split("/")
+                if len(parts) == 5 and parts[1:3] == ["api", "runs"] and parts[4] == "sources":
+                    job_id = parts[3]
+                    snapshot = _job_snapshot(state, job_id)
+                    if snapshot is None:
+                        self.send_error(HTTPStatus.NOT_FOUND)
+                        return
+                    if snapshot["status"] != "complete":
+                        self._send_json(
+                            HTTPStatus.CONFLICT,
+                            {
+                                "status": "run_not_complete",
+                                "message": "请等这次领域建立完成后再加入来源。",
+                            },
+                        )
+                        return
+                    input_path = _safe_artifact_path(state, job_id, "bootstrap-input.json")
+                    if input_path is None or not input_path.is_file():
+                        self._send_json(
+                            HTTPStatus.CONFLICT,
+                            {
+                                "status": "run_not_editable",
+                                "message": "这次运行没有可编辑的领域底图。",
+                            },
+                        )
+                        return
+                    name = payload.get("name")
+                    endpoint = payload.get("endpoint")
+                    method = payload.get("method", "static_html")
+                    role = payload.get("role", "community")
+                    if not all(isinstance(value, str) for value in (name, endpoint, method, role)):
+                        raise LocalRequestError("来源名称、入口、获取方式和角色格式无效")
+                    try:
+                        inputs = load_input(input_path)
+                        updated_inputs, source = add_source_to_input(
+                            inputs,
+                            name,
+                            endpoint,
+                            method,
+                            role,
+                        )
+                    except (OSError, ValidationError, SeedBuilderError, ValueError) as error:
+                        raise LocalRequestError(str(error)) from error
+                    new_job_id = state.create_job(updated_inputs.profile.domain)
+                    _start_job(state, new_job_id, updated_inputs.profile.domain, updated_inputs)
+                    self._send_json(
+                        HTTPStatus.ACCEPTED,
+                        {
+                            "id": new_job_id,
+                            "source_id": str(source.id),
+                            "status": "queued",
+                            "message": "已加入这个来源，正在重建一版可回看的领域情报所。",
+                        },
+                    )
+                    return
                 self.send_error(HTTPStatus.NOT_FOUND)
             except LocalRequestError as error:
                 self._send_json(
@@ -334,6 +493,8 @@ class LocalServer(ThreadingHTTPServer):
 
 
 def create_server(root: Path, host: str = "127.0.0.1", port: int = 8787) -> LocalServer:
+    if host not in LOCAL_HOSTS:
+        raise ValueError("私人情报所仅允许监听本机地址")
     state = LocalAppState(root)
     server = LocalServer((host, port), _make_handler(state))
     server.state = state

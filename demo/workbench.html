@@ -194,7 +194,7 @@
 
         <section class="workbench-view" id="view-sources" role="tabpanel" data-panel="sources" aria-labelledby="sources-title" hidden>
           <div class="view-heading"><p class="workspace-eyebrow"><span></span>来源层 · Source Portfolio</p><h1 id="sources-title">不是一串链接，是一张有角色的网络。</h1><p>来源候选、获取方式、激活结果和证据数量分开显示。一个入口抓取成功，不等于它已经成为情报证据。</p></div>
-          <section class="panel source-panel"><div class="source-toolbar"><div class="filter-tabs" role="tablist" aria-label="来源状态筛选"><button class="filter-tab is-active" type="button" data-source-filter="all" aria-selected="true">全部</button><button class="filter-tab" type="button" data-source-filter="observed" aria-selected="false">已观察</button><button class="filter-tab" type="button" data-source-filter="blocked" aria-selected="false">待处理</button></div><label class="search-field"><span class="sr-only">搜索来源</span><input id="source-search" type="search" placeholder="搜索来源名称或角色" /></label></div><div class="source-table-wrap"><table class="source-table"><thead><tr><th>来源</th><th>角色</th><th>入口</th><th>结果</th><th>证据</th></tr></thead><tbody id="source-table-body"></tbody></table></div><p class="empty-state" id="source-empty" hidden>没有符合条件的来源。</p></section>
+          <section class="panel source-panel"><div class="source-toolbar"><div class="filter-tabs" role="tablist" aria-label="来源状态筛选"><button class="filter-tab is-active" type="button" data-source-filter="all" aria-selected="true">全部</button><button class="filter-tab" type="button" data-source-filter="observed" aria-selected="false">已观察</button><button class="filter-tab" type="button" data-source-filter="blocked" aria-selected="false">待处理</button></div><label class="search-field"><span class="sr-only">搜索来源</span><input id="source-search" type="search" placeholder="搜索来源名称或角色" /></label><button class="source-add-button primary-action" id="source-add-open" type="button" hidden>加入一个来源 <span aria-hidden="true">＋</span></button></div><div class="source-table-wrap"><table class="source-table"><thead><tr><th>来源</th><th>角色</th><th>入口</th><th>结果</th><th>证据</th></tr></thead><tbody id="source-table-body"></tbody></table></div><p class="empty-state" id="source-empty" hidden>没有符合条件的来源。</p></section>
         </section>
 
         <section class="workbench-view" id="view-content" role="tabpanel" data-panel="content" aria-labelledby="content-title" hidden>
@@ -229,6 +229,25 @@
       <div class="drawer-links" id="drawer-links"></div>
       <div class="drawer-body-wrap"><pre class="drawer-body" id="drawer-body">请选择内容清单中的一条记录。</pre></div>
     </aside>
+
+    <div class="manage-modal" id="source-manage-modal" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="source-manage-title" hidden>
+      <div class="manage-modal-card">
+        <div class="manage-modal-heading"><div><span class="panel-kicker">来源管理</span><h2 id="source-manage-title">把一个信任的入口接入这张领域网络</h2></div><button class="drawer-close" id="source-manage-close" type="button" aria-label="关闭来源管理">×</button></div>
+        <p class="manage-modal-copy">这会复制当前领域底图，加入新来源，并创建一份新的运行版本。旧版本会保留，方便你比较加入前后的变化。</p>
+        <form class="source-manage-form" id="source-manage-form">
+          <label for="source-name">来源名称</label>
+          <input id="source-name" name="name" type="text" maxlength="200" placeholder="例如：某标准组织公开页面" required />
+          <label for="source-endpoint">公开入口</label>
+          <input id="source-endpoint" name="endpoint" type="url" maxlength="2000" placeholder="https://example.org/your-source" required />
+          <div class="source-manage-fields">
+            <div><label for="source-method">获取方式</label><select id="source-method" name="method"><option value="static_html">公开页面</option><option value="rss">RSS</option><option value="atom">Atom</option><option value="json">JSON</option><option value="sitemap">Sitemap</option></select></div>
+            <div><label for="source-role">来源角色</label><select id="source-role" name="role"><option value="community">专业社区</option><option value="official_primary">官方一手</option><option value="expert_interpreter">专家解读</option><option value="frontier_sensor">前沿观察</option><option value="broad_coverage">广覆盖媒体</option><option value="other">其他</option></select></div>
+          </div>
+          <p class="source-manage-status" id="source-manage-status" role="status" aria-live="polite">加入后会重新运行来源激活、全文归档、证据链和日报。</p>
+          <div class="source-manage-actions"><button class="primary-action" type="submit">加入并建立新版本</button><button class="text-action" id="source-manage-cancel" type="button">稍后再说</button></div>
+        </form>
+      </div>
+    </div>
 
     <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
     <script src="workbench.js" defer></script>

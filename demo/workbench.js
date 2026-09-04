@@ -74,6 +74,8 @@
     files: [],
     runRoot: "",
     mode: "demo",
+    remoteRunId: "",
+    canManage: false,
     objectUrls: [],
     activeView: "overview",
     graphInventoryMode: "nodes",
@@ -83,6 +85,7 @@
     sourceQuery: "",
     contentQuery: "",
     lastFocus: null,
+    sourceManageLastFocus: null,
   };
 
   const dom = {
@@ -127,6 +130,16 @@
     sourceSearch: document.getElementById("source-search"),
     sourceTable: document.getElementById("source-table-body"),
     sourceEmpty: document.getElementById("source-empty"),
+    sourceAddOpen: document.getElementById("source-add-open"),
+    sourceManageModal: document.getElementById("source-manage-modal"),
+    sourceManageClose: document.getElementById("source-manage-close"),
+    sourceManageCancel: document.getElementById("source-manage-cancel"),
+    sourceManageForm: document.getElementById("source-manage-form"),
+    sourceName: document.getElementById("source-name"),
+    sourceEndpoint: document.getElementById("source-endpoint"),
+    sourceMethod: document.getElementById("source-method"),
+    sourceRole: document.getElementById("source-role"),
+    sourceManageStatus: document.getElementById("source-manage-status"),
     recommendationStats: document.getElementById("recommendation-stats"),
     recommendationList: document.getElementById("recommendation-list"),
     portfolioSummary: document.getElementById("portfolio-summary"),
@@ -808,6 +821,7 @@
   }
 
   function renderSources() {
+    dom.sourceAddOpen.hidden = !state.canManage;
     clear(dom.sourceTable);
     const sources = sourceList();
     const statuses = statusMap();
@@ -1138,6 +1152,69 @@
     dom.drawerBackdrop.hidden = true;
     document.body.classList.remove("drawer-open");
     if (state.lastFocus && typeof state.lastFocus.focus === "function") state.lastFocus.focus();
+  }
+
+  function closeSourceManage() {
+    dom.sourceManageModal.hidden = true;
+    dom.sourceManageModal.setAttribute("aria-hidden", "true");
+    if (state.sourceManageLastFocus && typeof state.sourceManageLastFocus.focus === "function") state.sourceManageLastFocus.focus();
+  }
+
+  function openSourceManage() {
+    if (!state.canManage || !state.remoteRunId) return;
+    state.sourceManageLastFocus = document.activeElement;
+    dom.sourceManageForm.reset();
+    dom.sourceManageStatus.textContent = "加入后会重新运行来源激活、全文归档、证据链和日报。";
+    dom.sourceManageStatus.classList.remove("is-error", "is-running");
+    dom.sourceManageModal.hidden = false;
+    dom.sourceManageModal.setAttribute("aria-hidden", "false");
+    window.setTimeout(() => dom.sourceName.focus(), 0);
+  }
+
+  async function waitForManagedRun(runId) {
+    for (let attempt = 0; attempt < 240; attempt += 1) {
+      const response = await fetch(`/api/runs/${encodeURIComponent(runId)}`, { cache: "no-store" });
+      let payload = {};
+      try { payload = await response.json(); } catch {}
+      if (!response.ok) throw new Error(payload.message || `新版本状态读取失败（${response.status}）`);
+      if (payload.status === "complete") return payload;
+      if (payload.status === "failed") throw new Error(payload.error || payload.message || "新版本建立失败");
+      dom.sourceManageStatus.textContent = payload.message || "正在重建这个领域的情报链……";
+      await new Promise((resolve) => window.setTimeout(resolve, 1200));
+    }
+    throw new Error("新版本建立时间过长，请回到本地首页查看运行记录。");
+  }
+
+  async function addManagedSource(event) {
+    event.preventDefault();
+    if (!state.canManage || !state.remoteRunId) return;
+    const submit = dom.sourceManageForm.querySelector("button[type=submit]");
+    submit.disabled = true;
+    dom.sourceManageStatus.textContent = "正在加入来源并建立新版本……";
+    dom.sourceManageStatus.classList.remove("is-error");
+    dom.sourceManageStatus.classList.add("is-running");
+    try {
+      const response = await fetch(`/api/runs/${encodeURIComponent(state.remoteRunId)}/sources`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          name: dom.sourceName.value.trim(),
+          endpoint: dom.sourceEndpoint.value.trim(),
+          method: dom.sourceMethod.value,
+          role: dom.sourceRole.value,
+        }),
+      });
+      let payload = {};
+      try { payload = await response.json(); } catch {}
+      if (!response.ok) throw new Error(payload.message || `来源加入失败（${response.status}）`);
+      await waitForManagedRun(payload.id);
+      window.location.assign(`/demo/workbench.html?run=${encodeURIComponent(payload.id)}#sources`);
+    } catch (error) {
+      dom.sourceManageStatus.textContent = error instanceof Error ? error.message : String(error);
+      dom.sourceManageStatus.classList.remove("is-running");
+      dom.sourceManageStatus.classList.add("is-error");
+      submit.disabled = false;
+    }
   }
 
   function addSourceLink(source) {
@@ -1532,6 +1609,8 @@
       state.files = selected;
       state.runRoot = runRoot;
       state.mode = "imported";
+      state.remoteRunId = "";
+      state.canManage = false;
       state.graphInventoryMode = "nodes";
       state.graphQuery = "";
       state.run = normalizeRun({
@@ -1737,10 +1816,19 @@
       renderGraphInventory();
     });
     dom.importInput.addEventListener("change", (event) => importRun(event.target.files));
+    dom.sourceAddOpen.addEventListener("click", openSourceManage);
+    dom.sourceManageClose.addEventListener("click", closeSourceManage);
+    dom.sourceManageCancel.addEventListener("click", closeSourceManage);
+    dom.sourceManageForm.addEventListener("submit", addManagedSource);
+    dom.sourceManageModal.addEventListener("click", (event) => {
+      if (event.target === dom.sourceManageModal) closeSourceManage();
+    });
     dom.drawerClose.addEventListener("click", closeDrawer);
     dom.drawerBackdrop.addEventListener("click", closeDrawer);
     document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && dom.drawer.classList.contains("is-open")) closeDrawer();
+      if (event.key !== "Escape") return;
+      if (!dom.sourceManageModal.hidden) closeSourceManage();
+      else if (dom.drawer.classList.contains("is-open")) closeDrawer();
     });
     window.addEventListener("hashchange", () => showView(window.location.hash.slice(1), false));
   }
@@ -1781,6 +1869,8 @@
     state.files = files;
     state.runRoot = runId;
     state.mode = "imported";
+    state.remoteRunId = runId;
+    state.canManage = true;
     state.graphInventoryMode = "nodes";
     state.graphQuery = "";
     state.run = normalizeRun({

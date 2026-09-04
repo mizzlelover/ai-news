@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import re
+import secrets
 from collections.abc import Callable
 from dataclasses import dataclass
 from datetime import UTC, datetime
@@ -11,8 +12,17 @@ from urllib.parse import urlsplit
 import httpx2
 from pydantic import ValidationError
 
+from domain_intelligence.io_json import write_json
 from domain_intelligence.io_run import write_domain_run
-from domain_intelligence.models import BootstrapInput
+from domain_intelligence.models import (
+    AcquisitionCapability,
+    AcquisitionMethod,
+    AttentionEdge,
+    BootstrapInput,
+    RelationType,
+    SourceProfile,
+    SourceRole,
+)
 from domain_intelligence.public_capture import capture_public_sources
 from domain_intelligence.run import build_domain_run
 
@@ -23,6 +33,9 @@ MIN_ELEMENTS = 8
 MIN_REQUIREMENTS = 5
 MIN_BENCHMARK_EVENTS = 3
 MAX_PROVIDER_RESPONSE_BYTES = 2_000_000
+MAX_USER_SOURCE_NAME = 200
+MAX_USER_SOURCE_ENDPOINT = 2_000
+MAX_USER_SOURCES = 200
 
 
 @dataclass(frozen=True, slots=True)
@@ -169,6 +182,108 @@ def build_seed(domain: str, provider: ProviderConfig) -> BootstrapInput:
     return _parse_seed(content, clean_domain)
 
 
+def add_source_to_input(
+    inputs: BootstrapInput,
+    name: str,
+    endpoint: str,
+    method: str = AcquisitionMethod.STATIC_HTML.value,
+    role: str = SourceRole.COMMUNITY.value,
+) -> tuple[BootstrapInput, SourceProfile]:
+    clean_name = name.strip()
+    clean_endpoint = endpoint.strip()
+    if not 1 <= len(clean_name) <= MAX_USER_SOURCE_NAME:
+        raise SeedBuilderError("来源名称需要是 1 至 200 个字符")
+    if not 1 <= len(clean_endpoint) <= MAX_USER_SOURCE_ENDPOINT:
+        raise SeedBuilderError("来源入口需要是 1 至 2000 个字符")
+    parsed = urlsplit(clean_endpoint)
+    if (
+        parsed.scheme not in {"http", "https"}
+        or not parsed.netloc
+        or parsed.username
+        or parsed.password
+    ):
+        raise SeedBuilderError("来源入口必须是公开的 http:// 或 https:// 地址")
+    try:
+        acquisition_method = AcquisitionMethod(method)
+        source_role = SourceRole(role)
+    except ValueError as error:
+        raise SeedBuilderError("来源获取方式或角色无效") from error
+    if any(
+        source.acquisition.endpoint == clean_endpoint for source in inputs.attention_graph.sources
+    ):
+        raise SeedBuilderError("这个来源入口已经在当前领域情报所中")
+    if len(inputs.attention_graph.sources) >= MAX_USER_SOURCES:
+        raise SeedBuilderError("一个领域最多保留 200 个来源候选")
+    source_id = f"user-{secrets.token_hex(6)}"
+    topic_ids = (inputs.profile.topic_weights[0].topic_id,) if inputs.profile.topic_weights else ()
+    element_ids = (inputs.profile.elements[0].id,) if inputs.profile.elements else ()
+    source = SourceProfile(
+        id=source_id,
+        name=clean_name,
+        role=source_role,
+        topic_ids=topic_ids,
+        element_ids=element_ids,
+        authority=0.5,
+        reliability=0.5,
+        stability=True,
+        accessibility=0.8,
+        cost=1.0,
+        approved=True,
+        acquisition=AcquisitionCapability(
+            method=acquisition_method,
+            endpoint=clean_endpoint,
+            stable=True,
+        ),
+    )
+    edges = list(inputs.attention_graph.edges)
+    if inputs.attention_graph.experts:
+        edges.append(
+            AttentionEdge(
+                from_node_id=inputs.attention_graph.experts[0].id,
+                to_node_id=source.id,
+                relation=RelationType.EXPLICITLY_RECOMMENDS,
+                observed_at=inputs.as_of,
+                evidence_url=clean_endpoint,
+            ),
+        )
+    graph = inputs.attention_graph.model_copy(
+        update={
+            "sources": (*inputs.attention_graph.sources, source),
+            "edges": tuple(edges),
+        },
+    )
+    benchmark = inputs.benchmark.model_copy(
+        update={"sources": (*inputs.benchmark.sources, source)},
+    )
+    return inputs.model_copy(update={"attention_graph": graph, "benchmark": benchmark}), source
+
+
+def build_local_input_run(
+    inputs: BootstrapInput,
+    output_dir: Path,
+    progress: ProgressCallback,
+    input_mode: str = "local_domain_builder_live_capture",
+) -> Path:
+    progress(
+        "map", f"已识别 {len(inputs.attention_graph.sources)} 个来源候选，开始检查获取路径", 28
+    )
+    capture_dir = output_dir / "capture"
+    progress("capture", "正在激活公开入口并归档可获得的全文", 40)
+    acquisition = capture_public_sources(inputs.model_copy(update={"signals": ()}), capture_dir)
+    progress("archive", f"已登记 {len(acquisition.contents)} 条内容结果，正在生成知识域与日报", 78)
+    result = build_domain_run(
+        inputs.profile.domain,
+        inputs.model_copy(update={"signals": ()}),
+        acquisition,
+        input_mode=input_mode,
+    )
+    output_dir.mkdir(parents=True, exist_ok=True)
+    write_domain_run(result, output_dir, content_root=capture_dir)
+    write_json(inputs, output_dir / "bootstrap-input.json")
+    progress("complete", "领域情报所已经建立，可以打开运行工作台", 100)
+    return output_dir
+
+
 def build_local_run(
     domain: str,
     provider: ProviderConfig,
@@ -177,22 +292,4 @@ def build_local_run(
 ) -> Path:
     progress("seed", "正在为这个领域建立知识底图", 12)
     inputs = build_seed(domain, provider)
-    progress(
-        "map",
-        f"已识别 {len(inputs.attention_graph.sources)} 个来源候选，开始检查获取路径",
-        28,
-    )
-    capture_dir = output_dir / "capture"
-    progress("capture", "正在激活公开入口并归档可获得的全文", 40)
-    acquisition = capture_public_sources(inputs.model_copy(update={"signals": ()}), capture_dir)
-    progress("archive", f"已登记 {len(acquisition.contents)} 条内容结果，正在生成知识域与日报", 78)
-    result = build_domain_run(
-        domain,
-        inputs.model_copy(update={"signals": ()}),
-        acquisition,
-        input_mode="local_domain_builder_live_capture",
-    )
-    output_dir.mkdir(parents=True, exist_ok=True)
-    write_domain_run(result, output_dir, content_root=capture_dir)
-    progress("complete", "领域情报所已经建立，可以打开运行工作台", 100)
-    return output_dir
+    return build_local_input_run(inputs, output_dir, progress)

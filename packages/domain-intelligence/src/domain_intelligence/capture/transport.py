@@ -5,6 +5,7 @@ import ipaddress
 import logging
 import socket
 import time
+from collections.abc import Iterable
 from dataclasses import dataclass
 from datetime import datetime
 from urllib.parse import urljoin, urlsplit
@@ -55,13 +56,13 @@ TOO_MANY_REDIRECTS = "TOO_MANY_REDIRECTS"
 RESPONSE_TOO_LARGE = "RESPONSE_TOO_LARGE"
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True)
 class PublicUrlError(ValueError):
     code: str
     url: str
 
 
-@dataclass(frozen=True, slots=True)
+@dataclass(slots=True)
 class ResponseTooLargeError(Exception):
     content_type: str
 
@@ -94,9 +95,12 @@ def _create_client() -> httpx2.AsyncClient:
     transport = httpx2.AsyncHTTPTransport(
         http2=True,
         retries=3,
+        trust_env=False,
         limits=LIMITS,
         socket_options=SOCKET_OPTIONS,
     )
+    pool = transport._pool
+    pool._network_backend = _PinnedPublicNetworkBackend(pool._network_backend)
     return httpx2.AsyncClient(
         transport=transport,
         timeout=TIMEOUT,
@@ -111,6 +115,67 @@ def _create_client() -> httpx2.AsyncClient:
 
 def _content_type(response: httpx2.Response) -> str:
     return response.headers.get("content-type", "application/octet-stream").split(";", 1)[0]
+
+
+def _resolve_public_addresses(hostname: str, port: int, url: str) -> tuple[str, ...]:
+    try:
+        addresses = {str(ipaddress.ip_address(hostname))}
+    except ValueError:
+        try:
+            addresses = {
+                str(item[4][0])
+                for item in socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
+            }
+        except (OSError, UnicodeError) as error:
+            raise PublicUrlError(PUBLIC_HOST_UNRESOLVED, url) from error
+    if not addresses or any(not ipaddress.ip_address(address).is_global for address in addresses):
+        raise PublicUrlError(PRIVATE_OR_RESERVED_HOST, url)
+    return tuple(sorted(addresses))
+
+
+class _PinnedPublicNetworkBackend:
+    def __init__(self, delegate: object) -> None:
+        self._delegate = delegate
+
+    async def connect_tcp(
+        self,
+        host: str,
+        port: int,
+        timeout: float | None = None,
+        local_address: str | None = None,
+        socket_options: Iterable[tuple[int, int, int]] | None = None,
+    ) -> object:
+        addresses = _resolve_public_addresses(host, port, f"tcp://{host}:{port}")
+        last_error: Exception | None = None
+        for address in addresses:
+            try:
+                return await self._delegate.connect_tcp(
+                    address,
+                    port,
+                    timeout=timeout,
+                    local_address=local_address,
+                    socket_options=socket_options,
+                )
+            except Exception as error:
+                last_error = error
+        if last_error is not None:
+            raise last_error
+        raise PublicUrlError(PRIVATE_OR_RESERVED_HOST, f"tcp://{host}:{port}")
+
+    async def connect_unix_socket(
+        self,
+        path: str,
+        timeout: float | None = None,
+        socket_options: Iterable[tuple[int, int, int]] | None = None,
+    ) -> object:
+        return await self._delegate.connect_unix_socket(
+            path,
+            timeout=timeout,
+            socket_options=socket_options,
+        )
+
+    async def sleep(self, seconds: float) -> None:
+        await self._delegate.sleep(seconds)
 
 
 def _validate_public_url(url: str) -> None:
@@ -129,18 +194,7 @@ def _validate_public_url(url: str) -> None:
     hostname = parsed.hostname
     if not hostname or not 1 <= port <= MAX_PORT:
         raise PublicUrlError(INVALID_PUBLIC_URL, url)
-    try:
-        addresses = {str(ipaddress.ip_address(hostname))}
-    except ValueError:
-        try:
-            addresses = {
-                str(item[4][0])
-                for item in socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
-            }
-        except (OSError, UnicodeError) as error:
-            raise PublicUrlError(PUBLIC_HOST_UNRESOLVED, url) from error
-    if not addresses or any(not ipaddress.ip_address(address).is_global for address in addresses):
-        raise PublicUrlError(PRIVATE_OR_RESERVED_HOST, url)
+    _resolve_public_addresses(hostname, port, url)
 
 
 async def _request_public(

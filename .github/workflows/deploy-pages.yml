@@ -28,15 +28,21 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          git archive --format=tar HEAD | tar -x -C _site
-          find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -delete 2>/dev/null || true
-          find _site/data -maxdepth 1 -type f -name "email-digest.json" -delete 2>/dev/null || true
+          git archive --format=tar HEAD \
+            index.html .nojekyll LICENSE NOTICE.md README.md README.en.md demo \
+            | tar -x -C _site
+          git archive --format=tar HEAD \
+            data/daily-brief.json data/latest-24h-all.json data/latest-24h.json \
+            data/merge-log.json data/source-status.json data/stories-merged.json \
+            data/title-zh-cache.json data/waytoagi-7d.json \
+            feeds/follow.example.opml feeds/social-x.example.opml \
+            feeds/wechat.example.opml feeds/wisdom-tourism.opml \
+            | tar -x -C _site
           find _site -type f -name ".DS_Store" -delete
-          if find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -print -quit 2>/dev/null | grep -q .; then
-            echo "::error::Private OPML must not be published"
-            exit 1
-          fi
+          test ! -e _site/data/archive.json
           test ! -e _site/data/email-digest.json
+          test ! -e _site/data/paid-source-state.json
+          test ! -e _site/feeds/follow.opml
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

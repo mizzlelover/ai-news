@@ -133,3 +133,26 @@ def test_public_request_stops_reading_after_body_limit(monkeypatch: pytest.Monke
 
     with pytest.raises(transport.ResponseTooLargeError):
         anyio.run(transport._request_public, client, "https://public.example/start", 3)
+
+
+def test_public_request_rechecks_dns_before_connecting(monkeypatch: pytest.MonkeyPatch) -> None:
+    resolutions = [("93.184.216.34",)]
+
+    def resolve(hostname: str, port: int, url: str) -> tuple[str, ...]:
+        del hostname, port, url
+        if resolutions:
+            return resolutions.pop()
+        raise transport.PublicUrlError(
+            transport.PRIVATE_OR_RESERVED_HOST, "https://rebind.example/start"
+        )
+
+    monkeypatch.setattr(transport, "_resolve_public_addresses", resolve)
+    client = transport._create_client()
+
+    try:
+        with pytest.raises(transport.PublicUrlError) as error:
+            anyio.run(transport._request_public, client, "https://rebind.example/start", 1024)
+    finally:
+        anyio.run(client.aclose)
+
+    assert error.value.code == "PRIVATE_OR_RESERVED_HOST"
