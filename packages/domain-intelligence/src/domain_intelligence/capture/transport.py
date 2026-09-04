@@ -1,11 +1,13 @@
 from __future__ import annotations
 
 import hashlib
+import ipaddress
 import logging
 import socket
 import time
+from dataclasses import dataclass
 from datetime import datetime
-from urllib.parse import urlparse
+from urllib.parse import urljoin, urlsplit
 
 import anyio
 import httpx2
@@ -43,6 +45,32 @@ TIMEOUT = httpx2.Timeout(connect=5.0, read=30.0, write=10.0, pool=10.0)
 SOCKET_OPTIONS: list[tuple[int, int, int]] = [
     (socket.IPPROTO_TCP, socket.TCP_NODELAY, 1),
 ]
+MAX_REDIRECTS = 5
+MAX_PORT = 65535
+INVALID_PUBLIC_URL = "INVALID_PUBLIC_URL"
+PUBLIC_HOST_UNRESOLVED = "PUBLIC_HOST_UNRESOLVED"
+PRIVATE_OR_RESERVED_HOST = "PRIVATE_OR_RESERVED_HOST"
+REDIRECT_LOCATION_MISSING = "REDIRECT_LOCATION_MISSING"
+TOO_MANY_REDIRECTS = "TOO_MANY_REDIRECTS"
+RESPONSE_TOO_LARGE = "RESPONSE_TOO_LARGE"
+
+
+@dataclass(frozen=True, slots=True)
+class PublicUrlError(ValueError):
+    code: str
+    url: str
+
+
+@dataclass(frozen=True, slots=True)
+class ResponseTooLargeError(Exception):
+    content_type: str
+
+
+@dataclass(frozen=True, slots=True)
+class CapturedResponse:
+    response: httpx2.Response
+    body: bytes
+    content_type: str
 
 
 async def _request_started(request: httpx2.Request) -> None:
@@ -72,7 +100,7 @@ def _create_client() -> httpx2.AsyncClient:
     return httpx2.AsyncClient(
         transport=transport,
         timeout=TIMEOUT,
-        follow_redirects=True,
+        follow_redirects=False,
         headers={
             "User-Agent": "PrivateIntelligenceObservatory/0.1 public-capture",
             "Accept": "text/html,application/json,application/xml;q=0.9,*/*;q=0.1",
@@ -83,6 +111,74 @@ def _create_client() -> httpx2.AsyncClient:
 
 def _content_type(response: httpx2.Response) -> str:
     return response.headers.get("content-type", "application/octet-stream").split(";", 1)[0]
+
+
+def _validate_public_url(url: str) -> None:
+    parsed = urlsplit(url)
+    if (
+        parsed.scheme not in {"http", "https"}
+        or not parsed.netloc
+        or parsed.username
+        or parsed.password
+    ):
+        raise PublicUrlError(INVALID_PUBLIC_URL, url)
+    try:
+        port = parsed.port or (443 if parsed.scheme == "https" else 80)
+    except ValueError as error:
+        raise PublicUrlError(INVALID_PUBLIC_URL, url) from error
+    hostname = parsed.hostname
+    if not hostname or not 1 <= port <= MAX_PORT:
+        raise PublicUrlError(INVALID_PUBLIC_URL, url)
+    try:
+        addresses = {str(ipaddress.ip_address(hostname))}
+    except ValueError:
+        try:
+            addresses = {
+                str(item[4][0])
+                for item in socket.getaddrinfo(hostname, port, type=socket.SOCK_STREAM)
+            }
+        except (OSError, UnicodeError) as error:
+            raise PublicUrlError(PUBLIC_HOST_UNRESOLVED, url) from error
+    if not addresses or any(not ipaddress.ip_address(address).is_global for address in addresses):
+        raise PublicUrlError(PRIVATE_OR_RESERVED_HOST, url)
+
+
+async def _request_public(
+    client: httpx2.AsyncClient,
+    url: str,
+    max_body_bytes: int,
+) -> CapturedResponse:
+    current_url = url
+    for redirect_count in range(MAX_REDIRECTS + 1):
+        _validate_public_url(current_url)
+        async with client.stream("GET", current_url, follow_redirects=False) as response:
+            if response.status_code in {301, 302, 303, 307, 308}:
+                location = response.headers.get("location")
+                if not location:
+                    raise PublicUrlError(REDIRECT_LOCATION_MISSING, current_url)
+                if redirect_count >= MAX_REDIRECTS:
+                    raise PublicUrlError(TOO_MANY_REDIRECTS, current_url)
+                current_url = urljoin(current_url, location)
+                continue
+            response.raise_for_status()
+            content_type = _content_type(response)
+            declared_length = response.headers.get("content-length")
+            if declared_length is not None:
+                try:
+                    declared_size = int(declared_length)
+                except ValueError:
+                    declared_size = None
+                if declared_size is not None and declared_size > max_body_bytes:
+                    raise ResponseTooLargeError(content_type)
+            chunks: list[bytes] = []
+            total = 0
+            async for chunk in response.aiter_bytes():
+                total += len(chunk)
+                if total > max_body_bytes:
+                    raise ResponseTooLargeError(content_type)
+                chunks.append(chunk)
+            return CapturedResponse(response, b"".join(chunks), content_type)
+    raise PublicUrlError(TOO_MANY_REDIRECTS, current_url)
 
 
 def _is_feed_endpoint(target: CaptureTarget) -> bool:
@@ -165,27 +261,11 @@ async def fetch_one(
     context: CaptureContext,
 ) -> CaptureOutcome:
     async with limiter:
-        parsed_url = urlparse(target.url)
-        if parsed_url.scheme not in {"http", "https"} or not parsed_url.netloc:
-            return failure(
-                target,
-                context.as_of,
-                ContentCaptureStatus.BLOCKED,
-                "INVALID_PUBLIC_URL",
-            )
         try:
-            response = await client.get(target.url)
-            response.raise_for_status()
-            body = response.content
-            content_type = _content_type(response)
-            if len(body) > context.max_body_bytes:
-                return failure(
-                    target,
-                    context.as_of,
-                    ContentCaptureStatus.FAILED,
-                    "RESPONSE_TOO_LARGE",
-                    content_type,
-                )
+            captured = await _request_public(client, target.url, context.max_body_bytes)
+            body = captured.body
+            content_type = captured.content_type
+            response = captured.response
             encoding = response.encoding or "utf-8"
             raw_text = body.decode(encoding, errors="replace")
             feed_items = ()
@@ -241,6 +321,21 @@ async def fetch_one(
                 evidence=evidence,
                 feed_items=feed_items,
                 discovery_error_code=discovery_error_code,
+            )
+        except PublicUrlError as error:
+            return failure(
+                target,
+                context.as_of,
+                ContentCaptureStatus.BLOCKED,
+                error.code,
+            )
+        except ResponseTooLargeError as error:
+            return failure(
+                target,
+                context.as_of,
+                ContentCaptureStatus.FAILED,
+                RESPONSE_TOO_LARGE,
+                error.content_type,
             )
         except httpx2.HTTPStatusError as error:
             return failure(

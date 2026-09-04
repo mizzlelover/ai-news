@@ -68,6 +68,16 @@ You may only have the name of an industry, sector, or knowledge domain. You do n
 
 Once you have built the foundation in the actual workflow, tell the AI to add any experts, websites, reports, or project materials you already use. Then add a focused question when you are ready; neither action replaces the domain-first entry.
 
+### A local website for non-technical users
+
+If you do not use AI programs or command-line tools, ask an AI assistant or collaborator to install the repository and start the local website:
+
+~~~bash
+uv run --project packages/domain-intelligence private-intelligence
+~~~
+
+Open <http://127.0.0.1:8787/>. An installation assistant can preconfigure `PRIVATE_INTELLIGENCE_AI_BASE_URL`, `PRIVATE_INTELLIGENCE_AI_MODEL`, and the optional `PRIVATE_INTELLIGENCE_AI_API_KEY`; when it does, the end user only enters a domain. Otherwise the home page provides a one-time connection form for a local Ollama model or an OpenAI-compatible service. The website runs the real domain build, records source candidates and acquisition outcomes, archives normalized full text and raw responses, and opens the resulting graph, recommendations, backtests, evidence, and daily brief in one workbench. It keeps incomplete, failed, and blocked sources visible instead of claiming a run succeeded when it did not.
+
 ### If you are an engineering collaborator
 
 Start with the [engine](packages/domain-intelligence/README.md) and the [Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md). The engine handles EAR, point-in-time replay, source portfolios, source activation, evidence conversion, coverage audits, and domain-ranked briefs. Collection, databases, email, delivery, and web presentation remain replaceable boundary adapters. Their job is to keep the domain knowledge base reliable after the domain-first entry.

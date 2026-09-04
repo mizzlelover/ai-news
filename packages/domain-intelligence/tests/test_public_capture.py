@@ -11,6 +11,7 @@ from urllib.parse import urlparse
 
 import pytest
 
+from domain_intelligence.capture import transport
 from domain_intelligence.capture_parser import parse_document
 from domain_intelligence.io import load_input
 from domain_intelligence.models import BootstrapInput, ContentCaptureStatus
@@ -148,7 +149,9 @@ def test_parser_extracts_pdf_text() -> None:
 def test_public_capture_writes_content_and_evidence_snapshots(
     fixture_server: str,
     tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    monkeypatch.setattr(transport, "_validate_public_url", lambda url: None)
     inputs = _local_inputs(fixture_server)
     capture_root = tmp_path / "capture"
 

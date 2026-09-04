@@ -6,6 +6,7 @@ from typing import Final
 
 from pydantic import TypeAdapter, ValidationError
 
+from domain_intelligence.capture.archive import source_snapshot_path
 from domain_intelligence.models import (
     AcquisitionBatch,
     AcquisitionRunStatus,
@@ -52,7 +53,7 @@ def _collect_source(
     request: SnapshotCollectionRequest,
     source_id: SourceId,
 ) -> tuple[SourceAcquisitionRun, tuple[EvidenceRecord, ...]]:
-    path = Path(request.snapshot_dir) / f"{source_id}.json"
+    path = source_snapshot_path(Path(request.snapshot_dir), str(source_id))
     if not path.is_file():
         return _failed_run(source_id, request.as_of, "SNAPSHOT_MISSING"), ()
     parsed = _read_snapshot(path)

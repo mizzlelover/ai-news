@@ -67,6 +67,18 @@ Domain Seed
 
 在实际运行中完成领域底图后，你可以把已有的专家、网站、报告或项目材料直接告诉 AI，请它们加入这个领域；也可以进一步提出一个判断，建立 Focused Watch。两者都是底图之后的补充动作，不会改变“先给出一个领域”的入口。
 
+### 不会使用 AI 程序？从本地网站开始
+
+仓库提供一个面向普通使用者的本地入口。启动后，在浏览器打开“私人情报所”首页；你只需要填写一次 AI 接口和模型名称，再输入领域，系统就会真实执行“领域底图 → 来源网络 → 公开入口采集 → 全文归档 → 知识图谱 → 日报”的构建任务。运行没有完成时，页面不会显示虚假的成功结果。
+
+```bash
+uv run --project packages/domain-intelligence private-intelligence
+```
+
+然后打开 <http://127.0.0.1:8787/>。如果安装助手已经在启动前配置了 `PRIVATE_INTELLIGENCE_AI_BASE_URL`、`PRIVATE_INTELLIGENCE_AI_MODEL` 和可选的 `PRIVATE_INTELLIGENCE_AI_API_KEY`，终端用户只需要输入领域；没有预配置时，首页提供一次性的连接设置。本机模型可以填写 OpenAI 兼容地址，API 密钥只保留在当前运行进程。建立完成后点击“打开这次领域工作台”，即可在浏览器中查看这次运行的知识图谱、来源清单、每条内容的状态、规范化全文、原始响应、证据回链、推荐依据、历史回放和日报。
+
+静态演示站用于解释方法和信息架构，不冒充实时调研；真正输入领域并生成本地运行结果的入口是上面的本地网站。
+
 ### 如果你是工程协作者
 
 从[领域情报引擎](packages/domain-intelligence/README.md)和[核心 Bootstrap Skill](skills/domain-intelligence-bootstrap/SKILL.md)开始。引擎负责 EAR、历史截点回放、信源组合、来源激活、证据转换、覆盖审计和领域日报排序；采集器、数据库、邮件、推送和网页属于可替换的边界适配器。工程实现的任务，是把从领域开始建立的知识体系可靠地更新和交付给使用者。
@@ -114,14 +126,14 @@ uv run --project packages/domain-intelligence dib \
 
 | 路径 | 作用 |
 | --- | --- |
-| demo/ | 面向使用者的产品演示、运行工作台、使用场景和方法论图示 |
+| demo/ | 面向使用者的产品演示、本地网站、运行工作台、使用场景和方法论图示 |
 | docs/PRIVATE_INTELLIGENCE_FOR_PRACTITIONERS.md | 非技术用户的应用层使用指南 |
 | docs/DOMAIN_INTELLIGENCE_V0_1.md | 领域情报方法论、指标和边界 |
 | docs/SOURCE_PORTFOLIO_SCALE.md | 来源网络规模、分层和激活状态 |
 | docs/SOURCE_ACTIVATION_RUN.md | 采集运行、证据记录、日报信号和知识域增量契约 |
 | docs/WORKBENCH.md | 导入真实运行目录、查看全部产物与回读证据的使用说明 |
 | docs/VERIFICATION_DIGITAL_TWIN.md | 数字孪生真实运行的结果、产物索引和验收记录 |
-| packages/domain-intelligence/ | 可运行的领域情报核心引擎和最小 Bundle |
+| packages/domain-intelligence/ | 可运行的领域情报核心引擎、本地领域构建入口和最小 Bundle |
 | skills/domain-intelligence-bootstrap/ | 将领域关键词和后续问题路由到核心流程的 Skill |
 | DESIGN.md | 演示站的信息架构、视觉系统和验收契约 |
 | docs/PROJECT_SCOPE_AND_ATTRIBUTION.md | 项目主次、第三方来源和版权边界 |
@@ -143,6 +155,14 @@ python3 -m http.server 8080
 ~~~
 
 然后打开 http://127.0.0.1:8080/demo/。如果已有一次真实运行，打开 http://127.0.0.1:8080/demo/workbench.html 并导入运行目录。
+
+启动面向使用者的本地网站：
+
+```bash
+uv run --project packages/domain-intelligence private-intelligence
+```
+
+然后打开 http://127.0.0.1:8787/。这是实际运行入口；需要 AI 接口配置才能建立新领域，生成结果保存在项目的 `.private-intelligence/local-runs/`，该目录已被 Git 忽略。
 
 核心引擎测试与格式检查：
 

@@ -26,7 +26,11 @@ class AcquisitionCapability(StrictModel):
 
 
 class SourceProfile(StrictModel):
-    id: SourceId = Field(min_length=1)
+    id: SourceId = Field(
+        min_length=1,
+        max_length=128,
+        pattern=r"^[A-Za-z0-9][A-Za-z0-9_.-]*$",
+    )
     name: str = Field(min_length=1)
     role: SourceRole
     topic_ids: tuple[TopicId, ...] = ()

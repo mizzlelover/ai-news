@@ -127,6 +127,11 @@
     sourceSearch: document.getElementById("source-search"),
     sourceTable: document.getElementById("source-table-body"),
     sourceEmpty: document.getElementById("source-empty"),
+    recommendationStats: document.getElementById("recommendation-stats"),
+    recommendationList: document.getElementById("recommendation-list"),
+    portfolioSummary: document.getElementById("portfolio-summary"),
+    replayList: document.getElementById("replay-list"),
+    evaluationList: document.getElementById("evaluation-list"),
     contentSearch: document.getElementById("content-search"),
     contentList: document.getElementById("content-list"),
     contentEmpty: document.getElementById("content-empty"),
@@ -304,6 +309,24 @@
 
   function storyList() {
     return Array.isArray(state.run?.report?.brief?.stories) ? state.run.report.brief.stories : [];
+  }
+
+  function recommendationList() {
+    return Array.isArray(state.run?.report?.attention_recommendations)
+      ? state.run.report.attention_recommendations
+      : [];
+  }
+
+  function portfolioResult() {
+    return isRecord(state.run?.report?.portfolio) ? state.run.report.portfolio : {};
+  }
+
+  function replayReport() {
+    return isRecord(state.run?.report?.replay) ? state.run.report.replay : {};
+  }
+
+  function evaluationList() {
+    return Array.isArray(state.run?.report?.evaluations) ? state.run.report.evaluations : [];
   }
 
   function signalMap() {
@@ -913,6 +936,131 @@
     if (!evidenceList().length) dom.evidenceList.append(makeElement("p", "empty-state", "本次运行没有证据记录。"));
   }
 
+  function renderRecommendations() {
+    const sources = sourceMap();
+    const recommendations = recommendationList().slice().sort((left, right) => Number(right.score || 0) - Number(left.score || 0));
+    const portfolio = portfolioResult();
+    const replay = replayReport();
+    const evaluations = evaluationList().slice().sort((left, right) => Number(right.decision_utility || 0) - Number(left.decision_utility || 0));
+    const selectedSourceIds = Array.isArray(portfolio.selected_source_ids) ? portfolio.selected_source_ids : [];
+    const cutoffs = Array.isArray(replay.cutoffs) ? replay.cutoffs : [];
+    const cells = Array.isArray(replay.cells) ? replay.cells : [];
+
+    clear(dom.recommendationStats);
+    [
+      ["推荐来源", recommendations.length, "注意力网络候选"],
+      ["长期组合", selectedSourceIds.length, "进入持续跟踪"],
+      ["历史截点", cutoffs.length, "用于回放比较"],
+      ["来源评价", evaluations.length, "形成可回看的评分"],
+    ].forEach(([label, value, detail]) => {
+      const item = makeElement("div", "recommendation-stat");
+      item.append(makeElement("span", "", label), makeElement("strong", "", number(value)), makeElement("small", "", detail));
+      dom.recommendationStats.append(item);
+    });
+
+    clear(dom.recommendationList);
+    if (!recommendations.length) {
+      dom.recommendationList.append(makeElement("p", "empty-state", "本次运行没有形成注意力网络推荐。"));
+    }
+    recommendations.slice(0, 12).forEach((recommendation, index) => {
+      const source = sources.get(recommendation.source_id);
+      const card = makeElement("article", "recommendation-item");
+      const heading = makeElement("div", "recommendation-heading");
+      const identity = makeElement("div");
+      identity.append(makeElement("span", "recommendation-rank", `0${index + 1}`.slice(-2)));
+      identity.append(makeElement("h3", "", source?.name || recommendation.source_id));
+      identity.append(makeElement("small", "", `${roleLabel(source?.role)} · ${recommendation.source_id}`));
+      const score = makeElement("div", "recommendation-score");
+      score.append(makeElement("span", "", "推荐分"), makeElement("strong", "", percent(recommendation.score)));
+      heading.append(identity, score);
+      card.append(heading);
+      const bar = makeElement("div", "recommendation-bar");
+      const fill = makeElement("span");
+      fill.style.transform = `scaleX(${Math.max(0, Math.min(1, Number(recommendation.score || 0)))})`;
+      bar.append(fill);
+      card.append(bar);
+      const components = Array.isArray(recommendation.components) ? recommendation.components : [];
+      const componentLine = makeElement("div", "recommendation-components");
+      components.slice(0, 6).forEach((component) => {
+        componentLine.append(makeElement("span", "", `${component.name || "组成项"} ${percent(component.value)}`));
+      });
+      if (componentLine.childElementCount) card.append(componentLine);
+      const support = makeElement("p", "recommendation-support", `跨簇支持 ${percent(recommendation.cross_cluster_support)} · ${number(recommendation.supporting_expert_ids?.length || 0)} 位支持专家`);
+      card.append(support);
+      card.append(createAction("在信源网络中查看", "recommendation-action", () => {
+        state.sourceQuery = recommendation.source_id;
+        dom.sourceSearch.value = recommendation.source_id;
+        activateSourceFilter("all");
+        showView("sources", true);
+      }));
+      dom.recommendationList.append(card);
+    });
+    if (recommendations.length > 12) dom.recommendationList.append(makeElement("p", "list-note", `还有 ${number(recommendations.length - 12)} 个推荐来源，完整清单见 bootstrap-report.json。`));
+
+    clear(dom.portfolioSummary);
+    if (!selectedSourceIds.length) {
+      dom.portfolioSummary.append(makeElement("p", "empty-state", "本次运行没有形成长期跟踪组合。"));
+    } else {
+      const portfolioMeta = makeElement("div", "portfolio-meta");
+      portfolioMeta.append(makeElement("span", "", `组合分 ${Number(portfolio.score || 0).toFixed(2)}`));
+      portfolioMeta.append(makeElement("span", "", `成本 ${Number(portfolio.total_cost || 0).toFixed(2)}`));
+      portfolioMeta.append(makeElement("span", "", `${number(portfolio.covered_nugget_ids?.length || 0)} 个知识片段`));
+      dom.portfolioSummary.append(portfolioMeta);
+      const selected = makeElement("ul", "portfolio-source-list");
+      selectedSourceIds.slice(0, 10).forEach((sourceId) => selected.append(makeElement("li", "", sources.get(sourceId)?.name || sourceId)));
+      dom.portfolioSummary.append(selected);
+      if (selectedSourceIds.length > 10) dom.portfolioSummary.append(makeElement("p", "list-note", `还有 ${number(selectedSourceIds.length - 10)} 个组合来源。`));
+      const contributions = Array.isArray(portfolio.marginal_contributions) ? portfolio.marginal_contributions : [];
+      if (contributions.length) {
+        dom.portfolioSummary.append(makeElement("h3", "portfolio-subtitle", "边际贡献"));
+        const contributionList = makeElement("ul", "portfolio-source-list");
+        contributions.slice(0, 5).forEach((contribution) => contributionList.append(makeElement("li", "", contribution)));
+        dom.portfolioSummary.append(contributionList);
+      }
+    }
+
+    clear(dom.replayList);
+    const cutoffValues = cutoffs.length ? cutoffs : Array.from(new Set(cells.map((cell) => cell.cutoff).filter(Boolean)));
+    const cellsByCutoff = new Map();
+    cells.forEach((cell) => {
+      const bucket = cellsByCutoff.get(cell.cutoff) || [];
+      bucket.push(cell);
+      cellsByCutoff.set(cell.cutoff, bucket);
+    });
+    if (!cutoffValues.length) {
+      dom.replayList.append(makeElement("p", "empty-state", "本次运行没有历史回放截点。"));
+    }
+    cutoffValues.forEach((cutoff) => {
+      const rows = cellsByCutoff.get(cutoff) || [];
+      const eligible = rows.filter((cell) => cell.eligible).length;
+      const item = makeElement("article", "replay-item");
+      item.append(makeElement("h3", "", `截至 ${dateTime(cutoff)}`));
+      item.append(makeElement("p", "", `${number(eligible)} / ${number(rows.length)} 个知识片段在此截点可见`));
+      const examples = rows.filter((cell) => cell.eligible && cell.first_source_id).slice(0, 2);
+      examples.forEach((cell) => item.append(makeElement("small", "", `${cell.nugget_id} · 首个来源 ${sources.get(cell.first_source_id)?.name || cell.first_source_id}`)));
+      dom.replayList.append(item);
+    });
+
+    clear(dom.evaluationList);
+    if (!evaluations.length) dom.evaluationList.append(makeElement("p", "empty-state", "本次运行没有形成来源历史评价。"));
+    evaluations.slice(0, 12).forEach((evaluation) => {
+      const item = makeElement("article", "evaluation-item");
+      item.append(makeElement("h3", "", sources.get(evaluation.source_id)?.name || evaluation.source_id));
+      item.append(makeElement("small", "", evaluation.source_id));
+      const metrics = makeElement("div", "evaluation-metrics");
+      [
+        ["决策效用", evaluation.decision_utility],
+        ["事件召回", evaluation.event_recall],
+        ["知识召回", evaluation.nugget_recall],
+        ["可靠性", evaluation.acquisition_reliability],
+        ["提前量", `${Number(evaluation.lead_time_hours || 0).toFixed(1)}h`],
+      ].forEach(([label, value]) => metrics.append(makeElement("span", "", `${label} ${typeof value === "number" ? percent(value) : value}`)));
+      item.append(metrics);
+      dom.evaluationList.append(item);
+    });
+    if (evaluations.length > 12) dom.evaluationList.append(makeElement("p", "list-note", `还有 ${number(evaluations.length - 12)} 个来源评价，完整记录见 bootstrap-report.json。`));
+  }
+
   function renderAll() {
     setRunHeader();
     renderMetrics();
@@ -926,10 +1074,11 @@
     renderSources();
     renderContent();
     renderBrief();
+    renderRecommendations();
   }
 
   function showView(view, updateUrl) {
-    const validViews = ["control", "overview", "graph", "sources", "content", "brief"];
+    const validViews = ["control", "overview", "graph", "sources", "content", "brief", "recommendations"];
     const next = validViews.includes(view) ? view : "control";
     state.activeView = next;
     document.querySelectorAll("[data-view]").forEach((button) => {
@@ -942,7 +1091,7 @@
       panel.hidden = !active;
       panel.classList.toggle("is-visible", active);
     });
-    if (updateUrl) window.history.replaceState(null, "", `#${next}`);
+    if (updateUrl) window.history.replaceState(null, "", `${window.location.search}#${next}`);
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
@@ -951,12 +1100,17 @@
     state.objectUrls = [];
   }
 
-  function addFileLink(label, relativePath) {
+  function addFileLink(label, relativePath, download = false) {
     const file = findFile(relativePath);
     if (!file) return;
     const url = URL.createObjectURL(file);
     state.objectUrls.push(url);
-    dom.drawerLinks.append(createLink(label, url));
+    const link = createLink(label, url);
+    if (download) {
+      link.download = basename(relativePath);
+      link.removeAttribute("target");
+    }
+    dom.drawerLinks.append(link);
   }
 
   function setDrawerBase(kicker, title, metaItems) {
@@ -1058,7 +1212,7 @@
     setDrawerBase("内容详情", item.title || item.url, [statusLabel(item.status), source?.name || item.source_id, item.content_hash || "无内容哈希"]);
     addSourceLink(source);
     if (item.relative_path) addFileLink("打开规范化全文", item.relative_path);
-    if (item.raw_relative_path) addFileLink("打开原始响应", item.raw_relative_path);
+    if (item.raw_relative_path) addFileLink("下载原始响应", item.raw_relative_path, true);
     openDrawer();
     if (evidence) dom.drawerMeta.append(makeElement("span", "", `证据 ${evidence.id}`));
     if (!item.relative_path) {
@@ -1278,13 +1432,48 @@
         const textPath = normalizePath(item.relative_path);
         const rawPath = normalizePath(item.raw_relative_path);
         if (!textPath.startsWith("content/") || hasUnsafePath(textPath)) errors.push(`content-inventory.items[${index}] 全文路径无效`);
-        if (item.raw_relative_path && (!rawPath.startsWith("content/") || hasUnsafePath(rawPath))) errors.push(`content-inventory.items[${index}] 原始响应路径无效`);
+        if (!rawPath.startsWith("content/") || hasUnsafePath(rawPath)) errors.push(`content-inventory.items[${index}] 原始响应路径无效`);
         if (!nonEmptyString(item.content_hash) || !Number.isInteger(item.character_count) || item.character_count <= 0) {
           errors.push(`content-inventory.items[${index}] 已抓取内容缺少哈希或字符数`);
         }
       }
     });
 
+    return errors.length
+      ? { ok: false, message: errors.slice(0, 6).join("；") }
+      : { ok: true, message: "" };
+  }
+
+  async function validateImportedContentFiles(parsed, selected, runRoot) {
+    const inventory = parsed["content-inventory.json"];
+    const contents = Array.isArray(inventory?.items) ? inventory.items : [];
+    const fileByPath = new Map();
+    selected.forEach((file) => {
+      const relative = relativeRunPath(selectedFilePath(file), runRoot);
+      if (relative) fileByPath.set(relative, file);
+    });
+    const errors = [];
+    for (const item of contents.filter((entry) => entry?.status === "captured")) {
+      const textPath = normalizePath(item.relative_path);
+      const rawPath = normalizePath(item.raw_relative_path);
+      const textFile = fileByPath.get(textPath);
+      const rawFile = fileByPath.get(rawPath);
+      if (!textFile) errors.push(`${item.id} 缺少规范化全文文件`);
+      if (!rawFile) errors.push(`${item.id} 缺少原始响应文件`);
+      if (!textFile || !rawFile) continue;
+      try {
+        const text = await textFile.text();
+        const characterCount = Array.from(text).length;
+        if (characterCount !== item.character_count) errors.push(`${item.id} 字符数与清单不一致`);
+        if (!globalThis.crypto?.subtle) throw new Error("当前浏览器不支持全文哈希校验，请通过本地网站或 HTTPS 打开工作台");
+        const digest = await globalThis.crypto.subtle.digest("SHA-256", new TextEncoder().encode(text));
+        const hash = `sha256:${Array.from(new Uint8Array(digest)).map((byte) => byte.toString(16).padStart(2, "0")).join("")}`;
+        if (hash !== item.content_hash) errors.push(`${item.id} 内容哈希与清单不一致`);
+        if (!rawFile.size) errors.push(`${item.id} 原始响应文件为空`);
+      } catch (error) {
+        errors.push(`${item.id} 文件校验失败：${error instanceof Error ? error.message : String(error)}`);
+      }
+    }
     return errors.length
       ? { ok: false, message: errors.slice(0, 6).join("；") }
       : { ok: true, message: "" };
@@ -1333,6 +1522,11 @@
       const validation = validateImportedRun(parsed);
       if (!validation.ok) {
         showToast(`运行目录校验未通过，未导入真实运行：${validation.message}`);
+        return;
+      }
+      const contentValidation = await validateImportedContentFiles(parsed, selected, runRoot);
+      if (!contentValidation.ok) {
+        showToast(`全文文件校验未通过，未导入真实运行：${contentValidation.message}`);
         return;
       }
       state.files = selected;
@@ -1443,7 +1637,23 @@
       domain: "数字孪生",
       knowledge_graph: { generated_at: generatedAt, domain: "数字孪生", nodes, edges },
       activation: { generated_at: generatedAt, window_start: "2026-08-01T08:00:00Z", source_statuses: sources.map((source) => ({ source_id: source.id, status: source.id === "demo-feed" ? "failed" : source.id === "demo-azure" ? "blocked" : "observed", last_run_at: generatedAt, evidence_count: evidence.filter((item) => item.source_id === source.id).length })), runs: [], evidence, signals: evidence.map((item) => ({ id: item.id, source_id: item.source_id, title: item.title, url: item.url, published_at: item.published_at, available_at: item.available_at, topic_ids: item.topic_ids, event_type: item.event_type, importance: item.importance, summary: item.summary, originality: 1, confirmed: true, event_id: null })), knowledge_deltas: [] },
-      signals: [], attention_recommendations: [], replay: {}, evaluations: [], portfolio: {},
+      signals: [],
+      attention_recommendations: [
+        { source_id: "demo-standards", score: 0.92, cross_cluster_support: 0.75, supporting_expert_ids: ["demo-expert-policy"], components: [{ name: "网络位置", value: 0.95 }, { name: "主题接近度", value: 0.94 }, { name: "权威性", value: 0.96 }, { name: "跨簇支持", value: 0.75 }] },
+        { source_id: "demo-ogc", score: 0.84, cross_cluster_support: 0.68, supporting_expert_ids: ["demo-expert-geo"], components: [{ name: "网络位置", value: 0.86 }, { name: "主题接近度", value: 0.9 }, { name: "权威性", value: 0.88 }, { name: "跨簇支持", value: 0.68 }] },
+        { source_id: "demo-university", score: 0.79, cross_cluster_support: 0.55, supporting_expert_ids: ["demo-expert-case"], components: [{ name: "网络位置", value: 0.78 }, { name: "主题接近度", value: 0.86 }, { name: "权威性", value: 0.8 }, { name: "跨簇支持", value: 0.55 }] },
+      ],
+      replay: { cutoffs: ["2024-12-31T23:59:00Z", "2025-12-31T23:59:00Z", generatedAt], cells: [
+        { cutoff: "2024-12-31T23:59:00Z", event_id: "demo-event-standard", nugget_id: "demo-nugget-definition", eligible: true, visible_source_ids: ["demo-standards"], first_source_id: "demo-standards" },
+        { cutoff: "2025-12-31T23:59:00Z", event_id: "demo-event-standard", nugget_id: "demo-nugget-definition", eligible: true, visible_source_ids: ["demo-standards", "demo-nist"], first_source_id: "demo-standards" },
+        { cutoff: generatedAt, event_id: "demo-event-case", nugget_id: "demo-nugget-vertical", eligible: true, visible_source_ids: ["demo-university"], first_source_id: "demo-university" },
+      ] },
+      evaluations: [
+        { source_id: "demo-standards", event_recall: 0.92, nugget_recall: 0.86, lead_time_hours: 18, precision: 0.9, false_alarm_burden: 0.08, originality: 1, credibility: 0.96, explanatory_depth: 0.82, cross_role_confirmation: 0.75, acquisition_reliability: 0.94, decision_utility: 0.91, covered_nugget_ids: ["demo-nugget-definition"] },
+        { source_id: "demo-ogc", event_recall: 0.8, nugget_recall: 0.76, lead_time_hours: 12, precision: 0.86, false_alarm_burden: 0.12, originality: 1, credibility: 0.88, explanatory_depth: 0.9, cross_role_confirmation: 0.68, acquisition_reliability: 0.9, decision_utility: 0.84, covered_nugget_ids: ["demo-nugget-architecture"] },
+        { source_id: "demo-university", event_recall: 0.7, nugget_recall: 0.68, lead_time_hours: 8, precision: 0.82, false_alarm_burden: 0.16, originality: 1, credibility: 0.8, explanatory_depth: 0.86, cross_role_confirmation: 0.55, acquisition_reliability: 0.78, decision_utility: 0.79, covered_nugget_ids: ["demo-nugget-vertical"] },
+      ],
+      portfolio: { selected_source_ids: ["demo-standards", "demo-ogc", "demo-university"], selected_bundle_ids: ["demo-architecture-core", "demo-vertical-core"], total_cost: 3, covered_nugget_ids: ["demo-nugget-definition", "demo-nugget-architecture", "demo-nugget-vertical"], score: 2.42, marginal_contributions: ["demo-architecture-core:0.91", "demo-vertical-core:0.68", "demo-standards:0.54"] },
       coverage: { total_elements: 4, covered_elements: 4, weighted_coverage: 1, rows: ["definition", "architecture", "business", "vertical"].map((id) => ({ element_id: id, coverage_ratio: 1, source_ids: sources.filter((source) => source.element_ids.includes(id)).map((source) => source.id), gap_reasons: [] })) },
       brief: { generated_at: generatedAt, window_start: "2026-08-01T08:00:00Z", domain: "数字孪生", stories: [
         { id: "story-demo-standard", title: "国家标准公开系统出现数字孪生标准更新信号", primary_source_id: "demo-standards", source_ids: ["demo-standards"], signal_ids: ["demo-evidence-standard"], topic_ids: ["standards", "architecture"], event_type: "standard_update", score: 0.86, corroboration: 0.33, first_party: true, evidence_urls: ["https://openstd.samr.gov.cn/"] },
@@ -1535,8 +1745,66 @@
     window.addEventListener("hashchange", () => showView(window.location.hash.slice(1), false));
   }
 
+  async function loadRemoteRun(runId) {
+    const fetchArtifact = async (relativePath) => {
+      if (!relativePath || String(relativePath).startsWith("/") || hasUnsafePath(relativePath)) throw new Error("远程产物路径无效");
+      const path = normalizePath(relativePath);
+      const encodedPath = path.split("/").map((part) => encodeURIComponent(part)).join("/");
+      const response = await fetch(`/api/runs/${encodeURIComponent(runId)}/artifact/${encodedPath}`);
+      if (!response.ok) throw new Error(`${path} 读取失败（${response.status}）`);
+      return response.blob();
+    };
+    const files = [];
+    const parsed = {};
+    const addFile = async (path, required = true) => {
+      try {
+        const blob = await fetchArtifact(path);
+        const file = new File([blob], basename(path));
+        Object.defineProperty(file, "webkitRelativePath", { value: `${runId}/${path}` });
+        files.push(file);
+        if (path.endsWith(".json")) parsed[path] = parseJson(await file.text(), path);
+      } catch (error) {
+        if (required) throw error;
+      }
+    };
+    for (const path of ROOT_RUN_ARTIFACTS) await addFile(path);
+    const inventory = parsed["content-inventory.json"];
+    const captured = Array.isArray(inventory?.items) ? inventory.items.filter((item) => item?.status === "captured") : [];
+    for (const item of captured) {
+      await addFile(normalizePath(item.relative_path));
+      await addFile(normalizePath(item.raw_relative_path));
+    }
+    const validation = validateImportedRun(parsed);
+    if (!validation.ok) throw new Error(`运行目录校验未通过：${validation.message}`);
+    const contentValidation = await validateImportedContentFiles(parsed, files, runId);
+    if (!contentValidation.ok) throw new Error(`全文文件校验未通过：${contentValidation.message}`);
+    state.files = files;
+    state.runRoot = runId;
+    state.mode = "imported";
+    state.graphInventoryMode = "nodes";
+    state.graphQuery = "";
+    state.run = normalizeRun({
+      manifest: parsed["run-manifest.json"],
+      profile: parsed["domain-profile.json"],
+      sourceMap: parsed["source-map.json"],
+      plan: parsed["acquisition-plan.json"],
+      activation: parsed["source-activation.json"],
+      graph: parsed["knowledge-graph.json"],
+      report: parsed["bootstrap-report.json"],
+      brief: parsed["daily-brief.json"],
+      contentInventory: parsed["content-inventory.json"],
+    });
+    renderAll();
+    showView("overview", false);
+    showToast(`已载入 ${state.run.manifest.domain}：${number(state.run.manifest.source_count)} 个来源，${number(state.run.manifest.captured_content_count)} 条全文。`);
+  }
+
   state.run = buildDemoRun();
   bindEvents();
   renderAll();
   showView(window.location.hash.slice(1) || "control", false);
+  const remoteRunId = new URLSearchParams(window.location.search).get("run");
+  if (remoteRunId && window.location.protocol !== "file:") {
+    loadRemoteRun(remoteRunId).catch((error) => showToast(`载入本地运行失败：${error instanceof Error ? error.message : String(error)}`));
+  }
 })();

@@ -47,16 +47,20 @@ jobs:
         env:
           FOLLOW_OPML_B64: ${{ secrets.FOLLOW_OPML_B64 }}
         run: |
-          mkdir -p feeds
+          private_opml_dir="$RUNNER_TEMP/private-intelligence"
+          private_opml="$private_opml_dir/follow.opml"
+          mkdir -p "$private_opml_dir"
           if [ -n "$FOLLOW_OPML_B64" ]; then
-            echo "$FOLLOW_OPML_B64" | base64 --decode > feeds/follow.opml
-            echo "Loaded feeds/follow.opml from FOLLOW_OPML_B64 secret"
+            printf '%s' "$FOLLOW_OPML_B64" | base64 --decode > "$private_opml"
+            test -s "$private_opml"
+            echo "FOLLOW_OPML_PATH=$private_opml" >> "$GITHUB_ENV"
+            echo "Loaded private OPML from runner temp"
           elif [ -f feeds/wisdom-tourism.opml ]; then
-            cp feeds/wisdom-tourism.opml feeds/follow.opml
-            echo "Loaded smart tourism OPML from feeds/wisdom-tourism.opml"
+            echo "FOLLOW_OPML_PATH=$GITHUB_WORKSPACE/feeds/wisdom-tourism.opml" >> "$GITHUB_ENV"
+            echo "Loaded smart tourism OPML"
           elif [ -f feeds/follow.example.opml ]; then
-            cp feeds/follow.example.opml feeds/follow.opml
-            echo "Loaded public demo OPML from feeds/follow.example.opml"
+            echo "FOLLOW_OPML_PATH=$GITHUB_WORKSPACE/feeds/follow.example.opml" >> "$GITHUB_ENV"
+            echo "Loaded public demo OPML"
           else
             echo "No OPML file available; RSS OPML is optional"
           fi
@@ -101,8 +105,8 @@ jobs:
           TIKHUB_FORCE_RUN: ${{ inputs.force_tikhub && '1' || '' }}
           RSS_MAX_FEEDS: ${{ vars.RSS_MAX_FEEDS || 40 }}
         run: |
-          if [ -f feeds/wisdom-tourism.opml ]; then
-            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml feeds/wisdom-tourism.opml --rss-max-feeds "${RSS_MAX_FEEDS:-40}" --translate-max-new 0 --source-profile smart-tourism
+          if [ -n "${FOLLOW_OPML_PATH:-}" ] && [ -f "$FOLLOW_OPML_PATH" ]; then
+            python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --rss-opml "$FOLLOW_OPML_PATH" --rss-max-feeds "${RSS_MAX_FEEDS:-40}" --translate-max-new 0 --source-profile smart-tourism
           else
             python scripts/update_news.py --output-dir data --window-hours 24 --archive-days 21 --translate-max-new 0 --source-profile smart-tourism
           fi
@@ -144,9 +148,21 @@ jobs:
             --exclude ".venv" \
             --exclude "__pycache__" \
             --exclude ".pytest_cache" \
+            --exclude ".private-intelligence" \
+            --exclude "feeds/follow.opml" \
+            --exclude "feeds/*.private.opml" \
+            --exclude "feeds/private*.opml" \
+            --exclude "data/email-digest.json" \
             --exclude "data/archive.json" \
             ./ _site/
+          find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -delete 2>/dev/null || true
+          find _site/data -maxdepth 1 -type f -name "email-digest.json" -delete 2>/dev/null || true
           find _site -type f -name ".DS_Store" -delete
+          if find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -print -quit 2>/dev/null | grep -q .; then
+            echo "::error::Private OPML must not be published"
+            exit 1
+          fi
+          test ! -e _site/data/email-digest.json
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3

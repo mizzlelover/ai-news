@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="私人情报所：从一个领域开始，建立知识体系、信源网络、全文归档与日报。" />
+    <link rel="icon" href="data:," />
+    <title>私人情报所 · 从一个领域开始</title>
+    <link rel="stylesheet" href="/local.css" />
+  </head>
+  <body>
+    <div class="site-shell">
+      <header class="site-header">
+        <a class="brand" href="/">
+          <span class="brand-mark" aria-hidden="true">PI</span>
+          <span><strong>私人情报所</strong><small>Private Intelligence Observatory</small></span>
+        </a>
+        <div class="header-links">
+          <span id="health-badge" class="health-badge is-checking">正在检查本地服务</span>
+          <a href="/demo/reading.html">先了解方法</a>
+        </div>
+      </header>
+
+      <main>
+        <section class="hero-section" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <p class="eyebrow">从一个领域开始 · 适合不知道从哪里入手的人</p>
+            <h1 id="page-title">给我一个领域，<br /><em>我帮你建起<br />一所情报所。</em></h1>
+            <p class="hero-lede">你不需要先知道该看谁、该信谁，也不需要先学会配置一堆 AI 工具。输入一个领域，私人情报所会先建立领域底图，再把信源、全文、证据、知识图谱和日报放到同一条可回看的链路里。</p>
+            <div class="hero-proof" aria-label="私人情报所的交付内容">
+              <span>知识底图</span><i aria-hidden="true">→</i><span>来源网络</span><i aria-hidden="true">→</i><span>全文证据</span><i aria-hidden="true">→</i><span>领域日报</span>
+            </div>
+          </div>
+          <div class="hero-note">
+            <span class="note-label">这不是新闻聚合器</span>
+            <p>日报只是最后一层。真正先做的，是替你回答：这个领域由什么组成，哪些来源值得长期观察，今天的变化为什么值得你读。</p>
+          </div>
+        </section>
+
+        <section class="builder-layout" aria-label="建立领域情报所">
+          <div class="builder-card primary-card">
+            <div class="card-heading">
+              <div><p class="eyebrow">第一步 · 领域入口</p><h2>你想进入哪个领域？</h2></div>
+              <span class="step-number">01</span>
+            </div>
+            <p class="card-intro">可以输入行业、产业、知识域或一个细分方向。例如：数字孪生、低空经济、城市更新、工业遗产。</p>
+            <form id="domain-form" class="domain-form">
+              <label for="domain-input">领域名称</label>
+              <div class="domain-input-row">
+                <input id="domain-input" name="domain" type="text" maxlength="120" autocomplete="off" placeholder="例如：数字孪生" required />
+                <button id="start-button" class="primary-button" type="submit">开始建立我的领域 <span aria-hidden="true">↗</span></button>
+              </div>
+              <p class="field-hint">建立过程会生成一份真实运行记录。没有完成就不会显示“已建立”，失败和暂时无法获取的来源也会被保留下来。</p>
+            </form>
+            <div id="setup-message" class="inline-message" hidden></div>
+          </div>
+
+          <aside class="builder-card setup-card" aria-labelledby="setup-title">
+            <div class="card-heading">
+              <div><p class="eyebrow">安装时可由 AI 助手完成 · 之后重复使用</p><h2 id="setup-title">连接你的 AI</h2></div>
+              <span class="step-number">02</span>
+            </div>
+            <p class="card-intro">如果安装助手已经替你完成连接，这里会直接就绪，你只需要输入领域。否则只需完成一次设置：可以是本机 Ollama，也可以是你正在使用的 OpenAI 兼容接口。</p>
+            <form id="settings-form" class="settings-form">
+              <label for="endpoint-input">AI 接口地址</label>
+              <input id="endpoint-input" type="url" placeholder="http://127.0.0.1:11434/v1" autocomplete="url" required />
+              <p class="field-hint">常见地址以 <code>/v1</code> 结尾；系统会调用兼容接口的 Chat Completions。</p>
+              <label for="model-input">模型名称</label>
+              <input id="model-input" type="text" placeholder="例如：qwen3:8b 或你的云模型名称" autocomplete="off" required />
+              <label for="api-key-input">API 密钥 <span class="optional">可选</span></label>
+              <input id="api-key-input" type="password" placeholder="本机模型通常留空" autocomplete="new-password" />
+              <button class="secondary-button" type="submit">保存连接设置</button>
+              <p id="settings-status" class="settings-status">密钥只保存在当前运行进程，不会写入项目文件。</p>
+            </form>
+          </aside>
+        </section>
+
+        <section id="progress-section" class="progress-section" hidden aria-live="polite" aria-labelledby="progress-title">
+          <div class="section-heading">
+            <div><p class="eyebrow">正在建立 · 请保留此页面</p><h2 id="progress-title">正在为你展开这个领域</h2></div>
+            <strong id="progress-percent">0%</strong>
+          </div>
+          <div class="progress-track"><span id="progress-bar"></span></div>
+          <p id="progress-message" class="progress-message">准备开始……</p>
+          <div id="progress-steps" class="progress-steps">
+            <div data-phase="seed"><span>01</span><strong>领域底图</strong><small>边界、术语、参与者</small></div>
+            <div data-phase="map"><span>02</span><strong>来源网络</strong><small>专家、机构、信源角色</small></div>
+            <div data-phase="capture"><span>03</span><strong>全文归档</strong><small>公开入口与内容资产</small></div>
+            <div data-phase="archive"><span>04</span><strong>证据映射</strong><small>知识图谱与覆盖审计</small></div>
+            <div data-phase="complete"><span>05</span><strong>日报交付</strong><small>推荐与下一步查证</small></div>
+          </div>
+          <div id="run-result" class="run-result" hidden></div>
+        </section>
+
+        <section class="runs-section" aria-labelledby="runs-title">
+          <div class="section-heading compact-heading">
+            <div><p class="eyebrow">我的领域</p><h2 id="runs-title">已经建立的情报所</h2></div>
+            <span id="runs-count" class="muted-label">正在读取</span>
+          </div>
+          <div id="runs-list" class="runs-list">
+            <p class="empty-state">还没有本地运行记录。输入一个领域，就从这里开始。</p>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <span>私人情报所 · 方法论优先，技术为交付服务</span>
+        <span><a href="/demo/workbench.html">查看工作台说明</a> · <a href="/demo/">查看静态演示</a></span>
+      </footer>
+    </div>
+    <script src="/local.js" defer></script>
+  </body>
+</html>

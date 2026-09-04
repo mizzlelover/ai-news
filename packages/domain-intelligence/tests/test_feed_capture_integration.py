@@ -8,6 +8,7 @@ from urllib.parse import urlparse
 
 import pytest
 
+from domain_intelligence.capture import transport
 from domain_intelligence.io import load_input
 from domain_intelligence.models import (
     AcquisitionMethod,
@@ -112,7 +113,9 @@ def _inputs(base_url: str) -> BootstrapInput:
 def test_feed_capture_discovers_items_fetches_full_text_and_preserves_seed_signal(
     fixture_server: str,
     tmp_path: Path,
+    monkeypatch: pytest.MonkeyPatch,
 ) -> None:
+    monkeypatch.setattr(transport, "_validate_public_url", lambda url: None)
     capture_root = tmp_path / "capture"
     batch = capture_public_sources(_inputs(fixture_server), capture_root)
 

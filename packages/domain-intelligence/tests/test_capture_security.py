@@ -1,0 +1,135 @@
+from __future__ import annotations
+
+import socket
+from collections.abc import Iterator
+from contextlib import AbstractAsyncContextManager
+from pathlib import Path
+
+import anyio
+import httpx2
+import pytest
+from pydantic import ValidationError
+
+from domain_intelligence.capture import transport
+from domain_intelligence.capture.archive import UnsafeSourceIdError, write_source_snapshots
+from domain_intelligence.models import (
+    AcquisitionCapability,
+    AcquisitionMethod,
+    SourceProfile,
+    SourceRole,
+)
+
+
+def _source(source_id: str) -> SourceProfile:
+    return SourceProfile(
+        id=source_id,
+        name="公开来源",
+        role=SourceRole.OFFICIAL_PRIMARY,
+        acquisition=AcquisitionCapability(
+            method=AcquisitionMethod.STATIC_HTML,
+            endpoint="https://example.com",
+        ),
+    )
+
+
+def test_source_profile_rejects_path_like_id() -> None:
+    with pytest.raises(ValidationError):
+        _source("../outside")
+
+
+def test_snapshot_writer_rejects_path_like_id_even_if_model_was_bypassed(
+    tmp_path: Path,
+) -> None:
+    capture_root = tmp_path / "capture"
+    capture_root.mkdir()
+    source = _source("safe-source").model_copy(update={"id": "../outside"})
+
+    with pytest.raises(UnsafeSourceIdError):
+        write_source_snapshots(capture_root, (source,), {})
+
+    assert not (tmp_path / "outside.json").exists()
+
+
+def test_public_url_rejects_loopback_literal() -> None:
+    with pytest.raises(transport.PublicUrlError) as error:
+        transport._validate_public_url("http://127.0.0.1:8765/private")
+
+    assert error.value.code == "PRIVATE_OR_RESERVED_HOST"
+
+
+def test_public_url_rejects_private_dns_result(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(
+        transport.socket,
+        "getaddrinfo",
+        lambda *args, **kwargs: [
+            (socket.AF_INET, socket.SOCK_STREAM, socket.IPPROTO_TCP, "", ("10.0.0.1", 443)),
+        ],
+    )
+
+    with pytest.raises(transport.PublicUrlError) as error:
+        transport._validate_public_url("https://internal.example/private")
+
+    assert error.value.code == "PRIVATE_OR_RESERVED_HOST"
+
+
+class _FakeStream(AbstractAsyncContextManager[httpx2.Response]):
+    def __init__(self, response: httpx2.Response) -> None:
+        self.response = response
+
+    async def __aenter__(self) -> httpx2.Response:
+        return self.response
+
+    async def __aexit__(self, *args: object) -> None:
+        return None
+
+
+class _FakeClient:
+    def __init__(self, responses: Iterator[httpx2.Response]) -> None:
+        self.responses = iter(responses)
+
+    def stream(self, *args: object, **kwargs: object) -> _FakeStream:
+        del args, kwargs
+        return _FakeStream(next(self.responses))
+
+
+def test_public_request_revalidates_redirect_destination(monkeypatch: pytest.MonkeyPatch) -> None:
+    def validate(url: str) -> None:
+        if "127.0.0.1" in url:
+            raise transport.PublicUrlError(transport.PRIVATE_OR_RESERVED_HOST, url)
+
+    monkeypatch.setattr(transport, "_validate_public_url", validate)
+    client = _FakeClient(
+        iter(
+            [
+                httpx2.Response(
+                    302,
+                    headers={"location": "http://127.0.0.1:8765/private"},
+                    content=b"",
+                ),
+            ],
+        ),
+    )
+
+    with pytest.raises(transport.PublicUrlError) as error:
+        anyio.run(transport._request_public, client, "https://public.example/start", 1024)
+
+    assert error.value.code == "PRIVATE_OR_RESERVED_HOST"
+
+
+def test_public_request_stops_reading_after_body_limit(monkeypatch: pytest.MonkeyPatch) -> None:
+    monkeypatch.setattr(transport, "_validate_public_url", lambda url: None)
+    client = _FakeClient(
+        iter(
+            [
+                httpx2.Response(
+                    200,
+                    headers={"content-type": "text/plain"},
+                    content=b"0123456789",
+                    request=httpx2.Request("GET", "https://public.example/start"),
+                ),
+            ],
+        ),
+    )
+
+    with pytest.raises(transport.ResponseTooLargeError):
+        anyio.run(transport._request_public, client, "https://public.example/start", 3)

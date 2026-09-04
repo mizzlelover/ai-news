@@ -19,6 +19,7 @@ dependencies = [
 
 [project.scripts]
 dib = "domain_intelligence.cli:app"
+private-intelligence = "domain_intelligence.local_app:main"
 
 [dependency-groups]
 dev = [
@@ -64,6 +65,30 @@ ignore = [
 "src/domain_intelligence/io_content.py" = ["D105"]
 "src/domain_intelligence/snapshot.py" = ["D107"]
 "src/domain_intelligence/cli.py" = ["FBT003", "PLR0913", "PLR0917"]
+"src/domain_intelligence/local_app.py" = [
+    "A002",
+    "C901",
+    "D102",
+    "D107",
+    "EM101",
+    "E501",
+    "PLR0911",
+    "PLR2004",
+    "RUF001",
+    "T201",
+    "TRY301",
+    "TRY003",
+]
+"src/domain_intelligence/local_builder.py" = [
+    "C901",
+    "E501",
+    "EM101",
+    "EM102",
+    "RUF001",
+    "SIM117",
+    "TRY003",
+    "TRY301",
+]
 
 [tool.ruff.lint.flake8-bugbear]
 extend-immutable-calls = ["typer.Argument", "typer.Option"]

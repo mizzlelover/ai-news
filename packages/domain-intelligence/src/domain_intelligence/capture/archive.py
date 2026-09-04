@@ -3,6 +3,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+from dataclasses import dataclass
 from datetime import datetime
 from pathlib import Path
 
@@ -13,6 +14,13 @@ from domain_intelligence.models import (
     ContentInventory,
     SourceProfile,
 )
+
+SAFE_SOURCE_ID_PATTERN = re.compile(r"^[A-Za-z0-9][A-Za-z0-9_.-]{0,127}$")
+
+
+@dataclass(frozen=True, slots=True)
+class UnsafeSourceIdError(ValueError):
+    source_id: str
 
 
 def content_id(target: CaptureTarget) -> str:
@@ -40,6 +48,19 @@ def raw_extension(content_type: str) -> str:
 
 def normalize_content_text(text: str) -> str:
     return text.rstrip("\r\n") + "\n"
+
+
+def source_snapshot_path(capture_root: Path, source_id: str) -> Path:
+    value = str(source_id)
+    if not SAFE_SOURCE_ID_PATTERN.fullmatch(value):
+        raise UnsafeSourceIdError(value)
+    root = capture_root.resolve()
+    candidate = (root / f"{value}.json").resolve()
+    try:
+        candidate.relative_to(root)
+    except ValueError as error:
+        raise UnsafeSourceIdError(value) from error
+    return candidate
 
 
 def failure(
@@ -101,7 +122,7 @@ def write_source_snapshots(
             if outcome.evidence is not None
         )
         payload = [record.model_dump(mode="json") for record in evidence]
-        (capture_root / f"{source.id}.json").write_text(
+        source_snapshot_path(capture_root, str(source.id)).write_text(
             json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )

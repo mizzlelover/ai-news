@@ -28,15 +28,15 @@ jobs:
       - name: Prepare static site
         run: |
           mkdir _site
-          rsync -a \
-            --exclude ".git" \
-            --exclude ".github" \
-            --exclude ".venv" \
-            --exclude "__pycache__" \
-            --exclude ".pytest_cache" \
-            --exclude "data/archive.json" \
-            ./ _site/
+          git archive --format=tar HEAD | tar -x -C _site
+          find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -delete 2>/dev/null || true
+          find _site/data -maxdepth 1 -type f -name "email-digest.json" -delete 2>/dev/null || true
           find _site -type f -name ".DS_Store" -delete
+          if find _site/feeds -type f \( -name "follow.opml" -o -name "*.private.opml" -o -name "private*.opml" \) -print -quit 2>/dev/null | grep -q .; then
+            echo "::error::Private OPML must not be published"
+            exit 1
+          fi
+          test ! -e _site/data/email-digest.json
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

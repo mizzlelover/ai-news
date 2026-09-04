@@ -29,6 +29,18 @@ cd packages/domain-intelligence
 uv run dib examples/data-elements.json --output-dir /tmp/domain-intelligence-preview
 ```
 
+## 面向使用者的本地网站
+
+如果使用者没有技术背景，不需要先准备 Bundle 或理解命令行参数。由 AI 或协作者在仓库根目录启动：
+
+```bash
+uv run --project packages/domain-intelligence private-intelligence
+```
+
+然后打开 <http://127.0.0.1:8787/>，在页面中填写一次 OpenAI 兼容 AI 接口和模型名称，输入一个领域即可开始建立本地运行。网站会把领域建模、来源网络、公开入口采集、全文归档、知识图谱、推荐回测和日报接成同一条任务链；完成后自动进入运行工作台。AI 接口密钥只保存在当前进程，不写入 Bundle 或仓库。
+
+本地网站是真实入口，不是静态演示表单。静态演示和工作台说明页只负责解释方法与回读方式；如果没有配置 AI，网站会明确要求先完成连接设置，不会伪造运行结果。
+
 ## 完整领域运行
 
 当 Skill 根据用户给出的领域建立好本地 typed seed Bundle 后，使用领域运行入口：
