@@ -1,7 +1,9 @@
-# X API Demo Configuration — Builder Account Profile
+# 【历史归档】X API Demo Configuration — Builder Account Profile
 
 Date: 2026-05-11
 Scope: a safe, low-cost demo profile for showing AI News Radar's optional X API source. Do not use this as a public default.
+
+> Historical reference only. This document belongs to the archived AI News Radar compatibility layer, not the current Private Intelligence Observatory public entry or active scheduler.
 
 ## Goal
 

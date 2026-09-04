@@ -1,58 +1,9 @@
 import assert from "node:assert/strict";
-import { readFileSync } from "node:fs";
+import { createRequire } from "node:module";
 import test from "node:test";
 
-const workbenchSource = readFileSync(new URL("../demo/workbench.js", import.meta.url), "utf8");
-const requiredRunJson = [
-  "run-manifest.json",
-  "domain-profile.json",
-  "source-map.json",
-  "acquisition-plan.json",
-  "source-activation.json",
-  "knowledge-graph.json",
-  "bootstrap-report.json",
-  "daily-brief.json",
-  "content-inventory.json",
-];
-
-function extractFunction(source, name) {
-  const start = source.indexOf(`function ${name}(`);
-  if (start < 0) throw new Error(`function ${name} not found`);
-  const opening = source.indexOf("{", start);
-  let depth = 0;
-  let quote = "";
-  let escaped = false;
-  for (let index = opening; index < source.length; index += 1) {
-    const character = source[index];
-    if (quote) {
-      if (escaped) escaped = false;
-      else if (character === "\\") escaped = true;
-      else if (character === quote) quote = "";
-      continue;
-    }
-    if (["'", '"', "`"].includes(character)) {
-      quote = character;
-      continue;
-    }
-    if (character === "{") depth += 1;
-    if (character === "}") {
-      depth -= 1;
-      if (depth === 0) return source.slice(start, index + 1);
-    }
-  }
-  throw new Error(`function ${name} is incomplete`);
-}
-
-const validateImportedRun = new Function(
-  "REQUIRED_RUN_JSON",
-  [
-    extractFunction(workbenchSource, "normalizePath"),
-    extractFunction(workbenchSource, "hasUnsafePath"),
-    extractFunction(workbenchSource, "isRecord"),
-    extractFunction(workbenchSource, "validateImportedRun"),
-    "return validateImportedRun;",
-  ].join("\n"),
-)(requiredRunJson);
+const require = createRequire(import.meta.url);
+const { REQUIRED_RUN_JSON: requiredRunJson, validateImportedRun } = require("../demo/workbench-validation.js");
 
 function validRun() {
   const source = { id: "source-1", name: "Source 1", role: "other" };

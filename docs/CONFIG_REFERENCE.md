@@ -2,6 +2,8 @@
 
 > 历史说明：本文件只用于理解保留的 AI News Radar 采集参考。旧的 `.github/workflows/update-news.yml` 已归档为 `docs/archive/update-news.yml.disabled`，不再参与当前私人情报所的 GitHub Pages 发布或定时运行。
 
+> 当前分支不会按本文启动 AI News Radar，也不应据此配置 GitHub Actions 定时任务、Secrets 或 Variables。本文中的“当前值”“运行频率”和“GitHub 配置”都是旧工程的历史快照；私人情报所当前入口是“输入领域 → 建立领域知识域 → 回读运行产物”，请从 [运行工作台](WORKBENCH.md) 开始。
+
 > 适用文件:`scripts/update_news.py`、`docs/archive/update-news.yml.disabled`
 >
 > **核心原则:** 除了 **API 密钥**(必须放 GitHub Secrets),几乎所有可调参数都已写进代码常量。改一行常量即可,**不用再去 GitHub 配变量**。
@@ -10,7 +12,7 @@
 
 ---
 
-## 1. 一分钟总览(给老板看)
+## 1. 一分钟总览(历史快照，不代表当前运行)
 
 系统每 30 分钟自动抓取过去一段时间的 AI 资讯,来源包括官方源、AI 媒体、RSS 订阅,以及三个**付费社交源**(X、抖音、小红书)。当前生效的关键设置:
 
@@ -124,7 +126,9 @@ SocialData 同时跑两路:① 中英关键词搜索发现新声音;② 一个�
 
 ---
 
-## 9. GitHub 上还需要配什么(只剩密钥 + 急停开关)
+## 9. 旧版 GitHub Actions 配置（当前分支不启用）
+
+以下内容仅供迁移旧分支或阅读历史配置时参考。当前仓库的旧 `update-news.yml` 已移出 `.github/workflows`，不会被 GitHub Actions 发现或执行；不要按本节给当前分支新增定时任务、Secrets 或 Variables。
 
 代码里搞不定、**必须**留在 GitHub 的,只有这些:
 
@@ -138,7 +142,7 @@ SocialData 同时跑两路:① 中英关键词搜索发现新声音;② 一个�
 
 ---
 
-## 10. Top 3 / 伯乐精选 是怎么挑的
+## 10. 旧版 Top 3 / 伯乐精选规则（历史参考）
 
 「Top Signals(今日 Top 3)」**不是**从该栏目的全部候选里选,而是从一个全站统一、**最多 20 条**的精选「故事池」(`data/daily-brief.json`)里,再筛到当前栏目。这就是为什么自媒体/研究栏目有时只显示 1 条——它们大多是单来源、低分,进不了这 20 条。
 
@@ -154,7 +158,7 @@ SocialData 同时跑两路:① 中英关键词搜索发现新声音;② 一个�
 
 ---
 
-## 11. 「我想改 X」速查表
+## 11. 旧版参数速查表（历史参考）
 
 | 我想… | 改这里 |
 |---|---|
