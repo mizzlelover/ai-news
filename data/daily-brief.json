@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-09-04T03:02:07.852706Z",
+  "generated_at": "2026-09-04T08:08:24.526988Z",
   "window_hours": 24,
-  "total_items": 19,
+  "total_items": 12,
   "items": [
     {
       "story_id": "story_77a49541a5ce",
@@ -42,9 +42,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.626,
-      "importance": 0.626,
-      "importance_score": 0.626,
+      "score": 0.6138,
+      "importance": 0.6138,
+      "importance_score": 0.6138,
       "ai_label": "tourism_tech",
       "ai_score": 0.83,
       "ai_signals": [
@@ -58,7 +58,7 @@
         "editorial": 0.5976,
         "source_tier": 0.5,
         "ai_relevance": 0.83,
-        "recency": 0.9482,
+        "recency": 0.8808,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -79,23 +79,23 @@
       }
     },
     {
-      "story_id": "story_094e79a271af",
-      "title": "吉林延边州：文旅提质 流量生“金”",
-      "url": "https://www.pinchain.com/article/350637",
-      "primary_url": "https://www.pinchain.com/article/350637",
+      "story_id": "story_0046904f0699",
+      "title": "“三江源”风味赴京：首钢园开启京玉文化周",
+      "url": "https://www.pinchain.com/article/350646",
+      "primary_url": "https://www.pinchain.com/article/350646",
       "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
-          "title": "吉林延边州：文旅提质 流量生“金”",
-          "url": "https://www.pinchain.com/article/350637",
+          "id": "f91d656b98df117155b3fe475d200ef8c3cdf633",
+          "title": "“三江源”风味赴京：首钢园开启京玉文化周",
+          "url": "https://www.pinchain.com/article/350646",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T09:05:51Z",
+          "published_at": "2026-09-04T05:01:36Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "source_count": 1,
@@ -104,52 +104,124 @@
       ],
       "items": [
         {
-          "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
-          "title": "吉林延边州：文旅提质 流量生“金”",
-          "url": "https://www.pinchain.com/article/350637",
+          "id": "f91d656b98df117155b3fe475d200ef8c3cdf633",
+          "title": "“三江源”风味赴京：首钢园开启京玉文化周",
+          "url": "https://www.pinchain.com/article/350646",
           "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T09:05:51Z",
+          "published_at": "2026-09-04T05:01:36Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.78
+          "ai_score": 0.75
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5734,
-      "importance": 0.5734,
-      "importance_score": 0.5734,
+      "score": 0.5941,
+      "importance": 0.5941,
+      "importance_score": 0.5941,
       "ai_label": "tourism_tech",
-      "ai_score": 0.78,
+      "ai_score": 0.75,
       "ai_signals": [
-        "文旅",
         "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5616,
+        "editorial": 0.54,
         "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7718,
+        "ai_relevance": 0.75,
+        "recency": 0.956,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
         "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-03T09:05:51Z",
-      "latest_at": "2026-09-03T09:05:51Z",
+      "earliest_at": "2026-09-04T05:01:36Z",
+      "latest_at": "2026-09-04T05:01:36Z",
       "primary_item": {
-        "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
-        "title": "吉林延边州：文旅提质 流量生“金”",
-        "url": "https://www.pinchain.com/article/350637",
+        "id": "f91d656b98df117155b3fe475d200ef8c3cdf633",
+        "title": "“三江源”风味赴京：首钢园开启京玉文化周",
+        "url": "https://www.pinchain.com/article/350646",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.78
+        "ai_score": 0.75
+      }
+    },
+    {
+      "story_id": "story_655651883c56",
+      "title": "古巴出台政策进一步促进外资、外贸和旅游业发展",
+      "url": "https://www.jiemian.com/article/15056334.html",
+      "primary_url": "https://www.jiemian.com/article/15056334.html",
+      "source": "界面新闻",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "3f71b7b0aec4358b596ec0a62bc2adb447b9568e",
+          "title": "古巴出台政策进一步促进外资、外贸和旅游业发展",
+          "url": "https://www.jiemian.com/article/15056334.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-04T07:45:09Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.69
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "界面新闻"
+      ],
+      "items": [
+        {
+          "id": "3f71b7b0aec4358b596ec0a62bc2adb447b9568e",
+          "title": "古巴出台政策进一步促进外资、外贸和旅游业发展",
+          "url": "https://www.jiemian.com/article/15056334.html",
+          "source": "界面新闻",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-04T07:45:09Z",
+          "ai_label": "tourism_policy",
+          "ai_score": 0.69
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.576,
+      "importance": 0.576,
+      "importance_score": 0.576,
+      "ai_label": "tourism_policy",
+      "ai_score": 0.69,
+      "ai_signals": [
+        "旅游",
+        "政策"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.4968,
+        "source_tier": 0.5,
+        "ai_relevance": 0.69,
+        "recency": 0.9944,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-04T07:45:09Z",
+      "latest_at": "2026-09-04T07:45:09Z",
+      "primary_item": {
+        "id": "3f71b7b0aec4358b596ec0a62bc2adb447b9568e",
+        "title": "古巴出台政策进一步促进外资、外贸和旅游业发展",
+        "url": "https://www.jiemian.com/article/15056334.html",
+        "source": "界面新闻",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_policy",
+        "ai_score": 0.69
       }
     },
     {
@@ -191,9 +263,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5701,
-      "importance": 0.5701,
-      "importance_score": 0.5701,
+      "score": 0.5596,
+      "importance": 0.5596,
+      "importance_score": 0.5596,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -205,7 +277,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.8228,
+        "recency": 0.7644,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -264,9 +336,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5652,
-      "importance": 0.5652,
-      "importance_score": 0.5652,
+      "score": 0.5541,
+      "importance": 0.5541,
+      "importance_score": 0.5541,
       "ai_label": "hospitality_ops",
       "ai_score": 0.72,
       "ai_signals": [
@@ -277,7 +349,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.8648,
+        "recency": 0.8033,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -298,76 +370,77 @@
       }
     },
     {
-      "story_id": "story_543f25be6bce",
-      "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-      "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-      "primary_url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-      "source": "Skift",
+      "story_id": "story_094e79a271af",
+      "title": "吉林延边州：文旅提质 流量生“金”",
+      "url": "https://www.pinchain.com/article/350637",
+      "primary_url": "https://www.pinchain.com/article/350637",
+      "source": "品橙旅游",
       "source_name": "OPML RSS",
       "sources": [
         {
-          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-          "source": "Skift",
+          "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
+          "title": "吉林延边州：文旅提质 流量生“金”",
+          "url": "https://www.pinchain.com/article/350637",
+          "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:52:14Z",
+          "published_at": "2026-09-03T09:05:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "source_count": 1,
       "source_names": [
-        "Skift"
+        "品橙旅游"
       ],
       "items": [
         {
-          "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-          "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-          "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-          "source": "Skift",
+          "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
+          "title": "吉林延边州：文旅提质 流量生“金”",
+          "url": "https://www.pinchain.com/article/350637",
+          "source": "品橙旅游",
           "source_name": "OPML RSS",
           "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:52:14Z",
+          "published_at": "2026-09-03T09:05:51Z",
           "ai_label": "tourism_tech",
-          "ai_score": 0.81
+          "ai_score": 0.78
         }
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5777,
-      "importance": 0.5777,
-      "importance_score": 0.5777,
+      "score": 0.5635,
+      "importance": 0.5635,
+      "importance_score": 0.5635,
       "ai_label": "tourism_tech",
-      "ai_score": 0.81,
+      "ai_score": 0.78,
       "ai_signals": [
-        "travel",
+        "文旅",
+        "旅游",
         "ai"
       ],
       "importance_label": "值得关注",
       "importance_breakdown": {
-        "editorial": 0.5832,
+        "editorial": 0.5616,
         "source_tier": 0.5,
-        "ai_relevance": 0.81,
-        "recency": 0.7261,
+        "ai_relevance": 0.78,
+        "recency": 0.717,
         "story_heat": 0.0
       },
       "category": "watch",
       "reasons": [
-        "high_ai_relevance"
+        "recent_ai_signal"
       ],
-      "earliest_at": "2026-09-03T04:52:14Z",
-      "latest_at": "2026-09-03T04:52:14Z",
+      "earliest_at": "2026-09-03T09:05:51Z",
+      "latest_at": "2026-09-03T09:05:51Z",
       "primary_item": {
-        "id": "0344fa0262d57b68107fba1642070f53114f9d04",
-        "title": "The Race for Chinese Travel Demand Is Now a Fight to Get on the AI Shortlist",
-        "url": "https://skift.com/2026/09/03/the-race-for-chinese-travel-demand-is-now-a-fight-to-get-on-the-ai-shortlist",
-        "source": "Skift",
+        "id": "1efe93abb5e9f442b53be5279d255a7ba187c559",
+        "title": "吉林延边州：文旅提质 流量生“金”",
+        "url": "https://www.pinchain.com/article/350637",
+        "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
-        "ai_score": 0.81
+        "ai_score": 0.78
       }
     },
     {
@@ -409,9 +482,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5729,
-      "importance": 0.5729,
-      "importance_score": 0.5729,
+      "score": 0.563,
+      "importance": 0.563,
+      "importance_score": 0.563,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -424,7 +497,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7688,
+        "recency": 0.7142,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -437,80 +510,6 @@
         "id": "1a332b4a2d3a661b531514641d9a816c0a49041d",
         "title": "同程旅行：避开暑期人潮躲开国庆溢价",
         "url": "https://www.pinchain.com/article/350638",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_49437735c906",
-      "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-      "url": "https://www.pinchain.com/article/350639",
-      "primary_url": "https://www.pinchain.com/article/350639",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "87547d3183938739466745051baf034c86cc4050",
-          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-          "url": "https://www.pinchain.com/article/350639",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T08:45:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "87547d3183938739466745051baf034c86cc4050",
-          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-          "url": "https://www.pinchain.com/article/350639",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T08:45:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5727,
-      "importance": 0.5727,
-      "importance_score": 0.5727,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.768,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T08:45:06Z",
-      "latest_at": "2026-09-03T08:45:06Z",
-      "primary_item": {
-        "id": "87547d3183938739466745051baf034c86cc4050",
-        "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
-        "url": "https://www.pinchain.com/article/350639",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -557,9 +556,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5493,
+      "importance": 0.5493,
+      "importance_score": 0.5493,
       "ai_label": "tourism_tech",
       "ai_score": 0.72,
       "ai_signals": [
@@ -570,7 +569,7 @@
         "editorial": 0.5184,
         "source_tier": 0.5,
         "ai_relevance": 0.72,
-        "recency": 0.836,
+        "recency": 0.7766,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -588,6 +587,80 @@
         "site_id": "opmlrss",
         "ai_label": "tourism_tech",
         "ai_score": 0.72
+      }
+    },
+    {
+      "story_id": "story_49437735c906",
+      "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+      "url": "https://www.pinchain.com/article/350639",
+      "primary_url": "https://www.pinchain.com/article/350639",
+      "source": "品橙旅游",
+      "source_name": "OPML RSS",
+      "sources": [
+        {
+          "id": "87547d3183938739466745051baf034c86cc4050",
+          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+          "url": "https://www.pinchain.com/article/350639",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T08:45:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "source_count": 1,
+      "source_names": [
+        "品橙旅游"
+      ],
+      "items": [
+        {
+          "id": "87547d3183938739466745051baf034c86cc4050",
+          "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+          "url": "https://www.pinchain.com/article/350639",
+          "source": "品橙旅游",
+          "source_name": "OPML RSS",
+          "site_id": "opmlrss",
+          "published_at": "2026-09-03T08:45:06Z",
+          "ai_label": "tourism_tech",
+          "ai_score": 0.78
+        }
+      ],
+      "item_count": 1,
+      "duplicate_count": 1,
+      "score": 0.5629,
+      "importance": 0.5629,
+      "importance_score": 0.5629,
+      "ai_label": "tourism_tech",
+      "ai_score": 0.78,
+      "ai_signals": [
+        "旅游",
+        "邮轮",
+        "ai"
+      ],
+      "importance_label": "值得关注",
+      "importance_breakdown": {
+        "editorial": 0.5616,
+        "source_tier": 0.5,
+        "ai_relevance": 0.78,
+        "recency": 0.7134,
+        "story_heat": 0.0
+      },
+      "category": "watch",
+      "reasons": [
+        "recent_ai_signal"
+      ],
+      "earliest_at": "2026-09-03T08:45:06Z",
+      "latest_at": "2026-09-03T08:45:06Z",
+      "primary_item": {
+        "id": "87547d3183938739466745051baf034c86cc4050",
+        "title": "飞猪会员体系再扩容，爱达邮轮正式接入",
+        "url": "https://www.pinchain.com/article/350639",
+        "source": "品橙旅游",
+        "source_name": "OPML RSS",
+        "site_id": "opmlrss",
+        "ai_label": "tourism_tech",
+        "ai_score": 0.78
       }
     },
     {
@@ -629,9 +702,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5724,
-      "importance": 0.5724,
-      "importance_score": 0.5724,
+      "score": 0.5626,
+      "importance": 0.5626,
+      "importance_score": 0.5626,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -644,7 +717,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7662,
+        "recency": 0.7118,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -703,9 +776,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.5718,
-      "importance": 0.5718,
-      "importance_score": 0.5718,
+      "score": 0.562,
+      "importance": 0.562,
+      "importance_score": 0.562,
       "ai_label": "tourism_tech",
       "ai_score": 0.78,
       "ai_signals": [
@@ -718,7 +791,7 @@
         "editorial": 0.5616,
         "source_tier": 0.5,
         "ai_relevance": 0.78,
-        "recency": 0.7629,
+        "recency": 0.7086,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -731,154 +804,6 @@
         "id": "b29493220dfe12d6696daeff79305ca87099732e",
         "title": "海南航空2026年暑运运送旅客854.6万人次",
         "url": "https://www.pinchain.com/article/350622",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_581c0434663b",
-      "title": "超万吨级邮轮“梦幻一号”落地香港 打造新地标",
-      "url": "https://www.pinchain.com/article/350611",
-      "primary_url": "https://www.pinchain.com/article/350611",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "c1378921ef94a04b55b956fe32efee8b05c3ee9b",
-          "title": "超万吨级邮轮“梦幻一号”落地香港 打造新地标",
-          "url": "https://www.pinchain.com/article/350611",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:06:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "c1378921ef94a04b55b956fe32efee8b05c3ee9b",
-          "title": "超万吨级邮轮“梦幻一号”落地香港 打造新地标",
-          "url": "https://www.pinchain.com/article/350611",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:06:16Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5656,
-      "importance": 0.5656,
-      "importance_score": 0.5656,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7286,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T05:06:16Z",
-      "latest_at": "2026-09-03T05:06:16Z",
-      "primary_item": {
-        "id": "c1378921ef94a04b55b956fe32efee8b05c3ee9b",
-        "title": "超万吨级邮轮“梦幻一号”落地香港 打造新地标",
-        "url": "https://www.pinchain.com/article/350611",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.78
-      }
-    },
-    {
-      "story_id": "story_c5444bb44cc2",
-      "title": "爱达邮轮与飞猪会员体系实现互通",
-      "url": "https://www.pinchain.com/article/350608",
-      "primary_url": "https://www.pinchain.com/article/350608",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "585aabfb05f9fc9c23df54aa2a6630ade4d09ab5",
-          "title": "爱达邮轮与飞猪会员体系实现互通",
-          "url": "https://www.pinchain.com/article/350608",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:48:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "585aabfb05f9fc9c23df54aa2a6630ade4d09ab5",
-          "title": "爱达邮轮与飞猪会员体系实现互通",
-          "url": "https://www.pinchain.com/article/350608",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T04:48:29Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.78
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5651,
-      "importance": 0.5651,
-      "importance_score": 0.5651,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.78,
-      "ai_signals": [
-        "旅游",
-        "邮轮",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.5616,
-        "source_tier": 0.5,
-        "ai_relevance": 0.78,
-        "recency": 0.7254,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T04:48:29Z",
-      "latest_at": "2026-09-03T04:48:29Z",
-      "primary_item": {
-        "id": "585aabfb05f9fc9c23df54aa2a6630ade4d09ab5",
-        "title": "爱达邮轮与飞猪会员体系实现互通",
-        "url": "https://www.pinchain.com/article/350608",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
@@ -925,9 +850,9 @@
       ],
       "item_count": 1,
       "duplicate_count": 1,
-      "score": 0.56,
-      "importance": 0.56,
-      "importance_score": 0.56,
+      "score": 0.5502,
+      "importance": 0.5502,
+      "importance_score": 0.5502,
       "ai_label": "tourism_tech",
       "ai_score": 0.75,
       "ai_signals": [
@@ -939,7 +864,7 @@
         "editorial": 0.54,
         "source_tier": 0.5,
         "ai_relevance": 0.75,
-        "recency": 0.7668,
+        "recency": 0.7123,
         "story_heat": 0.0
       },
       "category": "watch",
@@ -952,444 +877,6 @@
         "id": "1564460b7e9cbe39095c53e0cb86092e577614d7",
         "title": "贵州民航集团暑运交出亮眼答卷",
         "url": "https://www.pinchain.com/article/350625",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_236e50e4af0f",
-      "title": "北京：打造京北文商旅地标“逛完故宫逛商圈”",
-      "url": "https://www.pinchain.com/article/350621",
-      "primary_url": "https://www.pinchain.com/article/350621",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "21499f17a98ed847d3fb9d3fc9334c3b99ffbe42",
-          "title": "北京：打造京北文商旅地标“逛完故宫逛商圈”",
-          "url": "https://www.pinchain.com/article/350621",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T07:39:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "21499f17a98ed847d3fb9d3fc9334c3b99ffbe42",
-          "title": "北京：打造京北文商旅地标“逛完故宫逛商圈”",
-          "url": "https://www.pinchain.com/article/350621",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T07:39:06Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5581,
-      "importance": 0.5581,
-      "importance_score": 0.5581,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7558,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T07:39:06Z",
-      "latest_at": "2026-09-03T07:39:06Z",
-      "primary_item": {
-        "id": "21499f17a98ed847d3fb9d3fc9334c3b99ffbe42",
-        "title": "北京：打造京北文商旅地标“逛完故宫逛商圈”",
-        "url": "https://www.pinchain.com/article/350621",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_72173185478e",
-      "title": "华住暑期日均接待超126万人次",
-      "url": "https://www.pinchain.com/article/350619",
-      "primary_url": "https://www.pinchain.com/article/350619",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "953ba16fada2094f58f79101687b5808b3326176",
-          "title": "华住暑期日均接待超126万人次",
-          "url": "https://www.pinchain.com/article/350619",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T07:08:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "953ba16fada2094f58f79101687b5808b3326176",
-          "title": "华住暑期日均接待超126万人次",
-          "url": "https://www.pinchain.com/article/350619",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T07:08:05Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.557,
-      "importance": 0.557,
-      "importance_score": 0.557,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7502,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T07:08:05Z",
-      "latest_at": "2026-09-03T07:08:05Z",
-      "primary_item": {
-        "id": "953ba16fada2094f58f79101687b5808b3326176",
-        "title": "华住暑期日均接待超126万人次",
-        "url": "https://www.pinchain.com/article/350619",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_888c2c7ccbe8",
-      "title": "北京动物园：对大熊猫新馆室内展厅门改造升级",
-      "url": "https://www.pinchain.com/article/350613",
-      "primary_url": "https://www.pinchain.com/article/350613",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "933535ca588dc48a5118e1bf3a70c2222110c494",
-          "title": "北京动物园：对大熊猫新馆室内展厅门改造升级",
-          "url": "https://www.pinchain.com/article/350613",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:37:31Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "933535ca588dc48a5118e1bf3a70c2222110c494",
-          "title": "北京动物园：对大熊猫新馆室内展厅门改造升级",
-          "url": "https://www.pinchain.com/article/350613",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:37:31Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5541,
-      "importance": 0.5541,
-      "importance_score": 0.5541,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7341,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T05:37:31Z",
-      "latest_at": "2026-09-03T05:37:31Z",
-      "primary_item": {
-        "id": "933535ca588dc48a5118e1bf3a70c2222110c494",
-        "title": "北京动物园：对大熊猫新馆室内展厅门改造升级",
-        "url": "https://www.pinchain.com/article/350613",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_960be8717623",
-      "title": "考古文物移交时间表 国家文物局发布试行办法",
-      "url": "https://www.pinchain.com/article/350612",
-      "primary_url": "https://www.pinchain.com/article/350612",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "d194ccaab5b75bb534ee1fd53d6fafb5078d34cd",
-          "title": "考古文物移交时间表 国家文物局发布试行办法",
-          "url": "https://www.pinchain.com/article/350612",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:08:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "d194ccaab5b75bb534ee1fd53d6fafb5078d34cd",
-          "title": "考古文物移交时间表 国家文物局发布试行办法",
-          "url": "https://www.pinchain.com/article/350612",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:08:19Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5532,
-      "importance": 0.5532,
-      "importance_score": 0.5532,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7289,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T05:08:19Z",
-      "latest_at": "2026-09-03T05:08:19Z",
-      "primary_item": {
-        "id": "d194ccaab5b75bb534ee1fd53d6fafb5078d34cd",
-        "title": "考古文物移交时间表 国家文物局发布试行办法",
-        "url": "https://www.pinchain.com/article/350612",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_906a2ebebb68",
-      "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
-      "url": "https://www.pinchain.com/article/350610",
-      "primary_url": "https://www.pinchain.com/article/350610",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
-          "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
-          "url": "https://www.pinchain.com/article/350610",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:04:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
-          "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
-          "url": "https://www.pinchain.com/article/350610",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:04:10Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.5531,
-      "importance": 0.5531,
-      "importance_score": 0.5531,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7282,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T05:04:10Z",
-      "latest_at": "2026-09-03T05:04:10Z",
-      "primary_item": {
-        "id": "0bd312002a9c4a27163385ed86cfa7154a6c0590",
-        "title": "工厂游要如何打破“走廊+展板+讲解员”模式？",
-        "url": "https://www.pinchain.com/article/350610",
-        "source": "品橙旅游",
-        "source_name": "OPML RSS",
-        "site_id": "opmlrss",
-        "ai_label": "tourism_tech",
-        "ai_score": 0.75
-      }
-    },
-    {
-      "story_id": "story_a82f0d4e9a41",
-      "title": "七部门：促优质文化用品消费 拓体育消费场景",
-      "url": "https://www.pinchain.com/article/350614",
-      "primary_url": "https://www.pinchain.com/article/350614",
-      "source": "品橙旅游",
-      "source_name": "OPML RSS",
-      "sources": [
-        {
-          "id": "673447e30b79a978408a4dfa0396480e90270bb1",
-          "title": "七部门：促优质文化用品消费 拓体育消费场景",
-          "url": "https://www.pinchain.com/article/350614",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:01:52Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "source_count": 1,
-      "source_names": [
-        "品橙旅游"
-      ],
-      "items": [
-        {
-          "id": "673447e30b79a978408a4dfa0396480e90270bb1",
-          "title": "七部门：促优质文化用品消费 拓体育消费场景",
-          "url": "https://www.pinchain.com/article/350614",
-          "source": "品橙旅游",
-          "source_name": "OPML RSS",
-          "site_id": "opmlrss",
-          "published_at": "2026-09-03T05:01:52Z",
-          "ai_label": "tourism_tech",
-          "ai_score": 0.75
-        }
-      ],
-      "item_count": 1,
-      "duplicate_count": 1,
-      "score": 0.553,
-      "importance": 0.553,
-      "importance_score": 0.553,
-      "ai_label": "tourism_tech",
-      "ai_score": 0.75,
-      "ai_signals": [
-        "旅游",
-        "ai"
-      ],
-      "importance_label": "值得关注",
-      "importance_breakdown": {
-        "editorial": 0.54,
-        "source_tier": 0.5,
-        "ai_relevance": 0.75,
-        "recency": 0.7278,
-        "story_heat": 0.0
-      },
-      "category": "watch",
-      "reasons": [
-        "recent_ai_signal"
-      ],
-      "earliest_at": "2026-09-03T05:01:52Z",
-      "latest_at": "2026-09-03T05:01:52Z",
-      "primary_item": {
-        "id": "673447e30b79a978408a4dfa0396480e90270bb1",
-        "title": "七部门：促优质文化用品消费 拓体育消费场景",
-        "url": "https://www.pinchain.com/article/350614",
         "source": "品橙旅游",
         "source_name": "OPML RSS",
         "site_id": "opmlrss",
