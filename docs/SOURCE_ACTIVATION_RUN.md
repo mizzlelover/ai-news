@@ -150,6 +150,8 @@ source-map.json
 
 `--fetch` 运行会把输入 Bundle 中的 seed signals 当作待验证的公开页面线索；只有成功回读并建立全文引用的信号才会进入本次日报，避免把预先写入 Bundle 的标题误报成实时采集结果。
 
+`run-manifest.json` 的 `signal_count` 统计最终报告中的全部日报信号，包括 Bundle 中保留的信号与本次激活新增的信号；`source-activation.json` 的 `signals` 只统计本次激活从证据生成的信号，两者不要求相等。
+
 ## 与候选来源网络的关系
 
 候选雷达规模不是每次日报的条数。每次来源激活运行都应同时看四个层次：

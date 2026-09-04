@@ -1463,7 +1463,7 @@
     checkCount("evidence_count", evidence.length, "证据数量");
     checkCount("content_count", contents.length, "内容记录数量");
     checkCount("captured_content_count", contents.filter((item) => item?.status === "captured").length, "全文数量");
-    checkCount("signal_count", activationSignals.length, "信号数量");
+    checkCount("signal_count", reportSignals.length, "日报信号数量");
     checkCount("story_count", stories.length, "日报故事数量");
     if (Number.isInteger(manifest.ready_source_count) && Number.isInteger(manifest.blocked_source_count)
       && manifest.ready_source_count + manifest.blocked_source_count !== sources.length) {
