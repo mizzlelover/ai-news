@@ -42,6 +42,16 @@ def test_domain_run_rejects_a_seed_for_another_domain() -> None:
         build_domain_run("different-domain", inputs)
 
 
+def test_domain_runs_receive_distinct_manifest_ids() -> None:
+    fixture = Path(__file__).parents[1] / "examples" / "data-elements.json"
+    inputs = load_input(fixture)
+
+    first = build_domain_run("data-elements", inputs)
+    second = build_domain_run("data-elements", inputs)
+
+    assert first.manifest.run_id != second.manifest.run_id
+
+
 def test_snapshot_collection_runs_every_configured_source(tmp_path: Path) -> None:
     fixture = Path(__file__).parents[1] / "examples" / "data-elements.json"
     inputs = load_input(fixture)

@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import hashlib
+import secrets
 from dataclasses import dataclass
 
 from domain_intelligence.acquisition import build_acquisition_plan
@@ -50,9 +50,7 @@ def build_domain_run(
     contents = acquisition.contents if acquisition is not None else ()
     content_inventory = ContentInventory(generated_at=inputs.as_of, items=contents)
     captured_content_count = sum(item.status is ContentCaptureStatus.CAPTURED for item in contents)
-    run_id = hashlib.sha256(
-        f"{requested_domain}|{inputs.as_of.isoformat()}".encode(),
-    ).hexdigest()[:16]
+    run_id = secrets.token_hex(8)
     manifest = DomainRunManifest(
         run_id=run_id,
         domain=requested_domain,
