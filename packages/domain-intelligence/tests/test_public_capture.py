@@ -152,6 +152,11 @@ def test_public_capture_writes_content_and_evidence_snapshots(
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     monkeypatch.setattr(transport, "_validate_public_url", lambda url: None)
+    monkeypatch.setattr(
+        transport,
+        "_resolve_public_addresses",
+        lambda hostname, port, url: ("127.0.0.1",),
+    )
     inputs = _local_inputs(fixture_server)
     capture_root = tmp_path / "capture"
 

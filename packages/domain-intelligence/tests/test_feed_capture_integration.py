@@ -116,6 +116,11 @@ def test_feed_capture_discovers_items_fetches_full_text_and_preserves_seed_signa
     monkeypatch: pytest.MonkeyPatch,
 ) -> None:
     monkeypatch.setattr(transport, "_validate_public_url", lambda url: None)
+    monkeypatch.setattr(
+        transport,
+        "_resolve_public_addresses",
+        lambda hostname, port, url: ("127.0.0.1",),
+    )
     capture_root = tmp_path / "capture"
     batch = capture_public_sources(_inputs(fixture_server), capture_root)
 

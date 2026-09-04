@@ -60,7 +60,11 @@
 
   const ROLE_LABELS = {
     academic: "学术研究",
+    broad_coverage: "广覆盖媒体",
     official_primary: "官方一手",
+    expert_interpreter: "专家解读",
+    frontier_sensor: "前沿观察",
+    other: "其他",
     platform_provider: "平台与厂商",
     professional_media: "专业媒体",
     standards_body: "标准组织",
